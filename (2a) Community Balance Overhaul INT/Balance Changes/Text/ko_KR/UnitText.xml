@@ -3,102 +3,102 @@
 <GameData>
 	<Language_ko_KR>
 		<Row Tag="TXT_KEY_PROMOTION_HOVER_UNIT">
-			<Text>Hovering Unit Embarked</Text>
+			<Text>호버링 유닛 착수</Text> <Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_HOVER_UNIT_HELP">
 			<Text>Can embark onto [COLOR_POSITIVE_TEXT]Water[ENDCOLOR] tiles.[NEWLINE]Embarked Units can enter [COLOR_POSITIVE_TEXT]Ocean[ENDCOLOR] tiles and receive +100% [ICON_STRENGTH] Combat Strength when defending.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_MARSH_WALKER">
-			<Text>Marsh Walkers</Text>
+			<Text>습지 보행</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_MARSH_WALKER_HELP">
 			<Text>Double movement on Marsh and Flood Plain tiles.[NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]Barbarian only.[ENDCOLOR]</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_WHITE_WALKER">
-			<Text>White Walkers</Text>
+			<Text>설원 보행</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_WHITE_WALKER_HELP">
 			<Text>Double movement on Snow tiles.[NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]Barbarian only.[ENDCOLOR]</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_WOODS_WALKER">
-			<Text>Woods Walkers</Text>
+			<Text>숲 및 정글 보행</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_WOODS_WALKER_HELP">
 			<Text>Double movement on Forest and Jungle tiles.[NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]Barbarian only.[ENDCOLOR]</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_DESERT_WALKER">
-			<Text>Desert Walkers</Text>
+			<Text>사막 보행</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_DESERT_WALKER_HELP">
 			<Text>Double movement on Desert tiles.[NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]Barbarian only.[ENDCOLOR]</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_COAST_WALKER">
-			<Text>Coast Walkers</Text>
+			<Text>해안 보행</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_COAST_WALKER_HELP">
 			<Text>Allows embarkation.[NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]Barbarian only.[ENDCOLOR]</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_HILL_WALKER">
-			<Text>Hill Walkers</Text>
+			<Text>언덕 보행</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_HILL_WALKER_HELP">
 			<Text>Double movement on Hill tiles.[NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]Barbarian only.[ENDCOLOR]</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_NAVAL_DEFENSE_BOOST">
-			<Text>Ironsides</Text>
+			<Text>철기대</Text> <Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_NAVAL_DEFENSE_BOOST_HELP">
 			<Text>[ICON_STRENGTH] Combat Strength increases from taking damage (Tenacity).</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_LIGHTNING_WARFARE_GUN">
-			<Text>Lightning Warfare (Gun)</Text>
+			<Text>전격전 (화약)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_LIGHTNING_WARFARE_GUN_HELP">
 			<Text>+15% Combat Bonus when attacking.[NEWLINE]Ignores [COLOR_POSITIVE_TEXT]Zone of Control[ENDCOLOR].</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_LIGHTNING_WARFARE_ARMOR">
-			<Text>Lightning Warfare (Armor)</Text>
+			<Text>전격전 (기갑)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_LIGHTNING_WARFARE_ARMOR_HELP">
 			<Text>+15% Combat Bonus when attacking, +1 [ICON_MOVES] Movement.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_PRIZE_RULES">
-			<Text>Prize Rules</Text>
+			<Text>전리품</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_PRIZE_RULES_HELP">
 			<Text>Receive [ICON_GOLD] Gold in your Capital when you defeat an Enemy Unit. +20% [ICON_STRENGTH] Combat Strength VS Units [COLOR_POSITIVE_TEXT]at or below 50 HP[ENDCOLOR].</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_ANTIAIR_LAND_I">
-			<Text>Air Defense I</Text>
+			<Text>공중 방어 I</Text> <Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_ANTIAIR_LAND_I_HELP">
 			<Text>+10% [ICON_STRENGTH] Combat Strength when defending against all [COLOR_POSITIVE_TEXT]Ranged Attacks[ENDCOLOR].[NEWLINE]+15 Damage to [COLOR_POSITIVE_TEXT]Air Units[ENDCOLOR] when defending against Air Strikes.[NEWLINE][NEWLINE]Available once you have researched [COLOR_CYAN]Flight[ENDCOLOR].</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_ANTIAIR_LAND_II">
-			<Text>Air Defense II</Text>
+			<Text>공중 방어 II</Text> <Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_ANTIAIR_LAND_II_HELP">
 			<Text>+10% [ICON_STRENGTH] Combat Strength when defending against all [COLOR_POSITIVE_TEXT]Ranged Attacks[ENDCOLOR].[NEWLINE]+20 Damage to [COLOR_POSITIVE_TEXT]Air Units[ENDCOLOR] when defending against Air Strikes.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_ANTIAIR_LAND_III">
-			<Text>Air Defense III</Text>
+			<Text>공중 방어 III</Text> <Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_ANTIAIR_LAND_III_HELP">
 			<Text>+25% [ICON_STRENGTH] Combat Strength when defending against all [COLOR_POSITIVE_TEXT]Ranged Attacks[ENDCOLOR].[NEWLINE]+25 Damage to [COLOR_POSITIVE_TEXT]Air Units[ENDCOLOR] when defending against Air Strikes.</Text>
 		</Row>
 			
 		<Row Tag="TXT_KEY_UNIT_GUERILLA">
-			<Text>Mercenaries</Text>
+			<Text>용병</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_GUERILLA_TEXT">
 			<Text>Soldiers in private military companies (PMCs) are the contemporary strand of the mercenary trade, providing logistics, soldiers, military training, and other services. Thus, PMC contractors are civilians (in governmental, international, and civil organizations) authorized to accompany an army to the field; hence, the term civilian contractor. Nevertheless, PMCs may use armed force, hence defined as: "legally established enterprises that make a profit, by either providing services involving the potential exercise of [armed] force in a systematic way and by military means, and/or by the transfer of that potential to clients through training and other practices, such as logistics support, equipment procurement, and intelligence gathering."</Text>
@@ -111,7 +111,7 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_DESC_FIELD_GUN">
-			<Text>Field Gun</Text>
+			<Text>야포</Text> <Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_FIELD_GUN_PEDIA">
 			<Text>A field gun is an artillery piece. The term was first used to describe smaller guns that could be taken with an army while marching. In battle the field gun could be quickly moved about the battlefield as needed. Guns installed in a fort, siege cannon and mortars were too large to be moved quickly, and would be used only in a long siege.</Text>
@@ -125,47 +125,47 @@
 
 		<!-- Carolean-->
 		<Row Tag="TXT_KEY_PROMOTION_AOE_STRIKE_ON_KILL">
-			<Text>Grenadiers</Text>
+			<Text>척탄병</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_AOE_STRIKE_ON_KILL_HELP">
 			<Text>When you advance after destroying an Enemy Unit, all newly-adjacent Enemy Units take [COLOR_POSITIVE_TEXT]10 Damage[ENDCOLOR].</Text>
 		</Row>
 
-		<Row Tag="TXT_KEY_PROMOTION_AOE_STRIKE_FORTIFY">
-			<Text>Pilum</Text>
+		<Row Tag="TXT_KEY_PROMOTION_AOE">
+			<Text>필룸</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_AOE_STRIKE_FORTIFY_HELP">
 			<Text>While [COLOR_POSITIVE_TEXT]Fortified[ENDCOLOR], adjacent Enemy Units take [COLOR_POSITIVE_TEXT]10 Damage[ENDCOLOR] at the beginning of every turn.[NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]Lost on upgrade.[ENDCOLOR]</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_HONOR_BONUS">
-			<Text>Conscription</Text>
+			<Text>징병</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_HONOR_BONUS_HELP">
 			<Text>+10% [ICON_STRENGTH] Combat Strength.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_KILL_HEAL">
-			<Text>Heal On Kill</Text>
+			<Text>언덕 전투</Text> <Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_KILL_HEAL_HELP">
 			<Text>Heal 15 points when you destoy an Enemy Unit.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_WOODLAND_TRAILBLAZER_I">
-			<Text>Trailblazer I</Text>
+			<Text>개척 I</Text> <Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_WOODLAND_TRAILBLAZER_I_HELP">
 			<Text>+10% [ICON_STRENGTH] Combat Strength [COLOR_POSITIVE_TEXT]Outside of Friendly Territory[ENDCOLOR].[NEWLINE]Double Movement in Jungles and Forests.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_WOODLAND_TRAILBLAZER_II">
-			<Text>Trailblazer II</Text>
+			<Text>개척 II</Text> <Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_WOODLAND_TRAILBLAZER_II_HELP">
 			<Text>+10% [ICON_STRENGTH] Combat Strength [COLOR_POSITIVE_TEXT]Outside of Friendly Territory[ENDCOLOR].[NEWLINE]Double Movement in Desert, and Snow.[NEWLINE]Ignores [COLOR_POSITIVE_TEXT]Zone of Control[ENDCOLOR].</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_WOODLAND_TRAILBLAZER_III">
-			<Text>Trailblazer III</Text>
+			<Text>개척 III</Text> <Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_WOODLAND_TRAILBLAZER_III_HELP">
 			<Text>+10% [ICON_STRENGTH] Combat Strength [COLOR_POSITIVE_TEXT]Outside of Friendly Territory[ENDCOLOR].[NEWLINE]60% chance to withdraw from Melee combat.</Text>
@@ -184,21 +184,21 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_COERCION">
-			<Text>Coercion</Text>
+			<Text>강압</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_COERCION_HELP">
 			<Text>Defeated land units may join your side.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_CONSCRIPT">
-			<Text>Conscript</Text>
+			<Text>징집</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_CONSCRIPT_HELP">
 			<Text>Conscripted from Policies, consuming no [ICON_WAR] Unit Supply.[NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]Lost on upgrade.[ENDCOLOR]</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_CHARGE_II">
-			<Text>Charge II</Text>
+			<Text>돌격 II</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_CHARGE_II_HELP">
 			<Text>+10% [ICON_STRENGTH] Combat Strength when attacking in [COLOR_POSITIVE_TEXT]Open Terrain[ENDCOLOR].[NEWLINE]+20% [ICON_STRENGTH] Combat Strength when attacking [COLOR_POSITIVE_TEXT]Wounded Units[ENDCOLOR].</Text>
@@ -208,43 +208,43 @@
 			<Text>+50% [ICON_STRENGTH] Combat Strength when attacking [COLOR_POSITIVE_TEXT]Wounded Units[ENDCOLOR].[NEWLINE][COLOR_POSITIVE_TEXT]Flanking bonus[ENDCOLOR] increased by 10%.[NEWLINE]+10 HP when healing in [COLOR_POSITIVE_TEXT]Friendly Territory[ENDCOLOR].[NEWLINE]Ignores [COLOR_POSITIVE_TEXT]Zone of Control[ENDCOLOR].[NEWLINE]All tiles cost 1 [ICON_MOVES] Movement point.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_GUERILLA_FIGHTER">
-			<Text>Guerilla Fighter</Text>
+			<Text>게릴라 전투</Text> <Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_ATTACK_BONUS_SWEDEN_HELP">
 			<Text>+20% [ICON_STRENGTH] Strength when attacking.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_ATTACK_BONUS_SWEDEN">
-			<Text>No Retreat</Text>
+			<Text>퇴각 금지</Text> <Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_ATLATL_ATTACK">
-			<Text>Atlatl Strike</Text>
+			<Text>아틀라틀 투척</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_ATLATL_ATTACK_HELP">
 			<Text>+50% [ICON_RANGE_STRENGTH] Ranged Combat Strength when attacking [COLOR_POSITIVE_TEXT]Wounded Units[ENDCOLOR].[NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]Lost on upgrade.[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_NAVAL_MISFIRE">
-			<Text>Naval Target Penalty</Text>
+			<Text>해상 타겟 페널티</Text> <Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_NAVAL_MISFIRE_HELP">
 			<Text>-20% [ICON_STRENGTH] Combat Strength VS [COLOR_NEGATIVE_TEXT]Naval Units[ENDCOLOR].</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_SIEGE_INACCURACY">
-			<Text>Siege Inaccuracy</Text>
+			<Text>공성 부정확</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_SIEGE_INACCURACY_HELP">
 			<Text>-33% [ICON_STRENGTH] Combat Strength VS [COLOR_NEGATIVE_TEXT]Land Units[ENDCOLOR].</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_NAVAL_INACCURACY">
-			<Text>Naval Inaccuracy</Text>
+			<Text>해상 부정확</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_NAVAL_INACCURACY_HELP">
 			<Text>-25% [ICON_STRENGTH] Combat Strength VS [COLOR_NEGATIVE_TEXT]Land Units[ENDCOLOR].</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_PRISONER_WAR">
-			<Text>Prisoners of War</Text>
+			<Text>포로 수용소</Text> <Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_PRISONER_WAR_HELP">
 			<Text>-50% Work Rate when building Improvements or Routes for 50 turns (from turn captured).</Text>
@@ -253,94 +253,94 @@
 
 
 		<Row Tag="TXT_KEY_PROMOTION_MODERN_RANGED_PENALTY_I">
-			<Text>Covering Fire I</Text>
+			<Text>엄호 사격 I</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_MODERN_RANGED_PENALTY_I_HELP">
 			<Text>-50% [ICON_RANGE_STRENGTH] Ranged Combat Strength when attacking [COLOR_NEGATIVE_TEXT]Fortified Units[ENDCOLOR], [COLOR_NEGATIVE_TEXT]Cities[ENDCOLOR], and [COLOR_NEGATIVE_TEXT]Armored Units[ENDCOLOR].[NEWLINE]+20% [ICON_STRENGTH] Combat Strength when defending.[NEWLINE]Enemy Land Units within 2 tiles suffer -15% [ICON_STRENGTH] Combat Strength.[NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]Lost on upgrade.[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_MODERN_RANGED_PENALTY_II">
-			<Text>Covering Fire II</Text>
+			<Text>엄호 사격 II</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_MODERN_RANGED_PENALTY_II_HELP">
 			<Text>-25% [ICON_RANGE_STRENGTH] Ranged Combat Strength when attacking [COLOR_NEGATIVE_TEXT]Fortified Units[ENDCOLOR] and [COLOR_NEGATIVE_TEXT]Cities[ENDCOLOR].[NEWLINE]+10% [ICON_STRENGTH] Combat Strength when defending.[NEWLINE]Enemy Land Units within 2 tiles suffer -10% [ICON_STRENGTH] Combat Strength.[NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]Lost on upgrade.[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_ENSLAVEMENT">
-			<Text>Gift of the Pharaoh</Text>
+			<Text>파라오의 선물</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_ENSLAVEMENT_HELP">
 			<Text>Receive [ICON_PRODUCTION] Production in unit's City of origin when you defeat an Enemy Unit.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_RAIDER">
-			<Text>Raider</Text>
+			<Text>침입자</Text> <Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_RAIDER_HELP">
 			<Text>Flank attack bonus increased by 150%.[NEWLINE]Steal [ICON_GOLD] Gold equal to 50% of the damage inflicted on a city, capping at City's [ICON_STRENGTH] Combat Strength x 10.[NEWLINE]Is able to use enemy roads.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_ESPRIT_DE_CORPS">
-			<Text>Withering Fire</Text>
+			<Text>시드는 불꽃</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_ESPRIT_DE_CORPS_HELP">
 			<Text>[COLOR_POSITIVE_TEXT]25%[ENDCOLOR] Chance to force an enemy Unit to retreat after taking [ICON_RANGE_STRENGTH] Ranged Damage. If the Unit cannot retreat, it takes [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] more damage than normal.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_FALLOUT_REDUCTION">
-			<Text>Fallout Resistance</Text>
+			<Text>낙진 저항</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_FALLOUT_REDUCTION_HELP">
 			<Text>Damage from Fallout reduced by 10.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_FALLOUT_IMMUNITY">
-			<Text>Fallout Immunity</Text>
+			<Text>낙진 면역</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_FALLOUT_IMMUNITY_HELP">
 			<Text>Ignores damage from Fallout.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_ICE_BREAKERS">
-			<Text>Engineering Corp</Text>
+			<Text>엔지니어링</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_ICE_BREAKERS_HELP">
 			<Text>Allows movement through Ice and Mountain tiles.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_RECON_EXPERIENCE">
-			<Text>Reconnaissance</Text>
+			<Text>정찰</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_RECON_EXPERIENCE_HELP">
 			<Text>Gains XP from revealing tiles</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_BIG_CITY_PENALTY">
-			<Text>Major Penalty Attacking Cities (75)</Text>
+			<Text>도시 공격 시 페널티 (75)</Text> <Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_BIG_CITY_PENALTY_HELP">
-			<Text>-75% [ICON_STRENGTH] Combat Strength when attacking [COLOR_NEGATIVE_TEXT]Cities[ENDCOLOR].</Text>
+			<Text>>도시 공격 시 [ICON_STRENGTH]전투력이 [COLOR_NEGATIVE_TEXT]75%[ENDCOLOR] 감소</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_FASTER_GENERAL">
-			<Text>Faster General</Text>
+			<Text>빠른 장군</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_FASTER_GENERAL_HELP">
 			<Text>+1 [ICON_MOVES] Movement</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_BARBARIAN_BONUS">
-			<Text>Brute Force</Text>
+			<Text>무차별 공격</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_BARBARIAN_BONUS_HELP">
 			<Text>+33% [ICON_STRENGTH] Combat Strength VS [COLOR_POSITIVE_TEXT]Barbarians[ENDCOLOR].</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_IMPERIALISM_OPENER">
-			<Text>Imperialism</Text>
+			<Text>제국주의</Text> <Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_IMPERIALISM_OPENER_HELP">
 			<Text>+1 Sight.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_BETTER_LEADERSHIP">
-			<Text>Regimental Traditions</Text>
+			<Text>연대 전통</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_BETTER_LEADERSHIP_HELP">
 			<Text>+10% [ICON_STRENGTH] Combat Strength.[NEWLINE]Leadership aura gains +1 Range.</Text>
@@ -349,56 +349,56 @@
 		
 
 		<Row Tag="TXT_KEY_PROMOTION_BUSHIDO">
-			<Text>Eight Virtues of Bushido</Text>
+			<Text>무사도</Text> <Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_BUSHIDO_HELP">
 			<Text>Promotion is replaced with a randomly chosen new promotion after the unit completes its first combat.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_RIGHTEOUSNESS">
-			<Text>Righteousness</Text>
+			<Text>정도</Text> <Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_RIGHTEOUSNESS_HELP">
 			<Text>Increased [ICON_STRENGTH] Combat Strength based on Unit damage (Tenacity).[NEWLINE]+20% [ICON_STRENGTH] Combat Strength VS [COLOR_POSITIVE_TEXT]Wounded Units[ENDCOLOR].[NEWLINE]+10 HP if you destroy an Enemy Unit.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_COURAGE">
-			<Text>Courage</Text>
+			<Text>용기</Text> <Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_COURAGE_HELP">
 			<Text>Increased [ICON_STRENGTH] Combat Strength based on Unit damage (Tenacity).[NEWLINE]+15% [ICON_STRENGTH] Combat Strength when attacking.[NEWLINE]+10 HP if you destroy an Enemy Unit.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_BENEVOLENCE">
-			<Text>Benevolence</Text>
+			<Text>자애</Text> <Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_BENEVOLENCE_HELP">
 			<Text>Increased [ICON_STRENGTH] Combat Strength based on Unit damage (Tenacity).[NEWLINE]Units in adjacent tiles receive +5 HP when healing.[NEWLINE]+10 HP if you destroy an Enemy Unit.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_RESPECT">
-			<Text>Respect</Text>
+			<Text>존경</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_RESPECT_HELP">
 			<Text>Increased [ICON_STRENGTH] Combat Strength based on Unit damage (Tenacity).[NEWLINE]+15% [ICON_STRENGTH] Combat Strength VS [COLOR_POSITIVE_TEXT]Melee[ENDCOLOR] and [COLOR_POSITIVE_TEXT]Gunpowder Units[ENDCOLOR].[NEWLINE]+10 HP if you destroy an Enemy Unit.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_SINCERITY">
-			<Text>Sincerity</Text>
+			<Text>진심</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_SINCERITY_HELP">
 			<Text>Increased [ICON_STRENGTH] Combat Strength based on Unit damage (Tenacity).[NEWLINE]+50% Experience gained from combat.[NEWLINE]+10 HP if you destroy an Enemy Unit.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_BUSHIDO_HONOR">
-			<Text>Honor</Text>
+			<Text>명예</Text> <Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_BUSHIDO_HONOR_HELP">
 			<Text>Increased [ICON_STRENGTH] Combat Strength based on Unit damage (Tenacity).[NEWLINE]+15% [ICON_STRENGTH] Strength outside of friendly lands.[NEWLINE]+10 HP if you destroy an Enemy Unit.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_LOYALTY">
-			<Text>Loyalty</Text>
+			<Text>충성심</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_LOYALTY_HELP">
 			<Text>Increased [ICON_STRENGTH] Combat Strength based on Unit damage (Tenacity).[NEWLINE]+15% [ICON_STRENGTH] Strength inside friendly lands.[NEWLINE]+10 HP if you destroy an Enemy Unit.</Text>
@@ -406,7 +406,7 @@
 
 
 		<Row Tag="TXT_KEY_PROMOTION_SELF_CONTROL">
-			<Text>Self Control</Text>
+			<Text>자제력</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_SELF_CONTROL_HELP">
 			<Text>Increased [ICON_STRENGTH] Combat Strength based on Unit damage (Tenacity).[NEWLINE]+15% [ICON_STRENGTH] Strength when defending.[NEWLINE]+10 HP if you destroy an Enemy Unit.</Text>
@@ -420,7 +420,7 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_AIR_MISFIRE">
-			<Text>Air Skirmisher</Text>
+			<Text>공중 기습</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_AIR_MISFIRE_HELP">
 			<Text>-25% [ICON_STRENGTH] Combat Strength when attacking [COLOR_NEGATIVE_TEXT]Cities[ENDCOLOR].[NEWLINE]-25% [ICON_STRENGTH] Combat Strength VS [COLOR_NEGATIVE_TEXT]Land[ENDCOLOR] and [COLOR_NEGATIVE_TEXT]Naval Units[ENDCOLOR].</Text>
@@ -434,18 +434,18 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_EVASION_III">
-			<Text>Stealth</Text>
+			<Text>스텔스</Text> <Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_EVASION_III_HELP">
 			<Text>[COLOR_POSITIVE_TEXT]+25%[ENDCOLOR] chance to evade Interception.[NEWLINE]-25% Damage received from [COLOR_POSITIVE_TEXT]Interceptions[ENDCOLOR].[NEWLINE]+50 Hit Points.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_HELI_REPAIR">
-			<Text>Quick Repair</Text>
+			<Text>빠른 수리</Text> <Plurality>2</Plurality>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_AIR_TARGETING_3">
-			<Text>Air Targeting III</Text>
+			<Text>공중 목표 설정 III</Text> <Plurality>2</Plurality>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_AIR_TARGETING_3_HELP">
@@ -453,21 +453,21 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_ARSENALE">
-			<Text>Venetian Craftsmanship</Text>
+			<Text>베네치아 공작술</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_ARSENALE_HELP">
 			<Text>+10% [ICON_STRENGTH] Strength, +1 [ICON_MOVES] Movement.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_NUCLEAR_SILO">
-			<Text>Shielded Silo</Text>
+			<Text>미사일 격납고</Text> <Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_NUCLEAR_SILO_HELP">
 			<Text>Cannot be destroyed by nuclear weapons.</Text>
 		</Row>
 		
 		<Row Tag="TXT_KEY_UNIT_EXPLORER_CBP">
-			<Text>Explorer</Text>
+			<Text>탐험가</Text> <Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_EXPLORER_STRATEGY_CBP">
 			<Text>Explorers are a useful counterpart to Caravels when setting out to explore across the ocean during the Medieval and Renaissance periods. They are fairly weak and, therefore, are easily defeated by contemporary military units, however their reconaissance abilities are unparalleled until the advent of the Zeppelin.</Text>
@@ -479,7 +479,7 @@
 			<Text>Exploration is the act of searching for the purpose of discovery of information or resources. Exploration occurs in all non-sessile animal species, including humans. In human history, its most dramatic rise was during the Age of Discovery when European explorers sailed and charted much of the rest of the world, largely in a pursuit of material wealth. Since then, major explorations after the Age of Discovery have occurred for reasons mostly aimed at information discovery.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_ZEPPELIN_CBP">
-			<Text>Zeppelin</Text>
+			<Text>체펠린 비행선</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_ZEPPELIN_STRATEGY_CBP">
 			<Text>Zeppelins are a useful ranged exploration unit that appears during the Industrial Era. They are fairly weak on defense and, therefore, are easily defeated by contemporary military units. Their reconaissance abilities are unparalleled, especially due to their ability to hover.</Text>
@@ -492,23 +492,23 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_EUPANEL_FRIENDLY_CITY_BELIEF_BONUS_CBP">
-			<Text>Defender of the Faith</Text>
+			<Text>신앙의 수호자</Text> <Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_EUPANEL_ENEMY_CITY_BELIEF_BONUS_CBP">
-			<Text>Crusader Zeal</Text>
+			<Text>정의로운 전쟁</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EUPANEL_NAVAL_DEFENSE_CITY">
-			<Text>Difficult Target</Text>
+			<Text>어려운 목표</Text> <Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_EUPANEL_TRAIT_LOW_POP_BONUS">
-			<Text>Lower Population than Enemy</Text>
+			<Text>적보다 적은 인구</Text> <Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_EUPANEL_BONUS_PER_ADJACENT_UNIT_COMBAT">
-			<Text>Bonus from Adjacent Units</Text>
+			<Text>인접한 유닛에서 보너스</Text> <Plurality>2</Plurality>
 		</Row>
 	
 		<Row Tag="TXT_KEY_UNIT_ELEPHANT_RIDER">
-			<Text>War Elephant</Text>
+			<Text>전투 코끼리</Text> <Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_ELEPHANT_RIDER_STRATEGY">
 			<Text>War Elephants are more expensive and slower than the Horseman, but they are also much more powerful. They can move after attacking and strike fear into nearby enemy units, giving them a negative combat modifier. You must have a source of [ICON_RES_IVORY] Ivory to construct War Elephants, and the city where you wish to build them must have a Barracks. Unlike other Military Units, War Elephants do not consume resources when constructed.</Text>
@@ -520,14 +520,14 @@
 			<Text>A War Elephant was an elephant trained and guided by humans for combat. Their main use was to charge the enemy, breaking their ranks and instilling terror. Elephantry are military units with elephant-mounted troops. They were first employed in India, the practice spreading out across south-east Asia and westwards into the Mediterranean. Their most famous use in the West was by the Greek general Pyrrhus of Epirus and in significant numbers by the armies of Carthage, including briefly by Hannibal.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_MONGOL_TERROR">
-			<Text>Steppe Nomads</Text>
+			<Text>초원의 유목민</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_MONGOL_TERROR_HELP">
 			<Text>Ignores [COLOR_POSITIVE_TEXT]Zone of Control[ENDCOLOR].[NEWLINE]+2 [ICON_MOVES] Movement.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_MISSION_FREE_LUXURY">
-			<Text>Voyage of Discovery</Text>
+			<Text>발견의 항해</Text> <Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_MISSION_FREE_LUXURY_HELP">
 			<Text>If the Unit is in owned territory, this order will expend the Unit, granting you two free copies of a Luxury Resource not available on this map. These Resources will not appear on the map, but can be traded to other civilizations. Also increases your Military Supply by 2.</Text>
@@ -537,7 +537,7 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_UNIT_PIONEER">
-			<Text>Pioneer</Text>
+			<Text>선구자</Text> <Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_PIONEER_STRATEGY">
 			<Text>Use this unit to construct new cities. It cannot defend itself, so accompany it with a combat unit. When founded, cities built by Pioneers start with 3 Citizens, claim additional territory, and automatically receive the following selection of buildings:[NEWLINE][NEWLINE][ICON_BULLET] Council[NEWLINE][ICON_BULLET] Granary[NEWLINE][ICON_BULLET] Market[NEWLINE][ICON_BULLET] Monument[NEWLINE][ICON_BULLET] Shrine[NEWLINE][ICON_BULLET] Barracks[NEWLINE][ICON_BULLET] Water Mill (if applicable)[NEWLINE][ICON_BULLET] Library[NEWLINE][ICON_BULLET] Forge[NEWLINE][ICON_BULLET] Well (if applicable)[NEWLINE][NEWLINE]Note: the bonuses for constructing buildings from the Progress and Industry policy branches do not apply to the buildings constructed by Pioneers!</Text>
@@ -551,7 +551,7 @@
 			<Text>Founds new Cities with advanced infrastructure and additional population.[NEWLINE][NEWLINE][ICON_FOOD] Growth of the City is stopped while this Unit is being built. Reduces City's [ICON_CITIZEN] Population by 1 when completed.[NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]Cannot found Cities next to anyone's border or if your Empire is very unhappy.[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_COLONIST">
-			<Text>Colonist</Text>
+			<Text>식민지 개척자</Text> <Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_COLONIST_STRATEGY">
 			<Text>Use this unit to construct new cities. It cannot defend itself, so accompany it with a combat unit. When founded, cities built by Colonists start with 5 Citizens, claim additional territory, and automatically receive the following selection of buildings:[NEWLINE][NEWLINE][ICON_BULLET] Council[NEWLINE][ICON_BULLET] Granary[NEWLINE][ICON_BULLET] Market[NEWLINE][ICON_BULLET] Monument[NEWLINE][ICON_BULLET] Shrine[NEWLINE][ICON_BULLET] Barracks[NEWLINE][ICON_BULLET] Water Mill (if applicable)[NEWLINE][ICON_BULLET] Library[NEWLINE][ICON_BULLET] Forge[NEWLINE][ICON_BULLET] Well (if applicable)[NEWLINE][ICON_BULLET] Windmill[NEWLINE][ICON_BULLET] Harbor[NEWLINE][ICON_BULLET] Lighthouse[NEWLINE][ICON_BULLET] Amphitheater[NEWLINE][ICON_BULLET] Temple[NEWLINE][ICON_BULLET] Workshop[NEWLINE][NEWLINE]Note: the bonuses for constructing buildings from the Progress and Industry policy branches do not apply to the buildings constructed by Colonists!</Text>
@@ -567,13 +567,13 @@
 		
 		<!-- Bandeirantes -->
 		<Row Tag="TXT_KEY_PROMOTION_RECON_BANDEIRANTES">
-			<Text>Flag Bearers</Text>
+			<Text>기수</Text> <Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_RECON_BANDEIRANTES_HELP">
 			<Text>When you reveal tiles, gain [ICON_GOLD] Gold, [ICON_CULTURE] Culture, and [ICON_RESEARCH] Science in the nearest owned City.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_BANDEIRANTES">
-			<Text>Bandeirantes</Text>
+			<Text>반데이란테스</Text> <Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_BANDEIRANTES_TEXT">
 			<Text>The Bandeirantes ("those who carry the flag") were 17th-century Portuguese settlers in Brazil and fortune hunters. They led expeditions called bandeiras ("flags") which penetrated the interior of Brazil far south and west of the Tordesillas Line of 1494, which officially divided the Castilian or later Spanish (west) domain from the Portuguese (east) domain in South America. Though they originally aimed to capture and force Indigenous Americans into slavery, the bandeirantes later began to focus their expeditions on finding gold, silver, and diamond mines. As they ventured into unmapped regions in search of profit and adventure, they expanded the effective borders of the Brazilian colony.</Text>
@@ -587,7 +587,7 @@
 		
 		<!-- Rough Terrain for Ranged Mounted-->
 		<Row Tag="TXT_KEY_PROMOTION_ROUGH_TERRAIN_HALF_TURN">
-			<Text>Skirmisher Doctrine</Text>
+			<Text>기마병 교리</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_ROUGH_TERRAIN_HALF_TURN_HELP">
       <Text>-20% [ICON_STRENGTH] Combat Strength while in [COLOR_NEGATIVE_TEXT]Rough Terrain[ENDCOLOR].[NEWLINE]+40% [ICON_STRENGTH] Combat Strength while in [COLOR_POSITIVE_TEXT]Open Terrain[ENDCOLOR].</Text>
@@ -595,13 +595,13 @@
 
 		<!-- New Slinger Promotion -->
 		<Row Tag="TXT_KEY_PROMOTION_SLINGER">
-			<Text>Concussive Hits</Text>
+			<Text>뇌진탕 적중</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_SLINGER_HELP">
 			<Text>[COLOR_POSITIVE_TEXT]Ranged[ENDCOLOR] Attacks by this Unit inflict the [COLOR_POSITIVE_TEXT]Dazed[ENDCOLOR] status on other Units, reducing their [ICON_STRENGTH] Combat Strength by 15% for 5 Turns.[NEWLINE]Ignores [COLOR_POSITIVE_TEXT]Zone of Control[ENDCOLOR].</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_DAZED">
-			<Text>Dazed</Text>
+			<Text>멍함</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_DAZED_HELP">
 			<Text>-15% [ICON_STRENGTH] Combat Strength.</Text>
@@ -609,7 +609,7 @@
 		
 		<!-- New CKN Promotion -->
 		<Row Tag="TXT_KEY_PROMOTION_REPEATER">
-			<Text>Siege Volleys</Text>
+			<Text>공성 일제 사격</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_REPEATER_HELP">
 			<Text>+25% [ICON_STRENGTH] Combat Strength when adjacent to or in a [COLOR_POSITIVE_TEXT]City[ENDCOLOR].[NEWLINE]Deals [COLOR_POSITIVE_TEXT]5 Damage[ENDCOLOR] to all Enemy Units [COLOR_POSITIVE_TEXT]adjacent to[ENDCOLOR] targeted Unit (within [ICON_RANGE_STRENGTH] Range).</Text>
@@ -617,153 +617,153 @@
 		
 		<!-- New Tier 4 Promotions -->
 		<Row Tag="TXT_KEY_PROMOTION_SHOCK_4">
-			<Text>Overrun</Text>
+			<Text>오버런</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_SHOCK_4_HELP">
 			<Text>[COLOR_POSITIVE_TEXT]Flanking bonus[ENDCOLOR] increased by 25%.[NEWLINE]When you advance after destroying an Enemy Unit, all newly-adjacent Enemy Units take [COLOR_POSITIVE_TEXT]10 Damage[ENDCOLOR].</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_DRILL_4">
-			<Text>Stalwart</Text>
+			<Text>충실함</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_DRILL_4_HELP">
 			<Text>+35% [ICON_STRENGTH] Combat Strength when defending.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_ACCURACY_4">
-			<Text>Firing Doctrine</Text>
+			<Text>사격 교리</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_ACCURACY_4_HELP">
 			<Text>+25% [ICON_RANGE_STRENGTH] Ranged Combat Strength when attacking [COLOR_POSITIVE_TEXT]Units above 50 HP[ENDCOLOR].</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_BARRAGE_4">
-			<Text>Infiltrators</Text>
+			<Text>침투</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_BARRAGE_4_HELP">
 			<Text>+25% [ICON_STRENGTH] Combat Strength [COLOR_POSITIVE_TEXT]Outside Friendly Territory[ENDCOLOR].[NEWLINE]+25% [ICON_RANGE_STRENGTH] Ranged Combat Strength when attacking [COLOR_POSITIVE_TEXT]Wounded Units[ENDCOLOR].[NEWLINE]-15% [ICON_STRENGTH] Combat Strength if adjacent to a [COLOR_NEGATIVE_TEXT]Friendly Unit[ENDCOLOR].</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_TARGETING_4">
-			<Text>Indomitable</Text>
+			<Text>굳건함</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_TARGETING_4_HELP">
 			<Text>+25% [ICON_STRENGTH] Combat Strength when defending.[NEWLINE]Immune to the [COLOR_POSITIVE_TEXT]Boarded[ENDCOLOR] effect from Naval Melee Units.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_DAMAGE_REDUCTION">
-			<Text>Dauntless</Text>
+			<Text>불굴의 정신</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_DAMAGE_REDUCTION_HELP">
 			<Text>Damage from all sources reduced by 5.[NEWLINE][COLOR_POSITIVE_TEXT]Heals 10 Additional HP[ENDCOLOR] per turn.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_PRESS_GANGS">
-			<Text>Press Gangs</Text>
+			<Text>강요</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_PRESS_GANGS_HELP">
 			<Text>Can pillage without expending movement.[NEWLINE]Pillaging [COLOR_POSITIVE_TEXT]fully heals[ENDCOLOR] this Unit.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_PIRACY">
-			<Text>Piracy</Text>
+			<Text>사략</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_PIRACY_HELP">
 			<Text>Gain 100% of the [ICON_STRENGTH] Combat Strength of defeated enemies as [ICON_GOLD] Gold.[NEWLINE]50% chance to withdraw from Melee combat.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_BREACHER">
-			<Text>Breacher</Text>
+			<Text>위반자</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_BREACHER_HELP">
 			<Text>+10% [ICON_STRENGTH] Combat Strength per [COLOR_POSITIVE_TEXT]Adjacent Enemy Unit[ENDCOLOR] when defending.[NEWLINE]Deal [COLOR_POSITIVE_TEXT]15 Damage[ENDCOLOR] to all Enemy Units [COLOR_POSITIVE_TEXT]Adjacent[ENDCOLOR] to a Unit killed by this Unit.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_ENCIRCLEMENT">
-			<Text>Encirclement</Text>
+			<Text>포위</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_ENCIRCLEMENT_HELP">
 			<Text>+10% [ICON_STRENGTH] Combat Strength per [COLOR_POSITIVE_TEXT]Adjacent Friendly Unit[ENDCOLOR] when attacking.[NEWLINE]+10 HP when you [COLOR_POSITIVE_TEXT]defeat an enemy[ENDCOLOR].</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_BOARDED_I">
-			<Text>Boarded (I)</Text>
+			<Text>승선 (I)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_BOARDED_I_HELP">
 			<Text>-2 [ICON_MOVES] Move for 1 Turn.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_BOARDED_II">
-			<Text>Boarded (II)</Text>
+			<Text>승선 (II)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_BOARDED_II_HELP">
 			<Text>-4 [ICON_MOVES] Moves for 1 Turn.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_MINELAYER">
-			<Text>Minelayer</Text>
+			<Text>기뢰정</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_MINELAYER_HELP">
 			<Text>-10% [ICON_STRENGTH] Combat Strength when defending against all [COLOR_POSITIVE_TEXT]Ranged Attacks[ENDCOLOR].[NEWLINE]-2 [ICON_MOVES] Movement points for enemy Naval Units that start their turn [COLOR_POSITIVE_TEXT]Adjacent[ENDCOLOR] to this Unit (unless immune to [COLOR_POSITIVE_TEXT]ZOC[ENDCOLOR]).[NEWLINE][NEWLINE]Available once you have researched [COLOR_CYAN]Combustion[ENDCOLOR].</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_BOMBARDMENT_4">
-			<Text>Broadside</Text>
+			<Text>집중 공격</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_BOMBARDMENT_4_HELP">
 			<Text>+40% [ICON_RANGE_STRENGTH] Ranged Combat Strength when attacking [COLOR_POSITIVE_TEXT]Cities[ENDCOLOR].</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_COASTAL_RAIDER_4">
-			<Text>Blockade</Text>
+			<Text>봉쇄</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_COASTAL_RAIDER_4_HELP">
 			<Text>+25% [ICON_STRENGTH] Combat Strength when defending against all [COLOR_POSITIVE_TEXT]Ranged Attacks[ENDCOLOR].[NEWLINE]Steal [ICON_GOLD] Gold equal to 100% of the damage inflicted on a City, capping at City's [ICON_STRENGTH] Combat Strength x 10.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_BOARDING_PARTY_4">
-			<Text>Pincer</Text>
+			<Text>펜치</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_BOARDING_PARTY_4_HELP">
 			<Text>[COLOR_POSITIVE_TEXT]Flanking bonus[ENDCOLOR] increased by 10%.[NEWLINE]Ignores [COLOR_POSITIVE_TEXT]Zone of Control[ENDCOLOR].</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_BETTER_BOMBARDMENT">
-			<Text>Shrapnel Rounds</Text>
+			<Text>유산탄</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_BETTER_BOMBARDMENT_HELP">
 			<Text>+50% [ICON_STRENGTH] Combat Strength VS [COLOR_POSITIVE_TEXT]Land Units[ENDCOLOR].</Text>
 		</Row>
 		
 		<Row Tag="TXT_KEY_PROMOTION_COASTAL_TERROR">
-			<Text>Vanguard</Text>
+			<Text>선봉</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_COASTAL_TERROR_HELP">
 			<Text>+125% [ICON_STRENGTH] Combat Strength when attacking [COLOR_POSITIVE_TEXT]Cities[ENDCOLOR].[NEWLINE]Damage from Cities reduced by 50%.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_NAVAL_SIEGE">
-			<Text>Naval Siege</Text>
+			<Text>해상 공성</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_NAVAL_SIEGE_HELP">
 			<Text>+75% [ICON_STRENGTH] Combat Strength when attacking [COLOR_POSITIVE_TEXT]Cities[ENDCOLOR].[NEWLINE]Can heal [COLOR_POSITIVE_TEXT]Outside of Friendly Territory[ENDCOLOR].</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_NAVAL_SENTRY">
-			<Text>Navigator I</Text>
+			<Text>조종사 I</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_NAVAL_SENTRY_HELP">
 			<Text>+1 [ICON_MOVES] Movement and Sight.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_NAVAL_SENTRY_II">
-			<Text>Navigator II</Text>
+			<Text>조종사 II</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_NAVAL_SENTRY_II_HELP">
 			<Text>+1 [ICON_MOVES] Movement and Sight.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_VIKING">
-			<Text>Viking</Text>
+			<Text>바이킹</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_VIKING_HELP">
 			<Text>+25% [ICON_STRENGTH] Combat Strength on Pillaged Tiles.[NEWLINE]Costs no [ICON_MOVES] Movement points to Pillage.[NEWLINE]+5 HP when healing in Neutral Territory.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_LONGBOAT">
-			<Text>Longboat</Text>
+			<Text>롱보트</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_LONGBOAT_HELP">
 			<Text>+15% [ICON_STRENGTH] Combat Strength when attacking or defending Coastal Tiles.[NEWLINE]Costs no [ICON_MOVES] Movement points to Pillage.[NEWLINE]Recovers Hit Points [COLOR_POSITIVE_TEXT]Twice as Quickly[ENDCOLOR] while healing on Coastal Tiles.</Text>
@@ -771,21 +771,21 @@
 
 
 		<Row Tag="TXT_KEY_PROMOTION_SACRED_STEPS">
-			<Text>Sacred Steps</Text>
+			<Text>신성한 단계</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_SACRED_STEPS_HELP">
 			<Text>+2 [ICON_MOVES] Movement.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_EVERLASTING_YOUTH">
-			<Text>Everlasting Youth</Text>
+			<Text>영원한 청춘</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_EVERLASTING_YOUTH_HELP">
 			<Text>Units heal for an additional +5 Hit Points.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_SUPPLY_BOOST">
-			<Text>Military Tradition</Text>
+			<Text>군사 전통</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_SUPPLY_BOOST_HELP">
 			<Text>Permanent +2 Military Cap boost when expended via an ability.</Text>
@@ -794,27 +794,27 @@
 		
 
 		<Row Tag="TXT_KEY_PROMOTION_SPLASH">
-			<Text>Splash Damage</Text>
+			<Text>광역 피해</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_SPLASH_HELP">
 			<Text>Deals [COLOR_POSITIVE_TEXT]5 Damage[ENDCOLOR] to all Enemy Units [COLOR_POSITIVE_TEXT]Adjacent to[ENDCOLOR] targeted Unit (within [ICON_RANGE_STRENGTH] Range).</Text>
 		</Row>
 		
 		<Row Tag="TXT_KEY_PROMOTION_SPLASH_II">
-			<Text>Splash Damage II</Text>
+			<Text>광역 피해 II</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_SPLASH_II_HELP">
 			<Text>Deals [COLOR_POSITIVE_TEXT]5 Damage[ENDCOLOR] to all Enemy Units [COLOR_POSITIVE_TEXT]Adjacent to[ENDCOLOR] targeted Unit (within [ICON_RANGE_STRENGTH] Range).</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_TERROR">
-			<Text>Precision</Text>
+			<Text>정확성</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_TERROR_HELP">
 			<Text>+25% [ICON_RANGE_STRENGTH] Combat Strength VS Units [COLOR_POSITIVE_TEXT]at or below 50 HP[ENDCOLOR].</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_TERROR_II">
-			<Text>Precision II</Text>
+			<Text>정확성 II</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_TERROR_II_HELP">
 			<Text>+25% [ICON_RANGE_STRENGTH] Combat Strength VS Units [COLOR_POSITIVE_TEXT]at or below 50 HP[ENDCOLOR].</Text>
@@ -822,13 +822,13 @@
 		
 
 		<Row Tag="TXT_KEY_PROMOTION_SKIRMISHER_POWER">
-			<Text>Coup de Grace</Text>
+			<Text>최후의 일격</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_SKIRMISHER_POWER_HELP">
 			<Text>+30% [ICON_RANGE_STRENGTH] Ranged Combat Strength when attacking [COLOR_POSITIVE_TEXT]Units at or below 50 HP[ENDCOLOR].</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_SKIRMISHER_MOBILITY">
-			<Text>Parthian Tactics</Text>
+			<Text>최후의 전술</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_SKIRMISHER_MOBILITY_HELP">
 			<Text>Ignores [COLOR_POSITIVE_TEXT]Zone of Control[ENDCOLOR].[NEWLINE]+1 [ICON_MOVES] Movement.</Text>
@@ -842,59 +842,59 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_SIEGE_I">
-			<Text>Siege I</Text>
+			<Text>공성 I</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_SIEGE_I_HELP">
 			<Text>+10% [ICON_RANGE_STRENGTH] Ranged Combat Strength.[NEWLINE]+15% [ICON_RANGE_STRENGTH] Ranged Combat Strength when attacking [COLOR_POSITIVE_TEXT]Cities[ENDCOLOR].</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_SIEGE_II">
-			<Text>Siege II</Text>
+			<Text>공성 II</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_SIEGE_II_HELP">
 			<Text>+10% [ICON_RANGE_STRENGTH] Ranged Combat Strength.[NEWLINE]+15% [ICON_RANGE_STRENGTH] Ranged Combat Strength when attacking [COLOR_POSITIVE_TEXT]Cities[ENDCOLOR].</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_SIEGE_III">
-			<Text>Siege III</Text>
+			<Text>공성 III</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_SIEGE_III_HELP">
 			<Text>+10% [ICON_RANGE_STRENGTH] Ranged Combat Strength.[NEWLINE]+15% [ICON_RANGE_STRENGTH] Ranged Combat Strength when attacking [COLOR_POSITIVE_TEXT]Cities[ENDCOLOR].</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_FIELD_I">
-			<Text>Field I</Text>
+			<Text>필드 I</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_FIELD_I_HELP">
 			<Text>+10% [ICON_RANGE_STRENGTH] Ranged Combat Strength.[NEWLINE]+10% [ICON_RANGE_STRENGTH] Ranged Combat Strength when attacking Units in [COLOR_POSITIVE_TEXT]Open Terrain[ENDCOLOR].</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_FIELD_II">
-			<Text>Field II</Text>
+			<Text>필드 II</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_FIELD_II_HELP">
 			<Text>+10% [ICON_RANGE_STRENGTH] Ranged Combat Strength.[NEWLINE]+10% [ICON_RANGE_STRENGTH] Ranged Combat Strength when attacking Units in [COLOR_POSITIVE_TEXT]Open Terrain[ENDCOLOR].</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_FIELD_III">
-			<Text>Field III</Text>
+			<Text>필드 III</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_FIELD_III_HELP">
 			<Text>+10% [ICON_RANGE_STRENGTH] Ranged Combat Strength.[NEWLINE]+10% [ICON_RANGE_STRENGTH] Ranged Combat Strength when attacking Units in [COLOR_POSITIVE_TEXT]Open Terrain[ENDCOLOR].</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_SCOUT_GOODY_BONUS">
-			<Text>Treasure Hunter</Text>
+			<Text>트레저 헌터</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_SCOUT_GOODY_BONUS_HELP">
 			<Text>+25% Yields from [COLOR_POSITIVE_TEXT]Ancient Ruins[ENDCOLOR].</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_SCOUT_XP_PILLAGE">
-			<Text>Scavenger</Text>
+			<Text>스캐빈저</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_SCOUT_XP_PILLAGE_HELP">
 			<Text>+5 XP when you [COLOR_POSITIVE_TEXT]Pillage[ENDCOLOR] a tile.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_SCOUT_XP_SPOTTING">
-			<Text>Spotters</Text>
+			<Text>스포터</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_SCOUT_XP_SPOTTING_HELP">
 			<Text>+2 XP for every turn spent unembarked in the [COLOR_POSITIVE_TEXT]Enemy Territory[ENDCOLOR] of a Major Civ.</Text>
@@ -922,48 +922,48 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_OCEAN_CROSSING">
-			<Text>Ocean Explorer</Text>
+			<Text>대양 탐험</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_OCEAN_CROSSING_HELP">
 			<Text>Can Cross Oceans before researching Astronomy</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_HEAVY_SHIP">
-			<Text>Heavy Assault</Text>
+			<Text>육중한 공격</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_HEAVY_SHIP_HELP">
 			<Text>+25% [ICON_STRENGTH] Combat Strength when attacking.[NEWLINE]+25% [ICON_STRENGTH] Combat Strength when attacking [COLOR_POSITIVE_TEXT]Cities[ENDCOLOR].</Text>
 		</Row>		
 		<Row Tag="TXT_KEY_PROMOTION_FIELD_WORKS_1">
-			<Text>Field Works</Text>
+			<Text>진지 공사</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_FIELD_WORKS_1_HELP">
 			<Text>+15% [ICON_STRENGTH] Combat Strength against all [COLOR_POSITIVE_TEXT]Ranged Attacks[ENDCOLOR].[NEWLINE]+15 Hit Points.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_FIELD_WORKS_2">
-			<Text>Entrenchments</Text>
+			<Text>참호</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_FIELD_WORKS_2_HELP">
 			<Text>+20% [ICON_STRENGTH] Combat Strength against all [COLOR_POSITIVE_TEXT]Ranged Attacks[ENDCOLOR].[NEWLINE]+20 Hit Points.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_FIELD_WORKS_3">
-			<Text>DFPs</Text>
+			<Text>디펜스 포스</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_FIELD_WORKS_3_HELP">
 			<Text>+25% [ICON_STRENGTH] Combat Strength against all [COLOR_POSITIVE_TEXT]Ranged Attacks[ENDCOLOR].[NEWLINE]+25 Hit Points.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_MECH">
-			<Text>Titanic</Text>
+			<Text>타이타닉</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_MECH_HELP">
 			<Text>+25% [ICON_STRENGTH] Combat Strength when [COLOR_POSITIVE_TEXT]Attacking[ENDCOLOR].[NEWLINE]+100 Hit Points. Begins combat with a free Ranged attack.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_IKLWA">
-			<Text>Iklwa</Text>
+			<Text>이클와</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_IKLWA_HELP">
 			<Text>+10% [ICON_STRENGTH] Combat Strength when [COLOR_POSITIVE_TEXT]Attacking[ENDCOLOR].[NEWLINE]+2 XP for every turn spent unembarked in the [COLOR_POSITIVE_TEXT]Enemy Territory[ENDCOLOR] of a Major Civ.</Text>
