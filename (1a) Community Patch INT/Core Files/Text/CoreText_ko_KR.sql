@@ -3,7 +3,7 @@
 INSERT INTO Language_ko_KR
 			(Tag,											Text)
 VALUES		('TXT_KEY_GAME_OPTION_BARB_GG_GA_POINTS',		'야만인으로부터 위대한 장군/제독 점수'),
-			('TXT_KEY_GAME_OPTION_BARB_GG_GA_POINTS_HELP',	'Allows all players to accumulate Great General and Great Admiral points from fighting Barbarians.');
+			('TXT_KEY_GAME_OPTION_BARB_GG_GA_POINTS_HELP',	'야만인과의 전투에서 위대한 장군/제독 점수를 쌓을 수 있도록 허용합니다.');
 			
 UPDATE Language_ko_KR
 SET Text = '게임을 불러올 때마다 무작위 숫자 시드가 생성됩니다. 이것은 불러오기를 할 때마다 같은 행동을 하더라도 결과가 각각 다르게 나오는 것을 의미합니다. 처음 게임을 했을 때와 AI 결정이 다를 수 있습니다.'
@@ -1491,14 +1491,14 @@ UPDATE Language_en_US
 SET Text = 'Very well.'
 WHERE Tag = 'TXT_KEY_LEADER_WILLIAM_AGREE_SHORT_2';
 
-UPDATE Language_en_US
-SET Text = 'Ends after: [NEWLINE]Turn {1_turn}'
+UPDATE Language_ko_KR
+SET Text = '종료[NEWLINE]{1_turn} 턴'
 WHERE Tag = 'TXT_KEY_DO_ENDS_ON';
 
-UPDATE Language_en_US
-SET Text = 'MOVE UNIT'
+UPDATE Language_ko_KR
+SET Text = '겹쳐진 유닛 이동'
 WHERE Tag = 'TXT_KEY_MOVE_STACKED_UNIT';
 
-UPDATE Language_en_US
-SET Text = 'Move a unit to a plot where it can end the turn'
+UPDATE Language_ko_KR
+SET Text = '턴을 끝낼 수 있는 위치로 유닛을 이동합니다.'
 WHERE Tag = 'TXT_KEY_MOVE_STACKED_UNIT_TT';
