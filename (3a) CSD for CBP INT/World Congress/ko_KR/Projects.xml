@@ -24,16 +24,14 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_TREASURE_FLEET_1">
-			<Text>최고의 조선사</Text>
-	  <Plurality>2</Plurality>
+			<Text>최고의 조선사</Text>	  <Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_TREASURE_FLEET_1_HELP">
 			<Text>무료 프리깃이 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR] 출현합니다. [ICON_GOLDEN_AGE]황금기 점수를 [COLOR_POSITIVE_TEXT]300[ENDCOLOR] 제공합니다.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_TREASURE_FLEET_2">
-			<Text>숙련된 항해사</Text>
-	  <Plurality>2</Plurality>
+			<Text>숙련된 항해사</Text>	  <Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_TREASURE_FLEET_2_HELP">
 			<Text>[ICON_GREAT_ADMIRA]위대한 제독이 [COLOR_POSITIVE_TEXT]1명[ENDCOLOR] 출현하고 군사 유닛 [COLOR_POSITIVE_TEXT]3개[ENDCOLOR]의 유지비가 들지 않습니다.</Text>
@@ -82,8 +80,7 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_WARGAMES_3">
-			<Text>원수</Text>
-	  <Plurality>2</Plurality>
+			<Text>원수</Text>	  <Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_WARGAMES_3_HELP">
 			<Text>[ICON_CAPITAL]수도에 [COLOR_POSITIVE_TEXT]메닝 문[ENDCOLOR] 불가사의가 출현합니다.</Text>

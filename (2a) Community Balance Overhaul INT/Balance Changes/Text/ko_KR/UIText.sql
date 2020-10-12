@@ -153,10 +153,9 @@ SET Text = 'Options for {1_SpyRank} {2_SpyName}:[NEWLINE][NEWLINE][ICON_BULLET] 
 WHERE Tag = 'TXT_KEY_EO_SPY_MOVE_TT';
 
 
-UPDATE Language_ko_KR
+UPDATE Language_en_US
 SET Text = '{1_SpyName} has achieved the rank of {2_RankName}.[NEWLINE][NEWLINE]There are three spy ranks: Recruit, Agent, and Special Agent. Each subsequent level makes the spy more effective. A higher ranking spy will steal technologies faster, discover and kill enemy spies that are trying to steal from you more frequently, rig elections in City-States more effectively, and have a greater chance of pulling off a coup in a City-State allied with another civilization.[NEWLINE][NEWLINE]Spies level up when they successfully steal technology or art from another civilization, kill an enemy spy, schmooze as as a diplomat, or if they uncover intrigue.'
 WHERE Tag = 'TXT_KEY_EO_SPY_RANK_TT';
-
 -- Public Opinion
 
 UPDATE Language_ko_KR
@@ -674,11 +673,11 @@ SET Text = 'Resource Diversity Modifier: {1_Num}%[NEWLINE][ICON_BULLET]   Our Lo
 WHERE Tag = 'TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_TT_RESOURCE_DIFFERENT';
 
 
-UPDATE Language_ko_KR
+UPDATE Language_en_US
 SET Text = 'Artifact will be placed in nearest Great Work of Art slot. Artifact provides +3 [ICON_CULTURE] Culture and +4 [ICON_TOURISM] Tourism. Archaeologist will be consumed.'
 WHERE Tag = 'TXT_KEY_CHOOSE_ARCH_ARTIFACT_RESULT';
 
-UPDATE Language_ko_KR
+UPDATE Language_en_US
 SET Text = 'Ancient writing will be placed in nearest Great Work of Writing slot. Writing provides +3 [ICON_CULTURE] Culture and +4 [ICON_TOURISM] Tourism. Archaeologist will be consumed.'
 WHERE Tag = 'TXT_KEY_CHOOSE_ARCH_WRITTEN_ARTIFACT_RESULT';
 
@@ -748,7 +747,7 @@ WHERE Tag = 'TXT_KEY_CHOOSE_ARCH_LANDMARK_MAJOR_CIV';
 
 
 UPDATE Language_ko_KR
-SET Text = '대체에너지'
+SET Text = '대체 에너지'
 WHERE Tag = 'TXT_KEY_TECH_ECOLOGY_TITLE';
 
 UPDATE Language_ko_KR

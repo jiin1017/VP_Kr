@@ -194,7 +194,7 @@
 			<Text>문명</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CPO_MP_CIVILIZATION_SORT_TT">
-			<Text>독점권을 가지고 있는 문명[NEWLINE][NEWLINE]문명 순으로 정렬.</Text>
+			<Text>독점권을 가지고 있는 문명[NEWLINE][NEWLINE]문명 순으로 정렬</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CPO_MP_MONOPOLY">
 			<Text>독점</Text>

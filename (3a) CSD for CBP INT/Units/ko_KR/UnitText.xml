@@ -4,8 +4,7 @@
 	<Language_ko_KR>
 		<!-- EMISSARY -->
 		<Row Tag="TXT_KEY_UNIT_EMISSARY">
-			<Text>특사</Text>
-	  <Plurality>2</Plurality>
+			<Text>특사</Text>	  <Plurality>2</Plurality>
 			<Gender>neuter:an</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_EMISSARY_STRATEGY">
@@ -49,8 +48,7 @@
 		
 		<!-- Ambassador -->
 		<Row Tag="TXT_KEY_UNIT_AMBASSADOR">
-			<Text>대사</Text>
-	  <Plurality>2</Plurality>
+			<Text>대사</Text>	  <Plurality>2</Plurality>
 			<Gender>neuter:an</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_MODERN_AMBASSADOR_TEXT">

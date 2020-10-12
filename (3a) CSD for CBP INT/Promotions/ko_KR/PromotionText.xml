@@ -61,10 +61,10 @@
 			<Text>외교 임무 수행 시 [ICON_INFLUENCE]영향력 70</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_GREAT_DIPLOMAT_HELP">
-			<Text>외교 임무 수행 시 [ICON_INFLUENCE]영향력 100, 이 도시 국가에 대한 다른 문명의 [ICON_INFLUENCE]영향력을 같은 양만큼 감소 시킵니다. 시대가 끝날 때마다 [ICON_INFLUENCE]영향력이 증가합니다. 국경 개방 협정 없이 적 영토에 진입할 수 있는 능력이 있습니다.</Text>
+			<Text>외교 임무 수행 시 [ICON_INFLUENCE]영향력 100, 이 도시 국가에 대한 다른 문명의 [ICON_INFLUENCE]영향력을 같은 양만큼 감소 시킵니다. 시대가 끝날 때마다 [ICON_INFLUENCE]영향력이 증가합니다. 국경 개방 협정 없이 적 영토에 진입할 수 있는 능력을 부여합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_NOBEL_LAUREATE_HELP">
-			<Text>외교 임무 수행 시 위대한 외교관의 [ICON_INFLUENCE]영향력이 10 증가합니다. (스웨덴 문명의 고유 특성).</Text>
+			<Text>외교 임무 수행 시 위대한 외교관의 [ICON_INFLUENCE]영향력이 10 증가합니다. (스웨덴 문명의 고유 특성)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_SIGNET_HELP">
 			<Text>외교 임무 수행 시 [ICON_INFLUENCE]영향력 10 증가</Text>
@@ -82,7 +82,7 @@
 			<Text>도시 국가와의 외교 임무 수행 시 [ICON_INFLUENCE]영향력 10 증가</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_NOBILITY_HELP">
-			<Text>도시 국가와의  외교 임무 수행 시 [ICON_INFLUENCE]영향력 15 증가, 국경 개방 협정 없이 적 영토에 진입 가능</Text>
+			<Text>도시 국가와의 외교 임무 수행 시 [ICON_INFLUENCE]영향력 15 증가, 국경 개방 협정 없이 적 영토에 진입 가능</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_TREASURE_FLEET_HELP">
 			<Text>시야 +1, 공격 시 전투력 보너스, 우호 영토 밖에서 체력 회복 가능</Text>

@@ -110,7 +110,7 @@
 		<Row Tag="TXT_KEY_EUI_UNIT_AIRUNITCAP">
 			<Text>공중 유닛 한도 {1}</Text>
 		</Row>
-		<Row Tag="TXT_KEY_EUI_UNIT_NUMFREETECHS">
+		<Row Tag="TXT_KEY_EUI_UNIT_NUKEDAMAGELEVEL">
 			<Text>핵공격 피해 단계 {1}</Text>
 		</Row>
 		<!--Row Tag="TXT_KEY_EUI_UNIT_WORKRATE">

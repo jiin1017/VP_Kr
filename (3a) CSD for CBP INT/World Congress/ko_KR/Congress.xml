@@ -9,13 +9,13 @@
 			<Text>Because there is an active [COLOR_POSITIVE_TEXT]Open Door Policy[ENDCOLOR] in effect here, no one can become this City-State's Ally.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESOLUTION_SOI">
-			<Text>세력 범위</Text>
+			<Text>영향력 범위</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESOLUTION_SOI_HELP">
 			<Text>Demand a Sphere of Influence over a City-State. If successful, the proposing player becomes the permanent Ally of the City-State (unless this Proposal is repealed). [NEWLINE][NEWLINE]Available once any Civilization discovers Steam Power.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_SOI">
-			<Text>세력 범위: {1_CivsList}</Text>
+			<Text>영향력 범위: {1_CivsList}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_SOI_ENTRY">
 			<Text>{@1_CivName} (for {@2_CivName})</Text>
