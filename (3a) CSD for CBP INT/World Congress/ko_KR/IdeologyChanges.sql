@@ -222,7 +222,7 @@ SET Text = 'The World Congress is reborn as the United Nations.  A special sessi
 WHERE Tag = 'TXT_KEY_LEAGUE_SPECIAL_SESSION_START_UNITED_NATIONS_HELP' AND EXISTS (SELECT * FROM CSD WHERE Type='IDEOLOGY_CSD' AND Value= 1 );
 
 UPDATE Language_ko_KR
-SET Text = '외교[NEWLINE][NEWLINE]다음 국제 연합 소집까지 남은 턴 : {1_TurnsUntilSession}[NEWLINE][NEWLINE]다음 [COLOR_POSITIVE_TEXT]세계 패권[ENDCOLOR] 제안까지 남은 턴 : {2_TurnsUntilVictorySession}[NEWLINE][NEWLINE] [COLOR_POSITIVE_TEXT]세계 이념 결의안[ENDCOLOR]이 활성화된 경우 [COLOR_POSITIVE_TEXT]외교 승리[ENDCOLOR]가 가능합니다.'
+SET Text = '외교[NEWLINE][NEWLINE]다음 국제 연합 소집까지 남은 턴 : {1_TurnsUntilSession}[NEWLINE][NEWLINE]다음 [COLOR_POSITIVE_TEXT]세계 패권[ENDCOLOR] 제안까지 남은 턴 : {2_TurnsUntilVictorySession}[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]세계 이념 결의안[ENDCOLOR]이 활성화된 경우 [COLOR_POSITIVE_TEXT]외교 승리[ENDCOLOR]가 가능합니다.'
 WHERE Tag = 'TXT_KEY_EO_DIPLOMACY_AND_VICTORY_SESSION' AND EXISTS (SELECT * FROM CSD WHERE Type='IDEOLOGY_CSD' AND Value= 1 );
 
 UPDATE Language_ko_KR

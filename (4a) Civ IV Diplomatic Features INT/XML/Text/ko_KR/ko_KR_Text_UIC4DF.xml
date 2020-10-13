@@ -502,7 +502,7 @@
 			<Text>당신은 이 종속국에서 매턴 그들의 턴당 [ICON_GOLD]골드 수입 {3_Num} 골드의 {2_TaxRate}%인 {1_Num} [ICON_GOLD]골드를 받고 있습니다.[NEWLINE][NEWLINE]세금은 당신의 팀에서 균등하게 분배됩니다.[NEWLINE][NEWLINE]종속국 세금은 턴 시작 시 측정됩니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_VO_TAX_TOO_SOON">
-			<Text>세금 조정 후 {1_NumTurns}턴 동안은 세금을 다시 조정할 수 없습니다.[NEWLINE][NEWLINE] {2_NumTurnsLeft}턴 후에 다시 조정할 수 있습니다.</Text>
+			<Text>세금 조정 후 {1_NumTurns}턴 동안은 세금을 다시 조정할 수 없습니다.[NEWLINE][NEWLINE]{2_NumTurnsLeft}턴 후에 다시 조정할 수 있습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_VO_TAX_TURN_SET">
 			<Text>{1_Turn}턴에 세금이 책정되었습니다.</Text>
@@ -657,7 +657,7 @@
 			<Text>[ICON_CITIZEN] 인구 %</Text>
 		</Row>
 		<Row Tag="TXT_KEY_VO_MASTER_VIEW_POP_PERCENT_TT">
-			<Text>우리 [ICON_CITIZEN] 인구와 {1_MasterPlayer} [ICON_CITIZEN] 인구의 비율입니다.[NEWLINE][NEWLINE] 팀 간의 [ICON_CITIZEN] 인구 비율입니다.</Text>
+			<Text>우리 [ICON_CITIZEN] 인구와 {1_MasterPlayer} [ICON_CITIZEN] 인구의 비율입니다.[NEWLINE][NEWLINE]팀 간의 [ICON_CITIZEN] 인구 비율입니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_VO_MASTER_POP_STARTED_PERCENT">
 			<Text>종속국 협정 체결 당시 [ICON_CITIZEN] 인구 %</Text>
