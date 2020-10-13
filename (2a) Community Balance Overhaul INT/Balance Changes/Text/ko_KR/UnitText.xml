@@ -230,14 +230,14 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_SIEGE_INACCURACY">
-			<Text>공성 부정확</Text>
+			<Text>공성 부정확성</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_SIEGE_INACCURACY_HELP">
 			<Text>-33% [ICON_STRENGTH] Combat Strength VS [COLOR_NEGATIVE_TEXT]Land Units[ENDCOLOR].</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_NAVAL_INACCURACY">
-			<Text>해상 부정확</Text>
+			<Text>해상 부정확성</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_NAVAL_INACCURACY_HELP">
 			<Text>-25% [ICON_STRENGTH] Combat Strength VS [COLOR_NEGATIVE_TEXT]Land Units[ENDCOLOR].</Text>

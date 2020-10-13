@@ -3,100 +3,100 @@
 -- AUTOCRACY
 --------------------
 
--- Clausewitz's Legacy
+-- Clausewitz's Legacy 클라우비츠의 유산
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]Martial Spirit[ENDCOLOR]: +25% Attack Bonus for 50 turns, scaling with Gamespeed. [ICON_WAR] War Weariness reduced by 25%, and [ICON_RAZING] Razing Speed is doubled.'
+SET Text = '[COLOR_POSITIVE_TEXT]군인 정신[ENDCOLOR]: 정책을 채택한 후 50턴 동안 모든 군사 유닛의 공격력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다. [ICON_WAR]전쟁 피로도가 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 감소하고 도시를 불태우는 속도가 [COLOR_POSITIVE_TEXT]두 배[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_POLICY_NEW_ORDER_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 UPDATE Language_ko_KR
-SET Text = 'Martial Spirit'
+SET Text = '군인 정신'
 WHERE Tag = 'TXT_KEY_POLICY_NEW_ORDER' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 UPDATE Language_ko_KR
 SET Text = 'Martial spirit represents the prevasiveness of competition and combat-oriented sports within a society. Today, athletes usually fight one-on-one, but may still use various skill sets such as strikes in boxing that only allows punching, taekwondo where punches and kicks are the focus or muay thai and burmese boxing that also allow the use of elbows and knees. There are also grappling based sports that may concentrate on obtaining a superior position as in freestyle or Collegiate wrestling using throws such as in judo and Greco-Roman wrestling the use of submissions as in Brazilian jiu-jitsu. Modern mixed martial arts competitions are similar to the historic Greek Olympic sport of pankration and allow a wide range of both striking and grappling techniques. Combat sports may also be armed and the athletes compete using weapons, such as types of sword in western fencing (the foil, épée and saber) and kendo (shinai). Modern combat sports may also wear complex armour, like SCA Heavy Combat and kendo. In Gatka and Modern Arnis sticks are used, sometimes representing knives and swords.'
 WHERE Tag = 'TXT_KEY_POLICY_NEW_ORDER_TEXT' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
--- Cult of Personality
+-- Cult of Personality 개인숭배
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]Cult of Personality[ENDCOLOR]: +50% Tourism [ICON_TOURISM] to civilizations fighting a common enemy. 50% of your highest Warscore counts as a [ICON_TOURISM] Tourism Modifier with all Civilizations. Free [ICON_GREAT_PEOPLE] Great Person of your choice.'
+SET Text = '[COLOR_POSITIVE_TEXT]개인 숭배[ENDCOLOR]: 같은 문명을 상대로 싸우는 문명이 얻는 [ICON_TOURISM]관광이 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 증가합니다. 가장 높은 전쟁 점수의 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR]가 알려진 모든 문명에 대한 [ICON_TOURISM]관광에 추가됩니다. 원하는 [ICON_GREAT_PEOPLE][COLOR_POSITIVE_TEXT]위인[ENDCOLOR]이 1명 출현합니다.'
 WHERE Tag = 'TXT_KEY_POLICY_CULT_PERSONALITY_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
--- Elite Forces
+-- Elite Forces 정예부대
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]Elite Forces[ENDCOLOR]: Newly created Military Units receive +15 Experience. Military Units gain 50% more Experience from combat.'
+SET Text = '[COLOR_POSITIVE_TEXT]정예 부대[ENDCOLOR]: 새로 생산하는 군사 유닛의 경험치가 [COLOR_POSITIVE_TEXT]15[ENDCOLOR] 증가합니다. 군사 유닛이 전투에서 얻는 경험치가 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_POLICY_ELITE_FORCES_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
--- Fortified Borders
+-- Fortified Borders 국경강화
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]New World Order[ENDCOLOR]: Reduces [ICON_HAPPINESS_3] Unhappiness Needs Modifier for [ICON_FOOD]/[ICON_PRODUCTION] Distress in all Cities by 20%. Police Stations and Constabularies provide +3 [ICON_CULTURE] Culture and +5 [ICON_PRODUCTION] Production, and are constructed 100% more quickly.'
+SET Text = '[COLOR_POSITIVE_TEXT]신세계 질서[ENDCOLOR]: 모든 도시의 [ICON_FOOD]/[ICON_PRODUCTION]곤경에서 오는 전역 [ICON_HAPPINESS_3]불행 반영값이 [COLOR_POSITIVE_TEXT]20%[ENDCOLOR] 감소합니다. 모든 경찰서 및 경찰대의 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 증가하고 건설 속도가 [COLOR_POSITIVE_TEXT]100%[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_POLICY_FORTIFIED_BORDERS_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 UPDATE Language_ko_KR
-SET Text = 'New World Order'
+SET Text = '신세계 질서'
 WHERE Tag = 'TXT_KEY_POLICY_FORTIFIED_BORDERS' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
--- Futurism
+-- Futurism 미래파
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]Futurism[ENDCOLOR]: [ICON_TOURISM] Tourism bonus from Historic Events increased by 20%. +2 [ICON_CULTURE] Culture from Great Works. Earn 50 [ICON_TOURISM] Tourism when you conquer a city for the first time, scaling with Era and city size.'
+SET Text = '[COLOR_POSITIVE_TEXT]미래파[ENDCOLOR]: 역사적 이벤트에서 오는 [ICON_TOURISM]관광 보너스가 [COLOR_POSITIVE_TEXT]20%[ENDCOLOR] 증가하고 [ICON_GREAT_WORK]걸작에서 오는 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다. 처음 도시를 정복했을 때 [ICON_TOURISM]관광을 [COLOR_POSITIVE_TEXT]50[ENDCOLOR] 제공합니다.'
 WHERE Tag = 'TXT_KEY_POLICY_FUTURISM_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
--- Industrial Espionage (now Lebensraum)
+-- Industrial Espionage (now Lebensraum) 산업스파이
 UPDATE Language_ko_KR
-SET Text = 'Lebensraum'
+SET Text = '레벤스라움'
 WHERE Tag = 'TXT_KEY_POLICY_INDUSTRIAL_ESPIONAGE' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]Lebensraum[ENDCOLOR]: Receive [ICON_CULTURE] Culture and [ICON_GOLDEN_AGE] Golden Age Points when your borders expand. Citadel tile-acquisition radius doubled.'
+SET Text = '[COLOR_POSITIVE_TEXT]레벤스라움[ENDCOLOR]: 국경이 확장될 때 [ICON_CULTURE]문화 및 [ICON_GOLDEN_AGE]황금기 점수가 증가합니다. 성채가 획득하는 타일의 범위가 [COLOR_POSITIVE_TEXT]두 배[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_POLICY_INDUSTRIAL_ESPIONAGE_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 UPDATE Language_ko_KR
 SET Text = 'Lebensraum (German for "habitat" or literally "living space") was an ideology proposing an aggressive expansion of Germany and the German people. Developed under the German Empire, it became part of German goals during the First World War and was later adopted as an important component of Nazi ideology in Germany.'
 WHERE Tag = 'TXT_KEY_POLICY_INDUSTRIAL_ESPIONAGE_TEXT' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
--- Lightning Warfare
+-- Lightning Warfare 전격전
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]Lightning Warfare[ENDCOLOR]: +3 [ICON_MOVES] Movement for Great Generals. Gun units gain +15% attack and ignore enemy ZOC; Armor units gain +15% attack and +1 [ICON_MOVES] Movement.'
+SET Text = '[COLOR_POSITIVE_TEXT]전격전[ENDCOLOR]: 위대한 장군의 [ICON_MOVES]이동력이 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] 증가합니다. 화약 유닛이 적군의 통제 지역을 무시하고 공격력이 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR] 증가합니다. 기갑 유닛의 공격력이 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR] [ICON_MOVES]이동력이[COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_POLICY_LIGHTNING_WARFARE_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
--- Militarism
+-- Militarism 군국주의
 UPDATE Language_ko_KR
-SET Text = 'Air Supremacy'
+SET Text = '제공권'
 WHERE Tag = 'TXT_KEY_POLICY_MILITARISM' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]Air Supremacy[ENDCOLOR]: Receive a free Airport in every City. +25% [ICON_PRODUCTION] Production when building Aircraft. Can build [COLOR_YELLOW]Zeroes[ENDCOLOR].'
+SET Text = '[COLOR_POSITIVE_TEXT]제공권[ENDCOLOR]: 모든 도시에 공항을 무료로 제공합니다. 공중 유닛을 생산할 때 [ICON_PRODUCTION]생산 보너스를 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 제공합니다. Can build [COLOR_YELLOW]Zeroes[ENDCOLOR].'
 WHERE Tag = 'TXT_KEY_POLICY_MILITARISM_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 UPDATE Language_ko_KR
 SET Text = 'Air supremacy is a position in war where a side holds complete control of air warfare and air power over opposing forces. It is defined by NATO and the United States Department of Defense as the "degree of air superiority wherein the opposing air force is incapable of effective interference."'
 WHERE Tag = 'TXT_KEY_POLICY_MILITARISM_TEXT' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
--- Mobilization 
+-- Mobilization 동원령
 UPDATE Language_ko_KR
-SET Text = 'Military-Industrial Complex'
+SET Text = '군산복합체'
 WHERE Tag = 'TXT_KEY_POLICY_MOBILIZATION' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]Military-Industrial Complex[ENDCOLOR]: -33% [ICON_GOLD] Gold cost of purchasing/upgrading units. +3 [ICON_RESEARCH] Science from [ICON_STRENGTH] Defense Buildings, Citadels, Forts, and Unique Improvements.'
+SET Text = '[COLOR_POSITIVE_TEXT]군산복합체[ENDCOLOR]: [ICON_GOLD]골드로 유닛을 구입하거나 업그레이드 하는 비용이 [COLOR_POSITIVE_TEXT]33%[ENDCOLOR] 감소합니다. 방어 건물, 성채, 요새, 고유 시설의 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_POLICY_MOBILIZATION_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 UPDATE Language_ko_KR
 SET Text = 'The military–industrial complex, or military–industrial–congressional complex, comprises the policy and monetary relationships which exist between legislators, national armed forces, and the arms industry that supports them. These relationships include political contributions, political approval for military spending, lobbying to support bureaucracies, and oversight of the industry. It is a type of iron triangle. The term is most often used in reference to the system behind the military of the United States, where it gained popularity after its use in the farewell address of President Dwight D. Eisenhower on January 17, 1961, though the term is applicable to any country with a similarly developed infrastructure'
 WHERE Tag = 'TXT_KEY_POLICY_MOBILIZATION_TEXT' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
--- Nationalism
+-- Nationalism 민족주의
 UPDATE Language_ko_KR
-SET Text = 'Commerce Raiders'
+SET Text = '통상 파괴'
 WHERE Tag = 'TXT_KEY_POLICY_NATIONALISM' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]Commerce Raiders[ENDCOLOR]: +10% [ICON_PRODUCTION] Production from Seaports. +1 [ICON_RES_OIL] Oil and [ICON_RES_COAL] Coal for every City-State Alliance. Submarines and Melee Naval Units gain the [COLOR_POSITIVE_TEXT]Prize Rules[ENDCOLOR] Promotion.'
+SET Text = '[COLOR_POSITIVE_TEXT]통상 파괴[ENDCOLOR]: 항구의 생산이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다. 동맹인 [ICON_CITY_STATE]도시 국가 1개마다 [ICON_RES_OIL]석유 자원 및 [ICON_RES_COAL]석탄 자원의 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 잠수함 및 근접 해상 유닛에 [COLOR_PLAYER_PURPLE]전리품[ENDCOLOR] 승급을 부여합니다.'
 WHERE Tag = 'TXT_KEY_POLICY_NATIONALISM_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 UPDATE Language_ko_KR
@@ -104,20 +104,22 @@ SET Text = 'Commerce raiding is a form of naval warfare used to destroy or disru
 WHERE Tag = 'TXT_KEY_POLICY_NATIONALISM_TEXT' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 
--- Police State
+-- Police State 경찰국가
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]Police State[ENDCOLOR]: +3 [ICON_HAPPINESS_1] Local Happiness from every Courthouse, and +1 [ICON_HAPPINESS_1] Happiness from Police Stations. Build Courthouses in half the usual time.'
+SET Text = '[COLOR_POSITIVE_TEXT]경찰국가[ENDCOLOR]: 법원 1개마다 도시의 [ICON_HAPPINESS_1]행복이 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] 증가하고 경찰서의 [ICON_HAPPINESS_1]행복이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 법원의 건설 속도가 절반으로 감소합니다.'
 WHERE Tag = 'TXT_KEY_POLICY_POLICE_STATE_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
--- Third Alternative 
+-- Third Alternative 제삼의수단
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]Third Alternative[ENDCOLOR]: Quantity of Strategic Resources produced is increased by 100%. Reduces Unit [ICON_GOLD] Gold Maintenance costs by 25%.'
+SET Text = '[COLOR_POSITIVE_TEXT]제삼의 수단[ENDCOLOR]: 문명이 생산하는 전략 자원의 양이 [COLOR_POSITIVE_TEXT]100%[ENDCOLOR] 증가합니다. 유닛 [ICON_GOLD]유지비가 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 감소합니다.'
 WHERE Tag = 'TXT_KEY_POLICY_THIRD_ALTERNATIVE_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
--- Total War
+-- Total War 총력전
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]Total War[ENDCOLOR]: +25% [ICON_PRODUCTION] Production when building Land Units. Warscore increases 25% more quickly, and it is 25% easier to bully City-States.'
+SET Text = '[COLOR_POSITIVE_TEXT]총력전[ENDCOLOR]: 지상 유닛을 생산할 때 [ICON_PRODUCTION]생산 보너스를 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 제공합니다. 전쟁 점수가 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 더 빠르게 증가하고 
+
++25% [ICON_PRODUCTION] Production when building Land Units. Warscore increases 25% more quickly, and it is 25% easier to bully City-States.'
 WHERE Tag = 'TXT_KEY_POLICY_TOTAL_WAR_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 --Gunboat 
