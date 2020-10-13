@@ -2851,7 +2851,7 @@
 			<Text>[NEWLINE]보급 한도 때문에 이 유닛을 [ICON_PRODUCTION]생산할 수 없습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NO_ACTION_NO_SUPPLY_PURCHASE">
-			<Text>[NEWLINE]보급 한도 때문에 이 유닛을 [ICON_GOLD]구매할 수 없습니다.</Text>
+			<Text>[NEWLINE]보급 한도 때문에 이 유닛을 [ICON_GOLD]구입할 수 없습니다.</Text>
 		</Row>
 
 		<!-- Lack of gross resource (before deductions) -->
@@ -3155,10 +3155,10 @@
 
 		<!-- Embark String for Less/No City Cost-->
 		<Row Tag="TXT_KEY_ABLTY_CITY_LESS_EMBARK_COST_STRING">
-			<Text>자신이 소유한 도시에서 승선/상륙 시 이동력을 1만큼만 소모합니다.</Text>
+			<Text>소유한 도시에서 승선/상륙 시 [ICON_MOVES]이동력 1 소모</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ABLTY_CITY_NO_EMBARK_COST_STRING">
-			<Text>자신이 소유한 도시에서 승선/상륙 시 이동력을 소모하지 않습니다.</Text>
+			<Text>소유한 도시에서 승선/상륙 시 [ICON_MOVES]이동력 소모 없음</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ABLTY_CITY_RANGE_INCREASE">
 			<Text>도시 공격 범위: +1</Text>
@@ -5189,16 +5189,16 @@
 		<!-- New Building Pop Requirements -->
 
 		<Row Tag="TXT_KEY_NO_ACTION_TENETS_COUNT_NEEDED">
-			<Text>[NEWLINE]{2_BuildingName:textkey} 건물을 건설하기 위해서는 이념 3티어 정책이 {1_Num}개 더 있어야 합니다.</Text>
+			<Text>[NEWLINE]{2_BuildingName:textkey} 건물을 건설하기 위해서는 3단계 이념이 {1_Num}개 더 있어야 합니다.</Text>
 		</Row>
 
 
 		<Row Tag="TXT_KEY_NO_ACTION_BUILDING_NEED_NATIONAL_POP">
-			<Text>[NEWLINE]{2_BuildingName:textkey} 건물을 건설하기 위해서는 문명의 시민이 {1_Num}명 더 있어야 합니다.</Text>
+			<Text>[NEWLINE]{2_BuildingName:textkey} 건물을 건설하기 위해서는 문명 전역의 시민이 {1_Num}명 더 있어야 합니다.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_NO_ACTION_BUILDING_NEED_LOCAL_POP">
-			<Text>[NEWLINE]{2_BuildingName:textkey} 건물을 건설하기 위해서는 도시 시민이 {1_Num}명 더 있어야 합니다.</Text>
+			<Text>[NEWLINE]{2_BuildingName:textkey} 건물을 건설하기 위해서는 도시의 시민이 {1_Num}명 더 있어야 합니다.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_NO_ACTION_BUILDING_NEED_FOLLOWER_POP">
@@ -5206,7 +5206,7 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_NO_ACTION_BUILDING_NEED_GLOBAL_FOLLOWER_POP">
-			<Text>[NEWLINE]{2_BuildingName:textkey} 건물을 건설하기 위해서는 세계에서 당신의 [ICON_RELIGION]종교를 따르는 신자가 {1_Num}% 더 있어야 합니다.</Text>
+			<Text>[NEWLINE]{2_BuildingName:textkey} 건물을 건설하기 위해서는 전 세계에  당신의 [ICON_RELIGION]종교를 따르는 신자가 {1_Num}% 더 있어야 합니다.</Text>
 		</Row>
 
 		<!-- New Spy Action Texts -->
@@ -5359,7 +5359,7 @@
 			<Text>{1_CityName}에서 무장 반란!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_SPY_REBELLION_RESISTANCE">
-			<Text>{1_SpyRank} {2_SpyName}{2: plural 1?이; 2?가;} {3_CityName}에서 반군들을 무장시켜 도시에 피해를 주고 도시 주변에 반군들을 형성했습니다.</Text>
+			<Text>{1_SpyRank} {2_SpyName}{2: plural 1?이; 2?가;} {3_CityName}에서 반란군을 무장시켜 도시에 피해를 입히고 도시 주변에 반란군을 형성했습니다.</Text>
 		</Row>
 
 		<!-- Detected-->
@@ -5367,20 +5367,20 @@
 			<Text>{1_CityName}에서 무장 반란!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_REBEL_ARMED_SPY_DETECTED_W_TIP">
-			<Text>정체불명의 스파이가 {1_CityName}에서 반군들을 지원하여 도시에 피해를 주고 두시 주변에 반군들을 형성했습니다.[NEWLINE]이 도시에 스파이를 배치하여 적 스파이의 활동을 방지할 수 있습니다.</Text>
+			<Text>정체불명의 스파이가 {1_CityName}에서 반란군을 지원하여 도시에 피해를 입히고 도시 주변에 반란군을 형성했습니다.[NEWLINE]이 도시에 스파이를 배치하여 적 스파이의 활동을 방지할 수 있습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_REBEL_ARMED_SPY_DETECTED">
-			<Text>정체불명의 스파이가 {1_CityName}에서 반군들을 지원하여 도시에 피해를 주고 두시 주변에 반군들을 형성했습니다.</Text>
+			<Text>정체불명의 스파이가 {1_CityName}에서 반란군을 지원하여 도시에 피해를 입히고 도시 주변에 반란군을 형성했습니다.</Text>
 		</Row>
 		<!-- Identified  -->
 		<Row Tag="TXT_KEY_NOTIFICATION_REBEL_ARMED_SPY_IDENTIFIED_S">
 			<Text>{2_CityName}에서 {1_CivShortDesc} 문명의 지원을 받은 무장 반란!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_REBEL_ARMED_SPY_IDENTIFIED_W_TIP">
-			<Text>{1_CivAdj} 스파이가  {2_CityName}에서 반군들을 지원하여 도시에 피해를 주고 도시 주변에 반군들을 형성했습니다.[NEWLINE]이 도시에 스파이를 배치하여 적 스파이의 활동을 방지할 수 있습니다.</Text>
+			<Text>{1_CivAdj} 스파이가  {2_CityName}에서 반란군을 지원하여 도시에 피해를 입히고 도시 주변에 반란군을 형성했습니다.[NEWLINE]이 도시에 스파이를 배치하여 적 스파이의 활동을 방지할 수 있습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_REBEL_ARMED_SPY_IDENTIFIED">
-			<Text>{1_CivAdj} 스파이가  {2_CityName}에서 반군들을 지원하여 도시에 피해를 주고 도시 주변에 반군들을 형성했습니다.</Text>
+			<Text>{1_CivAdj} 스파이가  {2_CityName}에서 반란군을 지원하여 도시에 피해를 입히고 도시 주변에 반란군을 형성했습니다.</Text>
 		</Row>
 
 		<!-- Gold Theft -->
@@ -5496,13 +5496,13 @@
 
 		<!-- tooltip for purchase cooldown -->
 		<Row Tag="TXT_KEY_COOLDOWN_X_TURNS_REMAINING">
-			<Text>[NEWLINE]최근 이 도시에서 [ICON_GOLD]골드으로 구매한 적이 있기 때문에 다시 구매하려면 {1_Num}턴 동안 기다려야 합니다.</Text>
+			<Text>[NEWLINE]최근 이 도시에서 [ICON_GOLD]골드으로 구입한 적이 있기 때문에 다시 구입하려면 {1_Num}턴 동안 기다려야 합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_COOLDOWN_X_TURNS_REMAINING_FAITH">
-			<Text>[NEWLINE]최근 [ICON_GREAT_PEOPLE]위인을 [ICON_PEACE]신앙으로 구매한 적이 있기 때문에 다시 구매하려면 {1_Num}턴 동안 기다려야 합니다.</Text>
+			<Text>[NEWLINE]최근 [ICON_GREAT_PEOPLE]위인을 [ICON_PEACE]신앙으로 구입한 적이 있기 때문에 다시 구입하려면 {1_Num}턴 동안 기다려야 합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_COOLDOWN_X_TURNS_REMAINING_FAITH_LOCAL">
-			<Text>[NEWLINE]최근 이 도시에서 [ICON_PEACE]신앙으로 구매한 적이 있기 떄문에 다시 구매하려면 {1_Num}턴 동안 기다려야 합니다.</Text>
+			<Text>[NEWLINE]최근 이 도시에서 [ICON_PEACE]신앙으로 구입한 적이 있기 떄문에 다시 구입하려면 {1_Num}턴 동안 기다려야 합니다.</Text>
 		</Row>
 
 		<!-- Tooltips for CBP Austria Ability -->
@@ -5510,22 +5510,22 @@
 			<Text>{@2_MinorCivName} 문명과 {@1_CivName} 사이의 결혼!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_MINOR_MARRIAGE_TT_1">
-			<Text>{@1_CivName}의 아름다운 공주가 {@2_MinorCivName}의 귀족과 결혼했습니다. 결혼으로 둘 사이의 외교 관계가 통합되어 {@1_CivName} 문명은 {@2_MinorCivName}에게서 세계 대표단 1명을 추가로 확보하며, 그들 [ICON_CAPITAL]수도의 [ICON_GREAT_PEOPLE]위인 탄생 속도가 증가하고 해당 도시 국가와의 [ICON_INFLUENCE]영향력이 떨어지지 않습니다.</Text>
+			<Text>{@1_CivName}의 아름다운 공주가 {@2_MinorCivName}의 귀족과 결혼했습니다. 결혼으로 둘 사이의 외교 관계가 통합되어 {@1_CivName} 문명은 {@2_MinorCivName}에게서 세계 대표단 1명을 추가로 확보하며, 그들 [ICON_CAPITAL]수도의 [ICON_GREAT_PEOPLE]위인 출현율이 증가하고 해당 도시 국가와의 [ICON_INFLUENCE]영향력이 떨어지지 않습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_MINOR_MARRIAGE_TT_2">
-			<Text>{@1_CivName}의 잘생긴 왕자가 {@2_MinorCivName}의 귀족 여자와 결혼했습니다. 결혼으로 둘 사이의 외교 관계가 통합되어 {@1_CivName} 문명은 {@2_MinorCivName}에게서 세계 대표단 1명을 추가로 확보하며, 그들 [ICON_CAPITAL]수도의 [ICON_GREAT_PEOPLE]위인 탄생 속도가 증가하고 해당 도시 국가와의 [ICON_INFLUENCE]영향력이 떨어지지 않습니다.</Text>
+			<Text>{@1_CivName}의 잘생긴 왕자가 {@2_MinorCivName}의 귀족 여자와 결혼했습니다. 결혼으로 둘 사이의 외교 관계가 통합되어 {@1_CivName} 문명은 {@2_MinorCivName}에게서 세계 대표단 1명을 추가로 확보하며, 그들 [ICON_CAPITAL]수도의 [ICON_GREAT_PEOPLE]위인 출현율이 증가하고 해당 도시 국가와의 [ICON_INFLUENCE]영향력이 떨어지지 않습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_DETAILS_MARRIED_VOTES">
 			<Text>[NEWLINE][ICON_BULLET] 정략 결혼에서 {1_Num}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_POP_CSTATE_MARRIAGE_TT">
-			<Text>[ICON_GOLD]골드 {1_BuyoutCost} 골드를 소비하여 이 도시 국가와의 정략 결혼을 주선할 수 있습니다. 정략 결혼을 하면 대표단 1명을 추가로 얻으며 [ICON_CAPITAL]수도의  [ICON_GREAT_PEOPLE]위인 탄생 속도가 15% 증가하고 해당 도시 국가와의 [ICON_INFLUENCE]영향력이 떨어지지 않습니다.[NEWLINE][NEWLINE]도시 국가마다 한 번만 할 수 있으며, [ICON_GOLD]골드의 비용은 정략 결혼을 할 때마다 증가합니다.</Text>
+			<Text>[ICON_GOLD]골드 {1_BuyoutCost} 골드를 소비하여 이 도시 국가와의 정략 결혼을 주선할 수 있습니다. 정략 결혼을 하면 대표단 1명을 추가로 얻으며 [ICON_CAPITAL]수도의  [ICON_GREAT_PEOPLE]위인 출현율이 15% 증가하고 해당 도시 국가와의 [ICON_INFLUENCE]영향력이 떨어지지 않습니다.[NEWLINE][NEWLINE]도시 국가마다 한 번만 할 수 있으며, [ICON_GOLD]골드의 비용은 정략 결혼을 할 때마다 증가합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_POP_CSTATE_MARRIAGE_DISABLED_TT">
-			<Text>[ICON_GOLD]골드 {1_BuyoutCost} 골드를 소비하여 이 도시 국가와의 정략 결혼을 주선할 수 있습니다. 정략 결혼을 하면 대표단 1명을 추가로 얻으며 [ICON_CAPITAL]수도의  [ICON_GREAT_PEOPLE]위인 탄생 속도가 15% 증가하고 해당 도시 국가와의 [ICON_INFLUENCE]영향력이 떨어지지 않습니다.[NEWLINE][NEWLINE]도시 국가마다 한 번만 할 수 있으며, [ICON_GOLD]골드의 비용은 정략 결혼을 할 때마다 증가합니다.[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]동맹이 {1_NumTurns}턴 동안 지속된 상태여야 하고 정략 결혼에 필요한 [ICON_GOLD]골드 {2_BuyoutCost} 골드가 있어야 합니다.[ENDCOLOR]</Text>
+			<Text>[ICON_GOLD]골드 {1_BuyoutCost} 골드를 소비하여 이 도시 국가와의 정략 결혼을 주선할 수 있습니다. 정략 결혼을 하면 대표단 1명을 추가로 얻으며 [ICON_CAPITAL]수도의  [ICON_GREAT_PEOPLE]위인 출현율이 15% 증가하고 해당 도시 국가와의 [ICON_INFLUENCE]영향력이 떨어지지 않습니다.[NEWLINE][NEWLINE]도시 국가마다 한 번만 할 수 있으며, [ICON_GOLD]골드의 비용은 정략 결혼을 할 때마다 증가합니다.[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]동맹이 {1_NumTurns}턴 동안 지속된 상태여야 하고 정략 결혼에 필요한 [ICON_GOLD]골드 {2_BuyoutCost} 골드가 있어야 합니다.[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_POP_CSTATE_MARRIAGE_DISABLED_ALLY_TT">
-			<Text>[ICON_GOLD]골드 {1_BuyoutCost} 골드를 소비하여 이 도시 국가와의 정략 결혼을 주선할 수 있습니다. 정략 결혼을 하면 대표단 1명을 추가로 얻으며 [ICON_CAPITAL]수도의  [ICON_GREAT_PEOPLE]위인 탄생 속도가 15% 증가하고 해당 도시 국가와의 [ICON_INFLUENCE]영향력이 떨어지지 않습니다.[NEWLINE][NEWLINE]도시 국가마다 한 번만 할 수 있으며, [ICON_GOLD]골드의 비용은 정략 결혼을 할 때마다 증가합니다.[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]동맹이 {1_NumTurns}터난 지속된 상태여야 하고 (현재 {2_TurnsAllied}턴 동안 지속됨) 정략 결혼에 필요한 [ICON_GOLD]골드 {3_BuyoutCost} 골드가 있어야 합니다.[ENDCOLOR]</Text>
+			<Text>[ICON_GOLD]골드 {1_BuyoutCost} 골드를 소비하여 이 도시 국가와의 정략 결혼을 주선할 수 있습니다. 정략 결혼을 하면 대표단 1명을 추가로 얻으며 [ICON_CAPITAL]수도의  [ICON_GREAT_PEOPLE]위인 출현율이 15% 증가하고 해당 도시 국가와의 [ICON_INFLUENCE]영향력이 떨어지지 않습니다.[NEWLINE][NEWLINE]도시 국가마다 한 번만 할 수 있으며, [ICON_GOLD]골드의 비용은 정략 결혼을 할 때마다 증가합니다.[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]동맹이 {1_NumTurns}터난 지속된 상태여야 하고 (현재 {2_TurnsAllied}턴 동안 지속됨) 정략 결혼에 필요한 [ICON_GOLD]골드 {3_BuyoutCost} 골드가 있어야 합니다.[ENDCOLOR]</Text>
 		</Row>
 
 		<!-- Venice Tooltip -->
@@ -6864,10 +6864,10 @@
 			<Text>[ICON_PRODUCTION]군사 유닛 생산:[NEWLINE]{1_YieldString}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_PURCHASE">
-			<Text>[ICON_GOLD]유닛이나 건물 구매:[NEWLINE]{1_YieldString}</Text>
+			<Text>[ICON_GOLD]유닛 또는 건물 구입:[NEWLINE]{1_YieldString}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_TILE_PURCHASE">
-			<Text>[ICON_GOLD]타일 구매:[NEWLINE]{1_YieldString}</Text>
+			<Text>[ICON_GOLD]타일 구입:[NEWLINE]{1_YieldString}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_FOUND">
 			<Text>[ICON_GOLDEN_AGE]도시 개척:[NEWLINE]{1_YieldString}</Text>
@@ -6921,7 +6921,7 @@
 			<Text>[ICON_INQUISITOR]이단 제거:[NEWLINE]{1_YieldString}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_FAITH_PURCHASE">
-			<Text>도시에서 [ICON_PEACE]신앙 구매:[NEWLINE]{1_YieldString}</Text>
+			<Text>도시에서 [ICON_PEACE]신앙 구입:[NEWLINE]{1_YieldString}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_PROMOTION_OBTAINED">
 			<Text>[ICON_STRENGTH]획득한 승급:[NEWLINE]{1_YieldString}</Text>
@@ -7031,7 +7031,7 @@
 			<Text>{1_CSName}{1: plural 1?을; 2?를;} 위한 쿠데타</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_UNIT_GET_CITY_NAME">
-			<Text>{1_CSName}{1: plural 1?을; 2?를;} 위한 정복</Text>
+			<Text>{1_CSName}{1: plural 1?을; 2?를;} 위한 점령</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_INSTANT_YIELD_DETAILS_HAPPINESS">
@@ -7100,7 +7100,7 @@
 			<Text>[NEWLINE]이 유닛에 이미 [ICON_GOLD]골드를 투자했습니다. 이 유닛의 [ICON_PRODUCTION]생산 비용이 {1_Num}% 감소했습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NO_ACTION_UNIT_REQUIRES_BUILDING_PURCHASE">
-			<Text>[NEWLINE]도시에 {1_BuildingType}{1: plural 1?을; 2?를;} 건설해야 이 유닛을 [ICON_GOLD] 구매할 수 있습니다.</Text>
+			<Text>[NEWLINE]도시에 {1_BuildingType}{1: plural 1?을; 2?를;} 건설해야 이 유닛을 [ICON_GOLD] 구입할 수 있습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_INVESTMENT_BUILDING">
 			<Text>[COLOR_POSITIVE_TEXT][ICON_GOLD]골드를 건물에 투자하면 해당 건물의 [ICON_PRODUCTION]생산 비용이 {1_Num}% 감소하고, 불가사의에 투자하면 해당 불가사의의 생산 비용이 {2_Num}% 감소합니다.[ENDCOLOR]</Text>
@@ -7532,7 +7532,7 @@
 			<Text>{2_CityName:textkey}의 유목민들이 {1_Resource:textkey} 집단을 형성하여 당신에게 충성합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EUPANEL_BONUS_CONQUEST_OF_WORLD">
-			<Text>신대륙 정복 황금기 보너스</Text>
+			<Text>신대륙 점령 황금기 보너스</Text>
 		</Row>
 
 		<!-- Autocracy-->

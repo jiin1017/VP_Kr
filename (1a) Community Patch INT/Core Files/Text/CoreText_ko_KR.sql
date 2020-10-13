@@ -14,7 +14,7 @@ WHERE Tag = 'TXT_KEY_GAME_OPTION_NEW_RANDOM_SEED_HELP';
 -- Assyria UA
 INSERT INTO Language_ko_KR
 			(Tag,										Text)
-SELECT		'TXT_KEY_SCIENCE_BOOST_CONQUEST_ASSYRIA',	'당신의 군인들이 {1_Name}{1: plural 1?을; 2?를;} 정복해 [ICON_RESEARCH]과학을 발견했습니다!!'
+SELECT		'TXT_KEY_SCIENCE_BOOST_CONQUEST_ASSYRIA',	'당신의 군인들이 {1_Name}{1: plural 1?을; 2?를;} 점령해 [ICON_RESEARCH]과학을 발견했습니다!!'
 WHERE EXISTS (SELECT * FROM CustomModOptions WHERE Name='ALTERNATE_ASSYRIA_TRAIT' AND Value= 1 );
 
 
@@ -158,11 +158,11 @@ WHERE Tag = 'TXT_KEY_UNIT_ROCKET_ARTILLERY_STRATEGY';
 
 -- National Wonders
 UPDATE Language_ko_KR
-SET Text = '도시 국가 수의 일부분을 기반으로하여 추가 [ICON_SPY]스파이를 제공하며 기존 모든 [ICON_SPY]스파이의 레벨이 상승합니다. 적[ICON_SPY]스파이의 효율이 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR] 감소합니다.[NEWLINE][NEWLINE]모든 도시에 경찰서가 있어야 건설할 수 있습니다. 문명에 도시가 많을수록 건설에 필요한 [ICON_PRODUCTION]생산이 증가합니다.[NEWLINE][NEWLINE]이 불가사의는 문명당 하나만 건설할 수 있는 [COLOR_YELLOW]국가 불가사의[ENDCOLOR]입니다.'
+SET Text = '추가 [ICON_SPY][COLOR_POSITIVE_TEXT]스파이[ENDCOLOR]를 1명 또는 그 이상 ([ICON_CITY_STATE]도시 국가 수에 기반) 제공하고 존재하는 모든 [ICON_SPY]스파이의 레벨이 상승합니다. 적[ICON_SPY]스파이의 효율이 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR] 감소합니다.[NEWLINE][NEWLINE]모든 도시에 경찰서가 있어야 건설할 수 있습니다. 문명에 도시가 많을수록 건설에 필요한 [ICON_PRODUCTION]생산이 증가합니다.[NEWLINE][NEWLINE]이 불가사의는 문명당 하나만 건설할 수 있는 [COLOR_YELLOW]국가 불가사의[ENDCOLOR]입니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_INTELLIGENCE_AGENCY_HELP';
 
 UPDATE Language_ko_KR
-SET Text = '기술 개발을 주도하는 문명에 중요한 방어형 국가 불가사의입니다. 추가 [ICON_SPY]스파이를 제공하며 모든 기존 [ICON_SPY]스파이의 레벨이 오릅니다. 적[ICON_SPY]스파이의 효율성이 15% 감소합니다. 모든 도시에 경찰서가 있어야 국가 정보국을 건설할 수 있습니다.'
+SET Text = '기술 개발을 주도하는 문명에 중요한 방어형 국가 불가사의입니다. 추가 [ICON_SPY][COLOR_POSITIVE_TEXT]스파이[ENDCOLOR]를 1명 또는 그 이상 ([ICON_CITY_STATE]도시 국가 수에 기반) 제공하고 존재하는 모든 [ICON_SPY]스파이의 레벨이 상승합니다. 적[ICON_SPY]스파이의 효율성이 15% 감소합니다. 모든 도시에 경찰서가 있어야 국가 정보국을 건설할 수 있습니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_INTELLIGENCE_AGENCY_STRATEGY';
 
 
@@ -262,7 +262,7 @@ SET Text = '{3_TargetName:textkey}{3: plural 1?이; 2?가;} {1_CivName:textkey}�
 WHERE Tag = 'TXT_KEY_NOTIFICATION_QUEST_KILL_CITY_STATE';
 
 UPDATE Language_ko_KR
-SET Text = '{1_CityStateName:textkey} 정복 (완전한 보상) 또는 {1_CityStateName:textkey}와 이 도시 국가의 동맹 (부분 보상)'
+SET Text = '{1_CityStateName:textkey} 점령 (완전한 보상) 또는 {1_CityStateName:textkey}와 이 도시 국가의 동맹 (부분 보상)'
 WHERE Tag = 'TXT_KEY_CITY_STATE_QUEST_KILL_CITY_STATE_FORMAL';
 
 UPDATE Language_ko_KR
@@ -378,7 +378,7 @@ SET Text = '{1_ReligionName}의 창시자'
 WHERE Tag = 'TXT_KEY_RO_STATUS_FOUNDER';
 
 UPDATE Language_ko_KR
-SET Text = '대중 종교가 강화된 도시 어디에서나 [ICON_PEACE]신앙을 사용해서 구매할 수 있습니다. 당신의 도시에서 다른 종교를 제거할 수 있으며 (이단심문관 사용) 선교사와 선지자를 도시에 배치하여 다른 종교가 전파되는 것을 막을 수 있습니다.'
+SET Text = '대중 종교가 강화된 도시 어디에서나 [ICON_PEACE]신앙을 사용해 구입할 수 있습니다. 당신의 도시에서 다른 종교를 제거할 수 있으며 (이단심문관 사용) 선교사와 선지자를 도시에 배치하여 다른 종교가 전파되는 것을 막을 수 있습니다.'
 WHERE Tag = 'TXT_KEY_UNIT_INQUISITOR_STRATEGY';
 
 
@@ -397,7 +397,7 @@ SET Text = '잠재력은 스파이 활동에 대한 도시의 취약성을 반�
 WHERE Tag = 'TXT_KEY_EO_POTENTIAL_SORT_TT';
 
 UPDATE Language_ko_KR
-SET Text = '만약 당신의 도시들의 잠재력이 높다면 그들을 보호하는 것을 고려해야 합니다. 두 가지 방법으로 도시를 보호할 수 있습니다. 자신의 스파이를 자신이 소유한 도시로 보내 대항 스파이로 활동하게 하면 적 스파이가 기술을 훔치기 전에 잡아 처치할 확률이 있습니다. 경찰대나 경찰서, 인터넷 검열 시스템을 건설해 보호할 수 있습니다.'
+SET Text = '만약 당신 문명의 도시가 잠재력이 높다면 그들을 보호하는 것을 고려해야 합니다. 두 가지 방법으로 도시를 보호할 수 있습니다. 당신 문명의 스파이를 소유한 도시로 보내 대항 스파이로 활동하게 하면 적 스파이가 기술을 훔치기 전에 잡아 처치할 확률이 있습니다. 경찰대나 경찰서, 인터넷 검열 시스템을 건설해 보호할 수 있습니다.'
 WHERE Tag = 'TXT_KEY_EO_OWN_CITY_POTENTIAL_TT';
 
 UPDATE Language_ko_KR

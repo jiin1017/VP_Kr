@@ -6,7 +6,7 @@
 -- Clausewitz's Legacy 클라우비츠의 유산
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]군인 정신[ENDCOLOR]: 정책을 채택한 후 50턴 동안 모든 군사 유닛의 공격력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다. [ICON_WAR]전쟁 피로도가 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 감소하고 도시를 불태우는 속도가 [COLOR_POSITIVE_TEXT]두 배[ENDCOLOR] 증가합니다.'
+SET Text = '[COLOR_POSITIVE_TEXT]군인 정신[ENDCOLOR]: 정책을 채택한 후 50턴 동안 모든 군사 유닛의 공격력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다. [ICON_WAR]전쟁 피로도가 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 감소하고 도시를 불태우는 속도가 [COLOR_POSITIVE_TEXT]두 배[ENDCOLOR] 빨라집니다.'
 WHERE Tag = 'TXT_KEY_POLICY_NEW_ORDER_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 UPDATE Language_ko_KR
@@ -32,7 +32,7 @@ WHERE Tag = 'TXT_KEY_POLICY_ELITE_FORCES_HELP' AND EXISTS (SELECT * FROM COMMUNI
 -- Fortified Borders 국경강화
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]신세계 질서[ENDCOLOR]: 모든 도시의 [ICON_FOOD]/[ICON_PRODUCTION]곤경에서 오는 전역 [ICON_HAPPINESS_3]불행 반영값이 [COLOR_POSITIVE_TEXT]20%[ENDCOLOR] 감소합니다. 모든 경찰서 및 경찰대의 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 증가하고 건설 속도가 [COLOR_POSITIVE_TEXT]100%[ENDCOLOR] 증가합니다.'
+SET Text = '[COLOR_POSITIVE_TEXT]신세계 질서[ENDCOLOR]: 모든 도시의 [ICON_FOOD]/[ICON_PRODUCTION]곤경에서 오는 전역 [ICON_HAPPINESS_3]불행 반영값이 [COLOR_POSITIVE_TEXT]20%[ENDCOLOR] 감소합니다. 모든 경찰서 및 경찰대의 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 증가하고 건설 속도가 [COLOR_POSITIVE_TEXT]100%[ENDCOLOR] 빨라집니다.'
 WHERE Tag = 'TXT_KEY_POLICY_FORTIFIED_BORDERS_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 UPDATE Language_ko_KR
@@ -42,7 +42,7 @@ WHERE Tag = 'TXT_KEY_POLICY_FORTIFIED_BORDERS' AND EXISTS (SELECT * FROM COMMUNI
 -- Futurism 미래파
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]미래파[ENDCOLOR]: 역사적 이벤트에서 오는 [ICON_TOURISM]관광 보너스가 [COLOR_POSITIVE_TEXT]20%[ENDCOLOR] 증가하고 [ICON_GREAT_WORK]걸작에서 오는 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다. 처음 도시를 정복했을 때 [ICON_TOURISM]관광을 [COLOR_POSITIVE_TEXT]50[ENDCOLOR] 제공합니다.'
+SET Text = '[COLOR_POSITIVE_TEXT]미래파[ENDCOLOR]: 역사적 이벤트에서 오는 [ICON_TOURISM]관광 보너스가 [COLOR_POSITIVE_TEXT]20%[ENDCOLOR] 증가하고 [ICON_GREAT_WORK]걸작에서 오는 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다. 도시를 점령했을 때 [ICON_TOURISM]관광을 [COLOR_POSITIVE_TEXT]50[ENDCOLOR] 제공합니다. 이 효과는 도시별 한 번만 적용됩니다.'
 WHERE Tag = 'TXT_KEY_POLICY_FUTURISM_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 -- Industrial Espionage (now Lebensraum) 산업스파이
@@ -70,7 +70,7 @@ SET Text = '제공권'
 WHERE Tag = 'TXT_KEY_POLICY_MILITARISM' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]제공권[ENDCOLOR]: 모든 도시에 공항을 무료로 제공합니다. 공중 유닛을 생산할 때 [ICON_PRODUCTION]생산 보너스를 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 제공합니다. Can build [COLOR_YELLOW]Zeroes[ENDCOLOR].'
+SET Text = '[COLOR_POSITIVE_TEXT]제공권[ENDCOLOR]: 모든 도시에 공항을 무료로 제공합니다. 공중 유닛을 생산할 때 [ICON_PRODUCTION]생산 보너스를 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 제공합니다. [COLOR_YELLOW]제로센[ENDCOLOR] 유닛을 생산할 수 있습니다.'
 WHERE Tag = 'TXT_KEY_POLICY_MILITARISM_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 UPDATE Language_ko_KR
@@ -107,7 +107,7 @@ WHERE Tag = 'TXT_KEY_POLICY_NATIONALISM_TEXT' AND EXISTS (SELECT * FROM COMMUNIT
 -- Police State 경찰국가
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]경찰국가[ENDCOLOR]: 법원 1개마다 도시의 [ICON_HAPPINESS_1]행복이 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] 증가하고 경찰서의 [ICON_HAPPINESS_1]행복이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 법원의 건설 속도가 절반으로 감소합니다.'
+SET Text = '[COLOR_POSITIVE_TEXT]경찰국가[ENDCOLOR]: 법원 1개마다 도시의 [ICON_HAPPINESS_1]행복이 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] 증가하고 경찰서의 [ICON_HAPPINESS_1]행복이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 평소의 절반 속도로 법원을 건설할 수 있습니다.'
 WHERE Tag = 'TXT_KEY_POLICY_POLICE_STATE_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 -- Third Alternative 제삼의수단
@@ -117,18 +117,16 @@ WHERE Tag = 'TXT_KEY_POLICY_THIRD_ALTERNATIVE_HELP' AND EXISTS (SELECT * FROM CO
 
 -- Total War 총력전
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]총력전[ENDCOLOR]: 지상 유닛을 생산할 때 [ICON_PRODUCTION]생산 보너스를 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 제공합니다. 전쟁 점수가 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 더 빠르게 증가하고 
-
-+25% [ICON_PRODUCTION] Production when building Land Units. Warscore increases 25% more quickly, and it is 25% easier to bully City-States.'
+SET Text = '[COLOR_POSITIVE_TEXT]총력전[ENDCOLOR]: 지상 유닛을 생산할 때 [ICON_PRODUCTION]생산 보너스를 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 제공합니다. 전쟁 점수가 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 더 빠르게 증가하고 도시 국가에 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 더 쉽게 공물을 요구할 수 있습니다.'
 WHERE Tag = 'TXT_KEY_POLICY_TOTAL_WAR_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
---Gunboat 
+--Gunboat  포함 외교
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]Tyranny[ENDCOLOR]: No penalty for bullying friendly City-States. Doing so decreases the [ICON_INFLUENCE] Influence of all other Civs with that City-State by 10%, and increases your [ICON_INFLUENCE] Influence by 10%.'
+SET Text = '[COLOR_POSITIVE_TEXT]전제정치[ENDCOLOR]: 우호적인 도시 국가에 공물을 요구할 때 페널티가 없습니다. 도시 국가에 대한 다른 모든 문명의 [ICON_INFLUENCE]영향력이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 감소하고 당신 문명의 [ICON_INFLUENCE]영향력이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_POLICY_GUNBOAT_DIPLOMACY_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 UPDATE Language_ko_KR
-SET Text = 'Tyranny'
+SET Text = '전제정치'
 WHERE Tag = 'TXT_KEY_POLICY_GUNBOAT_DIPLOMACY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 UPDATE Language_ko_KR
@@ -136,93 +134,96 @@ SET Text = 'A tyrant, in the modern English usage of the word, is an absolute ru
 WHERE Tag = 'TXT_KEY_POLICY_GUNBOAT_DIPLOMACY_TEXT' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 
--- United Front
+-- United Front 통일 전선
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]United Front[ENDCOLOR]: Unit Supply generated by [ICON_CITIZEN] Population increased by 50%. While at war, [ICON_INFLUENCE] Influence with allied City-States does not decay, and Militaristic City-State unit gift rates triple.'
+SET Text = '[COLOR_POSITIVE_TEXT]통일 전선[ENDCOLOR]: 군사 유닛 보급 한도가 [ICON_CITIZEN]시민의 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR]만큼 증가합니다. 전쟁 중일 때 동맹인 도시 국가와의 [ICON_INFLUENCE]영향력이 감소하지 않고 군사적 도시 국가의 유닛 선물 비율이 [COLOR_POSITIVE_TEXT]세 배[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_POLICY_UNITED_FRONT_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 --------------------
 -- FREEDOM
 --------------------
 
--- Arsenal of Democracy
+-- Arsenal of Democracy 민주주의 병기창
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]Arsenal of Democracy[ENDCOLOR]: +15% [ICON_PRODUCTION] Production towards Military Units. +10 [ICON_INFLUENCE] Influence with all known City-States when you expend [ICON_GREAT_PEOPLE] Great People, and +40 [ICON_INFLUENCE] Influence when you gift Units to City-States.'
+SET Text = '[COLOR_POSITIVE_TEXT]민주주의 군수창고[ENDCOLOR]: 군사 유닛을 생산할 때 [ICON_PRODUCTION]생산 보너스를 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR] 제공합니다. [ICON_GREAT_PEOPLE]위인을 소모할 때 알려진 모든 도시 국가에 대한 [ICON_INFLUENCE]영향력이 [COLOR_POSITIVE_TEXT]10[ENDCOLOR] 증가하고 도시 국가에 유닛을 선물할 때 [ICON_INFLUENCE]영향력이 [COLOR_POSITIVE_TEXT]40[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_POLICY_ARSENAL_DEMOCRACY_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
--- Capitalism
+-- Capitalism 자본주의
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]Capitalism[ENDCOLOR]: 2 [ICON_CITIZEN] Specialists in each of your cities generate +1 [ICON_HAPPINESS_1] Happiness instead of -1 [ICON_HAPPINESS_3] Unhappiness from Urbanization. Specialists generate +1 [ICON_GOLD] Gold.'
+SET Text = '[COLOR_POSITIVE_TEXT]자본주의[ENDCOLOR]: 
+도시마다 전문가 [COLOR_POSITIVE_TEXT]2명[ENDCOLOR]이 도시화에서 오는 [ICON_HAPPINESS_3]불행을 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소시키는 대신에 [ICON_HAPPINESS_1]행복을 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가시킵니다. 전문가의 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_POLICY_CAPITALISM_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
--- Open Society
+-- Open Society 아방가르드
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]Avant Garde[ENDCOLOR]: The rate at which [ICON_GREAT_PEOPLE] Great People are born is increased by 33%. [ICON_HAPPINESS_3] Unhappiness Needs Modifier for [ICON_CULTURE] Boredom reduced by 20%.'
+SET Text = '[COLOR_POSITIVE_TEXT]아방가르드[ENDCOLOR]: [ICON_GREAT_PEOPLE]위인 출현율이 [COLOR_POSITIVE_TEXT]33%[ENDCOLOR] 증가합니다. [ICON_CULTURE]무료에서 오는 전역 [ICON_HAPPINESS_3]불행 반영 값이 [COLOR_POSITIVE_TEXT]20%[ENDCOLOR] 감소합니다.'
 WHERE Tag = 'TXT_KEY_POLICY_OPEN_SOCIETY_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
--- Civil Society
+-- Civil Society 시민 사회
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]Civil Society[ENDCOLOR]: Specialists consume 2 [ICON_FOOD] Food less than normal (minimum 1 [ICON_FOOD] Food).'
+SET Text = '[COLOR_POSITIVE_TEXT]시민 사회[ENDCOLOR]: 전문가가 소모하는 [ICON_FOOD]식량이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 감소합니다. (최소값: 1 [ICON_FOOD]식량)'
 WHERE Tag = 'TXT_KEY_POLICY_CIVIL_SOCIETY_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
--- Covert Action
+-- Covert Action 비밀 공작
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]Covert Action[ENDCOLOR]: Chance of rigged elections and coups in City-States doubled. Receive one or more additional [ICON_SPY] Spies (based on number of City-States in game).'
+SET Text = '[COLOR_POSITIVE_TEXT]비밀 공작[ENDCOLOR]: 
+도시 국가의 선거 조작 및 쿠데타 성공 확률이 [COLOR_POSITIVE_TEXT]두 배[ENDCOLOR] 증가합니다. 추가 [ICON_SPY][COLOR_POSITIVE_TEXT]스파이[ENDCOLOR]를 1명 또는 그 이상 ([ICON_CITY_STATE]도시 국가 수에 기반) 제공합니다.'
 WHERE Tag = 'TXT_KEY_POLICY_COVERT_ACTION_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
--- Creative Expression
+-- Creative Expression 독창적 표현
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]Creative Expression[ENDCOLOR]: +2 [ICON_TOURISM] Tourism from Great Works. Museums, Broadcast Towers, Opera Houses, and Amphitheaters gain +3 [ICON_GOLDEN_AGE] Golden Age Points and [ICON_CULTURE] Culture.'
+SET Text = '[COLOR_POSITIVE_TEXT]독창적 표현[ENDCOLOR]: [ICON_GREAT_WORK]걸작에서 오는 [ICON_TOURISM]관광이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다. 박물관, 방송탑, 오페라 극장, 원형 극장의 [ICON_GOLDEN_AGE]황금기 점수가 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_POLICY_CREATIVE_EXPRESSION_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
--- Economic Union
+-- Economic Union 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]Economic Union[ENDCOLOR]: Receive two additional [ICON_INTERNATIONAL_TRADE] Trade Routes. +6 [ICON_GOLD] Gold from trade routes with civilizations following Freedom.'
+SET Text = '[COLOR_POSITIVE_TEXT]경제 동맹[ENDCOLOR]: 
+추가 [COLOR_POSITIVE_TEXT]교역로[ENDCOLOR]를 2개 제공합니다. 같은 평등 이념을 따르는 문명과의 교역로에서 획득하는 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]6[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_POLICY_ECONOMIC_UNION_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 -- Media Culture
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]Media Culture[ENDCOLOR]:  +25% [ICON_TOURISM] Tourism and +1 [ICON_HAPPINESS_1] Happiness generated by cities with a Broadcast Tower. +20% [ICON_CULTURE] Culture from Stadiums.'
+SET Text = '[COLOR_POSITIVE_TEXT]미디어 문화[ENDCOLOR]: 모든 방송탑의 [ICON_HAPPINESS_1]행복이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] [ICON_TOURISM]관광이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가하고 경기장의 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]20%[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_POLICY_MEDIA_CULTURE_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 -- Treaty Organization
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]Treaty Organization[ENDCOLOR]: [ICON_INTERNATIONAL_TRADE] Trade Routes to City-States generate +2 [ICON_INFLUENCE] Influence per turn (with the target City-State) per each owned City-State Trade Route (up to +10). +4 Delegates (scaling with map size) for the World Congress.'
+SET Text = '[COLOR_POSITIVE_TEXT]조약 기구[ENDCOLOR]: 교역로가 연결된 도시 국가마다 [ICON_INFLUENCE]영향력이 매 턴 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] (한도: 10) 증가합니다. 세계 대회 추가 [COLOR_POSITIVE_TEXT]대표단[ENDCOLOR]을 4명 (맵 크기별 보정) 확보합니다.'
 WHERE Tag = 'TXT_KEY_POLICY_TREATY_ORGANIZATION_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 -- Finest Hour
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]Their Finest Hour[ENDCOLOR]: [ICON_STRENGTH] Combat Strength of Cities increased by 33%. +25% [ICON_PRODUCTION] Production towards Air Units in all Cities, and can build [COLOR_YELLOW]B17 Bombers[ENDCOLOR].'
+SET Text = '[COLOR_POSITIVE_TEXT]최상의 시간[ENDCOLOR]: 도시의 [ICON_STRENGTH]전투력이 [COLOR_POSITIVE_TEXT]33%[ENDCOLOR] 증가합니다. 모든 도시에서 공중 유닛을 생산할 때 [ICON_PRODUCTION]생산 보너스를 [COLOR_POSITIVE_TEXT]33%[ENDCOLOR] 제공합니다. [COLOR_YELLOW]B-17 폭격기[ENDCOLOR] 유닛을 생산할 수 있습니다.'
 WHERE Tag = 'TXT_KEY_POLICY_THEIR_FINEST_HOUR_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 -- Universal Suffrage
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]Universal Suffrage[ENDCOLOR]: A [ICON_GOLDEN_AGE] Golden Age begins, and [ICON_GOLDEN_AGE] Golden Ages last 50% longer. Cities produce +1 [ICON_HAPPINESS_1] Happiness.'
+SET Text = '[COLOR_POSITIVE_TEXT]보통선거[ENDCOLOR]: 제국이 즉시 [ICON_GOLDEN_AGE]황금기를 맞이하고 [ICON_GOLDEN_AGE]황금기의 길이가 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 증가합니다. 모든 도시의 [ICON_HAPPINESS_1]행복이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_POLICY_UNIVERSAL_SUFFRAGE_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 -- Urbanization
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]Urbanization[ENDCOLOR]: Farms, Plantations, Camps, and all Unique Improvements produce +4 [ICON_FOOD] Food.'
+SET Text = '[COLOR_POSITIVE_TEXT]도시화[ENDCOLOR]: 농장, 재배지, 야영지, 모든 고유 시설의 [ICON_FOOD]식량이 [COLOR_POSITIVE_TEXT]4[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_POLICY_URBANIZATION_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 -- New Deal
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]New Deal[ENDCOLOR]: Landmarks and Great Person improvements produce +6 of the appropriate yield.'
+SET Text = '[COLOR_POSITIVE_TEXT]뉴딜 정책[ENDCOLOR]: 랜드마크 및 위인 시설의 산출량이 [COLOR_POSITIVE_TEXT]6[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_POLICY_NEW_DEAL_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 
 -- Volunteer Army
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]Draft Registration[ENDCOLOR]: Military Units purchased with [ICON_GOLD] Gold receive full XP.'
+SET Text = '[COLOR_POSITIVE_TEXT]징집[ENDCOLOR]: [ICON_GOLD]골드로 구입한 군사 유닛에 승급에 필요한 모든 경험치를 제공합니다.'
 WHERE Tag = 'TXT_KEY_POLICY_VOLUNTEER_ARMY_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 UPDATE Language_ko_KR
@@ -230,13 +231,13 @@ SET Text = 'Conscription in the United States, commonly known as the draft, has 
 WHERE Tag = 'TXT_KEY_POLICY_VOLUNTEER_ARMY_TEXT' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 UPDATE Language_ko_KR
-SET Text = 'Draft Registration'
+SET Text = '징집'
 WHERE Tag = 'TXT_KEY_POLICY_VOLUNTEER_ARMY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 -- Space Procurements
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]Space Procurements[ENDCOLOR]: May invest in Spaceship parts with [ICON_GOLD] Gold. Build Spaceship Factories in half the usual time. +10% [ICON_RESEARCH] Science from Research Labs.'
+SET Text = '[COLOR_POSITIVE_TEXT]우주 사업 조달[ENDCOLOR]: 우주선 부품에 [ICON_GOLD]골드를 투자할 수 있습니다. 평소의 절반 속도로 우주선 공장을 건설할 수 있습니다. 연구소의 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_POLICY_SPACE_PROCUREMENTS_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 --------------------
@@ -246,58 +247,60 @@ WHERE Tag = 'TXT_KEY_POLICY_SPACE_PROCUREMENTS_HELP' AND EXISTS (SELECT * FROM C
 -- Academy of Sciences
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]Academy of Sciences[ENDCOLOR]: -20% [ICON_HAPPINESS_3] Unhappiness Needs Modifier for [ICON_RESEARCH] Illiteracy in all Cities. +100% [ICON_PRODUCTION] Production towards Research Labs, and receive 5 [COLOR_POSITIVE_TEXT]Free[ENDCOLOR] Research Labs in your Empire. Research Labs generate an additional +2 [ICON_RESEARCH] Science.'
+SET Text = '[COLOR_POSITIVE_TEXT]과학 아카데미[ENDCOLOR]: 모든 도시의 [ICON_RESEARCH]문맹에서 오는 전역 [ICON_HAPPINESS_3]불행 반영값이 [COLOR_POSITIVE_TEXT]20%[ENDCOLOR] 감소합니다. 연구소를 건설할 때 [ICON_PRODUCTION]생산 보너스를 [COLOR_POSITIVE_TEXT]100%[ENDCOLOR] 제공하고 제국 전역에 [COLOR_POSITIVE_TEXT]연구소[ENDCOLOR]를 무료로 5개 제공합니다. 연구소의 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_POLICY_ACADEMY_SCIENCES_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 -- Cultural Revolution
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]Cultural Revolution[ENDCOLOR]: +34% Tourism [ICON_TOURISM] to other Order civilizations, and +5 [ICON_TOURISM] Tourism from all [ICON_GREAT_WORK] Great Works. Spies steal technologies at double the normal rate.'
+SET Text = '[COLOR_POSITIVE_TEXT]문화 대혁명[ENDCOLOR]: 
+같은 질서 이념을 따르는 문명에 대한 [ICON_TOURISM]관광이 [COLOR_POSITIVE_TEXT]34%[ENDCOLOR] 증가하고 모든 도시 [ICON_GREAT_WORK]걸작에서 오는 [ICON_TOURISM]관광이 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 증가합니다. [ICON_SPY]스파이가 기술을 훔칠 확률이 [COLOR_POSITIVE_TEXT]두 배[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_POLICY_CULTURAL_REVOLUTION_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 -- Dictatorship of the Proletariat
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]Dictatorship of the Proletariat[ENDCOLOR]: +50% Tourism [ICON_TOURISM] to civilizations with less [ICON_HAPPINESS_1] Happiness. +1 [ICON_HAPPINESS_1] Happiness from Factories.'
+SET Text = '[COLOR_POSITIVE_TEXT]프롤레타리아 독재[ENDCOLOR]: 당신의 문명보다 [ICON_HAPPINESS_1]행복이 적은 문명에 대한 [ICON_TOURISM]관광이 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 증가합니다. 모든 공장의 [ICON_HAPPINESS_1]행복이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_POLICY_DICTATORSHIP_PROLETARIAT_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 -- Double Agents
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]Double Agents[ENDCOLOR]: Receive 3 or more [COLOR_POSITIVE_TEXT]Additional[ENDCOLOR] [ICON_SPY] Spies (based on number of [ICON_CITY_STATE] City-States in game). Spies twice as likely to capture enemy spies in owned Cities.'
+SET Text = '[COLOR_POSITIVE_TEXT]이중 간첩[ENDCOLOR]: 추가 [ICON_SPY][COLOR_POSITIVE_TEXT]스파이[ENDCOLOR]를 3명 또는 그 이상 ([ICON_CITY_STATE]도시 국가 수에 기반) 제공합니다. [ICON_SPY]스파이가 적[ICON_SPY]스파이를 포획할 확률이 [COLOR_POSITIVE_TEXT]두 배[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_POLICY_DOUBLE_AGENTS_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 -- Hero of the People
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]Hero of the People[ENDCOLOR]: [ICON_GREAT_PEOPLE] Great Person rate increases by 25%. A [ICON_GREAT_PEOPLE] Great Person of your choice appears near your [ICON_CAPITAL] Capital.'
+SET Text = '[COLOR_POSITIVE_TEXT]인민 영웅[ENDCOLOR]: [ICON_GREAT_PEOPLE]위인 출현율이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다. [ICON_CAPITAL]수도 근처에 원하는 [ICON_GREAT_PEOPLE][COLOR_POSITIVE_TEXT]위인[ENDCOLOR]이 1명 출현합니다.'
 WHERE Tag = 'TXT_KEY_POLICY_HERO_OF_THE_PEOPLE_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 -- Iron Curtain
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]Iron Curtain[ENDCOLOR]: Free Courthouse upon city capture and immediate annexation. +200% [ICON_FOOD] Food or [ICON_PRODUCTION] Production from Internal Trade Routes. [ICON_CONNECTED] City connections generate +5 [ICON_GOLD] Gold and [ICON_PRODUCTION] Production.'
+SET Text = '[COLOR_POSITIVE_TEXT]철의 장막[ENDCOLOR]: 도시를 점령할 때 [COLOR_POSITIVE_TEXT]법원[ENDCOLOR]을 무료로 제공하고 즉시 합병합니다. 국내 교역로의 [ICON_FOOD]식량 및 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]200%[ENDCOLOR] 증가합니다. [ICON_CONNECTED]도시 연결에서 오는 [ICON_GOLD]골드 및 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_POLICY_IRON_CURTAIN_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 -- Spaceflight Pioneers
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]Spaceflight Pioneers[ENDCOLOR]: Gain a free Great Engineer and Great Scientist. May finish Spaceship parts with Great Engineers, and expending a [ICON_GREAT_PEOPLE] Great Person grants 100 [ICON_RESEARCH] Science, scaling with Era. Hurrying [ICON_PRODUCTION] Production with Great Engineers now 50% more effective.'
+SET Text = '[COLOR_POSITIVE_TEXT]우주비행 개척자[ENDCOLOR]: [ICON_GREAT_ENGINEER]위대한 기술자 및 [ICON_GREAT_SCIENTIST]위대한 과학자가 1명 출현합니다.[ICON_GREAT_ENGINEER]위대한 기술자로 [COLOR_POSITIVE_TEXT]우주선 부품[ENDCOLOR]을 완성할 수 있고 [ICON_GREAT_PEOPLE]위인을 소모할 때 [ICON_RESEARCH]과학을 [COLOR_POSITIVE_TEXT]50[EN DCOLOR] (시대별 보정) 제공합니다. [ICON_GREAT_ENGINEER]위대한 기술자를 소모해 생산 가속 시  [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 더 증가합니다.'
 WHERE Tag = 'TXT_KEY_POLICY_SPACEFLIGHT_PIONEERS_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 -- Party Leadership
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]Party Leadership[ENDCOLOR]: +7 [ICON_FOOD] Food, [ICON_RESEARCH] Science, [ICON_GOLD] Gold, and [ICON_CULTURE] Culture per city.'
+SET Text = '[COLOR_POSITIVE_TEXT]당 지도부[ENDCOLOR]: 도시마다 [ICON_FOOD]식량, [ICON_PRODUCTION]생산, [ICON_RESEARCH]과학, [ICON_GOLD]골드, [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]7[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_POLICY_PARTY_LEADERSHIP_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 -- Patriotic War
 UPDATE Language_ko_KR
-SET Text = 'Guerrilla Warfare'
+SET Text = '게릴라 전투'
 WHERE Tag = 'TXT_KEY_POLICY_PATRIOTIC_WAR' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]Guerrilla Warfare[ENDCOLOR]: +15% attack bonus and +50% Experience for Military Units in friendly territory. Can build [COLOR_YELLOW]Guerrilla Fighters[ENDCOLOR].'
+SET Text = '[COLOR_POSITIVE_TEXT]게릴라 전투[ENDCOLOR]: 
+우호 영토 내 전투 시 군사 유닛의 전투력이 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR] 경험치가 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 증가합니다. [COLOR_YELLOW]게릴라[ENDCOLOR] 유닛을 생산할 수 있습니다.'
 WHERE Tag = 'TXT_KEY_POLICY_PATRIOTIC_WAR_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 UPDATE Language_ko_KR
@@ -307,16 +310,16 @@ WHERE Tag = 'TXT_KEY_POLICY_PATRIOTIC_WAR_TEXT' AND EXISTS (SELECT * FROM COMMUN
 -- Resettlement
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]Resettlement[ENDCOLOR]: New Cities have +3 [ICON_CITIZEN] Population. All Cities gain +2 [ICON_CITIZEN] Citizens immediately. No Partisans from razing enemy Cities.'
+SET Text = '[COLOR_POSITIVE_TEXT]재정착[ENDCOLOR]: 새로운 도시의 시민이 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] 증가하고 즉시 모든 도시의 시민이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다. 적 도시를 불태울 때 반란군이 발생하지 않습니다.'
 WHERE Tag = 'TXT_KEY_POLICY_RESETTLEMENT_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 -- Skyscrapers
 UPDATE Language_ko_KR
-SET Text = 'Communism'
+SET Text = '공산주의'
 WHERE Tag = 'TXT_KEY_POLICY_SKYSCRAPERS' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]Communism[ENDCOLOR]: [ICON_GOLD] Gold cost of purchasing buildings reduced by 25%. +20% [ICON_PRODUCTION] Production when building Wonders.'
+SET Text = '[COLOR_POSITIVE_TEXT]공산주의[ENDCOLOR]: 건물의 건설에 [ICON_GOLD]골드를 투자할 때 비용이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 감소합니다. 불가사의를 건설할 때 [ICON_PRODUCTION]생산 보너스를 [COLOR_POSITIVE_TEXT]20%[ENDCOLOR] 제공합니다.'
 WHERE Tag = 'TXT_KEY_POLICY_SKYSCRAPERS_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 UPDATE Language_ko_KR
@@ -325,7 +328,7 @@ WHERE Tag = 'TXT_KEY_POLICY_SKYSCRAPERS_TEXT' AND EXISTS (SELECT * FROM COMMUNIT
 
 -- Socialist Realism
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]People''s Army[ENDCOLOR]: +100% [ICON_PRODUCTION] Production towards Military Academies, and receive 5 [COLOR_POSITIVE_TEXT]Free[ENDCOLOR] Military Academies in your Empire. Public Schools produce +5 [ICON_CULTURE] Culture and +2 [ICON_HAPPINESS_1] Happiness.'
+SET Text = '[COLOR_POSITIVE_TEXT]인민군[ENDCOLOR]: 사관 학교를 건설할 때 [ICON_PRODUCTION]생산 보너스를 [COLOR_POSITIVE_TEXT]100%[ENDCOLOR] 제공하고 제국 전역에 [COLOR_POSITIVE_TEXT]사관 학교[ENDCOLOR]를 무료로 5개 제공합니다. 공립 학교의 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] [ICON_HAPPINESS_1]행복이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_POLICY_SOCIALIST_REALISM_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 UPDATE Language_ko_KR
@@ -333,22 +336,22 @@ SET Text = 'The People''s Liberation Army (PLA) traces its origins to the August
 WHERE Tag = 'TXT_KEY_POLICY_SOCIALIST_REALISM_TEXT' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 UPDATE Language_ko_KR
-SET Text = 'People''s Army'
+SET Text = '인민군'
 WHERE Tag = 'TXT_KEY_POLICY_SOCIALIST_REALISM' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 -- Worker's Faculties
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]Worker Faculties[ENDCOLOR]: Factories increase City [ICON_RESEARCH] Science output by 10%. Receive 5 [COLOR_POSITIVE_TEXT]Free[ENDCOLOR] Factories immediately, and build all other Factories in half the usual time.'
+SET Text = '[COLOR_POSITIVE_TEXT]노동자 시설[ENDCOLOR]: 공장이 건설된 도시의 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가하고 [COLOR_POSITIVE_TEXT]공장[ENDCOLOR]을 무료로 5개 제공합니다. 평소의 절반 속도로 공장을 건설할 수 있습니다.'
 WHERE Tag = 'TXT_KEY_POLICY_WORKERS_FACULTIES_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 -- Young Pioneers
 UPDATE Language_ko_KR
-SET Text = 'Great Leap Forward'
+SET Text = '대약진 운동'
 WHERE Tag = 'TXT_KEY_POLICY_YOUNG_PIONEERS' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]Great Leap Forward[ENDCOLOR]: Receive two free Technologies.'
+SET Text = '[COLOR_POSITIVE_TEXT]대약진 운동[ENDCOLOR]: [COLOR_RESEARCH_STORED]무료 기술[ENDCOLOR] 2개를 제공합니다.'
 WHERE Tag = 'TXT_KEY_POLICY_YOUNG_PIONEERS_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 UPDATE Language_ko_KR
@@ -358,31 +361,31 @@ WHERE Tag = 'TXT_KEY_POLICY_YOUNG_PIONEERS_TEXT' AND EXISTS (SELECT * FROM COMMU
 -- Five Year Plan
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]Five-Year Plan[ENDCOLOR]: +20% [ICON_PRODUCTION] Production towards Buildings in all Cities. +3 [ICON_PRODUCTION] Production on every Mine, Quarry, Lumbermill, and Unique Improvement.'
+SET Text = '[COLOR_POSITIVE_TEXT]5개년 계획[ENDCOLOR]: 모든 도시에서 건물을 건설할 때 [ICON_PRODUCTION]생산 보너스를 [COLOR_POSITIVE_TEXT]20%[ENDCOLOR] 제공합니다. 모든 광산, 채석장, 제재소, 고유 시설의 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_POLICY_FIVE_YEAR_PLAN_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 --------------------
 -- AESTHETICS
 --------------------
 UPDATE Language_ko_KR
-SET Text = 'ARTISTRY'
+SET Text = '미학'
 WHERE Tag = 'TXT_KEY_POLICY_BRANCH_AESTHETICS_CAP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 UPDATE Language_ko_KR
-SET Text = 'Artistry'
+SET Text = '미학'
 WHERE Tag = 'TXT_KEY_POLICY_BRANCH_AESTHETICS' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 UPDATE Language_ko_KR
-SET Text = 'Artistry'
+SET Text = '미학'
 WHERE Tag = 'TXT_KEY_POLICY_AESTHETICS' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 UPDATE Language_ko_KR
-SET Text = '{@1: gender feminine?Patroness; other?Patron;} {1_PlayerName:textkey} of {2_CivName:textkey}'
+SET Text = '{2_CivName:textkey}의 후원자 {1_PlayerName:textkey}'
 WHERE Tag = 'TXT_KEY_AESTHETICS_TITLE' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 -- Opener/Finisher
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]Artistry[ENDCOLOR] allows you to maximize the potential of [ICON_GREAT_WORK] Great Works, [ICON_GREAT_PEOPLE] Great People, and [ICON_GOLDEN_AGE] Golden Ages.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Adopting Artistry grants:[ENDCOLOR][NEWLINE][ICON_BULLET] +25% [ICON_GREAT_PEOPLE] Great Person rates in all cities.[NEWLINE][ICON_BULLET] +100% [ICON_PRODUCTION] construction rate of all Guilds.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Each Artistry policy unlocked grants:[ENDCOLOR][NEWLINE][ICON_BULLET] +2 [ICON_GOLDEN_AGE] Golden Age Points and +1 [ICON_RESEARCH] Science in every City.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Adopting all policies in Artistry grants:[ENDCOLOR][NEWLINE][ICON_BULLET] Unlocks building the [COLOR_POSITIVE_TEXT]Louvre[ENDCOLOR]. [NEWLINE][ICON_BULLET] Completing an Archaeological Dig or starting a [ICON_GOLDEN_AGE] Golden Age generates [ICON_TOURISM] Tourism with all known Civilizations. [NEWLINE][ICON_BULLET] Allows you to see Hidden Antiquity Sites, and Landmarks gain +3 [ICON_RESEARCH] Science and [ICON_GOLDEN_AGE] Golden Age Points. [NEWLINE][ICON_BULLET] Allows for the purchase of [ICON_GREAT_MUSICIAN] Great Musicians with [ICON_PEACE] Faith starting in the Industrial Era.'
+SET Text = '[COLOR_POSITIVE_TEXT]미학[ENDCOLOR] allows you to maximize the potential of [ICON_GREAT_WORK] Great Works, [ICON_GREAT_PEOPLE] Great People, and [ICON_GOLDEN_AGE] Golden Ages.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Adopting Artistry grants:[ENDCOLOR][NEWLINE][ICON_BULLET] +25% [ICON_GREAT_PEOPLE] Great Person rates in all cities.[NEWLINE][ICON_BULLET] +100% [ICON_PRODUCTION] construction rate of all Guilds.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Each Artistry policy unlocked grants:[ENDCOLOR][NEWLINE][ICON_BULLET] +2 [ICON_GOLDEN_AGE] Golden Age Points and +1 [ICON_RESEARCH] Science in every City.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Adopting all policies in Artistry grants:[ENDCOLOR][NEWLINE][ICON_BULLET] Unlocks building the [COLOR_POSITIVE_TEXT]Louvre[ENDCOLOR]. [NEWLINE][ICON_BULLET] Completing an Archaeological Dig or starting a [ICON_GOLDEN_AGE] Golden Age generates [ICON_TOURISM] Tourism with all known Civilizations. [NEWLINE][ICON_BULLET] Allows you to see Hidden Antiquity Sites, and Landmarks gain +3 [ICON_RESEARCH] Science and [ICON_GOLDEN_AGE] Golden Age Points. [NEWLINE][ICON_BULLET] Allows for the purchase of [ICON_GREAT_MUSICIAN] Great Musicians with [ICON_PEACE] Faith starting in the Industrial Era.'
 WHERE Tag = 'TXT_KEY_POLICY_BRANCH_AESTHETICS_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 UPDATE Language_ko_KR
@@ -617,15 +620,15 @@ WHERE Tag = 'TXT_KEY_POLICY_TREASURE_FLEETS_TEXT' AND EXISTS (SELECT * FROM COMM
 
 -- Honor Opener/Finisher
 UPDATE Language_ko_KR
-SET Text = 'AUTHORITY'
+SET Text = '권위'
 WHERE Tag = 'TXT_KEY_POLICY_BRANCH_HONOR_CAP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 UPDATE Language_ko_KR
-SET Text = 'Authority'
+SET Text = '권위'
 WHERE Tag = 'TXT_KEY_POLICY_BRANCH_HONOR' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 UPDATE Language_ko_KR
-SET Text = '{1_PlayerName:textkey} the Mighty of {2_CivName:textkey}'
+SET Text = '{2_CivName:textkey}의 강력한 {1_PlayerName:textkey}'
 WHERE Tag = 'TXT_KEY_HONOR_TITLE' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 UPDATE Language_ko_KR
@@ -638,11 +641,11 @@ WHERE Tag = 'TXT_KEY_POLICY_HONOR_TEXT' AND EXISTS (SELECT * FROM COMMUNITY WHER
 
 -- Warrior Code (Now Imperialism)
 UPDATE Language_ko_KR
-SET Text = 'Imperium'
+SET Text = '절대권'
 WHERE Tag = 'TXT_KEY_POLICY_WARRIOR_CODE' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]Imperium[ENDCOLOR][NEWLINE]A free Settler appears near the [ICON_CAPITAL] Capital. Receive 40 [ICON_RESEARCH] Science and [ICON_CULTURE] Culture when you found or conquer Cities, scaling with era. Conquest bonus also scales based on City [ICON_CITIZEN] population.'
+SET Text = '[COLOR_POSITIVE_TEXT]절대권[ENDCOLOR][NEWLINE]A free Settler appears near the [ICON_CAPITAL] Capital. Receive 40 [ICON_RESEARCH] Science and [ICON_CULTURE] Culture when you found or conquer Cities, scaling with era. Conquest bonus also scales based on City [ICON_CITIZEN] population.'
 WHERE Tag = 'TXT_KEY_POLICY_WARRIOR_CODE_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 UPDATE Language_ko_KR
@@ -651,11 +654,11 @@ WHERE Tag = 'TXT_KEY_POLICY_WARRIORCODE_TEXT' AND EXISTS (SELECT * FROM COMMUNIT
 
 -- Discipline (Now Tribute)
 UPDATE Language_ko_KR
-SET Text = 'Tribute'
+SET Text = '공물'
 WHERE Tag = 'TXT_KEY_POLICY_DISCIPLINE' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]Tribute[ENDCOLOR][NEWLINE]Cities gain 20 [ICON_GOLD] Gold and [ICON_PRODUCTION] Production when their borders expand, scaling with Era. Gain [ICON_CULTURE] Culture in [ICON_CAPITAL] Capital equal to 25% of Tribute demanded from City-States.'
+SET Text = '[COLOR_POSITIVE_TEXT]공물[ENDCOLOR][NEWLINE]Cities gain 20 [ICON_GOLD] Gold and [ICON_PRODUCTION] Production when their borders expand, scaling with Era. Gain [ICON_CULTURE] Culture in [ICON_CAPITAL] Capital equal to 25% of Tribute demanded from City-States.'
 WHERE Tag = 'TXT_KEY_POLICY_DISCIPLINE_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 UPDATE Language_ko_KR
@@ -664,7 +667,7 @@ WHERE Tag = 'TXT_KEY_POLICY_DISCIPLINE_TEXT' AND EXISTS (SELECT * FROM COMMUNITY
 
 -- Military Tradition (Now Dominance)
 UPDATE Language_ko_KR
-SET Text = 'Dominance'
+SET Text = '지배'
 WHERE Tag = 'TXT_KEY_POLICY_MILITARY_TRADITION' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 UPDATE Language_ko_KR
@@ -1067,11 +1070,11 @@ WHERE Tag = 'TXT_KEY_POLICY_ARISTOCRACY_TEXT' AND EXISTS (SELECT * FROM COMMUNIT
 
 -- Oligarchy
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]Sovereignty[ENDCOLOR][NEWLINE][ICON_CULTURE] Culture cost of tiles reduced by 20% (exponentially) in all Cities. [COLOR_POSITIVE_TEXT]Court Chapel[ENDCOLOR] built in [ICON_CAPITAL] Capital (1 Artist Specialist, 1 [ICON_GREAT_WORK] Great Work of Art slot, +3 [ICON_PEACE] Faith).'
+SET Text = '[COLOR_POSITIVE_TEXT]주권[ENDCOLOR][NEWLINE][ICON_CULTURE] Culture cost of tiles reduced by 20% (exponentially) in all Cities. [COLOR_POSITIVE_TEXT]Court Chapel[ENDCOLOR] built in [ICON_CAPITAL] Capital (1 Artist Specialist, 1 [ICON_GREAT_WORK] Great Work of Art slot, +3 [ICON_PEACE] Faith).'
 WHERE Tag = 'TXT_KEY_POLICY_OLIGARCHY_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 UPDATE Language_ko_KR
-SET Text = 'Sovereignty'
+SET Text = '주권'
 WHERE Tag = 'TXT_KEY_POLICY_OLIGARCHY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 UPDATE Language_ko_KR

@@ -58,28 +58,28 @@
 		</Row>
 		<!--Diplo Building Help
 		<Row Tag="TXT_KEY_BUILDING_CHANCERY_HELP">
-			<Text>[ICON_RES_PAPER]종이 자원 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR]를 제공합니다. 외교 유닛을 생산할 때 [ICON_PRODUCTION]생산 보너스를 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 제공합니다. 이 도시에서 생산된 외교 유닛에 [COLOR_PLAYER_PURPLE]국왕 인장[ENDCOLOR] 승급을 부여합니다. [NEWLINE][NEWLINE]도시에 새로운 [ICON_CITIZEN]시민이 태어날 때마다 현재 도시의 [ICON_PRODUCTION]생산에 [COLOR_POSITIVE_TEXT]5%[ENDCOLOR]의 [ICON_PRODUCTION]생산을 추가합니다.</Text>
+			<Text>[ICON_RES_PAPER]종이 자원을 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR] 제공합니다. 외교 유닛을 생산할 때 [ICON_PRODUCTION]생산 보너스를 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 제공합니다. 이 도시에서 생산된 외교 유닛에 [COLOR_PLAYER_PURPLE]국왕 인장[ENDCOLOR] 승급을 부여합니다. [NEWLINE][NEWLINE]도시에 새로운 [ICON_CITIZEN]시민이 태어날 때마다 현재 도시의 [ICON_PRODUCTION]생산에 [COLOR_POSITIVE_TEXT]5%[ENDCOLOR]의 [ICON_PRODUCTION]생산을 추가합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_WIRE_SERVICE_HELP">
-			<Text>[ICON_RES_PAPER]종이 자원 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR]를 제공합니다. 외교 유닛을 생산할 때 [ICON_PRODUCTION]생산 보너스를 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 제공합니다. 이 도시에서 생산된 외교 유닛에 [COLOR_PLAYER_PURPLE]통신 서비스[ENDCOLOR] 승급을 부여합니다.[NEWLINE][NEWLINE]도시에 새로운 [ICON_CITIZEN]시민이 태어날 때마다 현재 도시의 [ICON_PRODUCTION]생산에 [COLOR_POSITIVE_TEXT]5%[ENDCOLOR]의 [ICON_PRODUCTION]생산을 추가합니다.</Text>
+			<Text>[ICON_RES_PAPER]종이 자원을 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR] 제공합니다. 외교 유닛을 생산할 때 [ICON_PRODUCTION]생산 보너스를 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 제공합니다. 이 도시에서 생산된 외교 유닛에 [COLOR_PLAYER_PURPLE]통신 서비스[ENDCOLOR] 승급을 부여합니다.[NEWLINE][NEWLINE]도시에 새로운 [ICON_CITIZEN]시민이 태어날 때마다 현재 도시의 [ICON_PRODUCTION]생산에 [COLOR_POSITIVE_TEXT]5%[ENDCOLOR]의 [ICON_PRODUCTION]생산을 추가합니다.</Text>
 		</Row>-->
 		<!--Diplo National Wonder Help-->
 		<Row Tag="TXT_KEY_BUILDING_PRINTING_PRESS_HELP">
-			<Text>[ICON_RES_PAPER]종이 자원 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR]를 제공합니다. 외교 유닛을 생산할 때 [ICON_PRODUCTION]생산 보너스를 [COLOR_POSITIVE_TEXT]20%[ENDCOLOR] 제공합니다. 모든 외교 유닛에 [COLOR_PLAYER_PURPLE]문자 해독[ENDCOLOR] 승급을 부여합니다.[NEWLINE][NEWLINE]모든 도시에 외교 청사가 있어야 건설할 수 있습니다. 문명에 도시가 많을수록 건설에 필요한 [ICON_PRODUCTION]생산이 증가합니다. 이 불가사의는 문명당 하나만 건설할 수 있는 [COLOR_YELLOW]국가 불가사의[ENDCOLOR]입니다.</Text>
+			<Text>[ICON_RES_PAPER]종이 자원을 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR] 제공합니다. 외교 유닛을 생산할 때 [ICON_PRODUCTION]생산 보너스를 [COLOR_POSITIVE_TEXT]20%[ENDCOLOR] 제공합니다. 모든 외교 유닛에 [COLOR_PLAYER_PURPLE]문자 해독[ENDCOLOR] 승급을 부여합니다.[NEWLINE][NEWLINE]모든 도시에 외교 청사가 있어야 건설할 수 있습니다. 문명에 도시가 많을수록 건설에 필요한 [ICON_PRODUCTION]생산이 증가합니다. 이 불가사의는 문명당 하나만 건설할 수 있는 [COLOR_YELLOW]국가 불가사의[ENDCOLOR]입니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FOREIGN_OFFICE_HELP">
-			<Text>[ICON_RES_PAPER]종이 자원 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR]를 제공합니다. 외교 유닛을 생산할 때 [ICON_PRODUCTION]생산 보너스를 [COLOR_POSITIVE_TEXT]20%[ENDCOLOR] 제공합니다. 모든 외교 유닛에 [COLOR_PLAYER_PURPLE]면책 특권[ENDCOLOR] 승급을 부여합니다.[NEWLINE][NEWLINE]모든 도시에 통신사가 있어야 건설할 수 있습니다. 문명에 도시가 많을수록 건설에 필요한 [ICON_PRODUCTION]생산이 증가합니다. 이 불가사의는 문명당 하나만 건설할 수 있는 [COLOR_YELLOW]국가 불가사의[ENDCOLOR]입니다.</Text>
+			<Text>[ICON_RES_PAPER]종이 자원을 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR] 제공합니다. 외교 유닛을 생산할 때 [ICON_PRODUCTION]생산 보너스를 [COLOR_POSITIVE_TEXT]20%[ENDCOLOR] 제공합니다. 모든 외교 유닛에 [COLOR_PLAYER_PURPLE]면책 특권[ENDCOLOR] 승급을 부여합니다.[NEWLINE][NEWLINE]모든 도시에 통신사가 있어야 건설할 수 있습니다. 문명에 도시가 많을수록 건설에 필요한 [ICON_PRODUCTION]생산이 증가합니다. 이 불가사의는 문명당 하나만 건설할 수 있는 [COLOR_YELLOW]국가 불가사의[ENDCOLOR]입니다.</Text>
 		</Row>
 		<!--
 		<Row Tag="TXT_KEY_BUILDING_COURT_SCRIBE_HELP">
-			<Text>[ICON_RES_PAPER]종이 자원 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR]를 제공합니다. 외교 유닛을 생산할 때 [ICON_PRODUCTION]생산 보너스를 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 제공합니다. 오직 [ICON_CAPITAL]수도에만 건설할 수 있습니다.[NEWLINE][NEWLINE]도시에 새로운 [ICON_CITIZEN]시민이 태어날 때마다 현재 도시의 [ICON_PRODUCTION]생산에 [COLOR_POSITIVE_TEXT]5%[ENDCOLOR]의 [ICON_PRODUCTION]생산을 추가합니다.</Text>
+			<Text>[ICON_RES_PAPER]종이 자원을 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR] 제공합니다. 외교 유닛을 생산할 때 [ICON_PRODUCTION]생산 보너스를 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 제공합니다. 오직 [ICON_CAPITAL]수도에만 건설할 수 있습니다.[NEWLINE][NEWLINE]도시에 새로운 [ICON_CITIZEN]시민이 태어날 때마다 현재 도시의 [ICON_PRODUCTION]생산에 [COLOR_POSITIVE_TEXT]5%[ENDCOLOR]의 [ICON_PRODUCTION]생산을 추가합니다.</Text>
 		</Row>-->
 		<!--Diplo World Wonder Help-->
 		<Row Tag="TXT_KEY_BUILDING_FORUM_HELP">
-			<Text>[ICON_DIPLOMAT][COLOR_POSITIVE_TEXT]위대한 외교관[ENDCOLOR]이 1명 출현합니다. [ICON_RES_PAPER]종이 자원 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR]를 제공합니다. 외교 유닛을 생산할 때 [ICON_PRODUCTION]생산 보너스를 [COLOR_POSITIVE_TEXT]20%[ENDCOLOR] 제공합니다. 모든 외교 유닛에 [COLOR_PLAYER_PURPLE]황실 봉인[ENDCOLOR] 승급을 부여합니다.[NEWLINE][NEWLINE]이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.</Text>
+			<Text>[ICON_DIPLOMAT][COLOR_POSITIVE_TEXT]위대한 외교관[ENDCOLOR]이 1명 출현합니다. [ICON_RES_PAPER]종이 자원을 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR] 제공합니다. 외교 유닛을 생산할 때 [ICON_PRODUCTION]생산 보너스를 [COLOR_POSITIVE_TEXT]20%[ENDCOLOR] 제공합니다. 모든 외교 유닛에 [COLOR_PLAYER_PURPLE]황실 봉인[ENDCOLOR] 승급을 부여합니다.[NEWLINE][NEWLINE]이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_SUMMER_PALACE_HELP">
-			<Text>[ICON_RES_PAPER]종이 자원 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR]를 제공합니다. 외교 유닛을 생산할 때 [ICON_PRODUCTION]생산 보너스를 [COLOR_POSITIVE_TEXT]20%[ENDCOLOR] 제공합니다. 모든 외교 유닛에 [COLOR_PLAYER_PURPLE]귀족[ENDCOLOR] 승급을 부여합니다. 모든 외교 청사의 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE]이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.</Text>
+			<Text>[ICON_RES_PAPER]종이 자원을 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR] 제공합니다. 외교 유닛을 생산할 때 [ICON_PRODUCTION]생산 보너스를 [COLOR_POSITIVE_TEXT]20%[ENDCOLOR] 제공합니다. 모든 외교 유닛에 [COLOR_PLAYER_PURPLE]귀족[ENDCOLOR] 승급을 부여합니다. 모든 외교 청사의 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE]이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_PALACE_SCIENCE_CULTURE_HELP">
 			<Text>도시의 [ICON_CULTURE]문화 및 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]5%[ENDCOLOR] 증가합니다. 다른 문명과 맺은 모든 [COLOR_POSITIVE_TEXT]연구 협약[ENDCOLOR] 1개마다 세계 대회 추가 대표단을 [COLOR_POSITIVE_TEXT]1명[ENDCOLOR] 확보합니다.[NEWLINE][NEWLINE][ICON_IDEOLOGY_ORDER][COLOR_MAGENTA]질서[ENDCOLOR] 이념을 채택해야 건설할 수 있습니다. [NEWLINE][NEWLINE]모든 도시에 공립 학교가 있어야 건설할 수 있습니다. 문명에 도시가 많을수록 건설에 필요한 [ICON_PRODUCTION]생산이 증가합니다. 이 불가사의는 문명당 하나만 건설할 수 있는 [COLOR_YELLOW]국가 불가사의[ENDCOLOR]입니다.</Text>
@@ -107,7 +107,7 @@
 		</Row>
 		<!--
 		<Row Tag="TXT_KEY_SECURITY_COUNCIL_HELP">
-			<Text>[ICON_RES_PAPER]종이 자원 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR]를 제공합니다. 외교 유닛을 생산할 때 [ICON_PRODUCTION]생산 보너스를 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 제공합니다.	추가 [ICON_SPY]스파이를 제공합니다. </Text>
+			<Text>[ICON_RES_PAPER]종이 자원을 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR] 제공합니다. 외교 유닛을 생산할 때 [ICON_PRODUCTION]생산 보너스를 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 제공합니다. 추가 [ICON_SPY][COLOR_POSITIVE_TEXT]스파이[ENDCOLOR]를 1명 제공합니다. </Text>
 		</Row>
 		-->
 		<Row Tag="TXT_KEY_UN_HELP">

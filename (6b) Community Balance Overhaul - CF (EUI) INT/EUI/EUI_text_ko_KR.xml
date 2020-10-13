@@ -179,7 +179,7 @@
 			<Text>지도 중앙</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EUI_BUILDING_NEVERCAPTURE">
-			<Text>정복시 파괴됨</Text>
+			<Text>점령시 파괴됨</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EUI_BUILDING_NUKEIMMUNE">
 			<Text>핵공격 면역</Text>
@@ -329,10 +329,10 @@
 			<Text>모든 도시의 국경 확장에 필요한 문화: {1}%[ICON_CULTURE]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EUI_BUILDING_PLOTBUYCOSTMODIFIER">
-			<Text>새로운 영토 구매 비용: {1}%[ICON_GOLD]</Text>
+			<Text>새로운 영토 구입 비용: {1}%[ICON_GOLD]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EUI_BUILDING_GLOBALPLOTBUYCOSTMODIFIER">
-			<Text>모든 도시의 새로운 영토 구매 비용: {1}%[ICON_GOLD]</Text>
+			<Text>모든 도시의 새로운 영토 구입 비용: {1}%[ICON_GOLD]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EUI_BUILDING_GLOBALPOPULATIONCHANGE">
 			<Text>모든 도시의 시민: {1}[ICON_CITIZEN]</Text>

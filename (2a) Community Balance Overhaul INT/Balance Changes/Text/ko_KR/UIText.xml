@@ -154,7 +154,7 @@
 		</Row>
 		<!-- America! -->
 		<Row Tag="TXT_KEY_NOTIFICATION_UA_STOLE_PLOT">
-			<Text>{1_CivName:textkey}{1: plural 1?이; 2?가;} 당신의 영토를 구매했습니다!</Text>
+			<Text>{1_CivName:textkey}{1: plural 1?이; 2?가;} 당신의 영토를 구입했습니다!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_UA_STOLE_PLOT">
 			<Text>{1_CivName:textkey}{1: plural 1?이; 2?가;} 명백한 운명이라 명했습니다!</Text>

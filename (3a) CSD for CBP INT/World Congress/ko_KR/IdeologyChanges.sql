@@ -29,7 +29,7 @@ SET Text = '다음 국가 제재: {1_CivsList}'
 WHERE Tag = 'TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_EMBARGO_PLAYERS' AND EXISTS (SELECT * FROM CSD WHERE Type='IDEOLOGY_CSD' AND Value= 1 );
 
 UPDATE Language_ko_KR
-SET Text = '도시 국가와 [ICON_INTERNATIONAL_TRADE]교역로를 연결할 수 없고 기존 교역로는 [COLOR_NEGATIVE_TEXT]취소[ENDCOLOR]되며 다른 장소와 연결해야 합니다. 도시 국가의 모든 기업 프랜차이즈가 제거됩니다. 도시 국가에 전쟁을 선포하거나 그들의 도시를 정복할 때의 전쟁광 점수가 크게 감소합니다.'
+SET Text = '도시 국가와 [ICON_INTERNATIONAL_TRADE]교역로를 연결할 수 없고 기존 교역로는 [COLOR_NEGATIVE_TEXT]취소[ENDCOLOR]되며 다른 장소와 연결해야 합니다. 도시 국가의 모든 기업 프랜차이즈가 제거됩니다. 도시 국가에 전쟁을 선포하거나 그들의 도시를 점령할 때의 전쟁광 점수가 크게 감소합니다.'
 WHERE Tag = 'TXT_KEY_RESOLUTION_ALL_CITY_STATES_EMBARGO_HELP' AND EXISTS (SELECT * FROM CSD WHERE Type='IDEOLOGY_CSD' AND Value= 1 );
 
 UPDATE Language_ko_KR

@@ -714,7 +714,7 @@
 			<Text>When a [ICON_INTERNATIONAL_TRADE] Trade Route between a foreign City and this City completes, a Hexxon Refineries Franchise is constructed in the foreign City.[NEWLINE][NEWLINE]Hexxon Refineries cannot be sold or destroyed by the player, and grants +1 [ICON_RES_OIL] Oil and +1 [ICON_RES_COAL] Coal for every[COLOR_POSITIVE_TEXT]three[ENDCOLOR] Hexxon Refineries Franchises.[NEWLINE][NEWLINE]You cannot have more Franchises than your Franchise Limit (see the Corporation and Monopolies Overview for more on this).</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_HEXXON_REFINERY_HELP">
-			<Text>군사 유닛을 생산할 때 [ICON_PRODUCTION]생산 보너스를 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR] 제공합니다. 다른 문명의 도시에 설립한 헥손 정유 프랜차이즈 3개마다 [ICON_RES_OIL] 석유 자원 및 [ICON_RES_COAL] 석탄 자원 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR]를 제공합니다. (제한: 당신 문명의 프랜차이즈 한도까지만 제공)[NEWLINE][NEWLINE]헥손 정유 프랜차이즈를 설립한 다른 문명의 도시로 향하는 [ICON_INTERNATIONAL_TRADE]교역로마다 도시의 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다.</Text>
+			<Text>군사 유닛을 생산할 때 [ICON_PRODUCTION]생산 보너스를 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR] 제공합니다. 다른 문명의 도시에 설립한 헥손 정유 프랜차이즈 3개마다 [ICON_RES_OIL] 석유 자원 및 [ICON_RES_COAL] 석탄 자원을 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR] 제공합니다. (제한: 당신 문명의 프랜차이즈 한도까지만 제공)[NEWLINE][NEWLINE]헥손 정유 프랜차이즈를 설립한 다른 문명의 도시로 향하는 [ICON_INTERNATIONAL_TRADE]교역로마다 도시의 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_CORPORATION_GIORGIO_ARMEIER">
@@ -895,7 +895,7 @@
 			<Text>시빌 보석 주식회사</Text>	  <Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_CORPORATION_CIVILIZED_JEWELERS_HELP">
-			<Text>[ICON_GREAT_PEOPLE]위인 출현과 [ICON_GOLDEN_AGE]황금기에 초첨을 맞춘 혜택을 제공합니다. 추가 [ICON_INTERNATIONAL_TRADE]교역로를 [COLOR_POSITIVE_TEXT]2개[ENDCOLOR] 제공하고 모든 [ICON_INTERNATIONAL_TRADE]교역 유닛의 속도가 두 배 증가합니다.[NEWLINE][NEWLINE]모든 은행 및 세관의 [ICON_GOLDEN_AGE]황금기 점수가 [COLOR_POSITIVE_TEXT]4[ENDCOLOR] 증가합니다. 다른 문명의 도시에 설립한 프랜차이즈 1개마다 상대 문명에 대한 [ICON_TOURISM]관광이 [COLOR_POSITIVE_TEXT]2%[ENDCOLOR] 증가합니다.</Text>
+			<Text>[ICON_GREAT_PEOPLE]위인 출현과 [ICON_GOLDEN_AGE]황금기에 초첨을 맞춘 혜택을 제공합니다. 추가 [ICON_INTERNATIONAL_TRADE]교역로를 [COLOR_POSITIVE_TEXT]2개[ENDCOLOR] 제공하고 모든 [ICON_INTERNATIONAL_TRADE]교역 유닛의 이동 속도가 두 배 빨라집니다.[NEWLINE][NEWLINE]모든 은행 및 세관의 [ICON_GOLDEN_AGE]황금기 점수가 [COLOR_POSITIVE_TEXT]4[ENDCOLOR] 증가합니다. 다른 문명의 도시에 설립한 프랜차이즈 1개마다 상대 문명에 대한 [ICON_TOURISM]관광이 [COLOR_POSITIVE_TEXT]2%[ENDCOLOR] 증가합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CORPORATION_RESOURCE_BONUS_CIVILIZED_JEWELERS">
 			<Text>시빌 보석 프랜차이즈를 설립한 도시 주변 모든 [ICON_RES_GOLD] 금, [ICON_RES_SILVER] 은, [ICON_RES_GEMS] 보석, [ICON_RES_PEARLS] 진주, [ICON_RES_JEWELRY] 장신구의 [ICON_GOLDEN_AGE]황금기 점수가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.</Text>
