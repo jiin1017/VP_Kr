@@ -455,7 +455,7 @@ SET Text = '상대방이 아직 제삼자를 만나지 못했거나 또는 우�
 WHERE Tag = 'TXT_KEY_DIPLO_OTHER_PLAYERS_NO_PLAYERS_THEM';
 
 UPDATE Language_ko_KR
-SET Text = '현재의 전쟁은 이 행동을 막았습니다.'
+SET Text = '현재의 전쟁이 이 행동을 막았습니다.'
 WHERE Tag = 'TXT_KEY_DIPLO_ALREADY_AT_WAR';
 
 UPDATE Language_ko_KR
