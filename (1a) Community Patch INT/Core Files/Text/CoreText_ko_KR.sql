@@ -177,11 +177,11 @@ SET Text = '개발 가능한 시설'
 WHERE Tag = 'TXT_KEY_PEDIA_IMPROVEMENTS_LABEL';
 
 UPDATE Language_ko_KR
-SET Text = '{@1_ImprovementDescription}: [COLOR_POSITIVE_TEXT]+{3_Yield}[ENDCOLOR] {4_Icon} {@2_YieldDescription}'
+SET Text = '{@1_ImprovementDescription}: +{3_Yield} {4_Icon} {@2_YieldDescription}'
 WHERE Tag = 'TXT_KEY_CIVILOPEDIA_SPECIALABILITIES_YIELDCHANGES';
 
 UPDATE Language_ko_KR
-SET Text = '{1_ImprovementName:textkey}: +{3_Num} {2_YieldType:textkey} (담수 없음).'
+SET Text = '{1_ImprovementName:textkey}: +{3_Num} {2_YieldType:textkey} (담수 없음)'
 WHERE Tag = 'TXT_KEY_NO_FRESH_WATER';
 
 UPDATE Language_ko_KR
@@ -189,7 +189,7 @@ SET Text = '([COLOR_NEGATIVE_TEXT]담수[ENDCOLOR] 없음)'
 WHERE Tag = 'TXT_KEY_ABLTY_NO_FRESH_WATER_STRING';
 
 UPDATE Language_ko_KR
-SET Text = '{@1_ImprovementDescription}: [COLOR_POSITIVE_TEXT]+{3_Yield}[ENDCOLOR] {4_Icon} {@2_YieldDescription} {TXT_KEY_ABLTY_NO_FRESH_WATER_STRING}'
+SET Text = '{@1_ImprovementDescription}: +{3_Yield} {4_Icon} {@2_YieldDescription} {TXT_KEY_ABLTY_NO_FRESH_WATER_STRING}'
 WHERE Tag = 'TXT_KEY_CIVILOPEDIA_SPECIALABILITIES_NOFRESHWATERYIELDCHANGES';
 
 UPDATE Language_ko_KR
@@ -201,7 +201,7 @@ SET Text = '(담수)'
 WHERE Tag = 'TXT_KEY_ABLTY_FRESH_WATER_STRING';
 
 UPDATE Language_ko_KR
-SET Text = '{@1_ImprovementDescription}: [COLOR_POSITIVE_TEXT]+{3_Yield}[ENDCOLOR] {4_Icon} {@2_YieldDescription} {TXT_KEY_ABLTY_FRESH_WATER_STRING}'
+SET Text = '{@1_ImprovementDescription}: +{3_Yield} {4_Icon} {@2_YieldDescription} {TXT_KEY_ABLTY_FRESH_WATER_STRING}'
 WHERE Tag = 'TXT_KEY_CIVILOPEDIA_SPECIALABILITIES_FRESHWATERYIELDCHANGES';
 
 UPDATE Language_ko_KR

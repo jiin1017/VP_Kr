@@ -131,8 +131,8 @@
 			<Text>When you advance after destroying an Enemy Unit, all newly-adjacent Enemy Units take [COLOR_POSITIVE_TEXT]10 Damage[ENDCOLOR].</Text>
 		</Row>
 
-		<Row Tag="TXT_KEY_PROMOTION_AOE">
-			<Text>필룸</Text>
+		<Row Tag="TXT_KEY_PROMOTION_AOE_STRIKE_FORTIFY">
+			<Text>투창</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_AOE_STRIKE_FORTIFY_HELP">
 			<Text>While [COLOR_POSITIVE_TEXT]Fortified[ENDCOLOR], adjacent Enemy Units take [COLOR_POSITIVE_TEXT]10 Damage[ENDCOLOR] at the beginning of every turn.[NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]Lost on upgrade.[ENDCOLOR]</Text>
@@ -956,7 +956,7 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_MECH">
-			<Text>타이타닉</Text>
+			<Text>거대한 투쟁</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_MECH_HELP">
 			<Text>+25% [ICON_STRENGTH] Combat Strength when [COLOR_POSITIVE_TEXT]Attacking[ENDCOLOR].[NEWLINE]+100 Hit Points. Begins combat with a free Ranged attack.</Text>

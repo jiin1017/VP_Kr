@@ -76,22 +76,22 @@
 		</Row>-->
 		<!--Diplo World Wonder Help-->
 		<Row Tag="TXT_KEY_BUILDING_FORUM_HELP">
-			<Text>[ICON_DIPLOMAT]위대한 외교관이 [COLOR_POSITIVE_TEXT]1명[ENDCOLOR] 출현합니다. [ICON_RES_PAPER]종이 자원 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR]를 제공합니다. 외교 유닛을 생산할 때 [ICON_PRODUCTION]생산 보너스를 [COLOR_POSITIVE_TEXT]20%[ENDCOLOR] 제공합니다. 모든 외교 유닛에 [COLOR_PLAYER_PURPLE]황실 봉인[ENDCOLOR] 승급을 부여합니다.[NEWLINE][NEWLINE]이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.</Text>
+			<Text>[ICON_DIPLOMAT][COLOR_POSITIVE_TEXT]위대한 외교관[ENDCOLOR]이 1명 출현합니다. [ICON_RES_PAPER]종이 자원 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR]를 제공합니다. 외교 유닛을 생산할 때 [ICON_PRODUCTION]생산 보너스를 [COLOR_POSITIVE_TEXT]20%[ENDCOLOR] 제공합니다. 모든 외교 유닛에 [COLOR_PLAYER_PURPLE]황실 봉인[ENDCOLOR] 승급을 부여합니다.[NEWLINE][NEWLINE]이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_SUMMER_PALACE_HELP">
 			<Text>[ICON_RES_PAPER]종이 자원 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR]를 제공합니다. 외교 유닛을 생산할 때 [ICON_PRODUCTION]생산 보너스를 [COLOR_POSITIVE_TEXT]20%[ENDCOLOR] 제공합니다. 모든 외교 유닛에 [COLOR_PLAYER_PURPLE]귀족[ENDCOLOR] 승급을 부여합니다. 모든 외교 청사의 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE]이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_PALACE_SCIENCE_CULTURE_HELP">
-			<Text>도시의 [ICON_CULTURE]문화 및 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]5%[ENDCOLOR] 증가합니다. 다른 문명과 맺은 모든 [COLOR_POSITIVE_TEXT]연구 협약[ENDCOLOR] 1개마다 세계 대회 추가 대표단을 [COLOR_POSITIVE_TEXT]1명[ENDCOLOR] 확보합니다.[NEWLINE][NEWLINE][ICON_IDEOLOGY_ORDER][COLOR_MAGENTA]질서[ENDCOLOR] 이념을 채택해야 건설할 수 있습니다. 모든 도시에 공립 학교가 있어야 건설할 수 있습니다. 문명에 도시가 많을수록 건설에 필요한 [ICON_PRODUCTION]생산이 증가합니다. 이 불가사의는 문명당 하나만 건설할 수 있는 [COLOR_YELLOW]국가 불가사의[ENDCOLOR]입니다.</Text>
+			<Text>도시의 [ICON_CULTURE]문화 및 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]5%[ENDCOLOR] 증가합니다. 다른 문명과 맺은 모든 [COLOR_POSITIVE_TEXT]연구 협약[ENDCOLOR] 1개마다 세계 대회 추가 대표단을 [COLOR_POSITIVE_TEXT]1명[ENDCOLOR] 확보합니다.[NEWLINE][NEWLINE][ICON_IDEOLOGY_ORDER][COLOR_MAGENTA]질서[ENDCOLOR] 이념을 채택해야 건설할 수 있습니다. [NEWLINE][NEWLINE]모든 도시에 공립 학교가 있어야 건설할 수 있습니다. 문명에 도시가 많을수록 건설에 필요한 [ICON_PRODUCTION]생산이 증가합니다. 이 불가사의는 문명당 하나만 건설할 수 있는 [COLOR_YELLOW]국가 불가사의[ENDCOLOR]입니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_EHRENHALLE_HELP">
-			<Text>도시의 [ICON_TOURISM]관광이 [COLOR_POSITIVE_TEXT]15[ENDCOLOR] [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다. 당신 문명의 통제하고 있는 [COLOR_POSITIVE_TEXT]적 수도[ENDCOLOR] 1개마다 세계 대회 추가 대표단을 [COLOR_POSITIVE_TEXT]2명[ENDCOLOR] 확보합니다.[NEWLINE][NEWLINE][ICON_IDEOLOGY_AUTOCRACY][COLOR_MAGENTA]독재[ENDCOLOR] 이념을 채택해야 건설할 수 있습니다. 모든 도시에 사관 학교가 있어야 건설할 수 있습니다. 문명에 도시가 많을수록 건설에 필요한 [ICON_PRODUCTION]생산이 증가합니다. 이 불가사의는 문명당 하나만 건설할 수 있는 [COLOR_YELLOW]국가 불가사의[ENDCOLOR]입니다.</Text>
+			<Text>도시의 [ICON_TOURISM]관광이 [COLOR_POSITIVE_TEXT]15[ENDCOLOR] [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다. 당신 문명의 통제하고 있는 [COLOR_POSITIVE_TEXT]적 수도[ENDCOLOR] 1개마다 세계 대회 추가 대표단을 [COLOR_POSITIVE_TEXT]2명[ENDCOLOR] 확보합니다.[NEWLINE][NEWLINE][ICON_IDEOLOGY_AUTOCRACY][COLOR_MAGENTA]독재[ENDCOLOR] 이념을 채택해야 건설할 수 있습니다. [NEWLINE][NEWLINE]모든 도시에 사관 학교가 있어야 건설할 수 있습니다. 문명에 도시가 많을수록 건설에 필요한 [ICON_PRODUCTION]생산이 증가합니다. 이 불가사의는 문명당 하나만 건설할 수 있는 [COLOR_YELLOW]국가 불가사의[ENDCOLOR]입니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FINANCE_CENTER_HELP">
-			<Text>도시의 [ICON_FOOD]식량 및 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]5%[ENDCOLOR] 증가합니다. [COLOR_POSITIVE_TEXT]친선 관계[ENDCOLOR]를 맺은 문명 2개마다 세계 대회 추가 대표단을 [COLOR_POSITIVE_TEXT]1명[ENDCOLOR] 확보합니다.[NEWLINE][NEWLINE][ICON_IDEOLOGY_FREEDOM][COLOR_MAGENTA]평등[ENDCOLOR] 이념을 채택해야 건설할 수 있습니다. 모든 도시에 증권거래소가 있어야 건설할 수 있습니다. 문명에 도시가 많을수록 건설에 필요한 [ICON_PRODUCTION]생산이 증가합니다. 이 불가사의는 문명당 하나만 건설할 수 있는 [COLOR_YELLOW]국가 불가사의[ENDCOLOR]입니다.</Text>
+			<Text>도시의 [ICON_FOOD]식량 및 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]5%[ENDCOLOR] 증가합니다. [COLOR_POSITIVE_TEXT]친선 관계[ENDCOLOR]를 맺은 문명 2개마다 세계 대회 추가 대표단을 [COLOR_POSITIVE_TEXT]1명[ENDCOLOR] 확보합니다.[NEWLINE][NEWLINE][ICON_IDEOLOGY_FREEDOM][COLOR_MAGENTA]평등[ENDCOLOR] 이념을 채택해야 건설할 수 있습니다. [NEWLINE][NEWLINE]모든 도시에 증권거래소가 있어야 건설할 수 있습니다. 문명에 도시가 많을수록 건설에 필요한 [ICON_PRODUCTION]생산이 증가합니다. 이 불가사의는 문명당 하나만 건설할 수 있는 [COLOR_YELLOW]국가 불가사의[ENDCOLOR]입니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_GRAND_CANAL_HELP">
-			<Text>추가 [ICON_INTERNATIONAL_TRADE]교역로를 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR]제공합니다. 잠수함 및 항공모함을 제외한 모든 해상 유닛에 [COLOR_PLAYER_PURPLE]보물 선단[ENDCOLOR] (공격 시 +10% [ICON_STRENGTH]전투력 +10%, 시야 +1, 우호 영토 밖에서 회복) 승급을 부여합니다. [NEWLINE][NEWLINE][COLOR_YELLOW]세계 대회 결의안[ENDCOLOR]으로 비준되어야만 건설할 수 있습니다.</Text>
+			<Text>추가 [ICON_INTERNATIONAL_TRADE]교역로를 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR]제공합니다. 잠수함 및 항공모함을 제외한 모든 해상 유닛에 [COLOR_PLAYER_PURPLE]보물 선단[ENDCOLOR] 승급을 부여합니다. [NEWLINE][NEWLINE][COLOR_YELLOW]세계 대회 결의안[ENDCOLOR]으로 비준되어야만 건설할 수 있습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_MENIN_GATE_HELP">
 			<Text>이 불가사의가 지어진 도시의 [ICON_HAPPINESS_1]행복이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다. 적 유닛을 처치할 때 [ICON_CULTURE]문화 및 [ICON_GOLDEN_AGE]황금기 점수를 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] (시대별 보정) 제공합니다. 요새, 성채, 랜드마크의 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] [ICON_GOLDEN_AGE]황금기 점수가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE][COLOR_YELLOW]세계 대회 결의안[ENDCOLOR]으로 비준되어야만 건설할 수 있습니다.</Text>

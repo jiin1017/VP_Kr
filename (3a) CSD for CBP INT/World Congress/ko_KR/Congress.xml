@@ -12,7 +12,7 @@
 			<Text>영향력 범위</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESOLUTION_SOI_HELP">
-			<Text>Demand a Sphere of Influence over a City-State. If successful, the proposing player becomes the permanent Ally of the City-State (unless this Proposal is repealed). [NEWLINE][NEWLINE]Available once any Civilization discovers Steam Power.</Text>
+			<Text>Demand a Sphere of Influence over a City-State. If successful, the proposing player becomes the permanent Ally of the City-State (unless this Proposal is repealed). [NEWLINE][NEWLINE][COLOR_RESEARCH_STORED]증기력[ENDCOLOR]을 연구한 문명이 있어야 안건으로 채택할 수 있습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_SOI">
 			<Text>영향력 범위: {1_CivsList}</Text>
@@ -24,7 +24,7 @@
 			<Text>탈식민지화</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESOLUTION_DECOLONIZATION_HELP">
-			<Text>Enforce decolonization on a Player. If successful, the Player's [ICON_INFLUENCE] Influence is lowered to 50 with all non-Permanent City-State allies. [NEWLINE][NEWLINE]Available once any Civilization discovers Radio.</Text>
+			<Text>Enforce decolonization on a Player. If successful, the Player's [ICON_INFLUENCE] Influence is lowered to 50 with all non-Permanent City-State allies. [NEWLINE][NEWLINE][COLOR_RESEARCH_STORED]라디오[ENDCOLOR]를 연구한 문명이 있어야 안건으로 채택할 수 있습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESOLUTION_OPEN_DOOR">
 			<Text>문호 개방</Text>
@@ -51,7 +51,7 @@
 			<Text>우주 비행 규제</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESOLUTION_SPACESHIP_INSPECTION_HELP">
-			<Text>Spaceflight Regulations control the proliferation of modern ballistic technology, oversee national space programs, and limit the advance of pontentially-dangerous technology. [NEWLINE][NEWLINE]As long as this resolution is active, all players will suffer a global -25% [ICON_PRODUCTION] Production penalty for [ICON_VICTORY_SPACE] Spaceship Parts, +25% [ICON_GOLD] Gold purchase costs for [ICON_VICTORY_SPACE] Spaceship Parts, and +25% [ICON_PEACE] Faith costs for Engineers.[NEWLINE][NEWLINE]Available once any Civilization discovers Atomic Theory.</Text>
+			<Text>Spaceflight Regulations control the proliferation of modern ballistic technology, oversee national space programs, and limit the advance of pontentially-dangerous technology. [NEWLINE][NEWLINE]As long as this resolution is active, all players will suffer a global -25% [ICON_PRODUCTION] Production penalty for [ICON_VICTORY_SPACE] Spaceship Parts, +25% [ICON_GOLD] Gold purchase costs for [ICON_VICTORY_SPACE] Spaceship Parts, and +25% [ICON_PEACE] Faith costs for Engineers.[NEWLINE][NEWLINE][COLOR_RESEARCH_STORED]원자론[ENDCOLOR]을 연구한 문명이 있어야 안건으로 채택할 수 있습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_SPACESHIP_LIMIT">
 			<Text>{1_Spaceship}% [ICON_PRODUCTION] Production when building SS Parts</Text>
@@ -75,7 +75,7 @@
 			<Text>냉전</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESOLUTION_COLD_WAR_HELP">
-			<Text>Ideological differences have pushed the world into a cold war, and economic and political factions are forming based on ideology alone. [NEWLINE][NEWLINE]While this resolution is active, players may only make [ICON_INTERNATIONAL_TRADE] Trade Routes with civilizations that follow the same ideology, or with allied City-States. Furthermore, [ICON_INFLUENCE] Influence levels with allied City-States do not decline. [NEWLINE][NEWLINE]Available once any Civilization discovers Atomic Theory.</Text>
+			<Text>Ideological differences have pushed the world into a cold war, and economic and political factions are forming based on ideology alone. [NEWLINE][NEWLINE]While this resolution is active, players may only make [ICON_INTERNATIONAL_TRADE] Trade Routes with civilizations that follow the same ideology, or with allied City-States. Furthermore, [ICON_INFLUENCE] Influence levels with allied City-States do not decline. [NEWLINE][NEWLINE][COLOR_RESEARCH_STORED]원자론[ENDCOLOR]을 연구한 문명이 있어야 안건으로 채택할 수 있습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_EMBARGO_IDEOLOGY">
 			<Text>No [ICON_INTERNATIONAL_TRADE] Trade Routes with Ideological opponents or non-allied City-States. Allied City-State [ICON_INFLUENCE] Influence does not decay.</Text>

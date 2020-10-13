@@ -92,7 +92,7 @@
 			<Text>예술</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROCESS_CULTURE_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Arts[ENDCOLOR] converts 25% of [ICON_PRODUCTION] Production of this City into [ICON_CULTURE] Culture, and reduces [ICON_CULTURE] Culture Need by 25%.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]예술[ENDCOLOR] converts 25% of [ICON_PRODUCTION] Production of this City into [ICON_CULTURE] Culture, and reduces [ICON_CULTURE] Culture Need by 25%.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROCESS_CULTURE_STRATEGY">
 			<Text>Investing production in art is a good way to boost your Civilization's cutural output, either to grab that next policy or to stave off a Tourism victory. Also reduces boredom.</Text>
@@ -102,7 +102,7 @@
 			<Text>방어</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROCESS_DEFENSE_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Defense[ENDCOLOR] boosts City [ICON_STRENGTH] Defense and increases Hit Point recovery by 10% of the City's [ICON_PRODUCTION] Production.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]방어[ENDCOLOR] boosts City [ICON_STRENGTH] Defense and increases Hit Point recovery by 10% of the City's [ICON_PRODUCTION] Production.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROCESS_DEFENSE_STRATEGY">
 			<Text>Investing production in defense is a last-ditch method to stave off your city's conquest by a foreign power.</Text>
@@ -112,7 +112,7 @@
 			<Text>농업</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROCESS_FOOD_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Farming[ENDCOLOR] converts 25% of [ICON_PRODUCTION] Production of this City into [ICON_FOOD] Food, and reduces [ICON_FOOD]/[ICON_PRODUCTION] Basic Needs by 25%.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]농업[ENDCOLOR] converts 25% of [ICON_PRODUCTION] Production of this City into [ICON_FOOD] Food, and reduces [ICON_FOOD]/[ICON_PRODUCTION] Basic Needs by 25%.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROCESS_FOOD_STRATEGY">
 			<Text>Investing production in farming is a good way to boost your City's growth, which can be useful if you are falling behind in technologies, or you simply need bigger cities. Also reduces distress.</Text>
@@ -129,13 +129,13 @@
 			<Text>여행 금지</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESOLUTION_TOURISM_PENALTY_HELP">
-			<Text>Restricts international travel between Civilizations. Reduces the [ICON_TOURISM] Tourism modifier for all Civilizations by 35%. [NEWLINE][NEWLINE]Available once any Civilization discovers Flight.</Text>
+			<Text>Restricts international travel between Civilizations. Reduces the [ICON_TOURISM] Tourism modifier for all Civilizations by 35%. [NEWLINE][NEWLINE][COLOR_RESEARCH_STORED]비행[ENDCOLOR]을 연구한 문명이 있어야 안건으로 채택할 수 있습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESOLUTION_TOURISM_BONUS">
 			<Text>여권 시스템</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESOLUTION_TOURISM_BONUS_HELP">
-			<Text>Increases international travel between Civilizations. Increases the [ICON_TOURISM] Tourism modifier for all Civilizations by 50%.[NEWLINE][NEWLINE]Available once any Civilization discovers Flight.</Text>
+			<Text>Increases international travel between Civilizations. Increases the [ICON_TOURISM] Tourism modifier for all Civilizations by 50%.[NEWLINE][NEWLINE][COLOR_RESEARCH_STORED]비행[ENDCOLOR]을 연구한 문명이 있어야 안건으로 채택할 수 있습니다.</Text>
 		</Row>
 		
 		<!-- Sweden Grenadiers -->
@@ -143,7 +143,7 @@
 			<Text>지역 피해</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MISC_YOU_UNIT_WAS_DAMAGED_AOE_STRIKE_FORTIFY">
-			<Text>필룸</Text>
+			<Text>투창</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MISC_YOU_UNIT_WAS_DAMAGED_SPLASH">
 			<Text>광역 피해</Text>

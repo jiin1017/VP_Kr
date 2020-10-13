@@ -97,7 +97,7 @@
 			<Text>유물에서 [ICON_GOLDEN_AGE] 황금기 점수를 획득했습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GOODY_CHOOSE_FREE_TILES">
-			<Text>가장 가까운 도시 주변에 영토를 주는 부족을 발견했습니다.</Text>
+			<Text>가장 가까운 도시 주변에 영토를 제공하는 부족을 발견했습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BARBARIAN_GOLDEN_AGE_HEADING4_TITLE">
 			<Text>황금기 점수</Text>

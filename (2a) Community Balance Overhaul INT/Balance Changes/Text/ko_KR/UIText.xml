@@ -157,7 +157,7 @@
 			<Text>{1_CivName:textkey}{1: plural 1?이; 2?가;} 당신의 영토를 구매했습니다!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_UA_STOLE_PLOT">
-			<Text>{1_CivName:textkey}{1: plural 1?이; 2?가;} 팽창의 천명이라 명했습니다!</Text>
+			<Text>{1_CivName:textkey}{1: plural 1?이; 2?가;} 명백한 운명이라 명했습니다!</Text>
 		</Row>
 		<!-- Text for GPs -->
 		<Row Tag="TXT_KEY_NOTIFICATION_CITY_WLTKD_GREAT_MERCHANT">
@@ -675,7 +675,7 @@
 			<Text>다음 건물 건설에 필요함</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PEDIA_LEADS_TO_BLDG_LABEL">
-			<Text>다음 건물 건설:</Text>
+			<Text>다음 건물 건설</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PEDIA_TOURISM_LABEL">
 			<Text>관광:</Text>
@@ -886,7 +886,7 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_TRAIT_POPULATION_GROWTH_SHORT_CBP">
-			<Text>Font of Dharma</Text>
+			<Text>달마 대사의 어록</Text>
 		</Row>
 
 		<!-- Top Panel -->

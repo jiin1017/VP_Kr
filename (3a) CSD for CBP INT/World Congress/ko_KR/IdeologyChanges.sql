@@ -63,7 +63,7 @@ WHERE Tag = 'TXT_KEY_RESOLUTION_WORLD_RELIGION_HELP' AND EXISTS (SELECT * FROM C
 -- World Ideology
 
 UPDATE Language_ko_KR
-SET Text = 'Designate an Ideology as the official World Ideology.  Civilizations following the Ideology get an additional Delegate, plus 1 Delegate for every other Civilization that follows the Ideology.  Public opinion in favor of that Ideology is increased for all Civilizations. Enables the [COLOR_POSITIVE_TEXT]Diplomatic Victory[ENDCOLOR] if the United Nations has been constructed. [NEWLINE][NEWLINE]Available once any Civilization discovers Nuclear Fission.'
+SET Text = 'Designate an Ideology as the official World Ideology.  Civilizations following the Ideology get an additional Delegate, plus 1 Delegate for every other Civilization that follows the Ideology.  Public opinion in favor of that Ideology is increased for all Civilizations. Enables the [COLOR_POSITIVE_TEXT]Diplomatic Victory[ENDCOLOR] if the United Nations has been constructed. [NEWLINE][NEWLINE][COLOR_RESEARCH_STORED]핵분열[ENDCOLOR]을 연구한 문명이 있어야 안건으로 채택할 수 있습니다.'
 WHERE Tag = 'TXT_KEY_RESOLUTION_WORLD_IDEOLOGY_HELP' AND EXISTS (SELECT * FROM CSD WHERE Type='IDEOLOGY_CSD' AND Value= 1 );
 
 -- Scholars in Residence
@@ -99,7 +99,7 @@ WHERE Tag = 'TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_CULTURE_FROM_NATURAL_WONDERS
 -- Improvement/Landmarks
 
 UPDATE Language_ko_KR
-SET Text = 'Great Person tile improvements provide +1 to [ICON_PRODUCTION] Production, [ICON_FOOD] Food, and [ICON_GOLD] Gold when worked, and Landmarks built by Archaeologists provide +1 [ICON_CULTURE] Culture, [ICON_RESEARCH] Science, and [ICON_PEACE] Faith when worked.[NEWLINE][NEWLINE]Available once any Civilization discovers Archaeology.'
+SET Text = 'Great Person tile improvements provide +1 to [ICON_PRODUCTION] Production, [ICON_FOOD] Food, and [ICON_GOLD] Gold when worked, and Landmarks built by Archaeologists provide +1 [ICON_CULTURE] Culture, [ICON_RESEARCH] Science, and [ICON_PEACE] Faith when worked.[NEWLINE][NEWLINE][COLOR_RESEARCH_STORED]고고학[ENDCOLOR]을 연구한 문명이 있어야 안건으로 채택할 수 있습니다.'
 WHERE Tag = 'TXT_KEY_RESOLUTION_HISTORICAL_LANDMARKS_HELP' AND EXISTS (SELECT * FROM CSD WHERE Type='IDEOLOGY_CSD' AND Value= 1 );
 
 UPDATE Language_ko_KR
@@ -126,13 +126,13 @@ SET Text = '[ICON_CAPITAL]수도에 [COLOR_POSITIVE_TEXT]수정궁[ENDCOLOR] 불
 WHERE Tag = 'TXT_KEY_LEAGUE_PROJECT_REWARD_WORLD_FAIR_3_HELP' AND EXISTS (SELECT * FROM CSD WHERE Type='IDEOLOGY_CSD' AND Value= 1 );
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]만국 박람회[ENDCOLOR] 프로젝트를 시작합니다. 프로젝트가 시작되면 도시의 생산 목록에서 해당 프로젝트를 선택해 프로젝트에 기여할 수 있습니다. 프로젝트가 완료되면 프로젝트에 참여한 문명은 기여한 [ICON_PRODUCTION]생산에 따라 보너스를 받게 됩니다.[NEWLINE][NEWLINE][ICON_TROPHY_GOLD]: {TXT_KEY_LEAGUE_PROJECT_REWARD_WORLD_FAIR_3_HELP}[NEWLINE][ICON_TROPHY_SILVER]: {TXT_KEY_LEAGUE_PROJECT_REWARD_WORLD_FAIR_2_HELP}[NEWLINE][ICON_TROPHY_BRONZE]: {TXT_KEY_LEAGUE_PROJECT_REWARD_WORLD_FAIR_1_HELP} [NEWLINE][NEWLINE]Available once any Civilization discovers Industrialization.'
+SET Text = '[COLOR_POSITIVE_TEXT]만국 박람회[ENDCOLOR] 프로젝트를 시작합니다. 프로젝트가 시작되면 도시의 생산 목록에서 해당 프로젝트를 선택해 프로젝트에 기여할 수 있습니다. 프로젝트가 완료되면, 프로젝트에 참여한 문명은 기여한 [ICON_PRODUCTION]생산에 따라 보너스를 받게 됩니다.[NEWLINE][NEWLINE][ICON_TROPHY_GOLD]: {TXT_KEY_LEAGUE_PROJECT_REWARD_WORLD_FAIR_3_HELP}[NEWLINE][ICON_TROPHY_SILVER]: {TXT_KEY_LEAGUE_PROJECT_REWARD_WORLD_FAIR_2_HELP}[NEWLINE][ICON_TROPHY_BRONZE]: {TXT_KEY_LEAGUE_PROJECT_REWARD_WORLD_FAIR_1_HELP} [NEWLINE][NEWLINE][COLOR_RESEARCH_STORED]산업화[ENDCOLOR]를 연구한 문명이 있어야 안건으로 채택할 수 있습니다.'
 WHERE Tag = 'TXT_KEY_RESOLUTION_WORLD_FAIR_HELP' AND EXISTS (SELECT * FROM CSD WHERE Type='IDEOLOGY_CSD' AND Value= 1 );
 
 -- International Space Station
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]국제 우주 정거장[ENDCOLOR] 프로젝트를 시작합니다. 프로젝트가 시작되면 도시의 생산 목록에서 해당 프로젝트를 선택해 프로젝트에 기여할 수 있습니다. 프로젝트가 완료되면 프로젝트에 참여한 문명은 기여한 [ICON_PRODUCTION]생산에 따라 보너스를 받게 됩니다.[NEWLINE][NEWLINE][ICON_TROPHY_GOLD]: {TXT_KEY_LEAGUE_PROJECT_REWARD_ISS_3_HELP}[NEWLINE][ICON_TROPHY_SILVER]: {TXT_KEY_LEAGUE_PROJECT_REWARD_ISS_2_HELP}[NEWLINE][ICON_TROPHY_BRONZE]: {TXT_KEY_LEAGUE_PROJECT_REWARD_ISS_1_HELP}[NEWLINE][NEWLINE]Available once any Civilization discovers Rocketry.'
+SET Text = '[COLOR_POSITIVE_TEXT]국제 우주 정거장[ENDCOLOR] 프로젝트를 시작합니다. 프로젝트가 시작되면 도시의 생산 목록에서 해당 프로젝트를 선택해 프로젝트에 기여할 수 있습니다. 프로젝트가 완료되면, 프로젝트에 참여한 문명은 기여한 [ICON_PRODUCTION]생산에 따라 보너스를 받게 됩니다.[NEWLINE][NEWLINE][ICON_TROPHY_GOLD]: {TXT_KEY_LEAGUE_PROJECT_REWARD_ISS_3_HELP}[NEWLINE][ICON_TROPHY_SILVER]: {TXT_KEY_LEAGUE_PROJECT_REWARD_ISS_2_HELP}[NEWLINE][ICON_TROPHY_BRONZE]: {TXT_KEY_LEAGUE_PROJECT_REWARD_ISS_1_HELP}[NEWLINE][NEWLINE][COLOR_RESEARCH_STORED]로켓공학[ENDCOLOR]을 연구한 문명이 있어야 안건으로 채택할 수 있습니다.'
 WHERE Tag = 'TXT_KEY_RESOLUTION_INTERNATIONAL_SPACE_STATION_HELP' AND EXISTS (SELECT * FROM CSD WHERE Type='IDEOLOGY_CSD' AND Value= 1 );
 
 -- Games
@@ -142,7 +142,7 @@ SET Text = '20턴 동안 [ICON_TOURISM]관광이 [COLOR_POSITIVE_TEXT]50%[ENDCOL
 WHERE Tag = 'TXT_KEY_LEAGUE_PROJECT_REWARD_WORLD_GAMES_1_HELP' AND EXISTS (SELECT * FROM CSD WHERE Type='IDEOLOGY_CSD' AND Value= 1 );
 
 UPDATE Language_ko_KR
-SET Text = ' 원하는 위인을 [COLOR_POSITIVE_TEXT]1명[ENDCOLOR] 제공합니다.'
+SET Text = ' 원하는 [ICON_GREAT_PEOPLE][COLOR_POSITIVE_TEXT]위인[ENDCOLOR]을 1명 제공합니다.'
 WHERE Tag = 'TXT_KEY_LEAGUE_PROJECT_REWARD_WORLD_GAMES_2_HELP' AND EXISTS (SELECT * FROM CSD WHERE Type='IDEOLOGY_CSD' AND Value= 1 );
 
 UPDATE Language_ko_KR

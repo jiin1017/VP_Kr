@@ -1,41 +1,41 @@
 -- Civilized Jewelers
   
 UPDATE Language_ko_KR
-SET Text = '[ICON_RES_GOLD] Gold, [ICON_RES_SILVER] Silver, [ICON_RES_GEMS] Gems, [ICON_RES_PEARLS] Pearls, [ICON_RES_JEWELRY] Jewelry, and [ICON_RES_AMBER] Amber provide +1 [ICON_GOLDEN_AGE] Golden Age Points in all Cities with a Civilized Jewelers Franchise.'
+SET Text = '시빌 보석 프랜차이즈를 설립한 도시 주변 모든 [ICON_RES_GOLD] 금, [ICON_RES_SILVER] 은, [ICON_RES_GEMS] 보석, [ICON_RES_PEARLS] 진주, [ICON_RES_JEWELRY] 장신구, [ICON_RES_AMBER] 호박석의 [ICON_GOLDEN_AGE]황금기 점수가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_CORPORATION_RESOURCE_BONUS_CIVILIZED_JEWELERS';
  
 -- Firaxite Materials
   
 UPDATE Language_ko_KR
-SET Text = '[ICON_RES_IRON] Iron, [ICON_RES_ALUMINUM] Aluminum, [ICON_RES_MARBLE] Marble, [ICON_RES_COPPER] Copper, [ICON_RES_JADE] Jade, and [ICON_RES_PORCELAIN] Porcelain provide +1 [ICON_RESEARCH] Science in all Cities with a Firaxite Materials Franchise.'
+SET Text = '파이락사이트 소재 프랜차이즈를 설립한 도시 주변 모든 [ICON_RES_IRON] 철 자원, [ICON_RES_ALUMINUM] 알루미늄 자원, [ICON_RES_MARBLE] 대리석, [ICON_RES_COPPER] 구리, [ICON_RES_JADE] 옥, [ICON_RES_PORCELAIN] 도자기의 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_CORPORATION_RESOURCE_BONUS_FIRAXITE_MATERIALS';
   
 -- Giorgio Armeier
  
 UPDATE Language_ko_KR
-SET Text = '[ICON_RES_SILK] Silk, [ICON_RES_COTTON] Cotton, [ICON_RES_DYE] Dye, [ICON_RES_FUR] Furs, and [ICON_RES_LAPIS] Lapis Lazuli provide +1 [ICON_CULTURE] Culture in all Cities with a Giorgio Armeier Franchise.'
+SET Text = '조르지오 아르미에 프랜차이즈를 설립한 도시 주변 모든 [ICON_RES_SILK] 비단, [ICON_RES_COTTON] 면, [ICON_RES_DYE] 염료, [ICON_RES_FUR] 모피, [ICON_RES_LAPIS] 청금석의 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_CORPORATION_RESOURCE_BONUS_GIORGIO_ARMEIER';
   
 -- Hexxon Refineries
   
 UPDATE Language_ko_KR
-SET Text = '[ICON_RES_COAL] Coal, [ICON_RES_OIL] Oil, [ICON_RES_INCENSE] Incense, [ICON_RES_URANIUM] Uranium, [ICON_RES_BRAZILWOOD] Brazilwood, [ICON_RES_PERFUME] Perfume, and [ICON_RES_GLASS] Glass provide +1 [ICON_PRODUCTION] Production in all Cities with a Hexxon Refineries Franchise.'
+SET Text = '헥손 정유 프랜차이즈를 설립한 도시 주변 모든 [ICON_RES_COAL] 석탄 자원, [ICON_RES_OIL] 석유 자원, [ICON_RES_INCENSE] 향, [ICON_RES_URANIUM] 우라늄 자원, and [ICON_RES_BRAZILWOOD]브라질 소방목, [ICON_RES_PERFUME] 향수, [ICON_RES_GLASS] 유리 의 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_CORPORATION_RESOURCE_BONUS_HEXXON_REFINERY';
  
 -- LandSea Extractors
  
 UPDATE Language_ko_KR
-SET Text = '[ICON_RES_HORSE] Horse, [ICON_RES_WHALE] Whales, [ICON_RES_CRAB] Crab, [ICON_RES_IVORY] Ivory, and [ICON_RES_CORAL] Coral provide +1 [ICON_PRODUCTION] Production in all Cities with a Centaurus Extractors Franchise.'
+SET Text = '센타우리 익스트랙터 프랜차이즈를 설립한 도시 주변 모든 [ICON_RES_HORSE] 말 자원, [ICON_RES_WHALE] 고래, [ICON_RES_CRAB] 게, [ICON_RES_IVORY] 상아, [ICON_RES_CORAL] 산호의 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_CORPORATION_RESOURCE_BONUS_LANDSEA_EXTRACTORS';
   
 -- Trader Sid's
  
 UPDATE Language_ko_KR
-SET Text = '[ICON_RES_SPICES] Cinnamon, [ICON_RES_SUGAR] Sugar, [ICON_RES_SALT] Salt, [ICON_RES_NUTMEG] Nutmeg, [ICON_RES_CLOVES] Cloves, [ICON_RES_PEPPER] Pepper, [ICON_RES_COCOA] Cocoa, and [ICON_RES_TOBACCO] Tobacco provide +1 [ICON_GOLD] Gold in all Cities with a Trader Sid''s Franchise.'
+SET Text = '시드 무역 프랜차이즈를 설립한 도시 주변 모든 [ICON_RES_CLOVES] 정향, [ICON_RES_COCOA] 코코아, [ICON_RES_NUTMEG] 육두구, [ICON_RES_PEPPER] 후추, [ICON_RES_SALT] 소금, [ICON_RES_SPICES] 향신료, [ICON_RES_SUGAR] 설탕, [ICON_RES_TOBACCO] 연초의 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_CORPORATION_RESOURCE_BONUS_TRADER_SIDS';
   
 -- TwoKay Foods
  
 UPDATE Language_ko_KR
-SET Text = '[ICON_RES_WINE] Wine, [ICON_RES_TRUFFLES] Truffles, [ICON_RES_CITRUS] Citrus, [ICON_RES_OLIVE] Olives, [ICON_RES_COFFEE] Coffee, and [ICON_RES_TEA] Tea provide +1 [ICON_FOOD] Food in all Cities with a TwoKay Foods Franchise.'
+SET Text = '투케이 푸드 프랜차이즈를 설립한 도시 주변 모든 [ICON_RES_WINE] 와인, [ICON_RES_TRUFFLES] 송로버섯, [ICON_RES_CITRUS] 감귤, [ICON_RES_OLIVE] 올리브, [ICON_RES_COFFEE] 커피, and [ICON_RES_TEA] 차의 [ICON_FOOD]식량이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_CORPORATION_RESOURCE_BONUS_TWOKAY_FOODS';

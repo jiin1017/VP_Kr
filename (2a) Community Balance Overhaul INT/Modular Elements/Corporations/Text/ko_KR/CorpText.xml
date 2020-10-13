@@ -572,7 +572,7 @@
 			<Text>Construct this building in one of your cities to found the Trader Sid's Corporation. See the [COLOR_POSITIVE_TEXT]Corporations[ENDCOLOR] section of the Civilopedia for more information.[NEWLINE][NEWLINE]Remember that each Civilization may only found [COLOR_POSITIVE_TEXT]one[ENDCOLOR] Corporation, so make sure the benefits are applicable to your Victory Strategy!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_TRADER_SIDS_HQ_HELP">
-			<Text>시드 무역 기업을 설립합니다.[NEWLINE][NEWLINE]시드 무역 오피스를 무료로 제공하고 소유한 도시에 시드 무역 오피스를 건설할 수 있는 능력이 해금됩니다.</Text>
+			<Text>시드 무역 기업을 설립합니다.[NEWLINE][NEWLINE]시드 무역 오피스를 무료로 제공하고 소유한 도시에 시드 무역 오피스를 건설할 수 있는 능력을 해금합니다.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_TRADER_SIDS_FRANCHISE">
@@ -630,7 +630,7 @@
 			<Text>Construct this building in one of your cities to found the Centaurus Extractor's Corporation. See the [COLOR_POSITIVE_TEXT]Corporations[ENDCOLOR] section of the Civilopedia for more information.[NEWLINE][NEWLINE]Remember that each Civilization may only found [COLOR_POSITIVE_TEXT]one[ENDCOLOR] Corporation, so make sure the benefits are applicable to your Victory Strategy!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_LANDSEA_EXTRACTORS_HQ_HELP">
-			<Text>센타우리 익스트랙터 기업을 설립합니다.[NEWLINE][NEWLINE]센타우리 익스트랙터 오피스를 무료로 제공하고 소유한 도시에 센타우리 익스트랙터 오피스를 건설할 수 있는 능력이 해금됩니다.</Text>
+			<Text>센타우리 익스트랙터 기업을 설립합니다.[NEWLINE][NEWLINE]센타우리 익스트랙터 오피스를 무료로 제공하고 소유한 도시에 센타우리 익스트랙터 오피스를 건설할 수 있는 능력을 해금합니다.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_LANDSEA_EXTRACTORS_FRANCHISE">
@@ -688,7 +688,7 @@
 			<Text>Construct this building in one of your cities to found the Hexxon Refineries Corporation. See the [COLOR_POSITIVE_TEXT]Corporations[ENDCOLOR] section of the Civilopedia for more information.[NEWLINE][NEWLINE]Remember that each Civilization may only found [COLOR_POSITIVE_TEXT]one[ENDCOLOR] Corporation, so make sure the benefits are applicable to your Victory Strategy!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_HEXXON_REFINERY_HQ_HELP">
-			<Text>헥손 정유 기업을 설립합니다.[NEWLINE][NEWLINE]헥손 정유 오피스를 무료로 제공하고 소유한 도시에 헥손 정유 오피스를 건설할 수 있는 능력이 해금됩니다.</Text>
+			<Text>헥손 정유 기업을 설립합니다.[NEWLINE][NEWLINE]헥손 정유 오피스를 무료로 제공하고 소유한 도시에 헥손 정유 오피스를 건설할 수 있는 능력을 해금합니다.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_HEXXON_REFINERY_FRANCHISE">
@@ -721,10 +721,10 @@
 			<Text>조르지오 아르미에 주식회사</Text>	  <Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_CORPORATION_GIORGIO_ARMEIER_HELP">
-			<Text>[ICON_CULTURE]문화와 전문가에 초점을 맞춘 혜택을 제공합니다. 추가 [ICON_INTERNATIONAL_TRADE]교역로를 [COLOR_POSITIVE_TEXT]2개[ENDCOLOR] 제공합니다.[NEWLINE][NEWLINE]모든 박물관 및 오페라 하우스의 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가하고 모든 도시 작가, 음악가, 예술가 전문가의 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다. 다른 문명의 도시에 설립한 프랜차이즈 1개마다 상대 문명에 대한 [ICON_TOURISM]관광이 [COLOR_POSITIVE_TEXT]2%[ENDCOLOR] 증가합니다.</Text>
+			<Text>[ICON_CULTURE]문화와 전문가에 초점을 맞춘 혜택을 제공합니다. 추가 [ICON_INTERNATIONAL_TRADE]교역로를 [COLOR_POSITIVE_TEXT]2개[ENDCOLOR] 제공합니다.[NEWLINE][NEWLINE]모든 박물관 및 오페라 극장의 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가하고 모든 도시 작가, 음악가, 예술가 전문가의 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다. 다른 문명의 도시에 설립한 프랜차이즈 1개마다 상대 문명에 대한 [ICON_TOURISM]관광이 [COLOR_POSITIVE_TEXT]2%[ENDCOLOR] 증가합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CORPORATION_RESOURCE_BONUS_GIORGIO_ARMEIER">
-			<Text>조르지오 아르미에 프랜차이즈를 설립한 도시 주변 모든 [ICON_RES_SILK] 비단, [ICON_RES_COTTON] 면, [ICON_RES_DYE] 염료, [ICON_RES_FUR] 모피의 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다..</Text>
+			<Text>조르지오 아르미에 프랜차이즈를 설립한 도시 주변 모든 [ICON_RES_SILK] 비단, [ICON_RES_COTTON] 면, [ICON_RES_DYE] 염료, [ICON_RES_FUR] 모피의 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CORPORATION_OFFICE_BONUS_GIORGIO_ARMEIER">
 			<Text>모든 글로벌 프랜차이즈마다 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가하고 [ICON_RESEARCH]문맹 및 [ICON_CULTURE]무료에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소합니다.</Text>
@@ -746,7 +746,7 @@
 			<Text>Construct this building in one of your cities to found the Giorgio Armeier Corporation. See the [COLOR_POSITIVE_TEXT]Corporations[ENDCOLOR] section of the Civilopedia for more information.[NEWLINE][NEWLINE]Remember that each Civilization may only found [COLOR_POSITIVE_TEXT]one[ENDCOLOR] Corporation, so make sure the benefits are applicable to your Victory Strategy!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_GIORGIO_ARMEIER_HQ_HELP">
-			<Text>조르지오 아르미에 기업을 설립합니다.[NEWLINE][NEWLINE]조르지오 아르미에 오피스를 무료로 제공하고 소유한 도시에 조르지오 아르미에 오피스를 건설할 수 있는 능력이 해금됩니다.</Text>
+			<Text>조르지오 아르미에 기업을 설립합니다.[NEWLINE][NEWLINE]조르지오 아르미에 오피스를 무료로 제공하고 소유한 도시에 조르지오 아르미에 오피스를 건설할 수 있는 능력을 해금합니다.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_GIORGIO_ARMEIER_FRANCHISE">
@@ -779,8 +779,7 @@
 			<Text>파이락사이트 소재 주식회사</Text>	  <Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_CORPORATION_FIRAXITE_MATERIALS_HELP">
-			<Text>대량의 [ICON_RESEARCH]과학을 창출하고 제국 내 인프라 개발에 초점을 맞춘 혜택을 제공합니다. 추가 [ICON_INTERNATIONAL_TRADE]교역로를 [COLOR_POSITIVE_TEXT]2개[ENDCOLOR] 제공하고 교역로가 약탈되지 않습니다.[NEWLINE][NEWLINE]
-			모든 공장 및 대학의 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] 증가합니다. 다른 문명의 도시에 설립한 프랜차이즈 1개마다 상대 문명에 대한 [ICON_TOURISM]관광이 [COLOR_POSITIVE_TEXT]2%[ENDCOLOR] 증가합니다.</Text>
+			<Text>대량의 [ICON_RESEARCH]과학을 창출하고 제국 내 인프라 개발에 초점을 맞춘 혜택을 제공합니다. 추가 [ICON_INTERNATIONAL_TRADE]교역로를 [COLOR_POSITIVE_TEXT]2개[ENDCOLOR] 제공하고 교역로가 약탈되지 않습니다.[NEWLINE][NEWLINE]모든 공장 및 대학의 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] 증가합니다. 다른 문명의 도시에 설립한 프랜차이즈 1개마다 상대 문명에 대한 [ICON_TOURISM]관광이 [COLOR_POSITIVE_TEXT]2%[ENDCOLOR] 증가합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CORPORATION_RESOURCE_BONUS_FIRAXITE_MATERIALS">
 			<Text>파이락사이트 소재 프랜차이즈를 설립한 도시 주변 모든 [ICON_RES_IRON] 철 자원, [ICON_RES_ALUMINUM] 알루미늄 자원, [ICON_RES_MARBLE] 대리석, [ICON_RES_COPPER] 구리, [ICON_RES_PORCELAIN] 도자기의 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.</Text>
@@ -805,7 +804,7 @@
 			<Text>Construct this building in one of your cities to found the Firaxite Materials Corporation. See the [COLOR_POSITIVE_TEXT]Corporations[ENDCOLOR] section of the Civilopedia for more information.[NEWLINE][NEWLINE]Remember that each Civilization may only found [COLOR_POSITIVE_TEXT]one[ENDCOLOR] Corporation, so make sure the benefits are applicable to your Victory Strategy!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FIRAXITE_MATERIALS_HQ_HELP">
-			<Text>파이락사이트 소재 기업을 설립합니다.[NEWLINE][NEWLINE]파이락사이트 소재 오피스를 무료로 제공하고 소유한 도시에 파이락사이트 소재 오피스를 건설할 수 있는 능력이 해금됩니다.</Text>
+			<Text>파이락사이트 소재 기업을 설립합니다.[NEWLINE][NEWLINE]파이락사이트 소재 오피스를 무료로 제공하고 소유한 도시에 파이락사이트 소재 오피스를 건설할 수 있는 능력을 해금합니다.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_FIRAXITE_MATERIALS_FRANCHISE">
@@ -863,7 +862,7 @@
 			<Text>Construct this building in one of your cities to found the TwoKay Foods Corporation. See the [COLOR_POSITIVE_TEXT]Corporations[ENDCOLOR] section of the Civilopedia for more information.[NEWLINE][NEWLINE]Remember that each Civilization may only found [COLOR_POSITIVE_TEXT]one[ENDCOLOR] Corporation, so make sure the benefits are applicable to your Victory Strategy!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_TWOKAY_FOODS_HQ_HELP">
-			<Text>투케이 푸드 기업을 설립합니다.[NEWLINE][NEWLINE]투케이 푸드 오피스를 무료로 제공하고 소유한 도시에 투케이 푸드 오피스를 건설할 수 있는 능력이 해금됩니다.</Text>
+			<Text>투케이 푸드 기업을 설립합니다.[NEWLINE][NEWLINE]투케이 푸드 오피스를 무료로 제공하고 소유한 도시에 투케이 푸드 오피스를 건설할 수 있는 능력을 해금합니다.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_TWOKAY_FOODS_FRANCHISE">
@@ -887,7 +886,7 @@
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_TWOKAY_FOODS_STRATEGY">
 			<Text>When a [ICON_INTERNATIONAL_TRADE] Trade Route between a foreign City and this City completes, a TwoKay Foods Franchise is constructed in the foreign City.[NEWLINE][NEWLINE]TwoKay Foods cannot be sold or destroyed by the player, and increases the [ICON_FOOD] Food output of all TwoKay Foods Offices by +3.[NEWLINE][NEWLINE]You cannot have more Franchises than your Franchise Limit (see the Corporation and Monopolies Overview for more on this).</Text>
-		</Row>
+		</Row>TXT_KEY_CORPORATION_RESOURCE_BONUS_FIRAXITE_MATERIALS
 		<Row Tag="TXT_KEY_BUILDING_TWOKAY_FOODS_HELP">
 			<Text>모든 도시의 전역 [ICON_HAPPINESS_3]불행 반영값이 [COLOR_POSITIVE_TEXT]5%[ENDCOLOR] 감소합니다. 다른 문명의 도시에 설립한 모든 투케이 푸드 프랜차이즈의 [ICON_FOOD]식량이 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] 증가합니다. (제한: 당신 문명의 프랜차이즈 한도까지만 증가)[NEWLINE][NEWLINE]투케이 푸드 프랜차이즈를 설립한 다른 문명의 도시로 향하는 [ICON_INTERNATIONAL_TRADE]교역로마다 도시의 [ICON_FOOD]식량이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다.</Text>
 		</Row>
@@ -921,7 +920,7 @@
 			<Text>Construct this building in one of your cities to found the Civilized Jewelers Corporation. See the [COLOR_POSITIVE_TEXT]Corporations[ENDCOLOR] section of the Civilopedia for more information.[NEWLINE][NEWLINE]Remember that each Civilization may only found [COLOR_POSITIVE_TEXT]one[ENDCOLOR] Corporation, so make sure the benefits are applicable to your Victory Strategy!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_CIVILIZED_JEWELERS_HQ_HELP">
-			<Text>시빌 보석 기업을 설립합니다.[NEWLINE][NEWLINE]시빌 보석 오피스를 무료로 제공하고 소유한 도시에 시빌 보석 오피스를 건설할 수 있는 능력이 해금됩니다.</Text>
+			<Text>시빌 보석 기업을 설립합니다.[NEWLINE][NEWLINE]시빌 보석 오피스를 무료로 제공하고 소유한 도시에 시빌 보석 오피스를 건설할 수 있는 능력을 해금합니다.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_CIVILIZED_JEWELERS_FRANCHISE">
