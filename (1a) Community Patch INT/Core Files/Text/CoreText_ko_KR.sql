@@ -3,7 +3,7 @@
 INSERT INTO Language_ko_KR
 			(Tag,											Text)
 VALUES		('TXT_KEY_GAME_OPTION_BARB_GG_GA_POINTS',		'야만인으로부터 위대한 장군/제독 점수'),
-			('TXT_KEY_GAME_OPTION_BARB_GG_GA_POINTS_HELP',	'야만인과의 전투에서 위대한 장군/제독 점수를 쌓을 수 있도록 허용합니다.');
+			('TXT_KEY_GAME_OPTION_BARB_GG_GA_POINTS_HELP',	'야만인과의 전투에서 위대한 장군/제독 점수를 획득할 수 있습니다.');
 			
 UPDATE Language_ko_KR
 SET Text = '게임을 불러올 때마다 무작위 숫자 시드가 생성됩니다. 이것은 불러오기를 할 때마다 같은 행동을 하더라도 결과가 각각 다르게 나오는 것을 의미합니다. 처음 게임을 했을 때와 AI 결정이 다를 수 있습니다.'
@@ -22,7 +22,7 @@ WHERE EXISTS (SELECT * FROM CustomModOptions WHERE Name='ALTERNATE_ASSYRIA_TRAIT
 
 -- Razing
 UPDATE Language_ko_KR	
-SET Text = '도시를 불태우면 매 턴 [ICON_CITIZEN]시민의 수가 [COLOR_NEGATIVE_TEXT]1[ENDCOLOR] 줄어들며, [ICON_CITIZEN]시민이 [COLOR_NEGATIVE_TEXT]0[ENDCOLOR]이 되면 도시가 사라집니다. [NEWLINE][NEWLINE]소각 중인 이 도시는 [COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR] [ICON_HAPPINESS_4]불행을 증가시킬 것입니다. 이 [ICON_HAPPINESS_4]불행은 각 턴마다 감소될 것입니다. 불태우기 중에는 꽤 많은 [ICON_HAPPINESS_4]불행을 만들어 낼 뿐만 아니라 당신의 [COLOR_POSITIVE_TEXT]전쟁 점수[ENDCOLOR]도 증가시킵니다.'
+SET Text = '도시를 불태우면 매 턴 [ICON_CITIZEN]시민이 줄어들며, [ICON_CITIZEN]시민이 [COLOR_NEGATIVE_TEXT]0[ENDCOLOR]이 되면 도시가 사라집니다. [NEWLINE][NEWLINE]도시를 불태우는 것는 상당히 많은 [ICON_HAPPINESS_4]불행을 야기할 뿐만 아니라 상대 문명에 대항하는 당신 문명의 [COLOR_POSITIVE_TEXT]전쟁 점수[ENDCOLOR] 또한 증가시킵니다.'
 WHERE Tag = 'TXT_KEY_POPUP_CITY_CAPTURE_INFO_RAZE';
 
 -- Production Queue
@@ -32,20 +32,20 @@ WHERE Tag = 'TXT_KEY_CITYVIEW_QUEUE_PROD_TT';
 
 -- Avoid Growth
 UPDATE Language_ko_KR
-SET Text = '[ICON_CITIZEN]시민의 증가를 억제하려면 클릭하십시오.'
+SET Text = '[ICON_CITIZEN]시민의 성장을 억제하려면 클릭하십시오.'
 WHERE Tag = 'TXT_KEY_CITYVIEW_FOCUS_AVOID_GROWTH_TT';
 
 -- All Growth Modifier Tooltips with Icons
 UPDATE Language_ko_KR
-SET Text = '[NEWLINE][ICON_BULLET][ICON_CONNECTED][COLOR_POSITIVE_TEXT]+{1_Num}%[ENDCOLOR]  문명에서 주는 이익'
+SET Text = '[NEWLINE][ICON_BULLET][ICON_CONNECTED][COLOR_POSITIVE_TEXT]+{1_Num}%[ENDCOLOR]  문명 전역에서' --문명에서 주는 이익
 WHERE Tag = 'TXT_KEY_FOODMOD_PLAYER';
 
 UPDATE Language_ko_KR
-SET Text = '[NEWLINE][ICON_BULLET][ICON_RELIGION_PANTHEON][COLOR_POSITIVE_TEXT]+{1_Num}%[ENDCOLOR]  [ICON_PEACE]종교가 주는 이익'
+SET Text = '[NEWLINE][ICON_BULLET][ICON_RELIGION_PANTHEON][COLOR_POSITIVE_TEXT]+{1_Num}%[ENDCOLOR]  [ICON_PEACE]종교에서' --종교가 주는 이익
 WHERE Tag = 'TXT_KEY_FOODMOD_RELIGION';
 
 UPDATE Language_ko_KR
-SET Text = '[NEWLINE][ICON_BULLET][ICON_HAPPINESS_1][COLOR_POSITIVE_TEXT]+{1_Num}%[ENDCOLOR]  국왕 경축일이 주는 이익'
+SET Text = '[NEWLINE][ICON_BULLET][ICON_HAPPINESS_1][COLOR_POSITIVE_TEXT]+{1_Num}%[ENDCOLOR]  "국왕 경축일"에서' --국왕 경축일이 주는 이익
 WHERE Tag = 'TXT_KEY_FOODMOD_WLTKD';
 
 
@@ -58,7 +58,7 @@ WHERE Tag = 'TXT_KEY_EUPANEL_CAPTURE_CHANCE';
 
 -- Interception
 UPDATE Language_ko_KR
-SET Text = '[COLOR_WARNING_TEXT]인식한 적 요격 유닛 : {1_Number}[ENDCOLOR]'
+SET Text = '[COLOR_WARNING_TEXT]요격 : {1_Number}[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_EUPANEL_VISIBLE_AA_UNITS';
 
 -- Naval Melee Units
@@ -220,7 +220,7 @@ WHERE Tag = 'TXT_KEY_CIV5_IMPROVEMENTS_CITADEL_TEXT';
 
 -- Merchant of Venice
 UPDATE Language_ko_KR
-SET Text = '베니스의 상인이 자신의 자금력으로 도시 국가를 사들여 [ICON_PUPPET] 베니스의 괴뢰 도시로 편입합니다. 모든 도시 국가의 현재 유닛의 조종권을 획득합니다.'
+SET Text = '베니스의 상인이 막강한 자금력으로 도시 국가를 사들여 [ICON_PUPPET] 베니스의 괴뢰 도시로 편입시켰습니다. 모든 도시 국가의 기존 유닛에 대한 통제권을 획득합니다.'
 WHERE Tag = 'TXT_KEY_MISSION_BUY_CITY_STATE_HELP';
 
 UPDATE Language_ko_KR
@@ -250,31 +250,31 @@ SELECT		'TXT_KEY_POP_CSTATE_BULLY_FACTOR_MONGOL_TERROR',	'당신은 최근 도�
 
 -- Fixed quest text - transitioned to new 'quest rewards' panel
 UPDATE Language_ko_KR
-SET Text = '{1_MinorCivName:textkey}{1: plural 1?이; 2?가;} 부탁한대로 야만인 야영지를 파괴했습니다!'
+SET Text = '{1_MinorCivName:textkey}{1: plural 1?이; 2?가;} 부탁한대로 야만인 주둔지를 파괴했습니다!'
 WHERE Tag = 'TXT_KEY_NOTIFICATION_QUEST_COMPLETE_KILL_CAMP';
 
 UPDATE Language_ko_KR
-SET Text = '{2_CivName:textkey}와 {1_TargetName:textkey} 사이에 전쟁이 발발했습니다.'
+SET Text = '{2_CivName:textkey}{2: plural 1?과; 2?와;} {1_TargetName:textkey} 사이에 전쟁이 발발했습니다.'
 WHERE Tag = 'TXT_KEY_NOTIFICATION_SUMMARY_QUEST_KILL_CITY_STATE';
 
 UPDATE Language_ko_KR
-SET Text = '{3_TargetName:textkey}{3: plural 1?이; 2?가;} {1_CivName:textkey}에게 전쟁을 선포했습니다, {1_TargetName:textkey}의 요청대로 {3_CivName:textkey}를 [COLOR_NEGATIVE_TEXT]제거[ENDCOLOR]하여 완전한 보상을 받거나 또는 두 도시 국가의 [COLOR_POSITIVE_TEXT]동맹[ENDCOLOR]을 통해 부분적인 보상을 받으십시오. 국제적 압력이 [COLOR_POSITIVE_TEXT]{2_Num}[ENDCOLOR]턴 동안 평화를 강요할 것입니다. 개입할 의도가 있다면 빠르게 행동하십시오!'
+SET Text = '{3_TargetName:textkey}{3: plural 1?이; 2?가;} 외교상의 우려를 이유로 {1_CivName:textkey}에게 전쟁을 선포했습니다, {1_TargetName:textkey}의 요청대로 {3_CivName:textkey}{3: plural 1?을; 2?를;} [COLOR_NEGATIVE_TEXT]파괴[ENDCOLOR]하여 완전한 보상을 받거나 또는 두 도시 국가와의 [COLOR_POSITIVE_TEXT]동맹[ENDCOLOR]을 통해 부분적인 보상을 받으십시오.  국제적인 압력이 [COLOR_POSITIVE_TEXT]{2_Num}[ENDCOLOR]턴 동안 평화를 강요할 것입니다. 개입할 의도가 있다면 빠르게 행동하십시오!'
 WHERE Tag = 'TXT_KEY_NOTIFICATION_QUEST_KILL_CITY_STATE';
 
 UPDATE Language_ko_KR
-SET Text = '{1_CityStateName:textkey} 점령 (완전한 보상) 또는 {1_CityStateName:textkey}와 이 도시 국가의 동맹 (부분 보상)'
+SET Text = '{1_CityStateName:textkey}{1: plural 1?을; 2?를;} 점령(완전한 보상)하거나 두 도시 국가 모두와 동맹(부분적 보상)을 맺으십시오. '
 WHERE Tag = 'TXT_KEY_CITY_STATE_QUEST_KILL_CITY_STATE_FORMAL';
 
 UPDATE Language_ko_KR
-SET Text = '{1_TargetName:textkey}가 {2_CivName:textkey}에게 패배함!'
+SET Text = '{1_TargetName:textkey}{1: plural 1?이; 2?가;} {2_CivName:textkey}에게 패배함!'
 WHERE Tag = 'TXT_KEY_NOTIFICATION_SUMMARY_QUEST_COMPLETE_KILL_CITY_STATE';
 
 UPDATE Language_ko_KR
-SET Text = '{2_CivName:textkey}가 확실한 승자로 떠오르면서 {2_CivName:textkey}와 {1_TargetName:textkey} 사이의 전쟁이 끝났습니다. 당신의 조언자들은 이 결과가 미래의 갈등으로 이어질 수도 있다고 걱정합니다.'
+SET Text = '{2_CivName:textkey}{2: plural 1?이; 2?가;} 확실한 승자로 떠오르면서 {2_CivName:textkey}{2: plural 1?과; 2?와;} {1_TargetName:textkey} 사이의 전쟁이 끝났습니다. 당신의 조언자들은 이 결과가 미래의 갈등으로 이어질 수도 있다고 걱정합니다.'
 WHERE Tag = 'TXT_KEY_NOTIFICATION_QUEST_COMPLETE_KILL_CITY_STATE';
 
 UPDATE Language_ko_KR
-SET Text = '{2_MinorCivName:textkey}의 요청대로 {1_ResourceName}{1: plural 1?을; 2?를;}교역망에 추가했습니다. 당신의 상인들이 기뻐합니다!'
+SET Text = '{2_MinorCivName:textkey}의 요청대로 {1_ResourceName}{1: plural 1?을; 2?를;}교역망에 연결했습니다. 그들의 상인들이 기뻐합니다!'
 WHERE Tag = 'TXT_KEY_NOTIFICATION_QUEST_COMPLETE_CONNECT_RESOURCE';
 
 UPDATE Language_ko_KR
@@ -282,7 +282,7 @@ SET Text = '{2_MinorCivName:textkey}의 요청대로 {1_WonderName}{1: plural 1?
 WHERE Tag = 'TXT_KEY_NOTIFICATION_QUEST_COMPLETE_CONSTRUCT_WONDER';
 
 UPDATE Language_ko_KR
-SET Text = '{2_MinorCivName:textkey}의 요청대로 {1_UnitName}{1: plural 1?을; 2?를;} 만들었습니다! 당신의 학자들이 경외합니다!'
+SET Text = '{2_MinorCivName:textkey}의 요청대로 {1_UnitName}{1: plural 1?이; 2?가;} 출현했습니다! 그들의 학자들이 당신을 경외합니다!'
 WHERE Tag = 'TXT_KEY_NOTIFICATION_QUEST_COMPLETE_GREAT_PERSON';
 
 UPDATE Language_ko_KR
@@ -294,27 +294,27 @@ SET Text = '{1_TargetName:textkey}{1: plural 1?을; 2?를;} 발견해 {2_MinorCi
 WHERE Tag = 'TXT_KEY_NOTIFICATION_QUEST_COMPLETE_FIND_PLAYER';
 
 UPDATE Language_ko_KR
-SET Text = '당신에게 골드를 선물 받은 {2_MinorCivName:textkey}{2: plural 1?은; 2?는;} {1_BullyName:textkey}에게 바친 공물 때문에 생긴 경제적 손실을 메울 수 있었습니다!'
+SET Text = '당신이 선물한 골드 덕분에 {2_MinorCivName:textkey}{2: plural 1?은; 2?는;} {1_BullyName:textkey}에게 바친 공물로 생긴 경제적 손실을 메울 수 있었습니다!'
 WHERE Tag = 'TXT_KEY_NOTIFICATION_QUEST_COMPLETE_GIVE_GOLD';
 
 UPDATE Language_ko_KR
-SET Text = '{2_MinorCivName:textkey}{2: plural 1?이; 2?가;} 애써 모은 자원을 내주는 것을 본 상대 도시 국가 {1_TargetName:textkey}{1: plural 1?이; 2?가;} 기뻐했습니다.'
+SET Text = '{2_MinorCivName:textkey}{2: plural 1?은; 2?는;} 상대 도시 국가 {1_TargetName:textkey}{1: plural 1?이; 2?가;} 애써 모은 자원을 내주는 것을 지켜보며 기뻐했습니다.'
 WHERE Tag = 'TXT_KEY_NOTIFICATION_QUEST_COMPLETE_BULLY_CITY_STATE';
 
 UPDATE Language_ko_KR
-SET Text = '당신이 {2_MinorCivName:textkey}{2: plural 1?을; 2?를;} 보호해 주겠다고 공언하여 그들이 {1_BullyName:textkey}에게 바친 공물 때문에 생긴 경제적 손실을 극복하는 데 도움이 되었습니다!'
+SET Text = '당신의 보호 선언 덕분에 {2_MinorCivName:textkey}{2: plural 1?은; 2?는;} {1_BullyName:textkey}에게 바친 공물로 생긴 경제적 손실을 메울 수 있었습니다!'
 WHERE Tag = 'TXT_KEY_NOTIFICATION_QUEST_COMPLETE_PLEDGE_TO_PROTECT';
 
 UPDATE Language_ko_KR
-SET Text = '{2_MinorCivName:textkey}{2: plural 1?은; 2?는;} {1_TargetName:textkey}{1: plural 1?이; 2?가;} 자신들을 부당하게 대했다는 사실이 온 세상이 알려지자 안심했습니다.'
+SET Text = '{2_MinorCivName:textkey}{2: plural 1?은; 2?는;} {1_TargetName:textkey}의 손에 당한 부당함이 이제 세계 주요 강대국들에게 알려지고 있다는 사실에 안심했습니다.'
 WHERE Tag = 'TXT_KEY_NOTIFICATION_QUEST_COMPLETE_DENOUNCE_MAJOR';
 
 UPDATE Language_ko_KR
-SET Text = '{@2_MinorCivName}의 시민들이 {@1_ReligionName}{@1: plural 1?이; 2?가;} 도시의 대중 종교가 된 것에 감사합니다.'
+SET Text = '{@2_MinorCivName}의 시민들이 {@1_ReligionName}{@1: plural 1?이; 2?가;} 도시의 대중 종교가 된 것을 보고 기뻐합니다.'
 WHERE Tag = 'TXT_KEY_NOTIFICATION_QUEST_COMPLETE_SPREAD_RELIGION';
 
 UPDATE Language_ko_KR
-SET Text = '{@1_MinorCivName}의 시민들이 교역로 건설에 열광합니다.'
+SET Text = '{@1_MinorCivName}의 시민들이 교역로의 연결에 열광하고 있습니다!'
 WHERE Tag = 'TXT_KEY_NOTIFICATION_QUEST_COMPLETE_TRADE_ROUTE';
 
 UPDATE Language_ko_KR
@@ -326,7 +326,7 @@ SET Text = '{1_MinorCivName:textkey}{1: plural 1?은; 2?는;} 다른 문명의 �
 WHERE Tag = 'TXT_KEY_NOTIFICATION_QUEST_ENDED_CONTEST_CULTURE';
 
 UPDATE Language_ko_KR
-SET Text = '{1_MinorCivName:textkey}의 성직자들이 당신의 종교에 감명받았습니다. 그들은 이제 다른 문명의 열등한 종교는 쳐다보지도 않습니다. 성공한 문명(동점 허용):[NEWLINE]'
+SET Text = '{1_MinorCivName:textkey}의 성직자들이 당신의 독실함에 감명받았습니다. 그들은 이제 다른 문명의 열등한 신앙은 쳐다보지도 않습니다. 성공한 문명(동점 허용):[NEWLINE]'
 WHERE Tag = 'TXT_KEY_NOTIFICATION_QUEST_COMPLETE_CONTEST_FAITH';
 
 UPDATE Language_ko_KR
@@ -334,7 +334,7 @@ SET Text = '{1_MinorCivName:textkey}{1: plural 1?은; 2?는;} 다른 문명의 �
 WHERE Tag = 'TXT_KEY_NOTIFICATION_QUEST_ENDED_CONTEST_FAITH';
 
 UPDATE Language_ko_KR
-SET Text = '{1_MinorCivName:textkey}{1: plural 1?이; 2?가;} 급속하게 발전하는 당신의 기술을 보고 놀랐습니다! 그들의 과학자와 지식인들은 이제 다른 문명은 기술 발전에 더디다고 무시합니다. 성공한 문명(동점 허용):[NEWLINE]'
+SET Text = '{1_MinorCivName:textkey}{1: plural 1?이; 2?가;} 급속하게 발전하는 당신의 기술을 보고 놀랐습니다! 그들의 과학자들과 지식인들이 다른 문명들을 정체된 것으로 치부합니다. 성공한 문명(동점 허용):[NEWLINE]'
 WHERE Tag = 'TXT_KEY_NOTIFICATION_QUEST_COMPLETE_CONTEST_TECHS';
 
 UPDATE Language_ko_KR
@@ -346,29 +346,29 @@ WHERE Tag = 'TXT_KEY_NOTIFICATION_QUEST_ENDED_CONTEST_TECHS';
 
 -- City Revolt
 UPDATE Language_ko_KR
-SET Text = '국가의 [ICON_HAPPINESS_4]불행이 34%가 넘고 여론이 만족 상태에 있지 않으므로 [COLOR_NEGATIVE_TEXT]{1_Turns}[ENDCOLOR]턴 뒤에 도시에서 폭동이 일어날 것입니다. 현재 불행 수준과 문화/이념적 압력을 고려할 때 폭동이 발생할 확률이 가장 높은 도시는 {2_CityName}이며 해당 도시는 {3_CivName}에 합류하게 될 것입니다. 가능한 한 빨리 전역 행복 수준을 높여 이러한 일이 발생하지 않도록 하십시오!'
+SET Text = '전역 [ICON_HAPPINESS_4]불행이 34%가 넘기 때문에 (또는 여론이 만족 상태에 있지 않으므로) [COLOR_NEGATIVE_TEXT]{1_Turns}[ENDCOLOR]턴 뒤에 도시에서 폭동이 일어날 것입니다. 현재 불행 수준과 문화/이념적 압력을 고려할 때 폭동이 발생할 확률이 가장 높은 도시는 {2_CityName}이며 해당 도시는 {3_CivName}에 합류하게 될 것입니다. 가능한 한 빨리 전역 행복 수준을 높여 이러한 일이 발생하지 않도록 하십시오!'
 WHERE Tag = 'TXT_KEY_NOTIFICATION_POSSIBLE_CITY_REVOLT';
 
 UPDATE Language_ko_KR
-SET Text = '국가의 [ICON_HAPPINESS_4]불행이 34%가 넘고 여론이 만족 상태에 있지 않으므로 {1_CityName}에서 폭동이 일어나 {2_CivName}에 합류했습니다!'
+SET Text = '전역 [ICON_HAPPINESS_4]불행이 34%가 넘었기 때문에 {1_CityName}에서 폭동이 일어나 {2_CivName}에 합류했습니다!'
 WHERE Tag = 'TXT_KEY_NOTIFICATION_CITY_REVOLT';
 
 UPDATE Language_ko_KR
-SET Text = '국가의 [ICON_HAPPINESS_4]불행이 34%을 넘어섰기 때문에 당신의 영토에 있는 도시에서 폭동이 발생했습니다!'
+SET Text = '전역 [ICON_HAPPINESS_4]불행이 34%을 넘어섰기 때문에 당신의 영토에 폭동이 발생했습니다!'
 WHERE Tag = 'TXT_KEY_NOTIFICATION_REBELS';
 
 -- Pantheons Founded
 
 UPDATE Language_ko_KR
-SET Text = '당신의 문명이 종교관을 세웠습니다. 선택한 교리: [COLOR_POSITIVE_TEXT]{1_BeliefName}[ENDCOLOR] ({@2_BeliefDesc})'
+SET Text = '당신의 문명이 종교관을 숭배하기 시작했습니다. 선택한 교리: [COLOR_POSITIVE_TEXT]{1_BeliefName}[ENDCOLOR] ({@2_BeliefDesc})'
 WHERE Tag = 'TXT_KEY_NOTIFICATION_PANTHEON_FOUNDED_ACTIVE_PLAYER';
 
 UPDATE Language_ko_KR
-SET Text = '{@1_CivName}{@1: plural 1?이; 2?가;} 종교관을 세웠습니다. 선택한 교리: [COLOR_POSITIVE_TEXT]{2_BeliefName}[ENDCOLOR] ({@3_BeliefDesc})'
+SET Text = '{@1_CivName}{@1: plural 1?이; 2?가;} 종교관을 숭배하기 시작했습니다. 선택한 교리: [COLOR_POSITIVE_TEXT]{2_BeliefName}[ENDCOLOR] ({@3_BeliefDesc})'
 WHERE Tag = 'TXT_KEY_NOTIFICATION_PANTHEON_FOUNDED';
 
 UPDATE Language_ko_KR
-SET Text = '아직 만나지 못한 문명이 종교관을 세웠습니다. 선택한 교리: [COLOR_POSITIVE_TEXT]{1_BeliefName}[ENDCOLOR] ({@2_BeliefDesc})'
+SET Text = '아직 만나지 못한 문명이 종교관을 숭배하기 시작했습니다. 선택한 교리: [COLOR_POSITIVE_TEXT]{1_BeliefName}[ENDCOLOR] ({@2_BeliefDesc})'
 WHERE Tag = 'TXT_KEY_NOTIFICATION_PANTHEON_FOUNDED_UNKNOWN';
 
 -- Religion
@@ -378,22 +378,22 @@ SET Text = '{1_ReligionName}의 창시자'
 WHERE Tag = 'TXT_KEY_RO_STATUS_FOUNDER';
 
 UPDATE Language_ko_KR
-SET Text = '대중 종교가 강화된 도시 어디에서나 [ICON_PEACE]신앙을 사용해 구입할 수 있습니다. 당신의 도시에서 다른 종교를 제거할 수 있으며 (이단심문관 사용) 선교사와 선지자를 도시에 배치하여 다른 종교가 전파되는 것을 막을 수 있습니다.'
+SET Text = '대중 종교가 강화된 도시 어디에서나 [ICON_PEACE]신앙을 통해 구입할 수 있습니다. 당신의 도시에서 다른 종교를 제거할 수 있으며 (이단심문관 사용) 선교사와 선지자를 도시 또는 근처에 배치하여 다른 종교가 전파되는 것을 막을 수 있습니다.'
 WHERE Tag = 'TXT_KEY_UNIT_INQUISITOR_STRATEGY';
 
 
 -- Espionage
 
 UPDATE Language_ko_KR
-SET Text = '활동 감시 중'
+SET Text = '스파이 활동 중'
 WHERE Tag = 'TXT_KEY_SPY_STATE_ESTABLISHED_SURVEILLANCE';
 
 UPDATE Language_ko_KR
-SET Text = '훔칠 기술 없음'
+SET Text = '계획 중단'
 WHERE Tag = 'TXT_KEY_SPY_STATE_ESTABLISHED_SURVEILLANCE_PROGRESS_BAR';
 
 UPDATE Language_ko_KR
-SET Text = '잠재력은 스파이 활동에 대한 도시의 취약성을 반영합니다. 잠재력이 높을수록 도시는 취약합니다. 기본값은 [COLOR_POSITIVE_TEXT](1~10값,보정됨)[ENDCOLOR] 도시의 전반적인 번영과 행복, 특히 과학과 골드 산출량에 기초합니다. 도시에 경찰대나 경찰서와 같은 방어 건물을 건설하면 잠재력이 감소합니다. 기술을 훔치기 위해 레벨이 높은 스파이를 사용할 경우 잠재력이 증가할 수 있습니다.[NEWLINE][NEWLINE]잠재력으로 도시를 정렬하려면 클릭하십시오.'
+SET Text = '잠재력은 스파이 활동에 대한 도시의 취약성을 반영합니다. 잠재력이 높을수록 도시는 취약합니다. 기본값은 [COLOR_POSITIVE_TEXT](1~10값,보정됨)[ENDCOLOR] 도시의 전반적인 번영과 행복, 특히 과학과 골드 산출량에 기초합니다. 도시에 경찰대나 경찰서와 같은 방어 건물을 건설하면 잠재력이 감소합니다. 기술을 훔치기 위해 레벨이 높은 스파이를 사용할 경우 잠재력이 증가할 수 있습니다.[NEWLINE][NEWLINE]잠재력 순으로 도시를 정렬하려면 클릭하십시오.'
 WHERE Tag = 'TXT_KEY_EO_POTENTIAL_SORT_TT';
 
 UPDATE Language_ko_KR
@@ -409,11 +409,11 @@ SET Text = '{1_SpyRank} {2_SpyName}{2: plural 1?이; 2?가;} {3_CityName}에서 
 WHERE Tag = 'TXT_KEY_EO_CITY_POTENTIAL_CANNOT_STEAL_TT';
 
 UPDATE Language_ko_KR
-SET Text = '{1_CityName}의 추정 잠재력은 {2_Num}입니다.[NEWLINE][NEWLINE]이는 전에 이 도시에 잠입한 스파이가 측정한 변동치입니다. 자세한 내용을 보려면 이 도시에 [ICON_SPY]스파이를 보내십시오. [NEWLINE][NEWLINE]잠재력은 스파이 활동에 대한 도시의 취약성을 반영합니다. 이 값이 크면 도시가 취약합니다. 기본값은 (보정됨, 1~10) 해당 도시의 전반적인 번영에 기반합니다. (특히 과학과 금 산출량)'
+SET Text = '{1_CityName}의 추정 잠재력은 {2_Num}입니다.[NEWLINE][NEWLINE]자세한 내용을 보려면 이 도시에 [ICON_SPY]스파이를 보내십시오. [NEWLINE][NEWLINE]잠재력은 스파이 활동에 대한 도시의 취약성을 반영합니다. 이 값이 크면 도시가 취약합니다. 기본값은 (보정됨, 1~10) 해당 도시의 전반적인 번영에 기반합니다. (특히 과학과 금 산출량)'
 WHERE Tag = 'TXT_KEY_EO_CITY_ONCE_KNOWN_POTENTIAL_TT';
 
 UPDATE Language_ko_KR
-SET Text = '{1_SpyRank} {2_SpyName} 옵션:	[NEWLINE][NEWLINE][ICON_BULLET] 도시 국가로 이동해서 [COLOR_POSITIVE_TEXT]선거 조작[ENDCOLOR] 또는 [COLOR_POSITIVE_TEXT]쿠데타[ENDCOLOR]를 시도.	[NEWLINE][ICON_BULLET] 다른 문명의 도시로 이동해서 [COLOR_POSITIVE_TEXT]기술 훔치기[ENDCOLOR] [COLOR_POSITIVE_TEXT음모 폭로[ENDCOLOR]를 시도.	[NEWLINE][ICON_BULLET] 다른 문명의 수도로 이동해서	[COLOR_POSITIVE_TEXT]기술 훔치기[ENDCOLOR] 및 [COLOR_POSITIVE_TEXT음모 폭로[ENDCOLOR]를 시도. 	또는 외교관의 형태로 [COLOR_POSITIVE_TEXT]수다 떨기[ENDCOLOR] 시도.'
+SET Text = '{1_SpyRank} {2_SpyName} 옵션:	[NEWLINE][NEWLINE][ICON_BULLET] 도시 국가로 이동해서 [COLOR_POSITIVE_TEXT]선거 조작[ENDCOLOR] 또는 [COLOR_POSITIVE_TEXT]쿠데타[ENDCOLOR]를 시도.	[NEWLINE][ICON_BULLET] 다른 문명의 도시로 이동해서 [COLOR_POSITIVE_TEXT]기술 훔치기[ENDCOLOR] 및 [COLOR_POSITIVE_TEXT음모 폭로[ENDCOLOR]를 시도.	[NEWLINE][ICON_BULLET] 다른 문명의 수도로 이동해서	[COLOR_POSITIVE_TEXT]기술 훔치기[ENDCOLOR] 및 [COLOR_POSITIVE_TEXT음모 폭로[ENDCOLOR]를 시도, 또는 외교관의 형태로 [COLOR_POSITIVE_TEXT]수다 떨기[ENDCOLOR] 시도.'
 WHERE Tag = 'TXT_KEY_EO_SPY_MOVE_TT';
 
 -- Fixed diacritics for spy names.
@@ -442,62 +442,62 @@ SET Text = '교역로를 소유한 문명과 전쟁 상태여야 합니다.'
 WHERE Tag = 'TXT_KEY_MISSION_PLUNDER_TRADE_ROUTE_DISABLED_HELP';
 
 UPDATE Language_ko_KR
-SET Text = '당신은 {2_CivName}{2: plural 1?이; 2?가;} 연구하지 못한 {1_Num}개의 기술을 연구하였습니다.[NEWLINE]이 문명은 당신에게 문화적 영향력을 행사하고 있기 때문에 이 교역로를 통해 {3_Num} [ICON_RESEARCH]과학을 제공 받습니다.'
+SET Text = '당신은 {2_CivName}{2: plural 1?이; 2?가;} 연구하지 못한 {1_Num}개의 기술을 연구하였습니다.[NEWLINE]이 문명은 당신에게 문화적 영향력을 행사하고 있기 때문에 이 교역로를 통해 +{3_Num} [ICON_RESEARCH]과학을 제공 받습니다.'
 WHERE Tag = 'TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_TT_THEIR_SCIENCE_EXPLAINED';
 
 UPDATE Language_ko_KR
-SET Text = '{1_CivName}{1: plural 1?은; 2?는;} 당신이 연구하지 못한 {2_Num}개의 기술을 연구하였습니다. [NEWLINE]당신은 이 문명에 문화적 영향력을 행사하고 있기 때문에 이 교역로를 통해 {3_Num} [ICON_RESEARCH]과학을 제공 받습니다.'
+SET Text = '{1_CivName}{1: plural 1?은; 2?는;} 당신이 연구하지 못한 {2_Num}개의 기술을 연구하였습니다. [NEWLINE]당신은 이 문명에 문화적 영향력을 행사하고 있기 때문에 이 교역로를 통해 +{3_Num} [ICON_RESEARCH]과학을 제공 받습니다.'
 WHERE Tag = 'TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_TT_YOUR_SCIENCE_EXPLAINED';
 
 -- Item Not Tradeable
 UPDATE Language_ko_KR
-SET Text = '상대방이 아직 제삼자를 만나지 못했거나 또는 우리는 그들의 대사관을 가지고 있지 않습니다.'
+SET Text = '상대방이 아직 제삼자를 만나지 못했거나 또는 당신 문명이 상대방의 대사관을 가지고 있지 않습니다.'
 WHERE Tag = 'TXT_KEY_DIPLO_OTHER_PLAYERS_NO_PLAYERS_THEM';
 
 UPDATE Language_ko_KR
-SET Text = '현재의 전쟁이 이 행동을 막았습니다.'
+SET Text = '현재 전쟁 중이기 때문에 불가능합니다.'
 WHERE Tag = 'TXT_KEY_DIPLO_ALREADY_AT_WAR';
 
 UPDATE Language_ko_KR
-SET Text = '도시 국가 동맹이 이것을 막았습니다.'
+SET Text = '도시 국가 동맹 때문에 불가능합니다.'
 WHERE Tag = 'TXT_KEY_DIPLO_NO_WAR_ALLIES';
 
 UPDATE Language_ko_KR
-SET Text = '도시 국가 동맹이 이것을 막았습니다.'
+SET Text = '도시 국가 동맹 때문에 불가능합니다.'
 WHERE Tag = 'TXT_KEY_DIPLO_MINOR_ALLY_AT_WAR';
 
 UPDATE Language_ko_KR
-SET Text = '도시 국가가 영구적 전쟁을 선언했습니다.'
+SET Text = '도시 국가가 영구적으로 전쟁을 선언했습니다.'
 WHERE Tag = 'TXT_KEY_DIPLO_MINOR_PERMANENT_WAR';
 
 -- Tooltip fix for Open Borders
 UPDATE Language_ko_KR
-SET Text = '다른 문명의 군사 유닛이나 민간 유닛이 당신의 영토를 [COLOR_POSITIVE_TEXT]{1_Num} 턴[ENDCOLOR] 동안 자유롭게 드나들 수 있도록 허락합니다.[NEWLINE][NEWLINE]참고 : 당신의 군사 유닛은 다른 문명의 군사 유닛과 겹칠 수 없습니다.'
+SET Text = '다른 문명의 군사 유닛이나 민간 유닛이 당신 문명의 영토를 [COLOR_POSITIVE_TEXT]{1_Num} 턴[ENDCOLOR] 동안 자유롭게 드나들 수 있도록 허락합니다.[NEWLINE][NEWLINE]참고 : 당신 문명의 군사 유닛은 다른 문명의 군사 유닛과 겹칠 수 없습니다.'
 WHERE Tag = 'TXT_KEY_DIPLO_OPEN_BORDERS_TT';
 
 -- Tooltip fix for Defensive Pact
 UPDATE Language_ko_KR
-SET Text = '이 문명이 [COLOR_POSITIVE_TEXT]{1_Num} 턴[ENDCOLOR] 내에 공격 받는다면, 이 문명의 침략자에게 자동적으로 [COLOR_NEGATIVE_TEXT]선전포고[ENDCOLOR]를 합니다.'
+SET Text = '만약 어느 한 문명이 다른 주요 문명의 공격을 받게 된다면, 조약을 맺은 상대 문명은 즉시 그리고 자동적으로 침략자와 전쟁을 하게 됩니다. (이 조약은 {1_Num}턴 동안 지속됩니다.)'
 WHERE Tag = 'TXT_KEY_DIPLO_DEF_PACT_TT';
 
 -- Lua for Cities
 UPDATE Language_ko_KR
-SET Text = '당신은 거래 가능한 도시가 없거나 또는 우리는 그들의 대사관을 가지고 있지 않습니다.'
+SET Text = '당신의 문명이 거래 가능한 도시를 가지고 있지 않거나 또는 상대방의 대사관을 가지고 있지 않습니다.'
 WHERE Tag = 'TXT_KEY_DIPLO_TO_TRADE_CITY_NO_TT' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
 
 UPDATE Language_ko_KR
-SET Text = '상대는 거래 가능한 도시가 없거나 또는 그들은 우리의 대사관을 가지고 있지 않습니다.'
+SET Text = '상대방이 거래 가능한 도시를 가지고 있지 않거나 또는 당신 문명의 대사관을 가지고 있지 않습니다.'
 WHERE Tag = 'TXT_KEY_DIPLO_TO_TRADE_CITY_NO_THEM' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
 
 
 -- Civilopedia Refresh
 
 UPDATE Language_ko_KR
-SET Text = '방어하는 유닛이 공격하는 유닛보다 피해를 더 받으면 퇴각합니다. 퇴각할 공간이 없으면 50%의 추가 피해를 입습니다.'
+SET Text = '방어하는 유닛이 공격하는 유닛에게 받는 피해보다 더 많은 피해를 입힌다면 철수하게 됩니다. 철수할 공간이 없으면 50%의 추가 피해를 입습니다.'
 WHERE Tag = 'TXT_KEY_PROMOTION_HEAVY_CHARGE_HELP';
 
 UPDATE Language_ko_KR
-SET Text = '하나의 전투 유닛만이 동시에 한 도시에 주둔하는 것이 가능합니다. 만약 전투 유닛이 도시에 "주둔"하면 도시에 상당한 방어력 보너스를 더하게 됩니다. 만약 도시가 주둔군이 있는 상태에서 공격을 당한다면,  그 주둔군은 그 피해의 일부를 도시로 분산시킬 것이고 따라서 그 도시는 훨씬 더 많은 보호를 받을 것입니다. 그러나 주둔군은 이런 식으로 파괴될 수 있으니 주의하십시오.[NEWLINE][NEWLINE]추가적인 전투 유닛이 도시를 통과할 수 있지만, 거기서 턴을 끝낼 수는 없습니다. (그래서 수비대가 있는 도시에 전투 유닛을 생산하면 두 유닛 중 하나를 밖으로 옮겨야 턴이 끝납니다.)'
+SET Text = '하나의 전투 유닛만이 동시에 한 도시에 주둔하는 것이 가능합니다. 만약 군사 유닛이 도시에 "주둔"하면 도시에 상당한 방어력 보너스를 추가하게 됩니다. 만약 도시가 주둔군이 있는 동안 공격을 받는다면, 주둔군은 그 피해의 일부를 도시에 분산시킬 것이고 따라서 그 도시는 훨씬 더 많은 보호를 제공할 것입니다. 그러나 주둔군은 이런 식으로 파괴될 수 있으니 주의하십시오.[NEWLINE][NEWLINE]추가적인 전투 유닛이 도시를 통과할 수 있지만, 거기서 턴을 끝낼 수는 없습니다. (그래서 수비대가 있는 도시에 전투 유닛을 생산하면 두 유닛 중 하나를 밖으로 옮겨야 턴이 끝납니다.)'
 WHERE Tag = 'TXT_KEY_CITIES_COMBATUNITS_HEADING3_BODY';
 
 UPDATE Language_ko_KR
@@ -505,7 +505,7 @@ SET Text = '도시에 군사 유닛을 주둔시켜 도시 방어를 강화할 �
 WHERE Tag = 'TXT_KEY_COMBAT_GARRISONINCITIES_HEADING3_BODY';
 
 UPDATE Language_ko_KR
-SET Text = '근접 전투가 끝나면 양측 유닛은 피해를 보고 체력이 감소하게 됩니다. 체력이 0까지 떨어지게 되면 그 유닛은 파괴됩니다. 근접 전투 후에 방어측 유닛이 파괴되고 공격측 유닛이 살아남았다면 성채, 요새, 도시에서 방어하지 않는한 공격측 유닛은 방어측 유닛이 있던 타일로 이동하게 됩니다. 만약 그 타일에 민간 유닛이 있었다면 그 유닛은 공격측 유닛에게 사로잡히게 됩니다. 만약 방어측 유닛이 파괴되지 않는다면 방어측 유닛은 그 타일과 타일에 있던 민간 유닛을 보호하게 됩니다.[NEWLINE][NEWLINE]대부분의 유닛은 공격시 모든 이동력을 사용하게 됩니다. 그러나 어떤 유닛은 공격 후에 이동 가능한 능력을 갖고 있습니다. 이런 유닛은 공격 후에 파괴되지 않고 이동력이 남아있다면 이동 가능합니다.[NEWLINE][NEWLINE]전투에 참가했던 유닛들 중 살아남은 모든 유닛은 승급하기 위해 필요한 경험치를 얻게 됩니다.'
+SET Text = '근접 전투가 끝나면 양측 유닛은 피해를 받고 체력이 감소하게 됩니다. 체력이 0까지 떨어지게 되면 그 유닛은 파괴됩니다. 근접 전투 후에 방어측 유닛이 파괴되고 공격측 유닛이 살아남았다면 성채, 요새, 도시에서 방어하지 않는한 공격측 유닛은 방어측 유닛이 있던 타일로 이동하게 됩니다. 만약 그 타일에 민간 유닛이 있었다면 그 유닛은 공격측 유닛에게 사로잡히게 됩니다. 만약 방어측 유닛이 파괴되지 않는다면 방어측 유닛은 그 타일과 타일에 있던 민간 유닛을 보호하게 됩니다.[NEWLINE][NEWLINE]대부분의 유닛은 공격시 모든 이동력을 사용하게 됩니다. 그러나 어떤 유닛은 공격 후에 이동 가능한 능력을 갖고 있습니다. 이런 유닛은 공격 후에 파괴되지 않고 이동력이 남아있다면 이동 가능합니다.[NEWLINE][NEWLINE]전투에 참가했던 유닛들 중 살아남은 모든 유닛은 승급하기 위해 필요한 경험치를 얻게 됩니다.'
 WHERE Tag = 'TXT_KEY_COMBAT_MELEERESULTS_HEADING3_BODY';
 
 UPDATE Language_ko_KR
@@ -517,11 +517,11 @@ SET Text = '전쟁 점수'
 WHERE Tag = 'TXT_KEY_DIPLOMACY_PEACE_HEADING3_TITLE';
 
 UPDATE Language_ko_KR
-SET Text = '만약 문명과 전쟁 중이라면, 평화에 대한 논의를 할 수 있습니다. 전쟁 점수는 문명들 사이에 항상 변화하는 전쟁의 양상 입니다. 전쟁 점수는 100에서 -100까지 변동할 수 있는데, 여기서 100은 당신의 완전한 승리이고, -100은 상대편의 완전한 승리를 의미합니다. 전쟁 점수는 시간이 지남에 따라 점차적으로 줄어들게 될 것이며, 이는 장기적이고 장기화된 갈등 속에서 과거 행동의 가치가 하락하는 것을 강조하기 위한 것입니다.[NEWLINE][NEWLINE]전쟁이 선언되면 모두 전쟁 점수가 0에서 시작 합니다. 당신(또는 상대방)이 유닛을 파괴하고, 타일이나 교역로를 약탈하고, 시민 유닛을 포로로 잡고, 도시를 점령하면 당신의 전쟁 점수는 올라갈 것입니다. 이러한 행동의 가치는 상대방의 전체적인 크기에 따라 달라집니다.[NEWLINE][NEWLINE]평화를 이룰 때가 되면 전쟁 점수는 당신이 상대에게 무엇을 얻을 것으로 기대해야 하는지, 혹은 그들이 당신에게 무엇을 요구할 것인지에 대한 좋은 아이디어를 줍니다. 거래 화면에서는 전쟁 점수 변동치가 최대 평화 변동치로 번역되어 상대편(또는 그 반대)으로부터 무엇을 가져갈 수 있는지 정확히 보여줍니다. 평화가 결정되면 전쟁 점수는 0으로 돌아옵니다.'
+SET Text = '만약 문명과 전쟁 중이라면, 평화에 대한 논의를 할 수 있습니다. 전쟁 점수는 문명들 사이에 항상 변화하는 전쟁의 양상 입니다. 전쟁 점수는 100에서 -100까지 변동할 수 있는데, 여기서 100은 당신의 완전한 승리이고, -100은 상대편의 완전한 승리를 의미합니다. 전쟁 점수는 시간이 지남에 따라 점차적으로 줄어들게 될 것이며, 이는 장기적이고 장기화된 갈등 속에서 과거 행동의 가치가 하락하는 것을 강조하기 위한 것입니다.[NEWLINE][NEWLINE]전쟁이 선언되면 모두 전쟁 점수가 0에서 시작 합니다. 당신(또는 상대방)이 유닛을 파괴하고, 타일이나 교역로를 약탈하고, 시민 유닛을 포로로 잡고, 도시를 점령하면 당신의 전쟁 점수는 올라갈 것입니다. 이러한 행동의 가치는 상대방의 전체적인 크기에 따라 달라집니다.[NEWLINE][NEWLINE]평화를 이룰 때가 되면 전쟁 점수는 당신이 상대에게 무엇을 얻을 것으로 기대해야 하는지, 혹은 그들이 당신에게 무엇을 요구할 것인지에 대한 좋은 아이디어를 줍니다. 거래 화면에서는 전쟁 점수 수치가 최대 평화 수치로 번역되어 상대편(또는 그 반대)으로부터 무엇을 가져갈 수 있는지 정확히 보여줍니다. 평화가 결정되면 전쟁 점수는 0으로 돌아옵니다.'
 WHERE Tag = 'TXT_KEY_DIPLOMACY_PEACE_HEADING3_BODY';
 
 UPDATE Language_ko_KR
-SET Text = '기사도 기술을 연구했다면, 방위 조약을 맺는 것이 가능합니다. 방위 조약은 항상 상호 간의 동의로 이루어집니다. 방위 조약으로 맺어진 국가가 공격을 받게 된다면, 가맹국은 자동으로 공격한 국가에 전쟁을 선포하게 됩니다.[NEWLINE][NEWLINE]방위 조약은 50 턴 동안 지속합니다. (보통 속도 기준) 방위 조약의 시간이 끝날 때, 재협상을 하지 않으면 협정은 파기됩니다.'
+SET Text = '기사도 기술을 연구했다면, 방위 조약을 맺는 것이 가능합니다. 방위 조약은 항상 상호 간의 동의로 이루어집니다. 방위 조약으로 맺어진 국가가 공격을 받게 된다면, 가맹국은 자동으로 공격한 국가에 전쟁을 선포하게 됩니다.[NEWLINE][NEWLINE]방위 조약은 50 턴 동안 지속합니다. (보통 속도 기준) 방위 조약이 끝날 때, 재협상을 하지 않으면 협정은 파기됩니다.'
 WHERE Tag = 'TXT_KEY_DIPLOMACY_DEFENSIVEPACT_HEADING3_BODY';
 
 UPDATE Language_ko_KR
@@ -537,23 +537,23 @@ SET Text = '문명 V에 등장하는 각 문명은 하나 이상의 특수한 "�
 WHERE Tag = 'TXT_KEY_UNITS_NATIONAL_HEADING2_BODY';
 
 UPDATE Language_ko_KR
-SET Text = '다른 문명이 점령한 도시 국가를 당신이 다시 점령하였다면, 당신은 그 도시 국가를 해방할 수 있습니다. 만약 도시 국가를 해방한다면, 당신은 즉시 그 도시 국가에 대해 많은 [ICON_INFLUENCE]영향력을 가질 수 있습니다. 이는 보통 당신이 [COLOR_POSITIVE_TEXT]동맹[ENDCOLOR]을 맺을 수 있을 만큼 충분합니다.'
+SET Text = '다른 문명이 점령한 도시 국가를 당신이 다시 점령하였다면, 당신은 그 도시 국가를 해방할 수 있습니다. 만약 도시 국가를 해방한다면, 당신은 그 도시 국가에 대해 많은 [ICON_INFLUENCE]영향력을 가질 수 있습니다. 이는 보통 당신이 [COLOR_POSITIVE_TEXT]동맹[ENDCOLOR]을 맺을 수 있을 만큼 충분합니다.'
 WHERE Tag = 'TXT_KEY_CITYSTATE_LIBERATING_HEADING2_BODY';
 
 
 -- Miscellaneous
 
 UPDATE Language_ko_KR
-SET Text = '해당 유닛에게 [COLOR_PLAYER_PURPLE]{@1_PromotionName}[ENDCOLOR] 승급을 부여합니다.[NEWLINE][NEWLINE]({@2_PromotionHelp})'
+SET Text = '[COLOR_PLAYER_PURPLE]{@1_PromotionName}[ENDCOLOR] 승급 부여: [NEWLINE][NEWLINE]({@2_PromotionHelp})'
 WHERE Tag = 'TXT_KEY_FREE_PROMOTION_FROM_TECH';
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] [ICON_CULTURE]  걸작과 테마에서 획득'
+SET Text = '[COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] [ICON_CULTURE]  걸작 및 테마 보너스에서'
 WHERE Tag = 'TXT_KEY_CULTURE_FROM_GREAT_WORKS';
 
 -- Economic Advisor
 UPDATE Language_ko_KR
-SET Text = '우리의 너무 많은 군사 유지비 때문에 경제가 위축되고 있습니다. 보급 한도 이상의 불필요한 유닛을 해산해야 합니다.'
+SET Text = '너무 많은 수의 군사 때문에 경제가 위축되고 있습니다. 보급 한도 이상의 불필요한 유닛을 해산해야 합니다.'
 WHERE Tag = 'TXT_KEY_ECONOMICAISTRATEGY_TOO_MANY_UNITS';
 
 -- Reversed Tourism for Open Borders
@@ -586,12 +586,12 @@ WHERE Tag = 'TXT_KEY_PROGRESS_SCREEN_PRODUCTION_TT';
 
 -- Liberation
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]당신은 이들의 최초의 수도를 해방시켰습니다.[ENDCOLOR]'
+SET Text = '[COLOR_POSITIVE_TEXT]당신은 그들의 최초의 수도를 해방시켰습니다.[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_DIPLO_LIBERATED_CAPITAL';
 
 -- Recent Trade
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]우리는 최근에 거래한 적이 있습니다.[ENDCOLOR]'
+SET Text = '[COLOR_POSITIVE_TEXT]우리는 거래 파트너 입니다.[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_DIPLO_TRADE_PARTNER';
 
 -- Shared Intrigue
@@ -628,16 +628,16 @@ SET Text = '[COLOR_NEGATIVE_TEXT]스파이를 보내지 말라고 요구했습�
 WHERE Tag = 'TXT_KEY_DIPLO_STOP_SPYING_ASKED';
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_NEGATIVE_TEXT]스파이가 기술을 훔치려다 붙잡혔습니다.[ENDCOLOR]'
+SET Text = '[COLOR_NEGATIVE_TEXT]스파이가 절도 행각 중 붙잡혔습니다.[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_DIPLO_CAUGHT_STEALING';
 
 -- Promises
 UPDATE Language_ko_KR
-SET Text = '[COLOR_NEGATIVE_TEXT]당신은 그들이 보호하는 도시 국가를 공격하지 않겠다고 약속했지만, 어겼습니다![ENDCOLOR]'
+SET Text = '[COLOR_NEGATIVE_TEXT]당신은 그들이 보호하는 도시 국가를 정복하지 않겠다고 약속했지만, 어겼습니다![ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_DIPLO_CITY_STATE_PROMISE';
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_NEGATIVE_TEXT]다른 문명이 보호하기로 선언한 도시 국가를 공격하지 않겠다고 한 약속을 어겼습니다![ENDCOLOR]'
+SET Text = '[COLOR_NEGATIVE_TEXT]다른 문명이 보호하기로 선언한 도시 국가를 정복하지 않겠다고 한 약속을 어겼습니다![ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_DIPLO_CITY_STATE_PROMISE_BROKEN_WITH_OTHERS';
 
 UPDATE Language_ko_KR
@@ -670,11 +670,11 @@ WHERE Tag = 'TXT_KEY_DIPLO_NO_DIG_PROMISE_BROKEN';
 
 -- Friend Betrayal
 UPDATE Language_ko_KR
-SET Text = '[COLOR_NEGATIVE_TEXT]우리는 우호선언을 하고 나서 그들을 비난했습니다![ENDCOLOR]'
+SET Text = '[COLOR_NEGATIVE_TEXT]우리는 우호 선언을 하고 나서 그들을 비난했습니다![ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_DIPLO_HUMAN_FRIEND_DENOUNCED';
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_NEGATIVE_TEXT]우리는 우호선언을 하고 나서 이들에게 선전포고를 했습니다![ENDCOLOR]'
+SET Text = '[COLOR_NEGATIVE_TEXT]우리는 우호 선언을 하고 나서 이들에게 선전포고를 했습니다![ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_DIPLO_HUMAN_FRIEND_DECLARED_WAR';
 
 

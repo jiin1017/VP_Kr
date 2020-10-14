@@ -637,10 +637,10 @@
 
 		<!-- LUA Text -->
 		<Row Tag="TXT_KEY_PRODUCTION_GOLDEN_AGE">
-			<Text>[NEWLINE] [ICON_BULLET][ICON_GOLDEN_AGE] 황금기에서 오는 변동치: {1_Num}%</Text>
+			<Text>[NEWLINE] [ICON_BULLET][ICON_GOLDEN_AGE] 황금기에서: {1_Num}%</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_WLTKD_BELIEF">
-			<Text>[NEWLINE] [ICON_BULLET]"국왕 경축일"에서 오는 교리 변동치:" {1_Num}%</Text>
+			<Text>[NEWLINE] [ICON_BULLET]"국왕 경축일"에서 오는 교리:" {1_Num}%</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CULTURE_GOLDEN_AGE">
 			<Text>+{1_Num}% [ICON_CULTURE] [ICON_GOLDEN_AGE] 황금기에서</Text>
@@ -664,7 +664,7 @@
 			<Text>+{1_Num}% {2_IconString} [ICON_GOLDEN_AGE] 황금기에서</Text>
 		</Row>
 		<Row Tag="TXT_KEY_YIELD_FROM_PROCESS">
-			<Text>{1_Num} {2_IconString} [ICON_SWAP] 프로세스에서</Text>
+			<Text>{1_Num} {2_IconString} [ICON_SWAP] 생산 전환에서</Text>
 		</Row>
 		<Row Tag="TXT_KEY_YIELD_FROM_TRADE_ROUTES">
 			<Text>{1_Num:number "#.##"} {2_IconString} [ICON_INTERNATIONAL_TRADE] 교역로에서</Text>
@@ -737,7 +737,7 @@
 			<Text>{1_PlayerAdj} musicians recently toured your empire, and were warmly received. {1_PlayerAdj} [ICON_TOURISM] Cultural Influence over you has increased by [COLOR_NEGATIVE_TEXT]{2_Num}[ENDCOLOR].</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_GREAT_MUSICIAN_FAMILIAR_TOUR_TARGET_S">
-			<Text>Musicians arrive from {1_PlayerAdj}!</Text>
+			<Text>{1_PlayerName}의 음악가가 도착했습니다!</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_YIELD_FROM_CITY_YIELDS">
@@ -831,7 +831,7 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_PRODMOD_YIELD_RELIGION_POLICIES">
-			<Text>[NEWLINE][ICON_BULLET]Policy Modifer: {1_Num}%</Text>
+			<Text>[NEWLINE][ICON_BULLET]정책 변동치: {1_Num}%</Text>
 		</Row>
 		<Row Tag="TXT_KEY_YIELD_FROM_PIETY">
 			<Text>{1_Num} {2_IconString} [ICON_RELIGION] 주요 종교에서</Text>
@@ -856,7 +856,7 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_DETAILS_RELIGION_REFORMATION_VOTES">
-			<Text>[NEWLINE][ICON_BULLET]{1_NumVotes} from Reformation Belief</Text>
+			<Text>[NEWLINE][ICON_BULLET]{1_NumVotes} 개혁 교리에서</Text>
 		</Row>
 		
 		<Row Tag="TXT_KEY_CULTURE_FROM_GWS">
@@ -912,15 +912,15 @@
 			<Text>{1_Num} [ICON_FOOD] 기근에서</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TP_UNHAPPINESS_MINORITY">
-			<Text>{1_Num} [ICON_RELIGION] 종교적 분쟁에서</Text>
+			<Text>{1_Num} [ICON_RELIGION] 종교 분쟁에서</Text>
 		</Row>
 
 		<!-- Economic Overview -->
 		<Row Tag="TXT_KEY_EO_CITY_IS_NOT_OCCUPIED">
-			<Text>Sources of [ICON_HAPPINESS_3] [COLOR_NEGATIVE_TEXT]Unhappiness[ENDCOLOR]:</Text>
+			<Text>[ICON_HAPPINESS_3] [COLOR_NEGATIVE_TEXT]불행[ENDCOLOR]의 원천:</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EO_CITY_LOCAL_UNHAPPINESS">
-			<Text>Local [ICON_HAPPINESS_3] Unhappiness: [COLOR_NEGATIVE_TEXT]{1_NUM}[ENDCOLOR]</Text>
+			<Text>지역 [ICON_HAPPINESS_3] 불행: [COLOR_NEGATIVE_TEXT]{1_NUM}[ENDCOLOR] ({2_NUM}턴)</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PUPPET_UNHAPPINESS_MOD">
@@ -946,51 +946,51 @@
 		</Row>
 		
 		<Row Tag="TXT_KEY_SCIENCE_UNHAPPINESS">
-			<Text>[ICON_BULLET] [COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR] from [ICON_RESEARCH] Illiteracy[NEWLINE]          Actual [ICON_HAPPINESS_3]: {3_Num} (Reduced by {4_Num})[NEWLINE]          Total Deficit: [COLOR_CYAN]{2_Num} [ICON_RESEARCH][ENDCOLOR][NEWLINE]          Increase [ICON_RESEARCH] by {5_Num:number "#.##"} for -1 [ICON_HAPPINESS_3]</Text>
+			<Text>[ICON_BULLET] [COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR] [ICON_RESEARCH]문맹에서 [NEWLINE]          실제 [ICON_HAPPINESS_3]: {3_Num} ({4_Num}만큼 감소)[NEWLINE]          총 부족: [COLOR_CYAN]{2_Num} [ICON_RESEARCH][ENDCOLOR][NEWLINE]          -1 [ICON_HAPPINESS_3]당 {5_Num:number "#.##"}만큼 [ICON_RESEARCH]증가 </Text>
 		</Row>
 		<Row Tag="TXT_KEY_CULTURE_UNHAPPINESS">
-			<Text>[ICON_BULLET] [COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR] from [ICON_CULTURE] Boredom[NEWLINE]          Actual: {3_Num} [ICON_HAPPINESS_3] (Reduced by {4_Num})[NEWLINE]          Total Deficit: [COLOR_CYAN]{2_Num} [ICON_CULTURE][ENDCOLOR][NEWLINE]          Increase [ICON_CULTURE] by {5_Num:number "#.##"} for -1 [ICON_HAPPINESS_3]</Text>
+			<Text>[ICON_BULLET] [COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR] [ICON_CULTURE]무료에서 [NEWLINE]          실제 [ICON_HAPPINESS_3]: {3_Num} ({4_Num}만큼 감소)[NEWLINE]          총 부족: [COLOR_CYAN]{2_Num} [ICON_CULTURE][ENDCOLOR][NEWLINE]          -1 [ICON_HAPPINESS_3]당 {5_Num:number "#.##"}만큼 [ICON_CULTURE]증가 </Text>
 		</Row>
 		<Row Tag="TXT_KEY_DEFENSE_UNHAPPINESS">
-			<Text>[ICON_BULLET] [COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR] from [ICON_FOOD]/[ICON_PRODUCTION] Distress[NEWLINE]          Actual: {3_Num} [ICON_HAPPINESS_3] (Reduced by {4_Num})[NEWLINE]          Total Deficit: [COLOR_CYAN]{2_Num}[ENDCOLOR] [ICON_FOOD]/[ICON_PRODUCTION][NEWLINE]          Increase [ICON_FOOD]/[ICON_PRODUCTION] by {5_Num:number "#.##"} for -1 [ICON_HAPPINESS_3]</Text>
+			<Text>[ICON_BULLET] [COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR] [ICON_FOOD]/[ICON_PRODUCTION]곤경에서 [NEWLINE]          실제 [ICON_HAPPINESS_3]: {3_Num} ({4_Num}만큼 감소)[NEWLINE]          총 부족: [COLOR_CYAN]{2_Num} [ICON_FOOD]/[ICON_PRODUCTION][ENDCOLOR][NEWLINE]          -1 [ICON_HAPPINESS_3]당 {5_Num:number "#.##"}만큼 [ICON_FOOD]/[ICON_PRODUCTION]증가 </Text>
 		</Row>
 		<Row Tag="TXT_KEY_GOLD_UNHAPPINESS">
-			<Text>[ICON_BULLET] [COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR] from [ICON_GOLD] Poverty[NEWLINE]          Actual: {3_Num} [ICON_HAPPINESS_3] (Reduced by {4_Num})[NEWLINE]          Total Deficit: [COLOR_CYAN]{2_Num} [ICON_GOLD][ENDCOLOR][NEWLINE]          Increase [ICON_GOLD] by {5_Num:number "#.##"} for -1 [ICON_HAPPINESS_3]</Text>
+			<Text>[ICON_BULLET] [COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR] [ICON_GOLD]빈곤에서 [NEWLINE]          실제 [ICON_HAPPINESS_3]: {3_Num} ({4_Num}만큼 감소)[NEWLINE]          총 부족: [COLOR_CYAN]{2_Num} [ICON_GOLD][ENDCOLOR][NEWLINE]          -1 [ICON_HAPPINESS_3]당 {5_Num:number "#.##"}만큼 [ICON_GOLD]증가 </Text>
 		</Row>
 		<Row Tag="TXT_KEY_CONNECTION_UNHAPPINESS">
-			<Text>[ICON_BULLET] [COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR] from Isolation. [NEWLINE]          ([ICON_BLOCKADED] Blockaded / no [ICON_CONNECTED] Connection /[NEWLINE]          no [ICON_CAPITAL] Capital [ICON_INTERNATIONAL_TRADE] Trade Route)</Text>
+			<Text>[ICON_BULLET] [COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR] 고립에서 [NEWLINE]          ([ICON_BLOCKADED] 차단 / [ICON_CONNECTED] 연결 없음 /[NEWLINE]          [ICON_CAPITAL]수도와 [ICON_INTERNATIONAL_TRADE]교역 없음)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PILLAGED_UNHAPPINESS">
-			<Text>[ICON_BULLET] [COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR] from [ICON_RAZING] Pillaged Tiles.</Text>
+			<Text>[ICON_BULLET] [COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR] [ICON_RAZING]약탈된 타일에서</Text>
 		</Row>
 		<Row Tag="TXT_KEY_STARVING_UNHAPPINESS">
-			<Text>[ICON_BULLET] [COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR] from Famine (Needs [ICON_FOOD]).</Text>
+			<Text>[ICON_BULLET] [COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR] 기근에서 ([ICON_FOOD] 필요)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MINORITY_UNHAPPINESS">
-			<Text>[ICON_BULLET] [COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR] from Religious Unrest[NEWLINE]          Reduction: {3_Num}, Needs {2_Icon} Followers</Text>
+			<Text>[ICON_BULLET] [COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR] 종교 분쟁에서 [NEWLINE]           감소: {3_Num}, {2_Icon} 신도 필요</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESISTANCE_UNHAPPINESS">
-			<Text>[ICON_BULLET] [COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR] from [ICON_RESISTANCE] Resistance.</Text>
+			<Text>[ICON_BULLET] [COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR] [ICON_RESISTANCE]저항에서</Text>
 		</Row>
 		<Row Tag="TXT_KEY_OCCUPATION_UNHAPPINESS">
-			<Text>[ICON_BULLET] [COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR] from [ICON_OCCUPIED] Occupation.</Text>
+			<Text>[ICON_BULLET] [COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR] [ICON_OCCUPIED]점령에서</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PUPPET_UNHAPPINESS">
-			<Text>[ICON_BULLET] [COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR] from being a [ICON_PUPPET] Puppet.</Text>
+			<Text>[ICON_BULLET] [COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR] [ICON_PUPPET]괴뢰 도시여서</Text>
 		</Row>
 
 		<!-- Surplus Threshold -->
 		<Row Tag="TXT_KEY_CULTURE_UNHAPPINESS_SURPLUS">
-			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR] above [ICON_CULTURE] Need.</Text>
+			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR] [ICON_CULTURE]필요분 초과</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SCIENCE_UNHAPPINESS_SURPLUS">
-			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR] above [ICON_RESEARCH] Need.</Text>
+			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR] [ICON_RESEARCH]필요분 초과</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DEFENSE_UNHAPPINESS_SURPLUS">
-			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR] above [ICON_FOOD]/[ICON_PRODUCTION] Need.</Text>
+			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR] [ICON_FOOD]/[ICON_PRODUCTION]필요분 초과</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GOLD_UNHAPPINESS_SURPLUS">
-			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR] above [ICON_GOLD] Need.</Text>
+			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR] [ICON_GOLD]필요분 초과</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_EO_CITY_PUPPET">
