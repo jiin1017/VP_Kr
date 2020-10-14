@@ -346,15 +346,15 @@ WHERE Tag = 'TXT_KEY_NOTIFICATION_QUEST_ENDED_CONTEST_TECHS';
 
 -- City Revolt
 UPDATE Language_ko_KR
-SET Text = '전역 [ICON_HAPPINESS_4]불행이 34%가 넘기 때문에 (또는 여론이 만족 상태에 있지 않으므로) [COLOR_NEGATIVE_TEXT]{1_Turns}[ENDCOLOR]턴 뒤에 도시에서 폭동이 일어날 것입니다. 현재 불행 수준과 문화/이념적 압력을 고려할 때 폭동이 발생할 확률이 가장 높은 도시는 {2_CityName}이며 해당 도시는 {3_CivName}에 합류하게 될 것입니다. 가능한 한 빨리 전역 행복 수준을 높여 이러한 일이 발생하지 않도록 하십시오!'
+SET Text = '전역 [ICON_HAPPINESS_4]불행이 34%를 초과했기 때문에 (또는 여론이 만족 상태에 있지 않으므로) [COLOR_NEGATIVE_TEXT]{1_Turns}[ENDCOLOR]턴 동안 도시에 폭동이 일어날 것입니다. 현재 불행 수준과 문화/이념적 압력을 고려할 때 폭동이 발생할 확률이 가장 높은 도시는 {2_CityName}이며 해당 도시는 {3_CivName}에 합류하게 될 것입니다. 가능한 한 빨리 전역 행복 수준을 높여 이러한 일이 발생하지 않도록 하십시오!'
 WHERE Tag = 'TXT_KEY_NOTIFICATION_POSSIBLE_CITY_REVOLT';
 
 UPDATE Language_ko_KR
-SET Text = '전역 [ICON_HAPPINESS_4]불행이 34%가 넘었기 때문에 {1_CityName}에서 폭동이 일어나 {2_CivName}에 합류했습니다!'
+SET Text = '전역 [ICON_HAPPINESS_4]불행이 34%를 초과했기 때문에 {1_CityName}에서 폭동이 일어나 {2_CivName}에 합류했습니다!'
 WHERE Tag = 'TXT_KEY_NOTIFICATION_CITY_REVOLT';
 
 UPDATE Language_ko_KR
-SET Text = '전역 [ICON_HAPPINESS_4]불행이 34%을 넘어섰기 때문에 당신의 영토에 폭동이 발생했습니다!'
+SET Text = '전역 [ICON_HAPPINESS_4]불행이 34%를 초과했기 때문에 당신의 영토에 폭동이 발생했습니다!'
 WHERE Tag = 'TXT_KEY_NOTIFICATION_REBELS';
 
 -- Pantheons Founded

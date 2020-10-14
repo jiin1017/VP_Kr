@@ -5535,19 +5535,19 @@
 
 		<!-- Attack City -->
 		<Row Tag="TXT_KEY_MISC_YOU_ATTACKED_CITY_CP">
-			<Text>당신의 {@2_UnitName}{@2: plural 1?이; 2?가;} 적 {@1_CityName}{@1: plural 1?을; 2?를;} 폭격했습니다. ({3_Num} 피해)</Text>
+			<Text>당신의 {@2_UnitName}{@2: plural 1?이; 2?가;} 적 {@1_CityName}{@1: plural 1?을; 2?를;} 공습했습니다. ({3_Num} 피해)</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_MISC_YOU_ATTACK_BY_AIR_ACTUALLY">
-			<Text>당신의 {@1_UnitName}{@1: plural 1?이; 2?가;} 적 {2_CityName}{2: plural 1?을; 2?를;} 폭격하고 ({3_Num} 피해), 요격 당하지 않았습니다.</Text>
+			<Text>당신의 {@1_UnitName}{@1: plural 1?이; 2?가;} 적 {2_CityName}{2: plural 1?을; 2?를;} 공습하고 ({3_Num} 피해), 요격 당하지 않았습니다.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_MISC_YOU_ATTACK_INTERCEPTED_KILLED">
-			<Text>당신의 {@2_UnitName}{@2: plural 1?이; 2?가;} 적 {@1_AttUnitName}에 의해 요격 당해 제거되었습니다!</Text>
+			<Text>적 {@1_AttUnitName}{@1: plural 1?이; 2?가;} 당신의 {@2_UnitName}{@2: plural 1?을; 2?를;} 요격해 제거했습니다.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_MISC_YOU_ATTACK_BY_AIR_INTERCEPTED">
-			<Text>당신의 {@2_DefUnitName}{@2: plural 1?이; 2?가;} 적 {4_CityName}{4: plural 1?을; 2?를;} 공격하던 중 적 {@1_UnitName}에 요격 당했습니다. ({3_Num} 피해)</Text>
+			<Text>적 {@1_UnitName}{@1: plural 1?이; 2?가;} {4_CityName}{4: plural 1?을; 2?를;} 공격하던 당신의 {@2_DefUnitName}{@2: plural 1?을; 2?를;} 요격했습니다! ({3_Num} 피해)</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_MISC_YOU_ATTACK_UNIT_BY_AIR_INTERCEPTED">
@@ -5555,7 +5555,7 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_MISC_YOU_ARE_ATTACKED_BY_AIR_CITY">
-			<Text>당신의 {@1_CityName}{@1: plural 1?이; 2?가;} 적 {@2_EnUName}에게 공습 당했습니다! ({3_Num} 피해)</Text>
+			<Text>적 {@2_EnUName}{@2: plural 1?이; 2?가;} 당신의 {@1_CityName}{@1: plural 1?을; 2?를;} 공습했습니다. ({3_Num} 피해)</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PARADROP_AA_KILLED">
@@ -5567,19 +5567,19 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_MISC_ENEMY_AIR_UNIT_INTERCEPTED_CITY">
-			<Text>당신의 {@1_UnitName}의 활약으로 {@5_CityName}{@5: plural 1?을; 2?를;} 공격하던 {@2_owner_adjective} {@3_EnUName}에게 {4_Num}의 피해를 입혔습니다.</Text>
+			<Text>당신 {@1_UnitName}의 요격 덕분에 {@5_CityName}{@5: plural 1?을; 2?를;} 공격하던 {@2_owner_adjective} {@3_EnUName}에게 피해를 입혔습니다. ({4_Num} damage) </Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_DECLARE_WAR_DPS_CP">
 			<Text>방위 조약</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DIPLO_DP_WITH_CBP">
-			<Text>[COLOR_POSITIVE_TEXT]{1_CivName:textkey} 문명과의 방위 조약[ENDCOLOR]</Text>
+			<Text>[COLOR_POSITIVE_TEXT]{1_CivName:textkey}{1: plural 1?과; 2?와;} 방위 조약[ENDCOLOR]</Text>
 		</Row>
 
 		<!-- Brazil LUA-->
 		<Row Tag="TXT_KEY_CARNAVAL_WLTKD">
-			<Text>카니발이 시작되었습니다. 카니발을 맞이하여 {1_Num}턴 동안 모든 도시의  [ICON_CULTURE]문화 및 [ICON_FOOD]성장률이 25% 증가합니다.</Text>
+			<Text>카니발이 시작되었습니다. 카니발을 맞이하여 {1_Num}턴 동안 모든 도시의 [ICON_CULTURE]문화 및 [ICON_FOOD]성장률이 25% 증가합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CARNAVAL_WLTKD_S">
 			<Text>카니발 시작!</Text>
@@ -5590,23 +5590,23 @@
 		
 		<!--Revolutions-->
 		<Row Tag="TXT_KEY_NOTIFICATION_POSSIBLE_CITY_REVOLUTION_CP">
-			<Text>문명의 [ICON_HAPPINESS_4]불행이 34% 이상 되어 도시가 {1_Turns}턴 동안 혁명 상태가 됩니다. 현재 불행 변동치에 기반했을 때 봉기가 일어날 가능성이 높은 도시는 {2_CityName}입니다. 이 도시가 봉기하면 {3_CivName}의 통치 아래 들어갈 것입니다.</Text>
+			<Text>전역 [ICON_HAPPINESS_4]불행이 34%를 초과했기 때문에 [COLOR_NEGATIVE_TEXT]{1_Turns}[ENDCOLOR]턴 동안 도시에 폭동이 일어날 것입니다. 현재의 불행 수준을 고려할 때 폭동이 발생할 확률이 가장 높은 도시는 {2_CityName}이며 해당 도시는 {3_CivName}에 합류하게 될 것입니다. 가능한 한 빨리 전역 행복 수준을 높여 이러한 일이 발생하지 않도록 하십시오!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_POSSIBLE_CITY_REVOLUTION_CP_SUMMARY">
-			<Text>혁명의 불안한 조짐</Text>
+			<Text>혁명 소요 사태 발생</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_CIV_REVOLUTION_CP">
-			<Text>{1_CityName}{1: plural 1?이; 2?가;} 봉기하여 {2_CivAdj} 통치권을 회복시켰습니다. 멸망했던 {3_CivName}의 정체성이 다시 형성되고 있습니다.</Text>
+			<Text>{1_CityName}{1: plural 1?이; 2?가;} 봉기하여 {2_CivAdj} 주권을 회복시켰습니다. 멸망했던 {3_CivName}의 정체성이 다시 형성되고 있습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_CIV_REVOLUTION_SHORT_CP">
-			<Text>{1_PlayerName}의 통치권 회복!</Text>
+			<Text>{1_PlayerName}의 주권 회복!</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_NOTIFICATION_POSSIBLE_CITY_REVOLUTION_CP_FREE_CITY">
-			<Text>문명의 [ICON_HAPPINESS_4]불행이 20 이상 되어 도시가 {1_Turns}턴 동안 혁명 상태가 됩니다. 현재 불행 변동치에 기반했을 때 봉기가 일어날 가능성이 높은 도시는 {2_CityName}입니다. 이 도시가 봉기하면 독립적인 도시 국가가 될 것입니다</Text>
+			<Text>전역 [ICON_HAPPINESS_4]불행이 34%를 초과했기 때문에 도시가 {1_Turns}턴 동안 폭동이 발생합니다. 현재의 불행 수준을 고려할 때 폭동이 발생할 확률이 가장 높은 도시는 {2_CityName}입니다. 해당 도시에 폭동이 발생하면 독립적인 도시 국가가 될 것입니다. 가능한 한 빨리 전역 행복 수준을 높여 이러한 일이 발생하지 않도록 하십시오! </Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_OTHER_PLAYER_CITY_REVOLT_FREE_CITY">
-			<Text>{1_CivAdjective} {2_CityName}{2: plural 1?이; 2?가;} 봉기하여 {3_CivName}{3: plural 1?을; 2?를;} 자칭했습니다!</Text>
+			<Text>{1_CivAdjective} {2_CityName}에 폭동이 발생했습니다. 그들 스스로 {3_CivName}의 도시 국가가 되길 선언했습니다!</Text>
 		</Row>
 
 		<!-- Denounce Statements -->
@@ -6020,7 +6020,7 @@
 			<Text>방어적 바다 승선</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_DEFENSIVE_DEEPWATER_EMBARKATION_HELP">
-			<Text>해양 타일에 승선할 수 있습니다. 승선한 유닛은 [ICON_STRENGTH]방어력 보너스가 100% 증가합니다.</Text>
+			<Text>해양 타일에 승선할 수 있습니다. 승선한 유닛의 [ICON_STRENGTH]방어력 보너스가 100% 증가합니다.</Text>
 		</Row>
 
 		<!-- MP Denounce -->
@@ -6036,7 +6036,7 @@
 			<Text>{1_CityName}{1: plural 1?은; 2?는;} {@2_CivShortDesc}의 [ICON_CAPITAL]수도입니다. 이 도시에 [ICON_SPY]스파이나 [ICON_DIPLOMAT]외교관을 보낼 수 있습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_YOUR_CAPITAL_CBP_SPY">
-			<Text>{1_CityName}{1: plural 1?은; 2?는;} 당신의 [ICON_CAPITAL]수도입니다. 적 [ICON_SPY]스파이들이 다른 도시들보다 우선적으로 노릴 것입니다.</Text>
+			<Text>{1_CityName}{1: plural 1?은; 2?는;} 당신의 [ICON_CAPITAL]수도입니다. 적 [ICON_SPY]스파이들의 높은 우선 순위 대상이 됩니다.</Text>
 		</Row>
 
 		<!-- Warmonger Strings-->
@@ -6086,10 +6086,10 @@
 
 		<!--AI Return Unit Text -->
 		<Row Tag="TXT_KEY_NOTIFICATION_UNIT_RETURNED_AI">
-			<Text>{1_Player:textkey} 지도자가 당신의 {@2_UnitName}{@2: plural 1?을; 2?를;} 돌려주었습니다.</Text>
+			<Text>{1_Player:textkey}{1: plural 1?이; 2?가;} 당신의 {@2_UnitName}{@2: plural 1?을; 2?를;} 돌려주었습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_UNIT_RETURNED_AI_SUMMARY">
-			<Text>{1_Player:textkey}의 {@2_UnitName} 반환!</Text>
+			<Text>{1_Player:textkey}{1: plural 1?이; 2?가;} {@2_UnitName}{@2: plural 1?을; 2?를;} 반환!</Text>
 		</Row>
 
 		<!-- Razing -->
@@ -6107,22 +6107,22 @@
 
 		<!-- Tourism -->
 		<Row Tag="TXT_KEY_CO_PLAYER_TOURISM_EMPIRE_SIZE">
-			<Text>도시의 수 에서 +{1_Num}%[NEWLINE]</Text>
+			<Text>+{1_Num}% 더 적은 도시 수에서[NEWLINE]</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_CO_PLAYER_TOURISM_BOREDOM">
-			<Text>문명의 무료에서 +{1_Num}%[NEWLINE]</Text>
+			<Text>+{1_Num}% 문명 전역의 무료에서[NEWLINE]</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_CO_TOURISM_THEME_BONUS">
-			<Text>[COLOR_POSITIVE_TEXT]적용 중인 테마 보너스:[ENDCOLOR] {2_YieldIcon} {3_YieldName} +{1_Num}</Text>
+			<Text>[COLOR_POSITIVE_TEXT]적용 중인 테마 보너스:[ENDCOLOR] +{1_Num}{2_YieldIcon} {3_YieldName}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CO_TOURISM_THEME_BONUS_NEEDED">
-			<Text>[COLOR_POSITIVE_TEXT]이 건물의 테마 조건을 충족시키면:[ENDCOLOR] {2_YieldIcon} {3_YieldName} +{1_Num}</Text>
+			<Text>[COLOR_POSITIVE_TEXT]이 건물의 테마 조건을 충족시키면:[ENDCOLOR] +{1_Num}{2_YieldIcon} {3_YieldName}</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_TOURISM_EVENT_SUMMARY">
-			<Text>역사적 사건</Text>
+			<Text>역사적 이벤트</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TOURISM_EVENT_ERA">
 			<Text>당신의 문명이 새로운 [ICON_RESEARCH] 시대에 진입하여 당신이 만난 모든 문명에 대한 [ICON_TOURISM]관광이 {1_Num} 증가했습니다.</Text>
@@ -6180,10 +6180,10 @@
 			<Text>관광과 교역</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TOURISM_EVENT_TRADE_SEA">
-			<Text>{2_Adj} 도시 {4_Dest}의 시민들이 {3_Num}{3: plural 1?을; 2?를;} 방문하기 위해 당신의 해상 교역로를 이용했고 당신의 위대한 도시에 대한 소문을 전파했습니다. 그 결과, {5_num}에 대한 [ICON_TOURISM]관광이 {1_Num}, 당신이 만난 모든 문명에 대한 관광이 {1_Num} 증가했습니다.</Text>
+			<Text>{2_Adj} 도시 {4_Dest}의 시민들이 {3_Num}{3: plural 1?을; 2?를;} 방문하기 위해 당신의 해상 교역로를 이용했고 당신의 위대한 도시에 대한 소문을 전파했습니다. 그 결과 {5_num}에 대한 [ICON_TOURISM]관광이 {1_Num}, 당신이 만난 모든 문명에 대한 관광이 {6_num} 증가했습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TOURISM_EVENT_TRADE_LAND">
-			<Text>{2_Adj} 도시 {4_Dest}의 시민들이 {3_Num}{3: plural 1?을; 2?를;} 방문하기 위해 당신의 육상 교역로를 이용했고 당신의 위대한 도시에 대한 소문을 전파했습니다. 그 결과, {5_num}에 대한 [ICON_TOURISM]관광이 {1_Num}, 당신이 만난 모든 문명에 대한 관광이 {1_Num} 증가했습니다.</Text>
+			<Text>{2_Adj} 도시 {4_Dest}의 시민들이 {3_Num}{3: plural 1?을; 2?를;} 방문하기 위해 당신의 육상 교역로를 이용했고 당신의 위대한 도시에 대한 소문을 전파했습니다. 그 결과 {5_num}에 대한 [ICON_TOURISM]관광이 {1_Num}, 당신이 만난 모든 문명에 대한 관광이 {6_num} 증가했습니다.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_TOURISM_EVENT_SUMMARY_TRADE_CS">
@@ -6209,7 +6209,7 @@
 
 		<!-- Holy City Lost/Gained-->
 		<Row Tag="TXT_KEY_NOTIFICATION_CITY_LOST_HOLY">
-			<Text>성도 {1_CityName:textkey}{1: plural 1?이; 2?가;} {@2_CivName}에게 점령당했습니다. {@2_CivName} 문명이 열성적이라면 {3_Religion}{3: plural 1?이; 2?가;} 그들의 주요 종교가 되어 그들이 창시자 및 강화 교리의 보너스를 받을 것입니다. {3_Religion}{3: plural 1?이; 2?가;} 당신의 주요 종교라면 당신은 이 도시를 수복할 때까지 교리의 혜택을 받을 수 없습니다.</Text>
+			<Text>성도 {1_CityName:textkey}{1: plural 1?이; 2?가;} {@2_CivName}에게 점령당했습니다. {@2_CivName}{@2: plural 1?이; 2?가;} 열성적이라면 {3_Religion}{3: plural 1?이; 2?가;} 그들의 주요 종교가 되어 그들이 창시자 및 강화 교리의 보너스를 받을 것입니다. {3_Religion}{3: plural 1?이; 2?가;} 당신의 주요 종교라면 당신은 이 도시를 수복할 때까지 교리의 혜택을 받을 수 없습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_CITY_LOST_HOLY">
 			<Text>성도 {1_CityName:textkey}{1: plural 1?이; 2?가;} 점령당했습니다!</Text>
@@ -6223,16 +6223,16 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_NOTIFICATION_OTHER_PLAYER_CITY_REVOLT_UNKNOWN">
-			<Text>{3_CivName} 도시가 반란을 일으켜 합류했습니다!</Text>
+			<Text>{3_CivName}{3: plural 1?이; 2?가;} 반란을 일으켜 합류했습니다!</Text>
 		</Row>
 
-
+		
 
 		<!-- Production cost reduction from resources at city level -->
 		<Row Tag="TXT_KEY_NOTIFICATION_CITY_RESOURCE_PROD_COST_MOD">
 			<Text>{1_CityName:textkey}에서 {2_ResourceName:textkey}{2: plural 1?이; 2?가;} 현재 이용 가능합니다! [ICON_PRODUCTION]생산 비용 감소:{3_Details}</Text>
 		</Row>
-
+		
 		<Row Tag="TXT_KEY_NOTIFICATION_CITY_RESOURCE_PROD_COST_MOD_LIST">
 			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT]{1_UnitCombat}[ENDCOLOR]: {2_CostModifier}%{3_EraInfo}</Text>
 		</Row>
@@ -6242,7 +6242,7 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_NOTIFICATION_CITY_RESOURCE_PROD_COST_MOD_ERA_OBSOLETE">
-			<Text>(노후 기술: {1_ObsoleteEra})</Text>
+			<Text>(퇴보 기술: {1_ObsoleteEra})</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_NOTIFICATION_CITY_RESOURCE_PROD_COST_MOD_BUILDING">
@@ -6251,23 +6251,23 @@
 
 		<!-- Great Work Gold (LUA)-->
 		<Row Tag="TXT_KEY_YIELD_FROM_ART_CBP">
-			<Text>걸작과 테마에서 {2_IconString} {1_Num}</Text>
+			<Text>{1_Num} {2_IconString} 걸작 및 테마에서</Text>
 		</Row>
 		<Row Tag="TXT_KEY_YIELD_FROM_ART_CBP_CULTURE">
-			<Text>걸작과 테마에서 [ICON_CULTURE] +{1_Num}</Text>
+			<Text>+{1_Num} [ICON_CULTURE] 걸작 및 테마에서</Text>
 		</Row>
 		<Row Tag="TXT_KEY_YIELD_FROM_ART_CBP_FAITH">
-			<Text>걸작과 테마에서 [ICON_PEACE] +{1_Num}</Text>
+			<Text>+{1_Num} [ICON_PEACE] 걸작 및 테마에서</Text>
 		</Row>
 		<Row Tag="TXT_KEY_YIELD_FROM_TRAIT_BONUS">
-			<Text>특성에서 {2_IconString} {1_Num}</Text>
+			<Text>{1_Num} {2_IconString} 특성에서</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_CO_PLAYER_TOURISM_LEAGUE">
-			<Text>적극적인 동맹 제안으로 보너스 +{1_Num}%[NEWLINE]</Text>
+			<Text>+{1_Num}% 적극적인 안건 제안 때문에 보너스[NEWLINE]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CO_PLAYER_TOURISM_LEAGUE_NEGATIVE">
-			<Text>적극적인 동맹 제안으로 페널티 {1_Num}%[NEWLINE]</Text>
+			<Text>-{1_Num}% 적극적인 안건 제안 때문에 페널티[NEWLINE]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_CULTURE_VICTORY_SOMEONE_NO_LONGER_INFLUENTIAL">
 			<Text>세계적인 영향력 변화</Text>
@@ -6389,10 +6389,10 @@
 
 		<!-- Tooltips for Growth Modifiers -->
 		<Row Tag="TXT_KEY_FOODMOD_EATEN_FOOD">
-			<Text>[NEWLINE][COLOR_NEGATIVE_TEXT][ICON_CITIZEN]시민의 소비로 [ICON_FOOD] -{1_Num}[ENDCOLOR]</Text>
+			<Text>[NEWLINE][COLOR_NEGATIVE_TEXT]-{1_Num}[ENDCOLOR] [ICON_CITIZEN]시민의 [ICON_FOOD]소비</Text>
 		</Row>
 		<Row Tag="TXT_KEY_FOODMOD_PUPPET">
-			<Text>[NEWLINE][ICON_BULLET][ICON_PUPPET]괴뢰 도시 변동치: {1_Num}%</Text>
+			<Text>[NEWLINE][ICON_BULLET][ICON_PUPPET]괴뢰 도시: {1_Num}%</Text>
 		</Row>
 		<Row Tag="TXT_KEY_FOODMOD_YIELD_GOLDEN_AGE_POLICIES">
 			<Text>[NEWLINE][ICON_BULLET][ICON_GOLDEN_AGE]황금기 변동치 (정책): {1_Num}%</Text>
@@ -6412,36 +6412,36 @@
 
 		<!-- Tooltips for Standard Base Modifiers -->
 		<Row Tag="TXT_KEY_PRODMOD_YIELD_GOLDEN_AGE_BUILDINGS">
-			<Text>[NEWLINE][ICON_BULLET]황금기 변동치 (건물): {1_Num}%</Text>
+			<Text>[NEWLINE][ICON_BULLET]황금기 (건물): {1_Num}%</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODMOD_YIELD_GOLDEN_AGE_POLICIES">
-			<Text>[NEWLINE][ICON_BULLET]황금기 변동치 (정책): {1_Num}%</Text>
+			<Text>[NEWLINE][ICON_BULLET]황금기 (정책): {1_Num}%</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODMOD_YIELD_GOLDEN_AGE_RELIGION">
-			<Text>[NEWLINE][ICON_BULLET]황금기 변동치 (교리): {1_Num}%</Text>
+			<Text>[NEWLINE][ICON_BULLET]황금기 (교리): {1_Num}%</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODMOD_YIELD_GOLDEN_AGE_TRAITS">
-			<Text>[NEWLINE][ICON_BULLET]황금기 변동치 (특성): {1_Num}%</Text>
+			<Text>[NEWLINE][ICON_BULLET]황금기 (특성): {1_Num}%</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODMOD_WLTKD">
-			<Text>[NEWLINE][ICON_BULLET]국왕 경축일 변동치: {1_Num}%</Text>
+			<Text>[NEWLINE][ICON_BULLET]국왕 경축일: {1_Num}%</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODMOD_WLTKD_RELIGION">
-			<Text>[NEWLINE][ICON_BULLET]국왕 경축일 변동치 (교리): {1_Num}%</Text>
+			<Text>[NEWLINE][ICON_BULLET]국왕 경축일 (교리): {1_Num}%</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODMOD_WLTKD_TRAIT">
-			<Text>[NEWLINE][ICON_BULLET]국왕 경축일 변동치 (플레이어): {1_Num}%</Text>
+			<Text>[NEWLINE][ICON_BULLET]국왕 경축일 (문명 성향): {1_Num}%</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODMOD_GREAT_WORKS">
-			<Text>[NEWLINE][ICON_BULLET]걸작 변동치: {1_Num}%</Text>
+			<Text>[NEWLINE][ICON_BULLET]걸작: {1_Num}%</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODMOD_SPIES">
-			<Text>[NEWLINE][ICON_BULLET]활동 중인 스파이 변동치: {1_Num}%</Text>
+			<Text>[NEWLINE][ICON_BULLET]활동 중인 스파이: {1_Num}%</Text>
 		</Row>
 
 		<!-- Lua for Buildings -->
 		<Row Tag="TXT_KEY_NO_ACTION_BUILDING_LOCAL_FEATURE">
-			<Text>[NEWLINE]도시 주변에 {1_FeatureName:textkey} 필요</Text>
+			<Text>[NEWLINE]도시 주변 {1_FeatureName:textkey} 필요</Text>
 		</Row>
 
 		<!-- LUA for Espionage -->
@@ -6466,16 +6466,16 @@
 
 		<!-- Text for 3rd Party Brokering -->
 		<Row Tag="TXT_KEY_NOTIFICATION_DIPLOMACY_THIRD_PARTY_BROKER_NAME">
-			<Text>정보 기관은 {1_CivName:textkey} 문명이 {2_CivName:textkey} 문명에게 당신을 향한 전쟁을 사주했다고 보고했습니다.</Text>
+			<Text>정보 기관은 {1_CivName:textkey}{1: plural 1?이; 2?가;} {2_CivName:textkey}에게 당신을 향한 전쟁을 사주했다고 보고했습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_DIPLOMACY_THIRD_PARTY_BROKER_NAME_S">
-			<Text>{1_CivName:textkey} 문명이 당신을 향해 전쟁을 사주했습니다!</Text>
+			<Text>{1_CivName:textkey}{1: plural 1?이; 2?가;} 당신을 향해 전쟁을 사주했습니다!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_DIPLOMACY_THIRD_PARTY_BROKER_PEACE_NAME">
-			<Text>외교관들은 {1_CivName:textkey} 문명이 {2_CivName:textkey} 문명에게 당신과 평화를 맺어달라며 비용을 지불했다고 보고했습니다</Text>
+			<Text>외교관들은 {1_CivName:textkey}{1: plural 1?이; 2?가;} {2_CivName:textkey}에게 당신과 평화를 맺어달라며 비용을 지불했다고 보고했습니다</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_DIPLOMACY_THIRD_PARTY_BROKER_PEACE_NAME_S">
-			<Text>{1_CivName:textkey} 문명이 평화를 위한 거래를 했습니다!</Text>
+			<Text>{1_CivName:textkey}{1: plural 1?이; 2?가;} 평화를 위한 거래를 했습니다!</Text>
 		</Row>
 
 		<!-- CS -->
@@ -6571,14 +6571,14 @@
 			<Text>안전해진 보호 선언</Text>
 		</Row>
 
-
+		
 
 		<!-- LUA for Warscore -->
 		<Row Tag="TXT_KEY_WAR_SCORE">
 			<Text>[COLOR_POSITIVE_TEXT]전쟁 점수: {1_Num}[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_WAR_SCORE_EXPLANATION">
-			<Text>이 변동치는 전쟁이 얼마나 당신에게 얼마나 유리하게 진행되고 있는지 보여줍니다. 범위는 [COLOR_NEGATIVE_TEXT]-100[ENDCOLOR]부터 [COLOR_POSITIVE_TEXT]100[ENDCOLOR]까지입니다.[NEWLINE][COLOR_POSITIVE_TEXT]현재 전쟁 정보:[ENDCOLOR]</Text>
+			<Text>이 수치는 전쟁이 얼마나 당신에게 얼마나 유리하게 진행되고 있는지 보여줍니다. 범위는 [COLOR_NEGATIVE_TEXT]-100[ENDCOLOR]부터 [COLOR_POSITIVE_TEXT]100[ENDCOLOR]까지입니다.[NEWLINE][COLOR_POSITIVE_TEXT]현재 전쟁 정보:[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_WAR_STRENGTH_PATHETIC">
 			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT][ICON_STRENGTH]군사력:[ENDCOLOR] 참담합니다.</Text>
@@ -6714,7 +6714,7 @@
 			<Text>[NEWLINE][COLOR_CYAN]산출량 변화:[ENDCOLOR][NEWLINE]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TECH_HELP_BUILD_REDUCTION">
-			<Text>{1_Build}: {2_Turns}턴이 소모됩니다.</Text>
+			<Text>{1_Build}: {2_Turns}턴 소모</Text>
 		</Row>
 
 
@@ -6744,7 +6744,7 @@
 		<Row Tag="TXT_KEY_UNIT_PROMOTION_TRANSFER_S_THEM_S">
 			<Text>당신의 {1_Unit}에 상태 이상 효과가 추가되었습니다.</Text>
 		</Row>
-
+		
 		<!-- Morale Hit -->
 		<Row Tag="TXT_KEY_UNIT_MORALE_FALL_BACK">
 			<Text>당신의 {2_Unit}{2: plural 1?이; 2?가;} 적 {1_Unit}에게 밀려나 후퇴했습니다.</Text>
@@ -6765,26 +6765,26 @@
 
 		<!-- Team Tourism -->
 		<Row Tag="TXT_KEY_CO_PLAYER_TOURISM_SAME_TEAM">
-			<Text>같은 팀 보너스 +{1_Num}%[NEWLINE]</Text>
+			<Text>+{1_Num}% 같은 팀 보너스[NEWLINE]</Text>
 		</Row>
 
 		<!-- Building Tooltip -->
 		<Row Tag="TXT_KEY_NO_ACTION_BUILDING_NEED_POLICIES">
-			<Text>해금에 필요한 정책 수 {1_Num}</Text>
+			<Text>해금에 필요한 정책 수: {1_Num}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PEDIA_NUM_POLICY_NEEDED_LABEL">
-			<Text>필요한 정책 수 [COLOR_CYAN]{1_Num}[ENDCOLOR] (현재 {2_Num})</Text>
+			<Text>필요한 정책 수: [COLOR_MAGENTA]{1_Num}[ENDCOLOR] (현재 {2_Num})</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PEDIA_NUM_POPULATION_NATIONAL_NEEDED_LABEL">
-			<Text>필요한 전역 시민 [COLOR_CYAN]{1_Num}[ENDCOLOR] (현재 {2_Num})</Text>
+			<Text>필요한 전역 시민: [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR] (현재 {2_Num})</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PEDIA_NUM_POPULATION_LOCAL_NEEDED_LABEL">
-			<Text>필요한 지역 시민 [COLOR_CYAN]{1_Num}[ENDCOLOR] (현재 {2_Num})</Text>
+			<Text>필요한 지역 시민: [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR] (현재 {2_Num})</Text>
 		</Row>
 
 		<!-- Great Person Progress -->
 		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_GREAT_PERSON_PROGRESS_EMPIRE">
-			<Text>문명 단위 위인 보너스</Text>
+			<Text>문명 전역 위인 보너스</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_GREAT_PERSON_PROGRESS">
 			<Text>위인 점수 갱신 보너스</Text>
@@ -6793,24 +6793,24 @@
 			<Text>{1_City}의 위인 점수 보너스</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INSTANT_GREAT_PERSON_PROGRESS_DETAILS">
-			<Text>{2_Icon} {1_Name} +{3_Num}</Text>
+			<Text>+{3_Num} {2_Icon} {1_Name}</Text>
 		</Row>
 
 		<!-- Instant Yield Text -->
 		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_INSTANT_YIELD_EMPIRE">
-			<Text>문명 단위 보너스</Text>
+			<Text>문명 전역 보너스</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_INSTANT_YIELD">
 			<Text>산출량 보너스 갱신</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_INSTANT_YIELD_IN_CITY">
-			<Text>{1_City}의 보너스</Text>
+			<Text>{1_City}의 산출량 보너스</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_CITY">
 			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT]{1_City}: [ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_DETAILS">
-			<Text>{2_Icon} {1_Name} +{3_Num}</Text>
+			<Text>+{3_Num} {2_Icon} {1_Name}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INSTANT_ADDENDUM">
 			<Text>[NEWLINE]{1_Num}</Text>
@@ -6831,7 +6831,7 @@
 			<Text>[ICON_CULTURE]정책 채택:[NEWLINE]{1_YieldString}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_INSTANT">
-			<Text>산출량:[NEWLINE]{1_YieldString}</Text>
+			<Text>일시적 산출량:[NEWLINE]{1_YieldString}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_TECH">
 			<Text>[ICON_RESEARCH]기술 연구:[NEWLINE]{1_YieldString}</Text>
@@ -6897,7 +6897,7 @@
 			<Text>[ICON_INTERNATIONAL_TRADE]교역로 이동:[NEWLINE]{1_YieldString}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_TR_MOVEMENT_IN_FOREIGN">
-			<Text>다른 문명 영토에서의 [ICON_INTERNATIONAL_TRADE]교역로 이동:[NEWLINE]{1_YieldString}</Text>
+			<Text>다른 문명 영토 내 [ICON_INTERNATIONAL_TRADE]교역로 이동:[NEWLINE]{1_YieldString}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_SCOUTING">
 			<Text>[ICON_MOVES 탐험:[NEWLINE]{1_YieldString}</Text>
@@ -6921,10 +6921,10 @@
 			<Text>[ICON_INQUISITOR]이단 제거:[NEWLINE]{1_YieldString}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_FAITH_PURCHASE">
-			<Text>도시에서 [ICON_PEACE]신앙 구입:[NEWLINE]{1_YieldString}</Text>
+			<Text>[ICON_PEACE]신앙으로 구입:[NEWLINE]{1_YieldString}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_PROMOTION_OBTAINED">
-			<Text>[ICON_STRENGTH]획득한 승급:[NEWLINE]{1_YieldString}</Text>
+			<Text>[ICON_STRENGTH]승급 부여:[NEWLINE]{1_YieldString}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_BARBARIAN_CAMP_CLEARED">
 			<Text>[ICON_VICTORY_DOMINATION]야만인 주둔지 처치:[NEWLINE]{1_YieldString}</Text>
@@ -7031,45 +7031,45 @@
 			<Text>{1_CSName}{1: plural 1?을; 2?를;} 위한 쿠데타</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_UNIT_GET_CITY_NAME">
-			<Text>{1_CSName}{1: plural 1?을; 2?를;} 위한 점령</Text>
+			<Text>{1_CSName}{1: plural 1?을; 2?를;} 위한 정복</Text>
 		</Row>
-
+		
 		<Row Tag="TXT_KEY_INSTANT_YIELD_DETAILS_HAPPINESS">
-			<Text>[ICON_HAPPINESS_1]행복 +{1_Num}</Text>
+			<Text>+{1_Num} [ICON_HAPPINESS_1]행복</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_DETAILS_INFLUENCE">
-			<Text>[ICON_INFLUENCE]영향력 +{1_Num}</Text>
+			<Text>+{1_Num} [ICON_INFLUENCE]영향력</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_DETAILS_EXPERIENCE">
-			<Text>모든 지상 유닛의 [ICON_STRENGTH]경험치 +{1_Num}</Text>
+			<Text>+{1_Num} [ICON_STRENGTH]모든 유닛 경험치</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_DETAILS_GPP_GLOBAL">
-			<Text>모든 도시의 [ICON_GREAT_PEOPLE]위인 점수 +{1_Num}</Text>
+			<Text>+{1_Num} [ICON_GREAT_PEOPLE]모든 도시의 위인 점수</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_DETAILS_GPP">
-			<Text>[ICON_CAPITAL]수도의 [ICON_GREAT_PEOPLE]위인 점수 +{1_Num}</Text>
+			<Text>+{1_Num} [ICON_CAPITAL]수도의 [ICON_GREAT_PEOPLE]위인 점수</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_YIELD_PER_TURN_HEADER">
 			<Text>[COLOR_POSITIVE_TEXT]이전 {1_Num}턴 동안 얻은 산출량[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_THIS_TURN">
-			<Text>[NEWLINE]        [ICON_BULLET] 평균: 매 턴 +{1_Num}</Text>
+			<Text>[NEWLINE]        [ICON_BULLET] 현재: 매 턴 +{1_Num}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_AVERAGE_CITIES">
-			<Text>[NEWLINE]        [ICON_BULLET] 각 도시 평균: 매 턴 +{1_Num}</Text>
+			<Text>[NEWLINE]        [ICON_BULLET] 평균: 매 턴 +{1_Num} (도시마다)</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_INSTANT_YIELD_PER_PLAYER_TOURISM">
-			<Text>[NEWLINE][COLOR_POSITIVE_TEXT][ICON_TOURISM] 각 플레이어의 관광 생산량:[ENDCOLOR]</Text>
+			<Text>[NEWLINE][COLOR_POSITIVE_TEXT][ICON_TOURISM] 각 문명의 일시적인 관광 산출량:[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_PER_PLAYER_TOURISM_NAME">
-			<Text>[NEWLINE] [ICON_BULLET] {1_Civ}: [ICON_TOURISM]관광 {2_Val} (매 턴 +{3_Avg})</Text>
+			<Text>[NEWLINE] [ICON_BULLET] {1_Civ}: {2_Val} [ICON_TOURISM]관광 (매 턴 +{3_Avg})</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_CO_PLAYER_TOURISM_INSTANT_TT_VALUE">
-			<Text>매 턴 이 문명의 평균 [ICON_TOURISM]관광 +{1_Num}</Text>
-		</Row>
+			<Text>+{1_Num} 문명의 일시적인 산출량에서 오는 매 턴 [ICON_TOURISM]관광 (평균)</Text>
+		</Row>		
 
 		<Row Tag="TXT_KEY_INSTANT_YIELD_TOTAL">
 			<Text>[ICON_BULLET] {2_YieldIcon} {3_YieldColorString}{1_YieldType}[ENDCOLOR]: {4_Num}</Text>
@@ -7080,10 +7080,10 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_YIELD_GREAT_WORK_MODIFIER">
-			<Text>[NEWLINE][ICON_BULLET]걸작 변동치: {1_Num}%</Text>
+			<Text>[NEWLINE][ICON_BULLET]걸작: {1_Num}%</Text>
 		</Row>
 		<Row Tag="TXT_KEY_YIELD_SPY_MODIFIER">
-			<Text>[NEWLINE][ICON_BULLET]활동 중인 스파이 변동치: {1_Num}%</Text>
+			<Text>[NEWLINE][ICON_BULLET]활동 중인 스파이: {1_Num}%</Text>
 		</Row>
 		<!-- Unit Panel stuff -->
 		<Row Tag="TXT_KEY_UPANEL_BUILDER_STRENGTH">
@@ -7117,7 +7117,7 @@
 		<Row Tag="TXT_KEY_WONDER_COST_INCREASE_METRIC">
 			<Text>보유한 세계 불가사의로 인한 추가적인 [ICON_PRODUCTION]생산 비용: [COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR].[NEWLINE][ICON_PRODUCTION] 다음에서 생산 비용 증가:[NEWLINE][ICON_BULLET] 같은 시대에 건설한 불가사의: [COLOR_POSITIVE_TEXT]25%.[ENDCOLOR][NEWLINE][ICON_BULLET]이전 시대에 건설한 불가사의: [COLOR_POSITIVE_TEXT]15%[ENDCOLOR].[NEWLINE][ICON_BULLET] 2시대 전에 건설한 불가사의: [COLOR_POSITIVE_TEXT]10%.[ENDCOLOR][NEWLINE][ICON_BULLET] 참고: 3시대 전의 불가사의나 그보다 더 오래된 불가사의는 비용을 부과하지 않습니다.</Text>
 		</Row>
-
+		
 		<Row Tag="TXT_KEY_GAME_OPTION_EVENTS">
 			<Text>이벤트 시스템 활성화</Text>
 		</Row>
@@ -7178,7 +7178,7 @@
 		<Row Tag="TXT_KEY_GAMEOPTION_KEEP_UNMET_PLAYERS_UNKNOWN_HELP">
 			<Text>게임 설정에서 다른 팀에 있는 플레이어의 문명에 대한 정보를 감춥니다.[NEW_LINE]저장된 게임을 불러올 때 해당 게임에서 만나지 않은 플레이어의 문명에 대한 정보를 감춥니다.[NEW_LINE]</Text>
 		</Row>
-
+			
 		<!-- Egypt CBO-->
 
 		<Row Tag="TXT_KEY_ARTIFACT_SARCOPHAGUS_1">
@@ -7232,20 +7232,20 @@
 		<Row Tag="TXT_KEY_ARTIFACT_SARCOPHAGUS_17">
 			<Text>프톨레마이오스 1세의 석관</Text>
 		</Row>
-
-
+		
+		
 
 		<!--Policies-->
 		<Row Tag="TXT_KEY_POLICY_BRANCH_CANNOT_UNLOCK_NEED_MORE">
 			<Text>[COLOR_WARNING_TEXT]이 계열을 해금하기 위해서는 다른 계열의 정책을 {1_Num}개 더 채택해야 합니다.[ENDCOLOR]</Text>
 		</Row>
-
+		
 		<!-- Spy GW Theft Text-->
 		<Row Tag="TXT_KEY_NOTIFICATION_SPY_CANT_STEAL_GREAT_WORK">
-			<Text>{@3_CivShortName} 문명이 아무런 걸작도 가지고 있지 않거나 우리가 걸작 슬롯이 부족하기 때문에 {1_SpyRank} {2_SpyName}{2: plural 1?은; 2?는;} 절도를 수행할 수 없습니다.</Text>
+			<Text>{@3_CivShortName}{@3: plural 1?이; 2?가;} 어떠한 걸작도 가지고 있지 않거나 당신 문명의 걸작 슬롯이 부족하기 때문에 {1_SpyRank} {2_SpyName}{2: plural 1?은; 2?는;} 걸작을 훔칠 수 없습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_SPY_CANT_STEAL_GREAT_WORK_S">
-			<Text>{@1_CivShortName}에게서 걸작을 훔칠 수 없습니다.</Text>
+			<Text>{@1_CivShortName}에서 걸작을 훔칠 수 없습니다.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_NOTIFICATION_SPY_WAS_KILLED_GW_S">
@@ -7273,7 +7273,7 @@
 		<Row Tag="TXT_KEY_DIPLOMAT_PICKER_THIEF">
 			<Text>도둑</Text>
 		</Row>
-
+		
 		<Row Tag="TXT_KEY_NOTIFICATION_GW_STOLEN_SPY_DETECTED_S">
 			<Text>{1_GW} 도난!</Text>
 		</Row>
@@ -7284,7 +7284,7 @@
 			<Text>정체불명의 스파이가 {2_CityName}에서 {1_GW}{1: plural 1?을; 2?를;} 훔쳐갔습니다!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_GW_STOLEN_SPY_IDENTIFIED_S">
-			<Text>{1_CivShortDesc} 문명이 {2_GW}{2: plural 1?을; 2?를;} 훔쳐갔습니다!</Text>
+			<Text>{1_CivShortDesc}{1: plural 1?이; 2?가;} {2_GW}{2: plural 1?을; 2?를;} 훔쳐갔습니다!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_GW_STOLEN_SPY_IDENTIFIED_W_TIP">
 			<Text>{1_CivAdj} 스파이가 {3_CityName}에서 {2_GW}{2: plural 1?을; 2?를;} 훔쳐갔습니다.[NEWLINE]이 도시에 스파이를 배치하여 적 스파이의 활동을 방지할 수 있습니다.</Text>
@@ -7296,7 +7296,7 @@
 		<Row Tag="TXT_KEY_EO_SPY_RANK_TT_SHORT">
 			<Text>{1_SpyName}{1: plural 1?이; 2?가;} {2_RankName} 계급을 달성했습니다.</Text>
 		</Row>
-
+		
 		<Row Tag="TXT_KEY_EO_OWN_CITY_POTENTIAL_SHORT_TT">
 			<Text>{1_CityName}의 잠재력은 {2_Num}입니다.</Text>
 		</Row>
@@ -7305,10 +7305,10 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_EO_INCREASED_CHANCE_TO_CATCH_SPY">
-			<Text>정책: 적 스파이를 잡을 확률 +{2_Num}% </Text>
+			<Text>정책: 적 스파이를 포획할 확률 +{2_Num}% </Text>
 		</Row>
 		<Row Tag="TXT_KEY_EO_INCREASED_CHANCE_TO_CATCH_SPY_AGAINST">
-			<Text>정책: 우리 스파이를 잡을 확률 +{2_Num}%</Text>
+			<Text>정책: 당신 문명의 스파이가 잡힐 확률 +{2_Num}%</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_DEFENSIVE_SPY_POTENTIAL">
@@ -7371,43 +7371,43 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_DEFENSIVE_SPY_BONUSES">
-			<Text>방첩 활동 변동치: [COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR]</Text>
+			<Text>방첩 활동: [COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_OFFENSIVE_SPY_BONUSES">
-			<Text>첩보 활동 변동치: [COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR]</Text>
+			<Text>첩보 활동: [COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_OFFENSIVE_SPY_BONUSES_DETAIL_CITY_MOD">
-			<Text>[NEWLINE]  [ICON_BULLET] 도시 변동치: [COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR]</Text>
+			<Text>[NEWLINE]  [ICON_BULLET] 도시: [COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_OFFENSIVE_SPY_BONUSES_DETAIL_THEIR_MOD">
-			<Text>[NEWLINE]  [ICON_BULLET] 상대의 변동치: [COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR].</Text>
+			<Text>[NEWLINE]  [ICON_BULLET] 상대방: [COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR].</Text>
 		</Row>
 		<Row Tag="TXT_KEY_OFFENSIVE_SPY_BONUSES_DETAIL_OUR_MOD">
-			<Text>[NEWLINE]  [ICON_BULLET] 우리의 변동치: [COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR].</Text>
+			<Text>[NEWLINE]  [ICON_BULLET] 당신의 문명: [COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR].</Text>
 		</Row>
 		<Row Tag="TXT_KEY_OFFENSIVE_SPY_BONUSES_DETAIL_UNHAPPINESS_MOD">
-			<Text>[NEWLINE]  [ICON_BULLET] 도시 불행 변동치: [COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR].</Text>
+			<Text>[NEWLINE]  [ICON_BULLET] 도시 불행: [COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR].</Text>
 		</Row>
 		<Row Tag="TXT_KEY_OFFENSIVE_SPY_BONUSES_DETAIL_SPY_MOD">
-			<Text>[NEWLINE]  [ICON_BULLET] 스파이 계급 변동치: [COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR].</Text>
+			<Text>[NEWLINE]  [ICON_BULLET] 스파이 계급: [COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR].</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_OFFENSIVE_SPY_RELIGOUS_PRESSURE">
-			<Text>[ICON_SPY]스파이에서 [ICON_RELIGION]종교 압력 보너스: [COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR]</Text>
+			<Text>[ICON_SPY]스파이로부터 [ICON_RELIGION]종교 압력 보너스: [COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR]</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_CITY_DEFENSIVE_BONUSES">
 			<Text>타국 [ICON_SPY]스파이의 활동이 [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR]% 더 느려집니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_DEFENSIVE_BONUSES_AGAINST">
-			<Text>우리 [ICON_SPY]스파이 활동이 [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR]% 더 느려집니다.</Text>
+			<Text>당신 문명의 [ICON_SPY]스파이 활동이 [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR]% 더 느려집니다.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_OFFENSIVE_COUP_CHANCE">
 			<Text>쿠데타 성공 확률: [COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_OFFENSIVE_COUP_CHANCE_ALLIES">
-			<Text>[NEWLINE][ICON_BULLET] 이미 동맹입니다.</Text>
+			<Text>[NEWLINE][ICON_BULLET]   이미 동맹입니다.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_OFFENSIVE_RIG_CHANCE">
@@ -7415,7 +7415,7 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_EO_OWN_CITY_ADVANCED_POTENTIAL_LIST_TT">
-			<Text>적 스파이에서 가능한 결과:</Text>
+			<Text>이 도시의 잠재적 적 스파이 고급 첩보 활동:</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EO_OWN_CITY_ADVANCED_REBELLION">
 			<Text>[NEWLINE][ICON_BULLET] 도시 반란 조장</Text>
@@ -7477,16 +7477,16 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_OFFENSIVE_ADVANCED_DEATH_POSSIBILITY">
-			<Text>[NEWLINE][ICON_BULLET] 암살 자격을 갖춘 타국 요원이 고급 첩보 활동 중 [COLOR_NEGATIVE_TEXT]죽을[ENDCOLOR] 가능성이 있습니다.</Text>
+			<Text>[NEWLINE][ICON_BULLET] 암살 자격을 갖춘 다른 문명의 요원이 고급 첩보 활동 중 [COLOR_NEGATIVE_TEXT]죽을[ENDCOLOR] 가능성이 있습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_OFFENSIVE_SPY_COUNTERSPY_POSSIBLY_PRESENT">
 			<Text>타국의 방첩 [ICON_SPY]스파이들이 도시에 있을 수 있습니다. 조심하세요!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_OFFENSIVE_ADVANCED_HUNTERS">
-			<Text>{2_SpyName}{2: plural 1?을; 2?를;} 찾고 있는 타국 요원의 수: [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR]. 이 숫자가 [COLOR_POSITIVE_TEXT]0[ENDCOLOR]이 될 때까지 고급 첩보 활동은 자제하고 자세를 낮추세요.</Text>
+			<Text>{2_SpyName}{2: plural 1?을; 2?를;} 찾고 있는 다른 문명의 요원 수: [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR]. 이 숫자가 [COLOR_POSITIVE_TEXT]0[ENDCOLOR]이 될 때까지 고급 첩보 활동은 자제하고 자세를 낮추세요.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_OFFENSIVE_ADVANCED_ACTIONS_POSSIBLE">
-			<Text>{1_SpyName}{1: plural 1?이; 2?가;} 도시에서 고급 첩보 활동을 할 수 있습니다.</Text>
+			<Text>{1_SpyName}{1: plural 1?이; 2?가;} 도시에서 고급 첩보 활동을 수행할 수 있습니다.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_DIPLOMATIC_REQUEST">
@@ -7537,12 +7537,12 @@
 
 		<!-- Autocracy-->
 
-
+		
 		<Row Tag="TXT_KEY_BALANCE_AUTOCRACY_BULLY_INFLUENCE_REDUCTION_CS">
-			<Text>{2_Civ} 문명이 {1_CS}{1: plural 1?을; 2?를;} 괴롭혀 해당 도시 국가에 대한 당신의 [ICON_INFLUENCE]영향력이 {3_Influence} 감소했습니다.</Text>
+			<Text>{2_Civ}{2: plural 1?이; 2?가;} {1_CS}{1: plural 1?을; 2?를;} 괴롭혀 해당 도시 국가에 대한 당신의 [ICON_INFLUENCE]영향력이 {3_Influence} 감소했습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BALANCE_AUTOCRACY_BULLY_INFLUENCE_REDUCTION_CS_S">
-			<Text>{2_Civ} 문명이 {1_CS}{1: plural 1?을; 2?를;} 위협했습니다!</Text>
+			<Text>{2_Civ}{2: plural 1?이; 2?가;} {1_CS}{1: plural 1?을; 2?를;} 위협했습니다!</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_BALANCE_AUTOCRACY_BULLY_INFLUENCE_REDUCTION_CS_YOU">
