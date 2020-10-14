@@ -195,10 +195,10 @@
 			<Text>[NEWLINE][NEWLINE]그들은 특별한 규칙 때문에 종속국이 될 수 없습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DIPLO_VASSAL_YOU_NO_POPULATION">
-			<Text>[NEWLINE][NEWLINE]우리는 도시나 인구가 없기 때문에 불가능합니다.</Text>
+			<Text>[NEWLINE][NEWLINE]우리는 도시나 시민가 없기 때문에 불가능합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DIPLO_VASSAL_THEM_NO_POPULATION">
-			<Text>[NEWLINE][NEWLINE]그들은 도시나 인구가 없기 때문에 불가능합니다.</Text>
+			<Text>[NEWLINE][NEWLINE]그들은 도시나 시민가 없기 때문에 불가능합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DIPLO_VASSAL_US_ALREADY_A_VASSAL">
 			<Text>[NEWLINE][NEWLINE]우리는 이미 {1_CivName}의 종속국이기 때문에 그들의 종속국이 될 수 없습니다.</Text>
@@ -406,10 +406,10 @@
 			<Text>[TAB][ICON_BULLET]종속국 협정을 체결 당시 종속국 팀이 보유한 도시가 {1_CityPercent}% 이상이어야 합니다. (현재 {2_Percent})</Text>
 		</Row>
 		<Row Tag="TXT_KEY_VO_INDEPENDENCE_POSSIBLE_POP_PERCENT_TT">
-			<Text>[TAB][ICON_BULLET]종속국 협정을 체결 당시 종속국 팀이 보유한 인구가 {1_PopPercent}% 이상이어야 합니다. (현재 {2_Percent})</Text>
+			<Text>[TAB][ICON_BULLET]종속국 협정을 체결 당시 종속국 팀이 보유한 시민가 {1_PopPercent}% 이상이어야 합니다. (현재 {2_Percent})</Text>
 		</Row>
 		<Row Tag="TXT_KEY_VO_INDEPENDENCE_POSSIBLE_MASTER_PERCENT_TT">
-			<Text>[TAB][ICON_BULLET]종속국 팀의 도시 수가 종주국 팀의 {1_CityPercent}% 이상이어야 하고 [ICON_CITIZEN] 인구 수가 종주국 팀의 {2_PopPercent}% 이상이어야 합니다. (현재 각각 {3_Percent}, {4_Percent})</Text>
+			<Text>[TAB][ICON_BULLET]종속국 팀의 도시 수가 종주국 팀의 {1_CityPercent}% 이상이어야 하고 [ICON_CITIZEN] 시민 수가 종주국 팀의 {2_PopPercent}% 이상이어야 합니다. (현재 각각 {3_Percent}, {4_Percent})</Text>
 		</Row>
 		<Row Tag="TXT_KEY_VO_STATISTICS">
 			<Text>통계</Text>
@@ -430,16 +430,16 @@
 			<Text>당신의 팀이 보유한 도시 수와 현재 당신의 종속국이 보유한 도시 수의 비율입니다.[NEWLINE][NEWLINE][ICON_BULLET]종속국 팀의 도시 수: {1_CurrentCities}[NEWLINE][ICON_BULLET]종주국 팀의 도시 수: {2_MasterCities}[NEWLINE][NEWLINE]이 문명은 현재 {3_Cities}개의 도시를 보유하고 있습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_VO_MASTER_POP_PERCENT">
-			<Text>종주국 인구 비율:</Text>
+			<Text>종주국 시민 비율:</Text>
 		</Row>
 		<Row Tag="TXT_KEY_VO_MASTER_POP_PERCENT_TT">
-			<Text>당신의 팀이 보유한 [ICON_CITIZEN] 인구 수와 현재 당신의 종속국이 보유한 [ICON_CITIZEN] 인구 수의 비율입니다.[NEWLINE][NEWLINE][ICON_BULLET]종속국 팀의 [ICON_CITIZEN] 인구 수: {1_CurrentPop}[NEWLINE][ICON_BULLET]종주국 팀의 [ICON_CITIZEN] 인구 수: {2_MasterPop}[NEWLINE][NEWLINE]이 문명은 현재 {3_PlayerPop}명의 [ICON_CITIZEN] 인구를 보유하고 있습니다.</Text>
+			<Text>당신의 팀이 보유한 [ICON_CITIZEN] 시민 수와 현재 당신의 종속국이 보유한 [ICON_CITIZEN] 시민 수의 비율입니다.[NEWLINE][NEWLINE][ICON_BULLET]종속국 팀의 [ICON_CITIZEN] 시민 수: {1_CurrentPop}[NEWLINE][ICON_BULLET]종주국 팀의 [ICON_CITIZEN] 시민 수: {2_MasterPop}[NEWLINE][NEWLINE]이 문명은 현재 {3_PlayerPop}명의 [ICON_CITIZEN] 시민를 보유하고 있습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_VO_POP_PERCENT">
-			<Text>현재 인구 비율:</Text>
+			<Text>현재 시민 비율:</Text>
 		</Row>
 		<Row Tag="TXT_KEY_VO_POP_PERCENT_TT">
-			<Text>당신의 종속국이 보유한 총 [ICON_CITIZEN] 인구 수와 팀이 보유한 [ICON_CITIZEN] 인구 수의 비율입니다.[NEWLINE][NEWLINE][ICON_BULLET]현재 종속국 팀 [ICON_CITIZEN] 인구 수: {1_CurrentPop}[NEWLINE][ICON_BULLET]종속국 협정 체결 당시 팀 [ICON_CITIZEN] 인구 수: {2_StartPop}[NEWLINE][NEWLINE]이 문명은 현재 {3_PlayerPop}명의 [ICON_CITIZEN] 인구를 보유하고 있습니다.</Text>
+			<Text>당신의 종속국이 보유한 총 [ICON_CITIZEN] 시민 수와 팀이 보유한 [ICON_CITIZEN] 시민 수의 비율입니다.[NEWLINE][NEWLINE][ICON_BULLET]현재 종속국 팀 [ICON_CITIZEN] 시민 수: {1_CurrentPop}[NEWLINE][ICON_BULLET]종속국 협정 체결 당시 팀 [ICON_CITIZEN] 시민 수: {2_StartPop}[NEWLINE][NEWLINE]이 문명은 현재 {3_PlayerPop}명의 [ICON_CITIZEN] 시민를 보유하고 있습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_VO_LIBERATE_VASSAL">
 			<Text>종속국 해방</Text>
@@ -544,7 +544,7 @@
 			<Text>포로 종속국은 전쟁에서 적국을 굴복시켜 얻는 종속국입니다. 포로 종속국은 종주국에게 완전히 복종하며, 조건을 충족할 때까지 종속국에서 벗어날 수 없습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_VO_POPULATION_STAT">
-			<Text>[ICON_CITIZEN] 인구</Text>
+			<Text>[ICON_CITIZEN] 시민</Text>
 		</Row>
 		<Row Tag="TXT_KEY_VO_HAPPINESS_STAT">
 			<Text>행복</Text>
@@ -580,7 +580,7 @@
 			<Text>도시</Text>
 		</Row>
 		<Row Tag="TXT_KEY_VO_POPULATION">
-			<Text>인구</Text>
+			<Text>시민</Text>
 		</Row>
 		<Row Tag="TXT_KEY_VO_ECONOMY">
 			<Text>경제</Text>
@@ -642,28 +642,28 @@
 			<Text>{1_Num}% ({2_iTeamNum}%)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_VO_MASTER_YOUR_POP">
-			<Text>당신의 [ICON_CITIZEN] 인구</Text>
+			<Text>당신의 [ICON_CITIZEN] 시민</Text>
 		</Row>
 		<Row Tag="TXT_KEY_VO_MASTER_YOUR_POP_TT">
-			<Text>우리 팀 [ICON_CITIZEN] 인구</Text>
+			<Text>우리 팀 [ICON_CITIZEN] 시민</Text>
 		</Row>
 		<Row Tag="TXT_KEY_VO_MASTER_THEIR_POP">
-			<Text>그들의 [ICON_CITIZEN] 인구</Text>
+			<Text>그들의 [ICON_CITIZEN] 시민</Text>
 		</Row>
 		<Row Tag="TXT_KEY_VO_MASTER_THEIR_POP_TT">
-			<Text>그들의 팀 [ICON_CITIZEN] 인구</Text>
+			<Text>그들의 팀 [ICON_CITIZEN] 시민</Text>
 		</Row>
 		<Row Tag="TXT_KEY_VO_MASTER_VIEW_POP_PERCENT">
-			<Text>[ICON_CITIZEN] 인구 %</Text>
+			<Text>[ICON_CITIZEN] 시민 %</Text>
 		</Row>
 		<Row Tag="TXT_KEY_VO_MASTER_VIEW_POP_PERCENT_TT">
-			<Text>우리 [ICON_CITIZEN] 인구와 {1_MasterPlayer} [ICON_CITIZEN] 인구의 비율입니다.[NEWLINE][NEWLINE]팀 간의 [ICON_CITIZEN] 인구 비율입니다.</Text>
+			<Text>우리 [ICON_CITIZEN] 시민와 {1_MasterPlayer} [ICON_CITIZEN] 시민의 비율입니다.[NEWLINE][NEWLINE]팀 간의 [ICON_CITIZEN] 시민 비율입니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_VO_MASTER_POP_STARTED_PERCENT">
-			<Text>종속국 협정 체결 당시 [ICON_CITIZEN] 인구 %</Text>
+			<Text>종속국 협정 체결 당시 [ICON_CITIZEN] 시민 %</Text>
 		</Row>
 		<Row Tag="TXT_KEY_VO_MASTER_POP_STARTED_PERCENT_TT">
-			<Text>현재 우리 팀 [ICON_CITIZEN] 인구와 우리가 {1_TeamName}의 종속국이 되었을 당시 [ICON_CITIZEN] 인구의 비율입니다.</Text>
+			<Text>현재 우리 팀 [ICON_CITIZEN] 시민와 우리가 {1_TeamName}의 종속국이 되었을 당시 [ICON_CITIZEN] 시민의 비율입니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_VO_MASTER_YOUR_CITIES">
 			<Text>우리 팀의 도시 수</Text>

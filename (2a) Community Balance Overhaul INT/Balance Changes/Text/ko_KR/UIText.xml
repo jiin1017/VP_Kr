@@ -52,7 +52,7 @@
 		</Row>
 			
 		<Row Tag="TXT_KEY_EUPANEL_WITHDRAW_CHANCE">
-			<Text>[COLOR_CYAN]철수 확률: {1_Num}%[ENDCOLOR]</Text>
+			<Text>[COLOR_CYAN]후퇴 확률: {1_Num}%[ENDCOLOR]</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_DUDE_8">
@@ -834,25 +834,25 @@
 			<Text>[NEWLINE][ICON_BULLET]정책 변동치: {1_Num}%</Text>
 		</Row>
 		<Row Tag="TXT_KEY_YIELD_FROM_PIETY">
-			<Text>{1_Num} {2_IconString} [ICON_RELIGION] 주요 종교에서</Text>
+			<Text>{1_Num} {2_IconString} [ICON_RELIGION]주요 종교에서</Text>
 		</Row>
 		<Row Tag="TXT_KEY_FAITH_FROM_PIETY">
-			<Text>{1_Num} [ICON_PEACE] [ICON_RELIGION] 주요 종교에서</Text>
+			<Text>{1_Num} [ICON_PEACE] [ICON_RELIGION]주요 종교에서</Text>
 		</Row>
 		<Row Tag="TXT_KEY_FAITH_FROM_CS_ALLIANCE">
-			<Text>{1_Num} [ICON_PEACE] 도시 국가에서</Text>
+			<Text>{1_Num} [ICON_PEACE]도시 국가에서</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CULTURE_FROM_PIETY">
-			<Text>{1_Num} [ICON_CULTURE] [ICON_RELIGION] 주요 종교에서</Text>
+			<Text>{1_Num} [ICON_CULTURE] [ICON_RELIGION]주요 종교에서</Text>
 		</Row>
 		<Row Tag="TXT_KEY_FAITH_FROM_POP">
-			<Text>{1_Num} [ICON_PEACE] [ICON_CITIZEN] 인구에서</Text>
+			<Text>{1_Num} [ICON_PEACE] [ICON_CITIZEN]시민에서</Text>
 		</Row>
 		<Row Tag="TXT_KEY_YIELD_FROM_SPECIALISTS_FAITH">
 			<Text>{1_Num} [ICON_PEACE] 전문가에서</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CULTURE_FROM_POPULATION">
-			<Text>{1_Num} [ICON_CULTURE] [ICON_CITIZEN] 인구에서</Text>
+			<Text>{1_Num} [ICON_CULTURE] [ICON_CITIZEN]시민에서</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_DETAILS_RELIGION_REFORMATION_VOTES">
@@ -860,7 +860,7 @@
 		</Row>
 		
 		<Row Tag="TXT_KEY_CULTURE_FROM_GWS">
-			<Text>+{1_Num}% [ICON_CULTURE] [ICON_GREAT_WORK] 걸작에서</Text>
+			<Text>+{1_Num}% [ICON_CULTURE] [ICON_GREAT_WORK]걸작에서</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CULTURE_FROM_SPIES">
 			<Text>+{1_Num}% [ICON_CULTURE] [ICON_SPY] 활동 중인 스파이에서</Text>

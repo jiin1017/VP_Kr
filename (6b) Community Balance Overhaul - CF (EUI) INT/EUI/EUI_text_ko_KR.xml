@@ -6,7 +6,7 @@
 		<Row Tag="TXT_KEY_C4DF_VASSAL_OVERVIEW">
 			<Text>종속국 개요</Text>
 		</Row>
-<!-- UNIT attributes -->
+        <!-- UNIT attributes -->
 		<Row Tag="TXT_KEY_EUI_UNIT_MOVEAFTERPURCHASE">
 			<Text>구입 후 이동 가능</Text>
 		</Row>
@@ -153,7 +153,7 @@
 			<Text>지도자 경험치 {1}</Text>
 		</Row>
 
-<!-- BUILDING attributes -->
+        <!-- BUILDING attributes -->
 		<Row Tag="TXT_KEY_EUI_BUILDING_TEAMSHARE">
 			<Text>{TXT_KEY_POP_UN_TEAM}</Text>
 		</Row>
@@ -461,7 +461,7 @@
 			<Text>{1: plural  0?건설되지 않음; 1?1개 도시에 건설됨; 2?{1}개 도시에 건설됨;}/{2: plural 0?; 1?, 1개 도시에 건설중; 2?, {2}개 도시에 건설중;}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EUI_WONDER_BUILT_BY">
-			<Text>{@1_CivName} 문명이 {@2_CityName}에 건설</Text>
+			<Text>{@1_CivName}{@1: plural 1?이; 2?가;} {@2_CityName}에 건설</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EUI_UNKNOWN_CITY">
 			<Text>알려지지 않은 도시</Text>

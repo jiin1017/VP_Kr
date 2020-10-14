@@ -645,7 +645,7 @@ SET Text = '[COLOR_NEGATIVE_TEXT]당신은 이들이 보호하는 도시 국가�
 WHERE Tag = 'TXT_KEY_DIPLO_CITY_STATE_PROMISE_IGNORED';
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_NEGATIVE_TEXT]당신은 다른 제국에 맞서 협력 전쟁을 시작하기로 한 약속을 어겼습니다![ENDCOLOR]'
+SET Text = '[COLOR_NEGATIVE_TEXT]당신은 다른 제국에 맞서 협동 전쟁을 시작하기로 한 약속을 어겼습니다![ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_DIPLO_COOP_WAR_PROMISE';
 
 UPDATE Language_ko_KR
