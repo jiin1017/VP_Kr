@@ -6888,16 +6888,16 @@
 			<Text>[ICON_PIRATE]약소 문명 괴롭힘:[NEWLINE]{1_YieldString}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_SPREAD">
-			<Text>자신의 도시에 [ICON_RELIGION]종교 전파:[NEWLINE]{1_YieldString}</Text>
+			<Text>소유한 도시에 [ICON_RELIGION]종교 전파:[NEWLINE]{1_YieldString}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_FOREIGN_SPREAD">
-			<Text>타국 도시에 [ICON_RELIGION]종교 전파:[NEWLINE]{1_YieldString}</Text>
+			<Text>다른 문명의 도시에 [ICON_RELIGION]종교 전파:[NEWLINE]{1_YieldString}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_TR_MOVEMENT">
 			<Text>[ICON_INTERNATIONAL_TRADE]교역로 이동:[NEWLINE]{1_YieldString}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_TR_MOVEMENT_IN_FOREIGN">
-			<Text>외국 영토에서의 [ICON_INTERNATIONAL_TRADE]교역로 이동:[NEWLINE]{1_YieldString}</Text>
+			<Text>다른 문명 영토에서의 [ICON_INTERNATIONAL_TRADE]교역로 이동:[NEWLINE]{1_YieldString}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_SCOUTING">
 			<Text>[ICON_MOVES 탐험:[NEWLINE]{1_YieldString}</Text>

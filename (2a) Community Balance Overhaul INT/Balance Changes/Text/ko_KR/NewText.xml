@@ -3,7 +3,7 @@
 <GameData>
 	<Language_ko_KR>
 		<Row Tag="TXT_KEY_POLICY_UNIVERSAL_HEALTHCARE_A_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]혹독한 처사[ENDCOLOR]: Vassals can no longer rebel or be liberated by other Civilizations. Yields from City-States increased by 25%, Vassals tribute an additional 25% of their yields, and +50% Worker Improvement rate.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]혹독한 처사[ENDCOLOR]: 종속국은 더이상 반란을 일으키거나 다른 문명에 의해 해방될 수 없습니다. 도시 국가에서 오는 산출량이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가하고 종속국의 공물이 그들의 산출량의 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR]만큼 증가합니다. 노동자의 타일 시설 건설 속도가 [COLOR_POSITIVE_TEXT]50%[COLOR_POSITIVE_TEXT] 빨라집니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_POLICY_UNIVERSAL_HEALTHCARE_A">
 			<Text>혹독한 처사</Text>
@@ -13,55 +13,55 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_POLICY_UNIVERSAL_HEALTHCARE_F_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]국민 의료보험[ENDCOLOR]: Receive a free Hospital in every City. +50 [ICON_CULTURE] when a Citizen is born in any City, scaling with Era.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]국민 의료보험[ENDCOLOR]: 모든 도시에 [COLOR_POSITIVE_TEXT]호텔[ENDCOLOR]을 무료로 제공합니다. [ICON_CITIZEN]시민이 증가할 때 [ICON_CULTURE]문화를 [COLOR_POSITIVE_TEXT]50[ENDCOLOR] (시대별 보정) 제공합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_POLICY_UNIVERSAL_HEALTHCARE_F">
 			<Text>국민 의료보험</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_MORRIGAN">
-			<Text>Earn [ICON_GOLD] Gold, [ICON_CULTURE] Culture, and [ICON_GOLDEN_AGE] Golden Age Points if you kill a unit. +5 HP healed per turn in Friendly Territory. +2 [ICON_GREAT_GENERAL] Great General Points from Ceilidh Hall.</Text>
+			<Text>적 유닛을 처치할 때 [ICON_GOLD]골드, [ICON_CULTURE]문화, [ICON_GOLDEN_AGE]황금기 점수를 제공합니다. 우호 영토 내부의 유닛은 매 턴 체력을 추가 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 더 회복합니다. 연회장의 위대한 장군 점수가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_MORRIGAN_SHORT">
-			<Text>모리안, 권력의 신</Text>
+			<Text>모리안, 전투의 신</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_EPONA">
-			<Text>+3 [ICON_CULTURE_LOCAL] Border Growth in every City. Receive +10 [ICON_RESEARCH] Science, [ICON_CULTURE] Culture, and [ICON_GOLD] Gold when your Borders expand, scaling with Era. +5 [ICON_CULTURE_LOCAL] Border Growth from Ceilidh Hall.</Text>
+			<Text>모든 도시의 [ICON_CULTURE_LOCAL]국경 확장 점수가 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] 증가합니다. 국경이 확장될 때 [ICON_RESEARCH]과학, [ICON_CULTURE]문화, [ICON_GOLD]골드를 [COLOR_POSITIVE_TEXT]10[ENDCOLOR] (시대별 보정) 제공합니다. 연회장의 [ICON_CULTURE_LOCAL]국경 확장 점수가 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 증가합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_EPONA_SHORT">
 			<Text>에포나, 풍요의 여신</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_NUADA">
-			<Text>+15% [ICON_GOLD] Gold and [ICON_RESEARCH] Science from "We Love the King Days". +3 [ICON_GOLD] Gold, [ICON_RESEARCH] Science, and [ICON_GOLDEN_AGE] Golden Age Points for every Unique Luxury Resource on Empire and per active [ICON_INTERNATIONAL_TRADE] Trade Route to or from the City. +5 [ICON_GOLD] Gold from Ceilidh Hall.</Text>
+			<Text>"국왕 경축일"이 열리는 동안 [ICON_RESEARCH]과학 및 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR] 증가합니다. 제국 전역의 모든 고유 사치 자원 및 사용중인 [ICON_INTERNATIONAL_TRADE]교역로마다 [ICON_GOLD]골드, [ICON_RESEARCH]과학, [ICON_GOLDEN_AGE]황금기 점수가 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] 증가합니다. 연회장의 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 증가합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_NUADA_SHORT">
 			<Text>누아다, 은색 팔의 신</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_CERNUNNOS">
-			<Text>+1 [ICON_FOOD] Food and [ICON_GOLD] Gold from Forests, +1 [ICON_PRODUCTION] Production and [ICON_RESEARCH] Science from Jungles. +1 [ICON_PEACE] Faith from Jungles and Forests if unimproved. +1 [ICON_CULTURE] Culture from Camps and +2 [ICON_CULTURE] Culture from Plantations. +2 [ICON_CULTURE] Culture from Ceilidh Hall.</Text>
+			<Text>숲 타일의 [ICON_GOLD]골드 및 [ICON_FOOD]식량이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가하고 정글 타일의 [ICON_PRODUCTION]생산 및 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 만약 숲 및 정글 타일에 시설을 건설하지 않았다면 [ICON_PEACE]신앙이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 야영지의 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가하고 재배지의 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다. 연회장의 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_CERNUNNOS_SHORT">
 			<Text>케르눈노스, 사슴 뿔의 신</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_LUGH">
-			<Text>+2 [ICON_CULTURE] Culture, [ICON_RESEARCH] Science, [ICON_FOOD] Food, and [ICON_GOLD] Gold in Cities with a Specialist. +10% [ICON_PRODUCTION] Production towards Wonders. +3 [ICON_PRODUCTION] Production from Ceilidh Hall.</Text>
+			<Text>모든 도시 전문가의 [ICON_CULTURE]문화, [ICON_RESEARCH]과학, [ICON_FOOD]식량, [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다. 불가사의를 건설할 때 [ICON_PRODUCTION]생산 보너스를 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 제공합니다. 연회장의 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]3 [ENDCOLOR]증가합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_LUGH_SHORT">
 			<Text>루 라와더, 만능의 신</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_RHIANNON">
-			<Text>+2 [ICON_CULTURE] Culture in every City, +1 [ICON_GOLD] Gold and [ICON_PRODUCTION] Production from every Resource connected with a normal Improvement. +5 [ICON_GOLDEN_AGE] Golden Age Points from Ceilidh Hall.</Text>
+			<Text>모든 도시의 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]2 [ENDCOLOR]증가합니다. 모든 자원 위에 건설된 일반 시설의 [ICON_PRODUCTION]생산 및 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]1 [ENDCOLOR]증가합니다. 연회장의 [ICON_GOLDEN_AGE]황금기 점수가 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 증가합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_RHIANNON_SHORT">
 			<Text>리아논, 군주의 신</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_MANANNAN">
-			<Text>+3 [ICON_FOOD] Food, [ICON_PRODUCTION] Production, and [ICON_GOLD] Gold in coastal Cities. +1 [ICON_PRODUCTION] Production and [ICON_GOLD] Gold for every 2 [ICON_CITIZEN] Citizens working Sea tiles in your Cities. +2 [ICON_GREAT_ADMIRAL] Great Admiral Points from Ceilidh Hall.</Text>
-		</Row>
+			<Text>해안 도시의 [ICON_GOLD]골드, [ICON_PRODUCTION]생산, [ICON_FOOD]식량이 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] 증가합니다. [ICON_CITIZEN]시민 2명마다 해양 타일의 [ICON_GOLD]골드 및 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 연회장의 [ICON_GREAT_ADMIRAL]위대한 제독 점수가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다.</Text>
+		</Row> 
 		<Row Tag="TXT_KEY_BELIEF_MANANNAN_SHORT">
 			<Text>마나난, 바다의 아들</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_OGMA">
-			<Text>+1 [ICON_RESEARCH] Science for every 4 [ICON_CITIZEN] Citizens and +1 [ICON_PRODUCTION] Production from [ICON_GREAT_WORK] Great Works in a City. +3 [ICON_RESEARCH] Science, [ICON_CULTURE] Culture, and [ICON_GREAT_SCIENTIST] Great Scientist Points, and [ICON_GREAT_ARTIST] Great Artist Points in [ICON_CAPITAL] Capital. +5 [ICON_RESEARCH] Science from Ceilidh Hall.</Text>
+			<Text>[ICON_CITIZEN]시민 4명마다 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. [ICON_GREAT_WORK]걸작에서 오는 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. [ICON_CAPITAL]수도의 [ICON_RESEARCH]과학, [ICON_CULTURE]문화, [ICON_GREAT_SCIENTIST]위대한 과학자 점수, [ICON_GREAT_SCIENTIST]위대한 예술가 점수가 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] 증가합니다. 연회장의 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 증가합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_OGMA_SHORT">
 			<Text>오그마, 말과 언어의 신</Text>
@@ -150,3 +150,4 @@
 		</Row>
 	</Language_ko_KR>
 </GameData>
+
