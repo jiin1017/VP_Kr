@@ -21,7 +21,7 @@
 			<Text>설립된 기업</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CPO_MONOPOLY_REQUIRED">
-			<Text>독점 요구 (Any)</Text>
+			<Text>독점 필요</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CPO_FOUNDER">
 			<Text>설립자</Text>

@@ -371,7 +371,7 @@
 			<Text>종교 압력: {1}%</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EUI_BUILDING_ESPIONAGEMODIFIER">
-			<Text>도시에 적 스파이 효율성 감소: {1}%</Text>
+			<Text>도시의 적 스파이 효율성 감소: {1}%</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EUI_BUILDING_GLOBALESPIONAGEMODIFIER">
 			<Text>모든 도시의 적 스파이 효율성 감소: {1}%</Text>
@@ -458,7 +458,7 @@
 			<Text>상대가 국경을 개방중이지 않습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EUI_BUILT_IN_X_CITIES">
-			<Text>{1: plural  0?건설되지 않음; 1?1개 도시에 건설됨; 2?{1}개 도시에 건설됨;}{2: plural 0?; 1?, 1개 도시에 건설중; 2?, {2}개 도시에 건설중;}</Text>
+			<Text>{1: plural  0?건설되지 않음; 1?1개 도시에 건설됨; 2?{1}개 도시에 건설됨;}/{2: plural 0?; 1?, 1개 도시에 건설중; 2?, {2}개 도시에 건설중;}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EUI_WONDER_BUILT_BY">
 			<Text>{@1_CivName} 문명이 {@2_CityName}에 건설</Text>
@@ -470,7 +470,7 @@
 			<Text>도시 공습 방어:</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EUI_GLOBAL">
-			<Text>[COLOR_HIGHLIGHT_TEXT]국제[ENDCOLOR]</Text>
+			<Text>[COLOR_HIGHLIGHT_TEXT]글로벌[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EUI_EMPIRE">
 			<Text>[COLOR_HIGHLIGHT_TEXT]제국[ENDCOLOR]</Text>

@@ -5579,7 +5579,7 @@
 
 		<!-- Brazil LUA-->
 		<Row Tag="TXT_KEY_CARNAVAL_WLTKD">
-			<Text>카니발이 시작되었습니다. 카니발을 맞이하여 모든 도시에서 {1_Num}턴 동안 [ICON_CULTURE]문화 및 [ICON_FOOD]성장 보너스가 25% 증가합니다.</Text>
+			<Text>카니발이 시작되었습니다. 카니발을 맞이하여 {1_Num}턴 동안 모든 도시의  [ICON_CULTURE]문화 및 [ICON_FOOD]성장률이 25% 증가합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CARNAVAL_WLTKD_S">
 			<Text>카니발!</Text>
@@ -6699,7 +6699,7 @@
 			<Text>[NEWLINE][COLOR_CYAN]해금되는 과정:[ENDCOLOR][NEWLINE]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TECH_HELP_CORPS_UNLOCKED">
-			<Text>[NEWLINE][COLOR_CYAN]해금되는 협정:[ENDCOLOR][NEWLINE]</Text>
+			<Text>[NEWLINE][COLOR_CYAN]해금되는 기업:[ENDCOLOR][NEWLINE]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TECH_HELP_RESOURCES_UNLOCKED">
 			<Text>[NEWLINE][COLOR_CYAN]해금되는 자원:[ENDCOLOR][NEWLINE]</Text>

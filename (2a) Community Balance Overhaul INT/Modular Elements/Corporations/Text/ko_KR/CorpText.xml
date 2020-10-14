@@ -119,7 +119,7 @@
 		
 		<!-- Civilopedia-->
 		<Row Tag="TXT_KEY_PEDIA_MONOPOLY_RESRC_LABEL">
-			<Text>독점 요구 (Any)</Text>
+			<Text>독점 필요</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PEDIA_MONOPOLY_RESOURCE_NAME">
 			<Text>독점 자원</Text>
@@ -602,26 +602,26 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_CORPORATION_LANDSEA_EXTRACTORS">
-			<Text>센타우리 익스트랙터 주식회사</Text>	  <Plurality>2</Plurality>
+			<Text>센타우리 개발 주식회사</Text>	  <Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_CORPORATION_LANDSEA_EXTRACTORS_HELP">
 			<Text>[ICON_PRODUCTION]생산과 해안 도시에 초점을 맞춘 혜택을 제공합니다. [ICON_GOLD]골드에 초점을 맞춘 혜택을 제공합니다. 추가 [ICON_INTERNATIONAL_TRADE]교역로를 [COLOR_POSITIVE_TEXT]2개[ENDCOLOR] 제공하고 해상 [ICON_INTERNATIONAL_TRADE]교역로의 범위가 [COLOR_POSITIVE_TEXT]두 배[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE]모든 항만 및 항구의 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다. 다른 문명의 도시에 설립한 프랜차이즈 1개마다 상대 문명에 대한 [ICON_TOURISM]관광이 [COLOR_POSITIVE_TEXT]2%[ENDCOLOR] 증가합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CORPORATION_RESOURCE_BONUS_LANDSEA_EXTRACTORS">
-			<Text>센타우리 익스트랙터 프랜차이즈를 설립한 도시 주변 모든 [ICON_RES_HORSE] 말 자원, [ICON_RES_WHALE] 고래, [ICON_RES_CRAB] 게, [ICON_RES_IVORY] 상아의 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.</Text>
+			<Text>센타우리 개발 프랜차이즈를 설립한 도시 주변 모든 [ICON_RES_HORSE] 말 자원, [ICON_RES_WHALE] 고래, [ICON_RES_CRAB] 게, [ICON_RES_IVORY] 상아의 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CORPORATION_OFFICE_BONUS_LANDSEA_EXTRACTORS">
 			<Text>모든 글로벌 프랜차이즈마다 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] 증가하고 도시 주변 모든 해양 타일의 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CORPORATION_TRADE_ROUTE_BONUS_LANDSEA_EXTRACTORS">
-			<Text>센타우리 익스트랙터 프랜차이즈를 설립한 다른 문명의 도시로 향하는 교역로마다 이 도시의 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다.</Text>
+			<Text>센타우리 개발 프랜차이즈를 설립한 다른 문명의 도시로 향하는 교역로마다 이 도시의 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CORPORATION_LANDSEA_EXTRACTORS_OFFICE_BENEFIT_HELP">
 			<Text>현재 오피스 보너스: {1_String}</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_LANDSEA_EXTRACTORS_HQ">
-			<Text>센타우리 익스트랙터 본부</Text>	  <Plurality>2</Plurality>
+			<Text>센타우리 개발 본부</Text>	  <Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_BUILDINGS_LANDSEA_EXTRACTORS_HQ_TEXT">
 			<Text>A corporation is a company or group of people authorized to act as a single entity (legally a person) and recognized as such in law. Early incorporated entities were established by charter (i.e. by an ad hoc act granted by a monarch or passed by a parliament or legislature). Most jurisdictions now allow the creation of new corporations through registration. Corporations come in many different types but are usually divided by the law of the jurisdiction where they are chartered into two kinds: by whether or not they can issue stock, or by whether or not they are for profit.</Text>
@@ -630,11 +630,11 @@
 			<Text>Construct this building in one of your cities to found the Centaurus Extractor's Corporation. See the [COLOR_POSITIVE_TEXT]Corporations[ENDCOLOR] section of the Civilopedia for more information.[NEWLINE][NEWLINE]Remember that each Civilization may only found [COLOR_POSITIVE_TEXT]one[ENDCOLOR] Corporation, so make sure the benefits are applicable to your Victory Strategy!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_LANDSEA_EXTRACTORS_HQ_HELP">
-			<Text>센타우리 익스트랙터 기업을 설립합니다.[NEWLINE][NEWLINE]센타우리 익스트랙터 오피스를 무료로 제공하고 소유한 도시에 센타우리 익스트랙터 오피스를 건설할 수 있는 능력을 해금합니다.</Text>
+			<Text>센타우리 개발 기업을 설립합니다.[NEWLINE][NEWLINE]센타우리 개발 오피스를 무료로 제공하고 소유한 도시에 센타우리 개발 오피스를 건설할 수 있는 능력을 해금합니다.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_LANDSEA_EXTRACTORS_FRANCHISE">
-			<Text>센타우리 익스트랙터</Text>	  <Plurality>2</Plurality>
+			<Text>센타우리 개발</Text>	  <Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_BUILDING_LANDSEA_EXTRACTORS_FRANCHISE_TEXT">
 			<Text>A corporation is a company or group of people authorized to act as a single entity (legally a person) and recognized as such in law. Early incorporated entities were established by charter (i.e. by an ad hoc act granted by a monarch or passed by a parliament or legislature). Most jurisdictions now allow the creation of new corporations through registration. Corporations come in many different types but are usually divided by the law of the jurisdiction where they are chartered into two kinds: by whether or not they can issue stock, or by whether or not they are for profit.</Text>
@@ -643,11 +643,11 @@
 			<Text>This building can only be constructed in Foreign Cities if you were the founder of Centaurus Extractors. To construct this building in a foreign City, send a Trade Route from an owned City with a Centaurus Extractors Office in it to a foreign City. When the Trade Route is complete, the building will automatically be constructed.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_LANDSEA_EXTRACTORS_FRANCHISE_HELP">
-			<Text>도시 주변 센타우리 익스트랙터와 관련된 모든 독점 자원의 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 문명이 설립한 센타우리 익스트랙터 오피스에 대한 수익을 창출합니다.</Text>
+			<Text>도시 주변 센타우리 개발와 관련된 모든 독점 자원의 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 문명이 설립한 센타우리 개발 오피스에 대한 수익을 창출합니다.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_LANDSEA_EXTRACTORS">
-			<Text>센타우리 익스트랙터 오피스</Text>	  <Plurality>2</Plurality>
+			<Text>센타우리 개발 오피스</Text>	  <Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_BUILDING_LANDSEA_EXTRACTORS_TEXT">
 			<Text>A corporation is a company or group of people authorized to act as a single entity (legally a person) and recognized as such in law. Early incorporated entities were established by charter (i.e. by an ad hoc act granted by a monarch or passed by a parliament or legislature). Most jurisdictions now allow the creation of new corporations through registration. Corporations come in many different types but are usually divided by the law of the jurisdiction where they are chartered into two kinds: by whether or not they can issue stock, or by whether or not they are for profit.</Text>
@@ -656,7 +656,7 @@
 			<Text>When a [ICON_INTERNATIONAL_TRADE] Trade Route between a foreign City and this City completes, a Centaurus Extractors Franchise is constructed in the foreign City.[NEWLINE][NEWLINE]Centaurus Extractors cannot be sold or destroyed by the player, and increases the [ICON_PRODUCTION] Production output of all Centaurus Extractors Offices by +3.[NEWLINE][NEWLINE]You cannot have more Franchises than your Franchise Limit (see the Corporation and Monopolies Overview for more on this).</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_LANDSEA_EXTRACTORS_HELP">
-			<Text>도시 주변 해양 타일의 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 다른 문명의 도시에 설립한 모든 센타우리 익스트랙터 프랜차이즈의 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] 증가합니다. (제한: 문명의 프랜차이즈 한도까지만 증가)[NEWLINE][NEWLINE]센타우리 익스트랙터 프랜차이즈를 설립한 다른 문명의 도시로 향하는 [ICON_INTERNATIONAL_TRADE]교역로마다 도시의 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다.</Text>
+			<Text>도시 주변 해양 타일의 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 다른 문명의 도시에 설립한 모든 센타우리 개발 프랜차이즈의 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] 증가합니다. (제한: 문명의 프랜차이즈 한도까지만 증가)[NEWLINE][NEWLINE]센타우리 개발 프랜차이즈를 설립한 다른 문명의 도시로 향하는 [ICON_INTERNATIONAL_TRADE]교역로마다 도시의 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다.</Text>
 		</Row>
 		
 		<Row Tag="TXT_KEY_CORPORATION_HEXXON_REFINERY">

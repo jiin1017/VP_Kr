@@ -1046,43 +1046,43 @@
 
 		<!-- LUA for Buildings -->
 		<Row Tag="TXT_KEY_BUILDING_POVERTY_AVERAGE_MODIFIER">
-			<Text>[ICON_GOLD] 골드 요구 변동치: {1_num}%</Text>
+			<Text>[ICON_GOLD] 골드 요구 수치: {1_num}%</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_DEFENSE_AVERAGE_MODIFIER">
-			<Text>[ICON_FOOD]/[ICON_PRODUCTION] 기본 요구 변동치: {1_num}%</Text>
+			<Text>[ICON_FOOD]/[ICON_PRODUCTION] 기본 요구 수치: {1_num}%</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_CULTURE_AVERAGE_MODIFIER">
-			<Text>[ICON_CULTURE] 문화 요구 변동치: {1_num}%</Text>
+			<Text>[ICON_CULTURE] 문화 요구 수치: {1_num}%</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_SCIENCE_AVERAGE_MODIFIER">
-			<Text>[ICON_RESEARCH] 과학 요구 변동치: {1_num}%</Text>
+			<Text>[ICON_RESEARCH] 과학 요구 수치: {1_num}%</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_MINORITY_AVERAGE_MODIFIER">
-			<Text>[ICON_RELIGION] 종교 요구 변동치: {1_num}%</Text>
+			<Text>[ICON_RELIGION] 종교 요구 수치: {1_num}%</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_POVERTY_GLOBAL_AVERAGE_MODIFIER">
-			<Text>모든 도시의 [ICON_GOLD] 골드 요구 변동치: {1_num}%</Text>
+			<Text>모든 도시의 [ICON_GOLD] 골드 요구 수치: {1_num}%</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_DEFENSE_GLOBAL_AVERAGE_MODIFIER">
-			<Text>모든 도시의 [ICON_FOOD]/[ICON_PRODUCTION] 기본 요구 변동치: {1_num}%</Text>
+			<Text>모든 도시의 [ICON_FOOD]/[ICON_PRODUCTION] 기본 요구 수치: {1_num}%</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_CULTURE_GLOBAL_AVERAGE_MODIFIER">
-			<Text>모든 도시의 [ICON_CULTURE] 문화 요구 변동치: {1_num}%</Text>
+			<Text>모든 도시의 [ICON_CULTURE] 문화 요구 수치: {1_num}%</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_SCIENCE_GLOBAL_AVERAGE_MODIFIER">
-			<Text>모든 도시의 [ICON_RESEARCH] 과학 요구 변동치: {1_num}%</Text>
+			<Text>모든 도시의 [ICON_RESEARCH] 과학 요구 수치: {1_num}%</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_MINORITY_GLOBAL_AVERAGE_MODIFIER">
-			<Text>모든 도시의 [ICON_RELIGION] 종교 요구 변동치: {1_num}%</Text>
+			<Text>모든 도시의 [ICON_RELIGION] 종교 요구 수치: {1_num}%</Text>
 		</Row>
 
 		<!-- LUA Threshold Mods for Buildings -->
@@ -1122,7 +1122,7 @@
 			<Text>지역 [ICON_HAPPINESS_1] 행복: [COLOR_POSITIVE_TEXT]{1_NUM}[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EO_CITY_GLOBAL_AVERAGE_MODS">
-			<Text>[COLOR_POSITIVE_TEXT]총 요구 변동치 (City % Modifiers):[ENDCOLOR]</Text>
+			<Text>[COLOR_POSITIVE_TEXT]총 요구 수치 (City % Modifiers):[ENDCOLOR]</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_EO_CITY_GLOBAL_AVERAGE_MODS_BREAKDOWN">
@@ -1139,7 +1139,7 @@
 			<Text>[ICON_BULLET] [ICON_RESEARCH] 과학 요구: {1_Num}% ({2_Num}%)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GLOBAL_AVERAGE_MOD_DEFENSE">
-			<Text>[ICON_BULLET] [ICON_FOOD]/[ICON_PRODUCTION] 기본 요구: {1_Num}% ({2_Num}%)</Text>
+			<Text>[ICON_BULLET] [ICON_FOOD]/[ICON_PRODUCTION] 곤경 요구: {1_Num}% ({2_Num}%)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GLOBAL_AVERAGE_MOD_CULTURE">
 			<Text>[ICON_BULLET] [ICON_CULTURE] 문화 요구: {1_Num}% ({2_Num}%)</Text>
@@ -1155,7 +1155,7 @@
 			<Text>[ICON_BULLET] [ICON_RESEARCH] 과학 요구: +{1_Num}% ({2_Num}%)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GLOBAL_AVERAGE_MOD_DEFENSE_POSITIVE">
-			<Text>[ICON_BULLET] [ICON_FOOD]/[ICON_PRODUCTION] 기본 요구: +{1_Num}% ({2_Num}%)</Text>
+			<Text>[ICON_BULLET] [ICON_FOOD]/[ICON_PRODUCTION] 곤경 요구: +{1_Num}% ({2_Num}%)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GLOBAL_AVERAGE_MOD_CULTURE_POSITIVE">
 			<Text>[ICON_BULLET] [ICON_CULTURE] 문화 요구: +{1_Num}% ({2_Num}%)</Text>
@@ -1224,7 +1224,7 @@
 			<Text>브라질 소방목</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESOURCE_BRAZILWOOD_HELP">
-			<Text>브라질의 고유 사치 자원 입니다. 오로지 브라질 소방목 벌목장을 통해서만 획득할 수 있습니다.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]독점 보너스:[ENDCOLOR] +2 [ICON_CULTURE]문화 (자원 타일에)</Text>
+			<Text>브라질의 고유 사치 자원 입니다. 오로지 브라질 소방목 벌목장을 통해서만 획득할 수 있습니다.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]독점 보너스:[ENDCOLOR] +2 [ICON_CULTURE]문화 (자원 타일)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_RESOURCE_BRAZILWOOD">
 			<Text>브라질 소방목</Text>

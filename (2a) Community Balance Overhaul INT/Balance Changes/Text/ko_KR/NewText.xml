@@ -22,13 +22,13 @@
 			<Text>적 유닛을 처치할 때 [ICON_GOLD]골드, [ICON_CULTURE]문화, [ICON_GOLDEN_AGE]황금기 점수를 제공합니다. 우호 영토 내부의 유닛은 매 턴 체력을 추가 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 더 회복합니다. 연회장의 위대한 장군 점수가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_MORRIGAN_SHORT">
-			<Text>모리안, 전투의 신</Text>
+			<Text>모리안, 투쟁의 인도자</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_EPONA">
 			<Text>모든 도시의 [ICON_CULTURE_LOCAL]국경 확장 점수가 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] 증가합니다. 국경이 확장될 때 [ICON_RESEARCH]과학, [ICON_CULTURE]문화, [ICON_GOLD]골드를 [COLOR_POSITIVE_TEXT]10[ENDCOLOR] (시대별 보정) 제공합니다. 연회장의 [ICON_CULTURE_LOCAL]국경 확장 점수가 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 증가합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_EPONA_SHORT">
-			<Text>에포나, 풍요의 여신</Text>
+			<Text>에포나, 위대한 암말</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_NUADA">
 			<Text>"국왕 경축일"이 열리는 동안 [ICON_RESEARCH]과학 및 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR] 증가합니다. 제국 전역의 모든 고유 사치 자원 및 사용중인 [ICON_INTERNATIONAL_TRADE]교역로마다 [ICON_GOLD]골드, [ICON_RESEARCH]과학, [ICON_GOLDEN_AGE]황금기 점수가 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] 증가합니다. 연회장의 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 증가합니다.</Text>
@@ -40,7 +40,7 @@
 			<Text>숲 타일의 [ICON_GOLD]골드 및 [ICON_FOOD]식량이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가하고 정글 타일의 [ICON_PRODUCTION]생산 및 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 만약 숲 및 정글 타일에 시설을 건설하지 않았다면 [ICON_PEACE]신앙이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 야영지의 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가하고 재배지의 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다. 연회장의 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_CERNUNNOS_SHORT">
-			<Text>케르눈노스, 사슴 뿔의 신</Text>
+			<Text>케르눈노스, 뿔난 사슴의 신</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_LUGH">
 			<Text>모든 도시 전문가의 [ICON_CULTURE]문화, [ICON_RESEARCH]과학, [ICON_FOOD]식량, [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다. 불가사의를 건설할 때 [ICON_PRODUCTION]생산 보너스를 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 제공합니다. 연회장의 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]3 [ENDCOLOR]증가합니다.</Text>
@@ -64,23 +64,23 @@
 			<Text>[ICON_CITIZEN]시민 4명마다 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. [ICON_GREAT_WORK]걸작에서 오는 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. [ICON_CAPITAL]수도의 [ICON_RESEARCH]과학, [ICON_CULTURE]문화, [ICON_GREAT_SCIENTIST]위대한 과학자 점수, [ICON_GREAT_SCIENTIST]위대한 예술가 점수가 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] 증가합니다. 연회장의 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 증가합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_OGMA_SHORT">
-			<Text>오그마, 말과 언어의 신</Text>
+			<Text>오그마, 깨달은 자</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_BRAN">
-			<Text>+25% increase in City [ICON_RANGE_STRENGTH] Ranged Combat Strength and +25% [ICON_FOOD] Growth. +15 [ICON_CULTURE] Culture and [ICON_GOLD] Gold when a [ICON_CITIZEN] Citizen is born, scaling with Era. +1 [ICON_HAPPINESS_1] Happiness per following City. +5 [ICON_FOOD] Food from Ceilidh Hall.</Text>
+			<Text>도시의 [ICON_RANGE_STRENGTH]원거리 공격력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가하고 도시의 [ICON_FOOD]성장률이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다. [ICON_CITIZEN]시민이 탄생할 때 [ICON_GOLD]골드 및 [ICON_CULTURE]문화를 [COLOR_POSITIVE_TEXT]25[ENDCOLOR] (시대별 보정) 제공합니다. 이 교리를 따르는 도시마다 [ICON_HAPPINESS_1]행복이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 연회장의 [ICON_FOOD]식량이 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 증가합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_BRAN_SHORT">
 			<Text>브란, 잠자는 수호자</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_DAGDA">
-			<Text>+1 [ICON_CULTURE] Culture, [ICON_GOLD] Gold, [ICON_PRODUCTION] Production, and [ICON_RESEARCH] Science in the [ICON_CAPITAL] Capital, and for every 4 Followers of your Pantheon in owned Cities. +2 [ICON_HAPPINESS_1] Happiness from Ceilidh Hall.</Text>
+			<Text>소유한 도시에서 이 교리를 따르는 신도 4명마다 [ICON_CAPITAL]수도의 [ICON_CULTURE]문화, [ICON_GOLD]골드, [ICON_PRODUCTION]생산, [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 연회장의 [ICON_HAPPINESS_1]행복이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_DAGDA_SHORT">
-			<Text>다그다, 모든 신의 아버지</Text>
+			<Text>다그다, 만물의 아버지</Text>
 		</Row>
 		
 		<Row Tag="TXT_KEY_POLICY_UNIVERSAL_HEALTHCARE_O_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]평화, 대지, 빵[ENDCOLOR]: [ICON_GOLD] Poverty reduced by 20% and [ICON_FOOD] Growth increased by 20% in all cities. -20% building maintenance modifier.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]평화, 대지, 빵[ENDCOLOR]: 모든 도시의 [ICON_GOLD]건물 유지비가 [COLOR_POSITIVE_TEXT]20%[ENDCOLOR] 감소하고 [ICON_FOOD]성장률이 [COLOR_POSITIVE_TEXT]20%[ENDCOLOR] 증가합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_POLICY_UNIVERSAL_HEALTHCARE_O">
 			<Text>평화, 대지, 빵</Text>
@@ -92,7 +92,7 @@
 			<Text>예술</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROCESS_CULTURE_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]예술[ENDCOLOR] converts 25% of [ICON_PRODUCTION] Production of this City into [ICON_CULTURE] Culture, and reduces [ICON_CULTURE] Culture Need by 25%.</Text>
+			<Text>도시 [ICON_PRODUCTION]생산의 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR]를 [ICON_CULTURE]문화로 전환하고 도시의 [ICON_CULTURE]문화 요구 수치를 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 감소시킵니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROCESS_CULTURE_STRATEGY">
 			<Text>Investing production in art is a good way to boost your Civilization's cutural output, either to grab that next policy or to stave off a Tourism victory. Also reduces boredom.</Text>
@@ -102,7 +102,7 @@
 			<Text>방어</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROCESS_DEFENSE_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]방어[ENDCOLOR] boosts City [ICON_STRENGTH] Defense and increases Hit Point recovery by 10% of the City's [ICON_PRODUCTION] Production.</Text>
+			<Text>도시 [ICON_PRODUCTION]생산의 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR]를 도시 [ICON_STRENGTH]방어력 및 체력 회복률로 전환시킵니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROCESS_DEFENSE_STRATEGY">
 			<Text>Investing production in defense is a last-ditch method to stave off your city's conquest by a foreign power.</Text>
@@ -112,7 +112,7 @@
 			<Text>농업</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROCESS_FOOD_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]농업[ENDCOLOR] converts 25% of [ICON_PRODUCTION] Production of this City into [ICON_FOOD] Food, and reduces [ICON_FOOD]/[ICON_PRODUCTION] Basic Needs by 25%.</Text>
+			<Text>도시 [ICON_PRODUCTION]생산의 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR]를 [ICON_FOOD]식량으로 전환하고 도시의 [ICON_FOOD]/[ICON_PRODUCTION]기본 요구 수치를 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 감소시킵니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROCESS_FOOD_STRATEGY">
 			<Text>Investing production in farming is a good way to boost your City's growth, which can be useful if you are falling behind in technologies, or you simply need bigger cities. Also reduces distress.</Text>
@@ -129,13 +129,13 @@
 			<Text>여행 금지</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESOLUTION_TOURISM_PENALTY_HELP">
-			<Text>Restricts international travel between Civilizations. Reduces the [ICON_TOURISM] Tourism modifier for all Civilizations by 35%. [NEWLINE][NEWLINE][COLOR_RESEARCH_STORED]비행[ENDCOLOR]을 연구한 문명이 있어야 안건으로 채택할 수 있습니다.</Text>
+			<Text>문명 사이의 국제 여행을 제한합니다. 모든 문명의 [ICON_TOURISM]관광 수치가 [COLOR_POSITIVE_TEXT]35%[ENDCOLOR] 감소합니다.[NEWLINE][NEWLINE][COLOR_RESEARCH_STORED]비행[ENDCOLOR]을 연구한 문명이 있어야 안건으로 채택할 수 있습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESOLUTION_TOURISM_BONUS">
 			<Text>여권 시스템</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESOLUTION_TOURISM_BONUS_HELP">
-			<Text>Increases international travel between Civilizations. Increases the [ICON_TOURISM] Tourism modifier for all Civilizations by 50%.[NEWLINE][NEWLINE][COLOR_RESEARCH_STORED]비행[ENDCOLOR]을 연구한 문명이 있어야 안건으로 채택할 수 있습니다.</Text>
+			<Text>문명 사이의 국제 여행이 증가합니다. 모든 문명의 [ICON_TOURISM]관광 수치가 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE][COLOR_RESEARCH_STORED]비행[ENDCOLOR]을 연구한 문명이 있어야 안건으로 채택할 수 있습니다.</Text>
 		</Row>
 		
 		<!-- Sweden Grenadiers -->
