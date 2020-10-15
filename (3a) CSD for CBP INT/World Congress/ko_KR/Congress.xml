@@ -9,17 +9,17 @@
 			<Text>Because there is an active [COLOR_POSITIVE_TEXT]Open Door Policy[ENDCOLOR] in effect here, no one can become this City-State's Ally.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESOLUTION_SOI">
-			<Text>영향력 범위</Text>
+			<Text>영향권</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESOLUTION_SOI_HELP">
 			<Text>Demand a Sphere of Influence over a City-State. If successful, the proposing player becomes the permanent Ally of the City-State (unless this Proposal is repealed). [NEWLINE][NEWLINE][COLOR_RESEARCH_STORED]증기력[ENDCOLOR]을 연구한 문명이 있어야 안건으로 채택할 수 있습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_SOI">
-			<Text>영향력 범위: {1_CivsList}</Text>
+			<Text>영향권: {1_CivsList}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_SOI_ENTRY">
-			<Text>{@1_CivName} (for {@2_CivName})</Text>
-		</Row>
+			<Text>{@1_CivName} ({@2_CivName}에 대한)</Text>
+		</Row>/
 		<Row Tag="TXT_KEY_RESOLUTION_DECOLONIZATION">
 			<Text>탈식민지화</Text>
 		</Row>
