@@ -401,7 +401,7 @@ SET Text = '만약 당신 문명의 도시가 잠재력이 높다면 그들을 �
 WHERE Tag = 'TXT_KEY_EO_OWN_CITY_POTENTIAL_TT';
 
 UPDATE Language_ko_KR
-SET Text = '{1_SpyRank} {2_SpyName}{2: plural 1?이; 2?가;} {3_CityName}에서 훔치고 있습니다.[NEWLINE]{3_CityName}의 현재 잠재력은 {4_Num}입니다.[NEWLINE][NEWLINE]잠재력은 스파이 활동에 대한 도시의 취약성을 반영합니다. 잠재력이 높을수록 도시는 취약합니다. 기본값은 [COLOR_POSITIVE_TEXT](1~10값,보정됨)[ENDCOLOR] 도시의 전반적인 번영과 행복, 특히 과학과 골드 산출량에 기초합니다. 도시에 경찰대나 경찰서와 같은 방어 건물을 건설하면 잠재력이 감소합니다. 도시에 경찰대나 경찰서와 같은 방어 건물이 있으면 잠재력이 감소합니다.'
+SET Text = '{1_SpyRank} {2_SpyName}{2: plural 1?이; 2?가;} {3_CityName}에서 절도를 수행하고 있습니다.[NEWLINE]{3_CityName}의 현재 잠재력은 {4_Num}입니다.[NEWLINE][NEWLINE]잠재력은 스파이 활동에 대한 도시의 취약성을 반영합니다. 잠재력이 높을수록 도시는 취약합니다. 기본값은 [COLOR_POSITIVE_TEXT](1~10값,보정됨)[ENDCOLOR] 도시의 전반적인 번영과 행복, 특히 과학과 골드 산출량에 기초합니다. 도시에 경찰대나 경찰서와 같은 방어 건물을 건설하면 잠재력이 감소합니다. 도시에 경찰대나 경찰서와 같은 방어 건물이 있으면 잠재력이 감소합니다.'
 WHERE Tag = 'TXT_KEY_EO_CITY_POTENTIAL_TT';
 
 UPDATE Language_ko_KR

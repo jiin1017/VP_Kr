@@ -13,7 +13,7 @@ VALUES		('TXT_KEY_PRODMOD_WONDER_UNITPROMOTION',						'[NEWLINE][ICON_BULLET]Uni
 			('TXT_KEY_EUPANEL_UNITCLASS_NEAR',								'근처 유닛 전투 보너스'),
 			('TXT_KEY_EUPANEL_NEARBYPROMOTION_COMBAT_BONUS',				'근처 유닛 승급'),
 			('TXT_KEY_EUPANEL_NEARBYPROMOTION_CITY_COMBAT_BONUS',			'근처 도시 승급'),
-			('TXT_KEY_PRODMOD_MILITARY_UNITPROMOTION',						'[NEWLINE][ICON_BULLET]군사 유닛 주둔 변동치: {1_Num}%'),
-			('TXT_KEY_PRODMOD_YIELD_UNITPROMOTION',							'[NEWLINE][ICON_BULLET]유닛 주둔 도시 변동치: {1_Num}%'),
+			('TXT_KEY_PRODMOD_MILITARY_UNITPROMOTION',						'[NEWLINE][ICON_BULLET]군사 유닛 주둔: {1_Num}%'),
+			('TXT_KEY_PRODMOD_YIELD_UNITPROMOTION',							'[NEWLINE][ICON_BULLET]유닛 주둔 도시: {1_Num}%'),
 			('TXT_KEY_NOTIFICATION_CULTURE_UNIT',							'{1_Resource:textkey}{1: plural 1?이; 2?가;} 제공되어 제국에 문화 보너스가 발생함!'),
 			('TXT_KEY_NOTIFICATION_SUMMARY_CULTURE_UNIT',					'{1_Resource:textkey}{1: plural 1?이; 2?가;} 영감을 주었습니다!');

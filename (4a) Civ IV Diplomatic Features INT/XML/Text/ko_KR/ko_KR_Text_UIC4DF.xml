@@ -6,7 +6,7 @@
 			<Text>...에 대해 어떻게 생각하십니까?</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DIPLO_TRADE_MAP">
-			<Text>세계 지도</Text> 	  <Plurality>2</Plurality>
+			<Text>세계 지도</Text> 	  
 		</Row>
 		<Row Tag="TXT_KEY_DIPLO_TRADE_MAP_TT">
 			<Text>이 문명이 발견한 모든 땅을 드러냅니다.[NEWLINE][NEWLINE]참고: 만나지 못한 문명 및 도시 국가와 접촉할 수 없습니다.</Text>
@@ -760,7 +760,7 @@
 			<Text>투명한 외교</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GAME_OPTION_ADVANCED_DIPLOMACY_HELP">
-			<Text>외교적 변수 옆에 변동치가 표시됩니다. 또한, AI 지도자들이 우호적이면 부정적 변수를 감추지 않습니다.</Text>
+			<Text>외교적 변수 옆에 수치가 표시됩니다. 또한, AI 지도자들이 우호적이면 부정적 변수를 감추지 않습니다.</Text>
 		</Row>
 		
 		<!-- End Vassalage Resolution -->

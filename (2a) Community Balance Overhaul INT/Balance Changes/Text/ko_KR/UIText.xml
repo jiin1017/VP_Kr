@@ -137,7 +137,7 @@
 
 		<!-- WLTKD LUA -->
 		<Row Tag="TXT_KEY_PRODUCTION_WLTKD_BUILDING">
-			<Text>[NEWLINE] [ICON_BULLET]"국왕 경축일"에서 오는 건물/정책 변동치 : {1_Num}%</Text>
+			<Text>[NEWLINE] [ICON_BULLET]"국왕 경축일"에서 오는 건물/정책: {1_Num}%</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TP_GOLD_FROM_INTERNAL_TRADE">
 			<Text>{1_Num} [ICON_INTERNATIONAL_TRADE] 국내 교역로에서</Text>
@@ -409,11 +409,11 @@
 		</Row>
 	
 		<Row Tag="TXT_KEY_EUPANEL_ATTACK_CS_ALLIANCE_STRENGTH">
-			<Text>헬레닉</Text>
+			<Text>헬레닉 리그</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_MISC_YOU_ENEMY_UNITS_DEFECT">
-			<Text>적 유닛 탈주</Text>
+			<Text>적 유닛 결함</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_EUPANEL_FROM_TERRAIN_BONUS">
@@ -640,7 +640,7 @@
 			<Text>[NEWLINE] [ICON_BULLET][ICON_GOLDEN_AGE]황금기에서: {1_Num}%</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_WLTKD_BELIEF">
-			<Text>[NEWLINE] [ICON_BULLET]"국왕 경축일"에서 오는 교리:" {1_Num}%</Text>
+			<Text>[NEWLINE] [ICON_BULLET]"국왕 경축일"에서 오는 교리: {1_Num}%</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CULTURE_GOLDEN_AGE">
 			<Text>+{1_Num}% [ICON_CULTURE] [ICON_GOLDEN_AGE]황금기에서</Text>
@@ -727,14 +727,14 @@
 
 		<!-- New Musician Text -->
 		<Row Tag="TXT_KEY_NOTIFICATION_GREAT_MUSICIAN_FAMILIAR_TOUR">
-			<Text>당신의 음악가들이 {1_PlayerAdj} 사람들에게 좋은 반응을 얻었습니다. 그들에 대한   [ICON_TOURISM]관광이 +[COLOR_POSITIVE_TEXT]{2_Num}[ENDCOLOR] 증가하고 []ICON_CAPITAL]수도의 []ICON_CAPITAL]행복이 +{3_num} 증가합니다.</Text>
+			<Text>당신의 음악가들이 {1_PlayerAdj} 사람들에게 좋은 반응을 얻었습니다. 그들에 대한 [ICON_TOURISM]관광이 [COLOR_POSITIVE_TEXT]{2_Num}[ENDCOLOR] 증가하고 []ICON_CAPITAL]수도의 []ICON_CAPITAL]행복이 {3_num} 증가합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_GREAT_MUSICIAN_FAMILIAR_TOUR_S">
 			<Text>{1_PlayerAdj} 지역 순회 공연 완료!</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_NOTIFICATION_GREAT_MUSICIAN_FAMILIAR_TOUR_TARGET">
-			<Text>{1_PlayerAdj} 음악가들이 최근 당신의 문명에 순회 공연을 다녀갔고 열렬한 환영을 받았습니다. {1_PlayerAdj} [ICON_TOURISM] 당신에 대한 문화 영향력이 [COLOR_NEGATIVE_TEXT]{2_Num}[ENDCOLOR] 증가합니다.</Text>
+			<Text>{1_PlayerAdj} 음악가들이 최근 당신의 문명에 순회 공연을 다녀갔고 열렬한 환영을 받았습니다. 당신에 대한 {1_PlayerAdj} [ICON_TOURISM]문화 영향력이 [COLOR_NEGATIVE_TEXT]{2_Num}[ENDCOLOR] 증가합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_GREAT_MUSICIAN_FAMILIAR_TOUR_TARGET_S">
 			<Text>{1_PlayerName}의 음악가가 도착했습니다!</Text>
@@ -752,34 +752,34 @@
 
 		<!-- Barbarian Theft Text-->
 		<Row Tag="TXT_KEY_BARBARIAN_GOLD_THEFT_CITY_DETAILED">
-			<Text>Barbarians looted {2_City}, stealing treasures worth {1_Gold} [ICON_GOLD] Gold![NEWLINE]Destroy these Barbarians before they steal more stuff!</Text>
+			<Text>야만인이 {2_City}{2: plural 1?을; 2?를;} 침략하여 {1_Gold}[ICON_GOLD] 가치의 보물을 훔쳐갔습니다![NEWLINE]더 많은 골드를 훔치기 전에 야만인들을 처치하십시오!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BARBARIAN_GOLD_THEFT_CITY">
-			<Text>야만인이 {1_City}을 약탈했습니다. </Text>
+			<Text>야만인이 {1_City}{1: plural 1?을; 2?를;} 침략했습니다!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BARBARIAN_CULTURE_THEFT_CITY_DETAILED">
-			<Text>Barbarians raided {2_City}, destroying relics worth {1_Culture} [ICON_CULTURE] Culture![NEWLINE]Destroy these Barbarians before they break more stuff!</Text>
+			<Text>야만인이 {2_City}{2: plural 1?을; 2?를;} 습격하여 {1_Culture}[ICON_CULTURE] 가치의 유물을 파괴했습니다![NEWLINE]더 많은 물건을 부수기 전에 야만인들을 처치하십시오!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BARBARIAN_CULTURE_THEFT_CITY">
-			<Text>야만인이 {1_City}를 습격했습니다!</Text>
+			<Text>야만인이 {1_City}{1: plural 1?을; 2?를;} 습격했습니다!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BARBARIAN_SCIENCE_THEFT_CITY_DETAILED">
-			<Text>Barbarians assaulted {2_City}, destroying research materials worth {1_Science} [ICON_RESEARCH] Science![NEWLINE]Destroy these Barbarians before they burn more things!</Text>
+			<Text>야만인이 {2_City}{2: plural 1?을; 2?를;} 공격하여 {1_Science} [ICON_RESEARCH] 가치의 자재를 불태웠습니다![NEWLINE]더 많은 자재를 불태우기 전에 야만인들을 처치하십시오!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BARBARIAN_SCIENCE_THEFT_CITY">
-			<Text>야만인이 {1_City}를 공격했습니다!</Text>
+			<Text>야만인이 {1_City}{1: plural 1?을; 2?를;} 공격했습니다!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BARBARIAN_FOOD_THEFT_CITY_DETAILED">
-			<Text>Barbarians pillaged the stores of {2_City}, taking {1_Food} [ICON_FOOD] Food![NEWLINE]Destroy these Barbarians before they take more stuff!</Text>
+			<Text>야만인이 {2_City}의 상점들을 약탈하여 {1_Food} [ICON_FOOD]을 빼앗아 갔습니다![NEWLINE]더 많은 식량을 약탈하기 전에 야만인들을 처치하십시오!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BARBARIAN_FOOD_THEFT_CITY">
-			<Text>야만인이 {1_City}에서 절도 행각을 벌였습니다!</Text>
+			<Text>야만인이 {1_City}{1: plural 1?을; 2?를;} 약탈했습니다!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BARBARIAN_PRODUCTION_THEFT_CITY_DETAILED">
-			<Text>Barbarians kidnapped citizens from {2_City}, costing the city {1_Production} [ICON_PRODUCTION] Production![NEWLINE]Destroy these Barbarians before they cause more panic!</Text>
+			<Text>야만인이 {2_City}의 시민들을 납치해서 {1_Production} [ICON_PRODUCTION]이 희생되었습니다![NEWLINE]더 큰 공포를 일으키기 전에 야만인들을 처치하십시오!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BARBARIAN_PRODUCTION_THEFT_CITY">
-			<Text>야만인이 {1_City}를 공포에 떨게 했습니다!</Text>
+			<Text>야만인이 {1_City}{1: plural 1?을; 2?를;} 공포에 떨게 했습니다!</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_MARRIED_TO">
@@ -789,34 +789,34 @@
 
 		<!-- Honor ProdMod Text-->
 		<Row Tag="TXT_KEY_PRODMOD_YIELD_PUPPET_POLICY">
-			<Text>[NEWLINE][ICON_BULLET]정책에서 오는 [ICON_PUPPET]괴뢰 도시 변동치: {1_Num}%</Text>
+			<Text>[NEWLINE][ICON_BULLET]정책에서 오는 [ICON_PUPPET]괴뢰 도시 수치: {1_Num}%</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODMOD_YIELD_OCCUPIED_POLICY">
-			<Text>[NEWLINE][ICON_BULLET]정책에서 오는 [ICON_OCCUPIED]점령 도시 변동치: {1_Num}%</Text>
+			<Text>[NEWLINE][ICON_BULLET]정책에서 오는 [ICON_OCCUPIED]점령 도시 수치: {1_Num}%</Text>
 		</Row>
 
 		<!-- Conscription popup-->
 		<Row Tag="TXT_KEY_NOTIFICATION_CONSCRIPTION_SPAWN">
-			<Text>Because the City of {1_CityName:textkey} has {2_Population} [ICON_CITIZEN] Citizens, a {3_Unit} has been conscripted!</Text>
+			<Text>{1_CityName:textkey}의 [ICON_CITIZEN]시민이 {2_Population}명 이므로 {3_Unit}{3: plural 1?이; 2?가;} 징집되었습니다!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_CONSCRIPTION_SPAWN_FIRST">
-			<Text>Because you adopted the Conscription policy and {1_CityName:textkey} has more than 8 [ICON_CITIZEN] Citizens, a {2_Unit} has been conscripted!</Text>
+			<Text>징집 정책을 채택했고 현재 {1_CityName:textkey}의 [ICON_CITIZEN]시민이 8명 이상이므로 {2_Unit}{2: plural 1?이; 2?가;} 징집되었습니다!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_CONSCRIPTION_SPAWN_SUMMARY">
-			<Text>{2_Unit}이 {1_CityName:textkey}에서 징집됨!</Text>
+			<Text>{2_Unit}{2: plural 1?이; 2?가;} {1_CityName:textkey}에서 징집됨!</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_CIV5_IMPROVEMENTS_LUMBERMILL_JUNGLE">
 			<Text>벌목장</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_IMPROVEMENTS_LUMBERMILL_TEXT_JUNGLE">
-			<Text>A Logging Camp allows you to improve the Gold output of Jungle tiles. Gains additional Gold for every two adjacent Logging Camps, so try to build them in clusters of three if possible.</Text>
+			<Text>벌목장을 통해 정글 타일의 골드 산출량을 증가시킬 수 있습니다. 인접한 두 벌목장마다 골드를 추가로 획들할 수 있습니다. 가능한 경우 3개씩 묶어 건설하십시오.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILD_LUMBERMILL_JUNGLE">
 			<Text>[LINK=IMPROVEMENT_LUMBERMILL]벌목장[\LINK] 건설</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILD_LUMBERMILL_REC_JUNGLE">
-			<Text>It will increase the amount of [ICON_PRODUCTION] Production provided by this tile, while keeping the Jungle intact.</Text>
+			<Text>정글의 특성을 유지하면서 현재 타일의 [ICON_PRODUCTION]생산을 증가시킵니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_IMPROVEMENT_LUMBERMILL_JUNGLE">
 			<Text>벌목장</Text>
@@ -831,7 +831,7 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_PRODMOD_YIELD_RELIGION_POLICIES">
-			<Text>[NEWLINE][ICON_BULLET]정책 변동치: {1_Num}%</Text>
+			<Text>[NEWLINE][ICON_BULLET]정책: {1_Num}%</Text>
 		</Row>
 		<Row Tag="TXT_KEY_YIELD_FROM_PIETY">
 			<Text>{1_Num} {2_IconString}주요 [ICON_RELIGION]종교에서</Text>
@@ -1037,7 +1037,7 @@
 
 		<!-- Luxury Tooltip -->
 		<Row Tag="TXT_KEY_TP_HAPPINESS_LUXURY_BONUS">
-			<Text>도시의 평균 크기가 {2_Num} [ICON_CITIZEN]이므로 사치 자원에서 오는 [ICON_HAPPINESS_1]불행은 {1_Num} 입니다.</Text>
+			<Text>도시의 평균 규모가 {2_Num} [ICON_CITIZEN]이므로 사치 자원에서 오는 [ICON_HAPPINESS_1]불행은 {1_Num} 입니다.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_EO_CITY_CONNECTED">
@@ -1087,16 +1087,16 @@
 
 		<!-- LUA Threshold Mods for Buildings -->
 		<Row Tag="TXT_KEY_BUILDING_POVERTY_NEW_THRESHOLD">
-			<Text>[ICON_BULLET] 새로운 필요: [ICON_CITIZEN]마다 {1_num} [ICON_GOLD][NEWLINE][ICON_BULLET] 현재: [ICON_CITIZEN]마다 {2_Num} [ICON_GOLD]</Text>
+			<Text>[ICON_BULLET] 새로운 요구: [ICON_CITIZEN]마다 {1_num} [ICON_GOLD][NEWLINE][ICON_BULLET] 현재: [ICON_CITIZEN]마다 {2_Num} [ICON_GOLD]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_ILLITERACY_NEW_THRESHOLD">
-			<Text>[ICON_BULLET] 새로운 필요: [ICON_CITIZEN]마다 {1_num} [ICON_RESEARCH][NEWLINE][ICON_BULLET] 현재: [ICON_CITIZEN]마다 {2_Num} [ICON_RESEARCH]</Text>
+			<Text>[ICON_BULLET] 새로운 요구: [ICON_CITIZEN]마다 {1_num} [ICON_RESEARCH][NEWLINE][ICON_BULLET] 현재: [ICON_CITIZEN]마다 {2_Num} [ICON_RESEARCH]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_DEFENSE_NEW_THRESHOLD">
-			<Text>[ICON_BULLET] 새로운 필요: [ICON_CITIZEN]마다 {1_num} [ICON_FOOD]/[ICON_PRODUCTION][NEWLINE][ICON_BULLET] 현재: [ICON_CITIZEN]마다 {2_Num} [ICON_FOOD]/[ICON_PRODUCTION]</Text>
+			<Text>[ICON_BULLET] 새로운 요구: [ICON_CITIZEN]마다 {1_num} [ICON_FOOD]/[ICON_PRODUCTION][NEWLINE][ICON_BULLET] 현재: [ICON_CITIZEN]마다 {2_Num} [ICON_FOOD]/[ICON_PRODUCTION]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_CULTURE_NEW_THRESHOLD">
-			<Text>[ICON_BULLET] 새로운 필요: [ICON_CITIZEN]마다 {1_num} [ICON_CULTURE][NEWLINE][ICON_BULLET] 현재: [ICON_CITIZEN]마다 {2_Num} [ICON_CULTURE]</Text>
+			<Text>[ICON_BULLET] 새로운 요구: [ICON_CITIZEN]마다 {1_num} [ICON_CULTURE][NEWLINE][ICON_BULLET] 현재: [ICON_CITIZEN]마다 {2_Num} [ICON_CULTURE]</Text>
 		</Row>
 
 		<!-- More LUA! -->
@@ -1363,10 +1363,10 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_TOTAL_EMPIRE_UNHAPPINESS_TT">
-			<Text>제국 전역의 총 [ICON_HAPPINESS_3]불행 수치 is split across all cities evenly, with any remainder divided up amongst your cities, starting with the Capital and progressing from oldest to newest (in terms of founding).</Text>
+			<Text>제국 전역의 총 [ICON_HAPPINESS_3]불행 수치는 모든 도시에 나누어 분포되어 있습니다. 수도에서 시작하여 가장 오래된 도시에서 가장 최근의 도시로 진행됩니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TOTAL_EMPIRE_AVERAGE_TT">
-			<Text>총 [ICON_HAPPINESS_1] 행복 수치 from Empire Sources is split across all cities evenly, with any remainder divided up amongst your cities, starting with the Capital and progressing from oldest to newest (in terms of founding).</Text>
+			<Text>총 [ICON_HAPPINESS_1] 행복 수치는 모든 도시에 나누어 분포되어 있습니다. 수도에서 시작하여 가장 오래된 도시에서 가장 최근의 도시로 진행됩니다.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_CITY_UNHAPPY">
@@ -1386,11 +1386,11 @@
 		</Row>
 		
 		<Row Tag="TXT_KEY_TP_EMPIRE_VERY_UNHAPPY_NO_REBELS">
-			<Text>Your approval rating is less than 35% - your Empire is in open rebellion! Cities may abandon your Empire and flip to the Civilization that is most culturally influential over your people! Additionally, all Cities will [ICON_FOOD] Grow very slowly and have increased Military Unit and Settler costs. [ICON_STRENGTH] Combat effectiveness is also reduced by 20%!</Text>
+			<Text>당신의 지지율이 35%를 넘지 못하기 때문에 제국 전체가 공공연한 반란을 겪고 있습니다. 도시들은 당신의 제국을 버리고 당신의 민족에 가장 문화적으로 영향을 미치는 문명으로 변절할지도 모릅니다! 또한 모든 도시가 매우 느리게 [ICON_FOOD]성장하고 군사 유닛 및 개척자의 비용이 증가합니다. [ICON_STRENGTH]전투 효율성이 20% 감소합니다.</Text>
 		</Row>
 		
 		<Row Tag="TXT_KEY_TP_EMPIRE_SUPER_UNHAPPY_NO_REBELS">
-			<Text>Your approval rating is less than 20% - your Empire is fracturing! Cities will rapidly abandon your Empire and flip to the Civilization that is most culturally influential over your people! Additionally, all Cities will [ICON_FOOD] Grow more slowly and have increased Military Unit and Settler costs. [ICON_STRENGTH] Combat effectiveness is also reduced by 20%!</Text>
+			<Text>당신의 지지율이 20%를 넘지 못하기 때문에 제국 전체가 빠르게 무너지고 있습니다. 도시들은 당신의 제국을 버리고 당신의 민족에 가장 문화적으로 영향을 미치는 문명으로 변절할지도 모릅니다! 또한 모든 도시가 매우 느리게 [ICON_FOOD]성장하고 군사 유닛 및 개척자의 비용이 증가합니다. [ICON_STRENGTH]전투 효율성이 20% 감소합니다.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_CITYVIEW_FREESPECIALIST_TEXT">
@@ -1401,7 +1401,7 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_EUPANEL_BONUS_RANGE_STRIKE_CITY">
-			<Text>원거리 공격 변동치</Text>
+			<Text>원거리 공격</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_POP_CSTATE_BULLY_FACTOR_EMPIRE_PROXIMITY">
@@ -1413,7 +1413,7 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_AIR_PATROL_BOMBED_GROUND_TARGETS">
-			<Text>Your {@1_UnitName} encountered no resistance, and attacked enemy air and anti-air units on the ground!</Text>
+			<Text>Your {@1_UnitName}{@1: plural 1?이; 2?가;} 아무런 저항도 받지 않고 적 공군 유닛 및 지상의 대공 유닛을 공격했습니다!</Text>
 		</Row>
 	</Language_ko_KR>
 	<Language_ko_KR>

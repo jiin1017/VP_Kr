@@ -141,7 +141,7 @@
 			<Text>원거리 전투 한도 {1}</Text>
 		</Row-->
 		<!--Row Tag="TXT_KEY_EUI_UNIT_CONSCRIPTION">
-			<Text>징병 {1}</Text>
+			<Text>징집 {1}</Text>
 		</Row-->
 		<Row Tag="TXT_KEY_EUI_UNIT_EXTRAMAINTENANCECOST">
 			<Text>{TXT_KEY_PEDIA_MAINT_LABEL} {1}[ICON_GOLD]</Text>
