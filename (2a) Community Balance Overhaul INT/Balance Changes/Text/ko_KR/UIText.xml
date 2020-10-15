@@ -113,23 +113,23 @@
 			<Text>최적화</Text>	  
 		</Row>
 		<Row Tag="TXT_KEY_OPTIMIZE_TT">
-			<Text>Rearrange owned Great Works into potential Themes. Does not swap Great Works with other Civilizations and removes any Great Works already up for trade.</Text>
+			<Text>소유된 걸작을 잠재적인 테마로 재정렬하십시오. 다른 문명과 걸작을 교환하지 않고 이미 거래를 위해 목록에 올라온 걸작을 제거합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_OPTIMIZE_SWAP">
 			<Text>교환 &amp; 최적화</Text>
 		</Row>
 		<Row Tag="TXT_KEY_OPTIMIZE_SWAP_TT">
-			<Text>Rearrange Great Works into potential Themes. Swaps Great Works with other Civilizations and may put excess Great Works up for trade (if needed).</Text>
+			<Text>소유된 걸작을 잠재적인 테마로 재정렬하십시오. 다른 문명과 걸작을 교환하고 필요하면 거래 목록에 올릴 수 있습니다.</Text>
 		</Row>
 		<!-- Minors -->
 		<Row Tag="TXT_KEY_TP_GOLD_FROM_MINORS">
-			<Text>{1_Num}  [ICON_CITY_STATE] 도시 국가에서</Text>
+			<Text>{1_Num}  [ICON_CITY_STATE]도시 국가에서</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SCIENCE_FROM_MINORS">
-			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] [ICON_RESEARCH] 도시 국가에서</Text>
+			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] [ICON_RESEARCH]도시 국가에서</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CSTATE_GOLD_BONUS">
-			<Text>그들이 매 턴 [COLOR_POSITIVE_TEXT] {1_Num} [ICON_GOLD] 골드[ENDCOLOR]를 제공합니다.</Text>
+			<Text>그들이 매 턴 [COLOR_POSITIVE_TEXT] {1_Num} [ICON_GOLD]골드[ENDCOLOR]를 제공합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_TT_YOUR_SCIENCE_GAIN_CS">
 			<Text>총: {1_Num} [ICON_RESEARCH] 과학 (도시 국가에 대한 [ICON_INFLUENCE] 영향력 때문에)</Text>
@@ -150,21 +150,21 @@
 			<Text>[COLOR_POSITIVE_TEXT]정략 결혼[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DIPLO_MAJOR_CIV_DIPLO_STATE_MARRIED_TT">
-			<Text>[COLOR_POSITIVE_TEXT]정략 결혼:[ENDCOLOR] Your [ICON_INFLUENCE] Influence does not decay, you gain +1 Delegate to the World Congress, and +15% [ICON_GREAT_PEOPLE] Great Person Rate in your [ICON_CAPITAL] Capital.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]정략 결혼:[ENDCOLOR] 당신의 [ICON_INFLUENCE]영향력이 감소하지 않습니다. 세계 대회 추가 대표단을 1명 확보하고 [ICON_CAPITAL]수도의 [ICON_GREAT_PEOPLE]위인 출현율이 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR] 증가합니다.</Text>
 		</Row>
 		<!-- America! -->
 		<Row Tag="TXT_KEY_NOTIFICATION_UA_STOLE_PLOT">
 			<Text>{1_CivName:textkey}{1: plural 1?이; 2?가;} 당신의 영토를 구입했습니다!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_UA_STOLE_PLOT">
-			<Text>{1_CivName:textkey}{1: plural 1?이; 2?가;} 명백한 운명이라 명했습니다!</Text>
+			<Text>{1_CivName:textkey}{1: plural 1?이; 2?가;} 명백한 운명의 법령을 내렸습니다!</Text>
 		</Row>
 		<!-- Text for GPs -->
 		<Row Tag="TXT_KEY_NOTIFICATION_CITY_WLTKD_GREAT_MERCHANT">
-			<Text>The great wealth brought back by your {1_UnitType} has led your empire to celebrate "We Love the King Day" for [COLOR_POSITIVE_TEXT]{2_Num}[ENDCOLOR] Turns!</Text>
+			<Text>{1_UnitType}{1: plural 1?이; 2?가;} 가져온 막대한 부로 [COLOR_POSITIVE_TEXT]{2_Num}[ENDCOLOR]턴 동안 "국왕 경축일"을 맞이하게 되었습니다!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_CITY_WLTKD_GREAT_MERCHANT_SUMMARY">
-			<Text>당신의 {1_UnitType}{1: plural 1?이; 2?가;} 무역에 성공했습니다!</Text>
+			<Text>당신의 {1_UnitType}{1: plural 1?이; 2?가;} 성공적으로 거래했습니다!</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_NOTIFICATION_CITY_FREE_RESOURCE">
@@ -179,14 +179,14 @@
 			<Text>Your {1_UnitType} increased your [ICON_INFLUENCE] Influence in {3_CivShortDesc} by [COLOR_POSITIVE_TEXT]{2_Num}[ENDCOLOR], and reduced the Influence of all Major Civilizations known to the City-State by the same amount!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_GREAT_DIPLOMAT_SUMMARY">
-			<Text>당신의 {1_UnitType}{1: plural 1?이; 2?가;} 미션을 완료했습니다!</Text>
+			<Text>당신의 {1_UnitType}{1: plural 1?이; 2?가;} 임무를 완료했습니다!</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_NOTIFICATION_GREAT_DIPLOMAT_OTHER">
 			<Text>A {1_UnitType} increased {4_OwnerAdj} [ICON_INFLUENCE] Influence in {3_CivShortDesc} by [COLOR_POSITIVE_TEXT]{2_Num}[ENDCOLOR], and reduced your [ICON_INFLUENCE] Influence in the City-State by the same amount!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_GREAT_DIPLOMAT_OTHER_SUMMARY">
-			<Text>다른 문명의 {1_UnitType}{1: plural 1?이; 2?가;} 미션을 완료했습니다!</Text>
+			<Text>다른 문명의 {1_UnitType}{1: plural 1?이; 2?가;} 임무를 완료했습니다!</Text>
 		</Row>
 
 		<!-- Maya Prophet Lock -->
@@ -200,13 +200,13 @@
 		</Row>
 		<!-- GAP -->
 		<Row Tag="TXT_KEY_TP_GOLDEN_AGE_ADDITION_RELIGION">
-			<Text>[ICON_BULLET][ICON_RELIGION] 종교에서 매 턴 +{1_Num}</Text>
+			<Text>[ICON_BULLET]{1_Num} 매 턴 [ICON_RELIGION]종교에서</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TP_GOLDEN_AGE_ADDITION_TRAIT">
-			<Text>[ICON_BULLET][ICON_GREAT_PEOPLE] 특성에서 매 턴 +{1_Num}</Text>
+			<Text>[ICON_BULLET]{1_Num} 매 턴 [ICON_GREAT_PEOPLE]특성에서</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TP_GOLDEN_AGE_ADDITION_CITIES">
-			<Text>[ICON_BULLET][ICON_CAPITAL] 도시에서 매 턴 +{1_Num}</Text>
+			<Text>[ICON_BULLET]{1_Num} 매 턴 [ICON_CAPITAL]수도에서</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_TOP_PANEL_TOURISM_TOOLTIP_CONQUEST_WARNING">
@@ -220,11 +220,11 @@
 
 		<!-- Aesthetics -->
 		<Row Tag="TXT_KEY_CO_CITY_TOURISM_POLICY_AESTHETICS">
-			<Text>{1_Num} [ICON_TOURISM] 세계 불가사의에서</Text>
+			<Text>{1_Num} [ICON_TOURISM]세계 불가사의에서</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_CO_CITY_TOURISM_CAPITAL_PENALTY">
-			<Text>{1_Num}% [ICON_TOURISM] 괴뢰[ICON_PUPPET]도시가 아닌 도시의 수에서</Text>
+			<Text>{1_Num}% [ICON_TOURISM]괴뢰[ICON_PUPPET]도시가 아닌 도시의 수에서</Text>
 		</Row>
 		
 		<!-- Resource Monopoly Text-->
@@ -314,11 +314,11 @@
 			<Text>Highest Culture Delta</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_BOREDOM">
-			<Text>[ICON_CULTURE] 무료: {1_Num}</Text>
+			<Text>[ICON_CULTURE]무료: {1_Num}</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_TT_YOUR_CULTURE_GAIN_CS">
-			<Text>총: {1_Num} [ICON_CULTURE] 문화 (due to [ICON_INFLUENCE] Influence over this City-State)</Text>
+			<Text>총: {1_Num} [ICON_CULTURE]문화 (due to [ICON_INFLUENCE] Influence over this City-State)</Text>
 		</Row>
 	
 		<Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_TT_THEIR_CULTURE_GAIN">
@@ -335,10 +335,10 @@
 			<Text>You have unlocked {1_Num} more Policies than {2_CivName}.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_TT_YOUR_CULTURE_TOTAL">
-			<Text>총: {1_Num} [ICON_CULTURE] 문화</Text>
+			<Text>총: {1_Num} [ICON_CULTURE]문화</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_TT_THEIR_CULTURE_TOTAL">
-			<Text>{1_CivName} Total: {2_Num} [ICON_CULTURE] Culture</Text>
+			<Text>총 ({1_CivName}): {2_Num} [ICON_CULTURE]문화</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_TRO_COL_FROM_CULTURE">
@@ -437,19 +437,19 @@
 
 		<!-- Text for UnitPanel.lua-->
 		<Row Tag="TXT_KEY_BUILD_TOURISM_STRING">
-			<Text>{1_Num}[ENDCOLOR] [ICON_TOURISM] 관광</Text>
+			<Text>{1_Num}[ENDCOLOR] [ICON_TOURISM]관광</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILD_GAP_STRING">
-			<Text>{1_Num}[ENDCOLOR] [ICON_GOLDEN_AGE] 황금기 점수</Text>
+			<Text>{1_Num}[ENDCOLOR] [ICON_GOLDEN_AGE]황금기 점수</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILD_GGP_STRING">
 			<Text>{1_Num}[ENDCOLOR] [ICON_GREAT_GENERAL] 위대한 장군 점수</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILD_GAP2_STRING">
-			<Text>{1_Num}[ENDCOLOR] [ICON_GREAT_ADMIRAL] 위대한 제독 점수</Text>
+			<Text>{1_Num}[ENDCOLOR] [ICON_GREAT_ADMIRAL]위대한 제독 점수</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILD_CULTURE_LOCAL_STRING">
-			<Text>{1_Num}[ENDCOLOR] [ICON_CULTURE_LOCAL] 국경 확장 점수</Text>
+			<Text>{1_Num}[ENDCOLOR] [ICON_CULTURE_LOCAL]국경 확장 점수</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UPANEL_REPAIR_CHARGES">
 			<Text>함대 수리 충전</Text>
@@ -460,7 +460,7 @@
 		
 		<!-- Assyria UA Text -->
 		<Row Tag ="TXT_KEY_SCIENCE_BOOST_CONQUEST">
-			<Text>Your soldiers found information worth {1_Num} [ICON_RESEARCH] Science during the conquest of {2_Name}!</Text>
+			<Text>당신의 군인들이 {2_Name}를 정복하는 동안 {1_Num}[ICON_RESEARCH]의 가치가 있는 정보를 발견했습니다!</Text>
 		</Row>
 
 		<Row Tag ="TXT_KEY_SCIENCE_BOOST_CONQUEST_SUMMARY">
@@ -536,7 +536,7 @@
 			<Text>Connecting this Resource to your trade network will cause this City to go into "We Love the Empress Day."</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITYVIEW_WLTKD_COUNTER_UA">
-			<Text>"We Love The Empress Day"! ({1_Num})</Text>
+			<Text>"황후 경축일"! ({1_Num})</Text>
 		</Row>
 		
 		
@@ -582,7 +582,7 @@
 		</Row>
 		<!-- Trait LUA -->
 		<Row Tag="TXT_KEY_CO_CITY_TOURISM_TRAIT_BONUSES">
-			<Text>{1_Num} [ICON_TOURISM] 문명 특성에서</Text>
+			<Text>{1_Num} [ICON_TOURISM]문명 특성에서</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CULTURE_FROM_TRAIT_BONUS">
 			<Text>{1_Num} {2_IconString} 특성에서</Text>
@@ -602,16 +602,16 @@
 			<Text>최대 식량</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_POVERTY">
-			<Text>[ICON_GOLD] 빈곤: {1_Num}</Text>
+			<Text>[ICON_GOLD]빈곤: {1_Num}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_ILLITERACY">
-			<Text>[ICON_RESEARCH] 문맹: {1_Num}</Text>
+			<Text>[ICON_RESEARCH]문맹: {1_Num}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_ISOLATION">
-			<Text>[ICON_BLOCKADED] 고립: {1_Num}</Text>
+			<Text>[ICON_BLOCKADED]고립: {1_Num}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_ISOLATION_OTHER">
-			<Text>[ICON_BLOCKADED] 고립: {1_Num}</Text>
+			<Text>[ICON_BLOCKADED]고립: {1_Num}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_INFLUENCE_OTHER">
 			<Text>당신 문명의 [ICON_TOURISM]: {1_Num}%</Text>
@@ -637,37 +637,37 @@
 
 		<!-- LUA Text -->
 		<Row Tag="TXT_KEY_PRODUCTION_GOLDEN_AGE">
-			<Text>[NEWLINE] [ICON_BULLET][ICON_GOLDEN_AGE] 황금기에서: {1_Num}%</Text>
+			<Text>[NEWLINE] [ICON_BULLET][ICON_GOLDEN_AGE]황금기에서: {1_Num}%</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_WLTKD_BELIEF">
 			<Text>[NEWLINE] [ICON_BULLET]"국왕 경축일"에서 오는 교리:" {1_Num}%</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CULTURE_GOLDEN_AGE">
-			<Text>+{1_Num}% [ICON_CULTURE] [ICON_GOLDEN_AGE] 황금기에서</Text>
+			<Text>+{1_Num}% [ICON_CULTURE] [ICON_GOLDEN_AGE]황금기에서</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CULTURE_WLTKD_TRAIT">
-			<Text>+{1_Num}% [ICON_CULTURE] 카니발에서</Text>
+			<Text>+{1_Num}% [ICON_CULTURE]카니발에서</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CULTURE_WLTKD">
-			<Text>+{1_Num}% [ICON_CULTURE] "국왕 경축일"에서</Text>
+			<Text>+{1_Num}% [ICON_CULTURE]"국왕 경축일"에서</Text>
 		</Row>
 		<Row Tag="TXT_KEY_FAITH_FROM_GOLDEN_AGE">
-			<Text>+{1_Num}% [ICON_PEACE] [ICON_GOLDEN_AGE] 황금기에서</Text>
+			<Text>+{1_Num}% [ICON_PEACE] [ICON_GOLDEN_AGE]황금기에서</Text>
 		</Row>
 		<Row Tag="TXT_KEY_FAITH_FROM_WLTKD">
-			<Text>+{1_Num}% [ICON_PEACE] "국왕 경축일"에서</Text>
+			<Text>+{1_Num}% [ICON_PEACE]"국왕 경축일"에서</Text>
 		</Row>
 		<Row Tag="TXT_KEY_YIELD_FROM_WLTKD">
 			<Text>+{1_Num}% {2_IconString} "국왕 경축일"에서</Text>
 		</Row>
 		<Row Tag="TXT_KEY_YIELD_FROM_GOLDEN_AGE">
-			<Text>+{1_Num}% {2_IconString} [ICON_GOLDEN_AGE] 황금기에서</Text>
+			<Text>+{1_Num}% {2_IconString} [ICON_GOLDEN_AGE]황금기에서</Text>
 		</Row>
 		<Row Tag="TXT_KEY_YIELD_FROM_PROCESS">
-			<Text>{1_Num} {2_IconString} [ICON_SWAP] 생산 전환에서</Text>
+			<Text>{1_Num} {2_IconString} [ICON_SWAP]생산 전환에서</Text>
 		</Row>
 		<Row Tag="TXT_KEY_YIELD_FROM_TRADE_ROUTES">
-			<Text>{1_Num:number "#.##"} {2_IconString} [ICON_INTERNATIONAL_TRADE] 교역로에서</Text>
+			<Text>{1_Num:number "#.##"} {2_IconString} [ICON_INTERNATIONAL_TRADE]교역로에서</Text>
 		</Row>
 
 		<!-- Civilopedia -->
@@ -789,10 +789,10 @@
 
 		<!-- Honor ProdMod Text-->
 		<Row Tag="TXT_KEY_PRODMOD_YIELD_PUPPET_POLICY">
-			<Text>[NEWLINE][ICON_BULLET]정책에서 오는 [ICON_PUPPET] 괴뢰 도시 변동치: {1_Num}%</Text>
+			<Text>[NEWLINE][ICON_BULLET]정책에서 오는 [ICON_PUPPET]괴뢰 도시 변동치: {1_Num}%</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODMOD_YIELD_OCCUPIED_POLICY">
-			<Text>[NEWLINE][ICON_BULLET]정책에서 오는 [ICON_OCCUPIED] 점령 도시 변동치: {1_Num}%</Text>
+			<Text>[NEWLINE][ICON_BULLET]정책에서 오는 [ICON_OCCUPIED]점령 도시 변동치: {1_Num}%</Text>
 		</Row>
 
 		<!-- Conscription popup-->
@@ -823,7 +823,7 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_SCIENCE_FROM_RELIGION">
-			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] [ICON_RESEARCH] 당신 문명의 [ICON_RELIGION] 종교에서</Text>
+			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] [ICON_RESEARCH]당신 문명의 종교에서</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_DETAILS_PATRONAGE_FINISHER_VOTES">
@@ -834,25 +834,25 @@
 			<Text>[NEWLINE][ICON_BULLET]정책 변동치: {1_Num}%</Text>
 		</Row>
 		<Row Tag="TXT_KEY_YIELD_FROM_PIETY">
-			<Text>{1_Num} {2_IconString} [ICON_RELIGION]주요 종교에서</Text>
+			<Text>{1_Num} {2_IconString} 주요 [ICON_RELIGION]종교에서</Text>
 		</Row>
 		<Row Tag="TXT_KEY_FAITH_FROM_PIETY">
-			<Text>{1_Num} [ICON_PEACE] [ICON_RELIGION]주요 종교에서</Text>
+			<Text>{1_Num} [ICON_PEACE]주요 [ICON_RELIGION]종교에서</Text>
 		</Row>
 		<Row Tag="TXT_KEY_FAITH_FROM_CS_ALLIANCE">
 			<Text>{1_Num} [ICON_PEACE]도시 국가에서</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CULTURE_FROM_PIETY">
-			<Text>{1_Num} [ICON_CULTURE] [ICON_RELIGION]주요 종교에서</Text>
+			<Text>{1_Num} [ICON_CULTURE]주요 [ICON_RELIGION]종교에서</Text>
 		</Row>
 		<Row Tag="TXT_KEY_FAITH_FROM_POP">
-			<Text>{1_Num} [ICON_PEACE] [ICON_CITIZEN]시민에서</Text>
+			<Text>{1_Num} [ICON_PEACE][ICON_CITIZEN]시민에서</Text>
 		</Row>
 		<Row Tag="TXT_KEY_YIELD_FROM_SPECIALISTS_FAITH">
-			<Text>{1_Num} [ICON_PEACE] 전문가에서</Text>
+			<Text>{1_Num} [ICON_PEACE]전문가에서</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CULTURE_FROM_POPULATION">
-			<Text>{1_Num} [ICON_CULTURE] [ICON_CITIZEN]시민에서</Text>
+			<Text>{1_Num} [ICON_CULTURE][ICON_CITIZEN]시민에서</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_DETAILS_RELIGION_REFORMATION_VOTES">
@@ -863,17 +863,17 @@
 			<Text>+{1_Num}% [ICON_CULTURE] [ICON_GREAT_WORK]걸작에서</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CULTURE_FROM_SPIES">
-			<Text>+{1_Num}% [ICON_CULTURE] [ICON_SPY] 활동 중인 스파이에서</Text>
+			<Text>+{1_Num}% [ICON_CULTURE] [ICON_SPY]활동 중인 스파이에서</Text>
 		</Row>
 		<Row Tag="TXT_KEY_FAITH_FROM_GWS">
-			<Text>+{1_Num}% [ICON_PEACE] [ICON_GREAT_WORK] 걸작에서</Text>
+			<Text>+{1_Num}% [ICON_PEACE] [ICON_GREAT_WORK]걸작에서</Text>
 		</Row>
 		<Row Tag="TXT_KEY_FAITH_FROM_SPIES">
-			<Text>+{1_Num}% [ICON_PEACE] [ICON_SPY] 활동 중인 스파이에서</Text>
+			<Text>+{1_Num}% [ICON_PEACE] [ICON_SPY]활동 중인 스파이에서</Text>
 		</Row>
 		
 		<Row Tag="TXT_KEY_CULTURE_FROM_CS_ALLIANCE">
-			<Text>{1_Num} [ICON_CULTURE] 도시 국가에서</Text>
+			<Text>{1_Num} [ICON_CULTURE]도시 국가에서</Text>
 		</Row>
 		<Row Tag="TXT_KEY_YIELD_FROM_CS_ALLIANCE">
 			<Text>{1_Num} {2_IconString} 도시 국가에서</Text>
@@ -882,7 +882,7 @@
 			<Text>[NEWLINE][ICON_BULLET]{1_NumVotes} 문명 특성에서</Text>
 		</Row>
 		<Row Tag="TXT_KEY_YIELD_FROM_CONNECTION">
-			<Text>{1_Num} {2_IconString} from [ICON_CONNECTED] 도시 연결에서</Text>
+			<Text>{1_Num} {2_IconString} from [ICON_CONNECTED]도시 연결에서</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_TRAIT_POPULATION_GROWTH_SHORT_CBP">
@@ -891,55 +891,55 @@
 
 		<!-- Top Panel -->
 		<Row Tag="TXT_KEY_TP_UNHAPPINESS_SCIENCE">
-			<Text>{1_Num} [ICON_RESEARCH] 문맹에서</Text>
+			<Text>{1_Num} [ICON_RESEARCH]문맹에서</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TP_UNHAPPINESS_CULTURE">
-			<Text>{1_Num} [ICON_CULTURE] 무료에서</Text>
+			<Text>{1_Num} [ICON_CULTURE]무료에서</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TP_UNHAPPINESS_DEFENSE">
-			<Text>{1_Num} [ICON_FOOD]/[ICON_PRODUCTION] 곤경에서</Text>
+			<Text>{1_Num} [ICON_FOOD]/[ICON_PRODUCTION]곤경에서</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TP_UNHAPPINESS_GOLD">
-			<Text>{1_Num} [ICON_GOLD] 빈곤에서</Text>
+			<Text>{1_Num} [ICON_GOLD]빈곤에서</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TP_UNHAPPINESS_CONNECTION">
 			<Text>{1_Num} [ICON_BLOCKADED] 고립에서</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TP_UNHAPPINESS_PILLAGED">
-			<Text>{1_Num} [ICON_RAZING] 약탈된 타일에서</Text>
+			<Text>{1_Num} [ICON_RAZING]약탈된 타일에서</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TP_UNHAPPINESS_STARVING">
-			<Text>{1_Num} [ICON_FOOD] 기근에서</Text>
+			<Text>{1_Num} [ICON_FOOD]기근에서</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TP_UNHAPPINESS_MINORITY">
-			<Text>{1_Num} [ICON_RELIGION] 종교 분쟁에서</Text>
+			<Text>{1_Num} [ICON_RELIGION]종교 분쟁에서</Text>
 		</Row>
 
 		<!-- Economic Overview -->
 		<Row Tag="TXT_KEY_EO_CITY_IS_NOT_OCCUPIED">
-			<Text>[ICON_HAPPINESS_3] [COLOR_NEGATIVE_TEXT]불행[ENDCOLOR]의 원천:</Text>
+			<Text>[ICON_HAPPINESS_3][COLOR_NEGATIVE_TEXT]불행[ENDCOLOR]의 원천:</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EO_CITY_LOCAL_UNHAPPINESS">
-			<Text>지역 [ICON_HAPPINESS_3] 불행: [COLOR_NEGATIVE_TEXT]{1_NUM}[ENDCOLOR] ({2_NUM}턴)</Text>
+			<Text>지역 [ICON_HAPPINESS_3]불행: [COLOR_NEGATIVE_TEXT]{1_NUM}[ENDCOLOR] ({2_NUM}턴)</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PUPPET_UNHAPPINESS_MOD">
-			<Text>[ICON_BULLET] [ICON_PUPPET] 괴뢰 도시: {1_Num}%</Text>
+			<Text>[ICON_BULLET] [ICON_PUPPET]괴뢰 도시: {1_Num}%</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CAPITAL_UNHAPPINESS_MOD">
-			<Text>[ICON_BULLET] [ICON_CAPITAL] 수도: +{1_Num}%</Text>
+			<Text>[ICON_BULLET] [ICON_CAPITAL]수도: +{1_Num}%</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TECH_DEVIATION_UNHAPPINESS_MOD">
-			<Text>[ICON_BULLET] [ICON_RESEARCH] 기술: +{1_Num}%</Text>
+			<Text>[ICON_BULLET] [ICON_RESEARCH]기술: +{1_Num}%</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TECH_POP_UNHAPPINESS_MOD_POS">
-			<Text>[ICON_BULLET] [ICON_CITIZEN] 도시 크기: +{1_Num}%</Text>
+			<Text>[ICON_BULLET] [ICON_CITIZEN]도시 크기: +{1_Num}%</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TECH_POP_UNHAPPINESS_MOD">
-			<Text>[ICON_BULLET] [ICON_CITIZEN] 도시 크기: {1_Num}%</Text>
+			<Text>[ICON_BULLET] [ICON_CITIZEN]도시 크기: {1_Num}%</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TECH_EMPIRE_UNHAPPINESS_MOD">
-			<Text>[ICON_BULLET] [ICON_CITY_STATE] 제국 크기: +{1_Num}%</Text>
+			<Text>[ICON_BULLET] [ICON_CITY_STATE]제국 크기: +{1_Num}%</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITYCOUNT_UNHAPPINESS">
 			<Text>[ICON_BULLET] [COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR] 도시의 수에서</Text>
@@ -964,7 +964,7 @@
 			<Text>[ICON_BULLET] [COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR] [ICON_RAZING]약탈된 타일에서</Text>
 		</Row>
 		<Row Tag="TXT_KEY_STARVING_UNHAPPINESS">
-			<Text>[ICON_BULLET] [COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR] 기근에서 ([ICON_FOOD] 필요)</Text>
+			<Text>[ICON_BULLET] [COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR] 기근에서 ([ICON_FOOD]필요)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MINORITY_UNHAPPINESS">
 			<Text>[ICON_BULLET] [COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR] 종교 분쟁에서 [NEWLINE]           감소: {3_Num}, {2_Icon} 신도 필요</Text>
@@ -994,50 +994,50 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_EO_CITY_PUPPET">
-			<Text>[COLOR_NEGATIVE_TEXT]({1_Num})[ENDCOLOR] [ICON_CITIZEN]: "We want [ICON_PUPPET] Equal Rights!"</Text>
+			<Text>[COLOR_NEGATIVE_TEXT]({1_Num})[ENDCOLOR] [ICON_CITIZEN]: "우리는  [ICON_PUPPET]동등한 권리를 원합니다!"</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EO_CITY_OCCUPATION">
-			<Text>[COLOR_NEGATIVE_TEXT]({1_Num})[ENDCOLOR] [ICON_CITIZEN]: "Fight the [ICON_OCCUPIED] Oppressors!"</Text>
+			<Text>[COLOR_NEGATIVE_TEXT]({1_Num})[ENDCOLOR] [ICON_CITIZEN]: "[ICON_OCCUPIED]탄압자들과 싸웁시다!"</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EO_CITY_RESISTANCE">
-			<Text>[COLOR_NEGATIVE_TEXT]({1_Num})[ENDCOLOR] [ICON_CITIZEN]: "[ICON_RESISTANCE] Viva la Revolucion!"</Text>
+			<Text>[COLOR_NEGATIVE_TEXT]({1_Num})[ENDCOLOR] [ICON_CITIZEN]: "[ICON_RESISTANCE]혁명 만세!"</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EO_CITY_UNEDUCATED">
-			<Text>[COLOR_NEGATIVE_TEXT]({1_Num})[ENDCOLOR] [ICON_CITIZEN]: "We are [ICON_RESEARCH] illiterate!"</Text>
+			<Text>[COLOR_NEGATIVE_TEXT]({1_Num})[ENDCOLOR] [ICON_CITIZEN]: "우리는 [ICON_RESEARCH]문맹입니다!"</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EO_CITY_UNDEFENDED">
-			<Text>[COLOR_NEGATIVE_TEXT]({1_Num})[ENDCOLOR] [ICON_CITIZEN]: "Our city is [ICON_FOOD]/[ICON_PRODUCTION] distressed!"</Text>
+			<Text>[COLOR_NEGATIVE_TEXT]({1_Num})[ENDCOLOR] [ICON_CITIZEN]: "우리 도시가 [ICON_FOOD]/[ICON_PRODUCTION]곤경에 빠졌습니다!"</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EO_CITY_POOR">
-			<Text>[COLOR_NEGATIVE_TEXT]({1_Num})[ENDCOLOR] [ICON_CITIZEN]: "The city is [ICON_GOLD] impoverished!"</Text>
+			<Text>[COLOR_NEGATIVE_TEXT]({1_Num})[ENDCOLOR] [ICON_CITIZEN]: "우리 도시가 [ICON_GOLD]빈곤합니다!"</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EO_CITY_UNCULTURED">
-			<Text>[COLOR_NEGATIVE_TEXT]({1_Num})[ENDCOLOR] [ICON_CITIZEN]: "Our city is [ICON_CULTURE] boring!"</Text>
+			<Text>[COLOR_NEGATIVE_TEXT]({1_Num})[ENDCOLOR] [ICON_CITIZEN]: "우리 도시가 [ICON_CULTURE]지루합니다!"</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EO_CITY_UNCONNECTED">
-			<Text>[COLOR_NEGATIVE_TEXT]({1_Num})[ENDCOLOR] [ICON_CITIZEN]: "We are [ICON_BLOCKADED] disconnected!"</Text>
+			<Text>[COLOR_NEGATIVE_TEXT]({1_Num})[ENDCOLOR] [ICON_CITIZEN]: "우리는 [ICON_BLOCKADED]고립되었습니다!"</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EO_CITY_PILLAGED">
-			<Text>[COLOR_NEGATIVE_TEXT]({1_Num})[ENDCOLOR] [ICON_CITIZEN]: "The land is [ICON_RAZING] burning!"</Text>
+			<Text>[COLOR_NEGATIVE_TEXT]({1_Num})[ENDCOLOR] [ICON_CITIZEN]: "우리의 영토가 [ICON_RAZING]불타고 있습니다!"</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EO_CITY_STARVING">
-			<Text>[COLOR_NEGATIVE_TEXT]({1_Num})[ENDCOLOR] [ICON_CITIZEN]: "There is not enough [ICON_FOOD] food!"</Text>
+			<Text>[COLOR_NEGATIVE_TEXT]({1_Num})[ENDCOLOR] [ICON_CITIZEN]: "충분한 [ICON_FOOD]식량이 없습니다!"</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EO_CITY_RELIGION">
-			<Text>[COLOR_NEGATIVE_TEXT]({1_Num})[ENDCOLOR] [ICON_CITIZEN]: "We want more {2_ReligionIcon} followers!"</Text>
+			<Text>[COLOR_NEGATIVE_TEXT]({1_Num})[ENDCOLOR] [ICON_CITIZEN]: "우리는 더 많은 {2_ReligionIcon} 신도를 원합니다!"</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_EO_CITY_SPECIALIST">
-			<Text>[COLOR_NEGATIVE_TEXT]({1_Num})[ENDCOLOR] [ICON_CITIZEN]: "This place is [ICON_GREAT_PEOPLE] crowded!"</Text>
+			<Text>[COLOR_NEGATIVE_TEXT]({1_Num})[ENDCOLOR] [ICON_CITIZEN]: "여기는 너무 [ICON_GREAT_PEOPLE]붐비고 있습니다!"</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_EO_CITY_EMPIRE">
-			<Text>[COLOR_NEGATIVE_TEXT]({1_Num})[ENDCOLOR] [ICON_CITIZEN]: "[ICON_WAR] War! What is it good for!?"</Text>
+			<Text>[COLOR_NEGATIVE_TEXT]({1_Num})[ENDCOLOR] [ICON_CITIZEN]: "[ICON_WAR]전쟁! 무엇을 위해 좋은가!?"</Text>
 		</Row>
 
 		<!-- Luxury Tooltip -->
 		<Row Tag="TXT_KEY_TP_HAPPINESS_LUXURY_BONUS">
-			<Text>{1_Num} 보너스 [ICON_HAPPINESS_1] from luxuries because average city size is {2_Num} [ICON_CITIZEN].</Text>
+			<Text>도시의 평균 크기가 {2_Num} [ICON_CITIZEN]이므로 사치 자원에서 오는 [ICON_HAPPINESS_1]불행은 {1_Num} 입니다.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_EO_CITY_CONNECTED">
@@ -1046,57 +1046,57 @@
 
 		<!-- LUA for Buildings -->
 		<Row Tag="TXT_KEY_BUILDING_POVERTY_AVERAGE_MODIFIER">
-			<Text>[ICON_GOLD] 골드 요구 수치: {1_num}%</Text>
+			<Text>[ICON_GOLD] 골드 필요 수치: {1_num}%</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_DEFENSE_AVERAGE_MODIFIER">
-			<Text>[ICON_FOOD]/[ICON_PRODUCTION] 기본 요구 수치: {1_num}%</Text>
+			<Text>[ICON_FOOD]/[ICON_PRODUCTION] 기본 필요 수치: {1_num}%</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_CULTURE_AVERAGE_MODIFIER">
-			<Text>[ICON_CULTURE] 문화 요구 수치: {1_num}%</Text>
+			<Text>[ICON_CULTURE] 문화 필요 수치: {1_num}%</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_SCIENCE_AVERAGE_MODIFIER">
-			<Text>[ICON_RESEARCH] 과학 요구 수치: {1_num}%</Text>
+			<Text>[ICON_RESEARCH] 과학 필요 수치: {1_num}%</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_MINORITY_AVERAGE_MODIFIER">
-			<Text>[ICON_RELIGION] 종교 요구 수치: {1_num}%</Text>
+			<Text>[ICON_RELIGION] 종교 필요 수치: {1_num}%</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_POVERTY_GLOBAL_AVERAGE_MODIFIER">
-			<Text>모든 도시의 [ICON_GOLD] 골드 요구 수치: {1_num}%</Text>
+			<Text>모든 도시의 [ICON_GOLD] 골드 필요 수치: {1_num}%</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_DEFENSE_GLOBAL_AVERAGE_MODIFIER">
-			<Text>모든 도시의 [ICON_FOOD]/[ICON_PRODUCTION] 기본 요구 수치: {1_num}%</Text>
+			<Text>모든 도시의 [ICON_FOOD]/[ICON_PRODUCTION] 기본 필요 수치: {1_num}%</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_CULTURE_GLOBAL_AVERAGE_MODIFIER">
-			<Text>모든 도시의 [ICON_CULTURE] 문화 요구 수치: {1_num}%</Text>
+			<Text>모든 도시의 [ICON_CULTURE] 문화 필요 수치: {1_num}%</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_SCIENCE_GLOBAL_AVERAGE_MODIFIER">
-			<Text>모든 도시의 [ICON_RESEARCH] 과학 요구 수치: {1_num}%</Text>
+			<Text>모든 도시의 [ICON_RESEARCH] 과학 필요 수치: {1_num}%</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_MINORITY_GLOBAL_AVERAGE_MODIFIER">
-			<Text>모든 도시의 [ICON_RELIGION] 종교 요구 수치: {1_num}%</Text>
+			<Text>모든 도시의 [ICON_RELIGION] 종교 필요 수치: {1_num}%</Text>
 		</Row>
 
 		<!-- LUA Threshold Mods for Buildings -->
 		<Row Tag="TXT_KEY_BUILDING_POVERTY_NEW_THRESHOLD">
-			<Text>[ICON_BULLET] 새로운 요구: [ICON_CITIZEN]마다 {1_num} [ICON_GOLD][NEWLINE][ICON_BULLET] 현재: [ICON_CITIZEN]마다 {2_Num} [ICON_GOLD]</Text>
+			<Text>[ICON_BULLET] 새로운 필요: [ICON_CITIZEN]마다 {1_num} [ICON_GOLD][NEWLINE][ICON_BULLET] 현재: [ICON_CITIZEN]마다 {2_Num} [ICON_GOLD]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_ILLITERACY_NEW_THRESHOLD">
-			<Text>[ICON_BULLET] 새로운 요구: [ICON_CITIZEN]마다 {1_num} [ICON_RESEARCH][NEWLINE][ICON_BULLET] 현재: [ICON_CITIZEN]마다 {2_Num} [ICON_RESEARCH]</Text>
+			<Text>[ICON_BULLET] 새로운 필요: [ICON_CITIZEN]마다 {1_num} [ICON_RESEARCH][NEWLINE][ICON_BULLET] 현재: [ICON_CITIZEN]마다 {2_Num} [ICON_RESEARCH]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_DEFENSE_NEW_THRESHOLD">
-			<Text>[ICON_BULLET] 새로운 요구: [ICON_CITIZEN]마다 {1_num} [ICON_FOOD]/[ICON_PRODUCTION][NEWLINE][ICON_BULLET] 현재: [ICON_CITIZEN]마다 {2_Num} [ICON_FOOD]/[ICON_PRODUCTION]</Text>
+			<Text>[ICON_BULLET] 새로운 필요: [ICON_CITIZEN]마다 {1_num} [ICON_FOOD]/[ICON_PRODUCTION][NEWLINE][ICON_BULLET] 현재: [ICON_CITIZEN]마다 {2_Num} [ICON_FOOD]/[ICON_PRODUCTION]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_CULTURE_NEW_THRESHOLD">
-			<Text>[ICON_BULLET] 새로운 요구: [ICON_CITIZEN]마다 {1_num} [ICON_CULTURE][NEWLINE][ICON_BULLET] 현재: [ICON_CITIZEN]마다 {2_Num} [ICON_CULTURE]</Text>
+			<Text>[ICON_BULLET] 새로운 필요: [ICON_CITIZEN]마다 {1_num} [ICON_CULTURE][NEWLINE][ICON_BULLET] 현재: [ICON_CITIZEN]마다 {2_Num} [ICON_CULTURE]</Text>
 		</Row>
 
 		<!-- More LUA! -->
@@ -1113,98 +1113,98 @@
 			<Text>[COLOR_NEGATIVE_TEXT]불행[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EO_CITY_LOCAL_HAPPINESS_EXPLANATION">
-			<Text>Cities cannot produce more [ICON_HAPPINESS_1] 행복 than the number of [ICON_CITIZEN] Citizens in the City.</Text>
+			<Text>도시는 [ICON_CITIZEN]시민의 숫자보다 더 많은 [ICON_HAPPINESS_1]행복을 만들어 낼 수 없습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EO_CITY_LOCAL_UNHAPPINESS_EXPLANATION">
-			<Text>[NEWLINE](These 'Needs' are averages of yields based on the number of [ICON_CITIZEN] Citizens in the City, as well as temporary situations, such as starvation or blockades. Averages increase as the game progresses, and yields per citizen decrease as a city grows. The bigger the divide between your city's yields and your empire-wide average, the higher your city's unhappiness!)</Text>
+			<Text>[NEWLINE](이러한 '필요'는 기근이나 차단 등의 일시적인 상황뿐만 아니라 도시의 [ICON_CITIZEN]시민 수에 따른 평균 산출량입니다. 평균은 게임이 진행될수록 증가하고, 도시 성장에 따라 시민 1인당 산출량이 감소합니다. 도시의 산출량과 제국 전역 평균의 차이가 클수록 도시의 불행은 더 높아집니다!)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EO_CITY_LOCAL_HAPPINESS">
-			<Text>지역 [ICON_HAPPINESS_1] 행복: [COLOR_POSITIVE_TEXT]{1_NUM}[ENDCOLOR]</Text>
+			<Text>지역 [ICON_HAPPINESS_1]행복: [COLOR_POSITIVE_TEXT]{1_NUM}[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EO_CITY_GLOBAL_AVERAGE_MODS">
-			<Text>[COLOR_POSITIVE_TEXT]총 요구 수치 (City % Modifiers):[ENDCOLOR]</Text>
+			<Text>[COLOR_POSITIVE_TEXT]총 필요 수치 (City % Modifiers):[ENDCOLOR]</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_EO_CITY_GLOBAL_AVERAGE_MODS_BREAKDOWN">
-			<Text>[COLOR_POSITIVE_TEXT]Needs Factors:[ENDCOLOR]</Text>
+			<Text>[COLOR_POSITIVE_TEXT]필요한 요소:[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EO_CITY_REDUCTION_AVERAGE_MODS_BREAKDOWN">
-			<Text>[COLOR_POSITIVE_TEXT]Factors that Decrease Needs:[ENDCOLOR]</Text>
+			<Text>[COLOR_POSITIVE_TEXT]필요를 줄이는 요소:[ENDCOLOR]</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_GLOBAL_AVERAGE_MOD_GOLD">
-			<Text>[ICON_BULLET] [ICON_GOLD] 골드 요구: {1_Num}% ({2_Num}%)</Text>
+			<Text>[ICON_BULLET] [ICON_GOLD]골드 필요: {1_Num}% ({2_Num}%)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GLOBAL_AVERAGE_MOD_SCIENCE">
-			<Text>[ICON_BULLET] [ICON_RESEARCH] 과학 요구: {1_Num}% ({2_Num}%)</Text>
+			<Text>[ICON_BULLET] [ICON_RESEARCH]과학 필요: {1_Num}% ({2_Num}%)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GLOBAL_AVERAGE_MOD_DEFENSE">
-			<Text>[ICON_BULLET] [ICON_FOOD]/[ICON_PRODUCTION] 곤경 요구: {1_Num}% ({2_Num}%)</Text>
+			<Text>[ICON_BULLET] [ICON_FOOD]/[ICON_PRODUCTION]곤경 필요: {1_Num}% ({2_Num}%)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GLOBAL_AVERAGE_MOD_CULTURE">
-			<Text>[ICON_BULLET] [ICON_CULTURE] 문화 요구: {1_Num}% ({2_Num}%)</Text>
+			<Text>[ICON_BULLET] [ICON_CULTURE]문화 필요: {1_Num}% ({2_Num}%)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GLOBAL_AVERAGE_MOD_FAITH">
-			<Text>[ICON_BULLET] [ICON_PEACE] 종교 요구: {1_Num}% ({2_Num}%)</Text>
+			<Text>[ICON_BULLET] [ICON_PEACE]종교 필요: {1_Num}% ({2_Num}%)</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_GLOBAL_AVERAGE_MOD_GOLD_POSITIVE">
-			<Text>[ICON_BULLET] [ICON_GOLD] 골드 요구: +{1_Num}% ({2_Num}%)</Text>
+			<Text>[ICON_BULLET] [ICON_GOLD]골드 필요: +{1_Num}% ({2_Num}%)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GLOBAL_AVERAGE_MOD_SCIENCE_POSITIVE">
-			<Text>[ICON_BULLET] [ICON_RESEARCH] 과학 요구: +{1_Num}% ({2_Num}%)</Text>
+			<Text>[ICON_BULLET] [ICON_RESEARCH]과학 필요: +{1_Num}% ({2_Num}%)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GLOBAL_AVERAGE_MOD_DEFENSE_POSITIVE">
-			<Text>[ICON_BULLET] [ICON_FOOD]/[ICON_PRODUCTION] 곤경 요구: +{1_Num}% ({2_Num}%)</Text>
+			<Text>[ICON_BULLET] [ICON_FOOD]/[ICON_PRODUCTION]곤경 필요: +{1_Num}% ({2_Num}%)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GLOBAL_AVERAGE_MOD_CULTURE_POSITIVE">
-			<Text>[ICON_BULLET] [ICON_CULTURE] 문화 요구: +{1_Num}% ({2_Num}%)</Text>
+			<Text>[ICON_BULLET] [ICON_CULTURE]문화 필요: +{1_Num}% ({2_Num}%)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GLOBAL_AVERAGE_MOD_FAITH_POSITIVE">
-			<Text>[ICON_BULLET] [ICON_PEACE] 종교 요구: +{1_Num}% ({2_Num}%)</Text>
+			<Text>[ICON_BULLET] [ICON_PEACE]종교 필요: +{1_Num}% ({2_Num}%)</Text>
 		</Row>
 
 		
 
 		<Row Tag="TXT_KEY_EO_CITY_GLOBAL_AVERAGE_MODS_EXPLANATION">
-			<Text>[NEWLINE](These modifiers are based on a number of factors, such as Population, Technology level, Policies, Buildings and/or Civilization Traits. Special modifiers, such as being the [ICON_CAPITAL] Capital or a [ICON_PUPPET] Puppet, are highlighted. Positive modifiers raise the global average; negative modifiers reduce it.)</Text>
+			<Text>[NEWLINE](이러한 수치는 인구, 기술 수준, 정책, 건물 및/또는 문명 특성과 같은 여러 요인에 기초합니다. [ICON_CAPITAL]수도나 [ICON_PUPPET]괴뢰 도시처럼 특별한 수치는 강조해서 표시됩니다. 플러스 수치는 전역 평균을 높이고 마이너스 수치는 이를 감소시킵니다.)</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_VP_CULTURAL_NEED_IDEOLOGY">
-			<Text>Requires an Ideology to become active.</Text>
+			<Text>이념이 활성화되어야 합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CO_PUBLIC_OPINION_UNKNOWN_VC">
-			<Text>[ICON_CITIZEN] Population must be [COLOR_POSITIVE_TEXT]Content[ENDCOLOR].</Text>
+			<Text>[ICON_CITIZEN]여론이 [COLOR_POSITIVE_TEXT]만족[ENDCOLOR] 해야합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CO_PUBLIC_OPINION_CONTENT_VC">
-			<Text>[ICON_CITIZEN] Population [COLOR_POSITIVE_TEXT]Content[ENDCOLOR]. Cultural Victory possible.</Text>
+			<Text>[ICON_CITIZEN]여론이 [COLOR_POSITIVE_TEXT]만족[ENDCOLOR] 해야합니다. 문화 승리 가능.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CO_PUBLIC_OPINION_DISSIDENTS_VC">
-			<Text>[ICON_CITIZEN] Population must be [COLOR_POSITIVE_TEXT]Content[ENDCOLOR]. Currently: [COLOR_NEGATIVE_TEXT]Dissidents[ENDCOLOR].</Text>
+			<Text>[ICON_CITIZEN]여론이 [COLOR_POSITIVE_TEXT]만족[ENDCOLOR] 해야합니다. 현재: [COLOR_NEGATIVE_TEXT]반체제[ENDCOLOR].</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CO_PUBLIC_OPINION_CIVIL_RESISTANCE_VC">
-			<Text>[ICON_CITIZEN] Population must be [COLOR_POSITIVE_TEXT]Content[ENDCOLOR]. Currently: [COLOR_NEGATIVE_TEXT]Resistance[ENDCOLOR].</Text>
+			<Text>[ICON_CITIZEN]여론이 [COLOR_POSITIVE_TEXT]만족[ENDCOLOR] 해야합니다. 현재: [COLOR_NEGATIVE_TEXT]저항[ENDCOLOR].</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CO_PUBLIC_OPINION_REVOLUTIONARY_WAVE_VC">
-			<Text>[ICON_CITIZEN] Population must be [COLOR_POSITIVE_TEXT]Content[ENDCOLOR]. Currently: [COLOR_NEGATIVE_TEXT]Revolutionary Wave[ENDCOLOR].</Text>
+			<Text>[ICON_CITIZEN]여론이 [COLOR_POSITIVE_TEXT]만족[ENDCOLOR] 해야합니다. 현재: [COLOR_NEGATIVE_TEXT]혁명의 물결[ENDCOLOR].</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_POLICY_BRANCH_CANNOT_UNLOCK_ERA_ALT">
-			<Text>[COLOR_WARNING_TEXT]If you enter the {1_EraString:textkey} you can bypass the Policy requirement.[ENDCOLOR]</Text>
+			<Text>[COLOR_WARNING_TEXT]{1_EraString:textkey}로 진입하면 정책 요구사항을 무시할 수 있습니다.[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_POLICYSCREEN_POLICIES_NEEDED_UNTIL_IDEOLOGY">
-			<Text>Number of Policies Remaining until Ideologies are unlocked: [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR]</Text>
+			<Text>이념이 해금 될 때까지 남은 정책 수: [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR]</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PEDIA_ERA_YIELD">
 			<Text>시대별 산출량 증가:</Text>
 		</Row>
 		<Row Tag="TXT_KEY_POP_NATURAL_WONDER_FOUND_PROMOTE_OWNED">
-			<Text>[NEWLINE]Free Promotion for newly-created, valid units (if owned by player):[NEWLINE]{1_PromoteString}</Text>
+			<Text>[NEWLINE]새로 생산된 유닛에 대한 무료 승급:[NEWLINE]{1_PromoteString}</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_CO_PLAYER_TOURISM_JAPAN_UA">
-			<Text>{1_Num}% Penalty from lack of Trade Routes (Sakoku)[NEWLINE]</Text>
+			<Text>{1_Num}% 교역로의 부족에 따른 페널티 (쇄국 정책)[NEWLINE]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TOURISM_EVENT_GWAM_BONUS_SAKOKU">
 			<Text>Due to the birth of {4_UnitName:textkey}, your [ICON_CAPITAL] Capital gains:[NEWLINE][ICON_BULLET]{1_Num} [ICON_GREAT_WRITER] Great Writer Points[NEWLINE][ICON_BULLET]{2_Num}[ICON_GREAT_ARTIST] Artist Points[NEWLINE][ICON_BULLET]{3_Num} [ICON_GREAT_MUSICIAN] Musician Points</Text>

@@ -141,10 +141,10 @@
 			<Text>미안합니다. 나의 호의가 거기까지 미치지는 못할 것 같군요.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GENERIC_HELP_REQUEST_REFUSE_TOO_MUCH_2">
-			<Text>미안하지만 당신은 너무 많은 것을 요구하고 있알습니다. 나는 받아들일 수 없습니다.</Text>
+			<Text>미안하지만 당신은 너무 많은 것을 요청하고 있알습니다. 나는 받아들일 수 없습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GENERIC_HELP_REQUEST_REFUSE_TOO_MUCH_3">
-			<Text>안됩니다. 나는 관대한 사람이지만 이건 나에게 너무 많은 것을 포기하라고 요구하는 것입니다.</Text>
+			<Text>안됩니다. 나는 관대한 사람이지만 이건 나에게 너무 많은 것을 포기하라고 요청하는 것입니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GENERIC_HELP_REQUEST_REFUSE_TOO_SOON_1">
 			<Text>미안하지만 나는 이미 도울 수 있는 만큼 도왔습니다.</Text>

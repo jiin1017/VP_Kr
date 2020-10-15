@@ -573,7 +573,7 @@ SET Text = '[COLOR_POSITIVE_TEXT]교회[ENDCOLOR]를 무료로 제공합니다. 
 WHERE Tag = 'TXT_KEY_WONDER_HAGIA_SOPHIA_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]기사단[ENDCOLOR]을 무료로 제공합니다. 일반적으로 요구되는 전 세계의 신도 수 (보통 20%) 보다 5% 낮은 수준으로 [COLOR_POSITIVE_TEXT]개혁 교리[ENDCOLOR]를 선택할 수 있습니다.[NEWLINE][NEWLINE][COLOR_YELLOW]성도[ENDCOLOR]에만 건설할 수 있습니다.이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.'
+SET Text = '[COLOR_POSITIVE_TEXT]기사단[ENDCOLOR]을 무료로 제공합니다. 일반적으로 필요한 전 세계의 신도 수 (보통 20%) 보다 5% 낮은 수준으로 [COLOR_POSITIVE_TEXT]개혁 교리[ENDCOLOR]를 선택할 수 있습니다.[NEWLINE][NEWLINE][COLOR_YELLOW]성도[ENDCOLOR]에만 건설할 수 있습니다.이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.'
 WHERE Tag = 'TXT_KEY_WONDER_KREMLIN_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_ko_KR

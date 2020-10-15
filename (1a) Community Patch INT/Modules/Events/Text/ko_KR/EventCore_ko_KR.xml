@@ -19,7 +19,7 @@
 			<Text>{1_City}에서 이벤트가 끝났습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CANNOT_TAKE_TT">
-			<Text>[COLOR_WARNING_TEXT]이 선택을 할 수 없습니다. 요구 조건을 충족하지 않았거나 이벤트의 효과가 남아 있습니다.[ENDCOLOR]</Text>
+			<Text>[COLOR_WARNING_TEXT]이 선택을 할 수 없습니다. 필요 조건을 충족하지 않았거나 이벤트의 효과가 남아 있습니다.[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NO_PLAYER_EVENTS">
 			<Text>적용 중인 문명 이벤트가 없습니다</Text>

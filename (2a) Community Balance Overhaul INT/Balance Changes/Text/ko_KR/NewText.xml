@@ -92,7 +92,7 @@
 			<Text>예술</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROCESS_CULTURE_HELP">
-			<Text>도시 [ICON_PRODUCTION]생산의 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR]를 [ICON_CULTURE]문화로 전환하고 도시의 [ICON_CULTURE]문화 요구 수치를 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 감소시킵니다.</Text>
+			<Text>도시 [ICON_PRODUCTION]생산의 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR]를 [ICON_CULTURE]문화로 전환하고 도시의 [ICON_CULTURE]문화 필요 수치를 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 감소시킵니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROCESS_CULTURE_STRATEGY">
 			<Text>Investing production in art is a good way to boost your Civilization's cutural output, either to grab that next policy or to stave off a Tourism victory. Also reduces boredom.</Text>
@@ -112,7 +112,7 @@
 			<Text>농업</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROCESS_FOOD_HELP">
-			<Text>도시 [ICON_PRODUCTION]생산의 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR]를 [ICON_FOOD]식량으로 전환하고 도시의 [ICON_FOOD]/[ICON_PRODUCTION]기본 요구 수치를 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 감소시킵니다.</Text>
+			<Text>도시 [ICON_PRODUCTION]생산의 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR]를 [ICON_FOOD]식량으로 전환하고 도시의 [ICON_FOOD]/[ICON_PRODUCTION]기본 필요 수치를 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 감소시킵니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROCESS_FOOD_STRATEGY">
 			<Text>Investing production in farming is a good way to boost your City's growth, which can be useful if you are falling behind in technologies, or you simply need bigger cities. Also reduces distress.</Text>

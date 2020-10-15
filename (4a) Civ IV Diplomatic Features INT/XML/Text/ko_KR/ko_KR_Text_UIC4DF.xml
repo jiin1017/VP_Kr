@@ -113,7 +113,7 @@
 			<Text>당신은 그들에게 독립을 주었습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DIPLO_VASSAL_FORCEFULLY_REVOKED">
-			<Text>그들이 당신에게 독립을 요구했을 때 당신은 거절했습니다.</Text>
+			<Text>그들이 당신에게 독립을 요청했을 때 당신은 거절했습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DIPLO_ATTACKED_MY_VASSAL">
 			<Text>당신은 그들의 종속국에게 전쟁을 선포했습니다.</Text>
@@ -128,7 +128,7 @@
 			<Text>그들은 종속국을 많이 보유한 당신을 두려워합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DIPLO_MASTER_LIBERATED_ME_FROM_VASSALAGE">
-			<Text>당신은 그들의 독립 요구가 없었음에도 그들을 해방했습니다.</Text>
+			<Text>당신은 그들의 독립 요청이 없었음에도 그들을 해방했습니다.</Text>
 		</Row>
 		<!-- Diplomacy Screen -->
 		<Row Tag="TXT_KEY_YOUR_CIV">
@@ -171,10 +171,10 @@
 			<Text>[NEWLINE][NEWLINE]우리는 해방할 종속국이 없습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DIPLO_VASSAL_REVOKE_US_THEIR_MASTER">
-			<Text>[NEWLINE][NEWLINE]그들은 종주국에게 종속국 해방을 요구할 수 없습니다.</Text>
+			<Text>[NEWLINE][NEWLINE]그들은 종주국에게 종속국 해방을 요청할 수 없습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DIPLO_VASSAL_REVOKE_THEM_YOUR_MASTER">
-			<Text>[NEWLINE][NEWLINE]우리는 종주국에게 종속국 해방을 요구할 수 없습니다.</Text>
+			<Text>[NEWLINE][NEWLINE]우리는 종주국에게 종속국 해방을 요청할 수 없습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DIPLO_VASSAL_YOU_ARE_VASSAL">
 			<Text>[NEWLINE][NEWLINE]우리는 이미 {1_PlayerName:textkey}의 종속국입니다.</Text>
@@ -391,7 +391,7 @@
 			<Text>독립 선언 가능:</Text>
 		</Row>
 		<Row Tag="TXT_KEY_VO_INDEPENDENCE_POSSIBLE_TT">
-			<Text>종속국이 독립 선언을 할 수 있게 되면 당신의 종속국 지위를 포기할 것입니다. 당신이 종속국의 요구를 거절하면 그들과 전쟁을 할 것입니다. 종속국이 자신들의 혁명이 성공할 가능성이 높다고 생각하면 당신에게 독립을 요구할 가능성이 높습니다.[NEWLINE][NEWLINE]당신의 종속국은 다음 조건들을 충족해야 독립을 선언할 수 있습니다.</Text>
+			<Text>종속국이 독립 선언을 할 수 있게 되면 당신의 종속국 지위를 포기할 것입니다. 당신이 종속국의 요구를 거절하면 그들과 전쟁을 할 것입니다. 종속국이 자신들의 혁명이 성공할 가능성이 높다고 생각하면 당신에게 독립을 요청할 가능성이 높습니다.[NEWLINE][NEWLINE]당신의 종속국은 다음 조건들을 충족해야 독립을 선언할 수 있습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_VO_INDEPENDENCE_POSSIBLE_MASTER_TT">
 			<Text>당신이 독립 선언을 할 수 있게 되면 당신은 어느 때이든 종속국의 지위를 포기할 수 있습니다. 종주국이 당신의 요구를 거절한다면 당신에게 전쟁을 선포할 것이니 주의하십시오. 당신이 강한 군사력을 가졌다면 종주국이 당신의 요구를 들어줄 가능성이 높습니다.[NEWLINE][NEWLINE]다음 조건들을 충족하면 독립을 선언할 수 있습니다.</Text>
@@ -699,16 +699,16 @@
 			<Text>당신에게서 턴당 [ICON_GOLD] {1_Num} 골드를 얻고 있습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_VO_REQUEST_INDEPENDENCE">
-			<Text>독립 요구</Text>
+			<Text>독립 요청</Text>
 		</Row>
 		<Row Tag="TXT_KEY_VO_REQUEST_INDEPENDENCE_TT">
-			<Text>당신의 종주국에게 독립을 요구합니다. 이 행동을 취하면 {1_TeamName}{1: plural 1?과; 2?와;}의 종속국 협정이 끝납니다.[NEWLINE][NEWLINE]당신의 종주국은 당신의 요구를 받아들이거나 거절하고 당신에게 전쟁을 선포할 것입니다. 당신의 문명이 종주국에 비해 강성할 수록 평화로운 독립의 가능성이 높습니다.</Text>
+			<Text>당신의 종주국에게 독립을 요청합니다. 이 행동을 취하면 {1_TeamName}{1: plural 1?과; 2?와;}의 종속국 협정이 끝납니다.[NEWLINE][NEWLINE]당신의 종주국은 당신의 요구를 받아들이거나 거절하고 당신에게 전쟁을 선포할 것입니다. 당신의 문명이 종주국에 비해 강성할 수록 평화로운 독립의 가능성이 높습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_VO_REQUEST_INDEPENDENCE_TOO_SOON">
-			<Text>[COLOR_NEGATIVE_TEXT]종속국 기간 {1_MinimumTurns}턴을 채우기 전까지는 독립을 요구할 수 없습니다. {2_iNumTurns}턴 후에 가능합니다.[ENDCOLOR]</Text>
+			<Text>[COLOR_NEGATIVE_TEXT]종속국 기간 {1_MinimumTurns}턴을 채우기 전까지는 독립을 요청할 수 없습니다. {2_iNumTurns}턴 후에 가능합니다.[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_VO_REQUEST_INDEPENDENCE_CONDITION_NOT_MET">
-			<Text>[COLOR_NEGATIVE_TEXT]독립하기 위한 모든 조건을 충족하기 전까지는 독립을 요구할 수 없습니다. 독립을 하기 위해 필요한 조건들을 확인하세요.[ENDCOLOR]</Text>
+			<Text>[COLOR_NEGATIVE_TEXT]독립하기 위한 모든 조건을 충족하기 전까지는 독립을 요청할 수 없습니다. 독립을 하기 위해 필요한 조건들을 확인하세요.[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_VO_TAX_RATE_MASTER_TT">
 			<Text>당신의 턴당 [ICON_GOLD] 골드에서 {1_Num}%가 세금으로 나가고 있습니다. 당신은 {2_TeamName}{2: plural 1?이; 2?가;} 책정한 세금을 조절할 수 없습니다. 세금은 각 종속국마다 차등적으로 책정됩니다.</Text>

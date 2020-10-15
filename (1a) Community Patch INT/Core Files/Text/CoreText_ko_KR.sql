@@ -233,7 +233,7 @@ SET Text = '{@1_Unit} 강탈 - [ICON_INFLUENCE]영향력 {2_NumInfluence} 감소
 WHERE Tag = 'TXT_KEY_POPUP_MINOR_BULLY_UNIT_AMOUNT';
 
 UPDATE Language_ko_KR
-SET Text = '당신에 대한 도시 국가의 [COLOR_POSITIVE_TEXT]두려움[ENDCOLOR]이 도시 국가의 [COLOR_WARNING_TEXT]불복[ENDCOLOR]보다 크다면 [ICON_INFLUENCE]영향력을 소모해 {@3_Unit} 하나를 공물로 요구할 수 있습니다. {1_FearLevel}{2_FactorDetails}'
+SET Text = '당신에 대한 도시 국가의 [COLOR_POSITIVE_TEXT]두려움[ENDCOLOR]이 도시 국가의 [COLOR_WARNING_TEXT]불복[ENDCOLOR]보다 크다면 [ICON_INFLUENCE]영향력을 소모해 {@3_Unit}{@3: plural 1?을; 2?를;} 공물로 요구할 수 있습니다. {1_FearLevel}{2_FactorDetails}'
 WHERE Tag = 'TXT_KEY_POP_CSTATE_BULLY_UNIT_TT';
 
 UPDATE Language_ko_KR

@@ -75,7 +75,7 @@
 			<Text>종속국 협정 끝내기</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CONCEPT_VASSALAGE_ENDING_VASSALS_SUMMARY">
-			<Text>두 문명 사이의 종속국 협정은 다양한 방법으로 끝낼 수 있습니다. 종주국은 종속국을 해방하거나 종속국에게 전쟁을 선포하여 종속국 협정을 즉시 끝낼 수 있습니다. 종속국을 해방하면 해당 문명과의 관계가 크게 향상됩니다.[NEWLINE][NEWLINE]종속국은 종주국에게 독립을 요구할 수 있습니다. 독립을 요구하려면 몇 가지 조건을 충족해야 합니다. 독립을 요구받은 종주국은 받아들이거나 거부하고 종속국에 전쟁을 선포하는 방법밖에 없습니다. 어느 쪽을 택하든 종속국 협정은 끝납니다.[NEWLINE][NEWLINE]종속국 해방과 독립 요구는 종속국 개요에서 가능합니다.</Text>
+			<Text>두 문명 사이의 종속국 협정은 다양한 방법으로 끝낼 수 있습니다. 종주국은 종속국을 해방하거나 종속국에게 전쟁을 선포하여 종속국 협정을 즉시 끝낼 수 있습니다. 종속국을 해방하면 해당 문명과의 관계가 크게 향상됩니다.[NEWLINE][NEWLINE]종속국은 종주국에게 독립을 요청할 수 있습니다. 독립을 요청하려면 몇 가지 조건을 충족해야 합니다. 독립을 요청받은 종주국은 받아들이거나 거부하고 종속국에 전쟁을 선포하는 방법밖에 없습니다. 어느 쪽을 택하든 종속국 협정은 끝납니다.[NEWLINE][NEWLINE]종속국 해방과 독립 요청는 종속국 개요에서 가능합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CONCEPT_VASSALAGE_ENDING_VASSALS_DESCRIPTION">
 			<Text>{TXT_KEY_CONCEPT_VASSALAGE_ENDING_VASSALS_TOPIC}</Text>
