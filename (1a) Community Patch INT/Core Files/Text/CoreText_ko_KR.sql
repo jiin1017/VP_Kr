@@ -258,7 +258,7 @@ SET Text = '{2_CivName:textkey}{2: plural 1?과; 2?와;} {1_TargetName:textkey} 
 WHERE Tag = 'TXT_KEY_NOTIFICATION_SUMMARY_QUEST_KILL_CITY_STATE';
 
 UPDATE Language_ko_KR
-SET Text = '{3_TargetName:textkey}{3: plural 1?이; 2?가;} 외교상의 우려를 이유로 {1_CivName:textkey}에게 전쟁을 선포했습니다, {1_TargetName:textkey}의 요청대로 {3_CivName:textkey}{3: plural 1?을; 2?를;} [COLOR_NEGATIVE_TEXT]파괴[ENDCOLOR]하여 완전한 보상을 받거나 또는 두 도시 국가와의 [COLOR_POSITIVE_TEXT]동맹[ENDCOLOR]을 통해 부분적인 보상을 받으십시오.  국제적인 압력이 [COLOR_POSITIVE_TEXT]{2_Num}[ENDCOLOR]턴 동안 평화를 강요할 것입니다. 개입할 의도가 있다면 빠르게 행동하십시오!'
+SET Text = '{3_TargetName:textkey}{3: plural 1?이; 2?가;} 외교상의 우려를 이유로 {1_CivName:textkey}에게 전쟁을 선포했습니다, {1_TargetName:textkey}의 요청대로 {3_CivName:textkey}{3: plural 1?을; 2?를;} [COLOR_NEGATIVE_TEXT]멸망[ENDCOLOR]시켜 완전한 보상을 받거나 또는 두 도시 국가와의 [COLOR_POSITIVE_TEXT]동맹[ENDCOLOR]을 통해 부분적인 보상을 받으십시오.  국제적인 압력이 [COLOR_POSITIVE_TEXT]{2_Num}[ENDCOLOR]턴 후 평화를 강요할 것입니다. 개입할 의도가 있다면 빠르게 행동하십시오!'
 WHERE Tag = 'TXT_KEY_NOTIFICATION_QUEST_KILL_CITY_STATE';
 
 UPDATE Language_ko_KR
