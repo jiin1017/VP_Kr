@@ -164,11 +164,11 @@
 			<Text>{1_UnitType}{1: plural 1?이; 2?가;} 가져온 막대한 부로 [COLOR_POSITIVE_TEXT]{2_Num}[ENDCOLOR]턴 동안 "국왕 경축일"을 맞이하게 되었습니다!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_CITY_WLTKD_GREAT_MERCHANT_SUMMARY">
-			<Text>당신의 {1_UnitType}{1: plural 1?이; 2?가;} 성공적으로 거래했습니다!</Text>
+			<Text>당신의 {1_UnitType}{1: plural 1?이; 2?가;} 무역에 성공했습니다!</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_NOTIFICATION_CITY_FREE_RESOURCE">
-			<Text>Your {1_UnitType} journeyed to a far-off land and discovered [COLOR_POSITIVE_TEXT]{2_ResourceNames}[ENDCOLOR]! [COLOR_POSITIVE_TEXT]{3_Num}[ENDCOLOR] copies of this Resource were given to you in honor of your patronage.</Text>
+			<Text>{1_UnitType}{1: plural 1?이; 2?가;} 먼 지역으로 여행을 떠났다가 {2_ResourceNames}{2: plural 1?을; 2?를;} 발견했습니다. 이 자원의 복제품 [COLOR_POSITIVE_TEXT]{3_Num}개[ENDCOLOR]가 주어졌습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_CITY_FREE_RESOURCE_SUMMARY">
 			<Text>당신의 {1_UnitType}{1: plural 1?이; 2?가;} 항해를 완료했습니다!</Text>
@@ -176,14 +176,14 @@
 
 		<!-- CSD -->
 		<Row Tag="TXT_KEY_NOTIFICATION_GREAT_DIPLOMAT">
-			<Text>Your {1_UnitType} increased your [ICON_INFLUENCE] Influence in {3_CivShortDesc} by [COLOR_POSITIVE_TEXT]{2_Num}[ENDCOLOR], and reduced the Influence of all Major Civilizations known to the City-State by the same amount!</Text>
+			<Text>{1_UnitType}{1: plural 1?이; 2?가;} {3_CivShortDesc}에 대한 [ICON_INFLUENCE]영향력을 [COLOR_POSITIVE_TEXT]{2_Num}[ENDCOLOR] 증가시키고 도시 국가에 알려진 다른 모든 주요 문명에 대한 영향력을 같은 양만큼 감소시켰습니다!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_GREAT_DIPLOMAT_SUMMARY">
 			<Text>당신의 {1_UnitType}{1: plural 1?이; 2?가;} 임무를 완료했습니다!</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_NOTIFICATION_GREAT_DIPLOMAT_OTHER">
-			<Text>A {1_UnitType} increased {4_OwnerAdj} [ICON_INFLUENCE] Influence in {3_CivShortDesc} by [COLOR_POSITIVE_TEXT]{2_Num}[ENDCOLOR], and reduced your [ICON_INFLUENCE] Influence in the City-State by the same amount!</Text>
+			<Text>{4_OwnerAdj} {1_UnitType}{1: plural 1?이; 2?가;} {3_CivShortDesc}에 대한 [ICON_INFLUENCE]영향력을 [COLOR_POSITIVE_TEXT]{2_Num}[ENDCOLOR] 증가시키고 당신 문명의 [ICON_INFLUENCE]영향력을 같은 양만큼 감소시켰습니다!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_GREAT_DIPLOMAT_OTHER_SUMMARY">
 			<Text>다른 문명의 {1_UnitType}{1: plural 1?이; 2?가;} 임무를 완료했습니다!</Text>
@@ -191,7 +191,7 @@
 
 		<!-- Maya Prophet Lock -->
 		<Row Tag="TXT_KEY_INVALID_NO_RELIGION">
-			<Text>[COLOR_NEGATIVE_TEXT]Cannot be selected until you have founded a Religion (or have a majority Religion), or you've reached the Renaissance Era[ENDCOLOR]</Text>
+			<Text>[COLOR_NEGATIVE_TEXT]종교를 설립하거나 (또는 대중 종교를 가지거나) 르네상스 시대에 진입하기 전에는 선택할 수 없습니다.[ENDCOLOR]</Text>
 		</Row>
 
 		<!-- Resource Wonder Improvement -->
