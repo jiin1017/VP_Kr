@@ -102,23 +102,23 @@ WHERE Tag = 'TXT_KEY_MISSION_CONDUCT_TRADE_MISSION_HELP';
 
 -- Philanthropy
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]Foreign Service[ENDCOLOR][NEWLINE]Receive 1 or more [COLOR_POSITIVE_TEXT]Additional[ENDCOLOR] [ICON_SPY] Spies (based on number of [ICON_CITY_STATE] City-States in game). +1 of every Strategic Resource for every three City-State Alliances you maintain. Earn [ICON_DIPLOMAT] Great Diplomats 50% faster, and gain +50% Rewards from City-State Quests.'
+SET Text = '[COLOR_POSITIVE_TEXT]외교국[ENDCOLOR][NEWLINE]추가 [ICON_SPY][COLOR_POSITIVE_TEXT]스파이[ENDCOLOR]를 1명 또는 그 이상 ([ICON_CITY_STATE]도시 국가 수에 기반) 제공합니다. 동맹인 [ICON_CITY_STATE]도시 국가 3개마다 모든 전략 자원을 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR] 제공합니다. 위대한 외교관 출현율이 50% 증가하고 도시 국가의 퀘스트 보상이 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_POLICY_PHILANTHROPY_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]Exchange Markets[ENDCOLOR][NEWLINE]Resources from City-States count towards Global Monopolies. +1 [ICON_INTERNATIONAL_TRADE] Trade Route, and +1 [ICON_HAPPINESS_1] Happiness for every active [ICON_INTERNATIONAL_TRADE] Trade Route. The [ICON_TOURISM] Tourism modifier for [COLOR_POSITIVE_TEXT]Trade Routes[ENDCOLOR] is increased by 15%.'
+SET Text = '[COLOR_POSITIVE_TEXT]외환 시장[ENDCOLOR][NEWLINE]도시 국가가 제공하는 자원이 독점에 계산 됩니다. 추가 [ICON_INTERNATIONAL_TRADE]교역로를 1개 제공하고 활성화된 교역로 1개마다 [ICON_HAPPINESS_1]행복이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 교역로에서 오는 [ICON_TOURISM]관광이 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_POLICY_CULTURAL_DIPLOMACY_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 UPDATE Language_ko_KR
-SET Text = '{1_CityStateName:textkey}{1: plural 1?과; 2?와;} [COLOR_POSITIVE_TEXT]동맹[ENDCOLOR]이 되었습니다. 매 턴 [ICON_INFLUENCE]영향력이 {2_Num}만큼 변화합니다. 만약 당신의 문명이 [COLOR_POSITIVE_TEXT]보호 선언[ENDCOLOR]을 한 상태에서 {1_CityStateName:textkey}{1: plural 1?이; 2?가;} 피해를 받고 있다면 이 수치는 3배 빨리 떨어질 것입니다.'
+SET Text = '{1_CityStateName:textkey}{1: plural 1?과; 2?와;} [COLOR_POSITIVE_TEXT]동맹[ENDCOLOR]이 되었습니다. 매 턴 [ICON_INFLUENCE]영향력이 {2_Num} 변화합니다. 만약 당신의 문명이 [COLOR_POSITIVE_TEXT]보호 선언[ENDCOLOR]을 한 상태에서 {1_CityStateName:textkey}{1: plural 1?이; 2?가;} 피해를 받고 있다면 이 수치는 세 배 빨리 떨어질 것입니다.'
 WHERE Tag = 'TXT_KEY_ALLIES_CSTATE_TT';
 
 UPDATE Language_ko_KR
-SET Text = '매 턴 당신의 [ICON_INFLUENCE] 영향력이 {1_InfluenceRate}만큼 변화합니다. (초기화: {2_InfluenceAnchor}) 만약  당신의 문명이 [COLOR_POSITIVE_TEXT]보호 선언[ENDCOLOR]을 한 상태에서 그들의 수도가 피해를 받고있다면 이 수치는 3배 빨리 떨어질 것입니다.'
+SET Text = '매 턴 당신의 [ICON_INFLUENCE] 영향력이 {1_InfluenceRate} 변화합니다. (초기화: {2_InfluenceAnchor}) 만약 당신의 문명이 [COLOR_POSITIVE_TEXT]보호 선언[ENDCOLOR]을 한 상태에서 그들의 수도가 피해를 받고있다면 이 수치는 3배 빨리 떨어질 것입니다.'
 WHERE Tag = 'TXT_KEY_CSTATE_INFLUENCE_RATE';
 
 -- Policy Changes
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]외교[ENDCOLOR] improves your ability to benefit from [ICON_INTERNATIONAL_TRADE] Trade Routes, [ICON_CITY_STATE] City-States, [ICON_SPY] Spies, and [ICON_DIPLOMAT] the World Congress.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Adopting Statecraft grants:[ENDCOLOR][NEWLINE][ICON_BULLET] +1 of every Yield in [ICON_CAPITAL] Capital for every 20 [ICON_CITIZEN] Citizens in your Empire.[NEWLINE][ICON_BULLET] +1 [ICON_GOLD] Gold in every City.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Each Statecraft policy unlocked grants:[ENDCOLOR] [NEWLINE][ICON_BULLET] +1 [ICON_GOLD] Gold in every City, and +10% [ICON_INFLUENCE] Influence from Trade Missions.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Adopting all policies in Statecraft grants:[ENDCOLOR][NEWLINE][ICON_BULLET] Unlocks building the [COLOR_POSITIVE_TEXT]Palace of Westminster[ENDCOLOR].[NEWLINE][ICON_BULLET] Every World Congress Session, gain [ICON_CULTURE] Culture, [ICON_RESEARCH] Science, and [ICON_GOLD] Gold based on the number of [ICON_DIPLOMAT] Delegates you control, scaling with Era.[NEWLINE][ICON_BULLET] World Wonders require 1 less unlocked Policy for every 3 City-State alliances you maintain.[NEWLINE] [ICON_BULLET] Allows for the purchase of [ICON_DIPLOMAT] Great Diplomats with [ICON_PEACE] Faith starting in the Industrial Era.'
+SET Text = '[COLOR_POSITIVE_TEXT]외교[ENDCOLOR]는 [ICON_INTERNATIONAL_TRADE]교역로, [ICON_CITY_STATE]도시 국가, [ICON_SPY]스파이, [ICON_DIPLOMAT]세계 대회에서 오는 보너스를 극대화하는 능력을 향상시킵니다.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]정책 개방 보너스:[ENDCOLOR][NEWLINE][ICON_BULLET] 전역 [ICON_CITIZEN]시민 20명마다 [ICON_CAPITAL]수도의 모든 산출량 +1[NEWLINE][ICON_BULLET] 모든 도시의 [ICON_GOLD]골드 +1[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]각 정책 채택 보너스:[ENDCOLOR][NEWLINE][ICON_BULLET] 무역 임무의 영향력 +10%[NEWLINE][ICON_BULLET] 모든 도시의 [ICON_GOLD]골드 +1[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]계열 완성 보너스:[ENDCOLOR][NEWLINE][ICON_BULLET] [COLOR_YELLOW]웨스트민스터 궁전[ENDCOLOR] 불가사의 건설 가능[NEWLINE][ICON_BULLET] 세계 대회가 열릴 때마다 확보한 [ICON_DIPLOMAT]대표단 수에 기반한 [ICON_CULTURE]문화, [ICON_RESEARCH]과학, [ICON_GOLD]골드 제공 (시대별 보정)[NEWLINE][ICON_BULLET] 동맹인 [ICON_CITY_STATE]도시 국가 3개마다 불가사의 건설에 필요한 정책 수 -1[NEWLINE] [ICON_BULLET] 산업 시대 이후 [ICON_PEACE]신앙으로 [ICON_DIPLOMAT]위대한 외교관 구매 가능'
 WHERE Tag = 'TXT_KEY_POLICY_BRANCH_PATRONAGE_HELP';

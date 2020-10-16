@@ -52,7 +52,7 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_NAVAL_DEFENSE_BOOST">
-			<Text>철기대</Text> <Plurality>2</Plurality>
+			<Text>철갑선</Text> <Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_NAVAL_DEFENSE_BOOST_HELP">
 			<Text>[ICON_STRENGTH] Combat Strength increases from taking damage (Tenacity).</Text>

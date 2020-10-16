@@ -8,7 +8,7 @@
 		</Row>
 		<!--Diplo Promotion Titles-->
 		<Row Tag="TXT_KEY_PROMOTION_EMISSARY">
-			<Text>착수</Text>	  <Plurality>2</Plurality>
+			<Text>개시</Text>	  <Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_ENVOY">
 			<Text>능숙</Text>

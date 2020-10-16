@@ -6122,7 +6122,7 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_TOURISM_EVENT_SUMMARY">
-			<Text>역사적 이벤트</Text>
+			<Text>역사적 사건</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TOURISM_EVENT_ERA">
 			<Text>당신의 문명이 새로운 [ICON_RESEARCH]시대에 진입하여 당신이 만난 모든 문명에 대한 [ICON_TOURISM]관광이 {1_Num} 증가했습니다.</Text>
@@ -6151,25 +6151,25 @@
 			<Text>셰헤라자데의 이야기들이 전 세계의 지성들을 당신의 땅으로 끌어들였습니다. [ICON_CAPITAL]수도의 [ICON_CULTURE]문화와 [ICON_RESEARCH]과학이 1 증가하며, [ICON_GREAT_PEOPLE]위인 점수가 {1_Num} 증가합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TOURISM_EVENT_GP_BONUS_SCIENTIST">
-			<Text>이상한 짐승과 유물들에 대한 설화와 전설들이 현자들을 당신의 땅으로 끌어들였습니다. [ICON_CAPITAL]수도의 [ICON_CULTURE]문화와 [ICON_RESEARCH]과학이 1 증가하며, [ICON_GREAT_SCIENTIST]위대한 과학자의 탄생 진행도가 {1_Num} 증가합니다.</Text>
+			<Text>이상한 짐승과 유물들에 대한 설화와 전설들이 현자들을 당신의 땅으로 끌어들였습니다. [ICON_CAPITAL]수도의 [ICON_CULTURE]문화와 [ICON_RESEARCH]과학이 1 증가하며, [ICON_GREAT_SCIENTIST]위대한 과학자 출현율이 {1_Num} 증가합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TOURISM_EVENT_GP_BONUS_WRITER">
-			<Text>셰헤라자데의 이야기들이 최고의 작가들의 탄생을 고무시켰습니다. [ICON_CAPITAL]수도의 [ICON_CULTURE]문화와 [ICON_RESEARCH]과학이 1 증가하며, [ICON_GREAT_WRITER]위대한 작가의 탄생 진행도가 {1_Num} 증가합니다.</Text>
+			<Text>셰헤라자데의 이야기들이 최고의 작가들의 탄생을 고무시켰습니다. [ICON_CAPITAL]수도의 [ICON_CULTURE]문화와 [ICON_RESEARCH]과학이 1 증가하며, [ICON_GREAT_WRITER]위대한 작가 출현율이 {1_Num} 증가합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TOURISM_EVENT_GP_BONUS_ARTIST">
-			<Text>전 세계의 화가들이 셰헤라자데의 이야기들을 재현하기 위해 당신의 땅을 방문했습니다. [ICON_CAPITAL]수도의 [ICON_CULTURE]문화와 [ICON_RESEARCH]과학이 1 증가하며, [ICON_GREAT_ARTIST]위대한 예술가의 탄생 진행도가 {1_Num} 증가합니다.</Text>
+			<Text>전 세계의 화가들이 셰헤라자데의 이야기들을 재현하기 위해 당신의 땅을 방문했습니다. [ICON_CAPITAL]수도의 [ICON_CULTURE]문화와 [ICON_RESEARCH]과학이 1 증가하며, [ICON_GREAT_ARTIST]위대한 예술가 출현율이 {1_Num} 증가합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TOURISM_EVENT_GP_BONUS_MUSICIAN">
-			<Text>셰헤라자데의 시가 당신의 문명을 음악의 르네상스로 이끌었습니다. [ICON_CAPITAL]수도의 [ICON_CULTURE]문화와 [ICON_RESEARCH]과학이 1 증가하며, [ICON_GREAT_MUSICIAN]위대한 음악가의 탄생 진행도가 {1_Num} 증가합니다.</Text>
+			<Text>셰헤라자데의 시가 당신의 문명을 음악의 르네상스로 이끌었습니다. [ICON_CAPITAL]수도의 [ICON_CULTURE]문화와 [ICON_RESEARCH]과학이 1 증가하며, [ICON_GREAT_MUSICIAN]위대한 음악가 출현율이 {1_Num} 증가합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TOURISM_EVENT_GP_BONUS_MERCHANT">
-			<Text>강력하고 부유한 자들이 셰헤라자데의 이야기들을 듣고 당신의 궁전에 모여들었습니다. [ICON_CAPITAL]수도의 [ICON_CULTURE]문화와 [ICON_RESEARCH]과학이 1 증가하며, [ICON_GREAT_MERCHANT]위대한 상인의 탄생 진행도가 {1_Num} 증가합니다.</Text>
+			<Text>강력하고 부유한 자들이 셰헤라자데의 이야기들을 듣고 당신의 궁전에 모여들었습니다. [ICON_CAPITAL]수도의 [ICON_CULTURE]문화와 [ICON_RESEARCH]과학이 1 증가하며, [ICON_GREAT_MERCHANT]위대한 상인 출현율이 {1_Num} 증가합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TOURISM_EVENT_GP_BONUS_ENGINEER">
-			<Text>건축가 및 공학자들이 셰헤라자데의 이야기에 나오는 전설적인 영웅들에게서 영감을 얻었습니다. [ICON_CAPITAL]수도의 [ICON_CULTURE]문화와 [ICON_RESEARCH]과학이 1 증가하며, [ICON_GREAT_ENGINEER]위대한 기술자 점수의 탄생 진행도가 {1_Num} 증가합니다.</Text>
+			<Text>건축가 및 공학자들이 셰헤라자데의 이야기에 나오는 전설적인 영웅들에게서 영감을 얻었습니다. [ICON_CAPITAL]수도의 [ICON_CULTURE]문화와 [ICON_RESEARCH]과학이 1 증가하며, [ICON_GREAT_ENGINEER]위대한 기술자 출현율이 {1_Num} 증가합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TOURISM_EVENT_GP_BONUS_DIPLOMAT">
-			<Text>전 세계의 궁정위원들이 당신과 셰헤라자데의 청중이 되길 간청합니다. [ICON_CAPITAL]수도의 [ICON_CULTURE]문화와 [ICON_RESEARCH]과학이 1 증가하며, [ICON_GREAT_DIPLOMAT]위대한 외교관의 탄생 진행도가 {1_Num} 증가합니다.</Text>
+			<Text>전 세계의 궁정위원들이 당신과 셰헤라자데의 청중이 되길 간청합니다. [ICON_CAPITAL]수도의 [ICON_CULTURE]문화와 [ICON_RESEARCH]과학이 1 증가하며, [ICON_GREAT_DIPLOMAT]위대한 외교관 출현율이 {1_Num} 증가합니다.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_TOURISM_EVENT_SUMMARY_GP_BONUS">

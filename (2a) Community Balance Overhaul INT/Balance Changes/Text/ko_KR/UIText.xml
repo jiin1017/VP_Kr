@@ -3,13 +3,13 @@
 <GameData>
 	<Language_ko_KR>
 		<Row Tag="TXT_KEY_HISTORIC_EVENT">
-			<Text>역사적 이벤트</Text>
+			<Text>역사적 사건</Text>
 		</Row>
 		<Row Tag="TXT_KEY_HISTORIC_EVENT_BODY">
-			<Text>역사적 이벤트 represent monumental achievements that may occur during a game. These events require planning or user interaction, and are thus a dynamic part of acquiring cultural influence over other civilizations. When one of the following Historic Events is completed, receive a [ICON_TOURISM] Tourism boost with all known Civs based on your recent [ICON_CULTURE] Culture and [ICON_TOURISM] Tourism output:[NEWLINE][NEWLINE][ICON_BULLET] Earn a [ICON_GREAT_PEOPLE] Great Person[NEWLINE][ICON_BULLET] Build a [ICON_GOLDEN_AGE] World Wonder[NEWLINE][ICON_BULLET] Win a [ICON_WAR] War (Warscore 25+)[NEWLINE][ICON_BULLET] Enter a new [ICON_RESEARCH] Era[NEWLINE][ICON_BULLET] Start a [ICON_GOLDEN_AGE] Golden Age ('Heritage' Policy only)[NEWLINE][ICON_BULLET] Complete an [ICON_RES_ARTIFACTS] Archaeological Dig ('Heritage' Policy only)[NEWLINE][ICON_BULLET] Trade with a [ICON_CITY_STATE] City-State ('Cultural Diplomacy' Policy Only)[NEWLINE][NEWLINE]The amount of Tourism received by these events is based on your culture and tourism per turn over the past few turns. The value of this is also adjusted based on the number of cities in your empire and your tourism modifier with the target civ. Finally, the amount of tourism you receive is also modified by a few social policies and ideological tenets, as well as leader traits, buildings, and the number of cities in your empire.</Text>
+			<Text>역사적 사건 represent monumental achievements that may occur during a game. These events require planning or user interaction, and are thus a dynamic part of acquiring cultural influence over other civilizations. When one of the following Historic Events is completed, receive a [ICON_TOURISM] Tourism boost with all known Civs based on your recent [ICON_CULTURE] Culture and [ICON_TOURISM] Tourism output:[NEWLINE][NEWLINE][ICON_BULLET] Earn a [ICON_GREAT_PEOPLE] Great Person[NEWLINE][ICON_BULLET] Build a [ICON_GOLDEN_AGE] World Wonder[NEWLINE][ICON_BULLET] Win a [ICON_WAR] War (Warscore 25+)[NEWLINE][ICON_BULLET] Enter a new [ICON_RESEARCH] Era[NEWLINE][ICON_BULLET] Start a [ICON_GOLDEN_AGE] Golden Age ('Heritage' Policy only)[NEWLINE][ICON_BULLET] Complete an [ICON_RES_ARTIFACTS] Archaeological Dig ('Heritage' Policy only)[NEWLINE][ICON_BULLET] Trade with a [ICON_CITY_STATE] City-State ('Cultural Diplomacy' Policy Only)[NEWLINE][NEWLINE]The amount of Tourism received by these events is based on your culture and tourism per turn over the past few turns. The value of this is also adjusted based on the number of cities in your empire and your tourism modifier with the target civ. Finally, the amount of tourism you receive is also modified by a few social policies and ideological tenets, as well as leader traits, buildings, and the number of cities in your empire.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_HISTORIC_EVENT_QUEST">
-			<Text>역사적 이벤트가 무엇입니까?</Text>
+			<Text>역사적 사건이 무엇입니까?</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CONCEPT_RESISTANCE">
 			<Text>저항</Text>
@@ -210,7 +210,7 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_TOP_PANEL_TOURISM_TOOLTIP_CONQUEST_WARNING">
-			<Text>소유한 도시 중 [ICON_PUPPET]괴뢰 도시가 아닌 도시마다 도시 및 역사적 이벤트에서 오는 [ICON_TOURISM]관광이 {1_Num}% 감소합니다. (최대 75%)</Text>
+			<Text>소유한 도시 중 [ICON_PUPPET]괴뢰 도시가 아닌 도시마다 도시 및 역사적 사건에서 오는 [ICON_TOURISM]관광이 {1_Num}% 감소합니다. (최대 75%)</Text>
 		</Row>
 		
 		<!-- City-State Protection Prompt -->
@@ -409,7 +409,7 @@
 		</Row>
 	
 		<Row Tag="TXT_KEY_EUPANEL_ATTACK_CS_ALLIANCE_STRENGTH">
-			<Text>헬레닉 리그</Text>
+			<Text>그리스 동맹</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_MISC_YOU_ENEMY_UNITS_DEFECT">
@@ -629,7 +629,7 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_NOTIFICATION_FRIENDLY_PARTISANS_NEAR_RAZING_CITY">
-			<Text>당신의 점령 도시가 불에타 먼지로 돌아갔기 때문에 {1_Name} 주변에 우호적인 반란군이 나타났습니다!</Text>
+			<Text>당신이 점령한 도시가 불에타 먼지로 돌아갔기 때문에 {1_Name} 주변에 우호적인 반란군이 나타났습니다!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_FRIENDLY_PARTISANS_NEAR_RAZING_CITY_S">
 			<Text>{1_Name} 주변 우호적인 반란군 출현!</Text>

@@ -104,7 +104,7 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_PRODMOD_UNIT_CORPORATION">
-			<Text>[NEWLINE][ICON_BULLET]기업 수치: {1_Num}%</Text>
+			<Text>[NEWLINE][ICON_BULLET]기업: {1_Num}%</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_CORPORATION_GREAT_PERSON_RATE_BENEFIT_DETAILS">
@@ -322,19 +322,19 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_PEDIA_CORP_GP_CHANGE">
-			<Text> +{1_Num}% 기업에서 오는 [ICON_GREAT_PEOPLE] 위인 출현율</Text>
+			<Text>Additional +{1_Num}% [ICON_GREAT_PEOPLE] Great Person Rate from Corporation</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PRODMOD_CORPORATION">
-			<Text>[NEWLINE][ICON_BULLET]당신 문명의 기업에서 오는 도시 수치: {1_Num}%</Text>
+			<Text>[NEWLINE][ICON_BULLET]City Modifier from your Corporation: {1_Num}%</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_YIELD_FROM_CORPORATIONS">
-			<Text>{1_Num} 기업에서 오는 {2_IconString}</Text>
+			<Text>{1_Num} {2_IconString} 기업에서</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_FOODMOD_CORPORATION">
-			<Text>[NEWLINE][ICON_BULLET][ICON_INVEST]기업 수치: {1_Num}%</Text>
+			<Text>[NEWLINE][ICON_BULLET][ICON_INVEST]기업: {1_Num}%</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_HAS_FRANCHISE_TT">
@@ -353,17 +353,17 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_CULTURE_FROM_CORPORATION">
-			<Text>+{1_Num}% 기업에서 오는 [ICON_CULTURE]</Text>
+			<Text>+{1_Num}% [ICON_CULTURE]기업에서</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CULTURE_FROM_CORPORATIONS">
-			<Text>+{1_Num} 기업에서 오는 [ICON_CULTURE]</Text>
+			<Text>+{1_Num} [ICON_CULTURE]기업에서</Text>
 		</Row>
 		<Row Tag="TXT_KEY_FAITH_FROM_CORPORATIONS">
-			<Text>+{1_Num} 기업에서 오는 [ICON_PEACE]</Text>
+			<Text>+{1_Num} [ICON_PEACE]기업에서</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_CO_PLAYER_TOURISM_FRANCHISES">
-			<Text>제국 전역의 기업 프랜차이즈 보너스 : +{1_Num}%[NEWLINE]</Text>
+			<Text>+{1_Num}% 제국 전역의 기업 프랜차이즈 보너스[NEWLINE]</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_TT_CORPORATION_MODIFIER_SCIENCE">
@@ -508,7 +508,7 @@
 		</Row>
 		<!-- 정책파트 -->
 		<Row Tag="TXT_KEY_POLICY_NATIONALIZATION_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]국유화[ENDCOLOR]: Each Corporate Office counts as a Franchise, and Corporate [ICON_INTERNATIONAL_TRADE] Trade Route bonuses to cities with Franchises are doubled. Foreign Franchises no longer benefit your Corporation, you can no longer construct Franchises in foreign Cities, and foreign Corporations can no longer set up Franchises in your Cities. +2 [ICON_RESEARCH] Science from all Corporation Offices.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]국유화[ENDCOLOR]: 각 기업 오피스가 프랜차이즈로 간주되며, 프랜차이즈를 설립한 도시의 기업 [ICON_INTERNATIONAL_TRADE]교역로 보너스가 [COLOR_POSITIVE_TEXT]두 배[ENDCOLOR] 증가합니다. 다른 문명의 프랜차이즈가 더이상 당신 문명의 회사에 혜택을 제공하지 않으며 당신의 문명은 더이상 다른 문명에 프랜차이즈를 설립할 수 없고 다른 문명의 기업 또한 당신의 도시에 프랜차이즈를 설립할 수 없습니다. 모든 기업 오피스의 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_POLICY_NATIONALIZATION">
 			<Text>국유화</Text>	  <Plurality>2</Plurality>
@@ -518,7 +518,7 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_POLICY_GLOBALIZATION_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]다국적주의[ENDCOLOR]: Each turn, increases the chance that a Corporate Franchise will appear in a foreign City to 15% (normally 5%). Global Franchise maximum increased by 25%. +2 [ICON_CULTURE] Culture from all Corporation Offices.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]다국적주의[ENDCOLOR]: 매 턴 다른 문명의 도시에 기업 프랜차이즈가 나타날 확률이 [COLOR_NEGATIVE_TEXT]5%[ENDCOLOR]에서 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR]로 증가합니다. 글로벌 프랜차이즈 한도가 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다. 모든 기업 오피스의 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_POLICY_GLOBALIZATION">
 			<Text>다국적주의</Text>	  <Plurality>2</Plurality>
@@ -528,7 +528,9 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_POLICY_INFILTRATION_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]신디칼리즘[ENDCOLOR]: Corporate Franchises count double in the Cities of Civilizations you are at least [COLOR_MAGENTA]Popular[ENDCOLOR] with, and this extra Franchise does not count against your Global Franchise maximum. Can establish 5 additional Franchises in foreign Cities. +2 [ICON_PRODUCTION] Production from all Corporation Offices.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]신디칼리즘[ENDCOLOR]: 
+			당신의 문명이 적어도 [COLOR_MAGENTA]유명한[ENDCOLOR] 도시에서는 기업 프랜차이즈가 두 배로 간주되고, 이러한 추가 프랜차이즈는 
+			글로벌 프랜차이즈 한도에 포함되지 않습니다. 다른 문명에 추가 프랜차이즈를 [COLOR_POSITIVE_TEXT]5개[ENDCOLOR] 더 건설할 수 있습니다. 모든 기업 오피스의 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_POLICY_INFILTRATION">
 			<Text>신디칼리즘</Text>

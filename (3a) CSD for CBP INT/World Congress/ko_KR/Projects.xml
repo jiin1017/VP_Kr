@@ -76,7 +76,7 @@
 			<Text>소장</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_WARGAMES_2_HELP">
-			<Text>다음 30턴 동안 모든 군사 유닛의  공격 보너스가 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다. 군사 유닛 [COLOR_POSITIVE_TEXT]4개[ENDCOLOR]의 유지비가 들지 않습니다.</Text>
+			<Text>다음 30턴 동안 모든 군사 유닛의 [ICON_STRENGTH]전투력 보너스가 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다. 군사 유닛 [COLOR_POSITIVE_TEXT]4개[ENDCOLOR]의 유지비가 들지 않습니다.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_WARGAMES_3">

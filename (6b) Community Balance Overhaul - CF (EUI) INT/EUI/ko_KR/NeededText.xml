@@ -30,7 +30,7 @@
 			<Text>전쟁 점수:</Text>
 		</Row>
 		<Row Tag="TXT_KEY_AT_WAR_WITH_CP">
-			<Text> [COLOR_NEGATIVE_TEXT]{1_enemy}와 전쟁 중[ENDCOLOR]</Text>
+			<Text> [COLOR_NEGATIVE_TEXT]{1_enemy}{1: plural 1?과; 2?와;} 전쟁 중[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITYVIEW_CORPSBUILDING_TEXT">
 			<Text>기업</Text>
@@ -39,7 +39,7 @@
 			<Text>{1_Num} 종교에서</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TP_HAPPINESS_CITY_LOCAL">
-			<Text>{1_Num} 지역 자원에서 (종교, 건물, etc).</Text>
+			<Text>{1_Num} 지역 원천 (종교, 건물 등)</Text>
 		</Row>
 
 	</Language_ko_KR>

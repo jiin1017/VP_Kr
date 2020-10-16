@@ -47,7 +47,7 @@ SET Text = '상비군 세금'
 WHERE Tag = 'TXT_KEY_RESOLUTION_STANDING_ARMY_TAX' AND EXISTS (SELECT * FROM CSD WHERE Type='IDEOLOGY_CSD' AND Value= 1 );
 
 UPDATE Language_ko_KR
-SET Text = '유닛 유지에 필요한 [ICON_GOLD]골드가 [COLOR_NEGATIVE_TEXT]25%[ENDCOLOR] 증가합니다. 도시를 점령하고 전쟁을 선포할 때의 [ICON_VICTORY_DOMINATION] 전쟁광 페널티가 크게 증가합니다. [ICON_VICTORY_DOMINATION] 전쟁광 점수의 감소가 평소보다 느려집니다.'
+SET Text = '유닛 유지에 필요한 [ICON_GOLD]골드가 [COLOR_NEGATIVE_TEXT]25%[ENDCOLOR] 증가합니다. 도시를 점령하고 전쟁을 선포할 때의 [ICON_VICTORY_DOMINATION]전쟁광 페널티가 크게 증가합니다. [ICON_VICTORY_DOMINATION] 전쟁광 점수의 감소가 평소보다 느려집니다.'
 WHERE Tag = 'TXT_KEY_RESOLUTION_STANDING_ARMY_TAX_HELP' AND EXISTS (SELECT * FROM CSD WHERE Type='IDEOLOGY_CSD' AND Value= 1 );
 
 UPDATE Language_ko_KR

@@ -27,7 +27,7 @@
 			<Text>[NEWLINE][ICON_BULLET]{1_NumVotes} 친선 관계 선언에서</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_DETAILS_RA_VOTES">
-			<Text>[NEWLINE][ICON_BULLET]{1_NumVotes} 연구 협약에서</Text>
+			<Text>[NEWLINE][ICON_BULLET]{1_NumVotes} 연구 협정에서</Text>
 		</Row>
 		
 		<!-- Tooltips for Resolutions -->
@@ -37,19 +37,19 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_MINOR_SCIENCE_FROM_LEAGUE_ALLIES">
-			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT]-{1_Num}%[ENDCOLOR] 다른 문명에 알려진 [ICON_RESEARCH] 기술에 대한 비용에서</Text>
+			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT]-{1_Num}%[ENDCOLOR] 다른 문명에 알려진 [ICON_RESEARCH]기술 비용에서</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_SCIENCE_FUNDING_FROM_LEAGUE">
-			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT]+{1_Num}%[ENDCOLOR] [ICON_RESEARCH] 결의안에서</Text>
+			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT]+{1_Num}%[ENDCOLOR] [ICON_RESEARCH]결의안에서</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_SCIENCE_YIELD_FROM_LEAGUE_ART">
-			<Text>{1_Num} [ICON_RESEARCH] 걸작에서</Text>
+			<Text>{1_Num} [ICON_RESEARCH]걸작에서</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_CULTURE_LEAGUE_MOD">
-			<Text>+{1_Num}% [ICON_CULTURE] 결의안에서</Text>
+			<Text>+{1_Num}% [ICON_CULTURE]결의안에서</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PRODMOD_LEAGUE">
