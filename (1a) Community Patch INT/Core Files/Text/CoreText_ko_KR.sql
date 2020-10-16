@@ -224,7 +224,7 @@ SET Text = '베니스의 상인이 막강한 자금력으로 도시 국가를 �
 WHERE Tag = 'TXT_KEY_MISSION_BUY_CITY_STATE_HELP';
 
 UPDATE Language_ko_KR
-SET Text = '베니스의 상인이 도시 국가를 구입했습니다!'
+SET Text = '베니스의 상인이 도시 국가를 구매했습니다!'
 WHERE Tag = 'TXT_KEY_VENETIAN_MERCHANT_BOUGHT_CITY_STATE';
 
 -- Bullying/Tribute
@@ -378,7 +378,7 @@ SET Text = '{1_ReligionName}의 창시자'
 WHERE Tag = 'TXT_KEY_RO_STATUS_FOUNDER';
 
 UPDATE Language_ko_KR
-SET Text = '대중 종교가 강화된 도시 어디에서나 [ICON_PEACE]신앙을 통해 구입할 수 있습니다. 당신의 도시에서 다른 종교를 제거할 수 있으며 (이단심문관 사용) 선교사와 선지자를 도시 또는 근처에 배치하여 다른 종교가 전파되는 것을 막을 수 있습니다.'
+SET Text = '대중 종교가 강화된 도시 어디에서나 [ICON_PEACE]신앙을 통해 구매할 수 있습니다. 당신의 도시에서 다른 종교를 제거할 수 있으며 (이단심문관 사용) 선교사와 선지자를 도시 또는 근처에 배치하여 다른 종교가 전파되는 것을 막을 수 있습니다.'
 WHERE Tag = 'TXT_KEY_UNIT_INQUISITOR_STRATEGY';
 
 

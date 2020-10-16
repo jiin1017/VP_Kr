@@ -2689,7 +2689,7 @@
 			<Text>{1_Num}턴 동안 그들과 가까운 곳에 도시를 개척하지 않기로 약속했습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DIPLO_BORDER_PROMISE_TURNS">
-			<Text>{1_Num}턴 동안 그들과 가까운 영토를 구입하지 않기로 약속했습니다.</Text>
+			<Text>{1_Num}턴 동안 그들과 가까운 영토를 구매하지 않기로 약속했습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DIPLO_AI_MILITARY_PROMISE_TURNS">
 			<Text>{1_Num}턴 동안 그들이 당신에게 전쟁을 선포하지 않기로 약속했습니다.</Text>
@@ -2851,7 +2851,7 @@
 			<Text>[NEWLINE]보급 한도 때문에 이 유닛을 [ICON_PRODUCTION]생산할 수 없습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NO_ACTION_NO_SUPPLY_PURCHASE">
-			<Text>[NEWLINE]보급 한도 때문에 이 유닛을 [ICON_GOLD]구입할 수 없습니다.</Text>
+			<Text>[NEWLINE]보급 한도 때문에 이 유닛을 [ICON_GOLD]구매할 수 없습니다.</Text>
 		</Row>
 		
 		<!-- Lack of gross resource (before deductions) -->
@@ -5496,13 +5496,13 @@
 
 		<!-- tooltip for purchase cooldown -->
 		<Row Tag="TXT_KEY_COOLDOWN_X_TURNS_REMAINING">
-			<Text>[NEWLINE]최근 이 도시에서 [ICON_GOLD]골드으로 구입한 적이 있기 때문에 다시 구입하려면 {1_Num}턴 동안 기다려야 합니다.</Text>
+			<Text>[NEWLINE]최근 이 도시에서 [ICON_GOLD]골드으로 구매한 적이 있기 때문에 다시 구매하려면 {1_Num}턴 동안 기다려야 합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_COOLDOWN_X_TURNS_REMAINING_FAITH">
-			<Text>[NEWLINE]최근 [ICON_GREAT_PEOPLE]위인을 [ICON_PEACE]신앙으로 구입한 적이 있기 때문에 다시 구입하려면 {1_Num}턴 동안 기다려야 합니다.</Text>
+			<Text>[NEWLINE]최근 [ICON_GREAT_PEOPLE]위인을 [ICON_PEACE]신앙으로 구매한 적이 있기 때문에 다시 구매하려면 {1_Num}턴 동안 기다려야 합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_COOLDOWN_X_TURNS_REMAINING_FAITH_LOCAL">
-			<Text>[NEWLINE]최근 이 도시에서 [ICON_PEACE]신앙으로 구입한 적이 있기 떄문에 다시 구입하려면 {1_Num}턴 동안 기다려야 합니다.</Text>
+			<Text>[NEWLINE]최근 이 도시에서 [ICON_PEACE]신앙으로 구매한 적이 있기 떄문에 다시 구매하려면 {1_Num}턴 동안 기다려야 합니다.</Text>
 		</Row>
 
 		<!-- Tooltips for CBP Austria Ability -->
@@ -6864,10 +6864,10 @@
 			<Text>[ICON_PRODUCTION]군사 유닛 생산:[NEWLINE]{1_YieldString}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_PURCHASE">
-			<Text>[ICON_GOLD]유닛 또는 건물 구입:[NEWLINE]{1_YieldString}</Text>
+			<Text>[ICON_GOLD]유닛 또는 건물 구매:[NEWLINE]{1_YieldString}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_TILE_PURCHASE">
-			<Text>[ICON_GOLD]타일 구입:[NEWLINE]{1_YieldString}</Text>
+			<Text>[ICON_GOLD]타일 구매:[NEWLINE]{1_YieldString}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_FOUND">
 			<Text>[ICON_GOLDEN_AGE]도시 개척:[NEWLINE]{1_YieldString}</Text>
@@ -6921,7 +6921,7 @@
 			<Text>[ICON_INQUISITOR]이단 제거:[NEWLINE]{1_YieldString}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_FAITH_PURCHASE">
-			<Text>[ICON_PEACE]신앙으로 구입:[NEWLINE]{1_YieldString}</Text>
+			<Text>[ICON_PEACE]신앙으로 구매:[NEWLINE]{1_YieldString}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_PROMOTION_OBTAINED">
 			<Text>[ICON_STRENGTH]승급 부여:[NEWLINE]{1_YieldString}</Text>
@@ -7100,7 +7100,7 @@
 			<Text>[NEWLINE]이 유닛에 이미 [ICON_GOLD]골드를 투자했습니다. 이 유닛의 [ICON_PRODUCTION]생산 비용이 {1_Num}% 감소했습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NO_ACTION_UNIT_REQUIRES_BUILDING_PURCHASE">
-			<Text>[NEWLINE]도시에 {1_BuildingType}{1: plural 1?을; 2?를;} 건설해야 이 유닛을 [ICON_GOLD]구입할 수 있습니다.</Text>
+			<Text>[NEWLINE]도시에 {1_BuildingType}{1: plural 1?을; 2?를;} 건설해야 이 유닛을 [ICON_GOLD]구매할 수 있습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_INVESTMENT_BUILDING">
 			<Text>[COLOR_POSITIVE_TEXT][ICON_GOLD]골드를 건물에 투자하면 해당 건물의 [ICON_PRODUCTION]생산 비용이 {1_Num}% 감소하고, 불가사의에 투자하면 해당 불가사의의 생산 비용이 {2_Num}% 감소합니다.[ENDCOLOR]</Text>

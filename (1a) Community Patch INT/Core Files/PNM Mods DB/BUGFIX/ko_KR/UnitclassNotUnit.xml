@@ -12,7 +12,7 @@
 			<Text>{1_UNITCLASS_PROPHET}를 위해 모으기 </Text>
 		</Row>
 		<Row Tag="TXT_KEY_RO_AUTO_FAITH_PURCHASE_PROPHET_PARAM">
-			<Text>{1_UNITCLASS_PROPHET} 구입</Text>
+			<Text>{1_UNITCLASS_PROPHET} 구매</Text>
 		</Row>
 	</Language_ko_KR>
 </GameData>

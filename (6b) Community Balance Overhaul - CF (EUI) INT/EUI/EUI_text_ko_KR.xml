@@ -8,7 +8,7 @@
 		</Row>
         <!-- UNIT attributes -->
 		<Row Tag="TXT_KEY_EUI_UNIT_MOVEAFTERPURCHASE">
-			<Text>구입 후 이동 가능</Text>
+			<Text>구매 후 이동 가능</Text>
 		</Row>
 		<!--Row Tag="TXT_KEY_EUI_UNIT_IMMOBILE">
 			<Text>움직일 수 없음</Text>
@@ -329,10 +329,10 @@
 			<Text>모든 도시의 국경 확장에 필요한 문화: {1}%[ICON_CULTURE]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EUI_BUILDING_PLOTBUYCOSTMODIFIER">
-			<Text>새로운 영토 구입 비용: {1}%[ICON_GOLD]</Text>
+			<Text>새로운 영토 구매 비용: {1}%[ICON_GOLD]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EUI_BUILDING_GLOBALPLOTBUYCOSTMODIFIER">
-			<Text>모든 도시의 새로운 영토 구입 비용: {1}%[ICON_GOLD]</Text>
+			<Text>모든 도시의 새로운 영토 구매 비용: {1}%[ICON_GOLD]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EUI_BUILDING_GLOBALPOPULATIONCHANGE">
 			<Text>모든 도시의 시민: {1}[ICON_CITIZEN]</Text>

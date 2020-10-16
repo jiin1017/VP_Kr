@@ -114,10 +114,10 @@
 			<Text>우리는 서로 세계 지도를 교환하여 세계의 비밀을 풀어야 합니다. 어떻게 생각하십니까?</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GENERIC_MAPS_OFFER">
-			<Text>당신에게서 세계 지도를 구입하고 싶습니다.</Text>
+			<Text>당신에게서 세계 지도를 구매하고 싶습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GENERIC_TECH_OFFER">
-			<Text>당신으로부터 기술을 구입하고 싶습니다.</Text>
+			<Text>당신으로부터 기술을 구매하고 싶습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GENERIC_GENEROUS_OFFER_1">
 			<Text>친구여, 이것을 우리의 우정을 위한 감사의 증표로 받아들여주십시오.</Text>
