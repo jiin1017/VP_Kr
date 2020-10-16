@@ -429,7 +429,7 @@
 			<Text>사업가들이 당신의 정부에 접근하여 공장과의 협력 사업을 허용해달라고 요청했습니다. 5건의 협력 제의가 있었고 정부의 조치가 필요합니다. 어떻게 하길 원합니까?</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_FACTORY_PARTNERSHIP_CHOICE_1">
-			<Text>호화로운 옷감을 생산하자.</Text>
+			<Text>탁월로운 옷감을 생산하자.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_FACTORY_PARTNERSHIP_CHOICE_1_HELP">
 			<Text>모든 공장에서 [ICON_CULTURE]문화 +2.</Text>
