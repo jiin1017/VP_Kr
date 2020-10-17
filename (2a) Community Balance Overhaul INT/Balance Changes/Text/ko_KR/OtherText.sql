@@ -1,29 +1,30 @@
 -- No Barbarians Game Option Change
 UPDATE Language_ko_KR
-SET Text = 'Barbarians and their Encampments do not appear on the map. Rebel (barbarian) uprisings from [ICON_HAPPINESS_4] Unhappiness do not occur.'
+SET Text = '야만인과 야만인 주둔지가 지도에 드러나지 않습니다. [ICON_HAPPINESS_4]불행으로부터 야만인 반란이 발생하지 않습니다.'
 WHERE Tag = 'TXT_KEY_GAME_OPTION_NO_BARBARIANS_HELP';
 
 -- Tooltip fix for Open Borders
 UPDATE Language_ko_KR
-SET Text = 'Allows the other player''s military or civilian Units to pass through one''s territory (lasts {1_Num} turns).[NEWLINE][NEWLINE]Allowing another civilization to pass through one''s own territory increases the [ICON_TOURISM] Tourism modifier towards that civilization.[NEWLINE][NEWLINE]Note: Military Units belonging to different players may never stack.'
+SET Text = '
+다른 문명의 군사 유닛이나 민간 유닛이 당신의 영토를 [COLOR_POSITIVE_TEXT]{1_Num}턴[ENDCOLOR] 동안 자유롭게 드나들 수 있도록 허락합니다.[NEWLINE][NEWLINE]다른 문명이 당신 문명의 영역을 통과하도록 허용하면 해당 문명에 대한 [ICON_TOURISM]관광 수치가 증가합니다.[NEWLINE][NEWLINE]참고 : 당신의 군사 유닛은 다른 문명의 유닛이 차지하고 있는 타일로 이동할 수 없습니다.'
 WHERE Tag = 'TXT_KEY_DIPLO_OPEN_BORDERS_TT';
 
 UPDATE Language_ko_KR
-SET Text = '[ICON_TOURISM] Tourism increases by 50% for 20 Turns.  Free Social Policy.'
+SET Text = '[COLOR_POSITIVE_TEXT]20턴[ENDCOLOR] 동안 [ICON_TOURISM]관광이 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 증가합니다. [COLOR_MAGENTA]무료 정책[ENDCOLOR]을 제공합니다.'
 WHERE Tag = 'TXT_KEY_LEAGUE_PROJECT_REWARD_WORLD_GAMES_3_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
 	
 UPDATE Language_ko_KR
-SET Text = '[ICON_CULTURE] Culture increases by 33% for 20 Turns.'
+SET Text = '20턴 동안 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]33%[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_LEAGUE_PROJECT_REWARD_WORLD_FAIR_3_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
 
 -- CS Text Change
 UPDATE Language_ko_KR
-SET Text = 'Giving Heavy Tribute'
+SET Text = '대량의 공물을 줌'
 WHERE Tag = 'TXT_KEY_POP_CSTATE_BULLY_FACTOR_UNIT_RELUCTANCE' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
 
 -- Aesthetics Change
 UPDATE Language_ko_KR
-SET Text = 'When improved with an Archaeological Dig, a Hidden Antiquity Site can then yield an Artifact that can be placed in a Great Work of Art slot, or be transformed into a Landmark improvement. Hidden Antiquity Sites are only visible to civs that have all the policies in the Artistry policy tree.'
+SET Text = '고고학 발굴 현장을 건설하면 숨은 사적지에서 걸작 예술품 슬롯에 추가할 수 있는 유물을 발견하거나 고고학 발굴 현장을 랜드마크 시설로 바꿀 수 있습니다. 숨은 사적지는 미학 정책 계열을 완성한 문명만이 발견할 수 있습니다.'
 WHERE Tag = 'TXT_KEY_RESOURCE_HIDDEN_ARTIFACTS_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
 
 -- Help Text Changes
@@ -34,20 +35,20 @@ WHERE Tag = 'TXT_KEY_CULTURE_TOURISM_HEADING2_BODY' AND EXISTS (SELECT * FROM CO
 -- Capture Popup
 
 UPDATE Language_ko_KR	
-SET Text = '[COLOR_POSITIVE_TEXT]Puppeting[ENDCOLOR] causes the following:[NEWLINE][ICON_BULLET] Generates 80% less Gold, Science, Culture, Tourism, and Faith than a normal city.[NEWLINE][ICON_BULLET] No longer produces Great Person Points.[NEWLINE][ICON_BULLET] You [COLOR_POSITIVE_TEXT]cannot choose what it produces[ENDCOLOR] or spend Gold in the City.[NEWLINE][ICON_BULLET] Generates 1 [ICON_HAPPINESS_3] Unhappiness for every 4 [ICON_CITIZEN] Citizens in the City.[NEWLINE][ICON_BULLET] Does not increase the cost of Social Policies, Technologies, or Tourism.[NEWLINE][NEWLINE]If you choose this, you may later Annex the City at any point.'
+SET Text = '도시를 [COLOR_POSITIVE_TEXT]괴뢰 정부[ENDCOLOR]로 전환하면 :[NEWLINE][ICON_BULLET] 일반 도시보다 골드, 과학, 문화, 관광, 신앙을 80% 덜 산출합니다.[NEWLINE][ICON_BULLET] 더이상 위인 점수를 제공하지 않습니다.[NEWLINE][ICON_BULLET] 도시에서 [COLOR_POSITIVE_TEXT]무엇을 생산할지 선택할 수 없고[ENDCOLOR], 골드를 소비할 수 없습니다.[NEWLINE][ICON_BULLET] 도시의 [ICON_CITIZEN]시민 4명마다 [ICON_HAPPINESS_3]불행이 1 증가합니다.[NEWLINE][ICON_BULLET] 사회 정책 및 기술 비용, 관광을 증가시키지 않습니다.[NEWLINE][NEWLINE][ICON_PUPPET]괴뢰정부를 선택하더라도 원하는 때에 도시를 합병할 수 있습니다.'
 WHERE Tag = 'TXT_KEY_POPUP_CITY_CAPTURE_INFO_PUPPET' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
 
 UPDATE Language_ko_KR	
-SET Text = '[COLOR_POSITIVE_TEXT]Annexing[ENDCOLOR] causes the following:[NEWLINE][ICON_BULLET] Produces [ICON_HAPPINESS_4] Unhappiness equal to the City''s [ICON_CITIZEN] Population (until you construct a Courthouse).[NEWLINE][ICON_BULLET] Invests in a Courthouse in the City, reducing its construction time by at least 50% (if annexed immediately after conquest).[NEWLINE][ICON_BULLET] Halves City [ICON_RESISTANCE] Resistance after capture (if annexed immediately after conquest).'
+SET Text = '도시를 [COLOR_POSITIVE_TEXT]합병[ENDCOLOR] 하면 :[NEWLINE][ICON_BULLET] 도시의 [ICON_CITIZEN]시민 수만큼 [ICON_HAPPINESS_4]불행을 생성합니다. (법원을 건설할 때 까지)[NEWLINE][ICON_BULLET] 법원 건설시 건설 시간이 50% 감소합니다. (정복 후 즉시 합병 시)[NEWLINE][ICON_BULLET] 점령 후 [ICON_RESISTANCE]저항이 반으로 감소합니다. (정복 후 즉시 합병 시)'
 WHERE Tag = 'TXT_KEY_POPUP_CITY_CAPTURE_INFO_ANNEX' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
 
 UPDATE Language_ko_KR	
-SET Text = '[COLOR_POSITIVE_TEXT]Razing[ENDCOLOR] causes the following:[NEWLINE][ICON_BULLET] City loses [ICON_CITIZEN] Population each turn until it reaches 0 population, and is removed from the game.[NEWLINE][ICON_BULLET] Produces [ICON_HAPPINESS_4] Unhappiness equal to the City''s [ICON_CITIZEN] Population.[NEWLINE][ICON_BULLET] Greatly increases your [COLOR_POSITIVE_TEXT]War Score[ENDCOLOR] every time Population is reduced.[NEWLINE][ICON_BULLET] May generate [COLOR_NEGATIVE_TEXT]Partisans[ENDCOLOR] loyal to the former owner (if you are still at war with this player) or barbarians each turn while razing.'
+SET Text = '도시를 [COLOR_POSITIVE_TEXT]불태우면[ENDCOLOR] :[NEWLINE][ICON_BULLET] 매 턴 [ICON_CITIZEN]시민이 [COLOR_NEGATIVE_TEXT]1[ENDCOLOR] 줄어들며 시민이 [COLOR_NEGATIVE_TEXT]0[ENDCOLOR]이 되면 도시가 사라집니다.[NEWLINE][ICON_BULLET] 도시의 [ICON_CITIZEN]시민 수만큼 [ICON_HAPPINESS_4]불행을 생성합니다.[NEWLINE][ICON_BULLET] 시민이 감소할 때마다 [COLOR_POSITIVE_TEXT]전쟁 점수[ENDCOLOR]가 크게 증가합니다.[NEWLINE][ICON_BULLET] 이전 소유주에게 충성하는 [COLOR_NEGATIVE_TEXT]반란군[ENDCOLOR]이 생성되거나 (아직 이 문명과 전쟁 중인 경우) 야만인이 매 턴 등장할 수 있습니다.'
 WHERE Tag = 'TXT_KEY_POPUP_CITY_CAPTURE_INFO_RAZE' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
 
 -- Citizen Food Consumption
 UPDATE Language_ko_KR	
-SET Text = '[COLOR_NEGATIVE_TEXT]-{1_Num}[ENDCOLOR] {2_IconString} eaten by [ICON_CITIZEN] Citizens'
+SET Text = '[COLOR_NEGATIVE_TEXT]-{1_Num}[ENDCOLOR] {2_IconString} [ICON_CITIZEN]시민이 소모'
 WHERE Tag = 'TXT_KEY_YIELD_EATEN_BY_POP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
 
 -- Citizen Food Consumption
@@ -57,7 +58,7 @@ SET Text = '실업자'
 WHERE Tag = 'TXT_KEY_CITIES_UNEMPLOYEDCITIZENS_HEADING3_TITLE' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
 
 UPDATE Language_ko_KR	
-SET Text = 'Unemployed Citizens each provide a small amount yields compared to other Specialists, however you can assign as many of your citizens to this position as desired. They should, when possible, be assigned to work tiles or made into specialists.'
+SET Text = '실업자는 다른 전문가들에 비해 적은양의 산출량을 제공하지만 원한다면 많은 시민을 이 자리에 배치할 수 있습니다. 가능하다면 이들을 작업 가능한 타일에 배치하거나 전문가로 만들어야 합니다.'
 WHERE Tag = 'TXT_KEY_SPECIALIST_CITIZEN_STRATEGY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
 
 UPDATE Language_ko_KR	
@@ -70,46 +71,46 @@ WHERE Tag = 'TXT_KEY_CITYVIEW_UNEMPLOYED_TEXT' AND EXISTS (SELECT * FROM COMMUNI
 
 -- CSs
 UPDATE Language_ko_KR	
-SET Text = 'City-States can be bullied into giving up large amounts of Yields, but using force in this way will decrease your [ICON_INFLUENCE] Influence over them.'
+SET Text = '도시 국가에게서 대량의 산출량을 빼앗을 수 있습니다. 하지만 이를 무력으로 빼앗으면 해당 도시 국가에 대한 [ICON_INFLUENCE]영향력이 감소합니다.'
 WHERE Tag = 'TXT_KEY_POP_CSTATE_BULLY_TT' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
 
 -- Trade Stuff
 UPDATE Language_ko_KR	
-SET Text = '{1_CivName} has discovered {2_Num} technologies that you do not know, granting you +{4_Num} [ICON_RESEARCH] Science.[NEWLINE]+{3_Num} [ICON_RESEARCH] Science on this route due to your Cultural Influence over them.'
+SET Text = '{1_CivName}{1: plural 1?은; 2?는;} 당신이 보유하지 못한 {2_Num}개의 기술을 연구해서 당신에게 {4_Num} [ICON_RESEARCH]과학을 제공합니다.[NEWLINE]당신은 이 문명에 문화적 영향력을 행사하고 있기 때문에 이 교역로를 통해 {3_Num} [ICON_RESEARCH]과학을 제공 받습니다.'
 WHERE Tag = 'TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_TT_YOUR_SCIENCE_EXPLAINED' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
 
 UPDATE Language_ko_KR	
-SET Text = 'You have discovered {1_Num} technologies that {2_CivName} does not know, granting them +{4_Num} [ICON_RESEARCH] Science.[NEWLINE]+{3_Num} [ICON_RESEARCH] Science on this route due to their Cultural Influence over you.'
+SET Text = '{2_CivName}{2: plural 1?이; 2?가;} 개발하지 못한 {1_Num}개의 기술을 연구해서 그들에게 {4_Num} [ICON_RESEARCH]과학을 제공합니다.[NEWLINE]이 문명은 당신에게 문화적 영향력을 행사하고 있기 때문에 이 교역로를 통해 {3_Num} [ICON_RESEARCH]과학을 제공 받습니다.'
 WHERE Tag = 'TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_TT_THEIR_SCIENCE_EXPLAINED' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
 
 -- CS Gift Stuff
 
 UPDATE Language_ko_KR	
-SET Text = '({1_NumHappiness} [ICON_HAPPINESS_1] Happiness, {2_Gold} [ICON_GOLD] Gold)'
+SET Text = '({1_NumHappiness} [ICON_HAPPINESS_1]행복, {2_Gold} [ICON_GOLD]골드)'
 WHERE Tag = 'TXT_KEY_NOTIFICATION_MINOR_LOST_MERCANTILE' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
 
 UPDATE Language_ko_KR	
-SET Text = 'As a [COLOR_POSITIVE_TEXT]Mercantile[ENDCOLOR] City-State, their markets offer exotic goods to your people! (+{1_NumHappiness} [ICON_HAPPINESS_1] Happiness, +{2_Gold} [ICON_GOLD] Gold)'
+SET Text = '해당 [COLOR_POSITIVE_TEXT]상업[ENDCOLOR] 도시 국가의 시장에서 거래되는 사치 자원이 문명 전체로 퍼집니다! (+{1_NumHappiness} [ICON_HAPPINESS_1]행복, +{2_Gold} [ICON_GOLD]골드)'
 WHERE Tag = 'TXT_KEY_NOTIFICATION_MINOR_NOW_FRIENDS_MERCANTILE' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
 
 UPDATE Language_ko_KR	
-SET Text = 'As a [COLOR_POSITIVE_TEXT]Mercantile[ENDCOLOR] City-State, their markets spread trade of exotic goods across your empire! (+{1_NumHappiness} [ICON_HAPPINESS_1] Happiness, +{2_Gold} [ICON_GOLD] Gold)'
+SET Text = '해당 [COLOR_POSITIVE_TEXT]상업[ENDCOLOR] 도시 국가의 시장에서 거래되는 사치 자원이 문명 전체로 퍼집니다! (+{1_NumHappiness} [ICON_HAPPINESS_1]행복, +{2_Gold} [ICON_GOLD]골드)'
 WHERE Tag = 'TXT_KEY_NOTIFICATION_MINOR_NOW_ALLIES_MERCANTILE' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
 
 UPDATE Language_ko_KR	
-SET Text = 'They will contribute fewer Units to your military, and less Science! ({1_Science} [ICON_RESEARCH] Science)'
+SET Text = '당신에게 제공하는 군사 유닛 및 과학이 줄어듭니다! ({1_Science} [ICON_RESEARCH]과학)'
 WHERE Tag = 'TXT_KEY_NOTIFICATION_MINOR_LOST_ALLIES_MILITARISTIC' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
 
 UPDATE Language_ko_KR	
-SET Text = 'They will no longer give you military Units or Science! ({1_Science} [ICON_RESEARCH] Science)'
+SET Text = '당신에게 더이상 군사 유닛 및 과학을 제공하지 않습니다! ({1_Science} [ICON_RESEARCH]과학)'
 WHERE Tag = 'TXT_KEY_NOTIFICATION_MINOR_LOST_FRIENDS_MILITARISTIC' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
 
 UPDATE Language_ko_KR	
-SET Text = 'As a [COLOR_POSITIVE_TEXT]Militaristic[ENDCOLOR] City-State, they will give you military Units and Science. (+{1_Science} [ICON_RESEARCH] Science)'
+SET Text = '[COLOR_POSITIVE_TEXT]군사적[ENDCOLOR] 도시 국가에서 주기적으로 군사 유닛 및 과학을 제공합니다. (+{1_Science} [ICON_RESEARCH]과학)'
 WHERE Tag = 'TXT_KEY_NOTIFICATION_MINOR_NOW_FRIENDS_MILITARISTIC' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );		
 
 UPDATE Language_ko_KR	
-SET Text = 'As a [COLOR_POSITIVE_TEXT]Militaristic[ENDCOLOR] City-State, they will regularly give you military Units and Science. (+{1_Science} [ICON_RESEARCH] Science)'
+SET Text = '해당 [COLOR_POSITIVE_TEXT]군사[ENDCOLOR] 도시 국가는 정기적으로 군사 유닛 및 과학을 제공합니다. (+{1_Science} [ICON_RESEARCH]과학)'
 WHERE Tag = 'TXT_KEY_NOTIFICATION_MINOR_NOW_ALLIES_MILITARISTIC' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );		
 
 -- Change instructions for Ideologies
@@ -131,19 +132,19 @@ SET Text = 'The Freedom ideology provides bonuses for Culture, Tourism, Speciali
 WHERE Tag = 'TXT_KEY_SOCIALPOLICY_FREEDOM_HEADING3_BODY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_TOURISM_CHANGES' AND Value= 1 );
 
 UPDATE Language_ko_KR
-SET Text = 'Your people now consider themselves part of the Atomic Era, and the ideas of modernization permeate your society. Your people clamor for you to pick an Ideology for your civilization.'
+SET Text = '당신 문명의 시민들은 이제 스스로 원자력 시대의 일부라고 생각하고 있고 이미 현대화의 사상이 사회에 스며들고 있습니다. 시민들이 당신의 문명을 위한 이념을 선택하라고 아우성치고 있습니다!'
 WHERE Tag = 'TXT_KEY_NOTIFICATION_CHOOSE_IDEOLOGY_FACTORIES' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_TOURISM_CHANGES' AND Value= 1 );
 
 UPDATE Language_ko_KR
-SET Text = 'Ideological tenets may not be purchased until you have chosen an Ideology. This choice becomes available if you are in the Atomic Era, or have unlocked 18 Policies and have advanced at least to the Industrial Era, whichever comes first.'
+SET Text = '이념 주의는 이념을 선택하기 전까지 채택할 수 없습니다. 원자력 시대에 진입하거나 또는 18개의 정책을 개방한 상태에서 최소 산업 시대로 접어들면 이념을 선택할 수 있습니다.'
 WHERE Tag = 'TXT_KEY_POLICYSCREEN_IDEOLOGY_NOT_STARTED' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_TOURISM_CHANGES' AND Value= 1 );
 
 UPDATE Language_ko_KR
-SET Text = 'You have moved beyond the Modern Era. The ideas of modernity now permeate your society. Your people clamor for you to pick an Ideology for your civilization.'
+SET Text = '이제 현대 시대를 지나왔습니다. 현대적 사상이 당신 문명의 사회에 스며들고 있습니다. 시민들이 문명을 위한 이념을 선택할 것을 요구합니다.'
 WHERE Tag = 'TXT_KEY_NOTIFICATION_CHOOSE_IDEOLOGY_ERA' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_TOURISM_CHANGES' AND Value= 1 );
 	
 UPDATE Language_ko_KR
-SET Text = 'Allows your Cities to build [COLOR_POSITIVE_TEXT]Atomic Bombs[ENDCOLOR] and [COLOR_POSITIVE_TEXT]Nuclear Missiles[ENDCOLOR].[NEWLINE][NEWLINE]If you are the [COLOR_POSITIVE_TEXT]First[ENDCOLOR] to complete this, receive 1 [COLOR_POSITIVE_TEXT]Free[ENDCOLOR] Atomic Bomb and a [COLOR_POSITIVE_TEXT]Free[ENDCOLOR] Research Lab in your [ICON_CAPITAL] Capital.'
+SET Text = '맨해튼 프로젝트를 완성하면 도시에서 원자폭탄과 핵미사일을 생산할 수 있습니다.[NEWLINE][NEWLINE]당신의 문명이 처음으로 프로젝트를 완료했다면 [ICON_CAPITAL]수도에 무료 [COLOR_YELLOW]원자폭탄[ENDCOLOR] 1개가 출현하고 [COLOR_YELLOW]연구소[ENDCOLOR]를 무료로 제공합니다.'
 WHERE Tag = 'TXT_KEY_PROJECT_MANHATTAN_PROJECT_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 UPDATE Language_ko_KR
@@ -151,7 +152,7 @@ SET Text = 'The Manhattan Project allows a civilization to construct nuclear wea
 WHERE Tag = 'TXT_KEY_PROJECT_MANHATTAN_PROJECT_STRATEGY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 UPDATE Language_ko_KR
-SET Text = 'Signals the start of the space race, allowing your Cities to build Spaceship parts. When the Spaceship is completed, you win a [COLOR_POSITIVE_TEXT]Science Victory[ENDCOLOR]![NEWLINE][NEWLINE]If you are the [COLOR_POSITIVE_TEXT]First[ENDCOLOR] to complete this, receive 1 [COLOR_POSITIVE_TEXT]Free[ENDCOLOR] [ICON_GREAT_SCIENTIST] Great Scientist near your [ICON_CAPITAL] Capital, and your Empire enters a [ICON_GOLDEN_AGE] Golden Age.'
+SET Text = '아폴로 우주 계획은 우주 진출 경쟁의 시작을 알립니다. 도시에서 우주선의 부품을 생산할 수 있습니다. 우주선이 완성되면 [COLOR_POSITIVE_TEXT]과학 승리[ENDCOLOR]를 쟁취하게 됩니다![NEWLINE][NEWLINE]당신의 문명이 처음으로 프로젝트를 완료했다면 [ICON_CAPITAL]수도 근처에 [ICON_GREAT_SCIENTIST][COLOR_YELLOW]위대한 과학자[ENDCOLOR]가 1명 출현하고, 제국이 즉시 [ICON_GOLDEN_AGE]황금기를 맞이합니다.'
 WHERE Tag = 'TXT_KEY_PROJECT_APOLLO_PROGRAM_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 UPDATE Language_ko_KR
@@ -175,7 +176,7 @@ SET Text = 'Military theory is the analysis of normative behavior and trends in 
 WHERE Tag = 'TXT_KEY_TECH_ARCHERY_DESC' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
 
 UPDATE Language_ko_KR
-SET Text = 'Allows you to build the [COLOR_POSITIVE_TEXT]Barracks[ENDCOLOR], an essential building for early war.'
+SET Text = '초기 전쟁에 필수 건물인 [COLOR_POSITIVE_TEXT]병영[ENDCOLOR]을 건설할 수 있습니다.'
 WHERE Tag = 'TXT_KEY_TECH_ARCHERY_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
 
 UPDATE Language_ko_KR
@@ -187,7 +188,7 @@ SET Text = 'Trade involves the transfer of the ownership of goods or services fr
 WHERE Tag = 'TXT_KEY_TECH_HORSEBACK_RIDING_DESC' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
 
 UPDATE Language_ko_KR
-SET Text = 'Receive an additional [ICON_INTERNATIONAL_TRADE] Trade Route. Allows you to build the [COLOR_POSITIVE_TEXT]Horseman[ENDCOLOR], a fast and powerful mounted unit. Also allows you to build the [COLOR_POSITIVE_TEXT]Market[ENDCOLOR], an excellent source of early [ICON_GOLD] Gold.'
+SET Text = '추가 [ICON_INTERNATIONAL_TRADE]교역로를 제공합니다. 빠르고 강력한 기마 유닛인 [COLOR_POSITIVE_TEXT]기마병[ENDCOLOR]을 생산할 수 있습니다. 초반 [ICON_GOLD]골드의 훌륭한 공급원인 [COLOR_POSITIVE_TEXT]시장[ENDCOLOR]을 건설할 수 있습니다.'
 WHERE Tag = 'TXT_KEY_TECH_HORSEBACK_RIDING_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
 
 UPDATE Language_ko_KR
@@ -199,15 +200,15 @@ SET Text = '항해'
 WHERE Tag = 'TXT_KEY_TECH_OPTICS_TITLE' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
 
 UPDATE Language_ko_KR
-SET Text = 'Receive an additional [ICON_INTERNATIONAL_TRADE] Trade Route. Allows you to build the [COLOR_POSITIVE_TEXT]Windmill[ENDCOLOR] in cities built on flat land, increasing [ICON_PRODUCTION] Production.'
+SET Text = '추가 [ICON_INTERNATIONAL_TRADE]교역로를 제공합니다. 평지에 [ICON_PRODUCTION]생산을 증가시키는 [COLOR_POSITIVE_TEXT]풍차[ENDCOLOR]를 만들 수 있습니다.'
 WHERE Tag = 'TXT_KEY_TECH_ECONOMICS_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
 
 UPDATE Language_ko_KR
-SET Text = 'Allows you to build the Leaning Tower of Pisa, and is an gateway to vital Renaissance-Era techs.'
+SET Text = '피사의 사탑을 건설할 수 있으며, 르네상스 시대의 핵심 기술로 통하는 관문입니다.'
 WHERE Tag = 'TXT_KEY_TECH_CHEMISTRY_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
 
 UPDATE Language_ko_KR
-SET Text = 'Allows you to build the [COLOR_POSITIVE_TEXT]Cannon[ENDCOLOR], a powerful Renaissance-Era siege unit, and the [COLOR_POSITIVE_TEXT]Arsenal[ENDCOLOR], which boosts City defense.'
+SET Text = '르네상스 시대의 강력한 공성 유닛인 [COLOR_POSITIVE_TEXT]대포[ENDCOLOR]를 만들 수 있고 도시의 방어력을 증가시켜주는 [COLOR_POSITIVE_TEXT]무기고[ENDCOLOR]를 건설할 수 있습니다.'
 WHERE Tag = 'TXT_KEY_TECH_METALLURGY_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
 
 UPDATE Language_ko_KR

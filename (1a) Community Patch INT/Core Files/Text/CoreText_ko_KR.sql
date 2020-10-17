@@ -106,7 +106,7 @@ SET Text = '투석기는 초기에 적 도시를 공격할 때 대단히 쓸만�
 WHERE Tag = 'TXT_KEY_UNIT_CATAPULT_STRATEGY';
 
 UPDATE Language_ko_KR
-SET Text = '투석기를 대체하는 로마의 고유 유닛입니다. 원거리에서 도시와 유닛에게 큰 피해를 줍니다. 적 영토에서[ICON_MOVES]이동력이 절반으로 감소합니다. 투석기보다 [ICON_RANGE_STRENGTH]원거리 공격력이 높습니다.'
+SET Text = '투석기를 대체하는 로마의 고유 유닛입니다. 원거리에서 도시와 유닛에게 큰 피해를 줍니다. 적 영토에서[ICON_MOVES]이동력이 절반으로 감소합니다. 투석기보다 [ICON_RANGE_STRENGTH]원거리 전투력이 높습니다.'
 WHERE Tag = 'TXT_KEY_UNIT_HELP_BALLISTA';
 
 UPDATE Language_ko_KR
@@ -142,7 +142,7 @@ SET Text = '3타일 밖에서 공격이 가능한 첫번째 공성 유닛입니�
 WHERE Tag = 'TXT_KEY_UNIT_HELP_ARTILLERY';
 
 UPDATE Language_ko_KR
-SET Text = '야포는 매우 강력한 공성 유닛이며, 대포보다 더 강력하고 긴 사거리를 갖고 있습니다. 대포처럼 제한된 시야를 가지고 있으며 적 영토에서[ICON_MOVES]이동력이 절반으로 감소하지만, 원거리 공격력은 아주 강력합니다. 야포는 또한 "간접 사격" 능력을 갖추고 있는데, 이것은 시야 밖에 있는 장애물 너머의 적을 공격할 수 있습니다. (다른 아군으로 시야가 확보되었을 때만) 다른 공성 유닛처럼, 야포는 근접 공격에 취약합니다.'
+SET Text = '야포는 매우 강력한 공성 유닛이며, 대포보다 더 강력하고 긴 사거리를 갖고 있습니다. 대포처럼 제한된 시야를 가지고 있으며 적 영토에서[ICON_MOVES]이동력이 절반으로 감소하지만, 원거리 전투력은 아주 강력합니다. 야포는 또한 "간접 사격" 능력을 갖추고 있는데, 이것은 시야 밖에 있는 장애물 너머의 적을 공격할 수 있습니다. (다른 아군으로 시야가 확보되었을 때만) 다른 공성 유닛처럼, 야포는 근접 공격에 취약합니다.'
 WHERE Tag = 'TXT_KEY_UNIT_ARTILLERY_STRATEGY';
 
 UPDATE Language_ko_KR
@@ -158,11 +158,11 @@ WHERE Tag = 'TXT_KEY_UNIT_ROCKET_ARTILLERY_STRATEGY';
 
 -- National Wonders
 UPDATE Language_ko_KR
-SET Text = '추가 [ICON_SPY][COLOR_POSITIVE_TEXT]스파이[ENDCOLOR]를 1명 또는 그 이상 ([ICON_CITY_STATE]도시 국가 수에 기반) 제공하고 존재하는 모든 [ICON_SPY]스파이의 레벨이 상승합니다. 적[ICON_SPY]스파이의 효율이 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR] 감소합니다.[NEWLINE][NEWLINE]모든 도시에 경찰서가 있어야 건설할 수 있습니다. 문명에 도시가 많을수록 건설에 필요한 [ICON_PRODUCTION]생산이 증가합니다.[NEWLINE][NEWLINE]이 불가사의는 문명당 하나만 건설할 수 있는 [COLOR_YELLOW]국가 불가사의[ENDCOLOR]입니다.'
+SET Text = '추가 [ICON_SPY][COLOR_YELLOW]스파이[ENDCOLOR]를 1명 또는 그 이상 [COLOR:130:130:130:255]([ICON_CITY_STATE]도시 국가 수에 기반)[ENDCOLOR] 제공하고 존재하는 모든 [ICON_SPY]스파이의 레벨이 상승합니다. 적[ICON_SPY]스파이의 효율이 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR] 감소합니다.[NEWLINE][NEWLINE]모든 도시에 경찰서가 있어야 건설할 수 있습니다. 문명에 도시가 많을수록 건설에 필요한 [ICON_PRODUCTION]생산이 증가합니다.[NEWLINE][NEWLINE]이 불가사의는 문명당 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]국가 불가사의[ENDCOLOR]입니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_INTELLIGENCE_AGENCY_HELP';
 
 UPDATE Language_ko_KR
-SET Text = '기술 개발을 주도하는 문명에 중요한 방어형 국가 불가사의입니다. 추가 [ICON_SPY][COLOR_POSITIVE_TEXT]스파이[ENDCOLOR]를 1명 또는 그 이상 ([ICON_CITY_STATE]도시 국가 수에 기반) 제공하고 존재하는 모든 [ICON_SPY]스파이의 레벨이 상승합니다. 적[ICON_SPY]스파이의 효율성이 15% 감소합니다. 모든 도시에 경찰서가 있어야 국가 정보국을 건설할 수 있습니다.'
+SET Text = '기술 개발을 주도하는 문명에 중요한 방어형 국가 불가사의입니다. 추가 [ICON_SPY][COLOR_POSITIVE_TEXT]스파이[ENDCOLOR]를 1명 또는 그 이상 [COLOR:130:130:130:255]([ICON_CITY_STATE]도시 국가 수에 기반)[ENDCOLOR] 제공하고 존재하는 모든 [ICON_SPY]스파이의 레벨이 상승합니다. 적[ICON_SPY]스파이의 효율성이 15% 감소합니다. 모든 도시에 경찰서가 있어야 국가 정보국을 건설할 수 있습니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_INTELLIGENCE_AGENCY_STRATEGY';
 
 
@@ -262,7 +262,7 @@ SET Text = '{3_TargetName:textkey}{3: plural 1?이; 2?가;} 외교상의 우려�
 WHERE Tag = 'TXT_KEY_NOTIFICATION_QUEST_KILL_CITY_STATE';
 
 UPDATE Language_ko_KR
-SET Text = '{1_CityStateName:textkey}{1: plural 1?을; 2?를;} 점령(완전한 보상)하거나 두 도시 국가 모두와 동맹(부분적 보상)을 맺으십시오. '
+SET Text = '{1_CityStateName:textkey}{1: plural 1?을; 2?를;} 점령하거나 [COLOR:130:130:130:255](완전한 보상)[ENDCOLOR] 두 도시 국가 모두와 동맹을 [COLOR:130:130:130:255](부분적 보상)[ENDCOLOR] 맺으십시오. '
 WHERE Tag = 'TXT_KEY_CITY_STATE_QUEST_KILL_CITY_STATE_FORMAL';
 
 UPDATE Language_ko_KR
@@ -318,27 +318,27 @@ SET Text = '{@1_MinorCivName}의 시민들이 교역로의 연결에 열광하�
 WHERE Tag = 'TXT_KEY_NOTIFICATION_QUEST_COMPLETE_TRADE_ROUTE';
 
 UPDATE Language_ko_KR
-SET Text = '당신의 문화에 {1_MinorCivName:textkey}{1: plural 1?이; 2?가;} 감명받았습니다! 그들은 이제 다른 문명의 문화는 쳐다보지도 않습니다. 성공한 문명(동점 허용):[NEWLINE]'
+SET Text = '당신의 문화에 {1_MinorCivName:textkey}{1: plural 1?이; 2?가;} 감명받았습니다! 그들은 이제 다른 문명의 문화는 쳐다보지도 않습니다. 성공한 문명 [COLOR:130:130:130:255](동점 허용)[ENDCOLOR]:[NEWLINE]'
 WHERE Tag = 'TXT_KEY_NOTIFICATION_QUEST_COMPLETE_CONTEST_CULTURE';
 
 UPDATE Language_ko_KR
-SET Text = '{1_MinorCivName:textkey}{1: plural 1?은; 2?는;} 다른 문명의 선진 문화에 감명받았습니다. 당신 문명의 문화 발전 속도가 충분하지 않습니다. 성공한 문명(동점 허용):[NEWLINE]'
+SET Text = '{1_MinorCivName:textkey}{1: plural 1?은; 2?는;} 다른 문명의 선진 문화에 감명받았습니다. 당신 문명의 문화 발전 속도가 충분하지 않습니다. 성공한 문명 [COLOR:130:130:130:255](동점 허용)[ENDCOLOR]:[NEWLINE]'
 WHERE Tag = 'TXT_KEY_NOTIFICATION_QUEST_ENDED_CONTEST_CULTURE';
 
 UPDATE Language_ko_KR
-SET Text = '{1_MinorCivName:textkey}의 성직자들이 당신의 독실함에 감명받았습니다. 그들은 이제 다른 문명의 열등한 신앙은 쳐다보지도 않습니다. 성공한 문명(동점 허용):[NEWLINE]'
+SET Text = '{1_MinorCivName:textkey}의 성직자들이 당신의 독실함에 감명받았습니다. 그들은 이제 다른 문명의 열등한 신앙은 쳐다보지도 않습니다. 성공한 문명 [COLOR:130:130:130:255](동점 허용)[ENDCOLOR]:[NEWLINE]'
 WHERE Tag = 'TXT_KEY_NOTIFICATION_QUEST_COMPLETE_CONTEST_FAITH';
 
 UPDATE Language_ko_KR
-SET Text = '{1_MinorCivName:textkey}{1: plural 1?은; 2?는;} 다른 문명의 깊은 신앙에 감명받았습니다. 당신 문명의 신앙 생성 속도가 충분하지 않습니다. 성공한 문명(동점 허용):[NEWLINE]'
+SET Text = '{1_MinorCivName:textkey}{1: plural 1?은; 2?는;} 다른 문명의 깊은 신앙에 감명받았습니다. 당신 문명의 신앙 생성 속도가 충분하지 않습니다. 성공한 문명 [COLOR:130:130:130:255](동점 허용)[ENDCOLOR]:[NEWLINE]'
 WHERE Tag = 'TXT_KEY_NOTIFICATION_QUEST_ENDED_CONTEST_FAITH';
 
 UPDATE Language_ko_KR
-SET Text = '{1_MinorCivName:textkey}{1: plural 1?이; 2?가;} 급속하게 발전하는 당신의 기술을 보고 놀랐습니다! 그들의 과학자들과 지식인들이 다른 문명들을 정체된 것으로 치부합니다. 성공한 문명(동점 허용):[NEWLINE]'
+SET Text = '{1_MinorCivName:textkey}{1: plural 1?이; 2?가;} 급속하게 발전하는 당신의 기술을 보고 놀랐습니다! 그들의 과학자들과 지식인들이 다른 문명들을 정체된 것으로 치부합니다. 성공한 문명 [COLOR:130:130:130:255](동점 허용)[ENDCOLOR]:[NEWLINE]'
 WHERE Tag = 'TXT_KEY_NOTIFICATION_QUEST_COMPLETE_CONTEST_TECHS';
 
 UPDATE Language_ko_KR
-SET Text = '{1_MinorCivName:textkey}{1: plural 1?은; 2?는;} 다른 문명의 첨단 기술에 감명받았습니다. 당신 문명의 기술 발전 속도가 충분하지 않습니다. 성공한 문명(동점 허용):[NEWLINE]'
+SET Text = '{1_MinorCivName:textkey}{1: plural 1?은; 2?는;} 다른 문명의 첨단 기술에 감명받았습니다. 당신 문명의 기술 발전 속도가 충분하지 않습니다. 성공한 문명 [COLOR:130:130:130:255](동점 허용)[ENDCOLOR]:[NEWLINE]'
 WHERE Tag = 'TXT_KEY_NOTIFICATION_QUEST_ENDED_CONTEST_TECHS';
 
 
@@ -378,7 +378,7 @@ SET Text = '{1_ReligionName}의 창시자'
 WHERE Tag = 'TXT_KEY_RO_STATUS_FOUNDER';
 
 UPDATE Language_ko_KR
-SET Text = '대중 종교가 강화된 도시 어디에서나 [ICON_PEACE]신앙을 통해 구매할 수 있습니다. 당신의 도시에서 다른 종교를 제거할 수 있으며 (이단심문관 사용) 선교사와 선지자를 도시 또는 근처에 배치하여 다른 종교가 전파되는 것을 막을 수 있습니다.'
+SET Text = '대중 종교가 강화된 도시 어디에서나 [ICON_PEACE]신앙을 통해 구매할 수 있습니다. 당신의 도시에서 다른 종교를 제거할 수 있으며 (이단심문관 사용) 선교사와 위대한 선지자를 도시 또는 근처에 배치하여 다른 종교가 전파되는 것을 막을 수 있습니다.'
 WHERE Tag = 'TXT_KEY_UNIT_INQUISITOR_STRATEGY';
 
 
@@ -401,15 +401,15 @@ SET Text = '만약 당신 문명의 도시가 잠재력이 높다면 그들을 �
 WHERE Tag = 'TXT_KEY_EO_OWN_CITY_POTENTIAL_TT';
 
 UPDATE Language_ko_KR
-SET Text = '{1_SpyRank} {2_SpyName}{2: plural 1?이; 2?가;} {3_CityName}에서 절도를 수행하고 있습니다.[NEWLINE]{3_CityName}의 현재 잠재력은 {4_Num}입니다.[NEWLINE][NEWLINE]잠재력은 스파이 활동에 대한 도시의 취약성을 반영합니다. 잠재력이 높을수록 도시는 취약합니다. 기본값은 [COLOR_POSITIVE_TEXT](1~10값,보정됨)[ENDCOLOR] 도시의 전반적인 번영과 행복, 특히 과학과 골드 산출량에 기초합니다. 도시에 경찰대나 경찰서와 같은 방어 건물을 건설하면 잠재력이 감소합니다. 도시에 경찰대나 경찰서와 같은 방어 건물이 있으면 잠재력이 감소합니다.'
+SET Text = '{1_SpyRank} {2_SpyName}{2: plural 1?이; 2?가;} {3_CityName}에서 절도를 수행하고 있습니다.[NEWLINE]{3_CityName}의 현재 잠재력은 {4_Num}입니다.[NEWLINE][NEWLINE]잠재력은 스파이 활동에 대한 도시의 취약성을 반영합니다. 잠재력이 높을수록 도시는 취약합니다. 기본값은 [COLOR_POSITIVE_TEXT]1~10[ENDCOLOR] [COLOR:130:130:130:255](보정됨)[ENDCOLOR] 도시의 전반적인 번영과 행복, 특히 과학과 골드 산출량에 기초합니다. 도시에 경찰대나 경찰서와 같은 방어 건물을 건설하면 잠재력이 감소합니다. 도시에 경찰대나 경찰서와 같은 방어 건물이 있으면 잠재력이 감소합니다.'
 WHERE Tag = 'TXT_KEY_EO_CITY_POTENTIAL_TT';
 
 UPDATE Language_ko_KR
-SET Text = '{1_SpyRank} {2_SpyName}{2: plural 1?이; 2?가;} {3_CityName}에서 기술을 훔칠 수 없습니다.[NEWLINE][NEWLINE]{4_CityName}의 기본 잠재력은 {5_Num}입니다.[NEWLINE][NEWLINE]잠재력이 높을수록 도시는 취약합니다. 기본값은 [COLOR_POSITIVE_TEXT](1~10값,보정됨)[ENDCOLOR] 도시의 전반적인 번영과 행복, 특히 과학과 골드 산출량에 기초합니다. 도시에 경찰대나 경찰서와 같은 방어 건물을 건설하면 잠재력이 감소합니다. 도시에 경찰대나 경찰서와 같은 방어 건물이 있으면 잠재력이 감소합니다.'
+SET Text = '{1_SpyRank} {2_SpyName}{2: plural 1?이; 2?가;} {3_CityName}에서 기술을 훔칠 수 없습니다.[NEWLINE][NEWLINE]{4_CityName}의 기본 잠재력은 {5_Num}입니다.[NEWLINE][NEWLINE]잠재력이 높을수록 도시는 취약합니다. 기본값은 [COLOR_POSITIVE_TEXT]1~10[ENDCOLOR] [COLOR:130:130:130:255](보정됨)[ENDCOLOR] 도시의 전반적인 번영과 행복, 특히 과학과 골드 산출량에 기초합니다. 도시에 경찰대나 경찰서와 같은 방어 건물을 건설하면 잠재력이 감소합니다. 도시에 경찰대나 경찰서와 같은 방어 건물이 있으면 잠재력이 감소합니다.'
 WHERE Tag = 'TXT_KEY_EO_CITY_POTENTIAL_CANNOT_STEAL_TT';
 
 UPDATE Language_ko_KR
-SET Text = '{1_CityName}의 추정 잠재력은 {2_Num}입니다.[NEWLINE][NEWLINE]자세한 내용을 보려면 이 도시에 [ICON_SPY]스파이를 보내십시오. [NEWLINE][NEWLINE]잠재력은 스파이 활동에 대한 도시의 취약성을 반영합니다. 이 값이 크면 도시가 취약합니다. 기본값은 (보정됨, 1~10) 해당 도시의 전반적인 번영에 기반합니다. (특히 과학과 금 산출량)'
+SET Text = '{1_CityName}의 추정 잠재력은 {2_Num}입니다.[NEWLINE][NEWLINE]자세한 내용을 보려면 이 도시에 [ICON_SPY]스파이를 보내십시오. [NEWLINE][NEWLINE]잠재력은 스파이 활동에 대한 도시의 취약성을 반영합니다. 이 값이 크면 도시가 취약합니다. 기본값은 [COLOR_POSITIVE_TEXT]1~10[ENDCOLOR] [COLOR:130:130:130:255](보정됨)[ENDCOLOR] 해당 도시의 전반적인 번영에 기반합니다. (특히 과학과 금 산출량)'
 WHERE Tag = 'TXT_KEY_EO_CITY_ONCE_KNOWN_POTENTIAL_TT';
 
 UPDATE Language_ko_KR
@@ -521,7 +521,7 @@ SET Text = '만약 문명과 전쟁 중이라면, 평화에 대한 논의를 할
 WHERE Tag = 'TXT_KEY_DIPLOMACY_PEACE_HEADING3_BODY';
 
 UPDATE Language_ko_KR
-SET Text = '기사도 기술을 연구했다면, 방위 조약을 맺는 것이 가능합니다. 방위 조약은 항상 상호 간의 동의로 이루어집니다. 방위 조약으로 맺어진 국가가 공격을 받게 된다면, 가맹국은 자동으로 공격한 국가에 전쟁을 선포하게 됩니다.[NEWLINE][NEWLINE]방위 조약은 50 턴 동안 지속합니다. (보통 속도 기준) 방위 조약이 끝날 때, 재협상을 하지 않으면 협정은 파기됩니다.'
+SET Text = '기사도 기술을 연구했다면, 방위 조약을 맺는 것이 가능합니다. 방위 조약은 항상 상호 간의 동의로 이루어집니다. 방위 조약으로 맺어진 국가가 공격을 받게 된다면, 가맹국은 자동으로 공격한 국가에 전쟁을 선포하게 됩니다.[NEWLINE][NEWLINE]방위 조약은 50턴 동안 [COLOR:130:130:130:255](보통 속도 기준)[ENDCOLOR] 지속합니다. 방위 조약이 끝날 때, 재협상을 하지 않으면 협정은 파기됩니다.'
 WHERE Tag = 'TXT_KEY_DIPLOMACY_DEFENSIVEPACT_HEADING3_BODY';
 
 UPDATE Language_ko_KR

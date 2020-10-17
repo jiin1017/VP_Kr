@@ -210,7 +210,7 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_TOP_PANEL_TOURISM_TOOLTIP_CONQUEST_WARNING">
-			<Text>소유한 도시 중 [ICON_PUPPET]괴뢰 도시가 아닌 도시마다 도시 및 역사적 사건에서 오는 [ICON_TOURISM]관광이 {1_Num}% 감소합니다. (최대 75%)</Text>
+			<Text>소유한 도시 중 [ICON_PUPPET]괴뢰 도시가 아닌 도시 1개마다 도시 및 "역사적 사건"에서 오는 [ICON_TOURISM]관광이 {1_Num}% 감소합니다. (최대 75%)</Text>
 		</Row>
 		
 		<!-- City-State Protection Prompt -->
@@ -409,7 +409,7 @@
 		</Row>
 	
 		<Row Tag="TXT_KEY_EUPANEL_ATTACK_CS_ALLIANCE_STRENGTH">
-			<Text>그리스 동맹</Text>
+			<Text>헬라스 동맹</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_MISC_YOU_ENEMY_UNITS_DEFECT">
@@ -810,7 +810,7 @@
 			<Text>벌목장</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_IMPROVEMENTS_LUMBERMILL_TEXT_JUNGLE">
-			<Text>벌목장을 통해 정글 타일의 골드 산출량을 증가시킬 수 있습니다. 인접한 두 벌목장마다 골드를 추가로 획들할 수 있습니다. 가능한 경우 3개씩 묶어 건설하십시오.</Text>
+			<Text>벌목장을 통해 정글 타일의 골드 산출량을 증가시킬 수 있습니다. 인접한 벌목장 2개마다 골드를 추가로 획들할 수 있습니다. 가능한 경우 3개씩 묶어 건설하십시오.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILD_LUMBERMILL_JUNGLE">
 			<Text>[LINK=IMPROVEMENT_LUMBERMILL]벌목장[\LINK] 건설</Text>
@@ -886,7 +886,7 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_TRAIT_POPULATION_GROWTH_SHORT_CBP">
-			<Text>달마 대사의 어록</Text>
+			<Text>다르마</Text>
 		</Row>
 
 		<!-- Top Panel -->

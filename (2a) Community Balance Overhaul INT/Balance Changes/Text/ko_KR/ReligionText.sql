@@ -2,12 +2,12 @@
 
 -- Goddess of the Hunt
 UPDATE Language_ko_KR
-SET Text = '+1 [ICON_PEACE] Faith, [ICON_FOOD] Food, and [ICON_CULTURE] Culture from Camps, +1 [ICON_FOOD] Food from Resources on Tundra'
+SET Text = '야영지의 [ICON_PEACE]신앙, [ICON_CULTURE]문화, [ICON_FOOD]식량이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 툰드라 위 자원 타일의 [ICON_FOOD]식량이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_BELIEF_GODDESS_HUNT' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_RELIGION' AND Value= 1 );
 
 -- Fertility Rites (Now Goddess of Fertility)
 UPDATE Language_ko_KR
-SET Text = '+1 [ICON_FOOD] Food and [ICON_PEACE] Faith from Shrines, and +8 [ICON_FOOD] Food and [ICON_PEACE] Faith when a Building is constructed, scaling with Era. 25% faster [ICON_FOOD] Growth Rate'
+SET Text = '성소의 [ICON_PEACE]신앙 및 [ICON_FOOD]식량이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 건물의 건설을 완료하면 [ICON_PEACE]신앙 및 [ICON_FOOD]식량을 [COLOR_POSITIVE_TEXT]8[ENDCOLOR] [COLOR:130:130:130:255](시대별 보정)[ENDCOLOR] 제공합니다. 도시의 [ICON_FOOD]성장률이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_BELIEF_FERTILITY_RITES' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_RELIGION' AND Value= 1 );
 
 UPDATE Language_ko_KR
@@ -18,17 +18,17 @@ WHERE Tag = 'TXT_KEY_BELIEF_FERTILITY_RITES_SHORT' AND EXISTS (SELECT * FROM COM
 
 -- God of the Sea
 UPDATE Language_ko_KR
-SET Text = '+1 [ICON_PEACE] Faith and [ICON_PRODUCTION] Production from Fishing Boats and Atolls. +2 [ICON_FOOD] Food and +1 [ICON_PEACE] Faith in coastal Cities'
+SET Text = '어선 및 산호초의 [ICON_PEACE]신앙 및 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 해안 도시의 [ICON_FOOD]식량이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] [ICON_PEACE]신앙이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_BELIEF_GOD_SEA' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_RELIGION' AND Value= 1 );
 
 -- God of the Open Sky
 UPDATE Language_ko_KR
-SET Text = '+1 [ICON_CULTURE] Culture and [ICON_PEACE] Faith in City per 2 worked Plains or 2 worked Grassland tiles without Hills or Features. +1 [ICON_PEACE] Faith and +3 [ICON_GOLD] Gold from Pastures'
+SET Text = '언덕이나 다른 지형 특징이 없는 평지 평원 또는 초원 타일 2개마다 [ICON_CULTURE]문화 및 [ICON_PEACE]신앙이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 목장의 [ICON_PEACE]신앙이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_BELIEF_OPEN_SKY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_RELIGION' AND Value= 1 );
 
 -- Messenger of the Gods (Now God of Commerce)
 UPDATE Language_ko_KR
-SET Text = '+2 [ICON_PEACE] Faith and [ICON_GOLD] Gold in Cities with a [ICON_CONNECTED] City Connection and per active Trade Route to or from the City. Capital/Holy City gains +2 [ICON_PEACE] Faith and [ICON_GOLD] Gold after your second City is founded, and +2 [ICON_GREAT_PEOPLE] Great Merchant Points.'
+SET Text = '[ICON_CONNECTED]도시 연결에서 오는 [ICON_GOLD]골드 및 [ICON_PEACE]신앙이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다. [ICON_INTERNATIONAL_TRADE]교역로 1개마다 [ICON_PEACE]신앙 및 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다. 수도/성도의 [ICON_GREAT_PEOPLE]위대한 상인 점수가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가하고, 두번째 도시를 개척하면 수도/성도의 [ICON_PEACE]신앙 및 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_BELIEF_MESSENGER_GODS' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_RELIGION' AND Value= 1 );
 
 UPDATE Language_ko_KR
@@ -37,7 +37,7 @@ WHERE Tag = 'TXT_KEY_BELIEF_MESSENGER_GODS_SHORT' AND EXISTS (SELECT * FROM COMM
 
 -- One With Nature (Now Goddess of Nature)
 UPDATE Language_ko_KR
-SET Text = '+1 [ICON_PEACE] Faith, [ICON_GOLD] Gold, and [ICON_FOOD] Food for every 2 Mountains within 3 tiles of a City (capping at the City''s population). Natural Wonders gain +3 [ICON_PEACE] Faith and +2 [ICON_CULTURE] Culture'
+SET Text = '도시 주변 3타일 이내의 산 2개마다 [ICON_FOOD]식량, [ICON_GOLD]골드, [ICON_PEACE]신앙이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 자연 경관의 [ICON_PEACE]신앙이 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_BELIEF_ONE_WITH_NATURE' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_RELIGION' AND Value= 1 );
 
 UPDATE Language_ko_KR
@@ -46,7 +46,7 @@ WHERE Tag = 'TXT_KEY_BELIEF_ONE_WITH_NATURE_SHORT' AND EXISTS (SELECT * FROM COM
 
 -- Liturgy (Now Goddess of Wisdom)
 UPDATE Language_ko_KR
-SET Text = '+1 [ICON_RESEARCH] Science, +1 [ICON_PEACE] Faith in every City, and +2 [ICON_GREAT_PEOPLE] Great Scientist Points in Capital/Holy City. +2 [ICON_PEACE] Faith and [ICON_RESEARCH] Science in any City with a Specialist'
+SET Text = '모든 도시의 [ICON_PEACE]신앙 및 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가하고 수도/성도의 [ICON_GREAT_PEOPLE]위대한 과학자 점수가 [COLOR_POSITIVE_TEXT]2 [ENDCOLOR]증가합니다. 전문가가 있는 도시의 [ICON_PEACE]신앙 및 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_BELIEF_FORMAL_LITURGY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_RELIGION' AND Value= 1 );
 
 UPDATE Language_ko_KR
@@ -56,7 +56,7 @@ WHERE Tag = 'TXT_KEY_BELIEF_FORMAL_LITURGY_SHORT' AND EXISTS (SELECT * FROM COMM
 -- Stone Circles (Now God of Craftsmen)
 UPDATE Language_ko_KR
 
-SET Text = '+1 [ICON_PEACE] Faith and [ICON_PRODUCTION] Production from Quarries and Stone Works. +1 [ICON_CULTURE] Culture, +1 [ICON_RESEARCH] Science, and +2 [ICON_PEACE] Faith from the Palace'
+SET Text = '채석장, 석재 공장의 [ICON_PRODUCTION]생산 및 [ICON_PEACE]신앙이 [COLOR_POSITIVE_TEXT]1 [ENDCOLOR]증가합니다. 궁전의 [ICON_PEACE]신앙이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] [ICON_CULTURE]문화 및 [ICON_RESEARCH과학이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_BELIEF_STONE_CIRCLES' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_RELIGION' AND Value= 1 );
 
 UPDATE Language_ko_KR
@@ -65,7 +65,7 @@ WHERE Tag = 'TXT_KEY_BELIEF_STONE_CIRCLES_SHORT' AND EXISTS (SELECT * FROM COMMU
 
 -- God of War
 UPDATE Language_ko_KR
-SET Text = '+10% increase in City [ICON_RANGE_STRENGTH] Ranged Combat Strength, and +10% [ICON_PRODUCTION] Production towards Units. Gain [ICON_PEACE] Faith from killing military units'
+SET Text = '도시의 [ICON_RANGE_STRENGTH]원거리 전투력이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다. 유닛을 생산할 때 [ICON_PRODUCTION]생산 보너스를 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 제공합니다. 적 군사 유닛을 처치할 때 [ICON_PEACE]신앙을 획득합니다.'
 WHERE Tag = 'TXT_KEY_BELIEF_GOD_WAR' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_RELIGION' AND Value= 1 );
 
 -- Sacred Waters (Now Goddess of Purity)
@@ -74,12 +74,12 @@ SET Text = '순수의 여신'
 WHERE Tag = 'TXT_KEY_BELIEF_SACRED_WATERS_SHORT' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_RELIGION' AND Value= 1 );
 
 UPDATE Language_ko_KR
-SET Text = '+1 [ICON_PEACE] Faith and [ICON_FOOD] Food from Lakes, +1 [ICON_PEACE] Faith, [ICON_FOOD] Food, and [ICON_PRODUCTION] Production from Marshes. +1 [ICON_HAPPINESS_1] Happiness from Cities on rivers'
+SET Text = '호수 타일의 [ICON_PEACE]신앙 및 [ICON_FOOD]식량이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 습지 타일의 [ICON_PEACE]신앙, [ICON_FOOD]식량, [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 강과 인접한 도시의 [ICON_HAPPINESS_1]행복이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_BELIEF_SACRED_WATERS' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_RELIGION' AND Value= 1 );
 
 -- Goddess of Love
 UPDATE Language_ko_KR
-SET Text = '+3 [ICON_PRODUCTION] Production, +2 [ICON_GOLD] Gold, and +1 [ICON_PEACE] Faith in Cities with at least 3 [ICON_CITIZEN] Citizens. +1 [ICON_PRODUCTION] Production and [ICON_PEACE] Faith from Engineer Specialists' 
+SET Text = '[ICON_CITIZEN]시민이 3명 이상인 도시의 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] [ICON_PEACE]신앙이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 모든 기술자 전문가의 [ICON_PEACE]신앙 및 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.' 
 WHERE Tag = 'TXT_KEY_BELIEF_GODDESS_LOVE' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_RELIGION' AND Value= 1 );
 
 UPDATE Language_ko_KR
@@ -88,7 +88,7 @@ WHERE Tag = 'TXT_KEY_BELIEF_GODDESS_LOVE_SHORT' AND EXISTS (SELECT * FROM COMMUN
 
 -- Religious Settlements (Now God of the Expanse)
 UPDATE Language_ko_KR
-SET Text = '+25% faster border growth, and gain 20 [ICON_PEACE] Faith and 10 [ICON_PRODUCTION] Production every time a City expands its borders naturally, scaling with Gamespeed'
+SET Text = '국경 확장 속도가 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다. 국경이 확장될 때 [ICON_PEACE]신앙을 [COLOR_POSITIVE_TEXT]20[ENDCOLOR] [COLOR:130:130:130:255](게임 속도별 보정)[ENDCOLOR] [ICON_PRODUCTION]생산을 [COLOR_POSITIVE_TEXT]10[ENDCOLOR] [COLOR:130:130:130:255](게임 속도별 보정)[ENDCOLOR] 제공합니다.'
 WHERE Tag = 'TXT_KEY_BELIEF_RELIGIOUS_SETTLEMENTS' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_RELIGION' AND Value= 1 );
 
 -- Religious Settlements 
@@ -98,12 +98,12 @@ WHERE Tag = 'TXT_KEY_BELIEF_RELIGIOUS_SETTLEMENTS_SHORT' AND EXISTS (SELECT * FR
 
 -- God of Festivals
 UPDATE Language_ko_KR
-SET Text = '+3 [ICON_GOLD] Gold, +1 [ICON_CULTURE] Culture, and +1 [ICON_PEACE] Faith for every unique Luxury Resource owned or imported, and +1 [ICON_PEACE] Faith in the [ICON_CAPITAL] Capital'
+SET Text = '소유 또는 수입한 모든 고유 사치 자원 1개마다 [ICON_PEACE]신앙 및 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] 증가합니다. [ICON_CAPITAL]수도의 [ICON_PEACE]신앙이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_BELIEF_GOD_FESTIVALS' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_RELIGION' AND Value= 1 );
 
 -- Oral Tradition (Now Goddess of Springtime)
 UPDATE Language_ko_KR
-SET Text = '+1 [ICON_GOLD] Gold, +1 [ICON_FOOD] Food, and [ICON_PEACE] Faith from Plantations. +1 [ICON_RESEARCH] Science and +2 [ICON_PEACE] Faith from Herbalists'
+SET Text = '모든 약초상의 [ICON_PEACE]신앙이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 재배지의 [ICON_PEACE]신앙, [ICON_FOOD]식량, [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_BELIEF_ORAL_TRADITION' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_RELIGION' AND Value= 1 );
 
 UPDATE Language_ko_KR
@@ -112,12 +112,12 @@ WHERE Tag = 'TXT_KEY_BELIEF_ORAL_TRADITION_SHORT' AND EXISTS (SELECT * FROM COMM
 
 -- Ancestor Worship
 UPDATE Language_ko_KR
-SET Text = '+1 [ICON_PEACE] Faith for every 4 [ICON_CITIZEN] Citizens in a City. +1 [ICON_CULTURE] Culture and [ICON_PEACE] Faith from Councils'
+SET Text = '자문회의 [ICON_PEACE]신앙 및 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. [ICON_CITIZEN]시민 4명마다 [ICON_PEACE]신앙이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_BELIEF_ANCESTOR_WORSHIP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_RELIGION' AND Value= 1 );
 
 -- Desert Folklore (Now Spirit of the Desert)
 UPDATE Language_ko_KR
-SET Text = '+1 [ICON_PEACE] Faith, [ICON_PRODUCTION] Production, and [ICON_GOLD] Gold from Desert tiles with resources, and +3 [ICON_FOOD] Food from Oases'
+SET Text = '오아시스 타일의 [ICON_FOOD]식량이 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] 증가합니다. 사막 위 자원 타일의 [ICON_PEACE]신앙, [ICON_PRODUCTION]생산, [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_BELIEF_DESERT_FOLKLORE' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_RELIGION' AND Value= 1 );
 
 UPDATE Language_ko_KR
@@ -126,7 +126,7 @@ WHERE Tag = 'TXT_KEY_BELIEF_DESERT_FOLKLORE_SHORT' AND EXISTS (SELECT * FROM COM
 
 -- Sacred Path (Now Goddess of Renewal)
 UPDATE Language_ko_KR
-SET Text = '+1 [ICON_PEACE] Faith, [ICON_CULTURE] Culture, and [ICON_RESEARCH] Science for every 2 Jungle or 2 Forest tiles worked by a City. +2 [ICON_FOOD] Food and [ICON_RESEARCH] Science from Markets'
+SET Text = '숲 또는 정글 타일 2개마다 [ICON_CULTURE]문화, [ICON_RESEARCH]과학, [ICON_PEACE]신앙이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 시장의 [ICON_RESEARCH]과학 및 [ICON_FOOD]식량이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_BELIEF_SACRED_PATH' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_RELIGION' AND Value= 1 );
 
 UPDATE Language_ko_KR
@@ -135,12 +135,12 @@ WHERE Tag = 'TXT_KEY_BELIEF_SACRED_PATH_SHORT' AND EXISTS (SELECT * FROM COMMUNI
 
 -- Goddess of Protection
 UPDATE Language_ko_KR
-SET Text = '+10 HP healed per turn in friendly territory. +2 [ICON_PEACE] Faith and +1 [ICON_CULTURE] Culture from Palace, Walls, and Barracks'
+SET Text = '궁전, 성벽, 병영의 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] [ICON_PEACE]신앙이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다. 우호 영토 내에서 매 턴 체력을 [COLOR_POSITIVE_TEXT]10[ENDCOLOR] 회복합니다.'
 WHERE Tag = 'TXT_KEY_BELIEF_GODDESS_STRATEGY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_RELIGION' AND Value= 1 );
 
 -- Monument to the Gods (Now Goddess of Beauty)
 UPDATE Language_ko_KR
-SET Text = '+2 [ICON_PEACE] Faith from Palace and World Wonders, +1 [ICON_PEACE] Faith from [ICON_GREAT_WORK] Great Works. +2 [ICON_GREAT_ARTIST] Great Artist and [ICON_GREAT_ENGINEER] Great Engineer Points in your [ICON_CAPITAL] Capital'
+SET Text = '궁전 및 세계 불가사의의 [ICON_PEACE]신앙이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가하고 [ICON_GREAT_WORK]걸작에서 오는 [ICON_PEACE]신앙이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. [ICON_CAPITAL]수도의 [ICON_GREAT_PEOPLE]위대한 예술가 및 위대한 기술자 점수가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_BELIEF_MONUMENT_GODS' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_RELIGION' AND Value= 1 );
 
 UPDATE Language_ko_KR
@@ -149,7 +149,7 @@ WHERE Tag = 'TXT_KEY_BELIEF_MONUMENT_GODS_SHORT' AND EXISTS (SELECT * FROM COMMU
 
 -- Dance of the Aurora (Now God of the Stars and Sky)
 UPDATE Language_ko_KR
-SET Text = '+1 [ICON_PEACE] Faith, [ICON_CULTURE] Culture, [ICON_FOOD] Food, and [ICON_GOLD] Gold from Tundra tiles with resources'
+SET Text = '툰드라 위 자원 타일의 [ICON_GOLD]골드, [ICON_FOOD]식량, [ICON_CULTURE]문화, [ICON_PEACE]신앙이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_BELIEF_DANCE_AURORA' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_RELIGION' AND Value= 1 );
 
 UPDATE Language_ko_KR
@@ -158,7 +158,7 @@ WHERE Tag = 'TXT_KEY_BELIEF_DANCE_AURORA_SHORT' AND EXISTS (SELECT * FROM COMMUN
 
 --  Tears of the Gods (Now God of All Creation)
 UPDATE Language_ko_KR
-SET Text = '+1 [ICON_PEACE] Faith from Monuments and +1 [ICON_CULTURE] in [ICON_CAPITAL] Capital. +1 [ICON_FOOD] Food, [ICON_PRODUCTION] Production, [ICON_GOLD] Gold, and [ICON_RESEARCH] Science in [ICON_CAPITAL] Capital for every two Pantheons ever founded (caps at 8 Pantheons total)'
+SET Text = '기념비의 [ICON_PEACE]신앙이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가하고 [ICON_CAPITAL]수도의 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 창시된 종교관 2개마다 [ICON_CAPITAL]수도의 [ICON_RESEARCH]과학, [ICON_GOLD]골드, [ICON_PRODUCTION]생산, [ICON_FOOD]식량이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_BELIEF_TEARS_OF_GODS' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_RELIGION' AND Value= 1 );
 
 UPDATE Language_ko_KR
@@ -167,17 +167,19 @@ WHERE Tag = 'TXT_KEY_BELIEF_TEARS_OF_GODS_SHORT' AND EXISTS (SELECT * FROM COMMU
 
 -- Earth Mother
 UPDATE Language_ko_KR
-SET Text = '+1 [ICON_PEACE] Faith and [ICON_CULTURE] Culture from Mines on improved resources, +1 [ICON_PEACE] Faith and [ICON_PRODUCTION] Production from Monuments'
+SET Text = '기념비의 [ICON_PRODUCTION]생산 및 [ICON_PEACE]신앙이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 광산이 건설된 자원 타일의 [ICON_CULTURE]문화 및 [ICON_PEACE]신앙이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 
+
+'
 WHERE Tag = 'TXT_KEY_BELIEF_EARTH_MOTHER' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_RELIGION' AND Value= 1 );
 
 -- God-King
 UPDATE Language_ko_KR
-SET Text = '+1 [ICON_PEACE] Faith in [ICON_CAPITAL] Capital. +1 [ICON_CULTURE] Culture, [ICON_GOLDEN_AGE] Golden Age Points, [ICON_PEACE] Faith, [ICON_GOLD] Gold, and [ICON_RESEARCH] Science in [ICON_CAPITAL] Capital for every 5 Followers of your Pantheon in owned Cities'
+SET Text = '[ICON_CAPITAL]수도의 [ICON_PEACE]신앙이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 당신 문명의 종교관을 따르는 신도 5명마다 [ICON_CAPITAL]수도의 [ICON_RESEARCH]과학, [ICON_GOLD]골드, [ICON_PEACE]신앙, [ICON_GOLDEN_AGE]황금기 점수, [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_BELIEF_GOD_KING' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_RELIGION' AND Value= 1 );
 
 -- Sun God
 UPDATE Language_ko_KR
-SET Text = '+3 [ICON_PEACE] Faith and +2 [ICON_GOLD] Gold from Granaries. +3 [ICON_FOOD] Food from Farms on [ICON_RES_WHEAT] Wheat'
+SET Text = '농장이 건설된 [ICON_RES_WHEAT]밀의 [ICON_FOOD]식량이 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] 증가합니다. 곡창의 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] [ICON_PEACE]신앙이 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_BELIEF_SUN_GOD' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_RELIGION' AND Value= 1 );
 
 UPDATE Language_ko_KR
@@ -186,16 +188,16 @@ WHERE Tag = 'TXT_KEY_BELIEF_SUN_GOD_SHORT' AND EXISTS (SELECT * FROM COMMUNITY W
 
 -- Charitable Missions (Now Missionary Influence)
 UPDATE Language_ko_KR
-SET Text = '+10 [ICON_RESEARCH] Science, [ICON_CULTURE] Culture, [ICON_GOLD] Gold, [ICON_PEACE] Faith, and [ICON_GOLDEN_AGE] Golden Age Points per turn while the Host of the World Congress. Receive 150 of these yields instantly when you pass a Proposal. Bonuses scale with Era.'
+SET Text = '세계 대회 주최자일 때 매 턴 [ICON_RESEARCH]과학, [ICON_CULTURE]문화, [ICON_GOLD]골드, [ICON_PEACE]신앙, [ICON_GOLDEN_AGE]황금기 점수가 [COLOR_POSITIVE_TEXT]10[ENDCOLOR] 증가합니다. 결의안이 통과되면 해당 산출량을 즉시 [COLOR_POSITIVE_TEXT]150[ENDCOLOR] [COLOR:130:130:130:255](시대별 보정)[ENDCOLOR] 제공합니다.'
 WHERE Tag = 'TXT_KEY_BELIEF_CHARITABLE_MISSIONS' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_RELIGION' AND Value= 1 );
 
 UPDATE Language_ko_KR
-SET Text = '십계명'
+SET Text = '범인류적 계명'
 WHERE Tag = 'TXT_KEY_BELIEF_CHARITABLE_MISSIONS_SHORT' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_RELIGION' AND Value= 1 );
 
 -- Evangelism (Now Crusader Zeal)
 UPDATE Language_ko_KR
-SET Text = 'Land Units gain +10% [ICON_STRENGTH] Combat Strength versus Land Units in enemy lands, and an additional +10% versus Land Units of players that do not follow your Religion. Receive [ICON_CULTURE] Culture and [ICON_GOLD] Gold when you conquer Cities.'
+SET Text = '도시를 점령했을 때 [ICON_GOLD]골드 및 [ICON_PEACE]신앙을 제공합니다. 적 영토 내 지상 유닛과 전투 시 또는 당신 문명의 종교를 따르지 않는 적 지상 유닛과 전투 시 지상 유닛의 전투력 보너스가 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_BELIEF_EVANGELISM' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_RELIGION' AND Value= 1 );
 
 UPDATE Language_ko_KR
@@ -204,12 +206,12 @@ WHERE Tag = 'TXT_KEY_BELIEF_EVANGELISM_SHORT' AND EXISTS (SELECT * FROM COMMUNIT
 
 -- Defender of the Faith
 UPDATE Language_ko_KR
-SET Text = 'Land Units gain +10% [ICON_STRENGTH] Combat Strength versus Land Units in own lands, and an additional +10% versus Land Units of players that do not follow your Religion. +1 [ICON_PEACE] Faith and +2 [ICON_CULTURE] Culture from all Defensive Buildings.'
+SET Text = '우호 영토 내 지상 유닛과 전투 시 또는 당신 문명의 종교를 따르지 않는 적 지상 유닛과 전투 시 지상 유닛의 전투력 보너스가 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다. 모든 방어 건물의 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] [ICON_PEACE]신앙이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_BELIEF_DEFENDER_FAITH' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_RELIGION' AND Value= 1 );
 
 -- Jesuit Education 
 UPDATE Language_ko_KR
-SET Text = 'May build Universities, Public Schools, and Research Labs with [ICON_PEACE] Faith, and each building gains +2 [ICON_RESEARCH] Science. Holy City gains 20 [ICON_PEACE] Faith each time the owner expends a [ICON_GREAT_PEOPLE] Great Person, scaling with Era.'
+SET Text = '[ICON_PEACE]신앙으로 대학, 공립학교, 연구소를 구매할 수 있고 해당 건물의 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다. 성도에서 [ICON_GREAT_PEOPLE]위인을 소모할 때 [ICON_PEACE]신앙을 [COLOR_POSITIVE_TEXT]20[ENDCOLOR] [COLOR:130:130:130:255](시대별 보정)[ENDCOLOR] 제공합니다.'
 WHERE Tag = 'TXT_KEY_BELIEF_JESUIT_EDUCATION' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_RELIGION' AND Value= 1 );
 
 UPDATE Language_ko_KR
@@ -218,7 +220,7 @@ WHERE Tag = 'TXT_KEY_BELIEF_JESUIT_EDUCATION_SHORT' AND EXISTS (SELECT * FROM CO
 
 -- Religious Fervor (Now The One True Faith)
 UPDATE Language_ko_KR
-SET Text = 'Receive 1 additional [ICON_DIPLOMAT] Delegate in the World Congress for every 2 [ICON_RELIGION] Holy Sites or 2 [ICON_TOURISM] Landmarks you own. +50% Yields from Friendly/Allied [ICON_CITY_STATE] City-States following this Religion.'
+SET Text = '성지 또는 랜드마크 2개마다 세계 대회 추가 [COLOR_YELLOW]대표단[ENDCOLOR]을 1명 확보합니다. 이 종교를 따르는 우호적/동맹인 [ICON_CITY_STATE]도시 국가1에서 오는 산출량이 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_BELIEF_RELIGIOUS_FERVOR' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_RELIGION' AND Value= 1 );
 
 UPDATE Language_ko_KR
@@ -227,17 +229,19 @@ WHERE Tag = 'TXT_KEY_BELIEF_RELIGIOUS_FERVOR_SHORT' AND EXISTS (SELECT * FROM CO
 
 -- Sacred Sites
 UPDATE Language_ko_KR
-SET Text = 'Hotels and all buildings purchased with Faith provide +3 [ICON_TOURISM] Tourism each. World and Natural Wonders gain +4 [ICON_TOURISM] Tourism each. Hermitage provides +10 [ICON_CULTURE] Culture and +10 [ICON_TOURISM] Tourism.'
+SET Text = '호텔 및 [ICON_PEACE]신앙으로 구매하는 모든 건물의 [ICON_TOURISM]관광이 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] 증가합니다. 세계 불가사의 및 자연 경관의 [ICON_TOURISM]관광이 [COLOR_POSITIVE_TEXT]4[ENDCOLOR] 증가합니다. 에르미타슈 박물관의 [ICON_CULTURE]문화 및 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]10[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_BELIEF_SACRED_SITES' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_RELIGION' AND Value= 1 );
 
 -- Glory of God
 UPDATE Language_ko_KR
-SET Text = 'Use [ICON_PEACE] Faith to purchase any type of [ICON_GREAT_PEOPLE] Great Person (in Industrial Era). When you expend a [ICON_GREAT_PEOPLE] Great Person, gain 3 [ICON_GOLD] Gold, [ICON_RESEARCH] Science, and [ICON_CULTURE] Culture per City following your Religion (max 20 Cities).'
+SET Text = '[ICON_GREAT_PEOPLE]위인을 소모할 때 당신 문명의 종교를 따르는 도시 1개마다 [COLOR:130:130:130:255](한도: 20도시)[ENDCOLOR] [ICON_CULTURE]문화, [ICON_RESEARCH]과학, [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] 증가합니다. 산업 시대부터 [ICON_PEACE]신앙으로 [ICON_GREAT_PEOPLE]위인을 구매할 수 있습니다.'
 WHERE Tag = 'TXT_KEY_BELIEF_TO_GLORY_OF_GOD' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_RELIGION' AND Value= 1 );
 
 -- Underground Sect (Now Faith of the  Masses)
 UPDATE Language_ko_KR
-SET Text = 'May build Amphitheaters, Opera Houses, Museums, Broadcast Towers, and Stadiums with [ICON_PEACE] Faith. These buildings produce +2 [ICON_CULTURE] Culture each. Holy City owner gains +1 [ICON_HAPPINESS_1] Happiness for every two Cities following this Religion.'
+SET Text = '
+
+[ICON_PEACE]신앙으로 원형극장, 오페라 극장, 박물관, 방송탑, 경기장을 구매할 수 있고, 해당 건물의 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다. 이 종교를 따르는 도시 2개마다 성도의 [ICON_HAPPINESS_1]행복이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_BELIEF_UNDERGROUND_SECT' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_RELIGION' AND Value= 1 );
 
 UPDATE Language_ko_KR
@@ -246,7 +250,7 @@ WHERE Tag = 'TXT_KEY_BELIEF_UNDERGROUND_SECT_SHORT' AND EXISTS (SELECT * FROM CO
 
 -- Unity of the Prophets (Now Knowledge Through Faith)
 UPDATE Language_ko_KR
-SET Text = 'Landmarks and Great Person Improvements produce +4 [ICON_PEACE] Faith and [ICON_RESEARCH] Science. [ICON_GREAT_WORK] Great Works produce +2 [ICON_CULTURE] Culture, and you can purchase Archaeologists with [ICON_PEACE] Faith.'
+SET Text = '랜드마크 및 위인 시설의 [ICON_PEACE]신앙 및 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]4[ENDCOLOR] 증가합니다. [ICON_GREAT_WORK]걸작에서 오는 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가하고 [ICON_PEACE]신앙으로 고고학자를 구매할 수 있습니다.'
 WHERE Tag = 'TXT_KEY_BELIEF_UNITY_OF_PROPHETS' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_RELIGION' AND Value= 1 );
 
 UPDATE Language_ko_KR
@@ -268,7 +272,7 @@ WHERE Tag = 'TXT_KEY_BUILDING_MOSQUE_STRATEGY' AND EXISTS (SELECT * FROM COMMUNI
 
 -- Religious Texts (Now Hymns)
 UPDATE Language_ko_KR
-SET Text = '[ICON_INQUISITOR] Inquisitors cost 25% less [ICON_PEACE] Faith, and generate 25 [ICON_GOLD] Gold per converted [ICON_CITIZEN] Citizen when Removing Heresy. Removing Heresy no longer causes [ICON_RESISTANCE] Resistance in Cities. Your [ICON_SPY] Spies exert +50 Religious Pressure on the Cities they occupy (Standard Speed), and +2 [ICON_HAPPINESS_1] Happiness if stationed in a foreign City.'
+SET Text = '[ICON_INQUISITOR]이단심문관의 구매 [ICON_PEACE]비용이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 감소합니다. 이단 제거 시 개종된 [ICON_CITIZEN]시민 1명마다 [ICON_GOLD]골드를 [COLOR_POSITIVE_TEXT]25[ENDCOLOR] 제공합니다. 더이상 이단 제거가 도시의 [ICON_RESISTANCE]저항을 유발하지 않습니다. 당신 문명의 [ICON_SPY]스파이가 배치된 도시에 종교 압력을 [COLOR_POSITIVE_TEXT]50[ENDCOLOR] [COLOR:130:130:130:255](표준 속도)[ENDCOLOR] 행사하고 외국 도시에 주둔하면 [ICON_HAPPINESS_1]행복이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_BELIEF_RELIGIOUS_TEXTS' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_RELIGION' AND Value= 1 );
 
 UPDATE Language_ko_KR
@@ -277,7 +281,8 @@ WHERE Tag = 'TXT_KEY_BELIEF_RELIGIOUS_TEXTS_SHORT' AND EXISTS (SELECT * FROM COM
 
 -- Reliquary (Now Tithes)
 UPDATE Language_ko_KR
-SET Text = '+2 [ICON_CULTURE] Culture and [ICON_PEACE] Faith in all owned Cities following this [ICON_RELIGION] Religion. +1 [ICON_PEACE] Faith in a City for every 10 [ICON_GOLD] Gold per Turn it produces, capped at half the number of Followers in the City.'
+SET Text = '이 [ICON_RELIGION]종교를 따르는 모든 도시의 [ICON_CULTURE]문화 및 [ICON_PEACE]신앙이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다. 턴당 [ICON_GOLD]골드 [COLOR_POSITIVE_TEXT]10[ENDCOLOR]마다 도시의 [ICON_PEACE]신앙이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. [COLOR:130:130:130:255](한도: 도시 내 신도 수의 절반)[ENDCOLOR]'
+
 WHERE Tag = 'TXT_KEY_BELIEF_RELIQUARY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_RELIGION' AND Value= 1 );
 
 UPDATE Language_ko_KR
@@ -286,7 +291,7 @@ WHERE Tag = 'TXT_KEY_BELIEF_RELIQUARY_SHORT' AND EXISTS (SELECT * FROM COMMUNITY
 
 -- Just War (Now Martyrdom)
 UPDATE Language_ko_KR
-SET Text = '+1 [ICON_GOLD] Gold and [ICON_PEACE] Faith in Holy City for every 10 followers of this [ICON_RELIGION] Religion in Foreign Cities. Minimum [ICON_INFLUENCE] Influence with City-States following your Religion is [COLOR_POSITIVE_TEXT]35[ENDCOLOR], and you receive +20% rewards from City-State Quests.'
+SET Text = '이 [ICON_RELIGION]종교를 따르는 다른 문명의 신도 10명마다 성도의 [ICON_PEACE]신앙 및 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 당신의 종교를 따르는 도시 국가 [ICON_INFLUENCE]영향력 정지점이 [COLOR_POSITIVE_TEXT]35[ENDCOLOR]로 감소하며 도시 국가의 퀘스트 보상이 [COLOR_POSITIVE_TEXT]20%[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_BELIEF_JUST_WAR' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_RELIGION' AND Value= 1 );
 
 UPDATE Language_ko_KR
@@ -295,7 +300,7 @@ WHERE Tag = 'TXT_KEY_BELIEF_JUST_WAR_SHORT' AND EXISTS (SELECT * FROM COMMUNITY 
 
 -- Heathen Conversion (Now Holy Warriors)
 UPDATE Language_ko_KR
-SET Text = 'May spend [ICON_PEACE] Faith to purchase land units in Cities. Strategic Resource quantities increase by 1% per following City (up to 25%).'
+SET Text = '[ICON_PEACE]신앙으로 지상 유닛을 구매할 수 있습니다. 종교를 따르는 도시 1개마다 전략 자원의 양이 [COLOR_POSITIVE_TEXT]1%[ENDCOLOR] [COLOR:130:130:130:255](한도: 25%)[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_BELIEF_HEATHEN_CONVERSION' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_RELIGION' AND Value= 1 );
 
 UPDATE Language_ko_KR
@@ -304,7 +309,7 @@ WHERE Tag = 'TXT_KEY_BELIEF_HEATHEN_CONVERSION_SHORT' AND EXISTS (SELECT * FROM 
 
 -- Itinerant Preachers (Now Iconography)
 UPDATE Language_ko_KR
-SET Text = 'Holy City gains +5 [ICON_GOLDEN_AGE] Golden Age Points and +2 [ICON_GREAT_PEOPLE] Great Person Points per turn for all [ICON_GREAT_PEOPLE] Great People. [ICON_MISSIONARY] Missionaries of this Religion erode existing pressure from other religions by 15% when Spreading Religion.'
+SET Text = '성도의 [ICON_GOLDEN_AGE]황금기 점수가 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 증가하고 매 턴 모든 [ICON_GREAT_PEOPLE]위인 점수가 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 증가합니다. [ICON_MISSIONARY]선교사가 종교를 전파할 때 다른 종교의 압력을 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR] 감소시킵니다.'
 WHERE Tag = 'TXT_KEY_BELIEF_ITINERANT_PREACHERS' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_RELIGION' AND Value= 1 );
 
 UPDATE Language_ko_KR
@@ -313,7 +318,7 @@ WHERE Tag = 'TXT_KEY_BELIEF_ITINERANT_PREACHERS_SHORT' AND EXISTS (SELECT * FROM
 
 -- Messiah (Now Sainthood)
 UPDATE Language_ko_KR
-SET Text = 'Reduce minimum Policy requirement for Wonders by 1. Prophets of this [ICON_RELIGION] Religion 25% stronger, cost 25% less [ICON_PEACE] Faith. +3 to base Holy Site yields. If this is the majority Religion, Follower reduction from rival [ICON_INQUISITOR] Inquisitors and [ICON_PROPHET] Prophets halved.'
+SET Text = '불가사의 건설에 필요한 정책 수가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소합니다. [ICON_PROPHET]위대한 선지자의 전도력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가하고 생산에 필요한 [ICON_PEACE]신앙이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 감소합니다. 성지의 산출량이 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] 증가합니다. 만약 대중 종교라면 적[ICON_INQUISITOR]이단심문관 및 [ICON_PROPHET]위대한 선지자로 인한 신도의 감소가 [COLOR_POSITIVE_TEXT]절반[ENDCOLOR]으로 줄어듭니다.'
 WHERE Tag = 'TXT_KEY_BELIEF_MESSIAH' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_RELIGION' AND Value= 1 );
 
 UPDATE Language_ko_KR
@@ -322,7 +327,7 @@ WHERE Tag = 'TXT_KEY_BELIEF_MESSIAH_SHORT' AND EXISTS (SELECT * FROM COMMUNITY W
 
 -- Missionary Zeal (Now Scholar-Priests)
 UPDATE Language_ko_KR
-SET Text = '+33% [ICON_GREAT_PEOPLE] Great Person Rate in Holy City during [ICON_GOLDEN_AGE] Golden Ages. +3 [ICON_GOLDEN_AGE] Golden Age Points and [ICON_GOLD] Gold in [ICON_RELIGION] Holy City for every Foreign City following this Religion. Missionaries of this Religion 25% stronger.'
+SET Text = '[ICON_GOLDEN_AGE]황금기 동안 성도의 [ICON_GREAT_PEOPLE]위인 출현율이 [COLOR_POSITIVE_TEXT]33%[ENDCOLOR] 증가합니다. 이 종교를 따르는 외국 도시 1개마다 성도의 [ICON_GOLD]골드 및 [ICON_GOLDEN_AGE]황금기 점수가 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] 증가합니다. [ICON_MISSIONARY]선교사의 전도력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다. '
 WHERE Tag = 'TXT_KEY_BELIEF_MISSIONARY_ZEAL' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_RELIGION' AND Value= 1 );
 
 UPDATE Language_ko_KR
@@ -331,7 +336,7 @@ WHERE Tag = 'TXT_KEY_BELIEF_MISSIONARY_ZEAL_SHORT' AND EXISTS (SELECT * FROM COM
 
 -- Holy Order
 UPDATE Language_ko_KR
-SET Text = '[ICON_RELIGION] Religion spreads 15% faster (30% with Printing Press), and to Cities 25% further away. Pressure doubled to friendly [ICON_CITY_STATE] City-States and foreign Cities connected via [ICON_INTERNATIONAL_TRADE] Trade Routes.'
+SET Text = '[ICON_RELIGION]종교 전파 속도가 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR] 증가하고 ([COLOR_RESEARCH_STORED]인쇄기[ENDCOLOR] 연구 시 [COLOR_POSITIVE_TEXT]30%[ENDCOLOR]), 전파 거리가 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다. 우호적인 [ICON_CITY_STATE]도시 국가 및 [ICON_INTERNATIONAL_TRADE]교역로가 연결된 다른 문명에 대한 종교 압력이 [COLOR_POSITIVE_TEXT]두 배[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_BELIEF_HOLY_ORDER' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_RELIGION' AND Value= 1 );
 
 UPDATE Language_ko_KR
@@ -340,7 +345,7 @@ WHERE Tag = 'TXT_KEY_BELIEF_HOLY_ORDER_SHORT' AND EXISTS (SELECT * FROM COMMUNIT
 
 -- Religious Unity
 UPDATE Language_ko_KR
-SET Text = '+1 [ICON_PEACE] Faith, [ICON_RESEARCH] Science, and [ICON_PRODUCTION] Production in Holy City for every 2 followers of other Religions in owned Cities. +1 [ICON_PEACE] Faith in a City for every 15 [ICON_RESEARCH] Science per turn it produces, capped at half the number of Followers in the City.'
+SET Text = '소유한 도시에서 다른 종교를 믿는 신도 2명마다 성도의 [ICON_PEACE]신앙, [ICON_RESEARCH]과학, [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 턴당 [ICON_RESEARCH]과학 [COLOR_POSITIVE_TEXT]15[ENDCOLOR]마다 도시의 [ICON_PEACE]신앙이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. [COLOR:130:130:130:255](한도: 도시 내 신도 수의 절반)[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_BELIEF_RELIGIOUS_UNITY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_RELIGION' AND Value= 1 );
 
 UPDATE Language_ko_KR
@@ -349,22 +354,22 @@ WHERE Tag = 'TXT_KEY_BELIEF_RELIGIOUS_UNITY_SHORT' AND EXISTS (SELECT * FROM COM
 
 -- Cathedral
 UPDATE Language_ko_KR
-SET Text = 'Use [ICON_PEACE] Faith to purchase Cathedrals'
+SET Text = '[ICON_PEACE]신앙으로 대성당을 구매할 수 있습니다.'
 WHERE Tag = 'TXT_KEY_BELIEF_CATHEDRALS' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_RELIGION' AND Value= 1 );
 
 -- Pagoda
 UPDATE Language_ko_KR
-SET Text = 'Use [ICON_PEACE] Faith to purchase Pagodas'
+SET Text = '[ICON_PEACE]신앙으로 파고다를 구매할 수 있습니다.'
 WHERE Tag = 'TXT_KEY_BELIEF_PAGODAS' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_RELIGION' AND Value= 1 );
 
 -- Mosque
 UPDATE Language_ko_KR
-SET Text = 'Use [ICON_PEACE] Faith to purchase Mosques'
+SET Text = '[ICON_PEACE]신앙으로 모스크를 구매할 수 있습니다.'
 WHERE Tag = 'TXT_KEY_BELIEF_MOSQUES' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_RELIGION' AND Value= 1 );
 
 -- Swords into Plowshares (Now Church)
 UPDATE Language_ko_KR
-SET Text = 'Use [ICON_PEACE] Faith to purchase Churches'
+SET Text = '[ICON_PEACE]신앙으로 교회를 구매할 수 있습니다.'
 WHERE Tag = 'TXT_KEY_BELIEF_SWORD_PLOWSHARES' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_RELIGION' AND Value= 1 );
 
 UPDATE Language_ko_KR
@@ -377,12 +382,12 @@ SET Text = '만디르'
 WHERE Tag = 'TXT_KEY_BELIEF_GURUSHIP_SHORT' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_RELIGION' AND Value= 1 );
 
 UPDATE Language_ko_KR
-SET Text = 'Use [ICON_PEACE] Faith to purchase Mandirs'
+SET Text = '[ICON_PEACE]신앙으로 만디르를 구매할 수 있습니다.'
 WHERE Tag = 'TXT_KEY_BELIEF_GURUSHIP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_RELIGION' AND Value= 1 );
 
 -- Holy Warriors (Now Synagogue)
 UPDATE Language_ko_KR
-SET Text = 'Use [ICON_PEACE] Faith to purchase Synagogues'
+SET Text = '[ICON_PEACE]신앙으로 회당을 구매할 수 있습니다.'
 WHERE Tag = 'TXT_KEY_BELIEF_HOLY_WARRIORS' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_RELIGION' AND Value= 1 );
 
 UPDATE Language_ko_KR
@@ -391,7 +396,7 @@ WHERE Tag = 'TXT_KEY_BELIEF_HOLY_WARRIORS_SHORT' AND EXISTS (SELECT * FROM COMMU
 
 -- Monasteries (Now Stupa)
 UPDATE Language_ko_KR
-SET Text = 'Use [ICON_PEACE] Faith to purchase Stupas'
+SET Text = '[ICON_PEACE]신앙으로 사리탑을 구매할 수 있습니다.'
 WHERE Tag = 'TXT_KEY_BELIEF_MONASTERIES' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_RELIGION' AND Value= 1 );
 
 UPDATE Language_ko_KR
@@ -400,7 +405,7 @@ WHERE Tag = 'TXT_KEY_BELIEF_MONASTERIES_SHORT' AND EXISTS (SELECT * FROM COMMUNI
 
 -- Feed the World (Now Thrift)
 UPDATE Language_ko_KR
-SET Text = '+1 [ICON_GOLD] Gold for every follower in the City (max +10 [ICON_GOLD] Gold)'
+SET Text = '신도 1명마다 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. (한도:10 [ICON_GOLD])'
 WHERE Tag = 'TXT_KEY_BELIEF_FEED_WORLD' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_RELIGION' AND Value= 1 );
 
 UPDATE Language_ko_KR
@@ -409,7 +414,7 @@ WHERE Tag = 'TXT_KEY_BELIEF_FEED_WORLD_SHORT' AND EXISTS (SELECT * FROM COMMUNIT
 
 -- Peace Gardens (Now Cooperation)
 UPDATE Language_ko_KR
-SET Text = 'Receive +5 to all City yields every time a [ICON_CITIZEN] Citizen is born in the City. Bonus scales with Era'
+SET Text = '[ICON_CITIZEN]시민이 태어날 때 모든 도시의 산출량이 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] (시대별 보정) 증가합니다.'
 WHERE Tag = 'TXT_KEY_BELIEF_PEACE_GARDENS' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_RELIGION' AND Value= 1 );
 
 UPDATE Language_ko_KR
@@ -418,7 +423,7 @@ WHERE Tag = 'TXT_KEY_BELIEF_PEACE_GARDENS_SHORT' AND EXISTS (SELECT * FROM COMMU
 
 -- Choral Music (Now Scholarship)
 UPDATE Language_ko_KR
-SET Text = '+1 [ICON_RESEARCH] Science for every 2 followers in the City (max +15 [ICON_RESEARCH] Science)'
+SET Text = '신도 2명마다 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] [COLOR:130:130:130:255](한도: [ICON_RESEARCH]15)[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_BELIEF_CHORAL_MUSIC' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_RELIGION' AND Value= 1 );
 
 UPDATE Language_ko_KR
@@ -427,7 +432,7 @@ WHERE Tag = 'TXT_KEY_BELIEF_CHORAL_MUSIC_SHORT' AND EXISTS (SELECT * FROM COMMUN
 
 -- Religious Art (Now Mastery)
 UPDATE Language_ko_KR
-SET Text = 'Specialists generate +1 [ICON_GOLDEN_AGE] Golden Age Point and +1 of their primary Yield ([ICON_RESEARCH]/[ICON_GOLD]/[ICON_PRODUCTION]/[ICON_CULTURE]).'
+SET Text = '전문가의 [ICON_GOLDEN_AGE]황금기 점수 및 주요 산출량이 ([ICON_RESEARCH]/[ICON_GOLD]/[ICON_PRODUCTION]/[ICON_CULTURE]) [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_BELIEF_RELIGIOUS_ART' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_RELIGION' AND Value= 1 );
 
 UPDATE Language_ko_KR
@@ -436,7 +441,7 @@ WHERE Tag = 'TXT_KEY_BELIEF_RELIGIOUS_ART_SHORT' AND EXISTS (SELECT * FROM COMMU
 
 -- Liturgical Drama (Now Veneration)
 UPDATE Language_ko_KR
-SET Text = '+1 [ICON_PEACE] Faith, [ICON_RESEARCH] Science, [ICON_PRODUCTION] Production, and [ICON_FOOD] Food in the City. 10% of the cost of [ICON_PEACE] Faith Purchases in this City is converted into [ICON_CULTURE] Culture and [ICON_GOLD] Gold.'
+SET Text = '도시의 [ICON_FOOD]식량, [ICON_PRODUCTION]생산, [ICON_RESEARCH]과학, [ICON_PEACE]신앙이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 이 도시에서 [ICON_PEACE]신앙으로 구매하는 비용의 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR]를 [ICON_CULTURE]문화 및 [ICON_GOLD]골드로 전환합니다.'
 WHERE Tag = 'TXT_KEY_BELIEF_LITURGICAL_DRAMA' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_RELIGION' AND Value= 1 );
 
 UPDATE Language_ko_KR
@@ -445,12 +450,12 @@ WHERE Tag = 'TXT_KEY_BELIEF_LITURGICAL_DRAMA_SHORT' AND EXISTS (SELECT * FROM CO
 
 -- Ascetism
 UPDATE Language_ko_KR
-SET Text = '+1 [ICON_FOOD] Food for every follower in the City (max +15 [ICON_FOOD] Food)'
+SET Text = '신도 1명마다 [ICON_FOOD]식량이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] [COLOR:130:130:130:255](한도: [ICON_GOLD]15)[ENDCOLOR]증가합니다.'
 WHERE Tag = 'TXT_KEY_BELIEF_ASCETISM' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_RELIGION' AND Value= 1 );
 
 -- Religious Center (Now Order)
 UPDATE Language_ko_KR
-SET Text = 'Use [ICON_PEACE] Faith to purchase Orders'
+SET Text = '[ICON_PEACE]신앙으로 기사단을 구매할 수 있습니다.'
 WHERE Tag = 'TXT_KEY_BELIEF_RELIGIOUS_CENTER' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_RELIGION' AND Value= 1 );
 
 UPDATE Language_ko_KR
@@ -463,12 +468,12 @@ SET Text = '근면'
 WHERE Tag = 'TXT_KEY_BELIEF_RELIGIOUS_COMMUNITY_SHORT' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_RELIGION' AND Value= 1 );
 
 UPDATE Language_ko_KR
-SET Text = '+1 [ICON_PRODUCTION] Production for every 2 followers in the City (max +15 [ICON_PRODUCTION] Production)'
+SET Text = '신도 2명마다 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. [COLOR:130:130:130:255](한도: [ICON_PRODUCTION]15)[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_BELIEF_RELIGIOUS_COMMUNITY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_RELIGION' AND Value= 1 );
 
 -- Divine Inspiration (Now Inspiration)
 UPDATE Language_ko_KR
-SET Text = '+1 [ICON_CULTURE] Culture for every 3 followers in the City (max +6 [ICON_CULTURE] Culture), and +2 [ICON_PEACE] Faith if you have at least one Specialist in the City'
+SET Text = '신도 3명마다 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] (한도:6 [ICON_CULTURE]) 증가합니다. 전문가가 있는 도시의 [ICON_PEACE]신앙이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_BELIEF_DIVINE_INSPIRATION' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_RELIGION' AND Value= 1 );
 
 UPDATE Language_ko_KR
@@ -477,7 +482,7 @@ WHERE Tag = 'TXT_KEY_BELIEF_DIVINE_INSPIRATION_SHORT' AND EXISTS (SELECT * FROM 
 
 -- Peace Loving (Now Mandate of Heaven)
 UPDATE Language_ko_KR
-SET Text = 'Unlocks the [COLOR_POSITIVE_TEXT]Celestial Throne National Wonder[ENDCOLOR] (+2 [ICON_PEACE] Faith, [ICON_CULTURE] Culture, [ICON_FOOD] Food, [ICON_RESEARCH] Science, [ICON_GOLD] Gold, and [ICON_PRODUCTION] Production; +5 [ICON_PEACE] Faith from [ICON_RELIGION] Holy Sites; unlocks [COLOR_POSITIVE_TEXT]Reformation Belief[ENDCOLOR]). Holy City produces +20% of its Yields during a [ICON_GOLDEN_AGE] Golden Age.'
+SET Text = '[COLOR_YELLOW]천상의 옥좌[ENDCOLOR] 국가 불가사의를 건설할 수 있습니다. [ICON_GOLDEN_AGE]황금기 동안 성도의 산출량이 [COLOR_POSITIVE_TEXT]20%[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_BELIEF_PEACE_LOVING' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_RELIGION' AND Value= 1 );
 
 UPDATE Language_ko_KR
@@ -486,7 +491,7 @@ WHERE Tag = 'TXT_KEY_BELIEF_PEACE_LOVING_SHORT' AND EXISTS (SELECT * FROM COMMUN
 
 -- Interfaith Dialogue (Now Hero Worship)
 UPDATE Language_ko_KR
-SET Text = 'Unlocks [COLOR_POSITIVE_TEXT]Great Altar National Wonder[ENDCOLOR] (+5 [ICON_PEACE] Faith, +15% Military Unit [ICON_PRODUCTION] Production; +5 [ICON_PRODUCTION] Production from [ICON_RELIGION] Holy Sites; unlocks [COLOR_POSITIVE_TEXT]Reformation Belief[ENDCOLOR]). Receive [ICON_PEACE] Faith and [ICON_GOLDEN_AGE] Golden Age Points when you conquer a City, as well as [ICON_GREAT_GENERAL] Great General Points (if City is landlocked) or [ICON_GREAT_ADMIRAL] Great Admiral Points (if City is coastal). Bonus scales with City population and Era.'
+SET Text = '[COLOR_YELLOW]위대한 제단[ENDCOLOR] 국가 불가사의를 건설할 수 있습니다. 도시를 점령했을 때 [ICON_GOLDEN_AGE]황금기 점수, [ICON_PEACE]신앙, [ICON_GREAT_PEOPLE]위대한 장군/제독 점수를 제공합니다. [COLOR:130:130:130:255](시대 및 시민 수에 따라 보정)[ENDCOLOR].'
 WHERE Tag = 'TXT_KEY_BELIEF_INTERFAITH_DIALOGUE' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_RELIGION' AND Value= 1 );
 
 UPDATE Language_ko_KR
@@ -495,12 +500,12 @@ WHERE Tag = 'TXT_KEY_BELIEF_INTERFAITH_DIALOGUE_SHORT' AND EXISTS (SELECT * FROM
 
 -- Ceremonial Burial
 UPDATE Language_ko_KR
-SET Text = 'Unlocks [COLOR_POSITIVE_TEXT]Mausoleum National Wonder[ENDCOLOR] (+5 [ICON_PEACE] Faith, and gain [ICON_PEACE] Faith when an owned unit is killed in battle, +5 [ICON_PEACE] Faith from [ICON_RELIGION] Holy Sites; unlocks [COLOR_POSITIVE_TEXT]Reformation Belief[ENDCOLOR]). When a [ICON_GREAT_PEOPLE] Great Person is expended, gain 15 [ICON_PEACE] Faith and [ICON_CULTURE] Culture for every City following your [ICON_RELIGION] Religion (max 25 Cities).'
+SET Text = '[COLOR_YELLOW]마우솔레움[ENDCOLOR] 국가 불가사의를 건설할 수 있습니다. [ICON_GREAT_PEOPLE]위인을 소모할 때 당신의 [ICON_RELIGION]종교를 따르는 도시에 [COLOR:130:130:130:255](한도: 25도시)[ENDCOLOR] [ICON_PEACE]신앙 및 [ICON_CULTURE]문화를 [COLOR_POSITIVE_TEXT]15[ENDCOLOR] 제공합니다.'
 WHERE Tag = 'TXT_KEY_BELIEF_CEREMONIAL_BURIAL' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_RELIGION' AND Value= 1 );
 
 -- Church Property (Now Holy Law)
 UPDATE Language_ko_KR
-SET Text = 'Unlocks [COLOR_POSITIVE_TEXT]Divine Court National Wonder[ENDCOLOR] (+4 [ICON_PEACE] Faith, +6 [ICON_GOLD] Gold; +5 [ICON_GOLD] Gold from [ICON_RELIGION] Holy Sites; unlocks [COLOR_POSITIVE_TEXT]Reformation Belief[ENDCOLOR]). When you unlock a Policy, gain 5 [ICON_PEACE] Faith, [ICON_RESEARCH] Science, and [ICON_GOLD] Gold for every Follower of your [ICON_RELIGION] Religion (max 250 Followers).'
+SET Text = '[COLOR_YELLOW]성스러운 법정[ENDCOLOR] 국가 불가사의를 건설할 수 있습니다. 정책을 채택할 때 당신 문명의 [ICON_RELIGION]종교를 따르는 신도 1명마다 [COLOR:130:130:130:255](한도: 250명)[ENDCOLOR] [ICON_PEACE]신앙, [ICON_RESEARCH]과학, [ICON_GOLD]골드를 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 제공합니다.'
 WHERE Tag = 'TXT_KEY_BELIEF_CHURCH_PROPERTY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_RELIGION' AND Value= 1 );
 
 UPDATE Language_ko_KR
@@ -509,7 +514,7 @@ WHERE Tag = 'TXT_KEY_BELIEF_CHURCH_PROPERTY_SHORT' AND EXISTS (SELECT * FROM COM
 
 -- Tithe (Now Way of the Pilgrim)
 UPDATE Language_ko_KR
-SET Text = 'Unlocks [COLOR_POSITIVE_TEXT]Reliquary National Wonder[ENDCOLOR] (+4 [ICON_PEACE] Faith, +2 [ICON_CULTURE] Culture, 4 [ICON_GREAT_WORK] Art/Artfiact slots; +5 [ICON_TOURISM] Tourism from [ICON_RELIGION] Holy Sites; unlocks [COLOR_POSITIVE_TEXT]Reformation Belief[ENDCOLOR]). Receive 15 [ICON_TOURISM] Tourism and [ICON_CULTURE] Culture when you spread your [ICON_RELIGION] Religion to foreign Cities, scaling with the number of Followers of other [ICON_RELIGION] Religions.'
+SET Text = '[COLOR_YELLOW]성유물함[ENDCOLOR] 국가 불가사의를 건설할 수 있습니다. 외국 도시에 당신 문명의 [ICON_RELIGION]종교를 전파할 때 [ICON_TOURISM]관광 및 [ICON_CULTURE]문화를 [COLOR_POSITIVE_TEXT]15[ENDCOLOR] [COLOR:130:130:130:255](다른 종교의 신도 수에 따라 보정)[ENDCOLOR] 제공합니다.'
 WHERE Tag = 'TXT_KEY_BELIEF_TITHE' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_RELIGION' AND Value= 1 );
 
 UPDATE Language_ko_KR
@@ -518,7 +523,7 @@ WHERE Tag = 'TXT_KEY_BELIEF_TITHE_SHORT' AND EXISTS (SELECT * FROM COMMUNITY WHE
 
 -- Initiation Rites (Now Way of Transcendence)
 UPDATE Language_ko_KR
-SET Text = 'Unlocks [COLOR_POSITIVE_TEXT]Sacred Garden National Wonder[ENDCOLOR] (+3 [ICON_PEACE] Faith, +5 [ICON_CULTURE] Culture; +5 [ICON_FOOD] Food from [ICON_RELIGION] Holy Sites; unlocks [COLOR_POSITIVE_TEXT]Reformation Belief[ENDCOLOR]). When you enter a new Era, Holy City gains 20 of every Yield for each City following your [ICON_RELIGION] Religion (max 25 Cities), scaling with Era.'
+SET Text = '[COLOR_YELLOW]신성한 정원[ENDCOLOR] 국가 불가사의를 건설할 수 있습니다. 새로운 시대로 진입할 때 당신 문명의 [ICON_RELIGION]종교를 따르는 도시 1개마다 [COLOR:130:130:130:255](한도: 25도시)[ENDCOLOR] 각 산출량을 [COLOR_POSITIVE_TEXT]20[ENDCOLOR] [COLOR:130:130:130:255](시대별 보정)[ENDCOLOR] 제공합니다.'
 WHERE Tag = 'TXT_KEY_BELIEF_INITIATION_RITES' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_RELIGION' AND Value= 1 );
 
 UPDATE Language_ko_KR
@@ -527,7 +532,7 @@ WHERE Tag = 'TXT_KEY_BELIEF_INITIATION_RITES_SHORT' AND EXISTS (SELECT * FROM CO
 
 -- Papal Primacy (Now Council of Elders)
 UPDATE Language_ko_KR
-SET Text = 'Unlocks [COLOR_POSITIVE_TEXT]Holy Council National Wonder[ENDCOLOR] (+4 [ICON_PEACE] Faith, +5 [ICON_FOOD] Food; +5 [ICON_RESEARCH] Science from [ICON_RELIGION] Holy Sites; unlocks [COLOR_POSITIVE_TEXT]Reformation Belief[ENDCOLOR]). When a City adopts your [ICON_RELIGION] Religion for the first time, gain 30 [ICON_RESEARCH] Science and [ICON_PRODUCTION] Production in your Holy City, scaling gradually based on the number of Cities following your [ICON_RELIGION] Religion (bonus caps at 15 Cities).'
+SET Text = '[COLOR_YELLOW]종교 공의회[ENDCOLOR] 국가 불가사의를 제공합니다. 당신 문명의 종교를 처음 채택한 도시는 [COLOR:130:130:130:255](한도: 15도시)[ENDCOLOR] 당신의 성도에 [ICON_RESEARCH]과학 및 [ICON_PRODUCTION]생산을 [COLOR_POSITIVE_TEXT]30[ENDCOLOR] [COLOR:130:130:130:255](종교를 따르는 도시의 수에 따라 보정)[ENDCOLOR] 제공합니다.'
 WHERE Tag = 'TXT_KEY_BELIEF_PAPAL_PRIMACY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_RELIGION' AND Value= 1 );
 
 UPDATE Language_ko_KR
@@ -536,7 +541,7 @@ WHERE Tag = 'TXT_KEY_BELIEF_PAPAL_PRIMACY_SHORT' AND EXISTS (SELECT * FROM COMMU
 
 -- Pilgrimage (Now Apostolic Tradition)
 UPDATE Language_ko_KR
-SET Text = 'Unlocks [COLOR_POSITIVE_TEXT]Apostolic Palace National Wonder[ENDCOLOR] (+4 [ICON_PEACE] Faith, +4 [ICON_GOLDEN_AGE] Golden Age Points; +5 [ICON_GOLDEN_AGE] Golden Age Points from [ICON_RELIGION] Holy Sites; unlocks [COLOR_POSITIVE_TEXT]Reformation Belief[ENDCOLOR]). When you increase the number of Followers in a City by spreading [ICON_RELIGION] Religion, receive 25 [ICON_CULTURE] Culture and [ICON_FOOD] Food in the Holy City, scaling with the number of new Followers of your [ICON_RELIGION] Religion.'
+SET Text = '[COLOR_YELLOW]사도 궁전[ENDCOLOR] 국가 불가사의를 건설할 수 있습니다. [ICON_RELIGION]종교 전파로 신도의 수가 늘어날 때 성도에 [ICON_CULTURE]문화 및 [ICON_FOOD]식량을 [COLOR_POSITIVE_TEXT]25[ENDCOLOR] [COLOR:130:130:130:255](종교를 따르는 새로운 신도 수에 따라 보정)[ENDCOLOR] 제공합니다.'
 WHERE Tag = 'TXT_KEY_BELIEF_PILGRIMAGE' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_RELIGION' AND Value= 1 );
 
 UPDATE Language_ko_KR
@@ -545,7 +550,7 @@ WHERE Tag = 'TXT_KEY_BELIEF_PILGRIMAGE_SHORT' AND EXISTS (SELECT * FROM COMMUNIT
 
 -- World Church (Now Theocratic Rule)
 UPDATE Language_ko_KR
-SET Text = 'Unlocks [COLOR_POSITIVE_TEXT]Grand Ossuary National Wonder[ENDCOLOR] (+10 [ICON_PEACE] Faith; +5 [ICON_CULTURE] Culture from [ICON_RELIGION] Holy Sites; unlocks [COLOR_POSITIVE_TEXT]Reformation Belief[ENDCOLOR]). "We Love the King Day" boosts the [ICON_PEACE] Faith, [ICON_CULTURE] Culture, and [ICON_GOLD] Gold output of a City by 15%.'
+SET Text = '[COLOR_YELLOW]대 납골당[ENDCOLOR] 국가 불가사의를 건설할 수 있습니다. "국왕 경축일"이 열리는 동안 [ICON_PEACE]신앙, [ICON_CULTURE]문화, [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_BELIEF_WORLD_CHURCH' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_RELIGION' AND Value= 1 );
 
 UPDATE Language_ko_KR

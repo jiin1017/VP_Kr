@@ -2,61 +2,61 @@
 -- Update for Progress Screen Texts (a little more serious)
 
 	UPDATE Language_ko_KR
-	SET Text = '{1_Name:textkey} has completed their greatest work, the list of:'
+	SET Text = '{1_Name:textkey}{1: plural 1?이; 2?가;} 위대한 업적을 이루었습니다, 목록:'
 	WHERE Tag = 'TXT_KEY_PROGRESS_SCREEN_TITLE' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
 
 	UPDATE Language_ko_KR
-	SET Text = 'The Greatest Builders in History'
+	SET Text = '세계에서 가장 경이로운 국가' --The Greatest Builders in History
 	WHERE Tag = 'TXT_KEY_PROGRESS_SCREEN_WONDERS' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
 
 	UPDATE Language_ko_KR
-	SET Text = 'The Most Prosperous Civilizations'
+	SET Text = '세계에서 가장 번성한 국가'
 	WHERE Tag = 'TXT_KEY_PROGRESS_SCREEN_FOOD' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
 
 	UPDATE Language_ko_KR
-	SET Text = 'The Most Industrious People Today'
+	SET Text = '오늘날 가장 부지런한 사람'
 	WHERE Tag = 'TXT_KEY_PROGRESS_SCREEN_PRODUCTION' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
 
 	UPDATE Language_ko_KR
-	SET Text = 'The Wealthiest People in the World'
+	SET Text = '세계에서 가장 부유한 사람'
 	WHERE Tag = 'TXT_KEY_PROGRESS_SCREEN_GOLD' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
 
 	UPDATE Language_ko_KR
-	SET Text = 'The Most Advanced People in History'
+	SET Text = '역사상 가장 진보한 사람'
 	WHERE Tag = 'TXT_KEY_PROGRESS_SCREEN_SCIENCE' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
 
 	UPDATE Language_ko_KR
-	SET Text = 'The Most Sophisticated Cultures'
+	SET Text = '세계에서 가장 세련된 문화'
 	WHERE Tag = 'TXT_KEY_PROGRESS_SCREEN_CULTURE' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
 
 	UPDATE Language_ko_KR
-	SET Text = 'The Most Stable Nations in History'
+	SET Text = '세계에서 가장 안정적인 국가'
 	WHERE Tag = 'TXT_KEY_PROGRESS_SCREEN_HAPPINESS' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
 
 	UPDATE Language_ko_KR
-	SET Text = 'The Mightiest Rulers in History'
+	SET Text = '역사상 가장 강력한 통치자'
 	WHERE Tag = 'TXT_KEY_PROGRESS_SCREEN_POWER' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
 
 	UPDATE Language_ko_KR
-	SET Text = 'The Most Influential Nations'
+	SET Text = '세계에서 가장 영향력 있는 국가'
 	WHERE Tag = 'TXT_KEY_PROGRESS_SCREEN_CULTURAL_INFLUENCE' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
 	
 	UPDATE Language_ko_KR
-	SET Text = 'The Most Dazzling Cities'
+	SET Text = '가장 눈부신 도시'
 	WHERE Tag = 'TXT_KEY_PROGRESS_SCREEN_CITY_TOURISM' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
 	
 -- Spy Stuff
 
 	UPDATE Language_ko_KR
-	SET Text = 'How did your wretched spies get through my defenses? These may be the last words we speak in peace.'
+	SET Text = '당신의 불쌍한 스파이가 어떻게 내 방어를 뚫었지? 이것이 어쩌면 우리가 평화롭게 말하는 마지막 말일지도 모릅니다.'
 	WHERE Tag = 'TXT_KEY_GENERIC_CAUGHT_YOUR_SPY_HOSTILE_1' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
 
 	UPDATE Language_ko_KR
-	SET Text = 'I am willing to overlook your recent espionage activites in my lands if you make a solemn promise that it will not happen again.'
+	SET Text = '다시는 이런 일이 없을 거라고 엄숙하게 약속한다면, 최근 내 땅에서 일어난 당신의 스파이 활동을 기꺼이 눈감아 줄 용의가 있습니다.'
 	WHERE Tag = 'TXT_KEY_GENERIC_CAUGHT_YOUR_SPY_FRIENDLY_1' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
 
 	UPDATE Language_ko_KR
-	SET Text = 'I am glad you agreed to stop spying on my people.'
+	SET Text = '내 백성들을 염탐하는 걸 그만두기로 동의하다니 기쁘군요'
 	WHERE Tag = 'TXT_KEY_GENERIC_HUMAN_CAUGHT_YOUR_SPY_GOOD_1' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
 
 -- Citadel Stuff
@@ -153,11 +153,11 @@
 	
 
 	UPDATE Language_ko_KR
-	SET Text = '도시 [ICON_PRODUCTION]생산의 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR]를 [ICON_GOLD]골드로 전환하고 도시의 [ICON_GOLD]골드 필요 수치를 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 감소시킵니다.'
+	SET Text = '도시 [ICON_PRODUCTION]생산의 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR]를 [ICON_GOLD]골드로 전환하고 도시의 [ICON_GOLD]골드 요구 수치를 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 감소시킵니다.'
 	WHERE Tag = 'TXT_KEY_PROCESS_WEALTH_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
 
 	UPDATE Language_ko_KR
-	SET Text = '도시 [ICON_PRODUCTION]생산의 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR]를 [ICON_RESEARCH]과학으로 전환하고 도시의 [ICON_RESEARCH]과학 필요 수치를 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 감소시킵니다.'
+	SET Text = '도시 [ICON_PRODUCTION]생산의 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR]를 [ICON_RESEARCH]과학으로 전환하고 도시의 [ICON_RESEARCH]과학 요구 수치를 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 감소시킵니다.'
 	WHERE Tag = 'TXT_KEY_PROCESS_RESEARCH_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
 	
 	-- Resource Stuff

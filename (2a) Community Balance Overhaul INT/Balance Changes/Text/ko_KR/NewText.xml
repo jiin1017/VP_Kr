@@ -3,7 +3,7 @@
 <GameData>
 	<Language_ko_KR>
 		<Row Tag="TXT_KEY_POLICY_UNIVERSAL_HEALTHCARE_A_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]혹독한 처사[ENDCOLOR]: 종속국은 더이상 반란을 일으키거나 다른 문명에 의해 해방될 수 없습니다. 도시 국가에서 오는 산출량이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가하고 종속국의 공물이 그들의 산출량의 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR]만큼 증가합니다. 노동자의 타일 시설 건설 속도가 [COLOR_POSITIVE_TEXT]50%[COLOR_POSITIVE_TEXT] 빨라집니다.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]혹독한 처사[ENDCOLOR]: 종속국이 더이상 반란을 일으키거나 다른 문명에 의해 해방될 수 없습니다. [ICON_CITY_STATE]도시 국가에서 오는 산출량이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가하고 종속국의 공물이 그들의 산출량의 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR]만큼 증가합니다. 노동자의 타일 시설 건설 속도가 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 빨라집니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_POLICY_UNIVERSAL_HEALTHCARE_A">
 			<Text>혹독한 처사</Text>
@@ -13,19 +13,19 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_POLICY_UNIVERSAL_HEALTHCARE_F_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]국민 의료보험[ENDCOLOR]: 모든 도시에 [COLOR_POSITIVE_TEXT]호텔[ENDCOLOR]을 무료로 제공합니다. [ICON_CITIZEN]시민이 증가할 때 [ICON_CULTURE]문화를 [COLOR_POSITIVE_TEXT]50[ENDCOLOR] (시대별 보정) 제공합니다.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]국민 의료보험[ENDCOLOR]: 모든 도시에 [COLOR_YELLOW]호텔[ENDCOLOR]을 무료로 제공합니다. [ICON_CITIZEN]시민이 증가할 때 [ICON_CULTURE]문화를 [COLOR_POSITIVE_TEXT]50[ENDCOLOR] [COLOR:130:130:130:255](시대별 보정)[ENDCOLOR] 제공합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_POLICY_UNIVERSAL_HEALTHCARE_F">
 			<Text>국민 의료보험</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_MORRIGAN">
-			<Text>적 유닛을 처치할 때 [ICON_GOLD]골드, [ICON_CULTURE]문화, [ICON_GOLDEN_AGE]황금기 점수를 제공합니다. 우호 영토 내부의 유닛은 매 턴 체력을 추가 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 더 회복합니다. 연회장의 위대한 장군 점수가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다.</Text>
+			<Text>적 유닛을 처치할 때 [ICON_GOLD]골드, [ICON_CULTURE]문화, [ICON_GOLDEN_AGE]황금기 점수를 제공합니다. 우호 영토 내 유닛은 매 턴 체력을 추가 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 더 회복합니다. 연회장의 [ICON_GREAT_PEOPLE]위대한 장군 점수가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_MORRIGAN_SHORT">
 			<Text>모리안, 투쟁의 인도자</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_EPONA">
-			<Text>모든 도시의 [ICON_CULTURE_LOCAL]국경 확장 점수가 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] 증가합니다. 국경이 확장될 때 [ICON_RESEARCH]과학, [ICON_CULTURE]문화, [ICON_GOLD]골드를 [COLOR_POSITIVE_TEXT]10[ENDCOLOR] (시대별 보정) 제공합니다. 연회장의 [ICON_CULTURE_LOCAL]국경 확장 점수가 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 증가합니다.</Text>
+			<Text>모든 도시의 [ICON_CULTURE_LOCAL]국경 확장 점수가 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] 증가합니다. 국경이 확장될 때 [ICON_RESEARCH]과학, [ICON_CULTURE]문화, [ICON_GOLD]골드를 [COLOR_POSITIVE_TEXT]10[ENDCOLOR] [COLOR:130:130:130:255](시대별 보정)[ENDCOLOR] 제공합니다. 연회장의 [ICON_CULTURE_LOCAL]국경 확장 점수가 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 증가합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_EPONA_SHORT">
 			<Text>에포나, 위대한 암말</Text>
@@ -43,10 +43,10 @@
 			<Text>케르눈노스, 뿔난 사슴의 신</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_LUGH">
-			<Text>모든 도시 전문가의 [ICON_CULTURE]문화, [ICON_RESEARCH]과학, [ICON_FOOD]식량, [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다. 불가사의를 건설할 때 [ICON_PRODUCTION]생산 보너스를 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 제공합니다. 연회장의 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]3 [ENDCOLOR]증가합니다.</Text>
+			<Text>모든 전문가의 [ICON_CULTURE]문화, [ICON_RESEARCH]과학, [ICON_FOOD]식량, [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다. 불가사의를 건설할 때 [ICON_PRODUCTION]생산 보너스를 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 제공합니다. 연회장의 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]3 [ENDCOLOR]증가합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_LUGH_SHORT">
-			<Text>루 라와더, 만능의 신</Text>
+			<Text>루, 만능의 신</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_RHIANNON">
 			<Text>모든 도시의 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]2 [ENDCOLOR]증가합니다. 모든 자원 위에 건설된 일반 시설의 [ICON_PRODUCTION]생산 및 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]1 [ENDCOLOR]증가합니다. 연회장의 [ICON_GOLDEN_AGE]황금기 점수가 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 증가합니다.</Text>
@@ -55,19 +55,19 @@
 			<Text>리아논, 군주의 신</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_MANANNAN">
-			<Text>해안 도시의 [ICON_GOLD]골드, [ICON_PRODUCTION]생산, [ICON_FOOD]식량이 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] 증가합니다. [ICON_CITIZEN]시민 2명마다 해양 타일의 [ICON_GOLD]골드 및 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 연회장의 [ICON_GREAT_ADMIRAL]위대한 제독 점수가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다.</Text>
+			<Text>해안 도시의 [ICON_GOLD]골드, [ICON_PRODUCTION]생산, [ICON_FOOD]식량이 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] 증가합니다. [ICON_CITIZEN]시민 2명마다 해양 타일의 [ICON_GOLD]골드 및 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 연회장의 [ICON_GREAT_PEOPLE]위대한 제독 점수가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다.</Text>
 		</Row> 
 		<Row Tag="TXT_KEY_BELIEF_MANANNAN_SHORT">
 			<Text>마나난, 바다의 아들</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_OGMA">
-			<Text>[ICON_CITIZEN]시민 4명마다 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. [ICON_GREAT_WORK]걸작에서 오는 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. [ICON_CAPITAL]수도의 [ICON_RESEARCH]과학, [ICON_CULTURE]문화, [ICON_GREAT_SCIENTIST]위대한 과학자 점수, [ICON_GREAT_SCIENTIST]위대한 예술가 점수가 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] 증가합니다. 연회장의 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 증가합니다.</Text>
+			<Text>[ICON_CITIZEN]시민 4명마다 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. [ICON_GREAT_WORK]걸작에서 오는 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. [ICON_CAPITAL]수도의 [ICON_RESEARCH]과학, [ICON_CULTURE]문화, [ICON_GREAT_PEOPLE]위대한 과학자 점수 및 위대한 예술가 점수가 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] 증가합니다. 연회장의 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 증가합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_OGMA_SHORT">
 			<Text>오그마, 깨달은 자</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_BRAN">
-			<Text>도시의 [ICON_RANGE_STRENGTH]원거리 공격력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가하고 도시의 [ICON_FOOD]성장률이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다. [ICON_CITIZEN]시민이 탄생할 때 [ICON_GOLD]골드 및 [ICON_CULTURE]문화를 [COLOR_POSITIVE_TEXT]25[ENDCOLOR] (시대별 보정) 제공합니다. 이 교리를 따르는 도시마다 [ICON_HAPPINESS_1]행복이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 연회장의 [ICON_FOOD]식량이 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 증가합니다.</Text>
+			<Text>도시의 [ICON_RANGE_STRENGTH]원거리 전투력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가하고 도시의 [ICON_FOOD]성장률이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다. [ICON_CITIZEN]시민이 탄생할 때 [ICON_GOLD]골드 및 [ICON_CULTURE]문화를 [COLOR_POSITIVE_TEXT]25[ENDCOLOR] [COLOR:130:130:130:255](시대별 보정)[ENDCOLOR] 제공합니다. 이 교리를 따르는 도시 1개마다 [ICON_HAPPINESS_1]행복이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 연회장의 [ICON_FOOD]식량이 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 증가합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_BRAN_SHORT">
 			<Text>브란, 잠자는 수호자</Text>
@@ -92,7 +92,7 @@
 			<Text>예술</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROCESS_CULTURE_HELP">
-			<Text>도시 [ICON_PRODUCTION]생산의 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR]를 [ICON_CULTURE]문화로 전환하고 도시의 [ICON_CULTURE]문화 필요 수치를 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 감소시킵니다.</Text>
+			<Text>도시 [ICON_PRODUCTION]생산의 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR]를 [ICON_CULTURE]문화로 전환하고 도시의 [ICON_CULTURE]문화 요구 수치를 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 감소시킵니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROCESS_CULTURE_STRATEGY">
 			<Text>Investing production in art is a good way to boost your Civilization's cutural output, either to grab that next policy or to stave off a Tourism victory. Also reduces boredom.</Text>
@@ -112,7 +112,7 @@
 			<Text>농업</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROCESS_FOOD_HELP">
-			<Text>도시 [ICON_PRODUCTION]생산의 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR]를 [ICON_FOOD]식량으로 전환하고 도시의 [ICON_FOOD]/[ICON_PRODUCTION]기본 필요 수치를 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 감소시킵니다.</Text>
+			<Text>도시 [ICON_PRODUCTION]생산의 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR]를 [ICON_FOOD]식량으로 전환하고 도시의 [ICON_FOOD]/[ICON_PRODUCTION]기본 요구 수치를 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 감소시킵니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROCESS_FOOD_STRATEGY">
 			<Text>Investing production in farming is a good way to boost your City's growth, which can be useful if you are falling behind in technologies, or you simply need bigger cities. Also reduces distress.</Text>
