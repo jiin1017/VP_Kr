@@ -1248,13 +1248,13 @@
 		
 		<!-- Warscore Autocracy UI -->
 		<Row Tag="TXT_KEY_CO_CITY_TOURISM_WARSCORE_BONUS">
-			<Text>최고 전쟁 점수의 +{1_Num}%:[NEWLINE]</Text>
+			<Text>최고 전쟁점수의 +{1_Num}%:[NEWLINE]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CO_PLAYER_TOURISM_WARSCORE">
-			<Text>+{1_Num}% 최고 전쟁 점수에서[NEWLINE]</Text>
+			<Text>+{1_Num}% 최고 전쟁점수에서[NEWLINE]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CO_CITY_TOURISM_WARSCORE_VALUE">
-			<Text>최고 전쟁 점수: {1_Num}</Text>
+			<Text>최고 전쟁점수: {1_Num}</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PEDIA_AIR_DEFENSE_LABEL">

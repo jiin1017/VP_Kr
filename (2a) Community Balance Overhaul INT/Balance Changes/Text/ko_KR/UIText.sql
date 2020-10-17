@@ -533,52 +533,52 @@ WHERE Tag = 'TXT_KEY_TP_TOTAL_HAPPINESS' AND EXISTS (SELECT * FROM COMMUNITY WHE
 -- Text for city view tooltip.
 INSERT INTO Language_ko_KR (
 Text, Tag)
-SELECT '{1_Num} due to [ICON_HAPPINESS_1] Happiness.', 'TXT_KEY_TP_GOLD_GAINED_FROM_HAPPINESS'
+SELECT '{1_Num} [ICON_HAPPINESS_1]행복 때문에', 'TXT_KEY_TP_GOLD_GAINED_FROM_HAPPINESS'
 WHERE EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_NATIONAL_HAPPINESS' AND Value= 1 );
 
 
 -- Text for city view tooltip.
 INSERT INTO Language_ko_KR (
 Text, Tag)
-SELECT '{1_NUM} due to [ICON_HAPPINESS_3] Unhappiness.', 'TXT_KEY_TP_GOLD_LOST_FROM_UNHAPPINESS'
+SELECT '{1_NUM} [ICON_HAPPINESS_3]불행 때문에', 'TXT_KEY_TP_GOLD_LOST_FROM_UNHAPPINESS'
 WHERE EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_NATIONAL_HAPPINESS' AND Value= 1 );
 
 -- Text for city view tooltip.
 INSERT INTO Language_ko_KR (
 Text, Tag)
-SELECT '[ICON_BULLET] [COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] due to [ICON_HAPPINESS_1] Happiness.', 'TXT_KEY_TP_FAITH_GAINED_FROM_HAPPINESS'
-WHERE EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_NATIONAL_HAPPINESS' AND Value= 1 );
-
-
--- Text for city view tooltip.
-INSERT INTO Language_ko_KR (
-Text, Tag)
-SELECT '[ICON_BULLET] [COLOR_NEGATIVE_TEXT]{1_NUM}[ENDCOLOR] due to [ICON_HAPPINESS_3] Unhappiness.', 'TXT_KEY_TP_FAITH_LOST_FROM_UNHAPPINESS'
-WHERE EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_NATIONAL_HAPPINESS' AND Value= 1 );
-
--- Text for city view tooltip.
-INSERT INTO Language_ko_KR (
-Text, Tag)
-SELECT '[ICON_BULLET] [COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] [ICON_RESEARCH] due to [ICON_HAPPINESS_1] Happiness.', 'TXT_KEY_TP_SCIENCE_GAINED_FROM_HAPPINESS'
+SELECT '[ICON_BULLET] [COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] [ICON_HAPPINESS_1]행복 때문에', 'TXT_KEY_TP_FAITH_GAINED_FROM_HAPPINESS'
 WHERE EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_NATIONAL_HAPPINESS' AND Value= 1 );
 
 
 -- Text for city view tooltip.
 INSERT INTO Language_ko_KR (
 Text, Tag)
-SELECT '[ICON_BULLET] [COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR] [ICON_RESEARCH] due to [ICON_HAPPINESS_3] Unhappiness.', 'TXT_KEY_TP_SCIENCE_LOST_FROM_UNHAPPINESS'
+SELECT '[ICON_BULLET] [COLOR_NEGATIVE_TEXT]{1_NUM}[ENDCOLOR] [ICON_HAPPINESS_3]불행 때문에', 'TXT_KEY_TP_FAITH_LOST_FROM_UNHAPPINESS'
 WHERE EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_NATIONAL_HAPPINESS' AND Value= 1 );
 
 -- Text for city view tooltip.
 INSERT INTO Language_ko_KR (
 Text, Tag)
-SELECT '[ICON_BULLET] [COLOR_NEGATIVE_TEXT]{1_NUM}[ENDCOLOR] due to [ICON_HAPPINESS_3] Unhappiness.', 'TXT_KEY_TP_CULTURE_LOST_FROM_UNHAPPINESS'
+SELECT '[ICON_BULLET] [COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] [ICON_RESEARCH] [ICON_HAPPINESS_1]행복 때문에', 'TXT_KEY_TP_SCIENCE_GAINED_FROM_HAPPINESS'
+WHERE EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_NATIONAL_HAPPINESS' AND Value= 1 );
+
+
+-- Text for city view tooltip.
+INSERT INTO Language_ko_KR (
+Text, Tag)
+SELECT '[ICON_BULLET] [COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR] [ICON_RESEARCH] [ICON_HAPPINESS_3]불행 때문에', 'TXT_KEY_TP_SCIENCE_LOST_FROM_UNHAPPINESS'
 WHERE EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_NATIONAL_HAPPINESS' AND Value= 1 );
 
 -- Text for city view tooltip.
 INSERT INTO Language_ko_KR (
 Text, Tag)
-SELECT '[ICON_BULLET] [COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] due to [ICON_HAPPINESS_1] Happiness.', 'TXT_KEY_TP_CULTURE_GAINED_FROM_HAPPINESS'
+SELECT '[ICON_BULLET] [COLOR_NEGATIVE_TEXT]{1_NUM}[ENDCOLOR] [ICON_HAPPINESS_3]불행 때문에', 'TXT_KEY_TP_CULTURE_LOST_FROM_UNHAPPINESS'
+WHERE EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_NATIONAL_HAPPINESS' AND Value= 1 );
+
+-- Text for city view tooltip.
+INSERT INTO Language_ko_KR (
+Text, Tag)
+SELECT '[ICON_BULLET] [COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] [ICON_HAPPINESS_1]행복 때문에', 'TXT_KEY_TP_CULTURE_GAINED_FROM_HAPPINESS'
 WHERE EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_NATIONAL_HAPPINESS' AND Value= 1 );
 
 UPDATE Language_ko_KR
@@ -606,11 +606,11 @@ WHERE EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_NATIONA
 -- Resource Changes
 
 UPDATE Language_ko_KR
-SET Text = 'Marble is a beautiful rock highly prized as a building material and by artists for sculpting. Marble comes in a variety of colors and shades, sometimes mono-colored and sometimes with veins and pockets of many different colors within. Many of the most beautiful structures in the world - including the Taj Mahal, for one - are constructed of marble, as are the greatest sculptures of antiquity.[NEWLINE][NEWLINE]+15% [ICON_PRODUCTION] Production when building pre-Industrial Wonders in the City where it is worked.'
+SET Text = '대리석은 건축 재료와 예술가들이 선호하는 조각용 재료로 주목받는 아름다운 암석입니다. 대리석은 다양한 색상과 음영을 띄고 있으며 단색인 것도 있고 여러 색상의 줄무늬가 있는 것도 있습니다. 타지마할과 같이 세계에서 가장 아름다운 구조물 다수가 대리석으로 만들어졌으며 위대한 고대 조각상들 역시 그러합니다.[NEWLINE][NEWLINE]+15% [ICON_PRODUCTION] Production when building pre-Industrial Wonders in the City where it is worked.'
 WHERE Tag = 'TXT_KEY_CIV5_RESOURCE_MARBLE_TEXT';
 
 UPDATE Language_ko_KR
-SET Text = 'Found in the Earth''s crust and upper mantle, stone is perhaps the most crucial element in human construction efforts throughout history. There are three major classifications of stone - Sedimentary, Igneous, and Metamorphic - each differing in their origin.[NEWLINE][NEWLINE]+10% [ICON_PRODUCTION] Production when building pre-Renaissance Wonders in the City where it is worked.'
+SET Text = '지구의 지각과 맨틀 상부를 차지하는 석재는 인류 건축 역사상 가장 중요한 역할을 한 재료입니다. 석재(암석)는 생성되는 과정에 따라 크게 퇴적암, 화성암 그리고 변성암으로 나눌 수 있습니다.[NEWLINE][NEWLINE]+10% [ICON_PRODUCTION] Production when building pre-Renaissance Wonders in the City where it is worked.'
 WHERE Tag = 'TXT_KEY_CIV5_RESOURCE_STONE_TEXT';
 
 
@@ -622,7 +622,7 @@ WHERE Tag = 'TXT_KEY_CIV5_IMPROVEMENTS_LUMBERMILL_TEXT';
 -- Founding Cities
 
 UPDATE Language_ko_KR
-SET Text = 'City Locations and Yields'
+SET Text = '도시 위치 및 산출량'
 WHERE Tag = 'TXT_KEY_CITIES_WHERETOCONSTRUCT_HEADING2_TITLE';
 
 	
@@ -647,7 +647,7 @@ WHERE Tag = 'TXT_KEY_CIV5_IMPROVEMENTS_MOAI_TEXT';
 -- Warscore Diplo
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_NEGATIVE_TEXT]At war with {1_enemy} (Warscore: {2_Num})[ENDCOLOR]'
+SET Text = '[COLOR_NEGATIVE_TEXT]{1_enemy}{1: plural 1?과; 2?와;} 전쟁 (전쟁점수: {2_Num})[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_AT_WAR_WITH';
 
 
@@ -665,7 +665,7 @@ WHERE Tag = 'TXT_KEY_MISSION_PLUNDER_TRADE_ROUTE_HELP';
 
 
 UPDATE Language_ko_KR
-SET Text = 'Max Distance: {1_Num}'
+SET Text = '최대 거리: {1_Num}'
 WHERE Tag = 'TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_RANGE';
 
 UPDATE Language_ko_KR
@@ -688,21 +688,21 @@ WHERE Tag = 'TXT_KEY_RESOLUTION_BAN_LUXURY_HAPPINESS_HELP';
 
 --Big UI Changes
 UPDATE Language_ko_KR
-SET Text = 'Victory Progress'
+SET Text = '승리 진척도'
 WHERE Tag = 'TXT_KEY_VP_TITLE';
 
 UPDATE Language_ko_KR
-SET Text = 'Demographics'
+SET Text = '문명 통계'
 WHERE Tag = 'TXT_KEY_DEMOGRAPHICS_TITLE';
 
 -- Happiness
 
 UPDATE Language_ko_KR
-SET Text = 'Empire-Wide [ICON_HAPPINESS_3] Unhappiness Total: {2_Num} (average per City: {1_Num})[NEWLINE]Unhappiness Totals:'
+SET Text = '총 전역 [ICON_HAPPINESS_3]불행: {2_Num} (도시당 평균: {1_Num})[NEWLINE]불행 총계:'
 WHERE Tag = 'TXT_KEY_TP_UNHAPPINESS_TOTAL';
 
 UPDATE Language_ko_KR
-SET Text = 'Empire-Wide [ICON_HAPPINESS_1] Happiness Total: {2_Num} (average per City: {1_Num})[NEWLINE]Happiness Totals:'
+SET Text = '총 전역 [ICON_HAPPINESS_1]행복: {2_Num} (도시당 평균: {1_Num})[NEWLINE]행복 총계:'
 WHERE Tag = 'TXT_KEY_TP_HAPPINESS_SOURCES';
 
 UPDATE Language_ko_KR
@@ -710,19 +710,19 @@ SET Text = '[ICON_BULLET]{1_Num} is added per turn from positive [ICON_HAPPINESS
 WHERE Tag = 'TXT_KEY_TP_GOLDEN_AGE_ADDITION';
 
 UPDATE Language_ko_KR
-SET Text = '[ICON_PLUS] Total City Unhappiness'
+SET Text = '[ICON_PLUS] 총 도시 불행'
 WHERE Tag = 'TXT_KEY_EO_CITY_UNHAPPINESS';
 
 UPDATE Language_ko_KR
-SET Text = '[ICON_MINUS] Total City Unhappiness'
+SET Text = '[ICON_MINUS] 총 도시 불행'
 WHERE Tag = 'TXT_KEY_EO_CITY_UNHAPPINESS_COLLAPSE';
 
 UPDATE Language_ko_KR
-SET Text = '[ICON_PLUS] Total City Happiness'
+SET Text = '[ICON_PLUS] 총 도시 행복'
 WHERE Tag = 'TXT_KEY_EO_LOCAL_CITY';
 
 UPDATE Language_ko_KR
-SET Text = '[ICON_MINUS] Total City Happiness'
+SET Text = '[ICON_MINUS] 총 도시 행복'
 WHERE Tag = 'TXT_KEY_EO_LOCAL_CITY_COLLAPSE';
 
 UPDATE Language_ko_KR

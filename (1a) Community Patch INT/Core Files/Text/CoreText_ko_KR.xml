@@ -2783,7 +2783,7 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_DIPLO_WAR_SCORE">
-			<Text>전쟁 점수가 75 이상이어야 합니다. 현재 전쟁 점수: {1_Num}</Text>
+			<Text>전쟁점수가 75 이상이어야 합니다. 현재 전쟁점수: {1_Num}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DIPLO_NO_CLEAR_WINNER_TT">
 			<Text>평화 협상에 항복하지 않는 당사자는 추가할 수 없습니다.</Text>
@@ -6128,7 +6128,7 @@
 			<Text>당신의 문명이 새로운 [ICON_RESEARCH]시대에 진입하여 당신이 만난 모든 문명에 대한 [ICON_TOURISM]관광이 {1_Num} 증가했습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TOURISM_EVENT_WAR">
-			<Text>당신의 문명이 [ICON_VICTORY_DOMINATION] 전쟁에서 승리하여 (전쟁 점수 25+) 당신이 만난 모든 문명에 대한 [ICON_TOURISM]관광이 {1_Num} 증가했습니다.</Text>
+			<Text>당신의 문명이 [ICON_VICTORY_DOMINATION] 전쟁에서 승리하여 (전쟁점수 25+) 당신이 만난 모든 문명에 대한 [ICON_TOURISM]관광이 {1_Num} 증가했습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TOURISM_EVENT_GP">
 			<Text>당신의 문명에서 [ICON_GREAT_PEOPLE]위인이 탄생하여 당신이 만난 모든 문명에 대한 [ICON_TOURISM]관광이 {1_Num} 증가했습니다.</Text>
@@ -6575,7 +6575,7 @@
 
 		<!-- LUA for Warscore -->
 		<Row Tag="TXT_KEY_WAR_SCORE">
-			<Text>[COLOR_POSITIVE_TEXT]전쟁 점수: {1_Num}[ENDCOLOR]</Text>
+			<Text>[COLOR_POSITIVE_TEXT]전쟁점수: {1_Num}[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_WAR_SCORE_EXPLANATION">
 			<Text>이 수치는 전쟁이 얼마나 당신에게 얼마나 유리하게 진행되고 있는지 보여줍니다. 범위는 [COLOR_NEGATIVE_TEXT]-100[ENDCOLOR]부터 [COLOR_POSITIVE_TEXT]100[ENDCOLOR]까지입니다.[NEWLINE][COLOR_POSITIVE_TEXT]현재 전쟁 정보:[ENDCOLOR]</Text>

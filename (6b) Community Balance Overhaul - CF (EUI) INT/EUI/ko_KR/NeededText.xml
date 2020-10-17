@@ -27,7 +27,7 @@
 			<Text> [COLOR_POSITIVE_TEXT]종속국 :[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DIPLO_WARSCORE_CP">
-			<Text>전쟁 점수:</Text>
+			<Text>전쟁점수:</Text>
 		</Row>
 		<Row Tag="TXT_KEY_AT_WAR_WITH_CP">
 			<Text> [COLOR_NEGATIVE_TEXT]{1_enemy}{1: plural 1?과; 2?와;} 전쟁 중[ENDCOLOR]</Text>
