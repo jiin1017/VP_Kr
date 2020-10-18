@@ -2645,7 +2645,7 @@
 
 		<!-- Civilopedia Jazz-->
 		<Row Tag="TXT_KEY_ABLTY_HAPPINESS_BUMP">
-			<Text>{1_Num} 모든 도시의 추가 [ICON_HAPPINESS_1]행복</Text>
+			<Text>모든 도시의 [ICON_HAPPINESS_1]행복: +{1_Num}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PEDIA_TRADEROUTE_CBP_LABEL">
 			<Text>도시 연결 보너스</Text>
@@ -2671,10 +2671,10 @@
 			<Text>매 턴 [ICON_TOURISM]관광</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DIPLO_MY_SCORE_ALLIES">
-			<Text>{1_Num} from City-State Alliances</Text>
+			<Text>{1_Num} 도시 국가 동맹에서</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DIPLO_MY_SCORE_MILITARY">
-			<Text>{1_Num} from Military Power</Text>
+			<Text>{1_Num} 군사력에서</Text>
 		</Row>
 		<!-- CS TEXT CBP -->
 		<Row Tag="TXT_KEY_CSTATE_JERK_STATUS">
@@ -7076,7 +7076,7 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_YIELD_PER_TURN_HEADER_EMPTY">
-			<Text>산출량은 정책, 교리, 건물 등 다양한 방법으로 얻을 수 있습니다. 10턴 전과 이번 턴에 얻은 산출량의 총량은 이곳에 기재됩니다.</Text>
+			<Text>산출량은 정책, 교리, 건물 등 다양한 방법으로 얻을 수 있습니다.[NEWLINE]10턴 전과 이번 턴에 얻은 산출량의 총량은 이곳에 표시됩니다.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_YIELD_GREAT_WORK_MODIFIER">
