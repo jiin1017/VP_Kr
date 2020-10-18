@@ -152,7 +152,7 @@ SET Text = 'The Manhattan Project allows a civilization to construct nuclear wea
 WHERE Tag = 'TXT_KEY_PROJECT_MANHATTAN_PROJECT_STRATEGY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 UPDATE Language_ko_KR
-SET Text = '아폴로 우주 계획은 우주 진출 경쟁의 시작을 알립니다. 도시에서 우주선의 부품을 생산할 수 있습니다. 우주선이 완성되면 [COLOR_POSITIVE_TEXT]과학 승리[ENDCOLOR]를 쟁취하게 됩니다![NEWLINE][NEWLINE]당신의 문명이 처음으로 프로젝트를 완료했다면 [ICON_CAPITAL]수도 근처에 [ICON_GREAT_SCIENTIST][COLOR_YELLOW]위대한 과학자[ENDCOLOR]가 1명 출현하고, 제국이 즉시 [ICON_GOLDEN_AGE]황금기를 맞이합니다.'
+SET Text = '아폴로 우주 계획은 우주 진출 경쟁의 시작을 알립니다. 도시에서 우주선의 부품을 생산할 수 있습니다. 우주선이 완성되면 [ICON_VICTORY_SPACE][COLOR_POSITIVE_TEXT]과학 승리[ENDCOLOR]를 쟁취하게 됩니다![NEWLINE][NEWLINE]당신의 문명이 처음으로 프로젝트를 완료했다면 [ICON_CAPITAL]수도 근처에 [ICON_GREAT_SCIENTIST][COLOR_YELLOW]위대한 과학자[ENDCOLOR]가 1명 출현하고, 제국이 즉시 [ICON_GOLDEN_AGE]황금기를 맞이합니다.'
 WHERE Tag = 'TXT_KEY_PROJECT_APOLLO_PROGRAM_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 UPDATE Language_ko_KR
@@ -188,7 +188,7 @@ SET Text = 'Trade involves the transfer of the ownership of goods or services fr
 WHERE Tag = 'TXT_KEY_TECH_HORSEBACK_RIDING_DESC' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
 
 UPDATE Language_ko_KR
-SET Text = '추가 [ICON_INTERNATIONAL_TRADE]교역로를 제공합니다. 빠르고 강력한 기마 유닛인 [COLOR_POSITIVE_TEXT]기마병[ENDCOLOR]을 생산할 수 있습니다. 초반 [ICON_GOLD]골드의 훌륭한 공급원인 [COLOR_POSITIVE_TEXT]시장[ENDCOLOR]을 건설할 수 있습니다.'
+SET Text = '추가 [ICON_INTERNATIONAL_TRADE][COLOR_YELLOW]교역로[ENDCOLOR]를 제공합니다. 빠르고 강력한 기마 유닛인 [COLOR_YELLOW]기마병[ENDCOLOR]을 만들 수 있습니다. 초반 [ICON_GOLD]골드의 훌륭한 공급원인 [COLOR_POSITIVE_TEXT]시장[ENDCOLOR]을 건설할 수 있습니다.'
 WHERE Tag = 'TXT_KEY_TECH_HORSEBACK_RIDING_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
 
 UPDATE Language_ko_KR
@@ -200,7 +200,7 @@ SET Text = '항해'
 WHERE Tag = 'TXT_KEY_TECH_OPTICS_TITLE' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
 
 UPDATE Language_ko_KR
-SET Text = '추가 [ICON_INTERNATIONAL_TRADE]교역로를 제공합니다. 평지에 [ICON_PRODUCTION]생산을 증가시키는 [COLOR_POSITIVE_TEXT]풍차[ENDCOLOR]를 만들 수 있습니다.'
+SET Text = '추가 [ICON_INTERNATIONAL_TRADE][COLOR_YELLOW]교역로[ENDCOLOR]를 제공합니다. 평지에 [ICON_PRODUCTION]생산을 증가시키는 [COLOR_POSITIVE_TEXT]풍차[ENDCOLOR]를 만들 수 있습니다.'
 WHERE Tag = 'TXT_KEY_TECH_ECONOMICS_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
 
 UPDATE Language_ko_KR
@@ -208,136 +208,136 @@ SET Text = '피사의 사탑을 건설할 수 있으며, 르네상스 시대의 
 WHERE Tag = 'TXT_KEY_TECH_CHEMISTRY_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
 
 UPDATE Language_ko_KR
-SET Text = '르네상스 시대의 강력한 공성 유닛인 [COLOR_POSITIVE_TEXT]대포[ENDCOLOR]를 만들 수 있고 도시의 방어력을 증가시켜주는 [COLOR_POSITIVE_TEXT]무기고[ENDCOLOR]를 건설할 수 있습니다.'
+SET Text = '르네상스 시대의 강력한 공성 유닛인 [COLOR_YELLOW]대포[ENDCOLOR]를 만들 수 있고 도시의 방어력을 증가시켜주는 [COLOR_POSITIVE_TEXT]무기고[ENDCOLOR]를 건설할 수 있습니다.'
 WHERE Tag = 'TXT_KEY_TECH_METALLURGY_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
 
 UPDATE Language_ko_KR
-SET Text = 'Allows you to build the [COLOR_POSITIVE_TEXT]Factory[ENDCOLOR], a building which greatly improves the [ICON_PRODUCTION] Production of a city.'
+SET Text = '도시의 [ICON_PRODUCTION]생산을 크게 향상시키는 [COLOR_POSITIVE_TEXT]공장[ENDCOLOR]을 건설할 수 있습니다.'
 WHERE Tag = 'TXT_KEY_TECH_INDUSTRIALIZATION_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
 -- Fix Steam Power Text
 
 UPDATE Language_ko_KR
-SET Text = 'Reveals [ICON_RES_COAL] [COLOR_POSITIVE_TEXT]Coal[ENDCOLOR], an essential Industrial-Era resource.'
+SET Text = '산업 시대의 필수인 [ICON_RES_COAL]석탄 자원이 지도에 드러납니다.'
 WHERE Tag = 'TXT_KEY_TECH_STEAM_POWER_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
 
 -- Fix Rifling Text
 UPDATE Language_ko_KR
-SET Text = 'Allows you to build the [COLOR_POSITIVE_TEXT]Fusilier[ENDCOLOR], a front-line infantry unit of the mid-game eras.'
+SET Text = '게임 중반의 최전방 보병 유닛인 [COLOR_YELLOW]수발총병[ENDCOLOR]을 만들 수 있습니다.'
 WHERE Tag = 'TXT_KEY_TECH_RIFLING_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
 
 -- Fix Replaceable Parts Text
 UPDATE Language_ko_KR
-SET Text = 'Allows you to build the basic land unit [COLOR_POSITIVE_TEXT]Rifleman[ENDCOLOR], and the [COLOR_POSITIVE_TEXT]Military Base[ENDCOLOR], which boosts City defense.'
+SET Text = '기본 지상 유닛인 [COLOR_YELLOW]소총병[ENDCOLOR]을 만들 수 있고 도시 방어를 증가시키는 [COLOR_POSITIVE_TEXT]군수창고[ENDCOLOR]를 건설할 수 있습니다.'
 WHERE Tag = 'TXT_KEY_TECH_REPLACEABLE_PARTS_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
 
 -- Fix Combustion Text
 
 UPDATE Language_ko_KR
-SET Text = 'Allows you to build the [COLOR_POSITIVE_TEXT]Landship[ENDCOLOR], an incredibly powerful armored Unit that can move after attacking.'
+SET Text = '공격 후 움직일 수 있는 놀라울 정도로 강력한 장갑 유닛 [COLOR_YELLOW]지상함[ENDCOLOR]을 만들 수 있습니다.'
 WHERE Tag = 'TXT_KEY_TECH_COMBUSTION_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
 
 -- Fix Plastics Text
 UPDATE Language_ko_KR
-SET Text = 'Allows you to build the [COLOR_POSITIVE_TEXT]Research Lab[ENDCOLOR], a building which improves [ICON_RESEARCH] Science in a City.'
+SET Text = '도시의 [ICON_RESEARCH]과학을 향상시키는 [COLOR_POSITIVE_TEXT]연구소[ENDCOLOR]를 건설할 수 있습니다.'
 WHERE Tag = 'TXT_KEY_TECH_PLASTICS_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
 
 -- Fix Rocketry Text
 UPDATE Language_ko_KR
-SET Text = 'Allows you to build the [COLOR_POSITIVE_TEXT]Rocket Artillery[ENDCOLOR] military unit, and the [COLOR_POSITIVE_TEXT]Mobile SAM[ENDCOLOR], a fast unit specialized in thwarting enemy aircraft.'
+SET Text = '군사 유닛인 [COLOR_YELLOW]다연장 로켓포[ENDCOLOR]와 적 항공기를 격퇴하는 데 특화된 [COLOR_YELLOW]이동식 SAM 발사대[ENDCOLOR]를 만들 수 있습니다.'
 WHERE Tag = 'TXT_KEY_TECH_ROCKETRY_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
 
 -- Fix Satellites Text
 UPDATE Language_ko_KR
-SET Text = 'Allow you to build the [COLOR_POSITIVE_TEXT]Apollo Program[ENDCOLOR], a project necessary to win a [COLOR_POSITIVE_TEXT]Science Victory[ENDCOLOR].'
+SET Text = '[ICON_VICTORY_SPACE][COLOR_POSITIVE_TEXT]과학 승리[ENDCOLOR]를 쟁취하는 데 필요한 [COLOR_POSITIVE_TEXT]아폴로 우주 계획[ENDCOLOR]을 수행할 수 있습니다.'
 WHERE Tag = 'TXT_KEY_TECH_SATELLITES_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
 
 -- Fix Advanced Ballistics Text
 UPDATE Language_ko_KR
-SET Text = 'Allows you to build the [COLOR_POSITIVE_TEXT]Nuclear Missile[ENDCOLOR], a frightening weapon that requires [ICON_RES_URANIUM] Uranium, and is capable of destroying units and cities.'
+SET Text = '[ICON_RES_URANIUM]우라늄 자원을 소모하여 유닛과 도시를 파괴할 수 있는 무시무시한 무기인 [COLOR_POSITIVE_TEXT]핵미사일[ENDCOLOR]을 만들 수 있습니다.'
 WHERE Tag = 'TXT_KEY_TECH_ADVANCED_BALLISTICS_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
 
 -- Fix Globalization Text
 UPDATE Language_ko_KR
-SET Text = 'Allows you to build the [COLOR_POSITIVE_TEXT]SS Cockpit[ENDCOLOR], a component necessary to win a [COLOR_POSITIVE_TEXT]Science Victory[ENDCOLOR]. With Globalization, each Spy you send to another Civilization as a [ICON_DIPLOMAT] Diplomat will increase the number of Delegates you control in the World Congress, bringing you closer to [COLOR_POSITIVE_TEXT]Diplomatic Victory[ENDCOLOR].'
+SET Text = '[ICON_VICTORY_SPACE][COLOR_POSITIVE_TEXT]과학 승리[ENDCOLOR]를 쟁취하는데 필요한 우주선 부품 중 하나인 [COLOR_POSITIVE_TEXT]SS 조종석[ENDCOLOR]을 만들 수 있습니다. 세계화를 보유한 상태에서 다른 문명에 [ICON_DIPLOMAT][COLOR_POSITIVE_TEXT]외교관[ENDCOLOR]의 형태로 스파이를 보내면 세계 대회에서 당신의 문명이 통제할 수 있는 [COLOR_YELLOW]대표단[ENDCOLOR]의 수가 늘어납니다. 이는  [ICON_VICTORY_DIPLOMACY][COLOR_POSITIVE_TEXT]외교 승리[ENDCOLOR]를 가깝게 합니다.'
 WHERE Tag = 'TXT_KEY_TECH_GLOBALIZATION_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
 
 -- Fix Computers Text
 UPDATE Language_ko_KR
-SET Text = 'Receive an additional [ICON_INTERNATIONAL_TRADE] Trade Route. Allows you to build the [COLOR_POSITIVE_TEXT]Carrier[ENDCOLOR], a naval unit capable of carrying aircraft.'
+SET Text = '추가 [ICON_INTERNATIONAL_TRADE][COLOR_YELLOW]교역로[ENDCOLOR]를 제공합니다. 항공기를 탑재할 수 있는 해상 유닛인 [COLOR_YELLOW]항공모함[ENDCOLOR]을 만들 수 있습니다.'
 WHERE Tag = 'TXT_KEY_TECH_COMPUTERS_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
 
 -- Fix Nuclear Fusion Text
 UPDATE Language_ko_KR
-SET Text = 'Allows you to build the [COLOR_POSITIVE_TEXT]Giant Death Robot[ENDCOLOR], the strongest unit in the game. Also allows you to build the [COLOR_POSITIVE_TEXT]SS Booster[ENDCOLOR], a component necessary to win a [COLOR_POSITIVE_TEXT]Science Victory[ENDCOLOR].'
+SET Text = '게임 내에서 가장 강력한 유닛인 [COLOR_YELLOW]대학살 로봇[ENDCOLOR]을 만들 수 있고 [ICON_VICTORY_SPACE][COLOR_POSITIVE_TEXT]과학 승리[ENDCOLOR]에 필요한 우주선 부품 중 하나인 [COLOR_YELLOW]SS 추진기[ENDCOLOR]를 건설할 수 있습니다.'
 WHERE Tag = 'TXT_KEY_TECH_NUCLEAR_FUSION_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
 
 -- Fix Telecom Text
 UPDATE Language_ko_KR
-SET Text = 'Allows you to build the [COLOR_POSITIVE_TEXT]Nuclear Submarine[ENDCOLOR], a Naval Unit invisible to most other Units and capable of carrying 2 Missiles.'
+SET Text = '미사일을 2개 탑재할 수 있고 대부분의 다른 유닛에게 탐지되지 않는 [COLOR_YELLOW]핵잠수함[ENDCOLOR]을 만들 수 있습니다.'
 WHERE Tag = 'TXT_KEY_TECH_TELECOM_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
 
 -- Fix Electronics Text
 UPDATE Language_ko_KR
-SET Text = 'Allows you to build the [COLOR_POSITIVE_TEXT]Battleship[ENDCOLOR], a powerful late-game ranged Naval Unit.'
+SET Text = '게임 후반의 강력한 원거리 해상 유닛인 [COLOR_YELLOW]전함[ENDCOLOR]을 만들 수 있습니다.'
 WHERE Tag = 'TXT_KEY_TECH_ELECTRONICS_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
 
 -- Fix Combined Arms Text
 UPDATE Language_ko_KR
-SET Text = 'Allows you to build the [COLOR_POSITIVE_TEXT]Tank[ENDCOLOR], a fast and deadly armor Unit.'
+SET Text = '빠르고 치명적인 기갑 유닛인 [COLOR_YELLOW]전차[ENDCOLOR]를 만들 수 있습니다.'
 WHERE Tag = 'TXT_KEY_TECH_COMBINED_ARMS_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
 
 -- Fix Refrigeration Text
 UPDATE Language_ko_KR
-SET Text = 'Allows you to build [COLOR_POSITIVE_TEXT]Stadiums[ENDCOLOR], which increases [ICON_HAPPINESS_1] Happiness within the City. Also allows Work Boats to construct an Offshore Platform, and increases [ICON_INTERNATIONAL_TRADE] Trade Route maximum travel distance.'
+SET Text = '도시의 [ICON_HAPPINESS_1]행복을 증가시키는 [COLOR_POSITIVE_TEXT]경기장[ENDCOLOR]을 건설할 수 있습니다. 작업선이 유정을 건설할 수 있고, [ICON_INTERNATIONAL_TRADE]교역로의 거리가 증가합니다.'
 WHERE Tag = 'TXT_KEY_TECH_REFRIGERATION_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
 
 -- Fix Flight Text
 UPDATE Language_ko_KR
-SET Text = 'Allows you to build the [COLOR_POSITIVE_TEXT]Triplane[ENDCOLOR], an Air Unit designed to gain control of the skies, and the [COLOR_POSITIVE_TEXT]Bomber[ENDCOLOR], which can devastate Land Units and Cities.'
+SET Text = '제공권 장악에 필요한 공중 유닛인 [COLOR_YELLOW]1차 세계대전 전투기[ENDCOLOR]와 지상 유닛 및 도시에 위력을 발휘하는 [COLOR_YELLOW]폭격기[ENDCOLOR]를 만들 수 있습니다.'
 WHERE Tag = 'TXT_KEY_TECH_FLIGHT_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
 
 -- Fix Radar Text
 UPDATE Language_ko_KR
-SET Text = 'Allows you to build the [COLOR_POSITIVE_TEXT]Heavy Bomber[ENDCOLOR], a deadly air Unit capable of delivering death from afar, and the [COLOR_POSITIVE_TEXT]Fighter[ENDCOLOR], an air Unit designed to wrest control of the skies from enemy aircraft. Also allows you to build the [COLOR_POSITIVE_TEXT]Paratrooper[ENDCOLOR], a late-game infantry unit capable of paradropping behind enemy lines.'
+SET Text = '원거리에서 치명적인 공격을 가할 수 있는 공중 유닛인 [COLOR_YELLOW]중폭격기[ENDCOLOR]와 제공권 장악에 필요한 공중 유닛인 [COLOR_YELLOW]전투기[ENDCOLOR]를 만들 수 있습니다. 공중에서 적 후방에 침투할 수 있는 게임 후반 보병 유닛인 [COLOR_YELLOW]공수부대[ENDCOLOR]를 만들 수 있습니다.'
 WHERE Tag = 'TXT_KEY_TECH_RADAR_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
 
 -- Fix Compass Text
 UPDATE Language_ko_KR
-SET Text = 'Receive an additional [ICON_INTERNATIONAL_TRADE] Trade Route. Allows you to build the [COLOR_POSITIVE_TEXT]Harbor[ENDCOLOR], which creates city connections from cities to the capital over the water, producing [ICON_GOLD] Gold. Additionally, the [ICON_FOOD] Food yield from Fishing Boats is increased.'
+SET Text = '추가 [ICON_INTERNATIONAL_TRADE][COLOR_YELLOW]교역로[ENDCOLOR]를 제공합니다. [COLOR_POSITIVE_TEXT]항만[ENDCOLOR]을 건설하여 바다를 통해 수도와 다른 도시를 [ICON_CONNECTED]연결해 [ICON_GOLD]골드를 증가시킬 수 있습니다. 또한 어선의 [ICON_FOOD]식량이 증가합니다.'
 WHERE Tag = 'TXT_KEY_TECH_COMPASS_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
 
 -- Fix Metal Casting Text
 UPDATE Language_ko_KR
-SET Text = 'Allows you to build the [COLOR_POSITIVE_TEXT]Baths[ENDCOLOR], which increase the creation of [ICON_GREAT_PEOPLE] Great People.'
+SET Text = '[ICON_GREAT_PEOPLE]위인 출현율을 증가시키는 [COLOR_POSITIVE_TEXT]목욕탕[ENDCOLOR]을 건설할 수 있습니다.'
 WHERE Tag = 'TXT_KEY_TECH_METAL_CASTING_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
 
 -- Fix Construction Text
 UPDATE Language_ko_KR
-SET Text = 'Allows you to build the [COLOR_POSITIVE_TEXT]Arena[ENDCOLOR], which improves [ICON_HAPPINESS_1] Happiness in the empire, which in turn helps your city growth and makes [ICON_GOLDEN_AGE] Golden Ages more likely.'
+SET Text = '문명 전역의 [ICON_HAPPINESS_1]행복을 증가시켜 도시 성장과 [ICON_GOLDEN_AGE]황금기에 도움을 주는 [COLOR_POSITIVE_TEXT]투기장[ENDCOLOR]을 건설할 수 있습니다.'
 WHERE Tag = 'TXT_KEY_TECH_CONSTRUCTION_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
 
 -- Fix Wheel Text
 UPDATE Language_ko_KR
-SET Text = 'Allows you to build the [COLOR_POSITIVE_TEXT]Chariot Archer[ENDCOLOR], a fast and powerful ranged unit which requires [ICON_RES_HORSE] Horses. Also allows Workers to construct [COLOR_POSITIVE_TEXT]Roads[ENDCOLOR], which allow units to move across the map faster and provide extra [ICON_GOLD] Gold when connecting cities to your capital.'
+SET Text = '빠르고 강력하지만 [ICON_RES_HORSE]말 자원이 필요한 원거리 유닛인 [COLOR_YELLOW]궁전차[ENDCOLOR]를 만들 수 있습니다. 노동자로 도로를 건설할 수 있습니다. 도로는 유닛을 더 빨리 이동할 수 있게 해주고 수도와 다른 도시를 연결할 때 추가적인 [ICON_GOLD]골드를 제공합니다.'
 WHERE Tag = 'TXT_KEY_TECH_THE_WHEEL_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
 
 -- Fix Currency Text
 
 UPDATE Language_ko_KR
-SET Text = 'Receive an additional [ICON_INTERNATIONAL_TRADE] Trade Route. Allows you to construct the [COLOR_POSITIVE_TEXT]Caravansary[ENDCOLOR], which greatly boosts the range and value of your land [ICON_INTERNATIONAL_TRADE] Trade Routes. Also allows Workers to construct the [COLOR_POSITIVE_TEXT]Village[ENDCOLOR], which increases the [ICON_GOLD] Gold output of map tiles.'
+SET Text = '추가 [ICON_INTERNATIONAL_TRADE][COLOR_YELLOW]교역로[ENDCOLOR]를 제공합니다. 육상 교역로의 가치와 범위를 크게 증가시키는 [COLOR_POSITIVE_TEXT]대상 숙소[ENDCOLOR]를 건설할 수 있고 타일의 [ICON_GOLD]골드 산출량을 증가시키는 마을을 건설할 수 있습니다.'
 WHERE Tag = 'TXT_KEY_TECH_CURRENCY_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
 
 -- Other Text Fixes
 UPDATE Language_ko_KR
-SET Text = 'Allows you to build the [COLOR_POSITIVE_TEXT]Catapult[ENDCOLOR], a powerful siege weapon, and the [COLOR_POSITIVE_TEXT]Horse Archer[ENDCOLOR], a strong mounted ranged unit.'
+SET Text = '강력한 공성 유닛인 [COLOR_YELLOW]투석기[ENDCOLOR]와 강력한 기마 원거리 유닛인 [COLOR_YELLOW]궁기병[ENDCOLOR]을 만들 수 있습니다.'
 WHERE Tag = 'TXT_KEY_TECH_MATHEMATICS_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
 
 UPDATE Language_ko_KR
-SET Text = 'Allows you to build the [COLOR_POSITIVE_TEXT]Temple[ENDCOLOR], which increases the [ICON_PEACE] Faith output of a city. Also allows you to build the [COLOR_POSITIVE_TEXT]Courthouse[ENDCOLOR], a building which reduces the [ICON_HAPPINESS_4] Unhappiness from [ICON_OCCUPIED] Occupied Cities.'
+SET Text = '도시의 [ICON_PEACE]신앙 산출량을 증가시키는 [COLOR_POSITIVE_TEXT]사원[ENDCOLOR]을 건설할 수 있고 점령한 도시의 [ICON_HAPPINESS_4]불행을 줄여주는 [COLOR_POSITIVE_TEXT]법원[ENDCOLOR]을 건설할 수 있습니다.'
 WHERE Tag = 'TXT_KEY_TECH_PHILOSOPHY_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
 
 UPDATE Language_ko_KR
-SET Text = 'Receive an additional [ICON_INTERNATIONAL_TRADE] Trade Route. Allows Workers to build [COLOR_POSITIVE_TEXT]Railroads[ENDCOLOR] on map tiles. Connecting cities with them will increase [ICON_PRODUCTION] Production, and units traveling along them will move more quickly.'
+SET Text = '추가 [ICON_INTERNATIONAL_TRADE][COLOR_YELLOW]교역로[ENDCOLOR]를 제공합니다. 노동자가 철도를 건설할 수 있습니다. 철도는 유닛의 이동 속도가 증가시키고 철도로 [ICON_CONNECTED]연결된 도시는 [ICON_PRODUCTION]생산이 증가합니다.'
 WHERE Tag = 'TXT_KEY_TECH_RAILROAD_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
 
 UPDATE Language_ko_KR

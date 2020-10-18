@@ -1,7 +1,7 @@
 -- Misc text update
 -- Puppet TT TopPanel
 UPDATE Language_ko_KR
-SET Text = '{1_Num} {2_IconString} from Traits and Other Sources'
+SET Text = '{1_Num} {2_IconString} 특성 및 기타 출처에서'
 WHERE Tag = 'TXT_KEY_YIELD_FROM_MISC' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE' AND Value= 1 );
 
 -- Puppet TT TopPanel
