@@ -3,28 +3,29 @@
 <GameData>
 	<Language_ko_KR>
 		<Row Tag="TXT_KEY_CITY_STATE_PERMANENT_ALLY_TT">
-			<Text>{1_CivName:textkey} is their current Ally. Until their [COLOR_POSITIVE_TEXT]Sphere of Influence[ENDCOLOR] is removed, you cannot remove them from this position.</Text>
+			<Text>{1_CivName:textkey}{1: plural 1?이; 2?가;} 현재 도시 국가의 동맹입니다. 그들의 [COLOR_POSITIVE_TEXT]영향권[ENDCOLOR]이 사라질 때까지 당신은 이 위치에서 그들을 제거할 수 없습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_STATE_ALLY_NOBODY_PERMA">
-			<Text>Because there is an active [COLOR_POSITIVE_TEXT]Open Door Policy[ENDCOLOR] in effect here, no one can become this City-State's Ally.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]문호 개방[ENDCOLOR]이 활성화 되었기 때문에 아무도 이 도시 국가와 동맹을 맺을 수 없습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESOLUTION_SOI">
 			<Text>영향권</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESOLUTION_SOI_HELP">
-			<Text>Demand a Sphere of Influence over a City-State. If successful, the proposing player becomes the permanent Ally of the City-State (unless this Proposal is repealed). [NEWLINE][NEWLINE][COLOR_RESEARCH_STORED]증기력[ENDCOLOR]을 연구한 문명이 있어야 안건으로 채택할 수 있습니다.</Text>
+			<Text>도시 국가에 대한 영향권을 요구합니다. 성공하면 이를 제안한 문명은 해당 도시 국가의 영구적인 동맹이 됩니다. [NEWLINE][NEWLINE][COLOR_RESEARCH_STORED]증기력[ENDCOLOR]을 연구한 문명이 있어야 안건으로 채택할 수 있습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_SOI">
 			<Text>영향권: {1_CivsList}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_SOI_ENTRY">
 			<Text>{@1_CivName} ({@2_CivName}에 대한)</Text>
-		</Row>/
+		</Row>
 		<Row Tag="TXT_KEY_RESOLUTION_DECOLONIZATION">
 			<Text>탈식민지화</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESOLUTION_DECOLONIZATION_HELP">
-			<Text>Enforce decolonization on a Player. If successful, the Player's [ICON_INFLUENCE] Influence is lowered to 50 with all non-Permanent City-State allies. [NEWLINE][NEWLINE][COLOR_RESEARCH_STORED]라디오[ENDCOLOR]를 연구한 문명이 있어야 안건으로 채택할 수 있습니다.</Text>
+			<Text>
+			해당 문명에 강제로 탈식민지화를 시행합니다. 성공하면 모든 비영구적인 도시 국가 동맹에 대한 해당 문명의 [ICON_INFLUENCE]영향력이 50으로 감소합니다.[NEWLINE][NEWLINE][COLOR_RESEARCH_STORED]라디오[ENDCOLOR]를 연구한 문명이 있어야 안건으로 채택할 수 있습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESOLUTION_OPEN_DOOR">
 			<Text>문호 개방</Text>
@@ -36,7 +37,7 @@
 			<Text>{@1_CivName}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESOLUTION_OPEN_DOOR_HELP">
-			<Text>Enact an Open Door policy for a City-State. If successful, all civilizations will immediately have their [ICON_INFLUENCE] Influence set at 40 with the City-State, and no one can become the City-State's Ally until this Proposal is repealed.</Text>
+			<Text>도시 국가를 위한 문호 개방을 제안합니다. 성공한다면 모든 문명의 도시 국가와의 [ICON_INFLUENCE]영향력이 즉시 40 증가합니다. 이 제안이 철회되기 전까지는 아무도 도시 국가와 동맹을 맺을 수 없습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESOLUTION_CHOICE_CITY_CSD">
 			<Text>{@1_CityName}</Text>
@@ -51,46 +52,46 @@
 			<Text>우주 비행 규제</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESOLUTION_SPACESHIP_INSPECTION_HELP">
-			<Text>Spaceflight Regulations control the proliferation of modern ballistic technology, oversee national space programs, and limit the advance of pontentially-dangerous technology. [NEWLINE][NEWLINE]As long as this resolution is active, all players will suffer a global -25% [ICON_PRODUCTION] Production penalty for [ICON_VICTORY_SPACE] Spaceship Parts, +25% [ICON_GOLD] Gold purchase costs for [ICON_VICTORY_SPACE] Spaceship Parts, and +25% [ICON_PEACE] Faith costs for Engineers.[NEWLINE][NEWLINE][COLOR_RESEARCH_STORED]원자론[ENDCOLOR]을 연구한 문명이 있어야 안건으로 채택할 수 있습니다.</Text>
+			<Text>우주 비행 규제는 현대 탄도 기술의 확산을 통제하고, 국가 우주 프로그램을 감독하며, 잠재적으로 위험한 기술의 발전을 제한합니다.[NEWLINE][NEWLINE]이 결의안이 활성되면, 모든 문명의 우주선 부품 [ICON_PRODUCTION]생산 페널티가 -25% 발생하고, 우주선 부품을 구매하는 [ICON_GOLD]비용이 25% 증가합니다. 위대한 기술자를 구매하는 데 필요한 [ICON_PEACE]신앙이 25% 증가합니다.[NEWLINE][NEWLINE][COLOR_RESEARCH_STORED]원자론[ENDCOLOR]을 연구한 문명이 있어야 안건으로 채택할 수 있습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_SPACESHIP_LIMIT">
-			<Text>{1_Spaceship}% [ICON_PRODUCTION] Production when building SS Parts</Text>
+			<Text>{1_Spaceship}% [ICON_PRODUCTION]SS 부품 생산 시</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_SPACESHIP_PURCHASE">
-			<Text>+{1_Spaceship}% costs for [ICON_GOLD] Gold purchases of SS parts and [ICON_PEACE] Faith purchases of Great Engineers</Text>
+			<Text>+{1_Spaceship}% SS 부품 구매 [ICON_GOLD]비용 및 위대한 기술자 구매 [ICON_PEACE]비용</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESOLUTION_WORLD_WAR">
 			<Text>카수스 벨리</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESOLUTION_WORLD_WAR_HELP">
-			<Text>The world recognizes the need for justifiable war to resolve diplomatic disputes. [NEWLINE][NEWLINE]While this resolution is active, unit maintenance costs are lowered by 15% [ICON_GOLD] Gold. [ICON_VICTORY_DOMINATION] Warmonger penalties for capturing cities and declaring war are greatly reduced, and [ICON_VICTORY_DOMINATION] Warmonger scores decay much more rapidly than normal.</Text>
+			<Text>세계는 외교 분쟁을 해결하기 위한 정당한 전쟁의 필요성을 인식하고 있습니다. [NEWLINE][NEWLINE]이 결의안이 활성되면, 유닛 유지 [ICON_GOLD]비용이 15% 감소합니다. 도시를 점령하고 전쟁을 선포할 때 [ICON_VICTORY_DOMINATION]전쟁광 페널티가 크게 감소하고, 전쟁광 수치가 평소보다 빠르게 감소합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_WORLD_WAR">
-			<Text>{1_UnitMaintenancePercent}% [ICON_GOLD] Gold cost for Unit Maintenance. [ICON_VICTORY_DOMINATION] Warmonger penalties greatly decreased</Text>
+			<Text>{1_UnitMaintenancePercent}% 유닛 유지 [ICON_GOLD]비용.[ICON_VICTORY_DOMINATION]전쟁광 페널티 크게 감소.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_WAR_PEACE">
-			<Text>+{1_UnitMaintenancePercent}% [ICON_GOLD] Gold cost for Unit Maintenance. [ICON_VICTORY_DOMINATION] Warmonger penalties unchanged.</Text>
+			<Text>+{1_UnitMaintenancePercent}% 유닛 유지 [ICON_GOLD]비용.[ICON_VICTORY_DOMINATION]전쟁광 페널티 변동.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESOLUTION_COLD_WAR">
 			<Text>냉전</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESOLUTION_COLD_WAR_HELP">
-			<Text>Ideological differences have pushed the world into a cold war, and economic and political factions are forming based on ideology alone. [NEWLINE][NEWLINE]While this resolution is active, players may only make [ICON_INTERNATIONAL_TRADE] Trade Routes with civilizations that follow the same ideology, or with allied City-States. Furthermore, [ICON_INFLUENCE] Influence levels with allied City-States do not decline. [NEWLINE][NEWLINE][COLOR_RESEARCH_STORED]원자론[ENDCOLOR]을 연구한 문명이 있어야 안건으로 채택할 수 있습니다.</Text>
+			<Text>이념의 차이가 세계를 냉전으로 몰아붙였고 이념에 기반한 경제적, 정치적인 파벌이 형성되었습니다.[NEWLINE][NEWLINE]이 결의안이 활성되면,			같은 이념을 따르는 문명 또는 동맹인 도시 국가에만 [ICON_INTERNATIONAL_TRADE]교역로를 보낼 수 있습니다. 동맹인 도시 국가와의 [ICON_INFLUENCE]영향력이 감소하지 않습니다.[NEWLINE][NEWLINE][COLOR_RESEARCH_STORED]원자론[ENDCOLOR]을 연구한 문명이 있어야 안건으로 채택할 수 있습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_EMBARGO_IDEOLOGY">
-			<Text>No [ICON_INTERNATIONAL_TRADE] Trade Routes with Ideological opponents or non-allied City-States. Allied City-State [ICON_INFLUENCE] Influence does not decay.</Text>
+			<Text>이념이 다른 문명 또는 동맹이 아닌 도시 국가와 [ICON_INTERNATIONAL_TRADE]교역 금지. 동맹인 도시 국가와의 [ICON_INFLUENCE]영향력 감소 정지.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_INVALID_RESOLUTION_CONTRADICTION">
-			<Text>Prevented by an active or proposed resolution.</Text>
+			<Text>활성 또는 제안된 결의안 때문에 불가능 합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_INVALID_RESOLUTION_PREREQ">
-			<Text>Unavailable until a World Ideology is active.</Text>
+			<Text>세계 이념이 활성화되기 전까지 불가능 합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_POSITIVE_GREAT_PERSON_RATE_SCIENCEY">
-			<Text>Boost to [ICON_FOOD]/[ICON_RESEARCH] for Civilizations with Scores below global average. +{1_GreatPersonRateMod}% generation rate for {2_GreatPersonList}</Text>
+			<Text>세계 평균 이하의 점수를 가진 문명에 [ICON_FOOD]/[ICON_RESEARCH]보너스. +{1_GreatPersonRateMod}% 위인 출현율 ({2_GreatPersonList})</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_POSITIVE_GREAT_PERSON_RATE_ARTSY">
-			<Text>Boost to [ICON_PRODUCTION]/[ICON_CULTURE] for Civilizations with Scores below global average. +{1_GreatPersonRateMod}% generation rate for {2_GreatPersonList}</Text>
+			<Text>세계 평균 이하의 점수를 가진 문명에 [ICON_PRODUCTION]/[ICON_CULTURE]보너스. +{1_GreatPersonRateMod}% 위인 출현율 ({2_GreatPersonList})</Text>
 		</Row>
 	</Language_ko_KR>
 </GameData>

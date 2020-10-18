@@ -312,7 +312,7 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_BIG_CITY_PENALTY">
-			<Text>도시 공격 시 페널티 (75)</Text> <Plurality>2</Plurality>
+			<Text>도시 공격 페널티 (75)</Text> <Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_BIG_CITY_PENALTY_HELP">
 			<Text>>도시 공격 시 [ICON_STRENGTH]전투력이 [COLOR_NEGATIVE_TEXT]75%[ENDCOLOR] 감소</Text>
@@ -322,21 +322,21 @@
 			<Text>빠른 장군</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_FASTER_GENERAL_HELP">
-			<Text>+1 [ICON_MOVES] Movement</Text>
+			<Text>+1 [ICON_MOVES]이동력</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_BARBARIAN_BONUS">
 			<Text>무차별 공격</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_BARBARIAN_BONUS_HELP">
-			<Text>+33% [ICON_STRENGTH] Combat Strength VS [COLOR_POSITIVE_TEXT]Barbarians[ENDCOLOR].</Text>
+			<Text>+33% [ICON_STRENGTH]전투력 보너스 VS [COLOR_POSITIVE_TEXT]야만인[ENDCOLOR]</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_IMPERIALISM_OPENER">
 			<Text>제국주의</Text> <Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_IMPERIALISM_OPENER_HELP">
-			<Text>+1 Sight.</Text>
+			<Text>+1 시야</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_BETTER_LEADERSHIP">
@@ -449,14 +449,14 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_AIR_TARGETING_3_HELP">
-			<Text>+25% [ICON_STRENGTH] Combat Strength VS [COLOR_POSITIVE_TEXT]Naval[ENDCOLOR] and [COLOR_POSITIVE_TEXT]Land Units[ENDCOLOR].</Text>
+			<Text>+25% [ICON_STRENGTH]전투력 보너스 VS [COLOR_POSITIVE_TEXT]해상 유닛[ENDCOLOR] 및 [COLOR_POSITIVE_TEXT]지상 유닛[ENDCOLOR].</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_ARSENALE">
 			<Text>베네치아 공작술</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_ARSENALE_HELP">
-			<Text>+10% [ICON_STRENGTH] Strength, +1 [ICON_MOVES] Movement.</Text>
+			<Text>+10% [ICON_STRENGTH]전투력, +1 [ICON_MOVES]이동력.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_NUCLEAR_SILO">
@@ -504,7 +504,7 @@
 			<Text>적보다 적은 인구</Text> <Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_EUPANEL_BONUS_PER_ADJACENT_UNIT_COMBAT">
-			<Text>인접한 유닛에서 보너스</Text> <Plurality>2</Plurality>
+			<Text>인접 유닛 보너스</Text> <Plurality>2</Plurality>
 		</Row>
 	
 		<Row Tag="TXT_KEY_UNIT_ELEPHANT_RIDER">
@@ -595,7 +595,7 @@
 
 		<!-- New Slinger Promotion -->
 		<Row Tag="TXT_KEY_PROMOTION_SLINGER">
-			<Text>뇌진탕 적중</Text>
+			<Text>손상 타격</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_SLINGER_HELP">
 			<Text>[COLOR_POSITIVE_TEXT]Ranged[ENDCOLOR] Attacks by this Unit inflict the [COLOR_POSITIVE_TEXT]Dazed[ENDCOLOR] status on other Units, reducing their [ICON_STRENGTH] Combat Strength by 15% for 5 Turns.[NEWLINE]Ignores [COLOR_POSITIVE_TEXT]Zone of Control[ENDCOLOR].</Text>
@@ -669,7 +669,7 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_BREACHER">
-			<Text>위반자</Text>
+			<Text>위반</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_BREACHER_HELP">
 			<Text>+10% [ICON_STRENGTH] Combat Strength per [COLOR_POSITIVE_TEXT]Adjacent Enemy Unit[ENDCOLOR] when defending.[NEWLINE]Deal [COLOR_POSITIVE_TEXT]15 Damage[ENDCOLOR] to all Enemy Units [COLOR_POSITIVE_TEXT]Adjacent[ENDCOLOR] to a Unit killed by this Unit.</Text>
@@ -771,14 +771,14 @@
 
 
 		<Row Tag="TXT_KEY_PROMOTION_SACRED_STEPS">
-			<Text>신성한 단계</Text>
+			<Text>신성한 걸음</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_SACRED_STEPS_HELP">
 			<Text>+2 [ICON_MOVES] Movement.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_EVERLASTING_YOUTH">
-			<Text>영원한 청춘</Text>
+			<Text>영원한 젊음</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_EVERLASTING_YOUTH_HELP">
 			<Text>Units heal for an additional +5 Hit Points.</Text>
@@ -901,21 +901,21 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_BARBARIAN_PENALTY_I">
-			<Text>Penalty vs Barbarians (-20%)</Text>
+			<Text>야만인 대항 페널티 (-20%)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_BARBARIAN_PENALTY_I_HELP">
 			<Text>-20% [ICON_STRENGTH] Combat Strength VS [COLOR_NEGATIVE_TEXT]Barbarians[ENDCOLOR].</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_BARBARIAN_PENALTY_II">
-			<Text>Penalty vs Barbarians (-10%)</Text>
+			<Text>야만인 대항 페널티 (-10%)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_BARBARIAN_PENALTY_II_HELP">
 			<Text>-10% [ICON_STRENGTH] Combat Strength VS [COLOR_NEGATIVE_TEXT]Barbarians[ENDCOLOR].</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_BARBARIAN_PENALTY_III">
-			<Text>Penalty vs Barbarians (-10)</Text>
+			<Text>야만인 대항 페널티 (-10)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_BARBARIAN_PENALTY_III_HELP">
 			<Text>-10% [ICON_STRENGTH] Combat Strength VS [COLOR_NEGATIVE_TEXT]Barbarians[ENDCOLOR].</Text>
@@ -949,7 +949,7 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_FIELD_WORKS_3">
-			<Text>디펜스 포스</Text>
+			<Text>방어 훈련</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_FIELD_WORKS_3_HELP">
 			<Text>+25% [ICON_STRENGTH] Combat Strength against all [COLOR_POSITIVE_TEXT]Ranged Attacks[ENDCOLOR].[NEWLINE]+25 Hit Points.</Text>

@@ -148,7 +148,7 @@
 	WHERE Tag = 'TXT_KEY_CIV5_FEATURES_EL_DORADO_TEXT' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
 	
 	UPDATE Language_ko_KR
-	SET Text = '이 자연경관을 소유한 문명의 노동자, 작업선, 선교사, 이단심문관, 개척자 유닛에 [COLOR_PLAYER_PURPLE]신성한 발걸음[ENDCOLOR] 승급을 부여합니다.'
+	SET Text = '이 자연경관을 소유한 문명의 노동자, 작업선, 선교사, 이단심문관, 개척자 유닛에 [COLOR_PLAYER_PURPLE]신성한 걸음[ENDCOLOR] 승급을 부여합니다.'
 	WHERE Tag = 'TXT_KEY_CIV5_FEATURES_EL_DORADO_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
 	
 
