@@ -16,11 +16,11 @@ WHERE Tag = 'TXT_KEY_TP_CULTURE_CITY_COST' AND EXISTS (SELECT * FROM COMMUNITY W
 
 -- Supply Info
 UPDATE Language_ko_KR
-SET Text = 'Your empire can support {1_Num} Units. You are over that limit by {2_Num}, which decreases [ICON_PRODUCTION] Production and [ICON_FOOD] Growth in your Cities by {3_Num}%.'
+SET Text = '당신의 문명은 [COLOR_POSITIVE_TEXT]{1_Num}개[ENDCOLOR]의 유닛까지 보급할 수 있습니다. [COLOR_NEGATIVE_TEXT]{2_Num}개[ENDCOLOR]의 유닛이 보급 한계를 초과하여 모든 도시에서 [ICON_PRODUCTION]생산 및 [ICON_FOOD]식량이 [COLOR_NEGATIVE_TEXT]{3_Num}%[ENDCOLOR] 감소합니다.'
 WHERE Tag = 'TXT_KEY_UNIT_SUPPLY_REACHED_TOOLTIP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE' AND Value= 1 );
 
 UPDATE Language_ko_KR
-SET Text = '[ICON_FOOD]/[ICON_PRODUCTION] Penalty'
+SET Text = '[ICON_FOOD]/[ICON_PRODUCTION] 페널티'
 WHERE Tag = 'TXT_KEY_SUPPLY_DEFICIT_PENALTY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE' AND Value= 1 );
 
 -- Wonders
@@ -61,15 +61,15 @@ SET Text = 'If they have an Ideology, and their population is Content, an unmet 
 WHERE Tag = 'TXT_KEY_NOTIFICATION_CULTURE_VICTORY_WITHIN_ONE_UNMET_TT';
 
 UPDATE Language_ko_KR
-SET Text = 'If you have an Ideology, and your population is Content, you only need to become Influential with 2 more civilizations to construct the Citizen Earth Protocol and win a Culture Victory.'
+SET Text = '이념을 채택한 상태이고, 여론이 만족한 상태라면 문화 승리를 쟁취하기 위해서 당신의 문명은 세계 시민 의정서를 구성하고 2개 이상의 문명에 영향력 있는 문명이 되어야 합니다. '
 WHERE Tag = 'TXT_KEY_NOTIFICATION_CULTURE_VICTORY_WITHIN_TWO_ACTIVE_PLAYER_TT';
 
 UPDATE Language_ko_KR
-SET Text = 'If they have an Ideology, and their population is Content, {1_CivName} only needs their culture to become Influential with 2 more civilizations to construct the Citizen Earth Protocol and win a Culture Victory.'
+SET Text = '이념을 채택한 상태이고, 여론이 만족한 상태라면 문화 승리를 쟁취하기 위해서 {1_CivName}{1: plural 1?은; 2?는;} 세계 시민 의정서를 구성하고 2개 이상의 문명에 영향력 있는 문명이 되어야 합니다.'
 WHERE Tag = 'TXT_KEY_NOTIFICATION_CULTURE_VICTORY_WITHIN_TWO_TT';
 
 UPDATE Language_ko_KR
-SET Text = 'If they have an Ideology, and their population is Content, an unmet civilization only needs their culture to become Influential with 2 more civilizations to construct the Citizen Earth Protocol and win a Culture Victory.'
+SET Text = '이념을 채택한 상태이고, 여론이 만족한 상태라면 문화 승리를 쟁취하기 위해서 아직 만나지 못한 문명은 세계 시민 의정서를 구성하고 2개 이상의 문명에 영향력 있는 문명이 되어야 합니다.'
 WHERE Tag = 'TXT_KEY_NOTIFICATION_CULTURE_VICTORY_WITHIN_TWO_UNMET_TT';
 
 -- Difficulty Names
@@ -108,11 +108,11 @@ WHERE Tag = 'TXT_KEY_HANDICAP_DEITY_HELP';
 
 -- Top Panel Tooltip Adjustment (make generic for more than just founder beliefs)
 UPDATE Language_ko_KR
-SET Text = '[ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] from Religion.'
+SET Text = '[ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] 종교에서'
 WHERE Tag = 'TXT_KEY_TP_FAITH_FROM_RELIGION' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_RELIGION' AND Value= 1 );
 
 UPDATE Language_ko_KR
-SET Text = 'Allows Research Agreements (if enabled)'
+SET Text = '연구 협정 허용 (활성화 시)'
 WHERE Tag = 'TXT_KEY_ABLTY_R_PACT_STRING' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
 
 UPDATE Language_ko_KR
@@ -132,7 +132,7 @@ WHERE Tag = 'TXT_KEY_FOOD_UNHAPPINESS_HEADING3_BODY' AND EXISTS (SELECT * FROM C
 
 -- Resource Limit breached
 UPDATE Language_ko_KR
-SET Text = 'You are currently using more {1_Resource:textkey} than you have! All Units which require it are [COLOR_NEGATIVE_TEXT]unable to heal[ENDCOLOR].'
+SET Text = '당신은 {1_Resource:textkey}{1: plural 1?을; 2?를;} 소유량보다 더 많이 사용하고 있습니다. 해당 자원을 필요로 하는 모든 유닛의 [COLOR_NEGATIVE_TEXT]체력을 회복할 수 없습니다.[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_NOTIFICATION_OVER_RESOURCE_LIMIT' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
 	
 -- Text Changes for Spies in Cities
@@ -181,11 +181,11 @@ WHERE Tag = 'TXT_KEY_GOLD_PURCHASEUNITS_HEADING3_BODY' AND EXISTS (SELECT * FROM
 
 -- Happiness from Policies to Culture/Science change
 UPDATE Language_ko_KR
-SET Text = '[ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] from Policies.'
+SET Text = '[ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] 정책에서'
 WHERE Tag = 'TXT_KEY_TP_CULTURE_FROM_HAPPINESS' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
 
 UPDATE Language_ko_KR
-SET Text = '[ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] [ICON_RESEARCH] from Policies.'
+SET Text = '[ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] [ICON_RESEARCH]정책에서'
 WHERE Tag = 'TXT_KEY_TP_SCIENCE_FROM_HAPPINESS' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
 
 UPDATE Language_ko_KR
@@ -243,17 +243,17 @@ WHERE EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_TOURISM
 
 INSERT INTO Language_ko_KR (
 Text, Tag)
-SELECT '+{1_Num}% from Policies', 'TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_TT_YIELD_MODIFIER'
+SELECT '+{1_Num}% 정책에서', 'TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_TT_YIELD_MODIFIER'
 WHERE EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_TOURISM_CHANGES' AND Value= 1 );
 
 INSERT INTO Language_ko_KR (
 Text, Tag)
-SELECT '+{1_Num}% [ICON_PRODUCTION] Production from Policies', 'TXT_KEY_CHOOSE_INTERNAL_TRADE_ROUTE_ITEM_TT_YIELD_MODIFIER_PROD'
+SELECT '+{1_Num}% [ICON_PRODUCTION]정책에서', 'TXT_KEY_CHOOSE_INTERNAL_TRADE_ROUTE_ITEM_TT_YIELD_MODIFIER_PROD'
 WHERE EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_TOURISM_CHANGES' AND Value= 1 );
 
 INSERT INTO Language_ko_KR (
 Text, Tag)
-SELECT '+{1_Num}% [ICON_FOOD] Food from Policies', 'TXT_KEY_CHOOSE_INTERNAL_TRADE_ROUTE_ITEM_TT_YIELD_MODIFIER_FOOD'
+SELECT '+{1_Num}% [ICON_FOOD]정책에서', 'TXT_KEY_CHOOSE_INTERNAL_TRADE_ROUTE_ITEM_TT_YIELD_MODIFIER_FOOD'
 WHERE EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_TOURISM_CHANGES' AND Value= 1 );
 
 
@@ -303,11 +303,11 @@ SET Text = '[ICON_INFLUENCE] Influence above Neutral threshold'
 WHERE Tag = 'TXT_KEY_POP_CSTATE_BULLY_FACTOR_LOW_INFLUENCE' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_MINORS' AND Value= 1 );
 
 UPDATE Language_ko_KR
-SET Text = 'They recognize your military strength, and will give you [COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR] of their total yields as tribute.'
+SET Text = '[COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR] of their total yields as tribute.'
 WHERE Tag = 'TXT_KEY_CSTATE_CAN_BULLY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_MINORS' AND Value= 1 );	
 
 UPDATE Language_ko_KR
-SET Text = 'They do not fear you, and will resist tribute demands, as you are [COLOR_NEGATIVE_TEXT]{1_Num}%[ENDCOLOR] below the threshold.'
+SET Text = '당신의 군대를 두려워하지 않으므로 공물을 바치지 않을 것입니다., as you are [COLOR_NEGATIVE_TEXT]{1_Num}%[ENDCOLOR] below the threshold.'
 WHERE Tag = 'TXT_KEY_CSTATE_CANNOT_BULLY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_MINORS' AND Value= 1 );	
 
 
@@ -317,7 +317,7 @@ WHERE Tag = 'TXT_KEY_FEATURE_FALLOUT_PEDIA' AND EXISTS (SELECT * FROM COMMUNITY 
 	
 INSERT INTO Language_ko_KR (
 Tag, Text)
-SELECT 'TXT_KEY_BUILD_FARM_REC', 'It will boost your [ICON_FOOD] Food output on this tile. Farms adjacent to two other Farms and/or to Fresh Water gain +1 [ICON_FOOD] Food. '
+SELECT 'TXT_KEY_BUILD_FARM_REC', '해당 타일의 [ICON_FOOD]식량을 증가시킵니다. 서로 인접한 농장끼리 또는 담수와 인접한 농장의 [ICON_FOOD]식량이 1 증가합니다.'
 WHERE EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_ko_KR
@@ -475,37 +475,37 @@ WHERE Tag = 'TXT_KEY_HAPPINESS_LEVELSUNHAPPINESS_HEADING2_BODY' AND EXISTS (SELE
 -- Text for city view tooltip.
 INSERT INTO Language_ko_KR (
 Text, Tag)
-SELECT '[NEWLINE][ICON_BULLET][ICON_HAPPINESS_1] Local Happiness Modifier: {1_Num}%', 'TXT_KEY_FOODMOD_HAPPY'
+SELECT '[NEWLINE][ICON_BULLET][ICON_HAPPINESS_1] 지역 행복: {1_Num}%', 'TXT_KEY_FOODMOD_HAPPY'
 WHERE EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_NATIONAL_HAPPINESS' AND Value= 0 );
 
 
 INSERT INTO Language_ko_KR (
 Text, Tag)
-SELECT '[NEWLINE][ICON_BULLET]Modified due to Happiness: {1_Num}%', 'TXT_KEY_PRODMOD_BALANCE_HAPPINESS_MOD'
+SELECT '[NEWLINE][ICON_BULLET]행복 때문에: {1_Num}%', 'TXT_KEY_PRODMOD_BALANCE_HAPPINESS_MOD'
 WHERE EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_NATIONAL_HAPPINESS' AND Value= 0 );
 
 -- Text for city view tooltip.
 INSERT INTO Language_ko_KR (
 Text, Tag)
-SELECT '[NEWLINE][ICON_BULLET][ICON_HAPPINESS_1] Local Happiness Modifier: {1_Num}%', 'TXT_KEY_FOODMOD_HAPPY'
+SELECT '[NEWLINE][ICON_BULLET][ICON_HAPPINESS_1] 지역 행복: {1_Num}%', 'TXT_KEY_FOODMOD_HAPPY'
 WHERE EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_NATIONAL_HAPPINESS' AND Value= 1 );
 
 -- Text for city view tooltip.
 INSERT INTO Language_ko_KR (
 Text, Tag)
-SELECT '[NEWLINE][ICON_BULLET]Modified due to Happiness: {1_Num}%', 'TXT_KEY_PRODMOD_BALANCE_HAPPINESS_MOD'
+SELECT '[NEWLINE][ICON_BULLET]행복 때문에: {1_Num}%', 'TXT_KEY_PRODMOD_BALANCE_HAPPINESS_MOD'
 WHERE EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_NATIONAL_HAPPINESS' AND Value= 1 );
 
 
 -- Text for city view tooltip.
 UPDATE Language_ko_KR
-Set Text = '[NEWLINE][ICON_BULLET][COLOR_WARNING_TEXT][ICON_HAPPINESS_3] Unhappiness Modifier: {1_Num}%[ENDCOLOR]'
+Set Text = '[NEWLINE][ICON_BULLET][COLOR_WARNING_TEXT][ICON_HAPPINESS_3] 불행 수치: {1_Num}%[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_FOODMOD_UNHAPPY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_NATIONAL_HAPPINESS' AND Value= 1 );
 
 
 -- Text for city view tooltip.
 UPDATE Language_ko_KR
-Set Text = '[ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] from your [ICON_GOLDEN_AGE] Golden Age.'
+Set Text = '[ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] [ICON_GOLDEN_AGE]황금기에서'
 WHERE Tag = 'TXT_KEY_TP_CULTURE_FROM_GOLDEN_AGE' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_NATIONAL_HAPPINESS' AND Value= 1 );
 
 -- Update Text for Very Unhappy and Super Unhappy
@@ -516,16 +516,18 @@ SET Text = 'Your approval rating is less than 35% - your Empire is in open rebel
 WHERE Tag = 'TXT_KEY_TP_EMPIRE_VERY_UNHAPPY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_NATIONAL_HAPPINESS' AND Value= 1 );
 
 UPDATE Language_ko_KR
-SET Text = 'Your approval rating is less than 20% - your Empire is fracturing! Rebels (barbarians) will spawn more frequently and Cities will rapidly abandon your Empire and flip to the Civilization that is most culturally influential over your people! Additionally, all Cities will [ICON_FOOD] Grow more slowly and have increased Military Unit and Settler costs. [ICON_STRENGTH] Combat effectiveness is also reduced by 20%!'
+SET Text = '당신의 지지율이 20%를 넘지 못했습니다. 제국 전역이 분열되고 있습니다. 
+
+Your approval rating is less than 20% - your Empire is fracturing! Rebels (barbarians) will spawn more frequently and Cities will rapidly abandon your Empire and flip to the Civilization that is most culturally influential over your people! Additionally, all Cities will [ICON_FOOD] Grow more slowly and have increased Military Unit and Settler costs. [ICON_STRENGTH] Combat effectiveness is also reduced by 20%!'
 WHERE Tag = 'TXT_KEY_TP_EMPIRE_SUPER_UNHAPPY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_NATIONAL_HAPPINESS' AND Value= 1 );
 	
 -- Update text for top panel depending on which yields you have enabled above. Change as desired.
 UPDATE Language_ko_KR
-SET Text = 'Your approval rating is less than 50%! Because of this, all Cities will [ICON_FOOD] Grow slower and have increased Military Unit and Settler costs. [ICON_STRENGTH] Combat effectiveness is also reduced by 10%!'
+SET Text = '당신의 지지율이 50%를 넘지 못했습니다. 모든 도시의 [ICON_FOOD]성장이 느려지고 군사 유닛 및 개척자의 생산 비용이 증가합니다. [ICON_STRENGTH]전투 효율성이 10% 감소합니다. '
 WHERE Tag = 'TXT_KEY_TP_EMPIRE_UNHAPPY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_NATIONAL_HAPPINESS' AND Value= 1 );
 
 UPDATE Language_ko_KR
-SET Text = 'Your approval rating is equal or higher than 50%. [ICON_HAPPINESS_1] Happy Cities will [ICON_FOOD] Grow more quickly, however [ICON_HAPPINESS_3] Unhappy Cities will still suffer penalties to [ICON_FOOD] Growth and the cost of Military Units and Settlers.'
+SET Text = '당신의 지지율은 50%를 넘었습니다. [ICON_HAPPINESS_1]행복한 도시는 더 빨리 [ICON_FOOD]성장하지만 [ICON_HAPPINESS_3]불행한 도시는 [ICON_FOOD]성장과 군사 유닛 및 개척자 생산에 불이익을 받을 것입니다.'
 WHERE Tag = 'TXT_KEY_TP_TOTAL_HAPPINESS' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_NATIONAL_HAPPINESS' AND Value= 1 );
 
 -- TOOLTIPS FOR TOP BAR
@@ -582,40 +584,41 @@ SELECT '[ICON_BULLET] [COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] [ICON_HAPPINESS_1]
 WHERE EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_NATIONAL_HAPPINESS' AND Value= 1 );
 
 UPDATE Language_ko_KR
-SET Text = '{1_CityName} can no longer work on {2_BldgName}. The lost [ICON_PRODUCTION] is converted into {3_NumGold}[ICON_CULTURE]!'
+SET Text = '{1_CityName}에서 더이상 {2_BldgName}{2: plural 1?을; 2?를;} 건설할 수 없습니다! 투입된 [ICON_PRODUCTION]생산은 [COLOR_POSITIVE_TEXT]{3_NumGold} [ENDCOLOR][ICON_CULTURE]문화로 돌려 받습니다!'
 WHERE Tag = 'TXT_KEY_MISC_LOST_WONDER_PROD_CONVERTED' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_WONDER_CONSOLATION_TWEAK' AND Value= 2 );
 
 UPDATE Language_ko_KR
-SET Text = '{1_CityName} can no longer work on {2_BldgName}. The lost [ICON_PRODUCTION] is converted into {3_NumGold}[ICON_GOLDEN_AGE]!'
+SET Text = '{1_CityName}에서 더이상 {2_BldgName}{2: plural 1?을; 2?를;} 건설할 수 없습니다! 투입된 [ICON_PRODUCTION]생산은 [COLOR_POSITIVE_TEXT]{3_NumGold} [ENDCOLOR][ICON_GOLDEN_AGE]황금기 점수로 돌려 받습니다!'
 WHERE Tag = 'TXT_KEY_MISC_LOST_WONDER_PROD_CONVERTED' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_WONDER_CONSOLATION_TWEAK' AND Value= 3 );
 
 UPDATE Language_ko_KR
-SET Text = '{1_CityName} can no longer work on {2_BldgName}. The lost [ICON_PRODUCTION] is converted into {3_NumGold}[ICON_RESEARCH]!'
+SET Text = '{1_CityName}에서 더이상 {2_BldgName}{2: plural 1?을; 2?를;} 건설할 수 없습니다! 투입된 [ICON_PRODUCTION]생산은 [COLOR_POSITIVE_TEXT]{3_NumGold} [ENDCOLOR][ICON_RESEARCH]과학으로 돌려 받습니다!'
 WHERE Tag = 'TXT_KEY_MISC_LOST_WONDER_PROD_CONVERTED' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_WONDER_CONSOLATION_TWEAK' AND Value= 4 );
 
 UPDATE Language_ko_KR
-SET Text = '{1_CityName} can no longer work on {2_BldgName}. The lost [ICON_PRODUCTION] is converted into {3_NumGold}[ICON_PEACE]!'
+SET Text = '{1_CityName}에서 더이상 {2_BldgName}{2: plural 1?을; 2?를;} 건설할 수 없습니다! 투입된 [ICON_PRODUCTION]생산은 [COLOR_POSITIVE_TEXT]{3_NumGold} [ENDCOLOR][ICON_PEACE]신앙으로 돌려 받습니다!'
 WHERE Tag = 'TXT_KEY_MISC_LOST_WONDER_PROD_CONVERTED' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_WONDER_CONSOLATION_TWEAK' AND Value= 5 );
 
 INSERT INTO Language_ko_KR (
 Text, Tag)
-SELECT '{1_CityName} can no longer work on {2_BldgName}!', 'TXT_KEY_MISC_LOST_WONDER_PROD_CONVERTED_S'
+SELECT '{1_CityName}에서 더이상 {2_BldgName}{2: plural 1?을; 2?를;} 건설할 수 없습니다!', 'TXT_KEY_MISC_LOST_WONDER_PROD_CONVERTED_S'
 WHERE EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_NATIONAL_HAPPINESS' AND Value= 1 );
 
 
 -- Resource Changes
 
 UPDATE Language_ko_KR
-SET Text = '대리석은 건축 재료와 예술가들이 선호하는 조각용 재료로 주목받는 아름다운 암석입니다. 대리석은 다양한 색상과 음영을 띄고 있으며 단색인 것도 있고 여러 색상의 줄무늬가 있는 것도 있습니다. 타지마할과 같이 세계에서 가장 아름다운 구조물 다수가 대리석으로 만들어졌으며 위대한 고대 조각상들 역시 그러합니다.[NEWLINE][NEWLINE]+15% [ICON_PRODUCTION] Production when building pre-Industrial Wonders in the City where it is worked.'
+SET Text = '대리석은 건축 재료와 예술가들이 선호하는 조각용 재료로 주목받는 아름다운 암석입니다. 대리석은 다양한 색상과 음영을 띄고 있으며 단색인 것도 있고 여러 색상의 줄무늬가 있는 것도 있습니다. 타지마할과 같이 세계에서 가장 아름다운 구조물 다수가 대리석으로 만들어졌으며 위대한 고대 조각상들 역시 그러합니다.[NEWLINE][NEWLINE]해당 자원을 보유한 도시에서 산업 시대 이전의 불가사의를 건설할 때 [ICON_PRODUCTION]생산 보너스를 15% 제공합니다.'
 WHERE Tag = 'TXT_KEY_CIV5_RESOURCE_MARBLE_TEXT';
 
 UPDATE Language_ko_KR
-SET Text = '지구의 지각과 맨틀 상부를 차지하는 석재는 인류 건축 역사상 가장 중요한 역할을 한 재료입니다. 석재(암석)는 생성되는 과정에 따라 크게 퇴적암, 화성암 그리고 변성암으로 나눌 수 있습니다.[NEWLINE][NEWLINE]+10% [ICON_PRODUCTION] Production when building pre-Renaissance Wonders in the City where it is worked.'
+SET Text = '지구의 지각과 맨틀 상부를 차지하는 석재는 인류 건축 역사상 가장 중요한 역할을 한 재료입니다. 석재(암석)는 생성되는 과정에 따라 크게 퇴적암, 화성암 그리고 변성암으로 나눌 수 있습니다.[NEWLINE][NEWLINE]
+해당 자원을 보유한 도시에서 르네상스 시대 이전의 불가사의를 건설할 때 [ICON_PRODUCTION]생산 보너스를 10% 제공합니다.'
 WHERE Tag = 'TXT_KEY_CIV5_RESOURCE_STONE_TEXT';
 
 
 UPDATE Language_ko_KR
-SET Text = 'A Lumbermill allows you to improve the Production output of forest tiles. Gains additional Production for every two adjacent Lumbermills, so try to build them in clusters of three if possible.'
+SET Text = '제재소를 지으면 숲 타일의 생산이 증가합니다. 인접한 두 벌목장에 대해 추가 생산이 증가합니다.'
 WHERE Tag = 'TXT_KEY_CIV5_IMPROVEMENTS_LUMBERMILL_TEXT';
 
 
@@ -637,11 +640,11 @@ WHERE Tag = 'TXT_KEY_TRADE_ROUTES_HEADING2_BODY';
 
 -- Moai
 UPDATE Language_ko_KR
-SET Text = 'Moai can only be built on the coast.  If built next to another Moai, it provides additional [ICON_CULTURE] Culture. Provides additional yields once later techs are researched.[NEWLINE][NEWLINE]If within 3 tiles of a Moai, all Polynesian units gain +20% [ICON_STRENGTH] Combat Strength.'
+SET Text = '모아이는 해안에만 건설할 수 있습니다. 다른 모아이와 인접하여 건설하면 추가 [ICON_CULTURE]문화가 증가합니다. 추후 기술을 연구해서 산출을 증가시킬 수 있습니다. 모아이 3타일 이내의 모든 폴리네시아 유닛은 [ICON_STRENGTH]전투력 보너스가 20% 증가합니다.'
 WHERE Tag = 'TXT_KEY_CIV5_IMPROVEMENTS_MOAI_HELP';
 
 UPDATE Language_ko_KR
-SET Text = 'Moai can only be built on the coast.  If built next to another Moai, it provides additional [ICON_CULTURE] Culture. Provides additional yields once later techs are researched. If within 3 tiles of a Moai, all Polynesian units gain +20% [ICON_STRENGTH] Combat Strength.[NEWLINE][NEWLINE]Perhaps better known as the "Easter Island Statues", the Moai are large, humanoid figures carved mostly from volcanic rocks like tuff. 887 of these statues dot Easter Island, and are believed to have been created sometime between 1250 and 1500 AD.  Almost half still remain at the original quarry site, but the rest were transported and erected around the island''s coastline.  Easily recognizable by their large heads and elongated features, it is believed that they were individual depictions of deceased ancestors and powerful chiefs.[NEWLINE][NEWLINE]While most scholars agree on why and how the statues were created, the method of their transportation still remains a mystery.  Weighing from 9 to 86 tons a piece, they would have required an amazing feat of engineering to move from quarry to final resting place.[NEWLINE][NEWLINE]In 1994, the Moai statues were given official protection on the UNESCO World Heritage site list.'
+SET Text = '모아이는 해안에만 건설할 수 있습니다. 다른 모아이와 인접하여 건설하면 추가 [ICON_CULTURE]문화가 증가합니다. 추후 기술을 연구해서 산출을 증가시킬 수 있습니다. 모아이 3타일 이내의 폴리네시아 유닛은 [ICON_STRENGTH]전투력 보너스가 20% 증가합니다.[NEWLINE][NEWLINE]대개 "이스터 섬의 석상"으로 더 잘 알려져 있는 모아이는 대부분 응회암과 같은 화강암 재질의 바위를 인간 형태로 깎아 만든 커다란 석상입니다. 이스터 섬 전역에 총 887개의 석상이 여기저기 흩어져 있으며 이들은 대부분 서기 1250년에서 1500년 사이에 만들어진 것으로 추정됩니다. 이 중 거의 반에 달하는 석상이 처음 만들어진 채석장에 남아 있는 상태이지만 나머지는 섬의 해안가로 운반되어 세워져 있습니다.  이 석상은 가늘고 긴 형태로 된 큰 머리를 가지고 있어 쉽게 알아볼 수 있는데, 아마도 그들의 조상들과 강력한 족장들의 모습을 본따 만든 것으로 추정됩니다.[NEWLINE][NEWLINE]대부분의 학자는 석상이 무슨 이유로 어떻게 만들어졌는지에 대해서는 동의하지만 석상을 운반한 방법은 여전히 미스터리로 남아 있습니다.  각 석상은 9~86톤이 나가며 채석장에서 현재 석상이 있는 장소까지 옮기는 데에는 놀랄만한 공학적 계산이 필요했을 것으로 추정됩니다.[NEWLINE][NEWLINE]모아이 석상은 1994년 유네스코 세계 유적지 목록에 등재됐으며  유네스코의 보호를 받고 있습니다.'
 WHERE Tag = 'TXT_KEY_CIV5_IMPROVEMENTS_MOAI_TEXT';
 
 -- Warscore Diplo
@@ -669,21 +672,21 @@ SET Text = '최대 거리: {1_Num}'
 WHERE Tag = 'TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_RANGE';
 
 UPDATE Language_ko_KR
-SET Text = 'Resource Diversity Modifier: {1_Num}%[NEWLINE][ICON_BULLET]   Our Local Luxuries: {2_Num}[NEWLINE][ICON_BULLET]   Their Local Luxuries: {3_Num}[NEWLINE] Routes to Cities unique Luxury Resources earn more [ICON_GOLD] Gold, and Monopoly Resources count double.'
+SET Text = '자원 다양성 수치: {1_Num}%[NEWLINE][ICON_BULLET]   당신 문명의 지역 사치 자원: {2_Num}[NEWLINE][ICON_BULLET]   상대 문명의 지역 사치 자원: {3_Num}[NEWLINE] 고유 사치 자원의 교역은 더 많은 [ICON_GOLD]골드를 확보하고 독점 자원을 두 배로 계산합니다.'
 WHERE Tag = 'TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_TT_RESOURCE_DIFFERENT';
 
 
 UPDATE Language_ko_KR
-SET Text = 'Artifact will be placed in nearest Great Work of Art slot. Artifact provides +3 [ICON_CULTURE] Culture and +4 [ICON_TOURISM] Tourism. Archaeologist will be consumed.'
+SET Text = '유물이 가장 가까이에 있는 걸작 예술품 슬롯에 자동으로 배치됩니다. 걸작 슬롯에 유물을 배치하면 [ICON_CULTURE]문화가 3 [ICON_TOURISM]관광이 4 증가합니다. 고고학자를 소모합니다.'
 WHERE Tag = 'TXT_KEY_CHOOSE_ARCH_ARTIFACT_RESULT';
 
 UPDATE Language_ko_KR
-SET Text = 'Ancient writing will be placed in nearest Great Work of Writing slot. Writing provides +3 [ICON_CULTURE] Culture and +4 [ICON_TOURISM] Tourism. Archaeologist will be consumed.'
+SET Text = '고대의 문학 작품이 가장 가까운 걸작 문학 슬롯에 배치됩니다. [ICON_CULTURE]문화가 3 [ICON_CULTURE]관광이 4 증가합니다. 고고학자가 소모됩니다.'
 WHERE Tag = 'TXT_KEY_CHOOSE_ARCH_WRITTEN_ARTIFACT_RESULT';
 
 
 UPDATE Language_ko_KR
-SET Text = 'A Luxury resource is designated as immoral, endangered, or otherwise inappropriate for use by the general population.  As long as the ban is in place, Civilizations receive no [ICON_HAPPINESS_1] Happiness or Monopoly benefits from this Luxury resource.'
+SET Text = '비도덕적이거나 멸종 위기에 처했거나 기타 이유가 있는 사치 자원은 일반 대중이 구매할 수 없습니다. 금지령이 내려져 있는 한, 이 사치 자원으로부터 [ICON_HAPPINESS_1]행복 및 독점 혜택을 획득할 수 [COLOR_NEGATIVE_TEXT]없습니다.[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_RESOLUTION_BAN_LUXURY_HAPPINESS_HELP';
 
 --Big UI Changes
@@ -706,7 +709,7 @@ SET Text = '총 전역 [ICON_HAPPINESS_1]행복: {2_Num} (도시당 평균: {1_N
 WHERE Tag = 'TXT_KEY_TP_HAPPINESS_SOURCES';
 
 UPDATE Language_ko_KR
-SET Text = '[ICON_BULLET]{1_Num} is added per turn from positive [ICON_HAPPINESS_1] Happiness produced by Cities.'
+SET Text = '[ICON_BULLET]{1_Num} 매 턴 도시의 [ICON_HAPPINESS_1]행복에서'
 WHERE Tag = 'TXT_KEY_TP_GOLDEN_AGE_ADDITION';
 
 UPDATE Language_ko_KR
@@ -734,15 +737,15 @@ SET Text = '[COLOR_NEGATIVE_TEXT]{1_Num}%[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_CO_PUBLIC_OPINION_UNHAPPINESS';
 
 UPDATE Language_ko_KR
-SET Text = 'Current Empire-Wide [ICON_HAPPINESS_1] Happiness, from 0-100%[NEWLINE][NEWLINE]At 50% or below the civilization will start to lose cities to revolt and may change to the public''s Preferred Ideology (you can find that preference in the Public Opinion tooltip).'
+SET Text = '현재의 전역 [ICON_HAPPINESS_1]행복 수준 (0-100%)[NEWLINE][NEWLINE]50% 이하로 떨어지면 반란으로 인해 도시를 잃게 될 수 있으며 선호하는 이념 [COLOR:130:130:130:255](여론 툴팁에서 확인)[ENDCOLOR]에 따라 바귈 수 있습니다.'
 WHERE Tag = 'TXT_KEY_CO_VICTORY_EXCESS_HAPPINESS_HEADER_TT';
 
 UPDATE Language_ko_KR
-SET Text = 'With [ICON_GOLD] Gold you may purchase land and units, or invest in buildings in your cities.'
+SET Text = '[ICON_GOLD]골드를 사용하여 영토 및 유닛을 구매하고, 건물의 건설에 투자할 수 있습니다.'
 WHERE Tag = 'TXT_KEY_TP_GOLD_EXPLANATION';
 
 UPDATE Language_ko_KR
-SET Text = '[NEWLINE][COLOR_POSITIVE_TEXT]Creating a Landmark in another civ''s territory will give you a temporary diplomatic boost with that nation.[ENDCOLOR]'
+SET Text = '[NEWLINE][COLOR_POSITIVE_TEXT]다른 문명의 영토에 랜드마크를 건설하면 해당 국가와의 영향력이 일시적으로 증가합니다.[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_CHOOSE_ARCH_LANDMARK_MAJOR_CIV';
 
 
@@ -755,11 +758,11 @@ SET Text = 'Renewable, or alternative energy is energy that is collected from re
 WHERE Tag = 'TXT_KEY_TECH_ECOLOGY_DESC';
 
 UPDATE Language_ko_KR
-SET Text = 'Can Air Sweep to clear intercepting Units. If no interceptors found, it will deal 10% of it''s [ICON_RANGE_STRENGTH] Ranged Combat Strength to all enemy Air Units within 3 tiles of the target Tile.' 
+SET Text = '요격 유닛을 격추하여 제공권을 확보합니다. 요격체가 발견되지 않으면 목표 타일로부터 3타일 이내의 모든 적 항공 유닛에 [ICON_RANGE_STRENGTH]원거리 전투력의 10%만큼 피해를 입힙니다.' 
 WHERE Tag = 'TXT_KEY_PROMOTION_AIR_SWEEP_HELP';
 
 UPDATE Language_ko_KR
-SET Text = 'Order the unit to sweep an area for air and ground-based interceptors. If no interceptors found, it will deal 10% of it''s [ICON_RANGE_STRENGTH] Ranged Combat Strength to all enemy Air and Anti-Air Units in and adjacent to the target Tile.' 
+SET Text = '해당 유닛에게 적의 비행 유닛이나 지대공 유닛 제거 명령을 내릴 수 있습니다. 요격체가 발견되지 않으면 목표 타일에 인접한 모든 적 항공 및 대공 유닛에 [ICON_RANGE_STRENGTH]원거리 전투력의 10%만큼 피해를 입힙니다.' 
 WHERE Tag = 'TXT_KEY_INTERFACEMODE_AIR_SWEEP_HELP';
 
 -- Bully Changes
@@ -773,17 +776,17 @@ SET Text = '[NEWLINE][ICON_BULLET][COLOR_WARNING_TEXT]({1_FactorScore}%) {@2_Fac
 WHERE Tag = 'TXT_KEY_POP_CSTATE_BULLY_FACTOR_NEGATIVE';
 
 UPDATE Language_ko_KR
-SET Text = 'They are currently [COLOR_POSITIVE_TEXT]afraid[ENDCOLOR], and are willing to give up [COLOR_POSITIVE_TEXT]{1_FactorScore}%[ENDCOLOR] of max tribute:'
+SET Text = '현재 [COLOR_POSITIVE_TEXT]두려움[ENDCOLOR] (최대 공물의 {1_FactorScore}%를 기꺼이 포기함):'
 WHERE Tag = 'TXT_KEY_POP_CSTATE_BULLY_AFRAID';
 
 UPDATE Language_ko_KR
-SET Text = 'They are currently [COLOR_WARNING_TEXT]resilient[ENDCOLOR], because you are {1_FactorScore}% below the tribute threshold:'
+SET Text = '현재 [COLOR_WARNING_TEXT]불복[ENDCOLOR] ({1_FactorScore}% 이하):'
 WHERE Tag = 'TXT_KEY_POP_CSTATE_BULLY_RESILIENT';
 
 UPDATE Language_ko_KR
-SET Text = 'Has Pledges of Protection'
+SET Text = '보호 선언을 함'
 WHERE Tag = 'TXT_KEY_POP_CSTATE_BULLY_FACTOR_PLEDGES_TO_PROTECT';
 
 UPDATE Language_ko_KR
-SET Text = 'Already bullied this turn'
+SET Text = '이미 이번 턴에 공물을 바침'
 WHERE Tag = 'TXT_KEY_POP_CSTATE_BULLY_FACTOR_BULLIED_VERY_RECENTLY';
