@@ -238,7 +238,7 @@ WHERE Tag = 'TXT_KEY_CO_INFLUENCE_BONUSES_DOMINANT' AND EXISTS (SELECT * FROM CO
 -- Text for trade view tooltip.
 INSERT INTO Language_ko_KR (
 Text, Tag)
-SELECT '+{2_Num} [ICON_GOLD] Gold due to your Cultural Influence over {1_CivName}', 'TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_TT_YOUR_GOLD_EXPLAINED'
+SELECT '+{2_Num}  {1_CivName}에 대한 당신 문명의 문화적 영향력에서 오는 [ICON_GOLD]골드', 'TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_TT_YOUR_GOLD_EXPLAINED'
 WHERE EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_TOURISM_CHANGES' AND Value= 1 );
 
 INSERT INTO Language_ko_KR (
@@ -291,15 +291,15 @@ SET Text = 'Pledging to protect a City-State lets the other major powers in the 
 WHERE Tag = 'TXT_KEY_POP_CSTATE_PLEDGE_TT' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE' AND Value= 1 );
 	
 UPDATE Language_ko_KR
-SET Text = '[NEWLINE][COLOR_WARNING_TEXT][ICON_BULLET] You must have {1_InfluenceNeededToPledge} or more [ICON_INFLUENCE] Influence to pledge.'
+SET Text = '[NEWLINE][COLOR_WARNING_TEXT][ICON_BULLET] 보호 선언을 하려면 {1_InfluenceNeededToPledge} 이상의 [ICON_INFLUENCE]영향력이 필요합니다.[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_POP_CSTATE_PLEDGE_DISABLED_INFLUENCE_TT';
 	
 UPDATE Language_ko_KR
-SET Text = '[NEWLINE][COLOR_WARNING_TEXT][ICON_BULLET] {1_TurnsUntilPledgeAvailable} turns must pass before you can pledge again.[ENDCOLOR]'
+SET Text = '[NEWLINE][COLOR_WARNING_TEXT][ICON_BULLET] 다시 보호 선언을 하려면 {1_TurnsUntilPledgeAvailable}턴이 지나야합니다.[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_POP_CSTATE_PLEDGE_DISABLED_MISTRUST_TT';
 
 UPDATE Language_ko_KR
-SET Text = '[ICON_INFLUENCE] Influence above Neutral threshold'
+SET Text = '[ICON_INFLUENCE]영향력이 "중립" 정지점 이상임'
 WHERE Tag = 'TXT_KEY_POP_CSTATE_BULLY_FACTOR_LOW_INFLUENCE' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_MINORS' AND Value= 1 );
 
 UPDATE Language_ko_KR
@@ -307,7 +307,7 @@ SET Text = '[COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR] of their total yields as tri
 WHERE Tag = 'TXT_KEY_CSTATE_CAN_BULLY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_MINORS' AND Value= 1 );	
 
 UPDATE Language_ko_KR
-SET Text = '당신의 군대를 두려워하지 않으므로 공물을 바치지 않을 것입니다., as you are [COLOR_NEGATIVE_TEXT]{1_Num}%[ENDCOLOR] below the threshold.'
+SET Text = '당신의 군대를 두려워하지 않으므로 공물을 바치지 않을 것입니다.(현재 정지점 이하 [COLOR_NEGATIVE_TEXT]{1_Num}%[ENDCOLOR])'
 WHERE Tag = 'TXT_KEY_CSTATE_CANNOT_BULLY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_MINORS' AND Value= 1 );	
 
 
@@ -326,7 +326,7 @@ WHERE Tag = 'TXT_KEY_CIV5_IMPROVEMENTS_FARM_TEXT' AND EXISTS (SELECT * FROM COMM
 
 INSERT INTO Language_ko_KR (
 Tag, Text)
-SELECT 'TXT_KEY_BUILD_FARM_HELP', '+1 [ICON_FOOD] Food for every 2 Farms adjacent to this Farm and/or from Fresh Water.'
+SELECT 'TXT_KEY_BUILD_FARM_HELP', '이 농장과 인접한 2개마다 또는 담수와 인접한 농장의 [ICON_FOOD]식량이 1 증가합니다.'
 WHERE EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 -- Trading Post - name change
@@ -364,7 +364,7 @@ SET Text = 'If there is a road between your capital and another of your cities, 
 WHERE Tag = 'TXT_KEY_WORKERS_TRADEROUTES_HEADING3_BODY';
 
 UPDATE Language_ko_KR
-SET Text = 'The Village'
+SET Text = '마을'
 WHERE Tag = 'TXT_KEY_GOLD_TRADINGPOST_HEADING3_TITLE';
 
 UPDATE Language_ko_KR
@@ -372,7 +372,7 @@ SET Text = 'During a game, you will create "workers" - non-military units who wi
 WHERE Tag = 'TXT_KEY_PEDIA_IMPROVEMENT_HELP_TEXT';
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_NEGATIVE_TEXT]Costs[ENDCOLOR] 2 [ICON_GOLD] Gold per turn to maintain.[NEWLINE][NEWLINE]An unbroken chain of Railroads allows Units to move extremely quickly through Tiles.'
+SET Text = '매 턴 [COLOR_NEGATIVE_TEXT]2[ENDCOLOR] [ICON_GOLD]골드가 유지비로 지출됩니다.[NEWLINE][NEWLINE]철도는 유닛을 엄청난 속도로 이동시켜줍니다.'
 WHERE Tag = 'TXT_KEY_BUILD_RAILROAD_HELP';
 
 -- Fort
@@ -390,68 +390,68 @@ SET Text = 'When constructed, a Landmark generates +3 Empire-Wide [ICON_HAPPINES
 WHERE Tag = 'TXT_KEY_CHOOSE_ARCH_LANDMARK_RESULT';
 
 UPDATE Language_ko_KR
-SET Text = '[NEWLINE][COLOR_POSITIVE_TEXT]Creating a Landmark in another civ''s territory will generate +3 Empire-Wide [ICON_HAPPINESS_1] Happiness for the builder and plot owner, and give you a permanent diplomatic boost with that nation.[ENDCOLOR]'
+SET Text = '[NEWLINE][COLOR_POSITIVE_TEXT]다른 문명의 영토에 랜드마크를 건설하면 타일 소유주 및 건설자의 전역 [ICON_HAPPINESS_1]행복이 3 증가하고 해당 국가와의 영향력이 영구히 증가합니다.[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_CHOOSE_ARCH_LANDMARK_MAJOR_CIV';
 
 UPDATE Language_ko_KR
-SET Text = '[NEWLINE][COLOR_POSITIVE_TEXT]Creating a Landmark in a city state''s territory will generate +3 Empire-Wide [ICON_HAPPINESS_1] Happiness for the builder and plot owner, and will give you a large, one-time influence boost with that city state.[ENDCOLOR]'
+SET Text = '[NEWLINE][COLOR_POSITIVE_TEXT]도시 국가의 영토에 랜드마크를 건설하면 타일 소유주 및 건설자의 전역 [ICON_HAPPINESS_1]행복이 3 증가하고 해당 국가와의 영향력이 일회성으로 대폭 증가합니다.[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_CHOOSE_ARCH_LANDMARK_MINOR_CIV';
 
 
 UPDATE Language_ko_KR
-SET Text = 'You have found {@1_Name}!'
+SET Text = '{@1_Name}{@1: plural 1?을; 2?를;} 발견했습니다!'
 WHERE Tag = 'TXT_KEY_FOUND_NATURAL_WONDER' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
 
 
 UPDATE Language_ko_KR
-SET Text = '{1_Num} from Natural Wonders and Landmarks.'
+SET Text = '{1_Num} 자연 경관 및 랜드마크에서'
 WHERE Tag = 'TXT_KEY_TP_HAPPINESS_NATURAL_WONDERS' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
 
 -- Theming
 UPDATE Language_ko_KR
-SET Text = '{1_Num} [ICON_TOURISM] Tourism from Theming Bonuses'
+SET Text = '{1_Num} 테마 보너스에서 오는 [ICON_TOURISM]관광'
 WHERE Tag = 'TXT_KEY_CO_CITY_TOURISM_THEMING_BONUSES' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
 
 -- Happiness
 	
 UPDATE Language_ko_KR
-SET Text = '[ICON_CITIZEN] Citizens in non-occupied Cities do not produce [ICON_HAPPINESS_3] Unhappiness directly. See the tooltips below for the sources of [ICON_HAPPINESS_3] Unhappiness in each City'
+SET Text = '비점령 도시의 [ICON_CITIZEN]시민은 직접적으로 [ICON_HAPPINESS_3]불행을 생성하지 않습니다. 각 도시의 [ICON_HAPPINESS_3]불행의 출처를 보려면 툴팁을 참고하십시오.'
 WHERE Tag = 'TXT_KEY_POP_UNHAPPINESS_TT' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CITY_HAPPINESS' AND Value= 1 );
 
 UPDATE Language_ko_KR
-SET Text = 'Every (non-occupied) City produces 0 [ICON_HAPPINESS_3] Unhappiness.'
+SET Text = '비점령 도시마다 [ICON_HAPPINESS_3]불행을 0 생성합니다.'
 WHERE Tag = 'TXT_KEY_NUMBER_OF_CITIES_TT' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CITY_HAPPINESS' AND Value= 1 );
 
 UPDATE Language_ko_KR
-SET Text = 'Every (non-occupied) City produces 0 [ICON_HAPPINESS_3] Unhappiness (normally).'
+SET Text = '비점령 도시마다 [ICON_HAPPINESS_3]불행을 0 생성합니다. [COLOR:130:130:130:255](보통)[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_NUMBER_OF_CITIES_TT_NORMALLY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CITY_HAPPINESS' AND Value= 1 );
 
 UPDATE Language_ko_KR
-SET Text = 'Every [ICON_OCCUPIED] Occupied City produces 0 [ICON_HAPPINESS_3] Unhappiness.'
+SET Text = '[ICON_OCCUPIED]점령된 도시마다 [ICON_HAPPINESS_3]불행을 0 생성합니다.'
 WHERE Tag = 'TXT_KEY_NUMBER_OF_OCCUPIED_CITIES_TT' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CITY_HAPPINESS' AND Value= 1 );
 
 UPDATE Language_ko_KR
-SET Text = 'Every [ICON_CITIZEN] Citizen in an [ICON_OCCUPIED] Occupied City produces 1 [ICON_HAPPINESS_3] Unhappiness'
+SET Text = '[ICON_OCCUPIED]점령 도시의 [ICON_CITIZEN]시민마다 [ICON_HAPPINESS_3]불행이 1 증가합니다.'
 WHERE Tag = 'TXT_KEY_OCCUPIED_POP_UNHAPPINESS_TT' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CITY_HAPPINESS' AND Value= 1 );
 
 UPDATE Language_ko_KR
-SET Text = 'Sort By Unhappiness'
+SET Text = '불행 순 정렬'
 WHERE Tag = 'TXT_KEY_EO_SORT_STRENGTH' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CITY_HAPPINESS' AND Value= 1 );
 
 UPDATE Language_ko_KR
-SET Text = 'City will be [ICON_RAZING] Razed to the ground in {1_Num} turn(s)! While being Razed, 100% of the [ICON_CITIZEN] Population will produce [ICON_HAPPINESS_3] Unhappiness!'
+SET Text = '도시가 [COLOR_POSITIVE_TEXT]{1_Num} 턴[ENDCOLOR] 뒤에 완전히 [ICON_RAZING]소각되어 재만 남습니다! [ICON_CITIZEN]시민의 100%가 [ICON_HAPPINESS_3]불행을 생성합니다.'
 WHERE Tag = 'TXT_KEY_CITY_BURNING' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CITY_HAPPINESS' AND Value= 1 );
 
 UPDATE Language_ko_KR
-SET Text = 'City is in [ICON_RESISTANCE] Resistance for {1_Num} turn(s)! While in Resistance, a City cannot do anything useful and 100% of the [ICON_CITIZEN] Population will produce [ICON_HAPPINESS_3] Unhappiness!'
+SET Text = '도시에서 [COLOR_POSITIVE_TEXT]{1_Num} 턴[ENDCOLOR] 동안 [ICON_RESISTANCE]저항이 발생합니다! 도시는 그동안 아무것도 할 수 없습니다. [ICON_CITIZEN]시민의 100%가 [ICON_HAPPINESS_3]불행을 생성합니다.'
 WHERE Tag = 'TXT_KEY_CITY_RESISTANCE' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CITY_HAPPINESS' AND Value= 1 );
 
 UPDATE Language_ko_KR
-SET Text = '{1_Num} from [ICON_CITIZEN] Population in [ICON_OCCUPIED] Occupied or [ICON_RESISTANCE] Resisting Cities.'
+SET Text = '{1_Num} [ICON_OCCUPIED]점령 또는 [ICON_RESISTANCE]저항 도시의 [ICON_CITIZEN]시민에서'
 WHERE Tag = 'TXT_KEY_TP_UNHAPPINESS_OCCUPIED_POPULATION' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CITY_HAPPINESS' AND Value= 1 );
 
 UPDATE Language_ko_KR
-SET Text = '{1_Num : number "#.##"} from [ICON_CITIZEN] Urbanization (Specialists).'
+SET Text = '{1_Num : number "#.##"} [ICON_CITIZEN]도시화에서 (전문가)'
 WHERE Tag = 'TXT_KEY_TP_UNHAPPINESS_SPECIALISTS' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CITY_HAPPINESS' AND Value= 1 );
 
 -- Tutorial Text
@@ -512,22 +512,20 @@ WHERE Tag = 'TXT_KEY_TP_CULTURE_FROM_GOLDEN_AGE' AND EXISTS (SELECT * FROM COMMU
 
 -- Update text for top panel depending on which yields you have enabled above. Change as desired.
 UPDATE Language_ko_KR
-SET Text = 'Your approval rating is less than 35% - your Empire is in open rebellion! Uprisings may occur with rebel (barbarian) units appearing in your territory, and Cities may abandon your Empire and flip to the Civilization that is most culturally influential over your people! Additionally, all Cities will [ICON_FOOD] Grow very slowly and have increased Military Unit and Settler costs. [ICON_STRENGTH] Combat effectiveness is also reduced by 20%!'
+SET Text = '당신의 지지율이 35% 이하입니다. 제국 전역에 공공연한 반란이 일어나고 있습니다. 반란군(야만인)이 나타나 반란이 일어날 수도 있고, 도시가 당신의 제국을 버리고 당신의 문명에 가장 문화적으로 영향을 미치는 문명으로 변모할 수도 있습니다. 모든 도시의 [ICON_FOOD]성장이 더 느려지고 군사 유닛 및 개척자의 생산 비용이 증가합니다. [ICON_STRENGTH]전투 효율성이 20% 감소합니다.'
 WHERE Tag = 'TXT_KEY_TP_EMPIRE_VERY_UNHAPPY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_NATIONAL_HAPPINESS' AND Value= 1 );
 
 UPDATE Language_ko_KR
-SET Text = '당신의 지지율이 20%를 넘지 못했습니다. 제국 전역이 분열되고 있습니다. 
-
-Your approval rating is less than 20% - your Empire is fracturing! Rebels (barbarians) will spawn more frequently and Cities will rapidly abandon your Empire and flip to the Civilization that is most culturally influential over your people! Additionally, all Cities will [ICON_FOOD] Grow more slowly and have increased Military Unit and Settler costs. [ICON_STRENGTH] Combat effectiveness is also reduced by 20%!'
+SET Text = '당신의 지지율이 20% 이하입니다. 제국 전역이 분열되고 있습니다. 반란군(야만인)이 빈번히 나타나고 도시가 빠르게 당신의 제국을 버리고 당신에게 가장 문화적으로 영향을 미치는 문명으로 변모할 것입니다. 모든 도시의 [ICON_FOOD]성장이 더 느려지고 군사 유닛 및 개척자의 생산 비용이 증가합니다. [ICON_STRENGTH]전투 효율성이 20% 감소합니다.'
 WHERE Tag = 'TXT_KEY_TP_EMPIRE_SUPER_UNHAPPY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_NATIONAL_HAPPINESS' AND Value= 1 );
 	
 -- Update text for top panel depending on which yields you have enabled above. Change as desired.
 UPDATE Language_ko_KR
-SET Text = '당신의 지지율이 50%를 넘지 못했습니다. 모든 도시의 [ICON_FOOD]성장이 느려지고 군사 유닛 및 개척자의 생산 비용이 증가합니다. [ICON_STRENGTH]전투 효율성이 10% 감소합니다. '
+SET Text = '당신의 지지율이 50%를 넘지 못했습니다. 모든 도시의 [ICON_FOOD]성장이 느려지고 군사 유닛 및 개척자의 생산 비용이 증가합니다. [ICON_STRENGTH]전투 효율성이 10% 감소합니다.'
 WHERE Tag = 'TXT_KEY_TP_EMPIRE_UNHAPPY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_NATIONAL_HAPPINESS' AND Value= 1 );
 
 UPDATE Language_ko_KR
-SET Text = '당신의 지지율은 50%를 넘었습니다. [ICON_HAPPINESS_1]행복한 도시는 더 빨리 [ICON_FOOD]성장하지만 [ICON_HAPPINESS_3]불행한 도시는 [ICON_FOOD]성장과 군사 유닛 및 개척자 생산에 불이익을 받을 것입니다.'
+SET Text = '당신의 지지율이 50%를 넘었습니다. [ICON_HAPPINESS_1]행복한 도시는 더 빨리 [ICON_FOOD]성장하지만 [ICON_HAPPINESS_3]불행한 도시는 [ICON_FOOD]성장과 군사 유닛 및 개척자 생산에 불이익을 받을 것입니다.'
 WHERE Tag = 'TXT_KEY_TP_TOTAL_HAPPINESS' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_NATIONAL_HAPPINESS' AND Value= 1 );
 
 -- TOOLTIPS FOR TOP BAR
@@ -612,8 +610,7 @@ SET Text = '대리석은 건축 재료와 예술가들이 선호하는 조각용
 WHERE Tag = 'TXT_KEY_CIV5_RESOURCE_MARBLE_TEXT';
 
 UPDATE Language_ko_KR
-SET Text = '지구의 지각과 맨틀 상부를 차지하는 석재는 인류 건축 역사상 가장 중요한 역할을 한 재료입니다. 석재(암석)는 생성되는 과정에 따라 크게 퇴적암, 화성암 그리고 변성암으로 나눌 수 있습니다.[NEWLINE][NEWLINE]
-해당 자원을 보유한 도시에서 르네상스 시대 이전의 불가사의를 건설할 때 [ICON_PRODUCTION]생산 보너스를 10% 제공합니다.'
+SET Text = '지구의 지각과 맨틀 상부를 차지하는 석재는 인류 건축 역사상 가장 중요한 역할을 한 재료입니다. 석재(암석)는 생성되는 과정에 따라 크게 퇴적암, 화성암 그리고 변성암으로 나눌 수 있습니다.[NEWLINE][NEWLINE]해당 자원을 보유한 도시에서 르네상스 시대 이전의 불가사의를 건설할 때 [ICON_PRODUCTION]생산 보너스를 10% 제공합니다.'
 WHERE Tag = 'TXT_KEY_CIV5_RESOURCE_STONE_TEXT';
 
 
