@@ -7,7 +7,7 @@
 	
 	-- Great Merchant Text
 
-	UPDATE Language_ko_KR SET Text = '해당 유닛이 당신과 전쟁 중이 아닌 도시 국가의 영토 내에 있다면 이 명령을 통해 임무를 수행할 수 있습니다.[NEWLINE][NEWLINE]대량의 [ICON_GOLD]골드를 벌어들이고 모든 도시가 즉시 "국왕 경축일"을 맞이합니다. [COLOR:130:130:130:255](소유한 소도시 수에 따라 보정됨).[ENDCOLOR] 유닛은 이 과정에서 소모됩니다.' WHERE Tag = 'TXT_KEY_MISSION_CONDUCT_TRADE_MISSION_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
+	UPDATE Language_ko_KR SET Text = '해당 유닛이 당신과 전쟁 중이 아닌 도시 국가의 영토 내에 있다면 이 명령을 통해 임무를 수행할 수 있습니다.[NEWLINE][NEWLINE]대량의 [ICON_GOLD]골드를 벌어들이고 모든 도시가 즉시 "국왕 경축일"을 맞이합니다. [COLOR:110:110:110:255](소유한 소도시 수에 따라 보정됨).[ENDCOLOR] 유닛은 이 과정에서 소모됩니다.' WHERE Tag = 'TXT_KEY_MISSION_CONDUCT_TRADE_MISSION_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
 
 	UPDATE Language_ko_KR SET Text = 'The Great Merchant can construct the special Town improvement which, when worked, produces loads of [ICON_GOLD] Gold and increases the number of WLTKD turns from the Merchant''s Trade Mission ability by 1. The Great Merchant can also journey to a city-state and perform a "trade mission" which produces gobs of [ICON_GOLD] Gold, starts a "We Love the King Day" in all owned cities and, (if not using CSD) garners many Influence Points with the city-state. The Great Merchant is expended when used in any of these ways.' WHERE Tag = 'TXT_KEY_UNIT_GREAT_MERCHANT_STRATEGY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
 

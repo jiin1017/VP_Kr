@@ -1,6 +1,33 @@
 ㅑㅑ
 GLOBAL
 [ICON_[>END<]!$[FingerTextData FingerTextData]@#
+ㅊ츠
+GLOBAL
+[COLOR_MAGENTA][>END<]!$[FingerTextData FingerTextData]@#
+ㅊ쵸
+GLOBAL
+[COLOR_YELLOW][>END<]!$[FingerTextData FingerTextData]@#
+ㅊ체
+GLOBAL
+[COLOR_PLAYER_PURPLE][>END<]!$[FingerTextData FingerTextData]@#
+ㅊㅊㅎㄱ_OldCopy20201014091715
+GLOBAL
+[COLOR:85:85:85:255][>END<]!$[FingerTextData FingerTextData]@#
+ㅊㅊㅎㄱ
+GLOBAL
+[COLOR:93:93:93:255][>END<]!$[FingerTextData FingerTextData]@#
+ㅊㅊㅎ
+GLOBAL
+[COLOR_POSITIVE_TEXT][>END<]!$[FingerTextData FingerTextData]@#
+ㅊㅊㄴ
+GLOBAL
+[COLOR_RESEARCH_STORED][>END<]!$[FingerTextData FingerTextData]@#
+ㅊㅊㄱ
+GLOBAL
+[COLOR_NEGATIVE_TEXT][>END<]!$[FingerTextData FingerTextData]@#
+ㄷㄷ_OldCopy20201014085003
+GLOBAL
+[ENDCOLOR][>END<]!$[FingerTextData FingerTextData]@#
 ㄷㄷ
 GLOBAL
 ENDCOLOR[>END<]!$[FingerTextData FingerTextData]@#
@@ -13,42 +40,24 @@ ENDCOLOR[>END<]!$[FingerTextData FingerTextData]@#
 ccg
 GLOBAL
 [COLOR_POSITIVE_TEXT][>END<]!$[FingerTextData FingerTextData]@#
-ㅊㅊㅎ
-GLOBAL
-[COLOR_POSITIVE_TEXT][>END<]!$[FingerTextData FingerTextData]@#
-CCR
-GLOBAL
-[COLOR_NEGATIVE_TEXT][>END<]!$[FingerTextData FingerTextData]@#
-ㅊㅊㄱ
-GLOBAL
-[COLOR_NEGATIVE_TEXT][>END<]!$[FingerTextData FingerTextData]@#
 CCY
 GLOBAL
 [COLOR_YELLOW][>END<]!$[FingerTextData FingerTextData]@#
-ㅊ쵸
-GLOBAL
-[COLOR_YELLOW][>END<]!$[FingerTextData FingerTextData]@#
-CCP
-GLOBAL
-[COLOR_PLAYER_PURPLE][>END<]!$[FingerTextData FingerTextData]@#
-ㅊ체
-GLOBAL
-[COLOR_PLAYER_PURPLE][>END<]!$[FingerTextData FingerTextData]@#
 CCS
 GLOBAL
 [COLOR_RESEARCH_STORED][>END<]!$[FingerTextData FingerTextData]@#
-ㅊㅊㄴ
+CCR
 GLOBAL
-[COLOR_RESEARCH_STORED][>END<]!$[FingerTextData FingerTextData]@#
+[COLOR_NEGATIVE_TEXT][>END<]!$[FingerTextData FingerTextData]@#
+CCP
+GLOBAL
+[COLOR_PLAYER_PURPLE][>END<]!$[FingerTextData FingerTextData]@#
 CCM
-GLOBAL
-[COLOR_MAGENTA][>END<]!$[FingerTextData FingerTextData]@#
-ㅊ츠
 GLOBAL
 [COLOR_MAGENTA][>END<]!$[FingerTextData FingerTextData]@#
 CCGR
 GLOBAL
-[COLOR:93:93:93:255][>END<]!$[FingerTextData FingerTextData]@#
-ㅊㅊㅎㄱ
+[COLOR:110:110:110:255][>END<]!$[FingerTextData FingerTextData]@#
+CCGR
 GLOBAL
-[COLOR:93:93:93:255][>END<]!$[FingerTextData FingerTextData]@#
+[COLOR:110:110:110:255][>END<]!$[FingerTextData FingerTextData]@#

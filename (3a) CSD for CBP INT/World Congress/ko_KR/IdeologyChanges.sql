@@ -37,7 +37,7 @@ SET Text = '통상 금지'
 WHERE Tag = 'TXT_KEY_RESOLUTION_PLAYER_EMBARGO' AND EXISTS (SELECT * FROM CSD WHERE Type='IDEOLOGY_CSD' AND Value= 1 );
 
 UPDATE Language_ko_KR
-SET Text = '해당 문명과 [ICON_INTERNATIONAL_TRADE]교역로를 연결할 수 없고 거래를 할 수 없습니다. 기존 교역로는 [COLOR_NEGATIVE_TEXT]취소[ENDCOLOR]되며 다른 장소와 연결해야 합니다. 기업 프랜차이즈를 설립할 수 [COLOR_NEGATIVE_TEXT]없습니다.[ENDCOLOR] [COLOR:130:130:130:255](종속국은 제외됩니다.)[ENDCOLOR] 해당 문명의 외국 도시에 있는 기업 프랜차이즈가 [COLOR_NEGATIVE_TEXT]제거[ENDCOLOR]됩니다. 제재를 받은 문명에 전쟁을 선포하거나 해당 도시를 점령한다면 전쟁광 점수가 크게 감소합니다.'
+SET Text = '해당 문명과 [ICON_INTERNATIONAL_TRADE]교역로를 연결할 수 없고 거래를 할 수 없습니다. 기존 교역로는 [COLOR_NEGATIVE_TEXT]취소[ENDCOLOR]되며 다른 장소와 연결해야 합니다. 기업 프랜차이즈를 설립할 수 [COLOR_NEGATIVE_TEXT]없습니다.[ENDCOLOR] [COLOR:110:110:110:255](종속국은 제외됩니다.)[ENDCOLOR] 해당 문명의 외국 도시에 있는 기업 프랜차이즈가 [COLOR_NEGATIVE_TEXT]제거[ENDCOLOR]됩니다. 제재를 받은 문명에 전쟁을 선포하거나 해당 도시를 점령한다면 전쟁광 점수가 크게 감소합니다.'
 WHERE Tag = 'TXT_KEY_RESOLUTION_PLAYER_EMBARGO_HELP' AND EXISTS (SELECT * FROM CSD WHERE Type='IDEOLOGY_CSD' AND Value= 1 );
 
 -- World Peace
