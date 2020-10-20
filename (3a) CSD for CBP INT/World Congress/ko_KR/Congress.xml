@@ -24,8 +24,7 @@
 			<Text>탈식민지화</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESOLUTION_DECOLONIZATION_HELP">
-			<Text>
-			해당 문명에 강제로 탈식민지화를 시행합니다. 성공하면 모든 비영구적인 도시 국가 동맹에 대한 해당 문명의 [ICON_INFLUENCE]영향력이 50으로 감소합니다.[NEWLINE][NEWLINE][COLOR_RESEARCH_STORED]라디오[ENDCOLOR]를 연구한 문명이 있어야 안건으로 채택할 수 있습니다.</Text>
+			<Text>해당 문명에 강제로 탈식민지화를 시행합니다. 성공하면 모든 비영구적인 도시 국가 동맹에 대한 해당 문명의 [ICON_INFLUENCE]영향력이 [COLOR_POSITIVE_TEXT]50[ENDCOLOR]으로 감소합니다.[NEWLINE][NEWLINE][COLOR_RESEARCH_STORED]라디오[ENDCOLOR]를 연구한 문명이 있어야 안건으로 채택할 수 있습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESOLUTION_OPEN_DOOR">
 			<Text>문호 개방</Text>
@@ -37,7 +36,7 @@
 			<Text>{@1_CivName}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESOLUTION_OPEN_DOOR_HELP">
-			<Text>도시 국가를 위한 문호 개방을 제안합니다. 성공한다면 모든 문명의 도시 국가와의 [ICON_INFLUENCE]영향력이 즉시 40 증가합니다. 이 제안이 철회되기 전까지는 아무도 도시 국가와 동맹을 맺을 수 없습니다.</Text>
+			<Text>도시 국가를 위한 문호 개방을 제안합니다. 성공한다면 모든 문명의 도시 국가와의 [ICON_INFLUENCE]영향력이 즉시 [COLOR_POSITIVE_TEXT]40[ENDCOLOR] 증가합니다. 이 제안이 철회되기 전까지는 아무도 도시 국가와 동맹을 맺을 수 없습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESOLUTION_CHOICE_CITY_CSD">
 			<Text>{@1_CityName}</Text>
@@ -76,7 +75,7 @@
 			<Text>냉전</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESOLUTION_COLD_WAR_HELP">
-			<Text>이념의 차이가 세계를 냉전으로 몰아붙였고 이념에 기반한 경제적, 정치적인 파벌이 형성되었습니다.[NEWLINE][NEWLINE]이 결의안이 활성되면,			같은 이념을 따르는 문명 또는 동맹인 도시 국가에만 [ICON_INTERNATIONAL_TRADE]교역로를 보낼 수 있습니다. 동맹인 도시 국가와의 [ICON_INFLUENCE]영향력이 감소하지 않습니다.[NEWLINE][NEWLINE][COLOR_RESEARCH_STORED]원자론[ENDCOLOR]을 연구한 문명이 있어야 안건으로 채택할 수 있습니다.</Text>
+			<Text>이념의 차이가 세계를 냉전으로 몰아붙였고 이념에 기반한 경제적, 정치적인 파벌이 형성되었습니다.[NEWLINE][NEWLINE]이 결의안이 활성되면, 같은 이념을 따르는 문명 또는 동맹인 도시 국가에만 [ICON_INTERNATIONAL_TRADE]교역로를 보낼 수 있습니다. 동맹인 도시 국가와의 [ICON_INFLUENCE]영향력이 감소하지 않습니다.[NEWLINE][NEWLINE][COLOR_RESEARCH_STORED]원자론[ENDCOLOR]을 연구한 문명이 있어야 안건으로 채택할 수 있습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_EMBARGO_IDEOLOGY">
 			<Text>이념이 다른 문명 또는 동맹이 아닌 도시 국가와 [ICON_INTERNATIONAL_TRADE]교역 금지. 동맹인 도시 국가와의 [ICON_INFLUENCE]영향력 감소 정지.</Text>

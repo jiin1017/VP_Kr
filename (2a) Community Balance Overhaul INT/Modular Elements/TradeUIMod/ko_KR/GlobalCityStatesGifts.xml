@@ -22,16 +22,16 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_MINOR_CIV_FIRST_CONTACT_BONUS_CULTURE">
-			<Text>당신의 문명이 그들과 처음 조우했기 때문에 귀중한 예술품 한 조각을 선물받았습니다. 선물의 가치는 [COLOR_POSITIVE_TEXT]{1_NumCulture} [ICON_CULTURE]문화[ENDCOLOR] 입니다.</Text>
+			<Text>당신의 문명이 그들과 처음 조우했기 때문에 귀중한 예술품 한 조각을 선물받았습니다. 선물의 가치는 [COLOR_POSITIVE_TEXT]{1_NumCulture}[ENDCOLOR][ICON_CULTURE]문화 입니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MINOR_CIV_FIRST_CONTACT_BONUS_FAITH">
-			<Text>당신의 문명이 그들과 처음 조우했기 때문에 그들이 소중하게 여기는 종교적 우상을 건네받았습니다. [COLOR_POSITIVE_TEXT]{1_NumFaith} [ICON_PEACE]신앙[ENDCOLOR]을 획득했습니다.</Text>
+			<Text>당신의 문명이 그들과 처음 조우했기 때문에 그들이 소중하게 여기는 종교적 우상을 건네받았습니다. [COLOR_POSITIVE_TEXT]{1_NumFaith}[ENDCOLOR][ICON_PEACE]신앙을 획득했습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MINOR_CIV_FIRST_CONTACT_BONUS_GOLD">
-			<Text>당신의 문명이 그들과 처음 조우했기 때문에 [COLOR_POSITIVE_TEXT]{1_NumGold} [ICON_GOLD]골드[ENDCOLOR]를 선물받았습니다.</Text>
+			<Text>당신의 문명이 그들과 처음 조우했기 때문에 [COLOR_POSITIVE_TEXT]{1_NumGold}[ENDCOLOR][ICON_GOLD]골드를 선물받았습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MINOR_CIV_FIRST_CONTACT_BONUS_FOOD">
-			<Text>당신의 문명이 그들의 연례 수확제에 딱 맞춰 도착했습니다. [COLOR_POSITIVE_TEXT]{1_NumFood} [ICON_FOOD]식량[ENDCOLOR]이 가득찬 수레를 건네받았습니다.</Text>
+			<Text>당신의 문명이 그들의 연례 수확제에 딱 맞춰 도착했습니다. [COLOR_POSITIVE_TEXT]{1_NumFood}[ENDCOLOR][ICON_FOOD]식량이 가득찬 수레를 건네받았습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MINOR_CIV_FIRST_CONTACT_BONUS_UNIT">
 			<Text>[COLOR_POSITIVE_TEXT]{1_UnitName}[ENDCOLOR]{1: plural 1?이; 2?가;} 탐험에 합류합니다.</Text>
@@ -41,16 +41,16 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_MINOR_CIV_CONTACT_BONUS_CULTURE">
-			<Text>그들이 예술적 가치에 대한 지식을 공유합니다. [COLOR_POSITIVE_TEXT]{1_NumCulture} [ICON_CULTURE]문화[ENDCOLOR]를 획득했습니다.</Text>
+			<Text>그들이 예술적 가치에 대한 지식을 공유합니다. [COLOR_POSITIVE_TEXT]{1_NumCulture}[ENDCOLOR][ICON_CULTURE]문화를 획득했습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MINOR_CIV_CONTACT_BONUS_FAITH">
-			<Text>그들이 종교의식에 대한 지식을 공유합니다. [COLOR_POSITIVE_TEXT]{1_NumFaith} [ICON_PEACE]신앙[ENDCOLOR]을 획득했습니다.</Text>
+			<Text>그들이 종교의식에 대한 지식을 공유합니다. [COLOR_POSITIVE_TEXT]{1_NumFaith}[ENDCOLOR][ICON_PEACE]신앙을 획득했습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MINOR_CIV_CONTACT_BONUS_GOLD">
-			<Text>그들이 선물로 [COLOR_POSITIVE_TEXT]{1_NumGold} [ICON_GOLD]골드[ENDCOLOR]를 제공했습니다.</Text>
+			<Text>그들이 선물로 [COLOR_POSITIVE_TEXT]{1_NumGold}[ENDCOLOR][ICON_GOLD]골드를 제공했습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MINOR_CIV_CONTACT_BONUS_FOOD">
-			<Text>그들이 선물로 [COLOR_POSITIVE_TEXT]{1_NumFood} [ICON_FOOD]식량[ENDCOLOR]을 제공했습니다.</Text>
+			<Text>그들이 선물로 [COLOR_POSITIVE_TEXT]{1_NumFood}[ENDCOLOR][ICON_FOOD]식량을 제공했습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MINOR_CIV_CONTACT_BONUS_UNIT">
 			<Text>[COLOR_WARNING_TEXT]절대 이런 일이 일어나서는 안됩니다![ENDCOLOR] - MINOR_CIV_CONTACT_BONUS_UNIT</Text>

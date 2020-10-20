@@ -3,7 +3,7 @@
 -- America
 --------------------
 UPDATE Language_ko_KR
-SET Text = '모든 지상 군사 유닛의 시야가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 타일 구매 비용이 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 감소하고 타일 구매 시 [ICON_PRODUCTION]생산을 [COLOR_POSITIVE_TEXT]20[ENDCOLOR] [COLOR:130:130:130:255](시대별 보정)[ENDCOLOR] 제공합니다. 다른 문명이 소유한 타일을 구입할 수 있습니다.'
+SET Text = '모든 지상 군사 유닛의 시야가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 타일 구매 비용이 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 감소하고 타일 구매 시 [ICON_PRODUCTION]생산을 [COLOR_POSITIVE_TEXT]20[ENDCOLOR] [COLOR:130:130:130:255](시대별 보정)[ENDCOLOR] 제공합니다. 다른 문명이 소유한 타일을 구매할 수 있습니다.'
 WHERE Tag = 'TXT_KEY_TRAIT_RIVER_EXPANSION' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 UPDATE Language_ko_KR
@@ -90,7 +90,7 @@ SET Text = '+50% rewards from [ICON_CITY_STATE] City-State Quests. May arrange M
 WHERE Tag = 'TXT_KEY_TRAIT_ANNEX_CITY_STATE' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 UPDATE Language_ko_KR
-SET Text = '합스부르크 외교'
+SET Text = '합스부르크 외교술'
 WHERE Tag = 'TXT_KEY_TRAIT_ANNEX_CITY_STATE_SHORT' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 UPDATE Language_ko_KR
@@ -1089,7 +1089,7 @@ SET Text = 'Powerful Medieval Mounted Unit, weak to Pikemen. Only the Siamese ma
 WHERE Tag = 'TXT_KEY_UNIT_HELP_SIAMESE_WARELEPHANT' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 UPDATE Language_ko_KR
-SET Text = '[ICON_INFLUENCE] Influence with [ICON_CITY_STATE] City-States starts at 40. Yields from Friendly and Allied [ICON_CITY_STATE] City-States increased by 75%. +25% to [ICON_STRENGTH] Combat Strength of Allied [ICON_CITY_STATE] City-State [ICON_CAPITAL] Capitals. +10 Experience to Units gifted by [ICON_CITY_STATE] City-States.'
+SET Text = '도시 국가와의 영향력이 [COLOR_POSITIVE_TEXT]40[ENDCOLOR]에서 시작합니다. 우호 및 동맹인 도시 국가의 산출량이 [COLOR_POSITIVE_TEXT]75%[ENDCOLOR] 증가합니다. 동맹인 도시 국가 수도의 전투력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다. 도시 국가로부터 선물 받은 유닛의 경험치가 [COLOR_POSITIVE_TEXT]10[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_TRAIT_CITY_STATE_BONUSES' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 --------------------

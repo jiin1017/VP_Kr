@@ -4,7 +4,7 @@
 	<Language_ko_KR>
 		<!-- Event System-->
 		<Row Tag="TXT_KEY_TP_HAPPINESS_EVENT">
-			<Text>이벤트로부터 행복 {1_Happiness}</Text>
+			<Text>[COLOR_POSITIVE_TEXT]+{1_Happiness}[ENDCOLOR] 이벤트에서 획득</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_HAS_ENDED">
 			<Text>사라지는 이벤트 효과:[NEWLINE]{1_Event}</Text>
@@ -184,7 +184,7 @@
 		</Row>
 		
 		<Row Tag="TXT_KEY_NEED_NEGATIVE_GPT">
-			<Text>[NEWLINE] [ICON_BULLET] 턴당 금이 적자 상태여야 합니다</Text>
+			<Text>[NEWLINE] [ICON_BULLET] 턴당 골드가 적자 상태여야 합니다</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_NEED_DEBT">

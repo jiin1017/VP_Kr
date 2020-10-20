@@ -6514,19 +6514,19 @@
 			<Text>[NEWLINE][COLOR_WARNING_TEXT][ICON_BULLET]당신이 약속을 위반한 적이 있기 때문에 {1_Turns}턴 동안 기다려야 합니다.[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_POP_CSTATE_PLEDGE_NEED_MORE_MILITARY_TT">
-			<Text>[NEWLINE][COLOR_WARNING_TEXT][ICON_BULLET] 군사력이 상위 60% 안에 들어야 합니다. 당신의 군사력은 상위 {1_Num}%에 속해 있습니다.[ENDCOLOR]</Text>
+			<Text>[NEWLINE][COLOR_WARNING_TEXT][ICON_BULLET] 군사력이 상위 60% 안에 들어야 합니다. 당신의 군사력은 상위 {1_Num}% 입니다.[ENDCOLOR]</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_POP_CSTATE_PLEDGE_NEED_ALLIES_TT">
-			<Text>[NEWLINE]   [ICON_BULLET] 도시 국가와 동맹을 맺어야 합니다.</Text>
+			<Text>[NEWLINE]   [ICON_BULLET] 도시 국가와 동맹</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_POP_CSTATE_PLEDGE_NOT_CLOSE_ENOUGH_TT">
-			<Text>[NEWLINE]   [ICON_BULLET] 도시 국가와 교역할 수 있어야 합니다.</Text>
+			<Text>[NEWLINE]   [ICON_BULLET] 도시 국가와 교역할 수 있어야함</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_POP_CSTATE_PLEDGE_NO_TRADE_TT">
-			<Text>[NEWLINE]   [ICON_BULLET] 도시 국가에 교역로를 연결한 상태여야 합니다.</Text>
+			<Text>[NEWLINE]   [ICON_BULLET] 도시 국가에 교역로를 연결한 상태</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_POP_CSTATE_PLEDGE_ACHIEVED">
@@ -7627,11 +7627,11 @@
 
 		<!-- Tooltip helpers for unhappiness -->
 		<Row Tag="TXT_KEY_POTENTIAL_HAPPINESS_GROWTH">
-			<Text>[NEWLINE][NEWLINE][ICON_CITIZEN]성장에서 오는 [ICON_HAPPINESS_1]행복: [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR]</Text>
+			<Text>[NEWLINE][NEWLINE][ICON_CITIZEN]시민 성장에서 오는 [ICON_HAPPINESS_1]행복: [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR]</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_POTENTIAL_UNHAPPINESS_GROWTH">
-			<Text>[NEWLINE][NEWLINE][ICON_CITIZEN]성장에서 오는 [ICON_HAPPINESS_3]불행:</Text>
+			<Text>[NEWLINE][NEWLINE][ICON_CITIZEN]시민 성장에서 오는 [ICON_HAPPINESS_3]불행:</Text>
 		</Row>
 		<Row Tag="TXT_KEY_POTENTIAL_UNHAPPINESS_GOLD">
 			<Text>[NEWLINE]   [ICON_BULLET] [ICON_GOLD]빈곤에서: [COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR]</Text>

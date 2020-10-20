@@ -37,7 +37,7 @@ SET Text = '통상 금지'
 WHERE Tag = 'TXT_KEY_RESOLUTION_PLAYER_EMBARGO' AND EXISTS (SELECT * FROM CSD WHERE Type='IDEOLOGY_CSD' AND Value= 1 );
 
 UPDATE Language_ko_KR
-SET Text = '해당 문명과 [ICON_INTERNATIONAL_TRADE]교역로를 연결할 수 없고 거래를 할 수 없습니다. 기존 교역로는 [COLOR_NEGATIVE_TEXT]취소[ENDCOLOR]되며 다른 장소와 연결해야 합니다. 기업 프랜차이즈를 설립할 수 없습니다. [COLOR:130:130:130:255](종속국은 제외됩니다.)[ENDCOLOR] 해당 문명의 외국 도시에 있는 기업 프랜차이즈가 제거됩니다. 제재를 받은 문명에 전쟁을 선포하거나 해당 도시를 점령한다면 전쟁광 점수가 크게 감소합니다.'
+SET Text = '해당 문명과 [ICON_INTERNATIONAL_TRADE]교역로를 연결할 수 없고 거래를 할 수 없습니다. 기존 교역로는 [COLOR_NEGATIVE_TEXT]취소[ENDCOLOR]되며 다른 장소와 연결해야 합니다. 기업 프랜차이즈를 설립할 수 [COLOR_NEGATIVE_TEXT]없습니다.[ENDCOLOR] [COLOR:130:130:130:255](종속국은 제외됩니다.)[ENDCOLOR] 해당 문명의 외국 도시에 있는 기업 프랜차이즈가 [COLOR_NEGATIVE_TEXT]제거[ENDCOLOR]됩니다. 제재를 받은 문명에 전쟁을 선포하거나 해당 도시를 점령한다면 전쟁광 점수가 크게 감소합니다.'
 WHERE Tag = 'TXT_KEY_RESOLUTION_PLAYER_EMBARGO_HELP' AND EXISTS (SELECT * FROM CSD WHERE Type='IDEOLOGY_CSD' AND Value= 1 );
 
 -- World Peace
@@ -63,34 +63,27 @@ WHERE Tag = 'TXT_KEY_RESOLUTION_WORLD_RELIGION_HELP' AND EXISTS (SELECT * FROM C
 -- World Ideology
 
 UPDATE Language_ko_KR
-SET Text = '한 이념을 공식 세계 이념으로 지정합니다. 해당 이념을 따르는 문명은 추가 [COLOR_POSITIVE_TEXT]대표단[ENDCOLOR] 1명을 확보합니다. 해당 이념을 지지하는 여론이 모든 문명에서 증가합니다. 세계 이념은 한 번에 하나만 존재할 수 있습니다.
-
-Designate an Ideology as the official World Ideology.  
-Civilizations following the Ideology get an additional Delegate, plus 1 Delegate for every other Civilization that follows the Ideology. 
-
- Public opinion in favor of that Ideology is increased for all Civilizations. 
- 
- Enables the [COLOR_POSITIVE_TEXT]Diplomatic Victory[ENDCOLOR] if the United Nations has been constructed. [NEWLINE][NEWLINE][COLOR_RESEARCH_STORED]핵분열[ENDCOLOR]을 연구한 문명이 있어야 안건으로 채택할 수 있습니다.'
+SET Text = '한 이념을 공식 세계 이념으로 지정합니다. 해당 이념을 따르는 문명은 세계 대회 추가 [COLOR_POSITIVE_TEXT]대표단[ENDCOLOR] 1명을 확보하고 해당 이념을 따르는 다른 문명 1개마다 세계 대회 추가 [COLOR_POSITIVE_TEXT]대표단[ENDCOLOR] 1명을 확보합니다. 해당 이념을 지지하는 여론이 모든 문명에서 증가합니다. [COLOR_POSITIVE_TEXT]국제 연합[ENDCOLOR]이 개설되면 [ICON_VICTORY_DIPLOMACY]외교 승리 투표를 시행할 수 있습니다.[NEWLINE][NEWLINE][COLOR_RESEARCH_STORED]핵분열[ENDCOLOR]을 연구한 문명이 있어야 안건으로 채택할 수 있습니다.'
 WHERE Tag = 'TXT_KEY_RESOLUTION_WORLD_IDEOLOGY_HELP' AND EXISTS (SELECT * FROM CSD WHERE Type='IDEOLOGY_CSD' AND Value= 1 );
 
 -- Scholars in Residence
 
 UPDATE Language_ko_KR
-SET Text = 'Civilizations have -20% [ICON_RESEARCH] Research cost for Technologies already discovered by another Civilization. Additional -2% for every City-State Ally, up to -50%.'
+SET Text = '최소한 한 문명에 의해 연구된 기술을 개발할 때 필요한 연구 비용이 [COLOR_POSITIVE_TEXT]20%[ENDCOLOR] 감소하고 추가적으로 모든 도시 국가 동맹마다 [COLOR_POSITIVE_TEXT]2%[ENDCOLOR] [COLOR:93:93:93:255](한도:50%)[ENDCOLOR] 감소합니다. '
 WHERE Tag = 'TXT_KEY_RESOLUTION_MEMBER_DISCOVERED_TECH_DISCOUNT_HELP' AND EXISTS (SELECT * FROM CSD WHERE Type='IDEOLOGY_CSD' AND Value= 1 );
 
 UPDATE Language_ko_KR
-SET Text = '-{1_ResearchCostPercent}% [ICON_RESEARCH] Research cost for Technologies already discovered by another Civilization. Additional -2% for every City-State ally, up to -50%'
+SET Text = '다른 문명이 이미 연구한 기술의 [ICON_RESEARCH]연구 비용이 [COLOR_POSITIVE_TEXT]{1_ResearchCostPercent}%[ENDCOLOR] 감소 및 도시 국가마다 [COLOR_POSITIVE_TEXT]2%[ENDCOLOR] 더 감소 [COLOR:93:93:93:255](한도:50%)[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_DISCOVERED_TECH_MODIFIER' AND EXISTS (SELECT * FROM CSD WHERE Type='IDEOLOGY_CSD' AND Value= 1 );
 
 --Wonder Culture
 
 UPDATE Language_ko_KR
-SET Text = '+{1_CulturePerWorldWonder} [ICON_CULTURE] Culture from World Wonders, +1 [ICON_RESEARCH] Science from Great Works'
+SET Text = '+{1_CulturePerWorldWonder} [ICON_CULTURE]불가사의에서, +1 [ICON_RESEARCH]걸작에서'
 WHERE Tag = 'TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_CULTURE_FROM_WONDERS' AND EXISTS (SELECT * FROM CSD WHERE Type='IDEOLOGY_CSD' AND Value= 1 );
 
 UPDATE Language_ko_KR
-SET Text = 'Each World Wonder provides +2 [ICON_CULTURE] Culture to its city, and each Great Work provides +1 [ICON_RESEARCH] Science to its city.'
+SET Text = '해당 도시 불가사의의 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가하고 걸작의 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_RESOLUTION_CULTURAL_HERITAGE_SITES_HELP' AND EXISTS (SELECT * FROM CSD WHERE Type='IDEOLOGY_CSD' AND Value= 1 );
 
 -- Natural Wonder
@@ -106,7 +99,8 @@ WHERE Tag = 'TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_CULTURE_FROM_NATURAL_WONDERS
 -- Improvement/Landmarks
 
 UPDATE Language_ko_KR
-SET Text = 'Great Person tile improvements provide +1 to [ICON_PRODUCTION] Production, [ICON_FOOD] Food, and [ICON_GOLD] Gold when worked, and Landmarks built by Archaeologists provide +1 [ICON_CULTURE] Culture, [ICON_RESEARCH] Science, and [ICON_PEACE] Faith when worked.[NEWLINE][NEWLINE][COLOR_RESEARCH_STORED]고고학[ENDCOLOR]을 연구한 문명이 있어야 안건으로 채택할 수 있습니다.'
+SET Text = '
+위인 타일 시설의 [ICON_PRODUCTION]생산, [ICON_FOOD]식량, [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 고고학자가 건설하는 랜드마크의 [ICON_CULTURE]문화, [ICON_RESEARCH]과학, [ICON_PEACE]신앙이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE][COLOR_RESEARCH_STORED]고고학[ENDCOLOR]을 연구한 문명이 있어야 안건으로 채택할 수 있습니다.'
 WHERE Tag = 'TXT_KEY_RESOLUTION_HISTORICAL_LANDMARKS_HELP' AND EXISTS (SELECT * FROM CSD WHERE Type='IDEOLOGY_CSD' AND Value= 1 );
 
 UPDATE Language_ko_KR
@@ -159,7 +153,7 @@ WHERE Tag = 'TXT_KEY_LEAGUE_PROJECT_REWARD_WORLD_GAMES_3_HELP' AND EXISTS (SELEC
 -- Arts/Sciences Funding
 
 UPDATE Language_ko_KR
-SET Text = 'Increases up to 33% generation of Great Writers, Artists, and Musicians. Decreases up to 33% generation of Great Scientists, Engineers, and Merchants. [NEWLINE][NEWLINE]Civilizations with Scores from Policies and Great Works [COLOR_POSITIVE_TEXT]below the global median[ENDCOLOR] will receive a boost to [ICON_PRODUCTION] Production and [ICON_CULTURE] Culture up to 30%. [NEWLINE][NEWLINE]Details: The boosts are proportional to the difference between the score of the Civilization and the leader.'
+SET Text = '위대한 작가, 예술가 및 음악가의 출현율이 [COLOR_POSITIVE_TEXT]33%[ENDCOLOR] 증가합니다. 위대한 과학자, 기술자 및 상인의 출현율이 [COLOR_NEGATIVE_TEXT]33%[ENDCOLOR] 감소합니다.[NEWLINE][NEWLINE]정책 및 걸작 점수가 세계 [COLOR_POSITIVE_TEXT]중앙값보다 낮은[ENDCOLOR] 문명은 [ICON_PRODUCTION]생산 및 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]30%[ENDCOLOR]까지 증가합니다.[NEWLINE][NEWLINE]참고: 보너스는 문명 및 지도자의 점수 차이와 비례합니다.'
 WHERE Tag = 'TXT_KEY_RESOLUTION_ARTS_FUNDING_HELP' AND EXISTS (SELECT * FROM CSD WHERE Type='IDEOLOGY_CSD' AND Value= 1 );
 
 UPDATE Language_ko_KR
@@ -167,7 +161,7 @@ SET Text = '예술 기금'
 WHERE Tag = 'TXT_KEY_RESOLUTION_ARTS_FUNDING' AND EXISTS (SELECT * FROM CSD WHERE Type='IDEOLOGY_CSD' AND Value= 1 );
 
 UPDATE Language_ko_KR
-SET Text = 'Increases up to 33% generation of Great Scientists, Engineers, and Merchants. Decreases up to 33% generation of Great Writers, Artists, and Musicians. [NEWLINE][NEWLINE]Civilizations with Scores from Technologies and Future Tech [COLOR_POSITIVE_TEXT]below the global median[ENDCOLOR] will receive a boost to [ICON_FOOD] Food and [ICON_RESEARCH] Science up to 30%. [NEWLINE][NEWLINE]Details: The boosts are proportional to the difference between the score of the Civilization and the leader.'
+SET Text = '위대한 과학자, 기술자 및 상인의 출현율이 [COLOR_POSITIVE_TEXT]33%[ENDCOLOR] 증가합니다. 위대한 작가, 예술가 및 음악가의 출현율이 [COLOR_NEGATIVE_TEXT]33%[ENDCOLOR] 감소합니다. [NEWLINE][NEWLINE]기술 점수가 세계 [COLOR_POSITIVE_TEXT]중앙값보다 낮은[ENDCOLOR] 문명은 [ICON_FOOD]식량 및 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]30%[ENDCOLOR]까지 증가합니다.[NEWLINE][NEWLINE]참고: 보너스는 문명 및 지도자의 점수 차이와 비례합니다.'
 WHERE Tag = 'TXT_KEY_RESOLUTION_SCIENCES_FUNDING_HELP' AND EXISTS (SELECT * FROM CSD WHERE Type='IDEOLOGY_CSD' AND Value= 1 );
 
 UPDATE Language_ko_KR
@@ -185,7 +179,7 @@ SET Text = '{1_CivName}{1: plural 1?이; 2?가;} 세계 패권을 장악했습�
 WHERE Tag = 'TXT_KEY_VP_DIPLO_SOMEONE_WON' AND EXISTS (SELECT * FROM CSD WHERE Type='IDEOLOGY_CSD' AND Value= 1 );
 
 UPDATE Language_ko_KR
-SET Text = 'Designate a player that could achieve Global Hegemony.  If a Civilization receives support from enough Delegates in the Congress, that leader will attain [COLOR_POSITIVE_TEXT]Diplomatic Victory[ENDCOLOR].  The number of Delegates needed depends on the number of Civilizations and City-States in the game, and can be seen on the World Congress screen.[NEWLINE][NEWLINE]If no Civilization receives enough support to win, the two Civilizations who received the most support permanently gain an [COLOR_POSITIVE_TEXT]additional Delegate[ENDCOLOR] to use in future sessions.[NEWLINE][NEWLINE]May not be proposed by a Civilization.  Automatically proposed at regular intervals once a [COLOR_POSITIVE_TEXT]World Ideology Resolution[ENDCOLOR] is active.'
+SET Text = '세계 패권을 위한 투표를 시행합니다. 한 문명이 세계 대회에서 충분한 표를 확보하면 [ICON_VICTORY_DIPLOMACY][COLOR_POSITIVE_TEXT]외교 승리[ENDCOLOR]를 달성하게 됩니다. 외교 승리를 달성하는 데 필요한 대표단의 수는 게임 내 문명과 도시 국가의 수에 따라 달라지며, 세계 대회 화면에서 확인할 수 있습니다.[NEWLINE][NEWLINE]해당 결의안 조건을 충족시킬 정도의 지지를 확보한 문명이 없다면, 가장 많은 지지를 확보한 상위 두 개의 문명이 향후 회기에서 사용할 수 있는 추가 대표단 [COLOR_POSITIVE_TEXT]1명[ENDCOLOR]을 영구히 확보합니다.[NEWLINE][NEWLINE]한 문명이 단독으로 제안할 수 없습니다. [COLOR_POSITIVE_TEXT]세계 이념[ENDCOLOR]이 활성화되면 정기적으로 자동 제안이 이루어집니다.'
 WHERE Tag = 'TXT_KEY_RESOLUTION_DIPLO_VICTORY_HELP' AND EXISTS (SELECT * FROM CSD WHERE Type='IDEOLOGY_CSD' AND Value= 1 );
 
 UPDATE Language_ko_KR
@@ -221,7 +215,7 @@ SET Text = '{1_NumDelegates}표를 확보한 {@2_CivName}{@2: plural 1?이; 2?�
 WHERE Tag = 'TXT_KEY_NOTIFICATION_LEAGUE_VOTING_RESULT_WORLD_LEADER_PASS_DETAILS' AND EXISTS (SELECT * FROM CSD WHERE Type='IDEOLOGY_CSD' AND Value= 1 );
 
 UPDATE Language_ko_KR
-SET Text = 'Without a clear winner garnering the support of at least {1_NumDelegates} {1_NumDelegates: plural 1?Delegate; other?Delegates;}, the Global Hegemony proposal fails. The top {2_NumCivilizations} {2_NumCivilizations: plural 1?Civilization has; other?Civilizations have;} permanently gained an additional Delegate.'
+SET Text = '어느 문명도 세계 패권 결의안의 조건을 충족시킬 {1_NumDelegates}표를 얻지 못했습니다. 대신 가장 많은 지지를 확보한 상위 {2_NumCivilizations}개의 문명이 영구적으로 세계 대회 추가 대표단을 확보합니다.'
 WHERE Tag = 'TXT_KEY_NOTIFICATION_LEAGUE_VOTING_RESULT_WORLD_LEADER_FAIL_DETAILS' AND EXISTS (SELECT * FROM CSD WHERE Type='IDEOLOGY_CSD' AND Value= 1 );
 
 UPDATE Language_ko_KR
@@ -237,3 +231,4 @@ SET Text = '기술이 발전했거나 결의안이 완료되었기 때문에 세
 WHERE Tag = 'TXT_KEY_LEAGUE_SPLASH_MESSAGE_GAME_ERA' AND EXISTS (SELECT * FROM CSD WHERE Type='IDEOLOGY_CSD' AND Value= 1 );
 
 --United Nations Addition
+
