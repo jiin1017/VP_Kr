@@ -108,7 +108,7 @@
 		</Row>
 		
 		<Row Tag="TXT_KEY_EUI_UNIT_AIRUNITCAP">
-			<Text>공중 유닛 한도 {1}</Text>
+			<Text>공중 유닛 정원 {1}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EUI_UNIT_NUKEDAMAGELEVEL">
 			<Text>핵공격 피해 단계 {1}</Text>
@@ -194,7 +194,7 @@
 			<Text>외교적 투표</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EUI_BUILDING_AFFECTSPIESNOW">
-			<Text>지금 스파이에게 영향을 미침</Text>
+			<Text>현재 스파이에 영향을 미침</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EUI_BUILDING_NULLIFYINFLUENCEMODIFIER">
 			<Text>영향력 무효화</Text>
@@ -227,7 +227,7 @@
 			<Text>생산 비용: {1}[ICON_PRODUCTION]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EUI_BUILDING_NUMCITYCOSTMOD">
-			<Text>단위 도시당 생산 비용: {1}[ICON_PRODUCTION]</Text>
+			<Text>도시 1개당 생산 비용: {1}[ICON_PRODUCTION]</Text>
 		</Row>
 		<!--Row Tag="TXT_KEY_EUI_BUILDING_MINAREASIZE">
 			<Text>최소 구역 크기 {1}</Text>
@@ -269,10 +269,10 @@
 			<Text>글로벌 XP: {1}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EUI_BUILDING_FOODKEPT">
-			<Text>새로운 [ICON_CITIZEN]시민 탄생 시 {1}% [ICON_FOOD]식량 보존</Text>
+			<Text>새로운 [ICON_CITIZEN]시민 탄생 시 [ICON_FOOD]식량 보존: [COLOR_POSITIVE_TEXT]{1}%[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EUI_BUILDING_AIRMODIFIER">
-			<Text>공중 유닛 한도: {1}%</Text>
+			<Text>공중 유닛 정원: {1}%</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EUI_BUILDING_NUKEMODIFIER">
 			<Text>핵공격 피해: {1}%</Text>
@@ -380,16 +380,16 @@
 			<Text>추가 스파이: + {1}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EUI_BUILDING_SPYRANKCHANGE">
-			<Text>스파이 레벨 상승: + {1}</Text>
+			<Text>스파이 진급: + {1}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EUI_BUILDING_INSTANTSPYRANKCHANGE">
-			<Text>스파이 레벨 즉시 상승: + {1}</Text>
+			<Text>스파이 즉시 진급: + {1}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EUI_BUILDING_TRADEROUTERECIPIENTBONUS">
-			<Text>[ICON_INTERNATIONAL_TRADE]{TXT_KEY_DECLARE_WAR_TRADE_ROUTES_HEADER}[ICON_ARROW_LEFT] + {1}[ICON_GOLD]</Text>
+			<Text>[ICON_INTERNATIONAL_TRADE]{TXT_KEY_DECLARE_WAR_TRADE_ROUTES_HEADER}[ICON_ARROW_LEFT]+ {1}[ICON_GOLD]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EUI_BUILDING_TRADEROUTETARGETBONUS">
-			<Text>[ICON_INTERNATIONAL_TRADE]{TXT_KEY_DECLARE_WAR_TRADE_ROUTES_HEADER}[ICON_ARROW_RIGHT] + {1}[ICON_GOLD]</Text>
+			<Text>[ICON_INTERNATIONAL_TRADE]{TXT_KEY_DECLARE_WAR_TRADE_ROUTES_HEADER}[ICON_ARROW_RIGHT]+ {1}[ICON_GOLD]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EUI_BUILDING_NUMTRADEROUTEBONUS">
 			<Text>[ICON_INTERNATIONAL_TRADE]{TXT_KEY_DECLARE_WAR_TRADE_ROUTES_HEADER} + {1}</Text>
@@ -438,7 +438,7 @@
 			<Text>전역 군사 보급 한도:</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EUI_BUILDING_GRANTED_BY">
-			<Text>다음 건물 건설시 무료</Text>
+			<Text>다음 건물 건설시 무료 제공</Text>
 		</Row>
 		<!-- VP end -->
 <!-- MISC EUI tooltips -->
@@ -458,7 +458,7 @@
 			<Text>상대가 국경을 개방중이지 않습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EUI_BUILT_IN_X_CITIES">
-			<Text>{1: plural  0?건설되지 않음; 1?1개 도시에 건설됨; 2?{1}개 도시에 건설됨;}/{2: plural 0?; 1?, 1개 도시에 건설중; 2?, {2}개 도시에 건설중;}</Text>
+			<Text>{1: plural  0?건설되지 않음; 1?1개 도시에 건설됨; 2?{1}개 도시에 건설됨;} {2: plural 0?; 1?, 1개 도시에 건설중; 2?, {2}개 도시에 건설중;}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EUI_WONDER_BUILT_BY">
 			<Text>{@1_CivName}{@1: plural 1?이; 2?가;} {@2_CityName}에 건설</Text>
@@ -467,7 +467,7 @@
 			<Text>알려지지 않은 도시</Text>
 		</Row>
 		<Row Tag="TXT_KEY_AIR_STRENGTH_DEFENSE">
-			<Text>도시 공습 방어:</Text>
+			<Text>도시 공습 방어</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EUI_GLOBAL">
 			<Text>[COLOR_HIGHLIGHT_TEXT]글로벌[ENDCOLOR]</Text>

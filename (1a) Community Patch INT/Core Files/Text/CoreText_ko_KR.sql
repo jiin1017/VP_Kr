@@ -544,7 +544,7 @@ WHERE Tag = 'TXT_KEY_CITYSTATE_LIBERATING_HEADING2_BODY';
 -- Miscellaneous
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_PLAYER_PURPLE]{@1_PromotionName}[ENDCOLOR] 승급 부여: [NEWLINE][NEWLINE]({@2_PromotionHelp})'
+SET Text = '[COLOR_PLAYER_PURPLE]{@1_PromotionName}[ENDCOLOR] 승급 부여: [NEWLINE]({@2_PromotionHelp})'
 WHERE Tag = 'TXT_KEY_FREE_PROMOTION_FROM_TECH';
 
 UPDATE Language_ko_KR

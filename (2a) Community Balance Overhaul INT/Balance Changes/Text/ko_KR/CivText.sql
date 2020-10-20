@@ -538,7 +538,7 @@ SET Text = '[ICON_CITY_STATE] City-State [ICON_INFLUENCE] Influence degrades at 
 WHERE Tag = 'TXT_KEY_TRAIT_CITY_STATE_FRIENDSHIP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 UPDATE Language_ko_KR
-SET Text = 'The Companion Cavalry  오직 도시 국가에서만 선물로 받을 수 있습니다.'
+SET Text = '헤타이로이는 오직 도시 국가에서만 선물로 받을 수 있습니다.'
 WHERE Tag = 'TXT_KEY_UNIT_HELP_COMPANION_CAVALRY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
 
 UPDATE Language_ko_KR
@@ -1120,7 +1120,7 @@ SET Text = 'This is a Songhai unique unit, replacing the Horseman. This unit is 
 WHERE Tag = 'TXT_KEY_UNIT_SONGHAI_MUSLIMCAVALRY_STRATEGY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 UPDATE Language_ko_KR
-SET Text = '기병을 대체하는 송가이의 고유 유닛입니다. 강력한 고대 시대 기마 유닛으로 창병에 약합니다. 기병과 달리 도시 공격 페널티가 없으며 [COLOR_PLAYER_PURPLE]침입자[ENDCOLOR] 승급을 보유한 채 시작합니다.'
+SET Text = '기마병을 대체하는 송가이의 고유 유닛입니다. 강력한 고대 시대 기마 유닛으로 창병에 약합니다. 기마병과 달리 도시 공격 페널티가 없으며 [COLOR_PLAYER_PURPLE]침입자[ENDCOLOR] 승급을 보유한 채 시작합니다.'
 WHERE Tag = 'TXT_KEY_UNIT_HELP_MUSLIM_CAVALRY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 --------------------
