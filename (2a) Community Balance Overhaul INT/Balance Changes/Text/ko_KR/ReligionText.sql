@@ -197,7 +197,7 @@ WHERE Tag = 'TXT_KEY_BELIEF_CHARITABLE_MISSIONS_SHORT' AND EXISTS (SELECT * FROM
 
 -- Evangelism (Now Crusader Zeal)
 UPDATE Language_ko_KR
-SET Text = '도시를 점령했을 때 [ICON_GOLD]골드 및 [ICON_PEACE]신앙을 제공합니다. 적 영토 내 지상 유닛과 전투 시 또는 당신 문명의 종교를 따르지 않는 적 지상 유닛과 전투 시 지상 유닛의 전투력 보너스가 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다.'
+SET Text = '도시를 정복했을 때 [ICON_GOLD]골드 및 [ICON_PEACE]신앙을 제공합니다. 적 영토 내 지상 유닛과 전투 시 또는 당신 문명의 종교를 따르지 않는 적 지상 유닛과 전투 시 지상 유닛의 전투력 보너스가 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_BELIEF_EVANGELISM' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_RELIGION' AND Value= 1 );
 
 UPDATE Language_ko_KR
@@ -491,7 +491,7 @@ WHERE Tag = 'TXT_KEY_BELIEF_PEACE_LOVING_SHORT' AND EXISTS (SELECT * FROM COMMUN
 
 -- Interfaith Dialogue (Now Hero Worship)
 UPDATE Language_ko_KR
-SET Text = '[COLOR_YELLOW]위대한 제단[ENDCOLOR] 국가 불가사의를 건설할 수 있습니다. 도시를 점령했을 때 [ICON_GOLDEN_AGE]황금기 점수, [ICON_PEACE]신앙, [ICON_GREAT_PEOPLE]위대한 장군/제독 점수를 제공합니다. [COLOR:110:110:110:255](시대 및 시민 수에 따라 보정)[ENDCOLOR].'
+SET Text = '[COLOR_YELLOW]위대한 제단[ENDCOLOR] 국가 불가사의를 건설할 수 있습니다. 도시를 정복했을 때 [ICON_GOLDEN_AGE]황금기 점수, [ICON_PEACE]신앙, [ICON_GREAT_PEOPLE]위대한 장군/제독 점수를 제공합니다. [COLOR:110:110:110:255](시대 및 시민 수에 따라 보정)[ENDCOLOR].'
 WHERE Tag = 'TXT_KEY_BELIEF_INTERFAITH_DIALOGUE' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_RELIGION' AND Value= 1 );
 
 UPDATE Language_ko_KR

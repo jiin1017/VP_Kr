@@ -49,43 +49,44 @@
 		</Row>
 		<!--Diplo Promotion Help-->
 		<Row Tag="TXT_KEY_PROMOTION_EMISSARY_HELP">
-			<Text>외교 임무 수행 시 [ICON_INFLUENCE]영향력 40</Text>
+			<Text>외교 임무 수행 시 [ICON_INFLUENCE]영향력 [COLOR_POSITIVE_TEXT]40[ENDCOLOR] 제공[NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]업그레이드 시 소멸[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_ENVOY_HELP">
-			<Text>외교 임무 수행 시 [ICON_INFLUENCE]영향력 50</Text>
+			<Text>외교 임무 수행 시 [ICON_INFLUENCE]영향력 [COLOR_POSITIVE_TEXT]50[ENDCOLOR] 제공[NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]업그레이드 시 소멸[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_DIPLOMAT_HELP">
-			<Text>외교 임무 수행 시 [ICON_INFLUENCE]영향력 60</Text>
+			<Text>외교 임무 수행 시 [ICON_INFLUENCE]영향력 [COLOR_POSITIVE_TEXT]60[ENDCOLOR] 제공[NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]업그레이드 시 소멸[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_AMBASSADOR_HELP">
-			<Text>외교 임무 수행 시 [ICON_INFLUENCE]영향력 70</Text>
+			<Text>외교 임무 수행 시 [ICON_INFLUENCE]영향력 [COLOR_POSITIVE_TEXT]70[ENDCOLOR] 제공[NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]업그레이드 시 소멸[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_GREAT_DIPLOMAT_HELP">
-			<Text>외교 임무 수행 시 [ICON_INFLUENCE]영향력 100, 이 도시 국가에 대한 다른 문명의 [ICON_INFLUENCE]영향력을 같은 양만큼 감소 시킵니다. 시대가 끝날 때마다 [ICON_INFLUENCE]영향력이 증가합니다. 국경 개방 협정 없이 적 영토에 진입할 수 있는 능력을 부여합니다.</Text>
+			<Text>외교 임무 수행 시 [ICON_INFLUENCE]영향력 [COLOR_POSITIVE_TEXT]100[ENDCOLOR] 제공[NEWLINE]해당 도시 국가에 대한 다른 문명의 [ICON_INFLUENCE]영향력이 [COLOR_POSITIVE_TEXT]같은 양[ENDCOLOR]만큼 감소[NEWLINE]시대가 끝날 때마다 [ICON_INFLUENCE]영향력 증가[NEWLINE]국경 개방 협정 없이 상대 영토 진입 가능[NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]업그레이드 시 소멸[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_NOBEL_LAUREATE_HELP">
-			<Text>외교 임무 수행 시 위대한 외교관의 [ICON_INFLUENCE]영향력이 10 증가합니다. (스웨덴 문명의 고유 특성)</Text>
+			<Text>외교 임무 수행 시 [ICON_DIPLOMAT]위대한 외교관의 [ICON_INFLUENCE]영향력 [COLOR_POSITIVE_TEXT]+10[ENDCOLOR][NEWLINE][COLOR:110:110:110:255](스웨덴 문명의 고유 특성)[ENDCOLOR]
+			</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_SIGNET_HELP">
-			<Text>외교 임무 수행 시 [ICON_INFLUENCE]영향력 10 증가</Text>
+			<Text>외교 임무 수행 시 [ICON_INFLUENCE]영향력 [COLOR_POSITIVE_TEXT]+10[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_EXPRESS_HELP">
-			<Text>외교 임무 수행 시 [ICON_INFLUENCE]영향력 10 증가, [ICON_MOVES]이동력 +1</Text>
+			<Text>외교 임무 수행 시 [ICON_INFLUENCE]영향력 [COLOR_POSITIVE_TEXT]+10[ENDCOLOR][NEWLINE][ICON_MOVES]이동력 [COLOR_POSITIVE_TEXT]+1[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_LITERACY_HELP">
-			<Text>외교 임무 수행 시 [ICON_INFLUENCE]영향력 10 증가, [ICON_MOVES]이동력 +1, 지형 이동 비용 무시</Text>
+			<Text>외교 임무 수행 시 [ICON_INFLUENCE]영향력 [COLOR_POSITIVE_TEXT]+10[ENDCOLOR][NEWLINE][ICON_MOVES]이동력 [COLOR_POSITIVE_TEXT]+1[ENDCOLOR][NEWLINE]지형 이동 비용 무시</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_IMMUNITY_HELP">
-			<Text>외교 임무 수행 시 [ICON_INFLUENCE]영향력 10 증가, 국경 개방 협정 없이 적 영토에 진입 가능</Text>
+			<Text>외교 임무 수행 시 [ICON_INFLUENCE]영향력 [COLOR_POSITIVE_TEXT]+10[ENDCOLOR][NEWLINE]국경 개방 협정 없이 상대 영토 진입 가능</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_PAX_HELP">
-			<Text>도시 국가와의 외교 임무 수행 시 [ICON_INFLUENCE]영향력 10 증가</Text>
+			<Text>도시 국가와의 외교 임무 수행 시 [ICON_INFLUENCE]영향력 [COLOR_POSITIVE_TEXT]+10[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_NOBILITY_HELP">
-			<Text>도시 국가와의 외교 임무 수행 시 [ICON_INFLUENCE]영향력 15 증가, 국경 개방 협정 없이 적 영토에 진입 가능</Text>
+			<Text>도시 국가와의 외교 임무 수행 시 [ICON_INFLUENCE]영향력 [COLOR_POSITIVE_TEXT]+15[ENDCOLOR][NEWLINE]국경 개방 협정 없이 상대 영토 진입 가능</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_TREASURE_FLEET_HELP">
-			<Text>시야 +1, 공격 시 전투력 보너스, 우호 영토 밖에서 체력 회복 가능</Text>
+			<Text>시야 [COLOR_POSITIVE_TEXT]+1[ENDCOLOR][NEWLINE]공격 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+10%[ENDCOLOR][NEWLINE]우호 영토 밖 체력 회복 가능</Text>
 		</Row>
 	</Language_ko_KR>
 </GameData>

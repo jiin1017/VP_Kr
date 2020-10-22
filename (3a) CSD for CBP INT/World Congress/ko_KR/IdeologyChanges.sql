@@ -57,7 +57,7 @@ WHERE Tag = 'TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_UNIT_MAINTENANCE' AND EXISTS
 -- World Religion
 
 UPDATE Language_ko_KR
-SET Text = '한 종교를 공식 세계 종교로 지정합니다. 제국 안의 도시 다수가 해당 종교를 따르는 문명은 세계 대회 추가 [COLOR_POSITIVE_TEXT]대표단[ENDCOLOR]을 1명 확보합니다. 종교를 창시한 문명 또는 성도를 통제하고 있는 문명은 해당 종교를 따르는 문명의 수에 따라 추가 [COLOR_POSITIVE_TEXT]대표단[ENDCOLOR]을 확보합니다. 해당 종교는 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 더 빨리 전파되며, 해당 종교의 성도는 [ICON_TOURISM]관광이 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 증가합니다. 세계 종교는 한 번에 하나만 존재할 수 있습니다.'
+SET Text = '한 종교를 공식 세계 종교로 지정합니다.[NEWLINE][NEWLINE]소유한 도시의 다수가 해당 종교를 따르는 문명은 세계 대회 추가 [COLOR_POSITIVE_TEXT]대표단[ENDCOLOR]을 1명 확보합니다. 종교를 창시한 문명 또는 성도를 통제하고 있는 문명은 해당 종교를 따르는 문명의 수 1개마다 추가 [COLOR_POSITIVE_TEXT]대표단[ENDCOLOR]을 확보합니다. 해당 종교는 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 더 빨리 전파되며 해당 종교의 성도는 [ICON_TOURISM]관광이 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE]세계 종교는 한 번에 하나만 존재할 수 있습니다.'
 WHERE Tag = 'TXT_KEY_RESOLUTION_WORLD_RELIGION_HELP' AND EXISTS (SELECT * FROM CSD WHERE Type='IDEOLOGY_CSD' AND Value= 1 );
 
 -- World Ideology
@@ -69,11 +69,11 @@ WHERE Tag = 'TXT_KEY_RESOLUTION_WORLD_IDEOLOGY_HELP' AND EXISTS (SELECT * FROM C
 -- Scholars in Residence
 
 UPDATE Language_ko_KR
-SET Text = '최소한 한 문명에 의해 연구된 기술을 개발할 때 필요한 연구 비용이 [COLOR_POSITIVE_TEXT]20%[ENDCOLOR] 감소하고 추가적으로 모든 도시 국가 동맹마다 [COLOR_POSITIVE_TEXT]2%[ENDCOLOR] [COLOR:93:93:93:255](한도:50%)[ENDCOLOR] 감소합니다. '
+SET Text = '최소한 한 문명에 의해 연구된 기술을 개발할 때 필요한 연구 비용이 [COLOR_POSITIVE_TEXT]20%[ENDCOLOR] 감소하고 추가적으로 모든 도시 국가 동맹마다 [COLOR_POSITIVE_TEXT]2%[ENDCOLOR] [COLOR:110:110:110:255](한도:50%)[ENDCOLOR] 감소합니다. '
 WHERE Tag = 'TXT_KEY_RESOLUTION_MEMBER_DISCOVERED_TECH_DISCOUNT_HELP' AND EXISTS (SELECT * FROM CSD WHERE Type='IDEOLOGY_CSD' AND Value= 1 );
 
 UPDATE Language_ko_KR
-SET Text = '다른 문명이 이미 연구한 기술의 [ICON_RESEARCH]연구 비용이 [COLOR_POSITIVE_TEXT]{1_ResearchCostPercent}%[ENDCOLOR] 감소 및 도시 국가마다 [COLOR_POSITIVE_TEXT]2%[ENDCOLOR] 더 감소 [COLOR:93:93:93:255](한도:50%)[ENDCOLOR]'
+SET Text = '다른 문명이 이미 연구한 기술의 [ICON_RESEARCH]연구 비용이 [COLOR_POSITIVE_TEXT]{1_ResearchCostPercent}%[ENDCOLOR] 감소 및 도시 국가마다 [COLOR_POSITIVE_TEXT]2%[ENDCOLOR] 더 감소 [COLOR:110:110:110:255](한도:50%)[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_DISCOVERED_TECH_MODIFIER' AND EXISTS (SELECT * FROM CSD WHERE Type='IDEOLOGY_CSD' AND Value= 1 );
 
 --Wonder Culture
@@ -99,8 +99,7 @@ WHERE Tag = 'TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_CULTURE_FROM_NATURAL_WONDERS
 -- Improvement/Landmarks
 
 UPDATE Language_ko_KR
-SET Text = '
-위인 타일 시설의 [ICON_PRODUCTION]생산, [ICON_FOOD]식량, [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 고고학자가 건설하는 랜드마크의 [ICON_CULTURE]문화, [ICON_RESEARCH]과학, [ICON_PEACE]신앙이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE][COLOR_RESEARCH_STORED]고고학[ENDCOLOR]을 연구한 문명이 있어야 안건으로 채택할 수 있습니다.'
+SET Text = '[COLOR_POSITIVE_TEXT]위인 타일 시설[ENDCOLOR]의 [ICON_PRODUCTION]생산, [ICON_FOOD]식량, [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 고고학자가 건설하는 [COLOR_POSITIVE_TEXT]랜드마크[ENDCOLOR]의 [ICON_CULTURE]문화, [ICON_RESEARCH]과학, [ICON_PEACE]신앙이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE][COLOR_RESEARCH_STORED]고고학[ENDCOLOR]을 연구한 문명이 있어야 안건으로 채택할 수 있습니다.'
 WHERE Tag = 'TXT_KEY_RESOLUTION_HISTORICAL_LANDMARKS_HELP' AND EXISTS (SELECT * FROM CSD WHERE Type='IDEOLOGY_CSD' AND Value= 1 );
 
 UPDATE Language_ko_KR
@@ -179,7 +178,7 @@ SET Text = '{1_CivName}{1: plural 1?이; 2?가;} 세계 패권을 장악했습�
 WHERE Tag = 'TXT_KEY_VP_DIPLO_SOMEONE_WON' AND EXISTS (SELECT * FROM CSD WHERE Type='IDEOLOGY_CSD' AND Value= 1 );
 
 UPDATE Language_ko_KR
-SET Text = '세계 패권을 위한 투표를 시행합니다. 한 문명이 세계 대회에서 충분한 표를 확보하면 [ICON_VICTORY_DIPLOMACY][COLOR_POSITIVE_TEXT]외교 승리[ENDCOLOR]를 달성하게 됩니다. 외교 승리를 달성하는 데 필요한 대표단의 수는 게임 내 문명과 도시 국가의 수에 따라 달라지며, 세계 대회 화면에서 확인할 수 있습니다.[NEWLINE][NEWLINE]해당 결의안 조건을 충족시킬 정도의 지지를 확보한 문명이 없다면, 가장 많은 지지를 확보한 상위 두 개의 문명이 향후 회기에서 사용할 수 있는 추가 대표단 [COLOR_POSITIVE_TEXT]1명[ENDCOLOR]을 영구히 확보합니다.[NEWLINE][NEWLINE]한 문명이 단독으로 제안할 수 없습니다. [COLOR_POSITIVE_TEXT]세계 이념[ENDCOLOR]이 활성화되면 정기적으로 자동 제안이 이루어집니다.'
+SET Text = '[COLOR_POSITIVE_TEXT]세계 패권[ENDCOLOR]을 위한 투표를 시행합니다. 한 문명이 세계 대회에서 충분한 표를 확보하면 [ICON_VICTORY_DIPLOMACY][COLOR_POSITIVE_TEXT]외교 승리[ENDCOLOR]를 달성하게 됩니다. 외교 승리를 달성하는 데 필요한 대표단의 수는 게임 내 문명과 도시 국가의 수에 따라 달라지며 세계 대회 화면에서 확인할 수 있습니다.[NEWLINE][NEWLINE]해당 결의안 조건을 충족시킬 정도의 지지를 확보한 문명이 없다면 가장 많은 지지를 확보한 상위 [COLOR_POSITIVE_TEXT]2개[ENDCOLOR]의 문명이 향후 회기에서 사용할 수 있는 추가 [COLOR_POSITIVE_TEXT]대표단[ENDCOLOR] 1명을 영구히 확보합니다.[NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]한 문명이 단독으로 제안할 수 없습니다.[ENDCOLOR] [COLOR_POSITIVE_TEXT]세계 이념[ENDCOLOR]이 활성화되면 정기적으로 자동 제안이 이루어집니다.'
 WHERE Tag = 'TXT_KEY_RESOLUTION_DIPLO_VICTORY_HELP' AND EXISTS (SELECT * FROM CSD WHERE Type='IDEOLOGY_CSD' AND Value= 1 );
 
 UPDATE Language_ko_KR

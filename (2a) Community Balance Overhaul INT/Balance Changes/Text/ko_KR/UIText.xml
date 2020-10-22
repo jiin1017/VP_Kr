@@ -210,7 +210,7 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_TOP_PANEL_TOURISM_TOOLTIP_CONQUEST_WARNING">
-			<Text>소유한 도시 1개마다 ([ICON_PUPPET]괴뢰도시X) 도시 및 "역사적 사건"에서 오는 [ICON_TOURISM]관광이 {1_Num}% 감소합니다. [COLOR:93:93:93:255](최대 75%)[ENDCOLOR]</Text>
+			<Text>소유한 도시 1개마다 ([ICON_PUPPET]괴뢰도시X) 도시 및 "역사적 사건"에서 오는 [ICON_TOURISM]관광이 {1_Num}% 감소합니다. [COLOR:110:110:110:255](최대 75%)[ENDCOLOR]</Text>
 		</Row>
 		
 		<!-- City-State Protection Prompt -->
@@ -413,7 +413,7 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_MISC_YOU_ENEMY_UNITS_DEFECT">
-			<Text>적 유닛 결함</Text>
+			<Text>적군 회유</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_EUPANEL_FROM_TERRAIN_BONUS">
@@ -1248,20 +1248,20 @@
 		
 		<!-- Warscore Autocracy UI -->
 		<Row Tag="TXT_KEY_CO_CITY_TOURISM_WARSCORE_BONUS">
-			<Text>최고 전쟁점수의 +{1_Num}%:[NEWLINE]</Text>
+			<Text>최고 전쟁 점수의 +{1_Num}%:[NEWLINE]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CO_PLAYER_TOURISM_WARSCORE">
-			<Text>+{1_Num}% 최고 전쟁점수에서[NEWLINE]</Text>
+			<Text>+{1_Num}% 최고 전쟁 점수에서[NEWLINE]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CO_CITY_TOURISM_WARSCORE_VALUE">
-			<Text>최고 전쟁점수: {1_Num}</Text>
+			<Text>최고 전쟁 점수: {1_Num}</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PEDIA_AIR_DEFENSE_LABEL">
-			<Text>도시 공습 방어</Text>
+			<Text>공습 방어</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_AIR_STRENGTH">
-			<Text>[ICON_AIRSTRIKE_DEFENSE] 도시 공습 방어</Text>
+			<Text>[ICON_AIRSTRIKE_DEFENSE]공습 방어</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_CSTATE_CANNOT_EMBASSY">

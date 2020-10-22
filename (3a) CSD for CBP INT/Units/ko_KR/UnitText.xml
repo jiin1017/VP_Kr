@@ -14,7 +14,7 @@
 			<Text>Though the cheapest and earliest-available diplomatic unit, Emissaries are not terribly reliable as a source of steady Influence. Players should only use Emissaries to secure or maintain relations with a city-state you are already friendly or allied with. As such, it is best to use these units simply to augment your efforts to fulfill city-state quests.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_HELP_EMISSARY">
-			<Text>[COLOR_PLAYER_PURPLE]개시[ENDCOLOR] [COLOR:110:110:110:255](외교 임무 시 [ICON_INFLUENCE]영향력 40)[ENDCOLOR] 승급이 부여됩니다. 이 유닛을 전쟁 중이 아닌 도시 국가로 [ICON_MOVES]이동시켜 외교 임무를 수행해 [ICON_INFLUENCE]영향력을 증가시킬 수 있습니다. 시대에 따라 생산 비용이 증가합니다.</Text>
+			<Text>[COLOR_PLAYER_PURPLE]개시[ENDCOLOR] 승급이 부여된 채 시작합니다. 이 유닛을 전쟁 중이 아닌 도시 국가로 [ICON_MOVES]이동시켜 외교 임무를 수행해 [ICON_INFLUENCE]영향력을 증가시킬 수 있습니다. 시대에 따라 생산 비용이 증가합니다.</Text>
 		</Row>
 		
 		<!-- Envoy -->
@@ -29,7 +29,7 @@
 			<Text>Envoys are much more useful as sources of diplomatic influence with city-states. This utility, however, comes with increased cost. Players will need ample Paper to supply the demand of their burgeoning diplomatic service. City-state quests are still very important for maintaining friendly or allied relations, however their importance is waning.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_HELP_ENVOY">
-			<Text>[COLOR_PLAYER_PURPLE]능숙[ENDCOLOR] [COLOR:110:110:110:255](외교 임무 시 [ICON_INFLUENCE]영향력 50)[ENDCOLOR] 승급이 부여됩니다. 이 유닛을 전쟁 중이 아닌 도시 국가로 [ICON_MOVES]이동시켜 외교 임무를 수행해 [ICON_INFLUENCE]영향력을 증가시킬 수 있습니다. 시대에 따라 생산 비용이 증가합니다.</Text>
+			<Text>[COLOR_PLAYER_PURPLE]능숙[ENDCOLOR] 승급이 부여된 채 시작합니다. 이 유닛을 전쟁 중이 아닌 도시 국가로 [ICON_MOVES]이동시켜 외교 임무를 수행해 [ICON_INFLUENCE]영향력을 증가시킬 수 있습니다.[NEWLINE][NEWLINE]시대에 따라 생산 비용이 증가합니다.</Text>
 		</Row>
 		
 		<!-- Diplomat -->
@@ -43,7 +43,7 @@
 			<Text>Diplomats are very expensive relative to Emissaries and Envoys. Players that have not continually increased their supply of Paper will have a difficult time continuing to have influence on city-states around the world. If, however, you have the resources, and the production, to build diplomats in great numbers, the world will bow before your empire of soft power and persuasive influence.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_HELP_DIPLOMAT">
-			<Text>[COLOR_PLAYER_PURPLE]프로페셔널[ENDCOLOR] [COLOR:110:110:110:255](외교 임무 시 [ICON_INFLUENCE]영향력 60)[ENDCOLOR] 승급이 부여됩니다. 이 유닛을 전쟁 중이 아닌 도시 국가로 [ICON_MOVES]이동시켜 외교 임무를 수행해 [ICON_INFLUENCE]영향력을 증가시킬 수 있습니다. 시대에 따라 생산 비용이 증가합니다.</Text>
+			<Text>[COLOR_PLAYER_PURPLE]프로페셔널[ENDCOLOR] 승급이 부여된 채 시작합니다. 이 유닛을 전쟁 중이 아닌 도시 국가로 [ICON_MOVES]이동시켜 외교 임무를 수행해 [ICON_INFLUENCE]영향력을 증가시킬 수 있습니다.[NEWLINE][NEWLINE]시대에 따라 생산 비용이 증가합니다.</Text>
 		</Row>
 		
 		<!-- Ambassador -->
@@ -58,7 +58,7 @@
 			<Text>Ambassadors, though expensive, are essential to winning a Diplomatic Victory. Use them to wrest control of city-states from other players, maintain your own alliances, and, generally, keep the power of the World Congress in your hands. This power will enable you to enact any resolutions you choose, thus placing global supremacy within your grasp.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_HELP_AMBASSADOR">
-			<Text>[COLOR_PLAYER_PURPLE]전권 대사[ENDCOLOR] [COLOR:110:110:110:255](외교 임무 시 [ICON_INFLUENCE]영향력 70)[ENDCOLOR] 승급이 부여됩니다. 이 유닛을 전쟁 중이 아닌 도시 국가로 [ICON_MOVES]이동시켜 외교 임무를 수행해 [ICON_INFLUENCE]영향력을 증가시킬 수 있습니다. 시대에 따라 생산 비용이 증가합니다.</Text>
+			<Text>[COLOR_PLAYER_PURPLE]전권 대사[ENDCOLOR] 승급이 부여된 채 시작합니다. 이 유닛을 전쟁 중이 아닌 도시 국가로 [ICON_MOVES]이동시켜 외교 임무를 수행해 [ICON_INFLUENCE]영향력을 증가시킬 수 있습니다.[NEWLINE][NEWLINE]시대에 따라 생산 비용이 증가합니다.</Text>
 		</Row>
 		
 		<!-- Great Diplomat-->
@@ -69,7 +69,7 @@
 			<Text>Throughout every civilization's history, great mediators, counsellors, and dignitaries have emerged during times of strife or times of great power. Great Diplomats represent these important historical figures and, as such, have the ability to greatly increase a player's diplomatic power. Players may use them to immediately gain a large amount of influence with a city-state, or, if they are looking towards the future, they may be used to build an Embassy in a city-state's land, thus granting the player an additional vote in the World Congress when it is founded.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_GREAT_DIPLOMAT_STRATEGY">
-			<Text>[COLOR_PLAYER_PURPLE]마스터 외교[ENDCOLOR] [COLOR:110:110:110:255](외교 임무 수행 시 [ICON_INFLUENCE]영향력 100, 시대별 추가 [ICON_INFLUENCE]영향력)[ENDCOLOR] 승급이 부여됩니다.[NEWLINE][NEWLINE]이 유닛을 전쟁 중이 아닌 도시 국가로 [ICON_MOVES]이동시키면 두가지 옵션을 선택할 수 있습니다. 첫째로, [COLOR_POSITIVE_TEXT]외교 임무[ENDCOLOR]를 수행해 [ICON_INFLUENCE]영향력을 증가시키고 다른 문명의 [ICON_INFLUENCE]영향력을 감소시킬 수 있습니다. 둘째로, 추가 대표단을 확보 하는 [COLOR_POSITIVE_TEXT]대사관[ENDCOLOR]을 건설할 수 있습니다. 대사관에 대한 자세한 내용은 '시설' 페이지를 참조하십시오. 위 능력 중 하나를 사용하면 위대한 외교관이 사라지고 [ICON_RES_PAPER]종이 자원 1개를 획득합니다.</Text>
+			<Text>[ICON_DIPLOMAT]위대한 외교관은 외교력을 크게 증가시킬 수 있는 능력을 가지고 있습니다. [COLOR_PLAYER_PURPLE]마스터 외교[ENDCOLOR] 승급이 부여된 채 시작하며 위대한 외교관을 전쟁 중이 아닌 도시 국가로 이동시켜 다음의 임무를 수행할 수 있습니다. 우선 [COLOR_POSITIVE_TEXT]외교 임무[ENDCOLOR]를 통해 [ICON_INFLUENCE]영향력을 증가시키고 다른 문명의 [ICON_INFLUENCE]영향력을 감소시킬 수 있습니다. 또한 [COLOR_POSITIVE_TEXT]대사관[ENDCOLOR]을 건설해 세계 대회 추가 대표단을 확보할 수 있습니다. [NEWLINE][NEWLINE]위 능력중 하나를 사용하면 위대한 외교관이 사라지고 [ICON_RES_PAPER][COLOR_POSITIVE_TEXT]종이[ENDCOLOR] 자원 1개를 획득합니다.</Text>
 		</Row>
 	</Language_ko_KR>
 </GameData>

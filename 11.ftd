@@ -1,3 +1,10 @@
+ㅜㅜ
+GLOBAL
+[NEWLINE]
+[>END<]!$[FingerTextData FingerTextData]@#
+ㅑㅑㅎ
+GLOBAL
+[ICON_GREAT_[>END<]!$[FingerTextData FingerTextData]@#
 ㅑㅑ
 GLOBAL
 [ICON_[>END<]!$[FingerTextData FingerTextData]@#
@@ -10,12 +17,9 @@ GLOBAL
 ㅊ체
 GLOBAL
 [COLOR_PLAYER_PURPLE][>END<]!$[FingerTextData FingerTextData]@#
-ㅊㅊㅎㄱ_OldCopy20201014091715
-GLOBAL
-[COLOR:85:85:85:255][>END<]!$[FingerTextData FingerTextData]@#
 ㅊㅊㅎㄱ
 GLOBAL
-[COLOR:93:93:93:255][>END<]!$[FingerTextData FingerTextData]@#
+[COLOR:110:110:110:255][>END<]!$[FingerTextData FingerTextData]@#
 ㅊㅊㅎ
 GLOBAL
 [COLOR_POSITIVE_TEXT][>END<]!$[FingerTextData FingerTextData]@#
@@ -25,9 +29,6 @@ GLOBAL
 ㅊㅊㄱ
 GLOBAL
 [COLOR_NEGATIVE_TEXT][>END<]!$[FingerTextData FingerTextData]@#
-ㄷㄷ_OldCopy20201014085003
-GLOBAL
-[ENDCOLOR][>END<]!$[FingerTextData FingerTextData]@#
 ㄷㄷ
 GLOBAL
 ENDCOLOR[>END<]!$[FingerTextData FingerTextData]@#
@@ -40,6 +41,13 @@ ENDCOLOR[>END<]!$[FingerTextData FingerTextData]@#
 ccg
 GLOBAL
 [COLOR_POSITIVE_TEXT][>END<]!$[FingerTextData FingerTextData]@#
+NN
+GLOBAL
+[NEWLINE]
+[>END<]!$[FingerTextData FingerTextData]@#
+IIG
+GLOBAL
+[ICON_GREAT_[>END<]!$[FingerTextData FingerTextData]@#
 CCY
 GLOBAL
 [COLOR_YELLOW][>END<]!$[FingerTextData FingerTextData]@#
@@ -55,9 +63,6 @@ GLOBAL
 CCM
 GLOBAL
 [COLOR_MAGENTA][>END<]!$[FingerTextData FingerTextData]@#
-CCGR
-GLOBAL
-[COLOR:110:110:110:255][>END<]!$[FingerTextData FingerTextData]@#
 CCGR
 GLOBAL
 [COLOR:110:110:110:255][>END<]!$[FingerTextData FingerTextData]@#

@@ -2353,14 +2353,14 @@
 			<Text>{@2_CivName}의 전술 전문가들은 {@1_CityName}{@1: plural 1?이; 2?가;} 전략적으로 중요한 요충지라고 생각합니다. 어떻게든 이 도시를 얻으면 큰 보상을 얻을 것입니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_CAPTURE_CITY">
-			<Text>{@2_CivName}의 전술가들은 당신이 {@1_CityName}{@1: plural 1?을; 2?를;} 점령해주길 바랍니다.</Text>
+			<Text>{@2_CivName}의 전술가들은 당신이 {@1_CityName}{@1: plural 1?을; 2?를;} 정복하길 바랍니다.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_GET_CITY_COMPLETE">
 			<Text>{@1_CivName}의 전술 전문가들이 당신의 노고를 칭찬하며 그들이 예상한 것처럼 이 도시가 전략적으로 유용한 곳이 되기를 기대합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_GET_CITY_COMPLETE">
-			<Text>{@1_CivName}{@1: plural 1?을; 2?를;} 위한 도시 점령 성공!</Text>
+			<Text>{@1_CivName}{@1: plural 1?을; 2?를;} 위한 도시 정복!</Text>
 		</Row>
 
 		<!-- Coup -->
@@ -2783,7 +2783,7 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_DIPLO_WAR_SCORE">
-			<Text>전쟁점수가 75 이상이어야 합니다. 현재 전쟁점수: {1_Num}</Text>
+			<Text>전쟁 점수가 75 이상이어야 합니다. 현재 전쟁 점수: {1_Num}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DIPLO_NO_CLEAR_WINNER_TT">
 			<Text>평화 협상에 항복하지 않는 당사자는 추가할 수 없습니다.</Text>
@@ -5530,7 +5530,7 @@
 		
 		<!-- Venice Tooltip -->
 		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_DETAILS_GPT_VOTES">
-			<Text>[NEWLINE][ICON_BULLET]{1_Num} 턴당 [ICON_GOLD]골드에서</Text>
+			<Text>[NEWLINE][ICON_BULLET]{1_Num}턴당 [ICON_GOLD]골드에서</Text>
 		</Row>
 
 		<!-- Attack City -->
@@ -6010,17 +6010,17 @@
 
 		<!-- Ocean Embarkation Stuff -->
 		<Row Tag="TXT_KEY_PROMOTION_DEEPWATER_EMBARKATION">
-			<Text>바다 승선</Text>
+			<Text>대양 승선</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_DEEPWATER_EMBARKATION_HELP">
-			<Text>해양 타일에 승선할 수 있습니다.</Text>
+			<Text>대양 타일 승선 가능</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_DEFENSIVE_DEEPWATER_EMBARKATION">
-			<Text>방어적 바다 승선</Text>
+			<Text>방어적 대양 승선</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_DEFENSIVE_DEEPWATER_EMBARKATION_HELP">
-			<Text>해양 타일에 승선할 수 있습니다. 승선한 유닛의 [ICON_STRENGTH]방어력 보너스가 100% 증가합니다.</Text>
+			<Text>대양 타일 승선 가능[NEWLINE]승선 유닛 방어력 [COLOR_POSITIVE_TEXT]+100%[ENDCOLOR]</Text>
 		</Row>
 
 		<!-- MP Denounce -->
@@ -6128,7 +6128,7 @@
 			<Text>당신의 문명이 새로운 [ICON_RESEARCH]시대에 진입하여 당신이 만난 모든 문명에 대한 [ICON_TOURISM]관광이 {1_Num} 증가했습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TOURISM_EVENT_WAR">
-			<Text>당신의 문명이 [ICON_VICTORY_DOMINATION] 전쟁에서 승리하여 (전쟁점수 25+) 당신이 만난 모든 문명에 대한 [ICON_TOURISM]관광이 {1_Num} 증가했습니다.</Text>
+			<Text>당신의 문명이 [ICON_VICTORY_DOMINATION] 전쟁에서 승리하여 (전쟁 점수 25+) 당신이 만난 모든 문명에 대한 [ICON_TOURISM]관광이 {1_Num} 증가했습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TOURISM_EVENT_GP">
 			<Text>당신의 문명에서 [ICON_GREAT_PEOPLE]위인이 탄생하여 당신이 만난 모든 문명에 대한 [ICON_TOURISM]관광이 {1_Num} 증가했습니다.</Text>
@@ -6575,7 +6575,7 @@
 
 		<!-- LUA for Warscore -->
 		<Row Tag="TXT_KEY_WAR_SCORE">
-			<Text>[COLOR_POSITIVE_TEXT]전쟁점수: {1_Num}[ENDCOLOR]</Text>
+			<Text>[COLOR_POSITIVE_TEXT]전쟁 점수: {1_Num}[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_WAR_SCORE_EXPLANATION">
 			<Text>이 수치는 전쟁이 얼마나 당신에게 얼마나 유리하게 진행되고 있는지 보여줍니다. 범위는 [COLOR_NEGATIVE_TEXT]-100[ENDCOLOR]부터 [COLOR_POSITIVE_TEXT]100[ENDCOLOR]까지입니다.[NEWLINE][COLOR_POSITIVE_TEXT]현재 전쟁 정보:[ENDCOLOR]</Text>
@@ -7103,7 +7103,7 @@
 			<Text>[NEWLINE]도시에 {1_BuildingType}{1: plural 1?을; 2?를;} 건설해야 이 유닛을 [ICON_GOLD]구매할 수 있습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_INVESTMENT_BUILDING">
-			<Text>[COLOR_POSITIVE_TEXT][ICON_GOLD]골드를 건물에 투자하면 해당 건물의 [ICON_PRODUCTION]생산 비용이 {1_Num}% 감소하고, 불가사의에 투자하면 해당 불가사의의 생산 비용이 {2_Num}% 감소합니다.[ENDCOLOR]</Text>
+			<Text>[COLOR:110:110:110:255][ICON_GOLD]골드를 건물에 투자하면 해당 건물의 [ICON_PRODUCTION]생산 비용이 {1_Num}% 감소하고, 불가사의에 투자하면 해당 불가사의의 생산 비용이 {2_Num}% 감소합니다.[ENDCOLOR]</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_INVESTED">

@@ -14,7 +14,7 @@ WHERE Tag = 'TXT_KEY_GAME_OPTION_NEW_RANDOM_SEED_HELP';
 -- Assyria UA
 INSERT INTO Language_ko_KR
 			(Tag,										Text)
-SELECT		'TXT_KEY_SCIENCE_BOOST_CONQUEST_ASSYRIA',	'당신의 군인들이 {1_Name}{1: plural 1?을; 2?를;} 점령해 [ICON_RESEARCH]과학을 발견했습니다!!'
+SELECT		'TXT_KEY_SCIENCE_BOOST_CONQUEST_ASSYRIA',	'당신의 군인들이 {1_Name}{1: plural 1?을; 2?를;} 정복하면서 [ICON_RESEARCH]과학을 발견했습니다!!'
 WHERE EXISTS (SELECT * FROM CustomModOptions WHERE Name='ALTERNATE_ASSYRIA_TRAIT' AND Value= 1 );
 
 
@@ -22,7 +22,7 @@ WHERE EXISTS (SELECT * FROM CustomModOptions WHERE Name='ALTERNATE_ASSYRIA_TRAIT
 
 -- Razing
 UPDATE Language_ko_KR	
-SET Text = '도시를 불태우면 매 턴 [ICON_CITIZEN]시민이 줄어들며, [ICON_CITIZEN]시민이 [COLOR_NEGATIVE_TEXT]0[ENDCOLOR]이 되면 도시가 사라집니다. [NEWLINE][NEWLINE]도시를 불태우는 것는 상당히 많은 [ICON_HAPPINESS_4]불행을 야기할 뿐만 아니라 상대 문명에 대항하는 당신 문명의 [COLOR_POSITIVE_TEXT]전쟁점수[ENDCOLOR] 또한 증가시킵니다.'
+SET Text = '도시를 불태우면 매 턴 [ICON_CITIZEN]시민이 줄어들며, [ICON_CITIZEN]시민이 [COLOR_NEGATIVE_TEXT]0[ENDCOLOR]이 되면 도시가 사라집니다. [NEWLINE][NEWLINE]도시를 불태우는 것는 상당히 많은 [ICON_HAPPINESS_4]불행을 야기할 뿐만 아니라 상대 문명에 대항하는 당신 문명의 [COLOR_POSITIVE_TEXT]전쟁 점수[ENDCOLOR] 또한 증가시킵니다.'
 WHERE Tag = 'TXT_KEY_POPUP_CITY_CAPTURE_INFO_RAZE';
 
 -- Production Queue
@@ -73,11 +73,11 @@ WHERE Tag = 'TXT_KEY_UNIT_GALLEASS_STRATEGY';
 
 -- Ocean travel change
 UPDATE Language_ko_KR
-SET Text = '대양 타일에서 턴을 끝낼 수 없습니다. 해안 타일에서 끝나는 경우 대양 타일을 통과해 이동할 수 있습니다.'
+SET Text = '대양 타일에서 턴을 끝낼 수 없습니다. 연안 타일에서 끝나는 경우 대양 타일을 통과해 이동할 수 있습니다.'
 WHERE Tag = 'TXT_KEY_PEDIA_PROMOTION_OCEAN_IMPASSABLE_HELP';
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_RESEARCH_STORED]천문학[ENDCOLOR]의 연구를 마칠 때까지 대양 타일에서 턴을 끝낼 수 없습니다. 해안 타일에서 끝나는 경우 대양 타일을 통과해 이동할 수 있습니다.'
+SET Text = '[COLOR_RESEARCH_STORED]천문학[ENDCOLOR]의 연구를 마칠 때까지 대양 타일에서 턴을 끝낼 수 없습니다. 연안 타일에서 끝나는 경우 대양 타일을 통과해 이동할 수 있습니다.'
 WHERE Tag = 'TXT_KEY_PROMOTION_OCEAN_IMPASSABLE_ASTRO_HELP';
 
 UPDATE Language_ko_KR
@@ -85,68 +85,68 @@ SET Text = '[COLOR_RESEARCH_STORED]천문학[ENDCOLOR]의 연구를 마칠 때�
 WHERE Tag = 'TXT_KEY_PROMOTION_OCEAN_IMPASSABLE_ASTRO_HELP';
 
 UPDATE Language_ko_KR
-SET Text = '대양 타일에서 턴을 끝낼 수 없습니다.'
+SET Text = '대양 지형 턴 종료 불가'
 WHERE Tag = 'TXT_KEY_PROMOTION_OCEAN_IMPASSABLE';
 
 -- Siege Units
 UPDATE Language_ko_KR
-SET Text = '적 영토에서[ICON_MOVES]이동력 절반 감소'
+SET Text = '적 영토 이동 속도 증가'
 WHERE Tag = 'TXT_KEY_PROMOTION_MUST_SET_UP';
 
 UPDATE Language_ko_KR
-SET Text = '적 영토에서[ICON_MOVES]이동력 절반 감소'
+SET Text = '적 영토 이동 속도 증가'
 WHERE Tag = 'TXT_KEY_PEDIA_PROMOTION_MUST_SET_UP';
 
 UPDATE Language_ko_KR
-SET Text = '게임 내에서 최초로 등장하는 공성 유닛입니다. 원거리에서 도시와 유닛에게 큰 피해를 줍니다. 적 영토에서[ICON_MOVES]이동력이 절반으로 감소합니다.'
+SET Text = '게임 내에서 최초로 등장하는 공성 유닛입니다. 원거리에서 도시 및 유닛에게 큰 피해를 입힙니다. 적 영토에서[ICON_MOVES]이동 속도가 [COLOR_NEGATIVE_TEXT]두 배[ENDCOLOR] 느려집니다.'
 WHERE Tag = 'TXT_KEY_UNIT_HELP_CATAPULT';
 
 UPDATE Language_ko_KR
-SET Text = '투석기는 초기에 적 도시를 공격할 때 대단히 쓸만한 공성 무기입니다. 투석기는 느리고 적의 근접 공격에 아주 취약합니다. 따라서 실제로 사용할 때는 언제나 다른 유닛으로 지원하는 것이 좋습니다. 적 영토에서[ICON_MOVES]이동력이 절반으로 감소합니다.'
+SET Text = '투석기는 초기에 적 도시를 공격할 때 대단히 쓸만한 공성 무기입니다. 투석기는 느리고 적의 근접 공격에 아주 취약합니다. 따라서 실제로 사용할 때는 언제나 다른 유닛으로 지원하는 것이 좋습니다. 적 영토에서[ICON_MOVES]이동 속도가 [COLOR_NEGATIVE_TEXT]두 배[ENDCOLOR] 느려집니다.'
 WHERE Tag = 'TXT_KEY_UNIT_CATAPULT_STRATEGY';
 
 UPDATE Language_ko_KR
-SET Text = '투석기를 대체하는 로마의 고유 유닛입니다. 원거리에서 도시와 유닛에게 큰 피해를 줍니다. 적 영토에서[ICON_MOVES]이동력이 절반으로 감소합니다. 투석기보다 [ICON_RANGE_STRENGTH]원거리 전투력이 높습니다.'
+SET Text = '투석기를 대체하는 로마의 고유 유닛입니다. 원거리에서 도시와 유닛에게 큰 피해를 줍니다. 적 영토에서[ICON_MOVES]이동 속도가 [COLOR_NEGATIVE_TEXT]두 배[ENDCOLOR] 느려집니다. 투석기보다 [ICON_RANGE_STRENGTH]원거리 전투력이 높습니다.'
 WHERE Tag = 'TXT_KEY_UNIT_HELP_BALLISTA';
 
 UPDATE Language_ko_KR
-SET Text = '발리스타는 로마 고유의 유닛으로, 대체하는 투석기보다 더욱 강력합니다. 발리스타는 아주 뛰어난 공성 유닛입니다. 도시에 대해서는 대단히 쓸만하지만 공격받을 때는 약합니다. 다른 군사 유닛으로 발리스타를 보호하는 것을 잊지 마십시오. 적 영토에서[ICON_MOVES]이동력이 절반으로 감소합니다.'
+SET Text = '발리스타는 로마 고유의 유닛으로, 대체하는 투석기보다 더욱 강력합니다. 발리스타는 아주 뛰어난 공성 유닛입니다. 도시에 대해서는 대단히 쓸만하지만 공격받을 때는 약합니다. 다른 군사 유닛으로 발리스타를 보호하는 것을 잊지 마십시오. 적 영토에서[ICON_MOVES]이동 속도가 [COLOR_NEGATIVE_TEXT]두 배[ENDCOLOR] 느려집니다.'
 WHERE Tag = 'TXT_KEY_UNIT_ROMAN_BALLISTA_STRATEGY';
 
 UPDATE Language_ko_KR
-SET Text = '중세 시대의 강력한 공성 유닛입니다. 적의 도시 방어도를 감소시키 데 효과적입니다. 적 영토에서[ICON_MOVES]이동력이 절반으로 감소합니다.'
+SET Text = '중세 시대의 강력한 공성 유닛입니다. 적 도시의 방어력을 감소시키 데 효과적입니다. 적 영토에서[ICON_MOVES]이동 속도가 [COLOR_NEGATIVE_TEXT]두 배[ENDCOLOR] 느려집니다.'
 WHERE Tag = 'TXT_KEY_UNIT_HELP_TREBUCHET';
 
 UPDATE Language_ko_KR
-SET Text = '트레뷰셋은 중세의 공성 유닛으로써 전에 쓰던 투석기 유닛보다 훨씬 더 강력합니다. 트레뷰셋은 적 영토에서[ICON_MOVES]이동력이 절반으로 감소하지만 한 번 자리를 잡으면 요새화된 적 도시에 심각한 피해를 입힐 수 있습니다. 근접 유닛과 원거리 유닛으로 적 유닛이 너무 가까이 다가오지 못하도록 트레뷰셋을 지키십시오.'
+SET Text = '트레뷰셋은 중세의 공성 유닛으로써 전에 쓰던 투석기 유닛보다 훨씬 더 강력합니다. 트레뷰셋은 적 영토에서[ICON_MOVES]이동 속도가 두 배 느려지지만 한 번 자리를 잡으면 요새화된 적 도시에 심각한 피해를 입힐 수 있습니다. 근접 유닛과 원거리 유닛으로 적 유닛이 너무 가까이 다가오지 못하도록 트레뷰셋을 지키십시오.'
 WHERE Tag = 'TXT_KEY_UNIT_TREBUCHET_STRATEGY';
 
 UPDATE Language_ko_KR
-SET Text = '트레뷰셋을 대체하는 중세 시대 한국의 고유 유닛입니다. 지상 유닛을 상대로 강력한 위력을 자랑하지만 도시에는 큰 효과가 없습니다.적 영토에서[ICON_MOVES]이동력이 절반으로 감소합니다.'
+SET Text = '트레뷰셋을 대체하는 한국의 고유 유닛입니다. 지상 유닛을 상대로 강력한 위력을 자랑하지만 도시에는 큰 효과가 없습니다.적 영토에서[ICON_MOVES]이동 속도가 [COLOR_NEGATIVE_TEXT]두 배[ENDCOLOR] 느려집니다.'
 WHERE Tag = 'TXT_KEY_CIV5_KOREA_HWACHA_HELP';
 
 UPDATE Language_ko_KR
-SET Text = '화차는 적 지상 유닛을 상대하는 데 매우 효과적입니다. 화차는 이동 속도가 느리고 적의 근접 공격에 매우 약하므로 다른 아군 유닛으로 보호하는 것이 좋습니다. 적 영토에서[ICON_MOVES]이동력이 절반으로 감소합니다.'
+SET Text = '화차는 적 지상 유닛을 상대하는 데 매우 효과적입니다. 화차는 이동 속도가 느리고 적의 근접 공격에 매우 약하므로 다른 아군 유닛으로 보호하는 것이 좋습니다. 적 영토에서[ICON_MOVES]이동 속도가 [COLOR_NEGATIVE_TEXT]두 배[ENDCOLOR] 느려집니다.'
 WHERE Tag = 'TXT_KEY_CIV5_KOREA_HWACHA_STRATEGY';
 
 UPDATE Language_ko_KR
-SET Text = '르네상스 시대의 강력한 공성 유닛입니다. 적 영토에서[ICON_MOVES]이동력이 절반으로 감소합니다.'
+SET Text = '르네상스 시대의 강력한 공성 유닛입니다. 적 영토에서[ICON_MOVES]이동 속도가 [COLOR_NEGATIVE_TEXT]두 배[ENDCOLOR] 느려집니다.'
 WHERE Tag = 'TXT_KEY_UNIT_HELP_CANNON';
 
 UPDATE Language_ko_KR
-SET Text = '대포는 게임 중반의 중요한 공성 유닛이며, 아직 대포를 개발하지 못한 문명을 상대로 압도적 능력을 발휘합니다. 다른 공성 유닛처럼 적 영토에서[ICON_MOVES]이동력이 절반으로 감소합니다. 대포는 산업 시대에서도 뛰어난 성능을 발휘합니다. 대포는 다른 유닛보다 멀리 보지 못하며, 근접 유닛으로 보호받아야 합니다.'
+SET Text = '대포는 게임 중반의 중요한 공성 유닛이며, 아직 대포를 개발하지 못한 문명을 상대로 압도적 능력을 발휘합니다. 다른 공성 유닛처럼 적 영토에서[ICON_MOVES]이동 속도가 [COLOR_NEGATIVE_TEXT]두 배[ENDCOLOR] 느려집니다. 대포는 산업 시대에서도 뛰어난 성능을 발휘합니다. 대포는 다른 유닛보다 멀리 보지 못하며, 근접 유닛으로 보호받아야 합니다.'
 WHERE Tag = 'TXT_KEY_UNIT_CANNON_STRATEGY';
 
 UPDATE Language_ko_KR
-SET Text = '3타일 밖에서 공격이 가능한 첫번째 공성 유닛입니다. 적 영토에서[ICON_MOVES]이동력이 절반으로 감소합니다.'
+SET Text = '3타일 밖에서 공격이 가능한 첫번째 공성 유닛입니다. 적 영토에서[ICON_MOVES]이동 속도가 [COLOR_NEGATIVE_TEXT]두 배[ENDCOLOR] 느려집니다.'
 WHERE Tag = 'TXT_KEY_UNIT_HELP_ARTILLERY';
 
 UPDATE Language_ko_KR
-SET Text = '야포는 매우 강력한 공성 유닛이며, 대포보다 더 강력하고 긴 사거리를 갖고 있습니다. 대포처럼 제한된 시야를 가지고 있으며 적 영토에서[ICON_MOVES]이동력이 절반으로 감소하지만, 원거리 전투력은 아주 강력합니다. 야포는 또한 "간접 사격" 능력을 갖추고 있는데, 이것은 시야 밖에 있는 장애물 너머의 적을 공격할 수 있습니다. (다른 아군으로 시야가 확보되었을 때만) 다른 공성 유닛처럼, 야포는 근접 공격에 취약합니다.'
+SET Text = '야포는 매우 강력한 공성 유닛이며, 대포보다 더 강력하고 긴 사거리를 갖고 있습니다. 대포처럼 제한된 시야를 가지고 있으며 적 영토에서[ICON_MOVES]이동 속도가 [COLOR_NEGATIVE_TEXT]두 배[ENDCOLOR] 느려지지만, 원거리 전투력은 아주 강력합니다. 야포는 또한 "간접 사격" 능력을 갖추고 있는데, 이것은 시야 밖에 있는 장애물 너머의 적을 공격할 수 있습니다. (다른 아군으로 시야가 확보되었을 때만) 다른 공성 유닛처럼, 야포는 근접 공격에 취약합니다.'
 WHERE Tag = 'TXT_KEY_UNIT_ARTILLERY_STRATEGY';
 
 UPDATE Language_ko_KR
-SET Text = '원자력 시대의 빠른 공성 유닛입니다. 다른 공성 유닛과 달리 적 영토에서[ICON_MOVES]이동력이 감소하지 않습니다.'
+SET Text = '원자력 시대의 빠른 공성 유닛입니다. 다른 공성 유닛과 달리 적 영토에서[ICON_MOVES]이동 속도가 느려지지 않습니다.'
 WHERE Tag = 'TXT_KEY_UNIT_HELP_ROCKET_ARTILLERY';
 
 UPDATE Language_ko_KR
@@ -262,7 +262,7 @@ SET Text = '{3_TargetName:textkey}{3: plural 1?이; 2?가;} 외교상의 우려�
 WHERE Tag = 'TXT_KEY_NOTIFICATION_QUEST_KILL_CITY_STATE';
 
 UPDATE Language_ko_KR
-SET Text = '{1_CityStateName:textkey}{1: plural 1?을; 2?를;} 점령하거나 [COLOR:110:110:110:255](완전한 보상)[ENDCOLOR] 두 도시 국가 모두와 동맹을 [COLOR:110:110:110:255](부분적 보상)[ENDCOLOR] 맺으십시오. '
+SET Text = '{1_CityStateName:textkey}{1: plural 1?을; 2?를;} 정복하거나 [COLOR:110:110:110:255](완전한 보상)[ENDCOLOR] 두 도시 국가 모두와 동맹을 [COLOR:110:110:110:255](부분적 보상)[ENDCOLOR] 맺으십시오. '
 WHERE Tag = 'TXT_KEY_CITY_STATE_QUEST_KILL_CITY_STATE_FORMAL';
 
 UPDATE Language_ko_KR
@@ -472,7 +472,7 @@ WHERE Tag = 'TXT_KEY_DIPLO_MINOR_PERMANENT_WAR';
 
 -- Tooltip fix for Open Borders
 UPDATE Language_ko_KR
-SET Text = '다른 문명의 군사 유닛이나 민간 유닛이 당신 문명의 영토를 [COLOR_POSITIVE_TEXT]{1_Num} 턴[ENDCOLOR] 동안 자유롭게 드나들 수 있도록 허락합니다.[NEWLINE][NEWLINE]참고 : 당신 문명의 군사 유닛은 다른 문명의 군사 유닛과 겹칠 수 없습니다.'
+SET Text = '다른 문명의 군사 유닛이나 민간 유닛이 당신 문명의 영토를 [COLOR_POSITIVE_TEXT]{1_Num}턴[ENDCOLOR] 동안 자유롭게 드나들 수 있도록 허락합니다.[NEWLINE][NEWLINE]참고 : 당신 문명의 군사 유닛은 다른 문명의 군사 유닛과 겹칠 수 없습니다.'
 WHERE Tag = 'TXT_KEY_DIPLO_OPEN_BORDERS_TT';
 
 -- Tooltip fix for Defensive Pact
@@ -493,7 +493,7 @@ WHERE Tag = 'TXT_KEY_DIPLO_TO_TRADE_CITY_NO_THEM' AND EXISTS (SELECT * FROM COMM
 -- Civilopedia Refresh
 
 UPDATE Language_ko_KR
-SET Text = '방어하는 유닛이 공격하는 유닛에게 받는 피해보다 더 많은 피해를 입힌다면 철수하게 됩니다. 철수할 공간이 없으면 50%의 추가 피해를 입습니다.'
+SET Text = '입힌 피해가 받은 피해보다 더 큰 경우 적 유닛 후퇴[NEWLINE]후퇴 불가 시 평소보다 피해 [COLOR_POSITIVE_TEXT]+50%[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_PROMOTION_HEAVY_CHARGE_HELP';
 
 UPDATE Language_ko_KR
@@ -501,7 +501,7 @@ SET Text = '하나의 전투 유닛만이 동시에 한 도시에 주둔하는 �
 WHERE Tag = 'TXT_KEY_CITIES_COMBATUNITS_HEADING3_BODY';
 
 UPDATE Language_ko_KR
-SET Text = '도시에 군사 유닛을 주둔시켜 도시 방어를 강화할 수 있습니다. 도시에 유닛을 주둔시키면 유닛 전투력 일부가 도시 전투력에 더해집니다. 도시가 공격받으면 주둔군이 받는 모든 피해의 일부가 도시로 분산됩니다. 이렇게 하면 주둔군이 파괴될 수 있으니 조심하십시오! 만약 적이 도시를 점령하면 주둔한 유닛은 파괴됩니다.[NEWLINE][NEWLINE]도시에 주둔한 유닛이 주변 적 유닛을 공격할 수 있지만 도시는 주둔 보너스를 잃게됩니다. 만약 근접 공격일 경우 유닛은 평상시처럼 전투중 유닛이 피해를 입을 수 있습니다.'
+SET Text = '도시에 군사 유닛을 주둔시켜 도시 방어를 강화할 수 있습니다. 도시에 유닛을 주둔시키면 유닛 전투력 일부가 도시 전투력에 더해집니다. 도시가 공격받으면 주둔군이 받는 모든 피해의 일부가 도시로 분산됩니다. 이렇게 하면 주둔군이 파괴될 수 있으니 조심하십시오! 만약 적이 도시를 정복하면 주둔한 유닛은 파괴됩니다.[NEWLINE][NEWLINE]도시에 주둔한 유닛이 주변 적 유닛을 공격할 수 있지만 도시는 주둔 보너스를 잃게됩니다. 만약 근접 공격일 경우 유닛은 평상시처럼 전투중 유닛이 피해를 입을 수 있습니다.'
 WHERE Tag = 'TXT_KEY_COMBAT_GARRISONINCITIES_HEADING3_BODY';
 
 UPDATE Language_ko_KR
@@ -513,11 +513,11 @@ SET Text = '위대한 장군은 전술에 탁월한 재능을 지닌 "위인" �
 WHERE Tag = 'TXT_KEY_COMBAT_GREATGENERALS_HEADING2_BODY';
 
 UPDATE Language_ko_KR
-SET Text = '전쟁점수'
+SET Text = '전쟁 점수'
 WHERE Tag = 'TXT_KEY_DIPLOMACY_PEACE_HEADING3_TITLE';
 
 UPDATE Language_ko_KR
-SET Text = '만약 문명과 전쟁 중이라면, 평화에 대한 논의를 할 수 있습니다. 전쟁점수는 문명들 사이에 항상 변화하는 전쟁의 양상 입니다. 전쟁점수는 100에서 -100까지 변동할 수 있는데, 여기서 100은 당신의 완전한 승리이고, -100은 상대편의 완전한 승리를 의미합니다. 전쟁점수는 시간이 지남에 따라 점차적으로 줄어들게 될 것이며, 이는 장기적이고 장기화된 갈등 속에서 과거 행동의 가치가 하락하는 것을 강조하기 위한 것입니다.[NEWLINE][NEWLINE]전쟁이 선언되면 모두 전쟁점수가 0에서 시작 합니다. 당신(또는 상대방)이 유닛을 파괴하고, 타일이나 교역로를 약탈하고, 시민 유닛을 포로로 잡고, 도시를 점령하면 당신의 전쟁점수는 올라갈 것입니다. 이러한 행동의 가치는 상대방의 전체적인 크기에 따라 달라집니다.[NEWLINE][NEWLINE]평화를 이룰 때가 되면 전쟁점수는 당신이 상대에게 무엇을 얻을 것으로 기대해야 하는지, 혹은 그들이 당신에게 무엇을 요구할 것인지에 대한 좋은 아이디어를 줍니다. 거래 화면에서는 전쟁점수 수치가 최대 평화 수치로 번역되어 상대편(또는 그 반대)으로부터 무엇을 가져갈 수 있는지 정확히 보여줍니다. 평화가 결정되면 전쟁점수는 0으로 돌아옵니다.'
+SET Text = '만약 문명과 전쟁 중이라면, 평화에 대한 논의를 할 수 있습니다. 전쟁 점수는 문명들 사이에 항상 변화하는 전쟁의 양상 입니다. 전쟁 점수는 100에서 -100까지 변동할 수 있는데, 여기서 100은 당신의 완전한 승리이고, -100은 상대편의 완전한 승리를 의미합니다. 전쟁 점수는 시간이 지남에 따라 점차적으로 줄어들게 될 것이며, 이는 장기적이고 장기화된 갈등 속에서 과거 행동의 가치가 하락하는 것을 강조하기 위한 것입니다.[NEWLINE][NEWLINE]전쟁이 선언되면 모두 전쟁 점수가 0에서 시작 합니다. 당신(또는 상대방)이 유닛을 파괴하고, 타일이나 교역로를 약탈하고, 시민 유닛을 포로로 잡고, 도시를 정복하면 당신의 전쟁 점수는 올라갈 것입니다. 이러한 행동의 가치는 상대방의 전체적인 크기에 따라 달라집니다.[NEWLINE][NEWLINE]평화를 이룰 때가 되면 전쟁 점수는 당신이 상대에게 무엇을 얻을 것으로 기대해야 하는지, 혹은 그들이 당신에게 무엇을 요구할 것인지에 대한 좋은 아이디어를 줍니다. 거래 화면에서는 전쟁 점수 수치가 최대 평화 수치로 번역되어 상대편(또는 그 반대)으로부터 무엇을 가져갈 수 있는지 정확히 보여줍니다. 평화가 결정되면 전쟁 점수는 0으로 돌아옵니다.'
 WHERE Tag = 'TXT_KEY_DIPLOMACY_PEACE_HEADING3_BODY';
 
 UPDATE Language_ko_KR
@@ -537,7 +537,7 @@ SET Text = '문명 V에 등장하는 각 문명은 하나 이상의 특수한 "�
 WHERE Tag = 'TXT_KEY_UNITS_NATIONAL_HEADING2_BODY';
 
 UPDATE Language_ko_KR
-SET Text = '다른 문명이 점령한 도시 국가를 당신이 다시 점령하였다면, 당신은 그 도시 국가를 해방할 수 있습니다. 만약 도시 국가를 해방한다면, 당신은 그 도시 국가에 대해 많은 [ICON_INFLUENCE]영향력을 가질 수 있습니다. 이는 보통 당신이 [COLOR_POSITIVE_TEXT]동맹[ENDCOLOR]을 맺을 수 있을 만큼 충분합니다.'
+SET Text = '다른 문명이 정복한 도시 국가를 당신이 다시 정복하면, 당신은 그 도시 국가를 해방할 수 있습니다. 만약 도시 국가를 해방한다면, 당신은 그 도시 국가에 대해 많은 [ICON_INFLUENCE]영향력을 가질 수 있습니다. 이는 보통 당신이 [COLOR_POSITIVE_TEXT]동맹[ENDCOLOR]을 맺을 수 있을 만큼 충분합니다.'
 WHERE Tag = 'TXT_KEY_CITYSTATE_LIBERATING_HEADING2_BODY';
 
 
@@ -1492,7 +1492,7 @@ SET Text = 'Very well.'
 WHERE Tag = 'TXT_KEY_LEADER_WILLIAM_AGREE_SHORT_2';
 
 UPDATE Language_ko_KR
-SET Text = '종료[NEWLINE]{1_turn} 턴'
+SET Text = '종료[NEWLINE]{1_turn}턴'
 WHERE Tag = 'TXT_KEY_DO_ENDS_ON';
 
 UPDATE Language_ko_KR

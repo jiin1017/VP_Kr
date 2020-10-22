@@ -380,10 +380,10 @@
 			<Text>추가 스파이: + {1}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EUI_BUILDING_SPYRANKCHANGE">
-			<Text>스파이 진급: + {1}</Text>
+			<Text>스파이 승급: + {1}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EUI_BUILDING_INSTANTSPYRANKCHANGE">
-			<Text>스파이 즉시 진급: + {1}</Text>
+			<Text>스파이 즉시 승급: + {1}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EUI_BUILDING_TRADEROUTERECIPIENTBONUS">
 			<Text>[ICON_INTERNATIONAL_TRADE]{TXT_KEY_DECLARE_WAR_TRADE_ROUTES_HEADER}[ICON_ARROW_LEFT]+ {1}[ICON_GOLD]</Text>
@@ -467,7 +467,7 @@
 			<Text>알려지지 않은 도시</Text>
 		</Row>
 		<Row Tag="TXT_KEY_AIR_STRENGTH_DEFENSE">
-			<Text>도시 공습 방어</Text>
+			<Text>공습 방어</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EUI_GLOBAL">
 			<Text>[COLOR_HIGHLIGHT_TEXT]글로벌[ENDCOLOR]</Text>
