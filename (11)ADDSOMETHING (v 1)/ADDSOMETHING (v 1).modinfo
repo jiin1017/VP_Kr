@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="98dfbff9-f960-46f6-8162-2254af8491f2" version="1">
+  <Properties>
+    <Name>ADDSOMETHING</Name>
+    <Stability>Alpha</Stability>
+    <Teaser>VP번역일부보강</Teaser>
+    <Description>VP번역일부보강</Description>
+    <Authors>molang</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="4A17B4F9F067D69FD0E8A40AE4067F53" import="0">ADDMOLRANG.sql</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>ADDMOLRANG.sql</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

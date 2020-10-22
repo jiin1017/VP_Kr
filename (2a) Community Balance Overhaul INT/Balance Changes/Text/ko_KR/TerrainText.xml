@@ -103,7 +103,7 @@
 			<Text>황금기 점수</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BARBARIAN_GOLDEN_AGE_HEADING4_BODY">
-			<Text>The ruin contains relics, that grant Golden Age Points.</Text>
+			<Text>고대 유적에는 [ICON_GOLDEN_AGE]황금기 점수를 제공하는 유물이 포함되어 있습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BARBARIAN_GOLDEN_AGE_ADV_QUEST">
 			<Text>황금기 점수?</Text>
@@ -112,7 +112,7 @@
 			<Text>생산</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BARBARIAN_PRODUCTION_HEADING4_BODY">
-			<Text>The ruin contains supplies, that grant Production to your nearest city.</Text>
+			<Text>고대 유적에는 가까운 도시에 [ICON_PRODUCTION]생산을 제공하는 물자가 들어있습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BARBARIAN_PRODUCTION_ADV_QUEST">
 			<Text>생산?</Text>
@@ -121,7 +121,7 @@
 			<Text>타일</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BARBARIAN_TILES_HEADING4_BODY">
-			<Text>The ruin contains settlers, that grant free Tiles to your nearest city.</Text>
+			<Text>고대 유적에는 정착민들이 있습니다. 이 정착민들은 당신의 가장 가까운 도시에 무료 영토를 제공합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BARBARIAN_TILES_ADV_QUEST">
 			<Text>타일?</Text>

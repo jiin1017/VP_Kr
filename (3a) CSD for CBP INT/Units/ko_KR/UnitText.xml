@@ -14,7 +14,7 @@
 			<Text>Though the cheapest and earliest-available diplomatic unit, Emissaries are not terribly reliable as a source of steady Influence. Players should only use Emissaries to secure or maintain relations with a city-state you are already friendly or allied with. As such, it is best to use these units simply to augment your efforts to fulfill city-state quests.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_HELP_EMISSARY">
-			<Text>[COLOR_PLAYER_PURPLE]개시[ENDCOLOR] 승급이 부여된 채 시작합니다. 이 유닛을 전쟁 중이 아닌 도시 국가로 [ICON_MOVES]이동시켜 외교 임무를 수행해 [ICON_INFLUENCE]영향력을 증가시킬 수 있습니다. 시대에 따라 생산 비용이 증가합니다.</Text>
+			<Text>[COLOR_PLAYER_PURPLE]개시[ENDCOLOR] 승급이 부여된 채 시작합니다. 이 유닛을 전쟁 중이 아닌 도시 국가로 [ICON_MOVES]이동시켜 외교 임무를 수행해 [ICON_INFLUENCE]영향력을 증가시킬 수 있습니다.[NEWLINE][NEWLINE]시대에 따라 생산 비용이 증가합니다.</Text>
 		</Row>
 		
 		<!-- Envoy -->

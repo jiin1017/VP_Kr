@@ -210,7 +210,7 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_TOP_PANEL_TOURISM_TOOLTIP_CONQUEST_WARNING">
-			<Text>소유한 도시 1개마다 ([ICON_PUPPET]괴뢰도시X) 도시 및 "역사적 사건"에서 오는 [ICON_TOURISM]관광이 {1_Num}% 감소합니다. [COLOR:110:110:110:255](최대 75%)[ENDCOLOR]</Text>
+			<Text>소유한 ([ICON_PUPPET]괴뢰 제외) 도시 1개마다 도시 및 "역사적 사건"에서 오는 [ICON_TOURISM]관광이 {1_Num}% 감소합니다. [COLOR:110:110:110:255](최대 75%)[ENDCOLOR]</Text>
 		</Row>
 		
 		<!-- City-State Protection Prompt -->
@@ -510,7 +510,7 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_NOTIFICATION_CITY_WLTKD_UA_CITY_SETTLING">
-			<Text>새로운 도시를 개척했기 때문에 모든 도시가 {1_Num}턴 동안 "황후 경축일"을 맞이합니다. [ICON_FOOD]식량이 [COLOR_POSITIVE_TEXT]{2_Num}%[ENDCOLOR] 증가합니다! 모든 도시의 [ICON_FOOD]식량 및 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.</Text>
+			<Text>새로운 도시를 설립했기 때문에 모든 도시가 {1_Num}턴 동안 "황후 경축일"을 맞이합니다. [ICON_FOOD]식량이 [COLOR_POSITIVE_TEXT]{2_Num}%[ENDCOLOR] 증가합니다! 모든 도시의 [ICON_FOOD]식량 및 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_CITY_WLTKD_UA_CITY_SETTLING">
 			<Text>천명</Text>

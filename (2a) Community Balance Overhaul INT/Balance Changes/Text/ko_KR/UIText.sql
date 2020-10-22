@@ -6,12 +6,12 @@ WHERE Tag = 'TXT_KEY_YIELD_FROM_MISC' AND EXISTS (SELECT * FROM COMMUNITY WHERE 
 
 -- Puppet TT TopPanel
 UPDATE Language_ko_KR
-SET Text = '소유한 ([ICON_PUPPET]괴뢰도시X) 도시마다 연구 비용이 {1_Num}% 증가합니다.'
+SET Text = '소유한 ([ICON_PUPPET]괴뢰 제외) 도시마다 연구 비용이 {1_Num}% 증가합니다.'
 WHERE Tag = 'TXT_KEY_TP_TECH_CITY_COST' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE' AND Value= 1 );
 
 -- Puppet TT TopPanel
 UPDATE Language_ko_KR
-SET Text = '소유한 ([ICON_PUPPET]괴뢰도시X) 도시마다 정책 비용이 {1_Num}% 증가합니다.'
+SET Text = '소유한 ([ICON_PUPPET]괴뢰 제외) 도시마다 정책 비용이 {1_Num}% 증가합니다.'
 WHERE Tag = 'TXT_KEY_TP_CULTURE_CITY_COST' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE' AND Value= 1 );
 
 -- Supply Info
@@ -683,7 +683,7 @@ WHERE Tag = 'TXT_KEY_CHOOSE_ARCH_WRITTEN_ARTIFACT_RESULT';
 
 
 UPDATE Language_ko_KR
-SET Text = '비도덕적이거나 멸종 위기에 처했거나 기타 이유가 있는 사치 자원은 일반 대중이 구매할 수 없습니다. 금지령이 내려져 있는 한, 이 사치 자원으로부터 [ICON_HAPPINESS_1]행복 및 독점 혜택을 획득할 수 [COLOR_NEGATIVE_TEXT]없습니다.[ENDCOLOR]'
+SET Text = '비도덕적이거나 멸종 위기에 처했거나 기타 이유가 있는 사치 자원은 일반 대중이 구매할 수 없습니다. 금지령이 내려져 있는 한, 이 사치 자원으로부터 [ICON_HAPPINESS_1][COLOR_NEGATIVE_TEXT]행복[ENDCOLOR] 및 [COLOR_NEGATIVE_TEXT]독점 혜택[ENDCOLOR]을 획득할 수 없습니다.'
 WHERE Tag = 'TXT_KEY_RESOLUTION_BAN_LUXURY_HAPPINESS_HELP';
 
 --Big UI Changes

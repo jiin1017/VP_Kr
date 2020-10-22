@@ -129,7 +129,7 @@
 			<Text>여행 금지</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESOLUTION_TOURISM_PENALTY_HELP">
-			<Text>문명 사이의 국제 여행을 제한합니다. 모든 문명의 [ICON_TOURISM]관광 수치가 [COLOR_POSITIVE_TEXT]35%[ENDCOLOR] 감소합니다.[NEWLINE][NEWLINE][COLOR_RESEARCH_STORED]비행[ENDCOLOR]을 연구한 문명이 있어야 안건으로 채택할 수 있습니다.</Text>
+			<Text>문명 사이의 국제 여행을 제한합니다. 모든 문명의 [ICON_TOURISM]관광 수치가 [COLOR_NEGATIVE_TEXT]35%[ENDCOLOR] 감소합니다.[NEWLINE][NEWLINE][COLOR_RESEARCH_STORED]비행[ENDCOLOR]을 연구한 문명이 있어야 안건으로 채택할 수 있습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESOLUTION_TOURISM_BONUS">
 			<Text>여권 시스템</Text>

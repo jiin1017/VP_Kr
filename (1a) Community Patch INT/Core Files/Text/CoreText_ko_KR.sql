@@ -102,7 +102,7 @@ SET Text = '게임 내에서 최초로 등장하는 공성 유닛입니다. 원�
 WHERE Tag = 'TXT_KEY_UNIT_HELP_CATAPULT';
 
 UPDATE Language_ko_KR
-SET Text = '투석기는 초기에 적 도시를 공격할 때 대단히 쓸만한 공성 무기입니다. 투석기는 느리고 적의 근접 공격에 아주 취약합니다. 따라서 실제로 사용할 때는 언제나 다른 유닛으로 지원하는 것이 좋습니다. 적 영토에서[ICON_MOVES]이동 속도가 [COLOR_NEGATIVE_TEXT]두 배[ENDCOLOR] 느려집니다.'
+SET Text = '투석기는 초기에 적 도시를 공격할 때 대단히 쓸만한 공성 무기입니다. 투석기는 느리고 적의 근접 공격에 아주 취약합니다. 따라서 실제로 사용할 때는 언제나 다른 유닛으로 지원하는 것이 좋습니다. 적 영토에서[ICON_MOVES]이동 속도가 두 배 느려집니다.'
 WHERE Tag = 'TXT_KEY_UNIT_CATAPULT_STRATEGY';
 
 UPDATE Language_ko_KR
@@ -110,7 +110,7 @@ SET Text = '투석기를 대체하는 로마의 고유 유닛입니다. 원거�
 WHERE Tag = 'TXT_KEY_UNIT_HELP_BALLISTA';
 
 UPDATE Language_ko_KR
-SET Text = '발리스타는 로마 고유의 유닛으로, 대체하는 투석기보다 더욱 강력합니다. 발리스타는 아주 뛰어난 공성 유닛입니다. 도시에 대해서는 대단히 쓸만하지만 공격받을 때는 약합니다. 다른 군사 유닛으로 발리스타를 보호하는 것을 잊지 마십시오. 적 영토에서[ICON_MOVES]이동 속도가 [COLOR_NEGATIVE_TEXT]두 배[ENDCOLOR] 느려집니다.'
+SET Text = '발리스타는 로마 고유의 유닛으로, 대체하는 투석기보다 더욱 강력합니다. 발리스타는 아주 뛰어난 공성 유닛입니다. 도시에 대해서는 대단히 쓸만하지만 공격받을 때는 약합니다. 다른 군사 유닛으로 발리스타를 보호하는 것을 잊지 마십시오. 적 영토에서[ICON_MOVES]이동 속도가 두 배 느려집니다.'
 WHERE Tag = 'TXT_KEY_UNIT_ROMAN_BALLISTA_STRATEGY';
 
 UPDATE Language_ko_KR
@@ -126,7 +126,7 @@ SET Text = '트레뷰셋을 대체하는 한국의 고유 유닛입니다. 지�
 WHERE Tag = 'TXT_KEY_CIV5_KOREA_HWACHA_HELP';
 
 UPDATE Language_ko_KR
-SET Text = '화차는 적 지상 유닛을 상대하는 데 매우 효과적입니다. 화차는 이동 속도가 느리고 적의 근접 공격에 매우 약하므로 다른 아군 유닛으로 보호하는 것이 좋습니다. 적 영토에서[ICON_MOVES]이동 속도가 [COLOR_NEGATIVE_TEXT]두 배[ENDCOLOR] 느려집니다.'
+SET Text = '화차는 적 지상 유닛을 상대하는 데 매우 효과적입니다. 화차는 이동 속도가 느리고 적의 근접 공격에 매우 약하므로 다른 아군 유닛으로 보호하는 것이 좋습니다. 적 영토에서[ICON_MOVES]이동 속도가 두 배 느려집니다.'
 WHERE Tag = 'TXT_KEY_CIV5_KOREA_HWACHA_STRATEGY';
 
 UPDATE Language_ko_KR
@@ -134,7 +134,7 @@ SET Text = '르네상스 시대의 강력한 공성 유닛입니다. 적 영토�
 WHERE Tag = 'TXT_KEY_UNIT_HELP_CANNON';
 
 UPDATE Language_ko_KR
-SET Text = '대포는 게임 중반의 중요한 공성 유닛이며, 아직 대포를 개발하지 못한 문명을 상대로 압도적 능력을 발휘합니다. 다른 공성 유닛처럼 적 영토에서[ICON_MOVES]이동 속도가 [COLOR_NEGATIVE_TEXT]두 배[ENDCOLOR] 느려집니다. 대포는 산업 시대에서도 뛰어난 성능을 발휘합니다. 대포는 다른 유닛보다 멀리 보지 못하며, 근접 유닛으로 보호받아야 합니다.'
+SET Text = '대포는 게임 중반의 중요한 공성 유닛이며, 아직 대포를 개발하지 못한 문명을 상대로 압도적 능력을 발휘합니다. 다른 공성 유닛처럼 적 영토에서[ICON_MOVES]이동 속도가 두 배 느려집니다. 대포는 산업 시대에서도 뛰어난 성능을 발휘합니다. 대포는 다른 유닛보다 멀리 보지 못하며, 근접 유닛으로 보호받아야 합니다.'
 WHERE Tag = 'TXT_KEY_UNIT_CANNON_STRATEGY';
 
 UPDATE Language_ko_KR
@@ -142,7 +142,7 @@ SET Text = '3타일 밖에서 공격이 가능한 첫번째 공성 유닛입니�
 WHERE Tag = 'TXT_KEY_UNIT_HELP_ARTILLERY';
 
 UPDATE Language_ko_KR
-SET Text = '야포는 매우 강력한 공성 유닛이며, 대포보다 더 강력하고 긴 사거리를 갖고 있습니다. 대포처럼 제한된 시야를 가지고 있으며 적 영토에서[ICON_MOVES]이동 속도가 [COLOR_NEGATIVE_TEXT]두 배[ENDCOLOR] 느려지지만, 원거리 전투력은 아주 강력합니다. 야포는 또한 "간접 사격" 능력을 갖추고 있는데, 이것은 시야 밖에 있는 장애물 너머의 적을 공격할 수 있습니다. (다른 아군으로 시야가 확보되었을 때만) 다른 공성 유닛처럼, 야포는 근접 공격에 취약합니다.'
+SET Text = '야포는 매우 강력한 공성 유닛이며, 대포보다 더 강력하고 긴 사거리를 갖고 있습니다. 대포처럼 제한된 시야를 가지고 있으며 적 영토에서[ICON_MOVES]이동 속도가 두 배 느려지지만, 원거리 전투력은 아주 강력합니다. 야포는 또한 "간접 사격" 능력을 갖추고 있는데, 이것은 시야 밖에 있는 장애물 너머의 적을 공격할 수 있습니다. (다른 아군으로 시야가 확보되었을 때만) 다른 공성 유닛처럼, 야포는 근접 공격에 취약합니다.'
 WHERE Tag = 'TXT_KEY_UNIT_ARTILLERY_STRATEGY';
 
 UPDATE Language_ko_KR
@@ -537,7 +537,7 @@ SET Text = '문명 V에 등장하는 각 문명은 하나 이상의 특수한 "�
 WHERE Tag = 'TXT_KEY_UNITS_NATIONAL_HEADING2_BODY';
 
 UPDATE Language_ko_KR
-SET Text = '다른 문명이 정복한 도시 국가를 당신이 다시 정복하면, 당신은 그 도시 국가를 해방할 수 있습니다. 만약 도시 국가를 해방한다면, 당신은 그 도시 국가에 대해 많은 [ICON_INFLUENCE]영향력을 가질 수 있습니다. 이는 보통 당신이 [COLOR_POSITIVE_TEXT]동맹[ENDCOLOR]을 맺을 수 있을 만큼 충분합니다.'
+SET Text = '다른 문명이 정복한 도시 국가를 당신이 다시 정복하면, 당신은 그 도시 국가를 해방할 수 있습니다. 만약 도시 국가를 해방한다면, 당신은 그 도시 국가에 대해 많은 [ICON_INFLUENCE]영향력을 가질 수 있습니다. 이는 보통 당신이 동맹을 맺을 수 있을 만큼 충분합니다.'
 WHERE Tag = 'TXT_KEY_CITYSTATE_LIBERATING_HEADING2_BODY';
 
 

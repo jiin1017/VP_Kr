@@ -29,7 +29,7 @@ SET Text = '다음 국가 제재: {1_CivsList}'
 WHERE Tag = 'TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_EMBARGO_PLAYERS' AND EXISTS (SELECT * FROM CSD WHERE Type='IDEOLOGY_CSD' AND Value= 1 );
 
 UPDATE Language_ko_KR
-SET Text = '도시 국가와 [ICON_INTERNATIONAL_TRADE]교역로를 연결할 수 없고 기존 교역로는 [COLOR_NEGATIVE_TEXT]취소[ENDCOLOR]되며 다른 장소와 연결해야 합니다. 도시 국가의 모든 기업 프랜차이즈가 제거됩니다. 도시 국가에 전쟁을 선포하거나 해당 도시를 점령할 때의 전쟁광 점수가 크게 감소합니다.'
+SET Text = '도시 국가와 [ICON_INTERNATIONAL_TRADE]교역로를 연결할 수 없고 기존 교역로는 [COLOR_NEGATIVE_TEXT]취소[ENDCOLOR]되며 다른 장소와 연결해야 합니다. 도시 국가의 모든 기업 프랜차이즈가 제거됩니다. 도시 국가에 전쟁을 선포하거나 해당 도시를 점령할 때의 [ICON_VICTORY_DOMINATION]전쟁광 수치가 크게 감소합니다.'
 WHERE Tag = 'TXT_KEY_RESOLUTION_ALL_CITY_STATES_EMBARGO_HELP' AND EXISTS (SELECT * FROM CSD WHERE Type='IDEOLOGY_CSD' AND Value= 1 );
 
 UPDATE Language_ko_KR
@@ -37,7 +37,7 @@ SET Text = '통상 금지'
 WHERE Tag = 'TXT_KEY_RESOLUTION_PLAYER_EMBARGO' AND EXISTS (SELECT * FROM CSD WHERE Type='IDEOLOGY_CSD' AND Value= 1 );
 
 UPDATE Language_ko_KR
-SET Text = '해당 문명과 [ICON_INTERNATIONAL_TRADE]교역로를 연결할 수 없고 거래를 할 수 없습니다. 기존 교역로는 [COLOR_NEGATIVE_TEXT]취소[ENDCOLOR]되며 다른 장소와 연결해야 합니다. 기업 프랜차이즈를 설립할 수 [COLOR_NEGATIVE_TEXT]없습니다.[ENDCOLOR] [COLOR:110:110:110:255](종속국은 제외됩니다.)[ENDCOLOR] 해당 문명의 외국 도시에 있는 기업 프랜차이즈가 [COLOR_NEGATIVE_TEXT]제거[ENDCOLOR]됩니다. 제재를 받은 문명에 전쟁을 선포하거나 해당 도시를 점령한다면 전쟁광 점수가 크게 감소합니다.'
+SET Text = '해당 문명과 [ICON_INTERNATIONAL_TRADE][COLOR_NEGATIVE_TEXT]교역로[ENDCOLOR]를 연결할 수 없고 [COLOR_NEGATIVE_TEXT]거래[ENDCOLOR]를 할 수 없습니다. 기존 교역로는 취소되며 다른 장소와 연결해야 합니다. 기업 [COLOR_NEGATIVE_TEXT]프랜차이즈[ENDCOLOR]를 설립할 수 없습니다. [COLOR:110:110:110:255](종속국은 제외됩니다.)[ENDCOLOR] 해당 문명의 외국 도시에 있는 기업 프랜차이즈가 제거됩니다. 제재를 받은 문명에 전쟁을 선포하거나 해당 도시를 점령한다면 [ICON_VICTORY_DOMINATION]전쟁광 수치가 크게 감소합니다.'
 WHERE Tag = 'TXT_KEY_RESOLUTION_PLAYER_EMBARGO_HELP' AND EXISTS (SELECT * FROM CSD WHERE Type='IDEOLOGY_CSD' AND Value= 1 );
 
 -- World Peace
@@ -47,7 +47,7 @@ SET Text = '상비군 세금'
 WHERE Tag = 'TXT_KEY_RESOLUTION_STANDING_ARMY_TAX' AND EXISTS (SELECT * FROM CSD WHERE Type='IDEOLOGY_CSD' AND Value= 1 );
 
 UPDATE Language_ko_KR
-SET Text = '유닛 유지에 필요한 [ICON_GOLD]골드가 [COLOR_NEGATIVE_TEXT]25%[ENDCOLOR] 증가합니다. 도시를 점령하고 전쟁을 선포할 때의 [ICON_VICTORY_DOMINATION]전쟁광 페널티가 크게 증가합니다. [ICON_VICTORY_DOMINATION] 전쟁광 점수의 감소가 평소보다 느려집니다.'
+SET Text = '유닛 유지에 필요한 [ICON_GOLD]골드가 [COLOR_NEGATIVE_TEXT]25%[ENDCOLOR] 증가합니다. 도시를 점령하고 전쟁을 선포할 때의 [ICON_VICTORY_DOMINATION]전쟁광 페널티가 크게 증가합니다. [ICON_VICTORY_DOMINATION]전쟁광 수치의 감소가 평소보다 느려집니다.'
 WHERE Tag = 'TXT_KEY_RESOLUTION_STANDING_ARMY_TAX_HELP' AND EXISTS (SELECT * FROM CSD WHERE Type='IDEOLOGY_CSD' AND Value= 1 );
 
 UPDATE Language_ko_KR
@@ -57,19 +57,19 @@ WHERE Tag = 'TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_UNIT_MAINTENANCE' AND EXISTS
 -- World Religion
 
 UPDATE Language_ko_KR
-SET Text = '한 종교를 공식 세계 종교로 지정합니다.[NEWLINE][NEWLINE]소유한 도시의 다수가 해당 종교를 따르는 문명은 세계 대회 추가 [COLOR_POSITIVE_TEXT]대표단[ENDCOLOR]을 1명 확보합니다. 종교를 창시한 문명 또는 성도를 통제하고 있는 문명은 해당 종교를 따르는 문명의 수 1개마다 추가 [COLOR_POSITIVE_TEXT]대표단[ENDCOLOR]을 확보합니다. 해당 종교는 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 더 빨리 전파되며 해당 종교의 성도는 [ICON_TOURISM]관광이 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE]세계 종교는 한 번에 하나만 존재할 수 있습니다.'
+SET Text = '한 [COLOR_POSITIVE_TEXT]종교[ENDCOLOR]를 공식 세계 종교로 지정합니다.[NEWLINE][NEWLINE]소유한 도시의 다수가 해당 종교를 따르는 문명은 세계 대회 추가 [COLOR_POSITIVE_TEXT]대표단[ENDCOLOR]을 1명 확보합니다. 종교를 창시한 문명 또는 성도를 통제하고 있는 문명은 해당 종교를 따르는 문명의 수 1개마다 추가 [COLOR_POSITIVE_TEXT]대표단[ENDCOLOR]을 확보합니다. 해당 종교는 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 더 빨리 전파되며 해당 종교의 성도는 [ICON_TOURISM]관광이 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE]세계 종교는 한 번에 하나만 존재할 수 있습니다.'
 WHERE Tag = 'TXT_KEY_RESOLUTION_WORLD_RELIGION_HELP' AND EXISTS (SELECT * FROM CSD WHERE Type='IDEOLOGY_CSD' AND Value= 1 );
 
 -- World Ideology
 
 UPDATE Language_ko_KR
-SET Text = '한 이념을 공식 세계 이념으로 지정합니다. 해당 이념을 따르는 문명은 세계 대회 추가 [COLOR_POSITIVE_TEXT]대표단[ENDCOLOR] 1명을 확보하고 해당 이념을 따르는 다른 문명 1개마다 세계 대회 추가 [COLOR_POSITIVE_TEXT]대표단[ENDCOLOR] 1명을 확보합니다. 해당 이념을 지지하는 여론이 모든 문명에서 증가합니다. [COLOR_POSITIVE_TEXT]국제 연합[ENDCOLOR]이 개설되면 [ICON_VICTORY_DIPLOMACY]외교 승리 투표를 시행할 수 있습니다.[NEWLINE][NEWLINE][COLOR_RESEARCH_STORED]핵분열[ENDCOLOR]을 연구한 문명이 있어야 안건으로 채택할 수 있습니다.'
+SET Text = '한 [COLOR_POSITIVE_TEXT]이념[ENDCOLOR]을 공식 세계 이념으로 지정합니다.[NEWLINE][NEWLINE]해당 이념을 따르는 문명은 세계 대회 추가 [COLOR_POSITIVE_TEXT]대표단[ENDCOLOR] 1명을 확보하고 해당 이념을 따르는 다른 문명 1개마다 세계 대회 추가 [COLOR_POSITIVE_TEXT]대표단[ENDCOLOR] 1명을 확보합니다. 해당 이념을 지지하는 여론이 모든 문명에서 증가합니다. [COLOR_POSITIVE_TEXT]국제 연합[ENDCOLOR]이 개설되면 [ICON_VICTORY_DIPLOMACY][COLOR_POSITIVE_TEXT]외교 승리[ENDCOLOR]를 위한 투표를 시행할 수 있습니다.[NEWLINE][NEWLINE][COLOR_RESEARCH_STORED]핵분열[ENDCOLOR]을 연구한 문명이 있어야 안건으로 채택할 수 있습니다.'
 WHERE Tag = 'TXT_KEY_RESOLUTION_WORLD_IDEOLOGY_HELP' AND EXISTS (SELECT * FROM CSD WHERE Type='IDEOLOGY_CSD' AND Value= 1 );
 
 -- Scholars in Residence
 
 UPDATE Language_ko_KR
-SET Text = '최소한 한 문명에 의해 연구된 기술을 개발할 때 필요한 연구 비용이 [COLOR_POSITIVE_TEXT]20%[ENDCOLOR] 감소하고 추가적으로 모든 도시 국가 동맹마다 [COLOR_POSITIVE_TEXT]2%[ENDCOLOR] [COLOR:110:110:110:255](한도:50%)[ENDCOLOR] 감소합니다. '
+SET Text = '최소한 한 문명에 의해 연구된 [COLOR_RESEARCH_STORED]기술[ENDCOLOR]을 개발할 때 필요한 [ICON_RESEARCH]연구 비용이 [COLOR_POSITIVE_TEXT]20%[ENDCOLOR] 감소하고 추가적으로 모든 도시 국가 동맹마다 [COLOR_POSITIVE_TEXT]2%[ENDCOLOR] [COLOR:110:110:110:255](한도:50%)[ENDCOLOR] 감소합니다. '
 WHERE Tag = 'TXT_KEY_RESOLUTION_MEMBER_DISCOVERED_TECH_DISCOUNT_HELP' AND EXISTS (SELECT * FROM CSD WHERE Type='IDEOLOGY_CSD' AND Value= 1 );
 
 UPDATE Language_ko_KR
@@ -83,7 +83,7 @@ SET Text = '+{1_CulturePerWorldWonder} [ICON_CULTURE]불가사의에서, +1 [ICO
 WHERE Tag = 'TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_CULTURE_FROM_WONDERS' AND EXISTS (SELECT * FROM CSD WHERE Type='IDEOLOGY_CSD' AND Value= 1 );
 
 UPDATE Language_ko_KR
-SET Text = '해당 도시 불가사의의 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가하고 걸작의 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.'
+SET Text = '모든 세계 불가사의의 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가하고 모든 [ICON_GREAT_WORK]걸작에서 오는 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_RESOLUTION_CULTURAL_HERITAGE_SITES_HELP' AND EXISTS (SELECT * FROM CSD WHERE Type='IDEOLOGY_CSD' AND Value= 1 );
 
 -- Natural Wonder
@@ -93,13 +93,13 @@ SET Text = '시민을 투입한 자연 경관의 모든 산출량이 [COLOR_POSI
 WHERE Tag = 'TXT_KEY_RESOLUTION_NATURAL_HERITAGE_SITES_HELP' AND EXISTS (SELECT * FROM CSD WHERE Type='IDEOLOGY_CSD' AND Value= 1 );
 
 UPDATE Language_ko_KR
-SET Text = '자연 경관의 산출량이 [COLOR_POSITIVE_TEXT]{1_CulturePerWorldWonder}[ENDCOLOR] 증가'
+SET Text = '자연 경관 산출량 [COLOR_POSITIVE_TEXT]{1_CulturePerWorldWonder}[ENDCOLOR] 증가'
 WHERE Tag = 'TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_CULTURE_FROM_NATURAL_WONDERS' AND EXISTS (SELECT * FROM CSD WHERE Type='IDEOLOGY_CSD' AND Value= 1 );
 
 -- Improvement/Landmarks
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]위인 타일 시설[ENDCOLOR]의 [ICON_PRODUCTION]생산, [ICON_FOOD]식량, [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 고고학자가 건설하는 [COLOR_POSITIVE_TEXT]랜드마크[ENDCOLOR]의 [ICON_CULTURE]문화, [ICON_RESEARCH]과학, [ICON_PEACE]신앙이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE][COLOR_RESEARCH_STORED]고고학[ENDCOLOR]을 연구한 문명이 있어야 안건으로 채택할 수 있습니다.'
+SET Text = '위인 타일 시설의 [ICON_PRODUCTION]생산, [ICON_FOOD]식량, [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 고고학자가 건설하는 랜드마크의 [ICON_CULTURE]문화, [ICON_RESEARCH]과학, [ICON_PEACE]신앙이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE][COLOR_RESEARCH_STORED]고고학[ENDCOLOR]을 연구한 문명이 있어야 안건으로 채택할 수 있습니다.'
 WHERE Tag = 'TXT_KEY_RESOLUTION_HISTORICAL_LANDMARKS_HELP' AND EXISTS (SELECT * FROM CSD WHERE Type='IDEOLOGY_CSD' AND Value= 1 );
 
 UPDATE Language_ko_KR
@@ -152,7 +152,7 @@ WHERE Tag = 'TXT_KEY_LEAGUE_PROJECT_REWARD_WORLD_GAMES_3_HELP' AND EXISTS (SELEC
 -- Arts/Sciences Funding
 
 UPDATE Language_ko_KR
-SET Text = '위대한 작가, 예술가 및 음악가의 출현율이 [COLOR_POSITIVE_TEXT]33%[ENDCOLOR] 증가합니다. 위대한 과학자, 기술자 및 상인의 출현율이 [COLOR_NEGATIVE_TEXT]33%[ENDCOLOR] 감소합니다.[NEWLINE][NEWLINE]정책 및 걸작 점수가 세계 [COLOR_POSITIVE_TEXT]중앙값보다 낮은[ENDCOLOR] 문명은 [ICON_PRODUCTION]생산 및 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]30%[ENDCOLOR]까지 증가합니다.[NEWLINE][NEWLINE]참고: 보너스는 문명 및 지도자의 점수 차이와 비례합니다.'
+SET Text = '위대한 작가/예술가/음악가의 출현율이 [COLOR_POSITIVE_TEXT]33%[ENDCOLOR] 증가합니다. 위대한 과학자/기술자/상인의 출현율이 [COLOR_NEGATIVE_TEXT]33%[ENDCOLOR] 감소합니다.[NEWLINE][NEWLINE]정책 및 걸작 점수가 세계 중앙값보다 낮은 문명은 [ICON_PRODUCTION]생산 및 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]30%[ENDCOLOR]까지 증가합니다.[NEWLINE][NEWLINE]참고: 보너스는 문명 및 지도자의 점수 차이와 비례합니다.'
 WHERE Tag = 'TXT_KEY_RESOLUTION_ARTS_FUNDING_HELP' AND EXISTS (SELECT * FROM CSD WHERE Type='IDEOLOGY_CSD' AND Value= 1 );
 
 UPDATE Language_ko_KR
@@ -160,7 +160,7 @@ SET Text = '예술 기금'
 WHERE Tag = 'TXT_KEY_RESOLUTION_ARTS_FUNDING' AND EXISTS (SELECT * FROM CSD WHERE Type='IDEOLOGY_CSD' AND Value= 1 );
 
 UPDATE Language_ko_KR
-SET Text = '위대한 과학자, 기술자 및 상인의 출현율이 [COLOR_POSITIVE_TEXT]33%[ENDCOLOR] 증가합니다. 위대한 작가, 예술가 및 음악가의 출현율이 [COLOR_NEGATIVE_TEXT]33%[ENDCOLOR] 감소합니다. [NEWLINE][NEWLINE]기술 점수가 세계 [COLOR_POSITIVE_TEXT]중앙값보다 낮은[ENDCOLOR] 문명은 [ICON_FOOD]식량 및 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]30%[ENDCOLOR]까지 증가합니다.[NEWLINE][NEWLINE]참고: 보너스는 문명 및 지도자의 점수 차이와 비례합니다.'
+SET Text = '위대한 과학자/기술자/상인의 출현율이 [COLOR_POSITIVE_TEXT]33%[ENDCOLOR] 증가합니다. 위대한 작가/예술가/음악가의 출현율이 [COLOR_NEGATIVE_TEXT]33%[ENDCOLOR] 감소합니다. [NEWLINE][NEWLINE]기술 점수가 세계 중앙값보다 낮은 문명은 [ICON_FOOD]식량 및 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]30%[ENDCOLOR]까지 증가합니다.[NEWLINE][NEWLINE]참고: 보너스는 문명 및 지도자의 점수 차이와 비례합니다.'
 WHERE Tag = 'TXT_KEY_RESOLUTION_SCIENCES_FUNDING_HELP' AND EXISTS (SELECT * FROM CSD WHERE Type='IDEOLOGY_CSD' AND Value= 1 );
 
 UPDATE Language_ko_KR
