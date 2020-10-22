@@ -383,7 +383,7 @@ SET Text = '테르시오를 대체하는 프랑스의 고유 유닛입니다. �
 WHERE Tag = 'TXT_KEY_UNIT_HELP_MUSKETEER' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 INSERT INTO Language_ko_KR (Text, Tag)
-SELECT 'Napoleon stole {1_Num} [ICON_GREAT_WORK] Great Work(s) from cities near {2_City} when he conquered it!' , 'TXT_KEY_ART_PLUNDERED'
+SELECT '나폴레옹이 도시를 정복하면서 {2_City} 주변에서 [ICON_GREAT_WORK]걸작을 {1_Num}개 훔쳤습니다!' , 'TXT_KEY_ART_PLUNDERED'
 WHERE EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 INSERT INTO Language_ko_KR (Text, Tag)
@@ -391,7 +391,7 @@ SELECT '걸작 도난!' , 'TXT_KEY_ART_PLUNDERED_SUMMARY'
 WHERE EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 INSERT INTO Language_ko_KR (Text, Tag)
-SELECT 'You plundered {1_Num} [ICON_GREAT_WORK] Great Work(s) from cities near {2_City} after you conquered it!' , 'TXT_KEY_ART_STOLEN'
+SELECT '도시 정복 후 {2_City} 주변에서 걸작을 {1_Num}개 약탈 했습니다!' , 'TXT_KEY_ART_STOLEN'
 WHERE EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 INSERT INTO Language_ko_KR (Text, Tag)
@@ -399,7 +399,7 @@ SELECT '걸작 약탈!' , 'TXT_KEY_ART_STOLEN_SUMMARY'
 WHERE EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 INSERT INTO Language_ko_KR (Text, Tag)
-SELECT 'The conquest of {2_City} has increased your empire''s total [ICON_CULTURE] Culture output by {3_Num}% for the next {1_Num} turn(s)!' , 'TXT_KEY_CULTURE_BOOST_ART'
+SELECT '{2_City}의 정복으로 제국 전역의 [ICON_CULTURE]문화가 다음 {1_Num}턴 동안 {3_Num}% 증가합니다!' , 'TXT_KEY_CULTURE_BOOST_ART'
 WHERE EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 INSERT INTO Language_ko_KR (Text, Tag)
@@ -407,7 +407,7 @@ SELECT '문화 보너스!' , 'TXT_KEY_CULTURE_BOOST_ART_SUMMARY'
 WHERE EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 INSERT INTO Language_ko_KR (Text, Tag)
-SELECT 'The conquest of {2_City} has increased the [ICON_PRODUCTION] Production output of all cities by {3_Num}% for the next {1_Num} turn(s)!' , 'TXT_KEY_PRODUCTION_BOOST_ART'
+SELECT '{2_City}의 정복으로 제국 전역의 [ICON_PRODUCTION]생산이 다음 {1_Num}턴 동안 {3_Num}% 증가합니다!' , 'TXT_KEY_PRODUCTION_BOOST_ART'
 WHERE EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 INSERT INTO Language_ko_KR (Text, Tag)
@@ -677,7 +677,7 @@ WHERE Tag = 'TXT_KEY_RESOURCE_PEPPER_HELP' AND EXISTS (SELECT * FROM COMMUNITY W
 -- Iroquois
 --------------------
 UPDATE Language_ko_KR
-SET Text = 'Units ignore terrain costs in Forests and Jungles, and these tiles establish [ICON_CONNECTED] City Connections. Military Land Units start with the [COLOR_PLAYER_PURPLE]숲사람[ENDCOLOR] Promotion, and all Units gain +20% [ICON_STRENGTH] Combat Strength if within 3 tiles of a Natural Wonder.'
+SET Text = '유닛이 숲 및 정글 타일의 지형 이동 비용을 무시하고 숲 및 정글 타일을 [ICON_CONNECTED]도시 연결에 사용할 수 있습니다. 지상 군사 유닛이 [COLOR_PLAYER_PURPLE]숲사람[ENDCOLOR] 승급이 부여된 채 시작합니다. 자연 경관 3타일 이내에서 모든 유닛의 [ICON_STRENGTH]전투력 보너스가 [COLOR_POSITIVE_TEXT]20%[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_TRAIT_IGNORE_TERRAIN_IN_FOREST' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 UPDATE Language_ko_KR
@@ -692,7 +692,7 @@ WHERE Tag = 'TXT_KEY_BUILDING_LONGHOUSE_STRATEGY' AND EXISTS (SELECT * FROM COMM
 -- Japan
 --------------------
 UPDATE Language_ko_KR
-SET Text = '+1 [ICON_CULTURE] Culture and [ICON_PEACE] Faith from Defense and Military Training Buildings. When a [ICON_GREAT_ADMIRAL] Great Admiral or [ICON_GREAT_GENERAL] Great General is born, receive [ICON_GREAT_WORK] Great Artist, Writer, and Musician Points in your [ICON_CAPITAL] Capital.'
+SET Text = '방어 및 군사 건물의 [ICON_CULTURE]문화 및 [ICON_PEACE]신앙이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. [ICON_GREAT_GENERAL]위대한 장군 또는 [ICON_GREAT_ADMIRAL]위대한 제독이 출현할 때 [ICON_CAPITAL]수도의 [ICON_GREAT_PEOPLE]위대한 예술가/작가/음악가 점수가 증가합니다.'
 WHERE Tag = 'TXT_KEY_TRAIT_FIGHT_WELL_DAMAGED' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 UPDATE Language_ko_KR
@@ -720,7 +720,7 @@ WHERE Tag = 'TXT_KEY_UNIT_JAPANESE_ZERO_STRATEGY' AND EXISTS (SELECT * FROM COMM
 -- Korea
 --------------------
 UPDATE Language_ko_KR
-SET Text = '+1 [ICON_RESEARCH] Science from Specialists, increasing by +1 in Medieval, Industrial, and Atomic Eras. +30% [ICON_GREAT_PEOPLE] Great People during [ICON_GOLDEN_AGE] Golden Ages, and +50 [ICON_GOLDEN_AGE] Golden Age Points when a [ICON_GREAT_PEOPLE] Great Person is born, scaling with Era.'
+SET Text = '모든 전문가의 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가하고 중세, 산업, 원자력 시대에 진입할 때마다 [COLOR_POSITIVE_TEXT]1[ENDCOLOR]씩 증가합니다. [ICON_GOLDEN_AGE]황금기 동안 [ICON_GREAT_PEOPLE]위인 출현율이 [COLOR_POSITIVE_TEXT]30%[ENDCOLOR] 증가합니다. [ICON_GREAT_PEOPLE]위인이 출현할 때 [ICON_GOLDEN_AGE]황금기 점수를 [COLOR_POSITIVE_TEXT]50[ENDCOLOR] (시대별 보정) 제공합니다.'
 WHERE Tag = 'TXT_KEY_TRAIT_SCHOLARS_JADE_HALL' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 UPDATE Language_ko_KR
@@ -736,7 +736,7 @@ WHERE Tag = 'TXT_KEY_CIV5_KOREA_TURTLESHIP_STRATEGY' AND EXISTS (SELECT * FROM C
 -- Maya
 --------------------
 UPDATE Language_ko_KR
-SET Text = 'After researching [COLOR_CYAN]Mathematics[ENDCOLOR], receive a bonus [ICON_GREAT_PEOPLE] Great Person at the end of every Maya Long Count cycle (every 394 years). Each bonus [ICON_GREAT_PEOPLE] Great Person can only be chosen once.'
+SET Text = '[COLOR_RESEARCH_STORED]수학[ENDCOLOR]을 연구하면 마야 장기력의 한 주기(394년)가 끝날 때마다 보너스로 [COLOR_POSITIVE_TEXT][ICON_GREAT_PEOPLE]위인[ENDCOLOR]이 출현합니다. 각 보너스 [ICON_GREAT_PEOPLE]위인은 한 번만 선택할 수 있습니다.'
 WHERE Tag = 'TXT_KEY_TRAIT_LONG_COUNT' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 UPDATE Language_ko_KR
@@ -751,7 +751,7 @@ WHERE Tag = 'TXT_KEY_UNIT_MAYAN_ATLATLIST_STRATEGY' AND EXISTS (SELECT * FROM CO
 -- Mongols
 --------------------
 UPDATE Language_ko_KR
-SET Text = 'Mounted Ranged Units gain +2 [ICON_MOVES] Movement and ignore [COLOR_POSITIVE_TEXT]Zone of Control[ENDCOLOR]. +100% Tribute Yields from [ICON_CITY_STATE] City-State bullying. Ignores Alliance and Protection penalties when bullying.'
+SET Text = '기마 유닛의 [ICON_MOVES]이동력이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가하고 [COLOR_POSITIVE_TEXT]ZOC[ENDCOLOR]를 무시합니다. [ICON_CITY_STATE]도시 국가가 바치는 공물의 산출량이 [COLOR_POSITIVE_TEXT]100%[ENDCOLOR] 증가합니다. 도시 국가를 괴롭힐 때 동맹 및 보호 페널티를 무시합니다.'
 WHERE Tag = 'TXT_KEY_TRAIT_TERROR' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
 
 UPDATE Language_ko_KR
@@ -770,7 +770,20 @@ SET Text = 'Skirmishers are fast ranged units, deadly on open terrain. Unlike th
  WHERE Tag = 'TXT_KEY_CIV5_MONGOLIA_KESHIK_STRATEGY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 UPDATE Language_ko_KR
-SET Text = 'The Khan is a Mongolian Unique Great Person, replacing the standard Great General.  The same combat bonuses apply, but the Khan moves 5 points per turn and heals stacked and adjacent units for additional HP per turn. This beefed up General ensures that his cavalry units will always be in a battle ready state.'
+SET Text = '칸은 일반적인 위대한 장군을 대체하는 몽골의 고유 위인입니다. 일반적인 위대한 장군과 같은 전투 보너스를 줄 뿐만 아니라, 칸의 이동력도 케식과 같은 5 가지고 있으며, 인접한 유닛이 체력을 회복할 때 체력을 15씩 추가로 회복시킵니다. 이 향상된 장군의 능력은 기병들이 빠르게 전투에 재참가 할 수 있게 해줍니다.
+
+칸은 [ICON_GREAT_GENERAL]위대한 장군을 대체하는 몽골의 고유 위인입니다.
+위대한 장군과 같은 [ICON_STRENGTH]전투력 보너스를 제공하고 [ICON_MOVES]이동력이 [COLOR_POSITIVE_TEXT]5[ENDCOLOR]이며 인접한 적 유닛을 매 ㅌ턴 추가 회복 시킵니다.
+
+
+The Khan is a Mongolian Unique Great Person, replacing the standard Great General.  
+The same combat bonuses apply, but 
+the Khan moves 5 points per turn 
+and heals
+stacked and adjacent units for additional HP per turn. 
+
+This beefed up General ensures that his cavalry units 
+will always be in a battle ready state.'
 WHERE Tag = 'TXT_KEY_CIV5_MONGOLIA_KHAN_STRATEGY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
 
 INSERT INTO Language_ko_KR (
@@ -815,7 +828,9 @@ WHERE EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' A
 
 INSERT INTO Language_ko_KR (
 Tag, Text)
-SELECT 'TXT_KEY_POP_CSTATE_BULLY_UNIT_TT_ANNEX', 'If this City-State is more [COLOR_POSITIVE_TEXT]afraid[ENDCOLOR] of you than they are [COLOR_WARNING_TEXT]resilient[ENDCOLOR], you can annex the City-State. Doing so will net you [ICON_CULTURE] Culture, [ICON_RESEARCH] Science, [ICON_PRODUCTION] Production, [ICON_PEACE] Faith, or [ICON_FOOD] Food, depending on the City-State being targeted. {1_FearLevel}{2_FactorDetails}'
+SELECT 'TXT_KEY_POP_CSTATE_BULLY_UNIT_TT_ANNEX', '당신에 대한 도시 국가의 [COLOR_POSITIVE_TEXT]두려움[ENDCOLOR]이 도시 국가의 [COLOR_WARNING_TEXT]불복[ENDCOLOR]보다 크다면
+
+you can annex the City-State. Doing so will net you [ICON_CULTURE] Culture, [ICON_RESEARCH] Science, [ICON_PRODUCTION] Production, [ICON_PEACE] Faith, or [ICON_FOOD] Food, depending on the City-State being targeted. {1_FearLevel}{2_FactorDetails}'
 WHERE EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
 
 INSERT INTO Language_ko_KR (
