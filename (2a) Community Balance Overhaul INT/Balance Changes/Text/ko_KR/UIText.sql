@@ -156,6 +156,7 @@ WHERE Tag = 'TXT_KEY_EO_SPY_MOVE_TT';
 UPDATE Language_ko_KR
 SET Text = '{1_SpyName} has achieved the rank of {2_RankName}.[NEWLINE][NEWLINE]There are three spy ranks: Recruit, Agent, and Special Agent. Each subsequent level makes the spy more effective. A higher ranking spy will steal technologies faster, discover and kill enemy spies that are trying to steal from you more frequently, rig elections in City-States more effectively, and have a greater chance of pulling off a coup in a City-State allied with another civilization.[NEWLINE][NEWLINE]Spies level up when they successfully steal technology or art from another civilization, kill an enemy spy, schmooze as as a diplomat, or if they uncover intrigue.'
 WHERE Tag = 'TXT_KEY_EO_SPY_RANK_TT';
+
 -- Public Opinion
 
 UPDATE Language_ko_KR

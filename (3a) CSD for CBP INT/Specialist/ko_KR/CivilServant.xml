@@ -13,7 +13,7 @@
 			<Text>공무원 슬롯 :</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SPECIALIST_CIVIL_SERVANT_TITLE">
-			<Text>위대한 외교관 점수 </Text>
+			<Text>위대한 외교관 점수</Text>
 		</Row>
 	</Language_ko_KR>
 </GameData>

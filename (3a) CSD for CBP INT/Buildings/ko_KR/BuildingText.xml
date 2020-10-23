@@ -116,10 +116,10 @@
 		
 		<!--Diplo Building Strategy
 		<Row Tag="TXT_KEY_BUILDING_CHANCERY_STRATEGY">
-			<Text>Increases Diplomatic Unit production speed and increases the amount of Influence received for Diplomatic Units built in the city. The Civil Servant specialist of this building offers a little [ICON_CULTURE]문화, [ICON_RESEARCH]과학 and [ICON_GOLD]골드, in exchange for [량ICON_FOOD]식 and [ICON_PRODUCTION]생산. The additional [ICON_PRODUCTION]생산 granted upon City growth makes it important to build this building early on to maximize the boost..</Text>
+			<Text>Increases Diplomatic Unit production speed and increases the amount of Influence received for Diplomatic Units built in the city. The Civil Servant specialist of this building offers a little [ICON_CULTURE] Culture, [ICON_RESEARCH] Science and [ICON_GOLD] Gold, in exchange for [ICON_FOOD] Food and [ICON_PRODUCTION] Production. The additional [ICON_PRODUCTION] Production granted upon City growth makes it important to build this building early on to maximize the boost..</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_WIRE_SERVICE_STRATEGY">
-			<Text>Increases Diplomatic Unit production speed and increases the amount of Influence received for Diplomatic Units built in the city.  The Civil Servant specialist of this building offers a little [ICON_CULTURE]문화, [ICON_RESEARCH]과학 and [ICON_GOLD]골드, in exchange for [량ICON_FOOD]식 and [ICON_PRODUCTION]생산. The additional [ICON_PRODUCTION]생산 granted upon City growth makes it important to build this building early on to maximize the boost.</Text>
+			<Text>Increases Diplomatic Unit production speed and increases the amount of Influence received for Diplomatic Units built in the city.  The Civil Servant specialist of this building offers a little [ICON_CULTURE] Culture, [ICON_RESEARCH] Science and [ICON_GOLD] Gold, in exchange for [ICON_FOOD] Food and [ICON_PRODUCTION] Production. The additional [ICON_PRODUCTION] Production granted upon City growth makes it important to build this building early on to maximize the boost.</Text>
 		</Row>-->
 		<!--Diplo National Wonder Strategy-->
 		<Row Tag="TXT_KEY_BUILDING_PRINTING_PRESS_STRATEGY">
@@ -130,7 +130,7 @@
 		</Row>
 		<!--
 		<Row Tag="TXT_KEY_BUILDING_COURT_SCRIBE_STRATEGY">
-			<Text>This National Wonder is unique, in that players may build it in their Capital without any other prerequisites. The Scrivener's Office gives a small production boost when building diplomatic units in the capital, and one [ICON_RES_PAPER]종이 자원 resource. Build this building if you want to secure a city-state ally or two during the first few eras of the game.</Text>
+			<Text>This National Wonder is unique, in that players may build it in their Capital without any other prerequisites. The Scrivener's Office gives a small production boost when building diplomatic units in the capital, and one [ICON_RES_PAPER] Paper resource. Build this building if you want to secure a city-state ally or two during the first few eras of the game.</Text>
 		</Row>-->
 		<!-- Diplo World Wonder Strategy-->
 		<Row Tag="TXT_KEY_BUILDING_FORUM_STRATEGY">
