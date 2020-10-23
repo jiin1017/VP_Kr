@@ -775,7 +775,7 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_TP_HAPPINESS_VASSALS">
-			<Text>종속국의 행복에서 {1_Num}</Text>
+			<Text>[COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] 종속국의 행복에서 획득</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TP_CULTURE_VASSALS">
 			<Text>[ICON_BULLET]종속국에서 [COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR]</Text>

@@ -200,17 +200,17 @@
 		</Row>
 		<!-- GAP -->
 		<Row Tag="TXT_KEY_TP_GOLDEN_AGE_ADDITION_RELIGION">
-			<Text>[ICON_BULLET]{1_Num} 매 턴 [ICON_RELIGION]종교에서 획득</Text>
+			<Text>[ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] [ICON_RELIGION]종교에서 획득</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TP_GOLDEN_AGE_ADDITION_TRAIT">
-			<Text>[ICON_BULLET]{1_Num} 매 턴 [ICON_GREAT_PEOPLE]특성에서 획득</Text>
+			<Text>[ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] [ICON_GREAT_PEOPLE]특성에서 획득</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TP_GOLDEN_AGE_ADDITION_CITIES">
-			<Text>[ICON_BULLET]{1_Num} 매 턴 [ICON_CAPITAL]수도에서 획득</Text>
+			<Text>[ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] [ICON_CAPITAL]수도에서 획득</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_TOP_PANEL_TOURISM_TOOLTIP_CONQUEST_WARNING">
-			<Text>소유한 도시 1개마다 ([ICON_PUPPET]괴뢰도시X) 도시 및 "역사적 사건"에서 오는 [ICON_TOURISM]관광이 {1_Num}% 감소합니다. [COLOR:110:110:110:255](최대 75%)[ENDCOLOR]</Text>
+			<Text>소유한 ([ICON_PUPPET]괴뢰 제외) 도시 1개마다 도시 및 "역사적 사건"에서 오는 [ICON_TOURISM]관광이 {1_Num}% 감소합니다. [COLOR:105:105:105:255](최대 75%)[ENDCOLOR]</Text>
 		</Row>
 		
 		<!-- City-State Protection Prompt -->
@@ -220,11 +220,11 @@
 
 		<!-- Aesthetics -->
 		<Row Tag="TXT_KEY_CO_CITY_TOURISM_POLICY_AESTHETICS">
-			<Text>{1_Num} [ICON_TOURISM]세계 불가사의에서</Text>
+			<Text>[ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] [ICON_TOURISM]세계 불가사의에서 획득</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_CO_CITY_TOURISM_CAPITAL_PENALTY">
-			<Text>{1_Num}% [ICON_TOURISM]괴뢰[ICON_PUPPET]도시가 아닌 도시의 수에서</Text>
+			<Text>[ICON_BULLET][COLOR_NEGATIVE_TEXT]-{1_Num}%[ENDCOLOR] [ICON_TOURISM]도시의 수에서 ([ICON_PUPPET]괴뢰 제외)</Text>
 		</Row>
 		
 		<!-- Resource Monopoly Text-->
@@ -358,7 +358,7 @@
 		<!-- Tootips for Monopoly Bonuses -->
 
 		<Row Tag ="TXT_KEY_TP_HAPPINESS_RESOURCE_MONOPOLY">
-			<Text>{1_Happiness}자원 독점에서</Text>
+			<Text>[COLOR_POSITIVE_TEXT]+{1_Happiness}[ENDCOLOR] 자원 독점에서 획득</Text>
 		</Row>
 		<Row Tag ="TXT_KEY_EO_MONOPOLIES">
 			<Text>당신 문명의 글로벌 독점</Text>
@@ -381,7 +381,7 @@
 		</Row>
 		<!-- Tooltip for Top Panel Happiness -->
 		<Row Tag ="TXT_KEY_TP_HAPPINESS_RESOURCE_POP_BONUS">
-			<Text>{1_Happiness}사치 자원에서 (보너스)</Text>
+			<Text>[COLOR_POSITIVE_TEXT]+{1_Happiness}[ENDCOLOR] 보너스 자원에서 획득</Text>
 		</Row>
 
 		<!-- Tooltips for EU Panel -->
@@ -510,7 +510,7 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_NOTIFICATION_CITY_WLTKD_UA_CITY_SETTLING">
-			<Text>새로운 도시를 개척했기 때문에 모든 도시가 {1_Num}턴 동안 "황후 경축일"을 맞이합니다. [ICON_FOOD]식량이 [COLOR_POSITIVE_TEXT]{2_Num}%[ENDCOLOR] 증가합니다! 모든 도시의 [ICON_FOOD]식량 및 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.</Text>
+			<Text>새로운 도시를 설립했기 때문에 모든 도시가 {1_Num}턴 동안 "황후 경축일"을 맞이합니다. [ICON_FOOD]식량이 [COLOR_POSITIVE_TEXT]{2_Num}%[ENDCOLOR] 증가합니다! 모든 도시의 [ICON_FOOD]식량 및 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_CITY_WLTKD_UA_CITY_SETTLING">
 			<Text>천명</Text>
@@ -582,10 +582,10 @@
 		</Row>
 		<!-- Trait LUA -->
 		<Row Tag="TXT_KEY_CO_CITY_TOURISM_TRAIT_BONUSES">
-			<Text>{1_Num} [ICON_TOURISM]문명 특성에서 획득</Text>
+			<Text>[ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] [ICON_TOURISM]문명 특성에서 획득</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CULTURE_FROM_TRAIT_BONUS">
-			<Text>{1_Num} {2_IconString}특성에서 획득</Text>
+			<Text>[ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] {2_IconString}특성에서 획득</Text>
 		</Row>
 
 		<!-- Trade LUA -->
@@ -946,37 +946,37 @@
 		</Row>
 		
 		<Row Tag="TXT_KEY_SCIENCE_UNHAPPINESS">
-			<Text>[ICON_BULLET] [COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR] [ICON_RESEARCH]문맹에서[NEWLINE]          실제[ICON_HAPPINESS_3]: {3_Num} ({4_Num} 감소)[NEWLINE]          총 부족: [ICON_RESEARCH][COLOR_CYAN]{2_Num}[ENDCOLOR][NEWLINE]          [ICON_HAPPINESS_3]-1 마다 [ICON_RESEARCH]{5_Num:number "#.##"} 증가</Text>
+			<Text>[ICON_BULLET] [COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR] 문맹에서[NEWLINE]          실제[ICON_HAPPINESS_3]: {3_Num} ({4_Num} 감소)[NEWLINE]          총 부족: [ICON_RESEARCH][COLOR_CYAN]{2_Num}[ENDCOLOR][NEWLINE]          [ICON_HAPPINESS_3]-1 마다 [ICON_RESEARCH]{5_Num:number "#.##"} 증가</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CULTURE_UNHAPPINESS">
-			<Text>[ICON_BULLET] [COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR] [ICON_CULTURE]무료에서[NEWLINE]          실제[ICON_HAPPINESS_3]: {3_Num} ({4_Num} 감소)[NEWLINE]          총 부족: [ICON_CULTURE][COLOR_CYAN]{2_Num}[ENDCOLOR][NEWLINE]          [ICON_HAPPINESS_3]-1 마다 [ICON_CULTURE]{5_Num:number "#.##"} 증가</Text>
+			<Text>[ICON_BULLET] [COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR] 무료에서[NEWLINE]          실제[ICON_HAPPINESS_3]: {3_Num} ({4_Num} 감소)[NEWLINE]          총 부족: [ICON_CULTURE][COLOR_CYAN]{2_Num}[ENDCOLOR][NEWLINE]          [ICON_HAPPINESS_3]-1 마다 [ICON_CULTURE]{5_Num:number "#.##"} 증가</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DEFENSE_UNHAPPINESS">
-			<Text>[ICON_BULLET] [COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR] [ICON_FOOD]/[ICON_PRODUCTION]곤경에서[NEWLINE]          실제[ICON_HAPPINESS_3]: {3_Num} ({4_Num} 감소)[NEWLINE]          총 부족: [ICON_FOOD]/[ICON_PRODUCTION][COLOR_CYAN]{2_Num}[ENDCOLOR][NEWLINE]          [ICON_HAPPINESS_3]-1 마다 [ICON_FOOD]/[ICON_PRODUCTION]{5_Num:number "#.##"} 증가 </Text>
+			<Text>[ICON_BULLET] [COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR] 곤경에서[NEWLINE]          실제[ICON_HAPPINESS_3]: {3_Num} ({4_Num} 감소)[NEWLINE]          총 부족: [ICON_FOOD]/[ICON_PRODUCTION][COLOR_CYAN]{2_Num}[ENDCOLOR][NEWLINE]          [ICON_HAPPINESS_3]-1 마다 [ICON_FOOD]/[ICON_PRODUCTION]{5_Num:number "#.##"} 증가 </Text>
 		</Row>
 		<Row Tag="TXT_KEY_GOLD_UNHAPPINESS">
-			<Text>[ICON_BULLET] [COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR] [ICON_GOLD]빈곤에서[NEWLINE]          실제[ICON_HAPPINESS_3]: {3_Num} ({4_Num} 감소)[NEWLINE]          총 부족: [ICON_GOLD][COLOR_CYAN]{2_Num}[ENDCOLOR][NEWLINE]           [ICON_HAPPINESS_3]-1 마다 [ICON_GOLD]{5_Num:number "#.##"} 증가</Text>
+			<Text>[ICON_BULLET] [COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR] 빈곤에서[NEWLINE]          실제[ICON_HAPPINESS_3]: {3_Num} ({4_Num} 감소)[NEWLINE]          총 부족: [ICON_GOLD][COLOR_CYAN]{2_Num}[ENDCOLOR][NEWLINE]           [ICON_HAPPINESS_3]-1 마다 [ICON_GOLD]{5_Num:number "#.##"} 증가</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CONNECTION_UNHAPPINESS">
 			<Text>[ICON_BULLET] [COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR] 고립에서[NEWLINE]          ([ICON_BLOCKADED]봉쇄 / [ICON_CONNECTED]연결 없음 /[NEWLINE]          [ICON_CAPITAL]수도와 연결된 [ICON_INTERNATIONAL_TRADE]교역 없음)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PILLAGED_UNHAPPINESS">
-			<Text>[ICON_BULLET] [COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR][ICON_RAZING]약탈된 타일에서</Text>
+			<Text>[ICON_BULLET] [COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR] 약탈된 타일에서</Text>
 		</Row>
 		<Row Tag="TXT_KEY_STARVING_UNHAPPINESS">
-			<Text>[ICON_BULLET] [COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR]기근에서 ([ICON_FOOD]필요)</Text>
+			<Text>[ICON_BULLET] [COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR] 기근에서 ([ICON_FOOD] 식량 필요)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MINORITY_UNHAPPINESS">
-			<Text>[ICON_BULLET] [COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR]종교 분쟁에서 [NEWLINE]           감소: {3_Num}, {2_Icon} 신도 필요</Text>
+			<Text>[ICON_BULLET] [COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR] 종교 분쟁에서 [NEWLINE]           감소: {3_Num}, {2_Icon} 신도 필요</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESISTANCE_UNHAPPINESS">
-			<Text>[ICON_BULLET] [COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR][ICON_RESISTANCE]저항에서</Text>
+			<Text>[ICON_BULLET] [COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR] 저항에서</Text>
 		</Row>
 		<Row Tag="TXT_KEY_OCCUPATION_UNHAPPINESS">
-			<Text>[ICON_BULLET] [COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR][ICON_OCCUPIED]점령에서</Text>
+			<Text>[ICON_BULLET] [COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR] 점령에서</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PUPPET_UNHAPPINESS">
-			<Text>[ICON_BULLET] [COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR][ICON_PUPPET]괴뢰 도시여서</Text>
+			<Text>[ICON_BULLET] [COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR] 괴뢰 도시여서</Text>
 		</Row>
 
 		<!-- Surplus Threshold -->
@@ -1037,7 +1037,7 @@
 
 		<!-- Luxury Tooltip -->
 		<Row Tag="TXT_KEY_TP_HAPPINESS_LUXURY_BONUS">
-			<Text>도시의 평균 규모가 {2_Num} [ICON_CITIZEN]이므로 사치 자원에서 오는 [ICON_HAPPINESS_1]불행은 {1_Num} 입니다.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] 사치 자원 보너스로 획득 (도시 평균 [ICON_CITIZEN]{2_Num}명 이므로)</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_EO_CITY_CONNECTED">
@@ -1251,7 +1251,7 @@
 			<Text>최고 전쟁 점수의 +{1_Num}%:[NEWLINE]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CO_PLAYER_TOURISM_WARSCORE">
-			<Text>+{1_Num}% 최고 전쟁 점수에서[NEWLINE]</Text>
+			<Text>[ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}%[ENDCOLOR] 최고 전쟁 점수에서[NEWLINE]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CO_CITY_TOURISM_WARSCORE_VALUE">
 			<Text>최고 전쟁 점수: {1_Num}</Text>
@@ -1327,11 +1327,11 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_HAPPY_EMPIRE_CBO">
-			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR] 제국 전역에서</Text>
+			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR] 제국 전역에서 획득</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_HAPPY_LUXURY_CBO">
-			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR] 사치 자원에서</Text>
+			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR] 사치 자원에서 획득</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_HAPPY_HANDICAP_CBO">
@@ -1339,23 +1339,23 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_HAPPY_BUILDINGS_CBO">
-			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR] 건물에서</Text>
+			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR] 건물에서 획득</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_HAPPY_OTHER_CBO">
-			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR] 퀘스트, 음악가, 공공 사업에서</Text>
+			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR] 퀘스트, 음악가, 공공 사업에서 획득</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_HAPPY_POLICY_CBO">
-			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR] 정책에서</Text>
+			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] 정책에서 획득</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_HAPPY_RELIGION_CBO">
-			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR] 종교에서</Text>
+			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] 종교에서 획득</Text>
 		</Row>
 		
 		<Row Tag="TXT_KEY_TP_HAPPINESS_RESOURCE_CITY">
-			<Text>{1_Num} 수입 및 통제된 사치 자원에서 (사치 자원당 평균 {2_Num})</Text>
+			<Text>{1_Num} 수입 및 관리 중인 사치 자원에서 (사치 자원마다 평균 {2_Num})</Text>
 		</Row>
 		
 		<Row Tag="TXT_KEY_TP_UNHAPPINESS_NEEDS">

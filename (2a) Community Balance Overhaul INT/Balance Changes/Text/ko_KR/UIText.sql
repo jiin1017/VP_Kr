@@ -6,12 +6,12 @@ WHERE Tag = 'TXT_KEY_YIELD_FROM_MISC' AND EXISTS (SELECT * FROM COMMUNITY WHERE 
 
 -- Puppet TT TopPanel
 UPDATE Language_ko_KR
-SET Text = '소유한 ([ICON_PUPPET]괴뢰도시X) 도시마다 연구 비용이 {1_Num}% 증가합니다.'
+SET Text = '소유한 ([ICON_PUPPET]괴뢰 제외) 도시마다 [ICON_RESEARCH]연구 비용이 [COLOR_NEGATIVE_TEXT]{1_Num}%[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_TP_TECH_CITY_COST' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE' AND Value= 1 );
 
 -- Puppet TT TopPanel
 UPDATE Language_ko_KR
-SET Text = '소유한 ([ICON_PUPPET]괴뢰도시X) 도시마다 정책 비용이 {1_Num}% 증가합니다.'
+SET Text = '소유한 ([ICON_PUPPET]괴뢰 제외) 도시마다 [ICON_CULTURE]정책 비용이 [COLOR_NEGATIVE_TEXT]{1_Num}%[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_TP_CULTURE_CITY_COST' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE' AND Value= 1 );
 
 -- Supply Info
@@ -108,7 +108,7 @@ WHERE Tag = 'TXT_KEY_HANDICAP_DEITY_HELP';
 
 -- Top Panel Tooltip Adjustment (make generic for more than just founder beliefs)
 UPDATE Language_ko_KR
-SET Text = '[ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] 종교에서'
+SET Text = '[ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] 종교에서 획득'
 WHERE Tag = 'TXT_KEY_TP_FAITH_FROM_RELIGION' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_RELIGION' AND Value= 1 );
 
 UPDATE Language_ko_KR
@@ -160,7 +160,7 @@ WHERE Tag = 'TXT_KEY_EO_SPY_RANK_TT';
 -- Public Opinion
 
 UPDATE Language_ko_KR
-SET Text = '{1_Num} 이념 차이에서 오는 압력 때문에'
+SET Text = '{1_Num} 이념 압력에서'
 WHERE Tag = 'TXT_KEY_TP_UNHAPPINESS_PUBLIC_OPINION' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
 
 -- Building Purchased
@@ -288,7 +288,7 @@ WHERE Tag = 'TXT_KEY_IMPROVEMENT_BARBARIAN_CAMP_PEDIA' AND EXISTS (SELECT * FROM
 
 -- CS Protection Tooltip for new influence perk
 UPDATE Language_ko_KR
-SET Text = '도시 국가를 보호하겠다고 선언하면 게임에 등장하는 다른 문명이 해당 도시 국가를 공격하거나 해당 도시 국가에서 조공을 받으려고 할 때 당신이 이를 막을 것이라고 알리는 것입니다.[NEWLINE][NEWLINE]보호 선언이 유효한 동안 해당 도시 국가와의 [ICON_INFLUENCE]영향력이 {1_InfluenceMinimum} 증가합니다. 또한 해당 도시 국가의 퀘스트를 완료하면 [COLOR_POSITIVE_TEXT]{3_InfluenceBoost}%[ENDCOLOR] [ICON_INFLUENCE]영향력이 증가합니다. 도시 국가 [ICON_CAPITAL]수도의 [ICON_STRENGTH]전투력이 [COLOR_POSITIVE_TEXT]{4_DefenseBoost}%[ENDCOLOR] [COLOR:110:110:110:255](한도:세계 최대값의 [COLOR_POSITIVE_TEXT]{5_DefenseTotal}%[ENDCOLOR])[ENDCOLOR]증가합니다.[NEWLINE][NEWLINE]보호 선언 후 {2_TurnsMinimum}턴 동안은 이를 취소할 수 없습니다.'
+SET Text = '도시 국가를 보호하겠다고 선언하면 게임에 등장하는 다른 문명이 해당 도시 국가를 공격하거나 해당 도시 국가에서 조공을 받으려고 할 때 당신이 이를 막을 것이라고 알리는 것입니다.[NEWLINE][NEWLINE]보호 선언이 유효한 동안 해당 도시 국가와의 [ICON_INFLUENCE]영향력이 {1_InfluenceMinimum} 증가합니다. 또한 해당 도시 국가의 퀘스트를 완료하면 [COLOR_POSITIVE_TEXT]{3_InfluenceBoost}%[ENDCOLOR] [ICON_INFLUENCE]영향력이 증가합니다. 도시 국가 [ICON_CAPITAL]수도의 [ICON_STRENGTH]전투력이 [COLOR_POSITIVE_TEXT]{4_DefenseBoost}%[ENDCOLOR] [COLOR:105:105:105:255](한도:세계 최대값의 [COLOR_POSITIVE_TEXT]{5_DefenseTotal}%[ENDCOLOR])[ENDCOLOR]증가합니다.[NEWLINE][NEWLINE]보호 선언 후 {2_TurnsMinimum}턴 동안은 이를 취소할 수 없습니다.'
 WHERE Tag = 'TXT_KEY_POP_CSTATE_PLEDGE_TT' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE' AND Value= 1 );
 	
 UPDATE Language_ko_KR
@@ -333,7 +333,7 @@ WHERE EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDIN
 -- Trading Post - name change
 
 UPDATE Language_ko_KR
-SET Text = '마을은 문명의 시골에 흩어져 있는 작은 정착지입니다. 특히 도로, 철도 또는 교역로에 배치될 때, 그들은 사회를 위해 많은 부를 창출할 수 있습니다.[NEWLINE][NEWLINE]두 도시를 [ICON_CONNECTED]연결하는 도로나 철도 위에 건설하면 [ICON_GOLD]골드 및 [ICON_PRODUCTION]생산이 증가합니다.[NEWLINE][NEWLINE]해당 마을을 지나가는 국내 및 국제 교역로가 있으면 마을의 [ICON_GOLD]골드 및 [ICON_PRODUCTION]생산이 추가적으로 [COLOR:110:110:110:255](산업 시대 이전 +1 , 산업 시대부터 +2)[ENDCOLOR] 증가합니다.'
+SET Text = '마을은 문명의 시골에 흩어져 있는 작은 정착지입니다. 특히 도로, 철도 또는 교역로에 배치될 때, 그들은 사회를 위해 많은 부를 창출할 수 있습니다.[NEWLINE][NEWLINE]두 도시를 [ICON_CONNECTED]연결하는 도로나 철도 위에 건설하면 [ICON_GOLD]골드 및 [ICON_PRODUCTION]생산이 증가합니다.[NEWLINE][NEWLINE]해당 마을을 지나가는 국내 및 국제 교역로가 있으면 마을의 [ICON_GOLD]골드 및 [ICON_PRODUCTION]생산이 추가적으로 [COLOR:105:105:105:255](산업 시대 이전 +1 , 산업 시대부터 +2)[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_CIV5_IMPROVEMENTS_TRADING_POST_TEXT';
 
 UPDATE Language_ko_KR
@@ -405,12 +405,12 @@ WHERE Tag = 'TXT_KEY_FOUND_NATURAL_WONDER' AND EXISTS (SELECT * FROM COMMUNITY W
 
 
 UPDATE Language_ko_KR
-SET Text = '{1_Num} 자연 경관 및 랜드마크에서'
+SET Text = '[COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] 자연 경관 및 랜드마크에서 획득'
 WHERE Tag = 'TXT_KEY_TP_HAPPINESS_NATURAL_WONDERS' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
 
 -- Theming
 UPDATE Language_ko_KR
-SET Text = '{1_Num} 테마 보너스에서 오는 [ICON_TOURISM]관광'
+SET Text = '[ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] [ICON_TOURISM]테마 보너스에서 획득'
 WHERE Tag = 'TXT_KEY_CO_CITY_TOURISM_THEMING_BONUSES' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
 
 -- Happiness
@@ -424,7 +424,7 @@ SET Text = '비점령 도시마다 [ICON_HAPPINESS_3]불행을 0 생성합니다
 WHERE Tag = 'TXT_KEY_NUMBER_OF_CITIES_TT' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CITY_HAPPINESS' AND Value= 1 );
 
 UPDATE Language_ko_KR
-SET Text = '비점령 도시마다 [ICON_HAPPINESS_3]불행을 0 생성합니다. [COLOR:110:110:110:255](보통)[ENDCOLOR]'
+SET Text = '비점령 도시마다 [ICON_HAPPINESS_3]불행을 0 생성합니다. [COLOR:105:105:105:255](보통)[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_NUMBER_OF_CITIES_TT_NORMALLY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CITY_HAPPINESS' AND Value= 1 );
 
 UPDATE Language_ko_KR
@@ -684,7 +684,7 @@ WHERE Tag = 'TXT_KEY_CHOOSE_ARCH_WRITTEN_ARTIFACT_RESULT';
 
 
 UPDATE Language_ko_KR
-SET Text = '비도덕적이거나 멸종 위기에 처했거나 기타 이유가 있는 사치 자원은 일반 대중이 구매할 수 없습니다. 금지령이 내려져 있는 한, 이 사치 자원으로부터 [ICON_HAPPINESS_1]행복 및 독점 혜택을 획득할 수 [COLOR_NEGATIVE_TEXT]없습니다.[ENDCOLOR]'
+SET Text = '비도덕적이거나 멸종 위기에 처했거나 기타 이유가 있는 사치 자원은 일반 대중이 구매할 수 없습니다. 금지령이 내려져 있는 한, 이 사치 자원으로부터 [ICON_HAPPINESS_1][COLOR_NEGATIVE_TEXT]행복[ENDCOLOR] 및 [COLOR_NEGATIVE_TEXT]독점 혜택[ENDCOLOR]을 획득할 수 없습니다.'
 WHERE Tag = 'TXT_KEY_RESOLUTION_BAN_LUXURY_HAPPINESS_HELP';
 
 --Big UI Changes
@@ -707,7 +707,7 @@ SET Text = '총 전역 [ICON_HAPPINESS_1]행복: {2_Num} (도시당 평균: {1_N
 WHERE Tag = 'TXT_KEY_TP_HAPPINESS_SOURCES';
 
 UPDATE Language_ko_KR
-SET Text = '[ICON_BULLET]{1_Num} 매 턴 도시의 [ICON_HAPPINESS_1]행복에서'
+SET Text = '[ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] 도시 [ICON_HAPPINESS_1]행복에서 획득'
 WHERE Tag = 'TXT_KEY_TP_GOLDEN_AGE_ADDITION';
 
 UPDATE Language_ko_KR
@@ -735,7 +735,7 @@ SET Text = '[COLOR_NEGATIVE_TEXT]{1_Num}%[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_CO_PUBLIC_OPINION_UNHAPPINESS';
 
 UPDATE Language_ko_KR
-SET Text = '현재의 전역 [ICON_HAPPINESS_1]행복 수준 (0-100%)[NEWLINE][NEWLINE]50% 이하로 떨어지면 반란으로 인해 도시를 잃게 될 수 있으며 선호하는 이념 [COLOR:110:110:110:255](여론 툴팁에서 확인)[ENDCOLOR]에 따라 바귈 수 있습니다.'
+SET Text = '현재의 전역 [ICON_HAPPINESS_1]행복 수준 (0-100%)[NEWLINE][NEWLINE]50% 이하로 떨어지면 반란으로 인해 도시를 잃게 될 수 있으며 선호하는 이념 [COLOR:105:105:105:255](여론 툴팁에서 확인)[ENDCOLOR]에 따라 바귈 수 있습니다.'
 WHERE Tag = 'TXT_KEY_CO_VICTORY_EXCESS_HAPPINESS_HEADER_TT';
 
 UPDATE Language_ko_KR

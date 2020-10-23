@@ -25,95 +25,96 @@
 		<!-- Construct National Wonder -->
 		
 		<Row Tag="TXT_KEY_CITY_STATE_QUEST_CONSTRUCT_NATIONAL_WONDER">
-			<Text>We want you to construct the {@1_NationalWonderName}.</Text>
+			<Text>우리는 당신이 {@1_NationalWonderName}{@1: plural 1?을; 2?를;} 건설하길 원합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_CONSTRUCT_NATIONAL_WONDER">
-			<Text>The historians of {@2_CivName} lament that the empires of the world are decadent and over-extended. They state that civilizations which build the {@1_NationalWonderName} will redeem their imperial grandeur, and with it the favor of this city-state.</Text>
+			<Text>{@2_CivName}의 역사가들은 세계의 문명들이 퇴폐적이고 지나친 확장만을 추구하고 있다고 한탄합니다. 그들은 {@1_NationalWonderName}{@1: plural 1?을; 2?를;} 건설하는 문명이 그들의 위엄을 되찾을 것이며 그와 함께 도시 국가의 호의도 되찾을 것이라고 말하고 있습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_CONSTRUCT_NATIONAL_WONDER">
-			<Text>{@2_CivName} longs for the {@1_NationalWonderName}</Text>
+			<Text>{@2_CivName}{@2: plural 1?이; 2?가;} {@1_NationalWonderName}{@1: plural 1?을; 2?를;} 갈망합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_COMPLETE_CONSTRUCT_NATIONAL_WONDER">
-			<Text>As {@2_CivName} hoped, you constructed the {@1_NationalWonderName}!</Text>
+			<Text>{@2_CivName}{@2: plural 1?이; 2?가;} 부탁한대로 {@1_NationalWonderName}{@1: plural 1?을; 2?를;} 건설했습니다!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_COMPLETE_CONSTRUCT_NATIONAL_WONDER">
-			<Text>{@1_NationalWonderName} built for {@2_CivName}!</Text>
+			<Text>{@2_CivName}{@2: plural 1?을; 2?를;} 위한 {@1_NationalWonderName} 건설</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_STATE_QUEST_CONSTRUCT_NATIONAL_WONDER_FORMAL">
-			<Text>They want you to build the {1_NationalWonderName:textkey}.</Text>
+			<Text>그들은 당신이 {1_NationalWonderName:textkey}{1: plural 1?을; 2?를;} 건설하길 원합니다.</Text>
 		</Row>
 
 		<!-- Find City State -->
 		<Row Tag="TXT_KEY_CITY_STATE_QUEST_FIND_CITY_STATE">
-			<Text>We want you to find {1_TargetName:textkey}.</Text>
+			<Text>우리는 당신이 {1_TargetName:textkey}{1: plural 1?을; 2?를;} 발견하길 원합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_FIND_CITY_STATE">
-			<Text>The merchants of {2_CivName:textkey} have heard of a distant city known as {1_TargetName:textkey}. {2_CivName:textkey} is now looking for explorers to help them find this city. If you are able to find it, you will be rewarded.</Text>
+			<Text>{2_CivName:textkey}의 상인들은 {1_TargetName:textkey}{1: plural 1?으로; 2?로;} 알려진 먼 도시에 대해 들어본 적이 있습니다. {2_CivName:textkey}{2: plural 1?은; 2?는;} 현재 이 도시를 발견하는 데 도움을 줄 탐험가를 찾고 있으며 해당 도시를 발견하면 보상을 받을 수 있습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_FIND_CITY_STATE">
-			<Text>{2_CivName:textkey} wants to discover {1_TargetName:textkey}</Text>
+			<Text>{2_CivName:textkey}{2: plural 1?이; 2?가;} {1_TargetName:textkey}{1: plural 1?을; 2?를;} 발견하길 원합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_COMPLETE_FIND_CITY_STATE">
-			<Text>As {2_CivName:textkey} hoped, you found the city of {1_TargetName:textkey}!</Text>
+			<Text>{@2_CivName}{@2: plural 1?이; 2?가;} 부탁한대로 {1_TargetName:textkey}{1: plural 1?을; 2?를;} 발견했습니다!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_COMPLETE_FIND_CITY_STATE">
-			<Text>{1_TargetName:textkey} found for {2_CivName:textkey}!</Text>
+			<Text>{2_CivName:textkey}{2: plural 1?을; 2?를;} 위한 {1_TargetName:textkey} 발견!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_STATE_QUEST_FIND_CITY_STATE_FORMAL">
-			<Text>They want you to find the City-State of {1_CityStateName:textkey}.</Text>
+			<Text>그들은 당신이 {1_CityStateName:textkey}{1: plural 1?을; 2?를;} 발견하길 원합니다.</Text>
 		</Row>
 
 		<!-- Influence Boost -->
 		<Row Tag="TXT_KEY_CITY_STATE_QUEST_INFLUENCE">
-			<Text>Send Diplomats to our summit.</Text>
+			<Text>우리의 정상회담에 외교관을 파견하세요.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_INFLUENCE">
-			<Text>{3_MinorCivName:textkey} is hosting a forum on statecraft, and encourages delegates from all civilizations to attend. Each Diplomatic Mission to them during this time will be more effective, rewarding [COLOR_POSITIVE_TEXT]{2_BoostPercentage}%[ENDCOLOR] more [ICON_INFLUENCE] Influence.  [COLOR_POSITIVE_TEXT]{1_TurnsRemaining} turns remaining.[ENDCOLOR]</Text>
+			<Text>{3_MinorCivName:textkey}{3: plural 1?이; 2?가;} 외교에 대한 포럼을 개최하고 있으며 모든 문명의 대표단이 참석하길 권장하고 있습니다. 이 기간 동안 이들에 대한 외교 임무의 효율이 [COLOR_POSITIVE_TEXT]{2_BoostPercentage}%[ENDCOLOR] 더 증가하고 더 많은 [ICON_IFFUENCY]영향력을 제공할 것입니다. ([COLOR_POSITIVE_TEXT]{1_TurnsRemaining}턴 남음[ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_INFLUENCE">
-			<Text>{1_MinorCivName:textkey} is hosting a forum</Text>
+			<Text>{1_MinorCivName:textkey}{1: plural 1?이; 2?가;} 정상회담을 주최했습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_COMPLETE_INFLUENCE">
-			<Text>The forum in {1_MinorCivName:textkey} has ended. The amount of [ICON_INFLUENCE] Influence gained from Diplomatic Missions has returned to normal.</Text>
+			<Text>{1_MinorCivName:textkey}의 정상회담이 종료되었습니다. 외교 임무의 [ICON_INFLUENCE]영향력이 평소로 돌아갑니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_COMPLETE_INFLUENCE">
-			<Text>{1_MinorCivName:textkey} has ended their forum</Text>
+			<Text>{1_MinorCivName:textkey}의 정상회담이 종료되었습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_STATE_QUEST_INFLUENCE_FORMAL">
-			<Text>Diplomatic Missions are temporarily more effective.</Text>
+			<Text>일시적으로 외교 임무의 효율성이 증가합니다.</Text>
 		</Row>
 		
 		<!-- Tourism Contest -->
 		
 		<Row Tag="TXT_KEY_CITY_STATE_QUEST_TOURISM">
-			<Text>Prepare for a festival of nations.</Text>
+			<Text>국제 축제를 준비!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_TOURISM">
-			<Text>The people of {3_MinorCivName:textkey} will host a festival of nations soon. To prepare, they are sending delegations to every major civilization in the known world. The player with the highest [ICON_TOURISM] Tourism output after {2_TurnsDuration} turns will undoubtedly impress the delegates the most. [COLOR_POSITIVE_TEXT]{1_TurnsRemaining} turns before the festival opens.[ENDCOLOR]</Text>
+			<Text>{3_MinorCivName:textkey}의 시민들이 곧 국제 축제를 개최할 예정입니다. 축제의 준비를 위해 그들은 알려진 세계의 모든 주요 문명에 사절단을 보냈습니다. {2_TurnsDuration}턴 후 [ICON_TOURISM]관광 산출량이 가장 높은 문명이 사절단에 가장 깊은 인상을 남길 것입니다. 축제가 열리기 전까지 ([COLOR_POSITIVE_TEXT]{1_TurnsRemaining}턴 남음[ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_TOURISM">
-			<Text>{1_MinorCivName:textkey} is preparing for a festival of nations</Text>
+			<Text>{1_MinorCivName:textkey}{1: plural 1?이; 2?가;} 국제 축제를 준비하고 있습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_COMPLETE_TOURISM">
-			<Text>You have impressed {1_MinorCivName:textkey} with your civilization's [ICON_TOURISM] Tourism!  They were underwhelmed by the other civilizations. Civilizations that succeeded (ties are allowed):[NEWLINE]</Text>
+			<Text>{1_MinorCivName:textkey}{1: plural 1?이; 2?가;} 당신 문명의 [ICON_TOURISM]관광에 깊은 인상을 받았습니다! 그들은 이제 다른 문명에는 전혀 감흥이 없습니다. 성공한 문명(동점 허용):[NEWLINE]
+			</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_ENDED_CONTEST_TOURISM">
-			<Text>Another civilization has awed {1_MinorCivName:textkey} with its [ICON_TOURISM] Tourism.  Your [ICON_TOURISM] Tourism was not enough. Civilizations that succeeded (ties are allowed):[NEWLINE]</Text>
+			<Text>다른 문명이 {1_MinorCivName:textkey}에 깊은 인상을 남겼습니다. 당신의 [ICON_TOURISM]관광 산출량이 충분하지 않았습니다. 성공한 문명(동점 허용):[NEWLINE]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_COMPLETE_TOURISM">
-			<Text>{1_MinorCivName:textkey} was impressed by your Tourism!</Text>
+			<Text>{1_MinorCivName:textkey}{1: plural 1?이; 2?가;} 당신의 관광에 감명받았습니다!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_ENDED_CONTEST_TOURISM">
-			<Text>{1_MinorCivName:textkey} was unimpressed with your Tourism</Text>
+			<Text>{1_MinorCivName:textkey}{1: plural 1?은; 2?는;} 당신의 관광에 관심없습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_STATE_QUEST_INFLUENCE_TOURISM_FORMAL">
-			<Text>They will reward the player with the highest [ICON_TOURISM] Tourism per turn.</Text>
+			<Text>그들은 턴당 [ICON_TOURISM]관광이 가장 많은 문명에게 보상하겠다고 합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_STATE_QUEST_CONTEST_TOURISM_WINNING_FORMAL">
-			<Text>{TXT_KEY_CITY_STATE_QUEST_INFLUENCE_TOURISM_FORMAL} So far, you have the lead with [ICON_TOURISM] [COLOR_POSITIVE_TEXT]{1_PlayerScore} per turn[ENDCOLOR].</Text>
+			<Text>{TXT_KEY_CITY_STATE_QUEST_INFLUENCE_TOURISM_FORMAL} 현재 당신의 문명이 1위이며 턴당 [ICON_TOURISM]관광 점수가 [COLOR_POSITIVE_TEXT]{1_PlayerScore}[ENDCOLOR]입니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_STATE_QUEST_CONTEST_TOURISM_LOSING_FORMAL">
-			<Text>{TXT_KEY_CITY_STATE_QUEST_INFLUENCE_TOURISM_FORMAL} So far, the leader has [ICON_TOURISM] {1_LeaderScore} per turn and you have [ICON_TOURISM] [COLOR_POSITIVE_TEXT]{2_PlayerScore} per turn[ENDCOLOR].</Text>
+			<Text>{TXT_KEY_CITY_STATE_QUEST_INFLUENCE_TOURISM_FORMAL} 현재 1위 문명의 턴당 [ICON_TOURISM]관광 점수는 {1_LeaderScore}이며 당신의 문명의 턴당 [ICON_TOURISM]관광 점수는 [COLOR_POSITIVE_TEXT]{2_PlayerScore}[ENDCOLOR]입니다.</Text>
 		</Row>
 
 		<!-- Archaeology -->
@@ -226,7 +227,7 @@
 		<!--Rebellion -->
 
 		<Row Tag="TXT_KEY_CITY_STATE_QUEST_REBELLION">
-			<Text>Ideological Rebels</Text>
+			<Text>이념 반란!</Text>
 		</Row>
 
 			<!-- Start Desc -->		
