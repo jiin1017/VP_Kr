@@ -277,7 +277,7 @@
 			<Text>{@1_BldgName}{@1: plural 1?이; 2?가;} {@2_City}{@2: plural 1?으로; 2?로;} 확장했습니다!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_TRADE_UNIT_CORPORATION_BUILDING_FOREIGN">
-			<Text>{@3_City}{@3: plural 1?과; 2?와;}의 교역으로 인한 결과, {@2_BldgName}[COLOR:110:110:110:255](외국 기업)[ENDCOLOR]{@2: plural 1?이; 2?가;} {@1_City}{@1: plural 1?으로; 2?로;} 확장되었습니다. 이것은 그들의 기업 가치를 증가시킵니다!</Text>
+			<Text>{@3_City}{@3: plural 1?과; 2?와;}의 교역으로 인한 결과, {@2_BldgName}[COLOR:105:105:105:255](외국 기업)[ENDCOLOR]{@2: plural 1?이; 2?가;} {@1_City}{@1: plural 1?으로; 2?로;} 확장되었습니다. 이것은 그들의 기업 가치를 증가시킵니다!</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_NOTIFICATION_TRADE_UNIT_CORPORATION_BUILDING_FREEDOM_SUMMARY">
@@ -291,7 +291,7 @@
 			<Text>{@1_BldgName}{@1: plural 1?이; 2?가;} {@2_City}{@2: plural 1?으로; 2?로;} 확장했습니다!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_TRADE_UNIT_CORPORATION_BUILDING_FOREIGN_FREEDOM">
-			<Text>{@2_BldgName}[COLOR:110:110:110:255](외국 기업)[ENDCOLOR]{@2: plural 1?이; 2?가;} {@1_City}{@1: plural 1?으로; 2?로;} 확장되었습니다! 이것은 그들의 기업 가치를 증가시킵니다!</Text>
+			<Text>{@2_BldgName}[COLOR:105:105:105:255](외국 기업)[ENDCOLOR]{@2: plural 1?이; 2?가;} {@1_City}{@1: plural 1?으로; 2?로;} 확장되었습니다! 이것은 그들의 기업 가치를 증가시킵니다!</Text>
 		</Row>
 
 		<!-- Moved/Destroyed Notifications -->
@@ -599,7 +599,7 @@
 			<Text>When a [ICON_INTERNATIONAL_TRADE] Trade Route between a foreign City and this City completes, a Trader Sid's Franchise is constructed in the foreign City.[NEWLINE][NEWLINE]Trader Sid's cannot be sold or destroyed by the player, and increases the [ICON_GOLD] Gold output of all Trader Sid's Offices by +4.[NEWLINE][NEWLINE]You cannot have more Franchises than your Franchise Limit (see the Corporation and Monopolies Overview for more on this).</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_TRADER_SIDS_HELP">
-			<Text>이 도시로 향하는 [ICON_INTERNATIONAL_TRADE]교역로마다 도시의 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가하고 교역로를 개설한 상대 문명의 [ICON_GOLD]골드도 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다. 다른 문명의 도시에 설립한 모든 시드 무역 프랜차이즈의 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]4[ENDCOLOR] [COLOR:110:110:110:255](한도: 문명의 프랜차이즈 한도까지만 증가)[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE]시드 무역 프랜차이즈를 설립한 다른 문명의 도시로 향하는 [ICON_INTERNATIONAL_TRADE]교역로마다 도시의 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다.</Text>
+			<Text>이 도시로 향하는 [ICON_INTERNATIONAL_TRADE]교역로마다 도시의 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가하고 교역로를 개설한 상대 문명의 [ICON_GOLD]골드도 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다. 다른 문명의 도시에 설립한 모든 시드 무역 프랜차이즈의 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]4[ENDCOLOR] [COLOR:105:105:105:255](한도: 문명의 프랜차이즈 한도까지만 증가)[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE]시드 무역 프랜차이즈를 설립한 다른 문명의 도시로 향하는 [ICON_INTERNATIONAL_TRADE]교역로마다 도시의 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_CORPORATION_LANDSEA_EXTRACTORS">
@@ -657,7 +657,7 @@
 			<Text>When a [ICON_INTERNATIONAL_TRADE] Trade Route between a foreign City and this City completes, a Centaurus Extractors Franchise is constructed in the foreign City.[NEWLINE][NEWLINE]Centaurus Extractors cannot be sold or destroyed by the player, and increases the [ICON_PRODUCTION] Production output of all Centaurus Extractors Offices by +3.[NEWLINE][NEWLINE]You cannot have more Franchises than your Franchise Limit (see the Corporation and Monopolies Overview for more on this).</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_LANDSEA_EXTRACTORS_HELP">
-			<Text>도시 주변 해양 타일의 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 다른 문명의 도시에 설립한 모든 센타우리 개발 프랜차이즈의 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] [COLOR:110:110:110:255](한도: 문명의 프랜차이즈 한도까지만 증가)[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE]센타우리 개발 프랜차이즈를 설립한 다른 문명의 도시로 향하는 [ICON_INTERNATIONAL_TRADE]교역로마다 도시의 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다.</Text>
+			<Text>도시 주변 해양 타일의 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 다른 문명의 도시에 설립한 모든 센타우리 개발 프랜차이즈의 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] [COLOR:105:105:105:255](한도: 문명의 프랜차이즈 한도까지만 증가)[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE]센타우리 개발 프랜차이즈를 설립한 다른 문명의 도시로 향하는 [ICON_INTERNATIONAL_TRADE]교역로마다 도시의 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다.</Text>
 		</Row>
 		
 		<Row Tag="TXT_KEY_CORPORATION_HEXXON_REFINERY">
@@ -715,7 +715,7 @@
 			<Text>When a [ICON_INTERNATIONAL_TRADE] Trade Route between a foreign City and this City completes, a Hexxon Refineries Franchise is constructed in the foreign City.[NEWLINE][NEWLINE]Hexxon Refineries cannot be sold or destroyed by the player, and grants +1 [ICON_RES_OIL] Oil and +1 [ICON_RES_COAL] Coal for every[COLOR_POSITIVE_TEXT]three[ENDCOLOR] Hexxon Refineries Franchises.[NEWLINE][NEWLINE]You cannot have more Franchises than your Franchise Limit (see the Corporation and Monopolies Overview for more on this).</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_HEXXON_REFINERY_HELP">
-			<Text>군사 유닛을 생산할 때 [ICON_PRODUCTION]생산 보너스를 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR] 제공합니다. 다른 문명의 도시에 설립한 헥손 정유 프랜차이즈 3개마다 [ICON_RES_OIL] 석유 자원 및 [ICON_RES_COAL] 석탄 자원을 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR] [COLOR:110:110:110:255](한도: 문명의 프랜차이즈 한도까지만 증가)[ENDCOLOR] 제공합니다.[NEWLINE][NEWLINE]헥손 정유 프랜차이즈를 설립한 다른 문명의 도시로 향하는 [ICON_INTERNATIONAL_TRADE]교역로마다 도시의 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다.</Text>
+			<Text>군사 유닛을 생산할 때 [ICON_PRODUCTION]생산 보너스를 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR] 제공합니다. 다른 문명의 도시에 설립한 헥손 정유 프랜차이즈 3개마다 [ICON_RES_OIL] 석유 자원 및 [ICON_RES_COAL] 석탄 자원을 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR] [COLOR:105:105:105:255](한도: 문명의 프랜차이즈 한도까지만 증가)[ENDCOLOR] 제공합니다.[NEWLINE][NEWLINE]헥손 정유 프랜차이즈를 설립한 다른 문명의 도시로 향하는 [ICON_INTERNATIONAL_TRADE]교역로마다 도시의 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_CORPORATION_GIORGIO_ARMEIER">
@@ -773,7 +773,7 @@
 			<Text>When a [ICON_INTERNATIONAL_TRADE] Trade Route between a foreign City and this City completes, a Giorgio Armeier Franchise is constructed in the foreign City.[NEWLINE][NEWLINE]Giorgio Armeier cannot be sold or destroyed by the player, and increases the [ICON_CULTURE] Culture output of all Giorgio Armeier Offices by +2.[NEWLINE][NEWLINE]You cannot have more Franchises than your Franchise Limit (see the Corporation and Monopolies Overview for more on this).</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_GIORGIO_ARMEIER_HELP">
-			<Text>다른 문명의 도시에 설립한 모든 조르지오 아르미에 프랜차이즈의 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] [COLOR:110:110:110:255](한도: 문명의 프랜차이즈 한도까지만 증가)[ENDCOLOR] 증가합니다. [ICON_RESEARCH]문맹 및 [ICON_CULTURE]무료에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소합니다. [NEWLINE][NEWLINE]조르지오 아르미에 프랜차이즈를 설립한 다른 문명의 도시로 향하는 [ICON_INTERNATIONAL_TRADE]교역로마다 도시의 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다.</Text>
+			<Text>다른 문명의 도시에 설립한 모든 조르지오 아르미에 프랜차이즈의 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] [COLOR:105:105:105:255](한도: 문명의 프랜차이즈 한도까지만 증가)[ENDCOLOR] 증가합니다. [ICON_RESEARCH]문맹 및 [ICON_CULTURE]무료에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소합니다. [NEWLINE][NEWLINE]조르지오 아르미에 프랜차이즈를 설립한 다른 문명의 도시로 향하는 [ICON_INTERNATIONAL_TRADE]교역로마다 도시의 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_CORPORATION_FIRAXITE_MATERIALS">
@@ -831,7 +831,7 @@
 			<Text>When a [ICON_INTERNATIONAL_TRADE] Trade Route between a foreign City and this City completes, a Firaxite Materials Franchise is constructed in the foreign City.[NEWLINE][NEWLINE]Firaxite Materials cannot be sold or destroyed by the player, and increases the [ICON_RESEARCH] Science output of all Firaxite Materials Offices by +2.[NEWLINE][NEWLINE]You cannot have more Franchises than your Franchise Limit (see the Corporation and Monopolies Overview for more on this).</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FIRAXITE_MATERIALS_HELP">
-			<Text>도시에 건물을 건설할 때 [ICON_PRODUCTION]생산 보너스를 [COLOR_POSITIVE_TEXT]20%[ENDCOLOR] 제공합니다. 다른 문명의 도시에 설립한 모든 파이락사이트 소재 프랜차이즈의 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] [COLOR:110:110:110:255](한도: 문명의 프랜차이즈 한도까지만 증가)[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE]파이락사이트 소재 프랜차이즈를 설립한 다른 문명의 도시로 향하는 [ICON_INTERNATIONAL_TRADE]교역로마다 도시의 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 증가합니다.</Text>
+			<Text>도시에 건물을 건설할 때 [ICON_PRODUCTION]생산 보너스를 [COLOR_POSITIVE_TEXT]20%[ENDCOLOR] 제공합니다. 다른 문명의 도시에 설립한 모든 파이락사이트 소재 프랜차이즈의 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] [COLOR:105:105:105:255](한도: 문명의 프랜차이즈 한도까지만 증가)[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE]파이락사이트 소재 프랜차이즈를 설립한 다른 문명의 도시로 향하는 [ICON_INTERNATIONAL_TRADE]교역로마다 도시의 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 증가합니다.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_CORPORATION_TWOKAY_FOODS">
@@ -889,7 +889,7 @@
 			<Text>When a [ICON_INTERNATIONAL_TRADE] Trade Route between a foreign City and this City completes, a TwoKay Foods Franchise is constructed in the foreign City.[NEWLINE][NEWLINE]TwoKay Foods cannot be sold or destroyed by the player, and increases the [ICON_FOOD] Food output of all TwoKay Foods Offices by +3.[NEWLINE][NEWLINE]You cannot have more Franchises than your Franchise Limit (see the Corporation and Monopolies Overview for more on this).</Text>
 		</Row>TXT_KEY_CORPORATION_RESOURCE_BONUS_FIRAXITE_MATERIALS
 		<Row Tag="TXT_KEY_BUILDING_TWOKAY_FOODS_HELP">
-			<Text>모든 도시의 전역 [ICON_HAPPINESS_3]불행 반영값이 [COLOR_POSITIVE_TEXT]5%[ENDCOLOR] 감소합니다. 다른 문명의 도시에 설립한 모든 투케이 푸드 프랜차이즈의 [ICON_FOOD]식량이 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] [COLOR:110:110:110:255](한도: 문명의 프랜차이즈 한도까지만 증가)[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE]투케이 푸드 프랜차이즈를 설립한 다른 문명의 도시로 향하는 [ICON_INTERNATIONAL_TRADE]교역로마다 도시의 [ICON_FOOD]식량이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다.</Text>
+			<Text>모든 도시의 전역 [ICON_HAPPINESS_3]불행 반영값이 [COLOR_POSITIVE_TEXT]5%[ENDCOLOR] 감소합니다. 다른 문명의 도시에 설립한 모든 투케이 푸드 프랜차이즈의 [ICON_FOOD]식량이 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] [COLOR:105:105:105:255](한도: 문명의 프랜차이즈 한도까지만 증가)[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE]투케이 푸드 프랜차이즈를 설립한 다른 문명의 도시로 향하는 [ICON_INTERNATIONAL_TRADE]교역로마다 도시의 [ICON_FOOD]식량이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다.</Text>
 		</Row>
 		
 		<Row Tag="TXT_KEY_CORPORATION_CIVILIZED_JEWELERS">
@@ -947,7 +947,7 @@
 			<Text>When a [ICON_INTERNATIONAL_TRADE] Trade Route between a foreign City and this City completes, a Civilized Jewelers Franchise is constructed in the foreign City.[NEWLINE][NEWLINE]Civilized Jewelers cannot be sold or destroyed by the player, and increases the [ICON_GREAT_PEOPLE] Great Person rate of all Civilized Jewelers's Offices by +5%.[NEWLINE][NEWLINE]You cannot have more Franchises than your Franchise Limit (see the Corporation and Monopolies Overview for more on this).</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_CIVILIZED_JEWELERS_HELP">
-			<Text>[ICON_GOLDEN_AGE]황금기의 길이가 [COLOR_POSITIVE_TEXT]3%[ENDCOLOR] 증가하고 도시의 위인 출현율이 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR] 증가합니다. 다른 문명의 도시에 설립한 모든 시빌 보석 프랜차이즈 1개마다 위인 출현율이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] [COLOR:110:110:110:255](한도: 문명의 프랜차이즈 한도까지만 증가)[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE]시빌 보석 프랜차이즈를 설립한 다른 문명의 도시로 향하는 [ICON_INTERNATIONAL_TRADE]교역로마다 도시의 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다.</Text>
+			<Text>[ICON_GOLDEN_AGE]황금기의 길이가 [COLOR_POSITIVE_TEXT]3%[ENDCOLOR] 증가하고 도시의 위인 출현율이 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR] 증가합니다. 다른 문명의 도시에 설립한 모든 시빌 보석 프랜차이즈 1개마다 위인 출현율이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] [COLOR:105:105:105:255](한도: 문명의 프랜차이즈 한도까지만 증가)[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE]시빌 보석 프랜차이즈를 설립한 다른 문명의 도시로 향하는 [ICON_INTERNATIONAL_TRADE]교역로마다 도시의 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다.</Text>
 		</Row>
 	</Language_ko_KR>
 </GameData>

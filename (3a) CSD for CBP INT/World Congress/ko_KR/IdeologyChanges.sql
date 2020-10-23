@@ -37,7 +37,7 @@ SET Text = '통상 금지'
 WHERE Tag = 'TXT_KEY_RESOLUTION_PLAYER_EMBARGO' AND EXISTS (SELECT * FROM CSD WHERE Type='IDEOLOGY_CSD' AND Value= 1 );
 
 UPDATE Language_ko_KR
-SET Text = '해당 문명과 [ICON_INTERNATIONAL_TRADE][COLOR_NEGATIVE_TEXT]교역로[ENDCOLOR]를 연결할 수 없고 [COLOR_NEGATIVE_TEXT]거래[ENDCOLOR]를 할 수 없습니다. 기존 교역로는 취소되며 다른 장소와 연결해야 합니다. 기업 [COLOR_NEGATIVE_TEXT]프랜차이즈[ENDCOLOR]를 설립할 수 없습니다. [COLOR:110:110:110:255](종속국은 제외됩니다.)[ENDCOLOR] 해당 문명의 외국 도시에 있는 기업 프랜차이즈가 제거됩니다. 제재를 받은 문명에 전쟁을 선포하거나 해당 도시를 점령한다면 [ICON_VICTORY_DOMINATION]전쟁광 수치가 크게 감소합니다.'
+SET Text = '해당 문명과 [ICON_INTERNATIONAL_TRADE][COLOR_NEGATIVE_TEXT]교역로[ENDCOLOR]를 연결할 수 없고 [COLOR_NEGATIVE_TEXT]거래[ENDCOLOR]를 할 수 없습니다. 기존 교역로는 취소되며 다른 장소와 연결해야 합니다. 기업 [COLOR_NEGATIVE_TEXT]프랜차이즈[ENDCOLOR]를 설립할 수 없습니다. [COLOR:105:105:105:255](종속국은 제외됩니다.)[ENDCOLOR] 해당 문명의 외국 도시에 있는 기업 프랜차이즈가 제거됩니다. 제재를 받은 문명에 전쟁을 선포하거나 해당 도시를 점령한다면 [ICON_VICTORY_DOMINATION]전쟁광 수치가 크게 감소합니다.'
 WHERE Tag = 'TXT_KEY_RESOLUTION_PLAYER_EMBARGO_HELP' AND EXISTS (SELECT * FROM CSD WHERE Type='IDEOLOGY_CSD' AND Value= 1 );
 
 -- World Peace
@@ -69,11 +69,11 @@ WHERE Tag = 'TXT_KEY_RESOLUTION_WORLD_IDEOLOGY_HELP' AND EXISTS (SELECT * FROM C
 -- Scholars in Residence
 
 UPDATE Language_ko_KR
-SET Text = '최소한 한 문명에 의해 연구된 [COLOR_RESEARCH_STORED]기술[ENDCOLOR]을 개발할 때 필요한 [ICON_RESEARCH]연구 비용이 [COLOR_POSITIVE_TEXT]20%[ENDCOLOR] 감소하고 추가적으로 모든 도시 국가 동맹마다 [COLOR_POSITIVE_TEXT]2%[ENDCOLOR] [COLOR:110:110:110:255](한도:50%)[ENDCOLOR] 감소합니다. '
+SET Text = '최소한 한 문명에 의해 연구된 [COLOR_RESEARCH_STORED]기술[ENDCOLOR]을 개발할 때 필요한 [ICON_RESEARCH]연구 비용이 [COLOR_POSITIVE_TEXT]20%[ENDCOLOR] 감소하고 추가적으로 모든 도시 국가 동맹마다 [COLOR_POSITIVE_TEXT]2%[ENDCOLOR] [COLOR:105:105:105:255](한도:50%)[ENDCOLOR] 감소합니다. '
 WHERE Tag = 'TXT_KEY_RESOLUTION_MEMBER_DISCOVERED_TECH_DISCOUNT_HELP' AND EXISTS (SELECT * FROM CSD WHERE Type='IDEOLOGY_CSD' AND Value= 1 );
 
 UPDATE Language_ko_KR
-SET Text = '다른 문명이 이미 연구한 기술의 [ICON_RESEARCH]연구 비용이 [COLOR_POSITIVE_TEXT]{1_ResearchCostPercent}%[ENDCOLOR] 감소 및 도시 국가마다 [COLOR_POSITIVE_TEXT]2%[ENDCOLOR] 더 감소 [COLOR:110:110:110:255](한도:50%)[ENDCOLOR]'
+SET Text = '다른 문명이 이미 연구한 기술의 [ICON_RESEARCH]연구 비용이 [COLOR_POSITIVE_TEXT]{1_ResearchCostPercent}%[ENDCOLOR] 감소 및 도시 국가마다 [COLOR_POSITIVE_TEXT]2%[ENDCOLOR] 더 감소 [COLOR:105:105:105:255](한도:50%)[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_DISCOVERED_TECH_MODIFIER' AND EXISTS (SELECT * FROM CSD WHERE Type='IDEOLOGY_CSD' AND Value= 1 );
 
 --Wonder Culture

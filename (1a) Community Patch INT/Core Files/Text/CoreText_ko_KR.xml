@@ -2395,7 +2395,7 @@
 
 		<!-- Steal -->
 		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_STEAL_FROM">
-			<Text>{@3_Civ}의 비밀 요원들이 {@1_Civ}{@1: plural 1?이; 2?가;} 현재 스파이에 매우 취약하다고 보고했습니다. {@1_Civ}에 대한 당신의 첩보 활동 [COLOR:110:110:110:255](고급 첩보 활동이나 기술 훔치기)[ENDCOLOR]이 [COLOR_POSITIVE_TEXT]{2_Num}회[ENDCOLOR] 성공한다면 큰 보상을 얻을 것입니다.</Text>
+			<Text>{@3_Civ}의 비밀 요원들이 {@1_Civ}{@1: plural 1?이; 2?가;} 현재 스파이에 매우 취약하다고 보고했습니다. {@1_Civ}에 대한 당신의 첩보 활동 [COLOR:105:105:105:255](고급 첩보 활동이나 기술 훔치기)[ENDCOLOR]이 [COLOR_POSITIVE_TEXT]{2_Num}회[ENDCOLOR] 성공한다면 큰 보상을 얻을 것입니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_STEAL_FROM">
 			<Text>{@1_Civ}에서 첩보 갱신</Text>
@@ -2699,7 +2699,7 @@
 		</Row>
 		<!-- Tourism Lua -->
 		<Row Tag="TXT_KEY_CO_CITY_TOURISM_GENERAL">
-			<Text>{1_Num} [ICON_TOURISM]도시에서</Text>
+			<Text>[ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] [ICON_TOURISM]도시에서</Text>
 		</Row>
 		<!-- City Over Resource Need Notification -->
 		<Row Tag="TXT_KEY_NOTIFICATION_OVER_RESOURCE_LIMIT_CITY">
@@ -5530,7 +5530,7 @@
 		
 		<!-- Venice Tooltip -->
 		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_DETAILS_GPT_VOTES">
-			<Text>[NEWLINE][ICON_BULLET]{1_Num}턴당 [ICON_GOLD]골드에서</Text>
+			<Text>[NEWLINE][ICON_BULLET]{1_Num} 턴당[ICON_GOLD]골드에서 획득</Text>
 		</Row>
 
 		<!-- Attack City -->
@@ -6251,16 +6251,16 @@
 
 		<!-- Great Work Gold (LUA)-->
 		<Row Tag="TXT_KEY_YIELD_FROM_ART_CBP">
-			<Text>{1_Num} {2_IconString}걸작 및 테마에서</Text>
+			<Text>+{1_Num} {2_IconString}걸작 및 테마에서</Text>
 		</Row>
 		<Row Tag="TXT_KEY_YIELD_FROM_ART_CBP_CULTURE">
-			<Text>+{1_Num} [ICON_CULTURE] 걸작 및 테마에서</Text>
+			<Text>+{1_Num} [ICON_CULTURE]걸작 및 테마에서</Text>
 		</Row>
 		<Row Tag="TXT_KEY_YIELD_FROM_ART_CBP_FAITH">
-			<Text>+{1_Num} [ICON_PEACE] 걸작 및 테마에서</Text>
+			<Text>+{1_Num} [ICON_PEACE]걸작 및 테마에서</Text>
 		</Row>
 		<Row Tag="TXT_KEY_YIELD_FROM_TRAIT_BONUS">
-			<Text>{1_Num} {2_IconString}특성에서</Text>
+			<Text>+{1_Num} {2_IconString}특성에서</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_CO_PLAYER_TOURISM_LEAGUE">
@@ -6389,7 +6389,7 @@
 
 		<!-- Tooltips for Growth Modifiers -->
 		<Row Tag="TXT_KEY_FOODMOD_EATEN_FOOD">
-			<Text>[NEWLINE][COLOR_NEGATIVE_TEXT]-{1_Num}[ENDCOLOR] [ICON_CITIZEN]시민의 [ICON_FOOD]소비</Text>
+			<Text>[NEWLINE][COLOR_NEGATIVE_TEXT]-{1_Num}[ENDCOLOR] [ICON_CITIZEN]시민의 [ICON_FOOD]식량 소비</Text>
 		</Row>
 		<Row Tag="TXT_KEY_FOODMOD_PUPPET">
 			<Text>[NEWLINE][ICON_BULLET][ICON_PUPPET]괴뢰 도시: {1_Num}%</Text>
@@ -7103,7 +7103,7 @@
 			<Text>[NEWLINE]도시에 {1_BuildingType}{1: plural 1?을; 2?를;} 건설해야 이 유닛을 [ICON_GOLD]구매할 수 있습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_INVESTMENT_BUILDING">
-			<Text>[COLOR:110:110:110:255][ICON_GOLD]골드를 건물에 투자하면 해당 건물의 [ICON_PRODUCTION]생산 비용이 {1_Num}% 감소하고, 불가사의에 투자하면 해당 불가사의의 생산 비용이 {2_Num}% 감소합니다.[ENDCOLOR]</Text>
+			<Text>[COLOR:105:105:105:255][ICON_GOLD]골드를 건물에 투자하면 해당 건물의 [ICON_PRODUCTION]생산 비용이 {1_Num}% 감소하고, 불가사의에 투자하면 해당 불가사의의 생산 비용이 {2_Num}% 감소합니다.[ENDCOLOR]</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_INVESTED">
