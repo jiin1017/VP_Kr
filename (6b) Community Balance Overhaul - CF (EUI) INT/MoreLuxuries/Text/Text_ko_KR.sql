@@ -34,7 +34,7 @@ WHERE Tag = 'TXT_KEY_BUILDING_HANSE_HELP';
 UPDATE Language_ko_KR
 SET Text = '국내 교역로를 통해 당신 문명의 다른 도시로 [ICON_PRODUCTION]생산을 [ICON_TURNS_REMAINING]제공할 수 있습니다.[NEWLINE][NEWLINE][ICON_RES_MARBLE] 대리석: [ICON_PRODUCTION]생산 +1 [ICON_GOLD]골드 +1[NEWLINE][ICON_RES_STONE] 석재: [ICON_PRODUCTION]생산 +2[NEWLINE][ICON_RES_SALT] 소금: [ICON_GOLD]골드 +2[NEWLINE][ICON_RES_JADE] 옥: [ICON_PRODUCTION]생산 +1 [ICON_GOLD]골드 +1[NEWLINE][NEWLINE]반드시 도시에 [COLOR_YELLOW]채석장[ENDCOLOR]이 있어야 합니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_STONE_WORKS_HELP';
-	
+
 UPDATE Language_ko_KR
 SET Text = 'Stone Works can only be constructed in a city near an improved [ICON_RES_STONE] Stone, [ICON_RES_MARBLE] Marble, [ICON_RES_SALT] Salt, [ICON_RES_JADE] Jade, [ICON_RES_URANIUM] Uranium, [ICON_RES_LAPIS] Lapis Lazuli, or [ICON_RES_AMBER] Amber resource. Stone Works increase [ICON_PRODUCTION] Production, and allow [ICON_PRODUCTION] Production to be moved from this city along trade routes inside your civilization.'
 WHERE Tag = 'TXT_KEY_BUILDING_STONE_WORKS_STRATEGY';

@@ -4,10 +4,12 @@
 	<Language_ko_KR>
 		<!--Diplo Building Names-->
 		<Row Tag="TXT_KEY_BUILDING_CHANCERY">
-			<Text>외교 청사</Text>	  <Plurality>2</Plurality>
+			<Text>외교 청사</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_WIRE_SERVICE">
-			<Text>통신사</Text>	  <Plurality>2</Plurality>
+			<Text>통신사</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<!--National Wonder Names-->
 		<Row Tag="TXT_KEY_BUILDING_PRINTING_PRESS">
@@ -17,7 +19,8 @@
 			<Text>외무성</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_COURT_SCRIBE">
-			<Text>법무소</Text>	  <Plurality>2</Plurality>
+			<Text>법무소</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_PALACE_SCIENCE_CULTURE">
 			<Text>문화 과학 궁전</Text>
@@ -26,7 +29,8 @@
 			<Text>명예의 전당</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FINANCE_CENTER">
-			<Text>국제 금융 센터</Text>	  <Plurality>2</Plurality>
+			<Text>국제 금융 센터</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<!-- World Wonder Names -->
 		<Row Tag="TXT_KEY_BUILDING_FORUM">
@@ -36,7 +40,8 @@
 			<Text>여름 궁전</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_GRAND_CANAL">
-			<Text>대운하</Text>	  <Plurality>2</Plurality>
+			<Text>대운하</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_MENIN_GATE">
 			<Text>메닝 문</Text>
@@ -48,7 +53,8 @@
 			<Text>수정궁</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_SECURITY_COUNCIL">
-			<Text>안전 보장 이사회</Text>	  <Plurality>2</Plurality>
+			<Text>안전 보장 이사회</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_CONSULATE">
 			<Text>영사관</Text>
@@ -113,7 +119,6 @@
 		<Row Tag="TXT_KEY_UN_HELP">
 			<Text>세계 대회 추가 [COLOR_YELLOW]대표단[ENDCOLOR]을 1명 확보합니다. [ICON_GREAT_PEOPLE]위인을 소모할 때 마주친 모든 [ICON_CITY_STATE]도시 국가에 대한 [ICON_INFLUENCE]영향력을 [COLOR_POSITIVE_TEXT]25[ENDCOLOR] 제공합니다. [ICON_GOLDEN_AGE]황금기를 가속할 뿐만 아니라 세계 대회에 [COLOR_POSITIVE_TEXT]국제 연합[ENDCOLOR] 안건을 제안할 수 있습니다.[NEWLINE][NEWLINE][COLOR_YELLOW]세계 대회 결의안[ENDCOLOR]으로 비준되어야만 건설할 수 있습니다.</Text>
 		</Row>
-		
 		<!--Diplo Building Strategy
 		<Row Tag="TXT_KEY_BUILDING_CHANCERY_STRATEGY">
 			<Text>Increases Diplomatic Unit production speed and increases the amount of Influence received for Diplomatic Units built in the city. The Civil Servant specialist of this building offers a little [ICON_CULTURE] Culture, [ICON_RESEARCH] Science and [ICON_GOLD] Gold, in exchange for [ICON_FOOD] Food and [ICON_PRODUCTION] Production. The additional [ICON_PRODUCTION] Production granted upon City growth makes it important to build this building early on to maximize the boost..</Text>
@@ -188,7 +193,6 @@
 		<Row Tag="TXT_KEY_CIV5_BUILDINGS_COURT_SCRIBE_TEXT">
 			<Text>The position of royal scrivener, and the office therein, is one of the oldest and most important positions within a civil service. Though the modern state has hundreds of civil servants that write, edit and issue government documentation, in the ancient world these tasks were usually given to one individual, the scrivener. Scrivener's wielded immense power, as they had control over the wording, translations and interpretations of the laws of the land. Because of this great power, a good, loyal scrivener was an invaluable resource.</Text>
 		</Row>
-		
 		<!-- Diplo Project UN Wonders 
 		-->
 		<!--
@@ -199,7 +203,6 @@
 		<Row Tag="TXT_KEY_CONSULATE_DESC">
 			<Text>The office of a Consul is termed a Consulate, and is usually subordinate to the state's main representation in that foreign country, usually an Embassy, or High Commission between Commonwealth countries, in the capital city of the host state. Like the term embassy, the word consulate may refer not only to the office of consul, but also to the building occupied by the consul and his or her staff. The consulate may share premises with the embassy itself. In the modern age, many Consulates are affiliated with the United Nations and/or other international organizations.</Text>
 		</Row>
-		
 		<!--Diplo World Wonder Entries-->
 		<Row Tag="TXT_KEY_CIV5_BUILDINGS_FORUM_TEXT">
 			<Text>The Roman Forum (Latin: Forum Romanum) is a rectangular forum (plaza) surrounded by the ruins of several important ancient government buildings at the center of the city of Rome. It was for centuries the center of Roman public life: the site of triumphal processions and elections, venue for public speeches, criminal trials, gladiatorial matches, and commercial affairs. The teeming heart of ancient Rome, it has been called the most celebrated meeting place in the world, and in all history.</Text>

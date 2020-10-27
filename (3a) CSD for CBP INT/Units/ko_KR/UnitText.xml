@@ -4,7 +4,8 @@
 	<Language_ko_KR>
 		<!-- EMISSARY -->
 		<Row Tag="TXT_KEY_UNIT_EMISSARY">
-			<Text>특사</Text>	  <Plurality>2</Plurality>
+			<Text>특사</Text>
+			<Plurality>2</Plurality>
 			<Gender>neuter:an</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_EMISSARY_STRATEGY">
@@ -16,7 +17,6 @@
 		<Row Tag="TXT_KEY_UNIT_HELP_EMISSARY">
 			<Text>[COLOR_PLAYER_PURPLE]개시[ENDCOLOR] 승급이 부여된 채 시작합니다. 이 유닛을 전쟁 중이 아닌 도시 국가로 [ICON_MOVES]이동시켜 외교 임무를 수행해 [ICON_INFLUENCE]영향력을 증가시킬 수 있습니다.[NEWLINE][NEWLINE]시대에 따라 생산 비용이 증가합니다.</Text>
 		</Row>
-		
 		<!-- Envoy -->
 		<Row Tag="TXT_KEY_UNIT_ENVOY">
 			<Text>사절</Text>
@@ -31,7 +31,6 @@
 		<Row Tag="TXT_KEY_UNIT_HELP_ENVOY">
 			<Text>[COLOR_PLAYER_PURPLE]능숙[ENDCOLOR] 승급이 부여된 채 시작합니다. 이 유닛을 전쟁 중이 아닌 도시 국가로 [ICON_MOVES]이동시켜 외교 임무를 수행해 [ICON_INFLUENCE]영향력을 증가시킬 수 있습니다.[NEWLINE][NEWLINE]시대에 따라 생산 비용이 증가합니다.</Text>
 		</Row>
-		
 		<!-- Diplomat -->
 		<Row Tag="TXT_KEY_UNIT_DIPLOMAT">
 			<Text>외교관</Text>
@@ -45,10 +44,10 @@
 		<Row Tag="TXT_KEY_UNIT_HELP_DIPLOMAT">
 			<Text>[COLOR_PLAYER_PURPLE]프로페셔널[ENDCOLOR] 승급이 부여된 채 시작합니다. 이 유닛을 전쟁 중이 아닌 도시 국가로 [ICON_MOVES]이동시켜 외교 임무를 수행해 [ICON_INFLUENCE]영향력을 증가시킬 수 있습니다.[NEWLINE][NEWLINE]시대에 따라 생산 비용이 증가합니다.</Text>
 		</Row>
-		
 		<!-- Ambassador -->
 		<Row Tag="TXT_KEY_UNIT_AMBASSADOR">
-			<Text>대사</Text>	  <Plurality>2</Plurality>
+			<Text>대사</Text>
+			<Plurality>2</Plurality>
 			<Gender>neuter:an</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_MODERN_AMBASSADOR_TEXT">
@@ -60,7 +59,6 @@
 		<Row Tag="TXT_KEY_UNIT_HELP_AMBASSADOR">
 			<Text>[COLOR_PLAYER_PURPLE]전권 대사[ENDCOLOR] 승급이 부여된 채 시작합니다. 이 유닛을 전쟁 중이 아닌 도시 국가로 [ICON_MOVES]이동시켜 외교 임무를 수행해 [ICON_INFLUENCE]영향력을 증가시킬 수 있습니다.[NEWLINE][NEWLINE]시대에 따라 생산 비용이 증가합니다.</Text>
 		</Row>
-		
 		<!-- Great Diplomat-->
 		<Row Tag="TXT_KEY_UNIT_GREAT_DIPLOMAT">
 			<Text>위대한 외교관</Text>

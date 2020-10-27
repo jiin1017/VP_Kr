@@ -9,7 +9,6 @@
 		<Row Tag="TXT_KEY_CITY_EVENT_DO_NOTHING_HELP">
 			<Text>아무 일도 일어나지 않습니다.</Text>
 		</Row>
-
 		<!-- Stone Works Discovery -->
 		<Row Tag="TXT_KEY_CITY_EVENT_STONE_WORKS_DISCOVERY">
 			<Text>풍부한 광맥</Text>
@@ -39,9 +38,8 @@
 			<Text>우리 최고의 예술가들에게 보내라.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_STONE_WORKS_DISCOVERY_CHOICE_4_HELP">
-			<Text>도시에서 {5_Turns} 동안 [ICON_CULTURE]문화 +2</Text>
+			<Text>도시에서 {5_Turns}턴 동안 [ICON_CULTURE]문화 +2</Text>
 		</Row>
-
 		<!-- Fishing Boat Expedition -->
 		<Row Tag="TXT_KEY_CITY_EVENT_FISHING_EXPEDITION">
 			<Text>노인과 바다</Text>
@@ -73,7 +71,6 @@
 		<Row Tag="TXT_KEY_CITY_EVENT_FISHING_EXPEDITION_CHOICE_3_SUCCESSFUL_S">
 			<Text>항만 건설!</Text>
 		</Row>
-
 		<!-- Amphitheater -->
 		<Row Tag="TXT_KEY_CITY_EVENT_AMPHITHEATER_NEW_DRAMA">
 			<Text>극적인 명작</Text>
@@ -81,7 +78,6 @@
 		<Row Tag="TXT_KEY_CITY_EVENT_AMPHITHEATER_NEW_DRAMA_HELP">
 			<Text>도시의 작가들이 새로운 작품을 지었고 평단은 이것을 명작이라 부르고 있습니다. 당신은 이 소식을 접했고 보좌관들은 당신의 반응을 기다립니다.</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_CITY_EVENT_AMPHITHEATER_NEW_DRAMA_CHOICE_1">
 			<Text>다른 문명에 소식을 전해라.</Text>
 		</Row>
@@ -106,14 +102,12 @@
 		<Row Tag="TXT_KEY_CITY_EVENT_AMPHITHEATER_NEW_DRAMA_CHOICE_4_HELP">
 			<Text>{2_InstantYield}.</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_CITY_EVENT_AMPHITHEATER_NEW_DRAMA_CHOICE_1_SUCCESSFUL">
 			<Text>{2_City}의 작가들이 극적인 작품을 창작하여 전 세계에서 방문자들을 끌어모았습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_AMPHITHEATER_NEW_DRAMA_CHOICE_1_SUCCESSFUL_S">
 			<Text>{2_CityName}의 작가들이 명작을 만들었습니다.</Text>
 		</Row>
-
 		<!-- Temple Woes -->
 		<Row Tag="TXT_KEY_CITY_EVENT_TEMPLE_CONCERNS">
 			<Text>사원의 문제</Text>
@@ -145,14 +139,12 @@
 		<Row Tag="TXT_KEY_CITY_EVENT_TEMPLE_CONCERNS_CHOICE_3_SUCCESSFUL_S">
 			<Text>{2_City}의 사원이 파괴되었습니다!</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_CITY_EVENT_TEMPLE_CONCERNS_CHOICE_4">
 			<Text>더 크게 생각해야 한다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_TEMPLE_CONCERNS_CHOICE_4_HELP">
 			<Text>{1_YieldCost}. 사원이 파괴되고 그 자리에 대사원이 건설됩니다.</Text>
 		</Row>
-
 		<!-- Lighthouse -->
 		<Row Tag="TXT_KEY_CITY_EVENT_LIGHTHOUSE">
 			<Text>희망의 봉화</Text>
@@ -178,7 +170,6 @@
 		<Row Tag="TXT_KEY_CITY_EVENT_LIGHTHOUSE_CHOICE_3_HELP">
 			<Text>{2_InstantYield}. 등대가 파괴됩니다.</Text>
 		</Row>
-
 		<!-- Hospital Overcrowding -->
 		<Row Tag="TXT_KEY_CITY_EVENT_HOSPITAL_OVERCROWDING">
 			<Text>병동 인원 초과</Text>
@@ -222,9 +213,7 @@
 		<Row Tag="TXT_KEY_CITY_EVENT_HOSPITAL_OVERCROWDING_CHOICE_5_SUCCESSFUL_S">
 			<Text>병원의 과학 실험이 드러났습니다!</Text>
 		</Row>
-
 		<!-- Stadium -->
-
 		<!-- Player Event -->
 		<Row Tag="TXT_KEY_CITY_EVENT_STADIUM_WORLD_EVENT_CHOICE_1">
 			<Text>경기장 매진!</Text>
@@ -269,7 +258,6 @@
 		<Row Tag="TXT_KEY_CITY_EVENT_STADIUM_LOCAL_EVENT_CHOICE_5_HELP">
 			<Text>[ICON_GOLDEN_AGE]황금기 점수 400.</Text>
 		</Row>
-
 		<!-- Nuclear Plant -->
 		<Row Tag="TXT_KEY_CITY_EVENT_NUCLEAR_MELTDOWN_CHOICE_1">
 			<Text>원자로 용해!</Text>
@@ -277,8 +265,6 @@
 		<Row Tag="TXT_KEY_CITY_EVENT_NUCLEAR_MELTDOWN_CHOICE_1_HELP">
 			<Text>최악의 사건이 일어났습니다. 도시의 원자로가 용해되어 도시를 살 수 없는 곳으로 만들었습니다. 원자력 발전소가 파괴되며, 도시의 모든 건물들이 파괴될 위험에 처합니다. 도시의 [ICON_CITIZEN]시민이 5 감소합니다.</Text>
 		</Row>
-
-
 		<!-- One-shot Events -->
 		<Row Tag="TXT_KEY_CITY_EVENT_DROUGHT_CHOICE_1_DESCRIPTION">
 			<Text>가뭄</Text>
@@ -322,7 +308,6 @@
 		<Row Tag="TXT_KEY_CITY_EVENT_ICE_AGE_BITTER_WINDS_CHOICE_1_HELP">
 			<Text>매섭게 추운 바람이 지역의 생산을 방해하고 있습니다. {5_Turns} 동안 모든 채석장, 목장, 농장, 제재소의 [ICON_PRODUCTION]생산력이 1 감소합니다.</Text>
 		</Row>
-
 		<!-- Disasters -->
 		<Row Tag="TXT_KEY_CITY_EVENT_MINE_COLLAPSE">
 			<Text>광산 사고</Text>
@@ -378,7 +363,6 @@
 		<Row Tag="TXT_KEY_CITY_EVENT_AVALANCHE_CHOICE_1_HELP">
 			<Text>산 근처의 눈이 녹아내려 큰 눈사태가 일어났습니다. 도시 주변의 마을과 농장이 최대 2개씩 약탈됩니다.</Text>
 		</Row>
-
 		<!-- Corruption -->
 		<Row Tag="TXT_KEY_CITY_EVENT_CORRUPTION">
 			<Text>도시 부패</Text>
@@ -410,7 +394,6 @@
 		<Row Tag="TXT_KEY_CITY_EVENT_CORRUPTION_CHOICE_4_HELP">
 			<Text>{5_Turns} 동안 도시에서 [ICON_HAPPINESS_1]행복 -2.</Text>
 		</Row>
-
 		<!-- Spoiled Food -->
 		<Row Tag="TXT_KEY_CITY_EVENT_CORRUPTION_FOOD_SPOILED_CHOICE_1">
 			<Text>상한 식량</Text>
@@ -419,14 +402,12 @@
 			<Text>곡창의 많은 식량이 관리 미숙으로 상했습니다. 도시에서 {1_YieldCost}의 손실을 입습니다.</Text>
 		</Row>
 		<!-- Bandits -->
-
 		<Row Tag="TXT_KEY_CITY_EVENT_CORRUPTION_BANDITS_CHOICE_1">
 			<Text>도적!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_CORRUPTION_BANDITS_CHOICE_1_HELP">
 			<Text>도적들이 당신의 세금 징수원을 습격하여 돈을 훔쳐갔습니다. 도시에서 {1_YieldCost}의 손실을 입습니다.</Text>
 		</Row>
-
 		<!-- Good Harvest -->
 		<Row Tag="TXT_KEY_CITY_EVENT_GOOD_HARVEST_CHOICE_1">
 			<Text>대풍년</Text>
@@ -434,7 +415,6 @@
 		<Row Tag="TXT_KEY_CITY_EVENT_GOOD_HARVEST_CHOICE_1_HELP">
 			<Text>도시의 농부들이 훌륭한 풍년을 알렸습니다. 도시에서 +{2_InstantYield}.</Text>
 		</Row>
-
 		<!-- Market Day -->
 		<Row Tag="TXT_KEY_CITY_EVENT_MARKET_DAY_CHOICE_1">
 			<Text>장날</Text>
@@ -442,7 +422,6 @@
 		<Row Tag="TXT_KEY_CITY_EVENT_MARKET_DAY_CHOICE_1_HELP">
 			<Text>장날이 시작되어 도시의 장터가 소비자들로 가득 찼습니다. {5_Turns} 동안 도시의 시장에서 [ICON_GOLD]골드가 2 증가합니다.</Text>
 		</Row>
-
 		<!-- Volcano! -->
 		<Row Tag="TXT_KEY_CITY_EVENT_VOLCANO_CHOICE_1">
 			<Text>화산 분출!</Text>
@@ -456,7 +435,6 @@
 		<Row Tag="TXT_KEY_CITY_EVENT_VOLCANO_SPECIAL_CHOICE_1_HELP">
 			<Text>크라카토아가 분출했습니다! 엄청난 화산재와 연기, 용암이 근처에 있는 도시와 주변 지역을 덮쳤습니다. 도시에서 [ICON_CITIZEN]시민이 3 감소하고 많은 시설들이 약탈되며, 도시의 건물들이 피해를 입습니다.</Text>
 		</Row>
-
 		<!-- Hotel Established -->
 		<Row Tag="TXT_KEY_CITY_EVENT_HOTEL_ESTABLISHED_CHOICE_1">
 			<Text>자연 경관 휴양</Text>
@@ -464,7 +442,6 @@
 		<Row Tag="TXT_KEY_CITY_EVENT_HOTEL_ESTABLISHED_CHOICE_1_HELP">
 			<Text>주변의 자연 경관에서 관광이 형성된 결과, 사업 협력단이 이 도시에 호텔을 건설하기로 결정했습니다.</Text>
 		</Row>
-
 		<!-- Pestilence -->
 		<Row Tag="TXT_KEY_CITY_EVENT_PESTILENCE">
 			<Text>병충해</Text>
@@ -490,7 +467,6 @@
 		<Row Tag="TXT_KEY_CITY_EVENT_PESTILENCE_CHOICE_3_HELP">
 			<Text>{1_YieldCost}의 비용을 할당하여 농장에서 영구적으로 [ICON_FOOD]식량 +1.</Text>
 		</Row>
-
 		<!-- Flooding -->
 		<Row Tag="TXT_KEY_CITY_EVENT_FLOODING">
 			<Text>홍수</Text>
@@ -516,7 +492,6 @@
 		<Row Tag="TXT_KEY_CITY_EVENT_FLOODING_CHOICE_3_HELP">
 			<Text>{1_YieldCost}, {4_GPChange} 보너스.</Text>
 		</Row>
-
 		<!-- Hurricane -->
 		<Row Tag="TXT_KEY_CITY_EVENT_HURRICANE">
 			<Text>허리케인 접근</Text>
@@ -554,7 +529,6 @@
 		<Row Tag="TXT_KEY_CITY_EVENT_HURRICANE_CHOICE_5_HELP">
 			<Text>{1_YieldCost} 손실, 허리케인이 덮치면 많은 재산 피해가 생길 것입니다.</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_CITY_EVENT_HURRICANE_SUCCESSFUL_S">
 			<Text>{2_City}에서 허리케인이 덮쳤습니다!</Text>
 		</Row>
@@ -573,7 +547,6 @@
 		<Row Tag="TXT_KEY_CITY_EVENT_HURRICANE_CHOICE_5_SUCCESSFUL">
 			<Text>{2_City}에서 매우 강력한 허리케인이 덮쳤습니다. 도시의 제방이 견디지 못해 도시가 황폐화되었습니다.</Text>
 		</Row>
-
 		<!-- Plague!-->
 		<Row Tag="TXT_KEY_CITY_EVENT_PLAGUE_CHOICE_1">
 			<Text>전염병!</Text>
@@ -581,7 +554,6 @@
 		<Row Tag="TXT_KEY_CITY_EVENT_PLAGUE_CHOICE_1_HELP">
 			<Text>우리가 가장 우려하는 것이 현실이 되었습니다. 전염병이 도시를 휩쓸었습니다. 시민들이 거리에서 죽어 수백명이 매일 사망했습니다. {5_Turns} 동안 도시의 [ICON_FOOD]식량이 15 감소합니다.</Text>
 		</Row>
-
 		<!-- Wanderer -->
 		<Row Tag="TXT_KEY_CITY_EVENT_WANDERER">
 			<Text>불가사의한 모험가</Text>
@@ -613,7 +585,6 @@
 		<Row Tag="TXT_KEY_CITY_EVENT_WANDERER_CHOICE_4_HELP">
 			<Text>도시에서 {4_GPChange}.</Text>
 		</Row>
-
 		<!-- Nomads -->
 		<Row Tag="TXT_KEY_CITY_EVENT_NOMADS">
 			<Text>유목민의 등장</Text>
@@ -621,7 +592,6 @@
 		<Row Tag="TXT_KEY_CITY_EVENT_NOMADS_HELP">
 			<Text>한 유목민 집단이 당신의 국경에 나타나 당신의 영토에 터전을 만들 권리를 요구합니다. 그들은 우호적인 듯하며, 자신들이 바라는 것을 얻기 위해 협상하고자 합니다. 어떻게 하시겠습니까?</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_CITY_EVENT_NOMADS_CHOICE_1">
 			<Text>그들에게 땅을 주는 대신 우리 문화에 적응하도록 하라.</Text>
 		</Row>
@@ -646,14 +616,12 @@
 		<Row Tag="TXT_KEY_CITY_EVENT_NOMADS_CHOICE_4_HELP">
 			<Text>도시의 [ICON_CITIZEN]시민 +1.</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_CITY_EVENT_NOMADS_CHOICE_2_SUCCESSFUL">
 			<Text>당신의 뻔뻔한 행동이 유목민들을 화나게 했고 그들은 당신을 향해 전쟁을 선언했습니다. {2_City} 근처에 야만인 유닛 2개가 생성됩니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_NOMADS_CHOICE_2_SUCCESSFUL_S">
 			<Text>{2_City}에서 유목민들이 반기를 들었습니다!</Text>
 		</Row>
-
 		<!-- Rebels -->
 		<Row Tag="TXT_KEY_CITY_EVENT_OCCUPIED_REBELS">
 			<Text>위대한 혁명</Text>
@@ -661,23 +629,18 @@
 		<Row Tag="TXT_KEY_CITY_EVENT_OCCUPIED_REBELS_HELP">
 			<Text>도시에서 당신의 통치를 향한 위협은 계속해서 커지고 있고 당신의 보좌관들은 폭력 사태가 일어날 것을 우려합니다. 세력이 너무 강해지기 전에 혁명을 뿌리 뽑아야 합니다. 하지만 당신의 선택은 한정되어 있습니다:</Text>
 		</Row>
-
-
 		<Row Tag="TXT_KEY_CITY_EVENT_OCCUPIED_REBELS_CHOICE_1">
 			<Text>그들은 이단심문관을 예상할 수 없겠지.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_OCCUPIED_REBELS_CHOICE_1_HELP">
 			<Text>도시의 [ICON_CITIZEN]시민 -3.</Text>
 		</Row>
-
-
 		<Row Tag="TXT_KEY_CITY_EVENT_OCCUPIED_REBELS_CHOICE_2">
 			<Text>반란 세력을 꾀어내어 군사력을 동원한다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_OCCUPIED_REBELS_CHOICE_2_HELP">
 			<Text>도시 주변에 반군 유닛 3개가 출현하고 도시가 1턴 동안 [ICON_RESISTANCE]저항 상태가 됩니다.</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_CITY_EVENT_OCCUPIED_REBELS_CHOICE_3">
 			<Text>반란 세력을 격리시킨다. 그들이 도시를 점령할 수 있지만 어쩔 수 없다.</Text>
 		</Row>

@@ -7,44 +7,46 @@
 	
 	-- Great Merchant Text
 
-	UPDATE Language_ko_KR SET Text = '해당 유닛이 당신과 전쟁 중이 아닌 도시 국가의 영토 내에 있다면 이 명령을 통해 임무를 수행할 수 있습니다.[NEWLINE][NEWLINE]대량의 [ICON_GOLD]골드를 벌어들이고 모든 도시가 즉시 "국왕 경축일"을 맞이합니다. [COLOR:110:110:110:255](소유한 소도시 수에 따라 보정됨).[ENDCOLOR] 유닛은 이 과정에서 소모됩니다.' WHERE Tag = 'TXT_KEY_MISSION_CONDUCT_TRADE_MISSION_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
+	UPDATE Language_ko_KR SET Text = '당신과 전쟁 중이 아닌 도시 국가의 영토에서 이 명령을 통해 대량의 골드를 벌어들이고 모든 도시가 국왕 경축일을 맞이합니다. 국왕 경축일은 보유한 소도시의 수에 따라 달라집니다. 위인은 이 과정에서 소모됩니다.' WHERE Tag = 'TXT_KEY_MISSION_CONDUCT_TRADE_MISSION_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
 
-	UPDATE Language_ko_KR SET Text = 'The Great Merchant can construct the special Town improvement which, when worked, produces loads of [ICON_GOLD] Gold and increases the number of WLTKD turns from the Merchant''s Trade Mission ability by 1. The Great Merchant can also journey to a city-state and perform a "trade mission" which produces gobs of [ICON_GOLD] Gold, starts a "We Love the King Day" in all owned cities and, (if not using CSD) garners many Influence Points with the city-state. The Great Merchant is expended when used in any of these ways.' WHERE Tag = 'TXT_KEY_UNIT_GREAT_MERCHANT_STRATEGY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
-
-	-- Great Engineer Text
-
-	UPDATE Language_ko_KR SET Text = '현재 도시에서 생산하는 목록의 생산 속도를 증가시킵니다. 소유한 모든 제조소의 생산을 20% 증가시킵니다.  위인은 이 과정에서 소모됩니다.	' WHERE Tag = 'TXT_KEY_MISSION_HURRY_PRODUCTION_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
-
-	UPDATE Language_ko_KR SET Text = 'Great Engineers can construct the special Manufactory improvement. When worked, it provides a lot of [ICON_PRODUCTION] Production for a city and increase the power of the Engineer''s Hurry ability by 20% (per Manufactory). The Great Engineer can also hurry production of a unit, building or Wonder in a city. The Great Engineer is expended when used in either of these ways.' WHERE Tag = 'TXT_KEY_UNIT_GREAT_ENGINEER_STRATEGY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
+	UPDATE Language_ko_KR SET Text = '[ICON_GREAT_MERCHANT]위대한 상인은 특별한 [COLOR_POSITIVE_TEXT]소도시[ENDCOLOR] 시설을 건설할 수 있습니다. 시민을 투입한 소도시는 많은 [ICON_GOLD]골드를 제공하고 소도시 1개마다 위대한 상인의 무역 임무에서 오는 국왕 경축일의 길이를 1턴씩 증가시킵니다. 또한 위대한 상인은 도시 국가로 이동하여 [COLOR_POSITIVE_TEXT]무역 임무[ENDCOLOR]를 할 수 있습니다. 무역 임무는 대량의 [ICON_GOLD]골드를 벌어들이고 즉시 모든 도시가 국왕 경축일을 맞이하게 합니다. (만약 CSD모드를 사용하지 않았다면 도시 국가에 대한 대량의 영향력을 제공합니다.) [NEWLINE][NEWLINE]위 능력 중 하나를 사용하면 위대한 상인이 사라집니다.' WHERE Tag = 'TXT_KEY_UNIT_GREAT_MERCHANT_STRATEGY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
 
 	-- Great Engineer Text
 
-	UPDATE Language_ko_KR SET Text = '위인이 기술 연구를 돕습니다. 모든 아카데미의 과학이 10% 증가합니다. 위인은 이 과정에서 소모됩니다.' WHERE Tag = 'TXT_KEY_MISSION_DISCOVER_TECH_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
+	UPDATE Language_ko_KR SET Text = '이 명령을 통해 현재 도시에서 생산하고 있는 생산 활동을 가속합니다. 소유한 모든 제조소마다 가속하는 생산의 양이 20%씩 증가합니다. 위인은 이 과정에서 소모됩니다.' WHERE Tag = 'TXT_KEY_MISSION_HURRY_PRODUCTION_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
 
-	UPDATE Language_ko_KR SET Text = 'The Great Scientist can construct the special Academy improvement which, when worked, produces lots of [ICON_RESEARCH] Science and increases the value of the Scientist''s Discover ability by 10%. Further, a Great Scientist can give you a considerable boost towards your next tech. The Great Scientist is expended when used in any of these ways.' WHERE Tag = 'TXT_KEY_UNIT_GREAT_SCIENTIST_STRATEGY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
+	UPDATE Language_ko_KR SET Text = '[ICON_GREAT_ENGINEER]위대한 기술자는 특별한 [COLOR_POSITIVE_TEXT]제조소[ENDCOLOR] 시설을 건설할 수 있습니다. 시민을 투입한 제조소는 대량의 [ICON_PRODUCTION]생산을 제공하고 제조소 1개마다 위대한 기술자의 생산 가속 능력을 20% 증가시킵니다. 또한 위대한 기술자로 도시의 유닛, 건물, 불가사의의 생산 속도를 증가시키는 [COLOR_POSITIVE_TEXT]생산 가속[ENDCOLOR]을 수행할 수 있습니다.[NEWLINE][NEWLINE]위 능력 중 하나를 사용하면 위대한 기술자가 사라집니다.' WHERE Tag = 'TXT_KEY_UNIT_GREAT_ENGINEER_STRATEGY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
+
+	-- Great Engineer Text
+
+	UPDATE Language_ko_KR SET Text = '이 명령을 통해 기술 연구를 가속할 수 있습니다. 소유한 모든 아카데미마다 가속하는 연구의 양이 10%씩 증가합니다. 위인은 이 과정에서 소모됩니다.' WHERE Tag = 'TXT_KEY_MISSION_DISCOVER_TECH_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
+
+	UPDATE Language_ko_KR SET Text = '[ICON_GREAT_SCIENTIST]위대한 과학자는 특별한 [COLOR_POSITIVE_TEXT]아카데미[ENDCOLOR] 시설을 건설할 수 있습니다. 시민을 투입한 아카데미는 대량의 [ICON_RESEARCH]과학을 제공하고 아카데미 1개마다 위대한 과학자의 연구 가속 능력을 10%씩 증가시킵니다. 또한 위대한 과학자로 다음 기술의 발견을 돕는 [COLOR_POSITIVE_TEXT]연구 가속[ENDCOLOR]을 수행할 수 있습니다.[NEWLINE][NEWLINE]위 능력 중 하나를 사용하면 위대한 과학자가 사라집니다.' WHERE Tag = 'TXT_KEY_UNIT_GREAT_SCIENTIST_STRATEGY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
 
 
 	-- Changed how Musician Great Tour Works
-	UPDATE Language_ko_KR SET Text = 'The value of this action depends on the number of [ICON_GREAT_WORK] Great Works of Music you have created. [COLOR_POSITIVE_TEXT]The more Great Works of Music you own, the stronger your Concert Tours[ENDCOLOR]. When you completed a Concert Tour, your [ICON_TOURISM] Tourism with the target Civilization is immediately increased by an amount equal to your recent Tourism per turn output ([COLOR_POSITIVE_TEXT]12[ENDCOLOR] Turns, plus 1 additional Turn for every owned Great Work of Music) and any relevant Tourism modifiers with the target Civilization. In addition, you receive +1 [ICON_HAPPINESS_1] Happiness in your [ICON_CAPITAL] Capital. This action consumes the unit.[NEWLINE][NEWLINE]Cannot perform this action if at war with the target Civilization, or if your [ICON_TOURISM] Cultural Influence over the Civilization is [COLOR_MAGENTA]Influential[ENDCOLOR] or greater.' WHERE Tag = 'TXT_KEY_MISSION_ONE_SHOT_TOURISM_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
+	UPDATE Language_ko_KR SET Text = '이 명령의 가치는 제작한 [ICON_GREAT_WORK]걸작의 수에 따라 달라집니다. 소유한 걸작 음악이 많을수록 순회 공연의 위력이 더 강해집니다. 순회 공연을 마치면 해당 문명에 대한 [ICON_TOURISM]관광이 현재 턴당 관광 산출량과 같은 양만큼 즉시 증가하고 (12턴, 소유한 걸작 음악 1개마다 1턴씩 증가) [ICON_CAPITAL]수도의 [ICON_HAPPINESS_1]행복이 1 증가합니다. 위인은 이 과정에서 소모됩니다.[NEWLINE][NEWLINE]해당 문명과 전쟁 중이거나 해당 문명에 대한 당신의 문화적인 영향력이 [COLOR_MAGENTA]유명함[ENDCOLOR] 이상이면 이 명령을 수행할 수 없습니다.' WHERE Tag = 'TXT_KEY_MISSION_ONE_SHOT_TOURISM_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
 
-	UPDATE Language_ko_KR SET Text = 'A Great Musician can create a Great Work of Music (generates both [ICON_CULTURE] Culture and [ICON_TOURISM] Tourism) that is placed in the nearest city that has an appropriate building with an empty slot (like an Opera House or Broadcast Tower).[NEWLINE][NEWLINE]A Great Musician can also travel to another civilization and perform a [COLOR_POSITIVE_TEXT]Concert Tour[ENDCOLOR]. The value of this action depends on the number of [ICON_GREAT_WORK] Great Works of Music you have created, and any relevant Tourism modifiers with the target Civilization. [COLOR_POSITIVE_TEXT]The more Great Works of Music you own, the stronger your Concert Tours[ENDCOLOR]. When you completed a Concert Tour, your [ICON_TOURISM] Tourism with the target Civilization is immediately increased by an amount equal to your recent Tourism per turn output ([COLOR_POSITIVE_TEXT]12[ENDCOLOR] Turns, plus 1 additional Turn for every owned Great Work of Music). In addition, you receive +1 [ICON_HAPPINESS_1] Happiness in your [ICON_CAPITAL] Capital. This action consumes the unit.[NEWLINE][NEWLINE]Cannot perform this action if at war with the target Civilization, or if your [ICON_TOURISM] Cultural Influence over the Civilization is [COLOR_MAGENTA]Influential[ENDCOLOR] or greater.' WHERE Tag = 'TXT_KEY_UNIT_GREAT_MUSICIAN_STRATEGY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
+	UPDATE Language_ko_KR SET Text = '[ICON_GREAT_MUSICIAN]위대한 음악가는 [COLOR_POSITIVE_TEXT]걸작 음악[ENDCOLOR]([ICON_CULTURE]문화 [ICON_TOURISM]관광 제공)을 만들 수 있습니다. 걸작 음악은 빈 슬롯이 있는 적절한 건물(오페라 극장, 방송탑 등)이 건설된 가장 가까운 도시에 배치됩니다. 또한 위대한 음악가는 다른 문명으로 건너가 [COLOR_POSITIVE_TEXT]순회 공연[ENDCOLOR]을 열 수 있습니다. 해당 수치는 제작한 [ICON_GREAT_WORK]걸작의 수 및 해당 문명에 관련된 관광 수치에 따라 달라집니다. 소유한 걸작 음악이 많을수록 순회 공연의 위력이 더 강해집니다. 순회 공연을 마치면 해당 문명에 대한 [ICON_TOURISM]관광이 현재 턴당 관광 산출량과 같은 양만큼 즉시 증가하고 (12턴, 소유한 걸작 음악 1개마다 1턴씩 증가) [ICON_CAPITAL]수도의 [ICON_HAPPINESS_1]행복이 1 증가합니다.[NEWLINE][NEWLINE]위 능력 중 하나를 사용하면 위대한 음악가는 사라집니다. 해당 문명과 전쟁 중이거나 해당 문명에 대한 당신의 문화적인 영향력이 [COLOR_MAGENTA]유명함[ENDCOLOR] 이상이면 공연을 열 수 없습니다.' WHERE Tag = 'TXT_KEY_UNIT_GREAT_MUSICIAN_STRATEGY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
 
 	-- Artist
-	UPDATE Language_ko_KR SET Text = 'A Great Artist can create a Great Work of Art (generates both [ICON_CULTURE] Culture and [ICON_TOURISM] Tourism) that is placed in the nearest city that has an appropriate building with an empty slot (like the Palace, a Museum, or a Cathedral). A Great Artist can also generate a large sum of Golden Age Points, scaling with [ICON_GOLDEN_AGE] Golden Age Point output, [ICON_TOURISM] Tourism output, and the number of [COLOR_POSITIVE_TEXT]themed[ENDCOLOR] sets of [ICON_GREAT_WORK] Great Works. Great Artists are expended when used either of these ways.' WHERE Tag = 'TXT_KEY_UNIT_GREAT_ARTIST_STRATEGY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
-	UPDATE Language_ko_KR SET Text = '+{1_Num} [ICON_GOLDEN_AGE] Golden Age Points[NEWLINE][NEWLINE]This order will consume the Great Artist and create a Golden Age Points, which may trigger a [ICON_GOLDEN_AGE] Golden Age (extra [ICON_PRODUCTION] Production, [ICON_GOLD] Gold, and [ICON_CULTURE] Culture). Scales based on the [ICON_TOURISM] Tourism and [ICON_GOLDEN_AGE] Golden Age Point output of the past 15 turns, and is increased by 20% for every owned [COLOR_POSITIVE_TEXT]themed[ENDCOLOR] Great Work set.' WHERE Tag = 'TXT_KEY_MISSION_START_GOLDENAGE_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
+	UPDATE Language_ko_KR SET Text = '[ICON_GREAT_ARTIST]위대한 예술가는 [COLOR_POSITIVE_TEXT]걸작 예술품[ENDCOLOR]([ICON_CULTURE]문화 및 [ICON_TOURISM]관광 제공)을 만들 수 있습니다. 걸작 예술품은 빈 슬롯이 있는 적절한 건물(궁전, 박물관, 대성당 등)이 건설된 가장 가까운 도시에 배치됩니다. 또한 위대한 예술가는 대량의 황금기를 제공합니다. 이 점수는 [ICON_GOLDEN_AGE]황금기 점수 산출량, [ICON_TOURISM]관광 산출량, 테마가 맞춰진 [ICON_GREAT_WORK]걸작의 세트 수에 따라 증가합니다. [NEWLINE][NEWLINE]위 능력 중 하나를 사용하면 위대한 예술가는 사라집니다.' WHERE Tag = 'TXT_KEY_UNIT_GREAT_ARTIST_STRATEGY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
+	
+	UPDATE Language_ko_KR SET Text = '이 명령을 통해 [ICON_GOLDEN_AGE]황금기(추가 [ICON_PRODUCTION]생산, [ICON_GOLD]골드, [ICON_CULTURE]문화)를 촉발하는 [ICON_GOLDEN_AGE]황금기 점수를 {1_Num} 제공합니다. 해당 점수는 지난 15턴 동안의 황금기 점수 산출량 및 관광에 따라 달라집니다. 또한 테마가 맞춰진 걸작의 세트 수마다 20%씩 증가합니다. 위인은 이 과정에서 소모됩니다.' WHERE Tag = 'TXT_KEY_MISSION_START_GOLDENAGE_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
 
 	-- Writer
-	UPDATE Language_ko_KR SET Text = 'A Great Writer can create a Great Work of Writing (generates both [ICON_CULTURE] Culture and [ICON_TOURISM] Tourism) that is placed in the nearest city that has an appropriate building with an empty slot (like an Amphitheater, National Epic, Heroic Epic, or Royal Library). A Great Writer can also write a Political Treatise, which grants the player an amount of Culture that scales with the number of owned [ICON_GREAT_WORK] Great Works. Great Writers are expended when used either of these ways.' WHERE Tag = 'TXT_KEY_UNIT_GREAT_WRITER_STRATEGY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
-	UPDATE Language_ko_KR SET Text = '이 명령을 내리면 위인을 소모해서 대량의 [ICON_CULTURE]문화를 획득할 수 있습니다. (소유한 걸작의 3%)' WHERE Tag = 'TXT_KEY_MISSION_GIVE_POLICIES_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
+	UPDATE Language_ko_KR SET Text = '[ICON_GREAT_WRITER]위대한 작가는 [COLOR_POSITIVE_TEXT]걸작 문학[ENDCOLOR]([ICON_CULTURE]문화 및 [ICON_TOURISM]관광 제공)을 만들 수 있습니다. 걸작 문학은 빈 슬롯이 있는 적절한 건물(원형극장, 영웅 서사시, 왕립 도서관 등)이 건설된 가장 가까운 도시에 배치됩니다. 또한 위대한 작가는 [COLOR_POSITIVE_TEXT]정치 논문[ENDCOLOR]을 집필하여 대량의 [ICON_CULTURE]문화를 획득할 수도 있습니다. 해당 문화는 소유한 [ICON_GREAT_WORK]걸작의 수에 따라 증가합니다. [NEWLINE][NEWLINE]위 능력 중 하나를 사용하면 위대한 작가는 사라집니다.' WHERE Tag = 'TXT_KEY_UNIT_GREAT_WRITER_STRATEGY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
+	
+	UPDATE Language_ko_KR SET Text = '이 명령을 통해 대량의 [ICON_CULTURE]문화를 제공합니다. 이는 소유한 걸작 1개마다 3%씩 증가합니다. 위인은 이 과정에서 소모됩니다.' WHERE Tag = 'TXT_KEY_MISSION_GIVE_POLICIES_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
 
 	-- Admiral 
 
-	UPDATE Language_ko_KR SET Text = 'The Great Admiral can immediately cross oceans for free, making it a useful (if vulnerable) exploration vessel. Furthermore, while in owned territory, the Great Admiral can be sent on a [COLOR_POSITIVE_TEXT]Voyage of Discovery[ENDCOLOR] that expends the Unit and gives you two copies of a Luxury Resource not available on the current map.[NEWLINE][NEWLINE]The Great Admiral has the ability to instantly [COLOR_POSITIVE_TEXT]Repair[ENDCOLOR] every Naval and Embarked Unit in the same hex, as well as in adjacent hexes. The Great Admiral is consumed when performing this action. The Great Admiral also provides +15% [ICON_STRENGTH] Combat Strength to all player-owned Naval Units within 2 tiles. The Great Admiral is NOT consumed when he provides this bonus. When the Great Admiral is expended for a [COLOR_POSITIVE_TEXT]Voyage of Discovery[ENDCOLOR] or [COLOR_POSITIVE_TEXT]Repair[ENDCOLOR], it increases your Military Unit Supply Cap by 2.' WHERE Tag = 'TXT_KEY_UNIT_GREAT_ADMIRAL_STRATEGY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
+	UPDATE Language_ko_KR SET Text = '[ICON_GREAT_ADMIRAL]위대한 제독은 즉시 [COLOR_POSITIVE_TEXT]대양[ENDCOLOR]을 건널 수 있어 유용한 탐사선이 될 수 있습니다. 국내 영토에서 [COLOR_POSITIVE_TEXT]발견 항해[ENDCOLOR]를 수행할 수 있습니다. 이는 위인을 소모해 지도상에 드러나지 않은 사치 자원 복제품 2개를 제공합니다. 또한	위대한 제독은 자신과 같은 타일과 주변 타일의 모든 해상 및 승선 유닛의 피해를 즉시 회복시키는 [COLOR_POSITIVE_TEXT]함대 수리[ENDCOLOR]를 수행할 수 있습니다. 2타일 이내의 모든 아군 해상 유닛에 [ICON_STRENGTH]전투력 보너스를 15% 제공합니다. [NEWLINE][NEWLINE]함대 수리 또는 발견 항해 능력을 사용한 위대한 제독은 소모되어 사라지며 군사 유닛 보급한도를 2 증가시킵니다.' WHERE Tag = 'TXT_KEY_UNIT_GREAT_ADMIRAL_STRATEGY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
 
-	UPDATE Language_ko_KR SET Text = '이 명령을 내리면 위대한 제독을 소모하여 이 타일 및 인접한 타일에 있는 모든 해상 유닛과 승선 유닛의 체력을 회복합니다. 군사 유닛 보급 한도를 2 증가시킵니다.' WHERE Tag = 'TXT_KEY_MISSION_REPAIR_FLEET_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
+	UPDATE Language_ko_KR SET Text = '이 명령을 내리면 같은 타일과 주변 타일에 있는 모든 해상 및 승선 유닛이 받은 피해를 완전히 회복하고 군사 유닛 보급 한도를 2 증가시킵니다. 위인은 이 과정에서 소모됩니다.' WHERE Tag = 'TXT_KEY_MISSION_REPAIR_FLEET_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
 
 	-- General
-	UPDATE Language_ko_KR SET Text = 'The Great General can construct the special [COLOR_POSITIVE_TEXT]Citadel[ENDCOLOR] improvement which gives a big defensive bonus to any Unit occupying it, damages Enemy Units that finish their turn in tiles adjacent to it, puts all adjacent tiles into your territory, and increases your Military Unit Supply Cap by 2. The Great General is consumed when it builds the [COLOR_POSITIVE_TEXT]Citadel[ENDCOLOR]. The Great General provides +15% [ICON_STRENGTH] Combat Strength to all player-owned Land Units within 2 tiles. The Great General is NOT consumed when he provides this bonus.' WHERE Tag = 'TXT_KEY_UNIT_GREAT_GENERAL_STRATEGY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
+	UPDATE Language_ko_KR SET Text = '[ICON_GREAT_GENERAL]위대한 장군은 특별한 [COLOR_POSITIVE_TEXT]성채[ENDCOLOR] 시설을 건설할 수 있습니다. 성채는 해당 타일 위에 주둔한 유닛에 큰 방어력 보너스를 제공하며 인접한 적 유닛에 피해를 주고 인접한 주변 타일을 자신의 영토로 확보할 수 있고 군사 유닛 보급 한도를 2 증가시킵니다. 또한 위대한 장군은 2타일 내의 모든 아군 지상 유닛에 [ICON_STRENGTH][COLOR_POSITIVE_TEXT]전투력 보너스[ENDCOLOR]를 15% 제공합니다.[NEWLINE][NEWLINE]성채를 건설하면 위대한 장군은 사라집니다.' WHERE Tag = 'TXT_KEY_UNIT_GREAT_GENERAL_STRATEGY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
 
 	-- Inquisitor
 	UPDATE Language_ko_KR SET Text = 'Can be purchased with [ICON_PEACE] Faith in any city with a majority Religion that has been enhanced. They can remove other religions from your cities (expending the Inquisitor) or be placed inside a city to reduce Missionary and Prophet spread power in that City by 50%. Removing Heresy causes 1 turn of [ICON_RESISTANCE] Resistance in the City.' WHERE Tag = 'TXT_KEY_UNIT_INQUISITOR_STRATEGY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
@@ -57,7 +59,7 @@
 	UPDATE Language_ko_KR SET Text = '사적지를 발굴하여 랜드마크 시설을 건설하거나 유물을 발굴하여 걸작 예술품 슬롯을 채울 수 있습니다. 어떤 문명의 영토에서도 유물을 발굴 할 수 있습니다. 사적지에서 고고학 발굴을 완료하면 고고학자는 소모됩니다. [NEWLINE][NEWLINE]한 번에 최대 [COLOR_POSITIVE_TEXT]3명[ENDCOLOR]까지만 활성할 수 있습니다.[COLOR_NEGATIVE_TEXT][ICON_GOLD]골드로 구매할 수 없으며[ENDCOLOR] [COLOR_POSITIVE_TEXT]공립학교[ENDCOLOR]가 있는 도시에서만 생산할 수 있습니다.' WHERE Tag = 'TXT_KEY_UNIT_HELP_ARCHAEOLOGIST' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
 
 	UPDATE Language_ko_KR
-	SET Text = '소도시는 마을보다 크지만 도시보다 작은 인간의 정착지 입니다. "소도시"를 구성하는 크기에 대한 정의는 세계 각지에 따라 상당히 다릅니다. 소도시라는 단어는 독일어 Zaun, 네덜란드어 tuin, Old Norse tune과 기원을 공유합니다. 독일어 Zaun은 어떤 물질의 울타리라는 단어 본래의 뜻에 가장 가깝습니다.[NEWLINE][NEWLINE]Towns receive +1 [ICON_GOLD] Gold and [ICON_PRODUCTION] Production if built on a Road that connects two owned Cities, and +2 [ICON_GOLD] and [ICON_PRODUCTION] Production if a Railroad. Receive additional [ICON_GOLD] Gold and [ICON_PRODUCTION] Production (+1 for Roads, +2 for Railroads) if a Trade Route, either internal or international, passes over this Town.'
+	SET Text = '두 도시를 [ICON_CONNECTED]연결하는 도로 위에 건설된 소도시는 [ICON_GOLD]골드 및 [ICON_PRODUCTION]생산이 1 증가하고 철도 위에 건설하면 [ICON_GOLD]골드 및 [ICON_PRODUCTION]생산이 2 증가합니다. 해당 소도시를 지나가는 국내 및 국제 교역로가 있으면 소도시의 [ICON_GOLD]골드 및 [ICON_PRODUCTION]생산이 추가적으로 [COLOR:105:105:105:255](산업 시대 이전 +1 , 산업 시대부터 +2)[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE]소도시는 마을보다 크지만 도시보다 작은 인간의 정착지 입니다. "소도시"를 구성하는 크기에 대한 정의는 세계 각지에 따라 상당히 다릅니다. 소도시라는 단어는 독일어 Zaun, 네덜란드어 tuin, Old Norse tune과 기원을 공유합니다. 독일어 Zaun은 어떤 물질의 울타리라는 단어 본래의 뜻에 가장 가깝습니다.'
 	WHERE Tag = 'TXT_KEY_CIV5_IMPROVEMENTS_CUSTOMS_HOUSE_TEXT' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 	UPDATE Language_ko_KR
@@ -71,10 +73,6 @@
 	UPDATE Language_ko_KR
 	SET Text = '소도시'
 	WHERE Tag = 'TXT_KEY_IMPROVEMENT_CUSTOMS_HOUSE' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
-
-	UPDATE Language_ko_KR
-	SET Text = 'The Great Merchant can construct the special Town improvement which, when worked, produces [ICON_GOLD] Gold and [ICON_FOOD] Food. The Great Merchant can also journey to a city-state and perform a "trade mission" which produces [ICON_GOLD] Gold, starts a "We Love the King Day" in all owned cities (scaling with the number of owned Towns) and, (if not using CSD) garners many Influence Points with the city-state. The Great Merchant is expended when used in either of these ways.[NEWLINE][NEWLINE]Towns receive +1 [ICON_GOLD] Gold and [ICON_PRODUCTION] Production if built on a Road that connects two owned Cities, and +2 [ICON_GOLD] Gold and [ICON_PRODUCTION] Production if a Railroad. Receive additional [ICON_GOLD] Gold and [ICON_PRODUCTION] Production (+1 for Roads, +2 for Railroads) if a Trade Route, either internal or international, passes over this Town.'
-	WHERE Tag = 'TXT_KEY_UNIT_GREAT_MERCHANT_STRATEGY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 	UPDATE Language_ko_KR
 	SET Text = '소도시란 무엇입니까?'
@@ -93,19 +91,19 @@
 	WHERE Tag = 'TXT_KEY_BUILDINGS_SPECIALISTS_HEADING2_TITLE' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 	UPDATE Language_ko_KR
-	SET Text = '[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]전문가는 현재 속한 시대에 따라 다양한 양의 식량을 소비합니다.[ENDCOLOR][NEWLINE][NEWLINE]    [COLOR_CYAN]고대-중세[ENDCOLOR]: 전문가 소비 [ICON_FOOD] 3 식량[NEWLINE]    [COLOR_CYAN]르네상스[ENDCOLOR]: 전문가 소비 [ICON_FOOD] 4 식량[NEWLINE]    [COLOR_CYAN]산업[ENDCOLOR]: 전문가 소비 [ICON_FOOD] 5 식량[NEWLINE]    [COLOR_CYAN]현대[ENDCOLOR]: 전문가 소비 [ICON_FOOD] 6 시량[NEWLINE]    [COLOR_CYAN]원자력:[ENDCOLOR]: 전문가 소비 [ICON_FOOD] 7 식량[NEWLINE]    [COLOR_CYAN]정보[ENDCOLOR]: 전문가 소비 [ICON_FOOD] 8 식량[NEWLINE][NEWLINE]모든 전문가들은 기본 산출량으로 게임을 시작합니다. 이런 산출량은 게임이 진행됨에 따라 기술, 정책, 건물, 이념별로 달라집니다.'
+	SET Text = '[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]전문가는 현재 속한 시대에 따라 다양한 양의 식량을 소비합니다.[ENDCOLOR][NEWLINE][NEWLINE]    [COLOR_CYAN]고대-중세[ENDCOLOR]: 전문가 소비 [ICON_FOOD]식량 3[NEWLINE]    [COLOR_CYAN]르네상스[ENDCOLOR]: 전문가 소비 [ICON_FOOD]식량 4[NEWLINE]    [COLOR_CYAN]산업[ENDCOLOR]: 전문가 소비 [ICON_FOOD]식량 5[NEWLINE]    [COLOR_CYAN]현대[ENDCOLOR]: 전문가 소비 [ICON_FOOD]식량 6[NEWLINE]    [COLOR_CYAN]원자력[ENDCOLOR]: 전문가 소비 [ICON_FOOD]식량 7[NEWLINE]    [COLOR_CYAN]정보화[ENDCOLOR]: 전문가 소비 [ICON_FOOD]식량 8[NEWLINE][NEWLINE]모든 전문가들은 기본 산출량으로 게임을 시작합니다. 해당 산출량은 게임이 진행됨에 따라 기술, 정책, 건물, 이념별로 달라집니다.'
 	WHERE Tag = 'TXT_KEY_SPECIALISTSANDGP_HEADING1_BODY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 	UPDATE Language_ko_KR
-	SET Text = 'All Great Person Improvements begin the game with a base set of yields. These yields change as the game progresses based on Technologies, Policies, Buildings, and Beliefs.'
+	SET Text = '모든 위인 시설은 기본 산출량을 가지고 시작합니다. 이러한 산출량은 게임이 진행됨에 따라 기술, 정책, 건물 및 신앙을 기반으로 달라집니다.'
 	WHERE Tag = 'TXT_KEY_BUILDINGS_SPECIALISTS_HEADING2_BODY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 	UPDATE Language_ko_KR
-	SET Text = 'Time and again throughout history, there have arisen men and women who have profoundly changed the world around them - artists, scientists, generals, merchants and others, whose genius sets them head and shoulders above the rest. In this game such visionaries are called "Great People."[NEWLINE][NEWLINE]There are five different kinds of great people in the game: Great Merchants, Great Artists, Great Scientists, Great Engineers, and Great Generals (a sixth, the Great Diplomat, is added in CSD). Each has a special ability.[NEWLINE][NEWLINE]Your civilization acquires Great People by constructing certain buildings and wonders, and then staffing them with "specialists", citizens from your cities who have given up working in the field or the mines. While specialists do not work city tiles, they do greatly speed the arrival of Great People. Balancing the need for food and the desire for Great People is an important challenge of city management.[NEWLINE][NEWLINE]{TXT_KEY_SPECIALISTSANDGP_HEADING1_BODY}'
+	SET Text = '시간과 역사 속에는 항상 세계에 변화를 가져오는 남성과 여성들이 있었습니다. 이들은 예술가, 과학자, 장군, 상인 등 누구보다도 뛰어난 사람으로 역사 속에 등장했습니다. 이 게임에서 이들은 "위인"으로 등장합니다.[NEWLINE][NEWLINE]게임에는 위대한 상인, 위대한 예술가, 위대한 음악가, 위대한 작가, 위대한 과학자, 위대한 기술자, 위대한 장군, 위대한 제독, 위대한 선지자 이렇게 총 9종류의 위인이 등장합니다. (CSD모드를 사용한다면 위대한 외교관이 포함됩니다.) 각각의 위인에게는 특수 능력이 있습니다.[NEWLINE][NEWLINE]당신의 문명은 특정 건물과 불가사의를 짓고 이들 건물에 "전문가"를 배치함으로써 위인들을 얻을 수 있습니다. "전문가"는 일반적인 타일이나 광산에서 일하지 않는 사람들을 뜻합니다. 전문가는 도시 주변 타일에서 일하지는 않지만, 위인들이 탄생하는 데 큰 도움을 줍니다. 도시를 운영할 때 식량 생산이나 위인 출현을 위한 전문가를 적절히 배치하는 것은 매우 중요합니다.[NEWLINE][NEWLINE]{TXT_KEY_SPECIALISTSANDGP_HEADING1_BODY}'
 	WHERE Tag = 'TXT_KEY_PEDIA_SPEC_HELP_TEXT' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 	UPDATE Language_ko_KR
-	SET Text = 'During a game, you will create "workers" - non-military units who will "improve" the land around your cities, increasing the land''s productivity or providing access to a nearby "resource." Improvements include farms, trading posts, lumber mills, logging camps, quarries, mines, and more. During wartime your enemy may "pillage" (destroy) your improvements. Pillaged improvements are ineffective until a worker has "repaired" them.[NEWLINE][NEWLINE]{TXT_KEY_BUILDINGS_SPECIALISTS_HEADING2_BODY}'
+	SET Text = '게임 중 "노동자"를 생산할 수 있습니다. 노동자는 비군사 유닛이며 당신 도시의 타일을 "개발"하고 타일의 산출량을 증가시키며 근처의 "자원"을 사용 하도록 해 줄 것입니다. 시설에는 농장, 제재소, 채석장, 광산, 마을 등을 포함합니다 전쟁 중에 적은 당신 문명의 시설을 "약탈"(파괴) 할 수 있습니다. 약탈당한 시설은 노동자가 "수리"할 때까지 사용할 수 없게 됩니다.[NEWLINE][NEWLINE]{TXT_KEY_BUILDINGS_SPECIALISTS_HEADING2_BODY}'
 	WHERE Tag = 'TXT_KEY_PEDIA_IMPROVEMENT_HELP_TEXT' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 	UPDATE Language_ko_KR
@@ -284,27 +282,30 @@
 	WHERE Tag = 'TXT_KEY_UNIT_MOBILE_SAM_STRATEGY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
 	
 	UPDATE Language_ko_KR SET Text = '경전차' WHERE Tag = 'TXT_KEY_UNIT_AT_GUN' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
+	
 	UPDATE Language_ko_KR SET Text = 'A light tank is a tank variant initially designed for rapid movement, and now primarily employed in the reconnaissance role, or in support of expeditionary forces where main battle tanks cannot be made available. Early light tanks were generally armed and armored similar to an armored car, but used tracks in order to provide better cross-country mobility. The fast light tank was a major feature of the pre-WWII buildup, where it was expected they would be used to exploit breakthroughs in enemy lines created by slower, heavier tanks. Numerous small tank designs and "tankettes" were developed during this period and known under a variety of names, including the ''combat car''.' WHERE Tag = 'TXT_KEY_CIV5_INDUSTRIAL_ANTITANKGUN_TEXT' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
+	
 	UPDATE Language_ko_KR SET Text = 'The Light Tank is a specialized combat unit designed for hit-and-run tactics. Back them up with Riflemen, Tanks, and Artillery for a potent Modern Era fighting force.' WHERE Tag = 'TXT_KEY_UNIT_AT_GUN_STRATEGY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
+	
 	UPDATE Language_ko_KR SET Text = '치고 빠지기 전술과 소규모 접전을 전문으로 하는 기동성이 뛰어난 원거리 유닛입니다' WHERE Tag = 'TXT_KEY_UNIT_HELP_ANTI_TANK_GUN' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
 	
 	-- Naval Units
 
 	INSERT INTO Language_ko_KR (Tag, Text)
-		SELECT 'TXT_KEY_DESC_CRUISER', '순양함'
-		WHERE EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
+	SELECT 'TXT_KEY_DESC_CRUISER', '순양함'
+	WHERE EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
 
 	INSERT INTO Language_ko_KR (Tag, Text)
-		SELECT 'TXT_KEY_CIV5_CRUISER_PEDIA', 'A cruiser is a type of warship. The term has been in use for several hundred years, and has had different meanings throughout this period. During the Age of Sail, the term cruising referred to certain kinds of missions: independent scouting, raiding or commerce protection fulfilled by a frigate or sloop, which were the cruising warships of a fleet. In the middle of the 19th century, cruiser came to be a classification for the ships intended for this kind of role, though cruisers came in a wide variety of sizes, from the small protected cruiser to armored cruisers which were as large (though not as powerful) as a battleship. By the early 20th century, cruisers could be placed on a consistent scale of warship size, smaller than a battleship but larger than a destroyer. In 1922, the Washington Naval Treaty placed a formal limit on cruisers, which were defined as warships of up to 10,000 tons displacement carrying guns no larger than 8 inches in calibre. These limits shaped cruisers up until the end of World War II. The very large battlecruisers of the World War I era were now classified, along with battleships, as capital ships.'
-		WHERE EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
+	SELECT 'TXT_KEY_CIV5_CRUISER_PEDIA', 'A cruiser is a type of warship. The term has been in use for several hundred years, and has had different meanings throughout this period. During the Age of Sail, the term cruising referred to certain kinds of missions: independent scouting, raiding or commerce protection fulfilled by a frigate or sloop, which were the cruising warships of a fleet. In the middle of the 19th century, cruiser came to be a classification for the ships intended for this kind of role, though cruisers came in a wide variety of sizes, from the small protected cruiser to armored cruisers which were as large (though not as powerful) as a battleship. By the early 20th century, cruisers could be placed on a consistent scale of warship size, smaller than a battleship but larger than a destroyer. In 1922, the Washington Naval Treaty placed a formal limit on cruisers, which were defined as warships of up to 10,000 tons displacement carrying guns no larger than 8 inches in calibre. These limits shaped cruisers up until the end of World War II. The very large battlecruisers of the World War I era were now classified, along with battleships, as capital ships.'
+	WHERE EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
 
 	INSERT INTO Language_ko_KR (Tag, Text)
-		SELECT 'TXT_KEY_CIV5_CRUISER_STRATEGY', 'Build Cruisers to augment your Ironclads, and to take control of the seas! Make sure you have plenty of Iron, however.'
-		WHERE EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
+	SELECT 'TXT_KEY_CIV5_CRUISER_STRATEGY', 'Build Cruisers to augment your Ironclads, and to take control of the seas! Make sure you have plenty of Iron, however.'
+	WHERE EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
 
 	INSERT INTO Language_ko_KR (Tag, Text)
-		SELECT 'TXT_KEY_CIV5_CRUISER_HELP', '해상 침입과 이전 시대의 해상 유닛에 피해를 주기위해 고안된 산업 시대 원거리 해상 유닛입니다.[NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]육지 공격은 연안 타일에서만 감행할 수 있습니다.[ENDCOLOR]'
-		WHERE EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
+	SELECT 'TXT_KEY_CIV5_CRUISER_HELP', '해상 침입과 이전 시대의 해상 유닛에 피해를 주기위해 고안된 산업 시대 원거리 해상 유닛입니다.[NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]육지 공격은 연안 타일에서만 감행할 수 있습니다.[ENDCOLOR]'
+	WHERE EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
 
 	UPDATE Language_ko_KR
 	SET Text = '해상을 장악하는 데 사용됐던 르네상스 시대의 강력한 해상 유닛입니다.[NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]육지 공격은 연안 타일에서만 감행할 수 있습니다.[ENDCOLOR]'
@@ -410,54 +411,54 @@
 	WHERE Tag = 'TXT_KEY_UNIT_CAVALRY_STRATEGY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
 	
 	INSERT INTO Language_ko_KR (Tag, Text)
-		SELECT 'TXT_KEY_DESC_CUIRASSIER', '흉갑기병'
-		WHERE EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
+	SELECT 'TXT_KEY_DESC_CUIRASSIER', '흉갑기병'
+	WHERE EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
 
 	INSERT INTO Language_ko_KR (Tag, Text)
-		SELECT 'TXT_KEY_CIV5_CUIRASSIER_PEDIA', 'Cuirassiers, from French cuirassier, were cavalry equipped with armour and firearms, first appearing in late 15th-century Europe. This French term means "the one with a cuirass" (cuirasse), the breastplate armour which they wore. The first cuirassiers were produced as a result of armoured cavalry, such as the man-at-arms and demi-lancer, discarding their lances and adopting the use of pistols as their primary weapon. In the later 17th century, the cuirassier lost his limb armour and subsequently employed only the cuirass (breastplate and backplate), and sometimes a helmet. By this time, the sword was the primary weapon of the cuirassier, pistols being relegated to a secondary function.'
-		WHERE EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
+	SELECT 'TXT_KEY_CIV5_CUIRASSIER_PEDIA', 'Cuirassiers, from French cuirassier, were cavalry equipped with armour and firearms, first appearing in late 15th-century Europe. This French term means "the one with a cuirass" (cuirasse), the breastplate armour which they wore. The first cuirassiers were produced as a result of armoured cavalry, such as the man-at-arms and demi-lancer, discarding their lances and adopting the use of pistols as their primary weapon. In the later 17th century, the cuirassier lost his limb armour and subsequently employed only the cuirass (breastplate and backplate), and sometimes a helmet. By this time, the sword was the primary weapon of the cuirassier, pistols being relegated to a secondary function.'
+	WHERE EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
 
 	INSERT INTO Language_ko_KR (Tag, Text)
-		SELECT 'TXT_KEY_CIV5_CUIRASSIER_STRATEGY', 'Cuirassiers are powerful Renaissance-Era units capable of rapid movement and deadly ranged attacks. Use them to harass the enemy and support your war effort.'
-		WHERE EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
+	SELECT 'TXT_KEY_CIV5_CUIRASSIER_STRATEGY', 'Cuirassiers are powerful Renaissance-Era units capable of rapid movement and deadly ranged attacks. Use them to harass the enemy and support your war effort.'
+	WHERE EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
 
 	INSERT INTO Language_ko_KR (Tag, Text)
-		SELECT 'TXT_KEY_CIV5_CUIRASSIER_HELP', '르네상스 시대의 강력한 원거리 기마 유닛입니다. 치고 빠지면서 적을 괴롭히는 전술에 유용합니다.'
-		WHERE EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
+	SELECT 'TXT_KEY_CIV5_CUIRASSIER_HELP', '르네상스 시대의 강력한 원거리 기마 유닛입니다. 치고 빠지면서 적을 괴롭히는 전술에 유용합니다.'
+	WHERE EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
 
 	INSERT INTO Language_ko_KR (Tag, Text)
-		SELECT 'TXT_KEY_DESC_MOUNTED_BOWMAN', '중산병'
-		WHERE EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
+	SELECT 'TXT_KEY_DESC_MOUNTED_BOWMAN', '중산병'
+	WHERE EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
 
 	INSERT INTO Language_ko_KR (Tag, Text)
-		SELECT 'TXT_KEY_CIV5_MOUNTED_BOWMAN_PEDIA', 'Mounted knights armed with lances proved ineffective against formations of pikemen combined with crossbowmen whose weapons could penetrate most knights'' armor. The invention of pushlever and ratchet drawing mechanisms enabled the use of crossbows on horseback, leading to the development of new cavalry tactics. Knights and mercenaries deployed in triangular formations, with the most heavily armored knights at the front. Some of these riders would carry small, powerful all-metal crossbows of their own. Crossbows were eventually replaced in warfare by more powerful gunpowder weapons, although early guns had slower rates of fire and much worse accuracy than contemporary crossbows. Later, similar competing tactics would feature harquebusiers or musketeers in formation with pikemen (pike and shot), pitted against cavalry firing pistols or carbines.'
-		WHERE EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
+	SELECT 'TXT_KEY_CIV5_MOUNTED_BOWMAN_PEDIA', 'Mounted knights armed with lances proved ineffective against formations of pikemen combined with crossbowmen whose weapons could penetrate most knights'' armor. The invention of pushlever and ratchet drawing mechanisms enabled the use of crossbows on horseback, leading to the development of new cavalry tactics. Knights and mercenaries deployed in triangular formations, with the most heavily armored knights at the front. Some of these riders would carry small, powerful all-metal crossbows of their own. Crossbows were eventually replaced in warfare by more powerful gunpowder weapons, although early guns had slower rates of fire and much worse accuracy than contemporary crossbows. Later, similar competing tactics would feature harquebusiers or musketeers in formation with pikemen (pike and shot), pitted against cavalry firing pistols or carbines.'
+	WHERE EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
 
 	INSERT INTO Language_ko_KR (Tag, Text)
-		SELECT 'TXT_KEY_CIV5_MOUNTED_BOWMAN_STRATEGY', 'Heavy Skirmishers are powerful Medieval-Era units capable of rapid movement and deadly ranged attacks. Use them to harass the enemy and support your war effort, but be careful about letting them get caught alone.'
-		WHERE EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
+	SELECT 'TXT_KEY_CIV5_MOUNTED_BOWMAN_STRATEGY', 'Heavy Skirmishers are powerful Medieval-Era units capable of rapid movement and deadly ranged attacks. Use them to harass the enemy and support your war effort, but be careful about letting them get caught alone.'
+	WHERE EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
 
 	INSERT INTO Language_ko_KR (Tag, Text)
-		SELECT 'TXT_KEY_CIV5_MOUNTED_BOWMAN_HELP', '강력한 중세 시대의 원거리 기마 유닛입니다. 치고 빠지면서 적을 괴롭히는 전술에 유용합니다.'
-		WHERE EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
+	SELECT 'TXT_KEY_CIV5_MOUNTED_BOWMAN_HELP', '강력한 중세 시대의 원거리 기마 유닛입니다. 치고 빠지면서 적을 괴롭히는 전술에 유용합니다.'
+	WHERE EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
 
 	-- Ranged
 
 	INSERT INTO Language_ko_KR (Tag, Text)
-		SELECT 'TXT_KEY_DESC_VOLLEY_GUN', '다연발 기관포'
-		WHERE EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
+	SELECT 'TXT_KEY_DESC_VOLLEY_GUN', '다연발 기관포'
+	WHERE EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
 
 	INSERT INTO Language_ko_KR (Tag, Text)
-		SELECT 'TXT_KEY_CIV5_VOLLEY_GUN_PEDIA', 'A volley gun is a gun with several barrels for firing a number of shots, either simultaneously or in sequence. They differ from modern machine guns in that they lack automatic loading and automatic fire and are limited by the number of barrels bundled together. '
-		WHERE EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
+	SELECT 'TXT_KEY_CIV5_VOLLEY_GUN_PEDIA', 'A volley gun is a gun with several barrels for firing a number of shots, either simultaneously or in sequence. They differ from modern machine guns in that they lack automatic loading and automatic fire and are limited by the number of barrels bundled together. '
+	WHERE EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
 
 	INSERT INTO Language_ko_KR (Tag, Text)
-		SELECT 'TXT_KEY_CIV5_VOLLEY_GUN_STRATEGY', 'Volley Guns are a powerful Renaissance ranged weapon, though they are quite vulnerable to Melee. Keep them away from your front lines.'
-		WHERE EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
+	SELECT 'TXT_KEY_CIV5_VOLLEY_GUN_STRATEGY', 'Volley Guns are a powerful Renaissance ranged weapon, though they are quite vulnerable to Melee. Keep them away from your front lines.'
+	WHERE EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
 
 	INSERT INTO Language_ko_KR (Tag, Text)
-		SELECT 'TXT_KEY_CIV5_VOLLEY_GUN_HELP', '머스킷총병을 지원하도록 설계된 르네상스 시대의 원거리 지상 유닛입니다.'
-		WHERE EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
+	SELECT 'TXT_KEY_CIV5_VOLLEY_GUN_HELP', '머스킷총병을 지원하도록 설계된 르네상스 시대의 원거리 지상 유닛입니다.'
+	WHERE EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
 
 	UPDATE Language_ko_KR
 	SET Text = '주변의 적 유닛을 약화시키는 게임 중반의 원거리 보병 유닛입니다.'
@@ -499,9 +500,17 @@
 
 
 	UPDATE Language_ko_KR
-	SET Text = '{1_MinorCivName:textkey}{1: plural 1?이; 2?가;} 개종을 원합니다!'
+	SET Text = '{1_MinorCivName:textkey}{1_MinorCivName: plural 1?이; 2?가;} 개종을 원합니다!'
 	WHERE Tag = 'TXT_KEY_NOTIFICATION_SUMMARY_QUEST_CONTEST_FAITH' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
 
 	UPDATE Language_ko_KR
-	SET Text = '또 다른 종교가 {1_MinorCivName:textkey}{1: plural 1?은; 2?는;}의 신앙심에 깊은 인상을 남겼습니다. 당신 문명의 신앙 생성 속도가 충분하지 않아 해당 도시 국가와의 [ICON_INFLUENCE]영향력에 변함이 없습니다. 성공한 문명(동점 허용):[NEWLINE]'
+	SET Text = '또 다른 종교가 {1_MinorCivName:textkey}{1_MinorCivName: plural 1?은; 2?는;}의 신앙심에 깊은 인상을 남겼습니다. 당신 문명의 신앙 생성 속도가 충분하지 않아 해당 도시 국가와의 [ICON_INFLUENCE]영향력에 변함이 없습니다. 성공한 문명(동점 허용):[NEWLINE]'
 	WHERE Tag = 'TXT_KEY_NOTIFICATION_QUEST_ENDED_CONTEST_FAITH' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
+	
+	--내가추가
+	
+	UPDATE Language_ko_KR
+	SET Text = '포병대'
+	WHERE Tag = 'TXT_KEY_UNIT_ARTILLERY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
+		
+	

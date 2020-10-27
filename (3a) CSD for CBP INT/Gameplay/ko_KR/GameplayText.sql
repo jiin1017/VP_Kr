@@ -21,7 +21,7 @@ SET Text = '당신은 {1_CityStateName:textkey}의 화를 불러 일으킬 어�
 WHERE Tag = 'TXT_KEY_ANGRY_CSTATE_TT' AND EXISTS (SELECT * FROM CSD WHERE Type='CSD_TEXT' AND Value= 1 );
 
 UPDATE Language_ko_KR
-SET Text = '{1_CityStateName:textkey}{1: plural 1?이; 2?가;} 당신을 좋아하든지 싫어하든지 당신은 [ICON_INFLUENCE]영향력을 증가시키기 위해서 외교 유닛을 보내야만 합니다.'
+SET Text = '{1_CityStateName:textkey}{1_CityStateName: plural 1?이; 2?가;} 당신을 좋아하든지 싫어하든지 당신은 [ICON_INFLUENCE]영향력을 증가시키기 위해서 외교 유닛을 보내야만 합니다.'
 WHERE Tag = 'TXT_KEY_NEUTRAL_CSTATE_TT' AND EXISTS (SELECT * FROM CSD WHERE Type='CSD_TEXT' AND Value= 1 );
 
 UPDATE Language_ko_KR

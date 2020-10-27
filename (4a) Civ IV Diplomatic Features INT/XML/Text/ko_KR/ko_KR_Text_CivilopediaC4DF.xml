@@ -19,7 +19,7 @@
 		</Row>
 		<Row Tag="TXT_KEY_ABLTY_VASSALAGE_STRING">
 			<Text>종속국 협정을 맺을 수 있습니다.</Text>
-		</Row>		
+		</Row>
 		<Row Tag="TXT_KEY_CONCEPT_DIPLOMACY_MAP_TRADING_TOPIC">
 			<Text>지도 거래</Text>
 		</Row>
@@ -46,7 +46,7 @@
 		</Row>
 		<Replace Tag="TXT_KEY_GAME_CONCEPT_SECTION_26">
 			<Text>종속국 협정</Text>
-		</Replace>	
+		</Replace>
 		<Row Tag="TXT_KEY_CONCEPT_VASSALAGE_OVERVIEW_TOPIC">
 			<Text>종속국 협정</Text>
 		</Row>

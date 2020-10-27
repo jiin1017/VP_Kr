@@ -39,24 +39,25 @@
 			<Text>유닛 체력</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CULTURE_FROM_EMPIRE_POPULATION">
-			<Text>{1_Num} [ICON_CULTURE]제국 전역의 [ICON_CITIZEN]시민에서</Text>
+			<Text>[COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR]  [ICON_CULTURE]제국 전역의 [ICON_CITIZEN]시민에서</Text>
 		</Row>
 		<Row Tag="TXT_KEY_FAITH_FROM_EMPIRE_POP">
-			<Text>{1_Num} [ICON_PEACE]제국 전역의 [ICON_CITIZEN]시민에서</Text>
+			<Text>[COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR]  [ICON_PEACE]제국 전역의 [ICON_CITIZEN]시민에서</Text>
 		</Row>
 		<Row Tag="TXT_KEY_YIELD_FROM_EMPIRE_POP_EXTRA">
-			<Text>{1_Num} 추가 {2_IconString}제국 전역의 [ICON_CITIZEN]시민에서</Text>
+			<Text>[COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR]  {2_IconString}제국 전역의 [ICON_CITIZEN]시민에서</Text>
 		</Row>
-		
 		<!-- America - Flavoured -->
 		<Row Tag="TXT_KEY_SPY_NAME_AMERICA_10">
 			<Text>스노든</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_AMERICA_11">
-			<Text>마일스</Text>          <Plurality>2</Plurality>
+			<Text>마일스</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_AMERICA_12">
-			<Text>도널드</Text>          <Plurality>2</Plurality>
+			<Text>도널드</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_AMERICA_13">
 			<Text>앨저넌</Text>
@@ -65,15 +66,18 @@
 			<Text>본</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_AMERICA_15">
-			<Text>리디아</Text>          <Plurality>2</Plurality>
+			<Text>리디아</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_AMERICA_16">
-			<Text>콘스탄스</Text>          <Plurality>2</Plurality>
+			<Text>콘스탄스</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_AMERICA_17">
-			<Text>줄리아</Text>          <Plurality>2</Plurality>
+			<Text>줄리아</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_AMERICA_18">
@@ -81,20 +85,23 @@
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_AMERICA_19">
-			<Text>휘태커</Text>          <Plurality>2</Plurality>
+			<Text>휘태커</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_AMERICA_20">
 			<Text>존</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_AMERICA_21">
-			<Text>로버트</Text>          <Plurality>2</Plurality>
+			<Text>로버트</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_AMERICA_22">
 			<Text>존스 부인</Text>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_AMERICA_23">
-			<Text>리처드</Text>          <Plurality>2</Plurality>
+			<Text>리처드</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_AMERICA_24">
 			<Text>엉클</Text>
@@ -104,51 +111,62 @@
 			<Text>할릴</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_ARABIA_11">
-			<Text>바하무트</Text>          <Plurality>2</Plurality>
+			<Text>바하무트</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_ARABIA_12">
 			<Text>히샴</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_ARABIA_13">
-			<Text>가리브</Text>          <Plurality>2</Plurality>
+			<Text>가리브</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_ARABIA_14">
 			<Text>야스민</Text>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_ARABIA_15">
-			<Text>아미르</Text>          <Plurality>2</Plurality>
+			<Text>아미르</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_ARABIA_16">
 			<Text>파딜</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_ARABIA_17">
-			<Text>할릴라</Text>          <Plurality>2</Plurality>
+			<Text>할릴라</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_ARABIA_18">
-			<Text>자히다</Text>          <Plurality>2</Plurality>
+			<Text>자히다</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_ARABIA_19">
-			<Text>파히마</Text>          <Plurality>2</Plurality>
+			<Text>파히마</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_ARABIA_20">
-			<Text>샬레</Text>          <Plurality>2</Plurality>
+			<Text>샬레</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_ARABIA_21">
-			<Text>타흐미드</Text>          <Plurality>2</Plurality>
+			<Text>타흐미드</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_ARABIA_22">
-			<Text>하니야</Text>          <Plurality>2</Plurality>
+			<Text>하니야</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_ARABIA_23">
-			<Text>라피크</Text>          <Plurality>2</Plurality>
+			<Text>라피크</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_ARABIA_24">
-			<Text>오사마</Text>          <Plurality>2</Plurality>
+			<Text>오사마</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<!-- Aztec - Flavoured -->
 		<Row Tag="TXT_KEY_SPY_NAME_AZTEC_10">
@@ -159,7 +177,8 @@
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_AZTEC_12">
-			<Text>실리소치</Text>          <Plurality>2</Plurality>
+			<Text>실리소치</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_AZTEC_13">
@@ -175,7 +194,8 @@
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_AZTEC_16">
-			<Text>센테후아</Text>          <Plurality>2</Plurality>
+			<Text>센테후아</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_AZTEC_17">
@@ -185,44 +205,53 @@
 			<Text>나후아틀</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_AZTEC_19">
-			<Text>틀라로크</Text>          <Plurality>2</Plurality>
+			<Text>틀라로크</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_AZTEC_20">
-			<Text>토츠틀리</Text>          <Plurality>2</Plurality>
+			<Text>토츠틀리</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_AZTEC_21">
-			<Text>틀라초필리</Text>          <Plurality>2</Plurality>
+			<Text>틀라초필리</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_AZTEC_22">
-			<Text>익스틀리</Text>          <Plurality>2</Plurality>
+			<Text>익스틀리</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_AZTEC_23">
 			<Text>이후이카틀</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_AZTEC_24">
-			<Text>이카우흐틀리</Text>          <Plurality>2</Plurality>
+			<Text>이카우흐틀리</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<!-- China - Flavoured -->
 		<Row Tag="TXT_KEY_SPY_NAME_CHINA_10">
 			<Text>창</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_CHINA_11">
-			<Text>슈웨이</Text>          <Plurality>2</Plurality>
+			<Text>슈웨이</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_CHINA_12">
 			<Text>샹</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_CHINA_13">
-			<Text>슈슈</Text>          <Plurality>2</Plurality>
+			<Text>슈슈</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_CHINA_14">
-			<Text>타이</Text>          <Plurality>2</Plurality>
+			<Text>타이</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_CHINA_15">
 			<Text>정</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_CHINA_16">
-			<Text>지</Text>          <Plurality>2</Plurality>
+			<Text>지</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_CHINA_17">
@@ -230,103 +259,127 @@
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_CHINA_18">
-			<Text>하이</Text>          <Plurality>2</Plurality>
+			<Text>하이</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_CHINA_19">
-			<Text>보</Text>          <Plurality>2</Plurality>
+			<Text>보</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_CHINA_20">
-			<Text>웨이</Text>          <Plurality>2</Plurality>
+			<Text>웨이</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_CHINA_21">
 			<Text>웬</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_CHINA_22">
-			<Text>씨우</Text>          <Plurality>2</Plurality>
+			<Text>씨우</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_CHINA_23">
 			<Text>홍</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_CHINA_24">
-			<Text>궈</Text>          <Plurality>2</Plurality>
+			<Text>궈</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<!-- Egypt - Flavoured -->
 		<Row Tag="TXT_KEY_SPY_NAME_EGYPT_10">
-			<Text>아크</Text>          <Plurality>2</Plurality>
+			<Text>아크</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_EGYPT_11">
-			<Text>파두바스트</Text>          <Plurality>2</Plurality>
+			<Text>파두바스트</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_EGYPT_12">
 			<Text>체프렌</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_EGYPT_13">
-			<Text>메네스</Text>          <Plurality>2</Plurality>
+			<Text>메네스</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_EGYPT_14">
 			<Text>브라힘</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_EGYPT_15">
-			<Text>안쿠</Text>          <Plurality>2</Plurality>
+			<Text>안쿠</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_EGYPT_16">
-			<Text>호테페테스</Text>          <Plurality>2</Plurality>
+			<Text>호테페테스</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_EGYPT_17">
-			<Text>카타</Text>          <Plurality>2</Plurality>
+			<Text>카타</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_EGYPT_18">
-			<Text>베넴바</Text>          <Plurality>2</Plurality>
+			<Text>베넴바</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_EGYPT_19">
-			<Text>소프</Text>          <Plurality>2</Plurality>
+			<Text>소프</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_EGYPT_20">
-			<Text>테르무시스</Text>          <Plurality>2</Plurality>
+			<Text>테르무시스</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_EGYPT_21">
-			<Text>벡트무트</Text>          <Plurality>2</Plurality>
+			<Text>벡트무트</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_EGYPT_22">
-			<Text>레부</Text>          <Plurality>2</Plurality>
+			<Text>레부</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_EGYPT_23">
-			<Text>쿠푸</Text>          <Plurality>2</Plurality>
+			<Text>쿠푸</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_EGYPT_24">
-			<Text>세베크</Text>          <Plurality>2</Plurality>
+			<Text>세베크</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<!-- England - Flavoured -->
 		<Row Tag="TXT_KEY_SPY_NAME_ENGLAND_10">
-			<Text>본드</Text>          <Plurality>2</Plurality>
+			<Text>본드</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_ENGLAND_11">
-			<Text>퍼시</Text>          <Plurality>2</Plurality>
+			<Text>퍼시</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_ENGLAND_12">
-			<Text>스마일리</Text>          <Plurality>2</Plurality>
+			<Text>스마일리</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_ENGLAND_13">
-			<Text>머니페니</Text>          <Plurality>2</Plurality>
+			<Text>머니페니</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_ENGLAND_14">
-			<Text>그레이스</Text>          <Plurality>2</Plurality>
+			<Text>그레이스</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_ENGLAND_15">
-			<Text>밀리센트</Text>          <Plurality>2</Plurality>
+			<Text>밀리센트</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_ENGLAND_16">
@@ -334,7 +387,8 @@
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_ENGLAND_17">
-			<Text>베아트리체</Text>          <Plurality>2</Plurality>
+			<Text>베아트리체</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_ENGLAND_18">
@@ -345,105 +399,129 @@
 			<Text>플레밍</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_ENGLAND_20">
-			<Text>언티</Text>          <Plurality>2</Plurality>
+			<Text>언티</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_ENGLAND_21">
-			<Text>베네딕트</Text>          <Plurality>2</Plurality>
+			<Text>베네딕트</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_ENGLAND_22">
-			<Text>알리스테어</Text>          <Plurality>2</Plurality>
+			<Text>알리스테어</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_ENGLAND_23">
 			<Text>메를린</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_ENGLAND_24">
-			<Text>스펜서</Text>          <Plurality>2</Plurality>
+			<Text>스펜서</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<!-- France - Flavoured -->
 		<Row Tag="TXT_KEY_SPY_NAME_FRANCE_10">
 			<Text>아드리앙</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_FRANCE_11">
-			<Text>클로드</Text>          <Plurality>2</Plurality>
+			<Text>클로드</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_FRANCE_12">
 			<Text>알랭</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_FRANCE_13">
-			<Text>제라르</Text>          <Plurality>2</Plurality>
+			<Text>제라르</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_FRANCE_14">
-			<Text>카미유</Text>          <Plurality>2</Plurality>
+			<Text>카미유</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_FRANCE_15">
-			<Text>피에르</Text>          <Plurality>2</Plurality>
+			<Text>피에르</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_FRANCE_16">
-			<Text>슈발리에</Text>          <Plurality>2</Plurality>
+			<Text>슈발리에</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_FRANCE_17">
 			<Text>미셸</Text>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_FRANCE_18">
-			<Text>수잔느</Text>          <Plurality>2</Plurality>
+			<Text>수잔느</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_FRANCE_19">
-			<Text>헨리</Text>          <Plurality>2</Plurality>
+			<Text>헨리</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_FRANCE_20">
-			<Text>니네뜨</Text>          <Plurality>2</Plurality>
+			<Text>니네뜨</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_FRANCE_21">
-			<Text>에본느</Text>          <Plurality>2</Plurality>
+			<Text>에본느</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_FRANCE_22">
-			<Text>블레이즈</Text>          <Plurality>2</Plurality>
+			<Text>블레이즈</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_FRANCE_23">
-			<Text>그르누이</Text>          <Plurality>2</Plurality>
+			<Text>그르누이</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_FRANCE_24">
 			<Text>옹클</Text>
 		</Row>
 		<!-- Germany - Flavoured -->
 		<Row Tag="TXT_KEY_SPY_NAME_GERMANY_10">
-			<Text>안드레아스</Text>          <Plurality>2</Plurality>
+			<Text>안드레아스</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_GERMANY_11">
-			<Text>테오도어</Text>          <Plurality>2</Plurality>
+			<Text>테오도어</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_GERMANY_12">
 			<Text>임마누엘</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_GERMANY_13">
-			<Text>안자</Text>          <Plurality>2</Plurality>
+			<Text>안자</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_GERMANY_14">
-			<Text>에리히</Text>          <Plurality>2</Plurality>
+			<Text>에리히</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_GERMANY_15">
-			<Text>라이너</Text>          <Plurality>2</Plurality>
+			<Text>라이너</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_GERMANY_16">
-			<Text>게르하르트</Text>          <Plurality>2</Plurality>
+			<Text>게르하르트</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_GERMANY_17">
-			<Text>마레이케</Text>          <Plurality>2</Plurality>
+			<Text>마레이케</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_GERMANY_18">
-			<Text>한나</Text>          <Plurality>2</Plurality>
+			<Text>한나</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_GERMANY_19">
-			<Text>엘케</Text>          <Plurality>2</Plurality>
+			<Text>엘케</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_GERMANY_20">
@@ -451,27 +529,33 @@
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_GERMANY_21">
-			<Text>쉬만스키</Text>          <Plurality>2</Plurality>
+			<Text>쉬만스키</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_GERMANY_22">
-			<Text>콘라트</Text>          <Plurality>2</Plurality>
+			<Text>콘라트</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_GERMANY_23">
-			<Text>막스</Text>          <Plurality>2</Plurality>
+			<Text>막스</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_GERMANY_24">
 			<Text>볼프강</Text>
 		</Row>
 		<!-- Greece - flavoured -->
 		<Row Tag="TXT_KEY_SPY_NAME_GREECE_10">
-			<Text>아르세니오스</Text>          <Plurality>2</Plurality>
+			<Text>아르세니오스</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_GREECE_11">
-			<Text>라이지아</Text>          <Plurality>2</Plurality>
+			<Text>라이지아</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_GREECE_12">
-			<Text>니칸드로스</Text>          <Plurality>2</Plurality>
+			<Text>니칸드로스</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_GREECE_13">
 			<Text>헤론</Text>
@@ -481,7 +565,8 @@
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_GREECE_15">
-			<Text>에우티키아</Text>          <Plurality>2</Plurality>
+			<Text>에우티키아</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_GREECE_16">
@@ -491,219 +576,275 @@
 			<Text>켈론</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_GREECE_18">
-			<Text>크리산테</Text>          <Plurality>2</Plurality>
+			<Text>크리산테</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_GREECE_19">
-			<Text>테오필라</Text>          <Plurality>2</Plurality>
+			<Text>테오필라</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_GREECE_20">
-			<Text>피오베</Text>          <Plurality>2</Plurality>
+			<Text>피오베</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_GREECE_21">
-			<Text>파이드로스</Text>          <Plurality>2</Plurality>
+			<Text>파이드로스</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_GREECE_22">
-			<Text>조시메</Text>          <Plurality>2</Plurality>
+			<Text>조시메</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_GREECE_23">
 			<Text>스트라톤</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_GREECE_24">
-			<Text>이올라우스</Text>          <Plurality>2</Plurality>
+			<Text>이올라우스</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<!-- India - flavoured -->
 		<Row Tag="TXT_KEY_SPY_NAME_INDIA_10">
-			<Text>찬드라</Text>          <Plurality>2</Plurality>
+			<Text>찬드라</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_INDIA_11">
-			<Text>마힌데르</Text>          <Plurality>2</Plurality>
+			<Text>마힌데르</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_INDIA_12">
-			<Text>자스빈데르</Text>          <Plurality>2</Plurality>
+			<Text>자스빈데르</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_INDIA_13">
-			<Text>기리쉬</Text>          <Plurality>2</Plurality>
+			<Text>기리쉬</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_INDIA_14">
 			<Text>디팍</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_INDIA_15">
-			<Text>프라부</Text>          <Plurality>2</Plurality>
+			<Text>프라부</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_INDIA_16">
-			<Text>라빈드라</Text>          <Plurality>2</Plurality>
+			<Text>라빈드라</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_INDIA_17">
-			<Text>브리트라</Text>          <Plurality>2</Plurality>
+			<Text>브리트라</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_INDIA_18">
-			<Text>사랄라</Text>          <Plurality>2</Plurality>
+			<Text>사랄라</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_INDIA_19">
-			<Text>카시</Text>          <Plurality>2</Plurality>
+			<Text>카시</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_INDIA_20">
-			<Text>라바냐</Text>          <Plurality>2</Plurality>
+			<Text>라바냐</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_INDIA_21">
-			<Text>암리타</Text>          <Plurality>2</Plurality>
+			<Text>암리타</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_INDIA_22">
-			<Text>우마</Text>          <Plurality>2</Plurality>
+			<Text>우마</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_INDIA_23">
-			<Text>타라</Text>          <Plurality>2</Plurality>
+			<Text>타라</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_INDIA_24">
-			<Text>기타</Text>          <Plurality>2</Plurality>
+			<Text>기타</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<!-- Iroquois - flavoured -->
 		<Row Tag="TXT_KEY_SPY_NAME_IROQUOIS_10">
-			<Text>데카나위다</Text>          <Plurality>2</Plurality>
+			<Text>데카나위다</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_IROQUOIS_11">
-			<Text>쉐난도아</Text>          <Plurality>2</Plurality>
+			<Text>쉐난도아</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_IROQUOIS_12">
-			<Text>오렌다</Text>          <Plurality>2</Plurality>
+			<Text>오렌다</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_IROQUOIS_13">
-			<Text>테카크위다</Text>          <Plurality>2</Plurality>
+			<Text>테카크위다</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_IROQUOIS_14">
-			<Text>오헤오</Text>          <Plurality>2</Plurality>
+			<Text>오헤오</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_IROQUOIS_15">
-			<Text>아드실라</Text>          <Plurality>2</Plurality>
+			<Text>아드실라</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_IROQUOIS_16">
-			<Text>카니데아</Text>          <Plurality>2</Plurality>
+			<Text>카니데아</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_IROQUOIS_17">
 			<Text>사켐</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_IROQUOIS_18">
-			<Text>와타</Text>          <Plurality>2</Plurality>
+			<Text>와타</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_IROQUOIS_19">
-			<Text>하다와코</Text>          <Plurality>2</Plurality>
+			<Text>하다와코</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_IROQUOIS_20">
-			<Text>쉬우가</Text>          <Plurality>2</Plurality>
+			<Text>쉬우가</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_IROQUOIS_21">
-			<Text>쉬켈라미</Text>          <Plurality>2</Plurality>
+			<Text>쉬켈라미</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_IROQUOIS_22">
-			<Text>호사고와</Text>          <Plurality>2</Plurality>
+			<Text>호사고와</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_IROQUOIS_23">
-			<Text>가라콘티</Text>          <Plurality>2</Plurality>
+			<Text>가라콘티</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_IROQUOIS_24">
 			<Text>에리엘호난</Text>
 		</Row>
 		<!-- Japan -->
 		<Row Tag="TXT_KEY_SPY_NAME_JAPAN_10">
-			<Text>아키라</Text>          <Plurality>2</Plurality>
+			<Text>아키라</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_JAPAN_11">
-			<Text>타케시</Text>          <Plurality>2</Plurality>
+			<Text>타케시</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_JAPAN_12">
-			<Text>오지</Text>          <Plurality>2</Plurality>
+			<Text>오지</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_JAPAN_13">
-			<Text>시로</Text>          <Plurality>2</Plurality>
+			<Text>시로</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_JAPAN_14">
-			<Text>오로치</Text>          <Plurality>2</Plurality>
+			<Text>오로치</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_JAPAN_15">
-			<Text>노보루</Text>          <Plurality>2</Plurality>
+			<Text>노보루</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_JAPAN_16">
-			<Text>유이치</Text>          <Plurality>2</Plurality>
+			<Text>유이치</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_JAPAN_17">
-			<Text>미키오</Text>          <Plurality>2</Plurality>
+			<Text>미키오</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_JAPAN_18">
-			<Text>유리코</Text>          <Plurality>2</Plurality>
+			<Text>유리코</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_JAPAN_19">
-			<Text>우사기</Text>          <Plurality>2</Plurality>
+			<Text>우사기</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_JAPAN_20">
-			<Text>소라</Text>          <Plurality>2</Plurality>
+			<Text>소라</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_JAPAN_21">
-			<Text>아마야</Text>          <Plurality>2</Plurality>
+			<Text>아마야</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_JAPAN_22">
-			<Text>하루카</Text>          <Plurality>2</Plurality>
+			<Text>하루카</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_JAPAN_23">
-			<Text>치요코</Text>          <Plurality>2</Plurality>
+			<Text>치요코</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_JAPAN_24">
-			<Text>나츠코</Text>          <Plurality>2</Plurality>
+			<Text>나츠코</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<!-- Ottoman - Flavoured -->
 		<Row Tag="TXT_KEY_SPY_NAME_OTTOMAN_10">
-			<Text>에미르</Text>          <Plurality>2</Plurality>
+			<Text>에미르</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_OTTOMAN_11">
 			<Text>하산</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_OTTOMAN_12">
-			<Text>멜리케</Text>          <Plurality>2</Plurality>
+			<Text>멜리케</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_OTTOMAN_13">
-			<Text>베키르</Text>          <Plurality>2</Plurality>
+			<Text>베키르</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_OTTOMAN_14">
-			<Text>딜베르</Text>          <Plurality>2</Plurality>
+			<Text>딜베르</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_OTTOMAN_15">
-			<Text>무스타파</Text>          <Plurality>2</Plurality>
+			<Text>무스타파</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_OTTOMAN_16">
-			<Text>사라</Text>          <Plurality>2</Plurality>
+			<Text>사라</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_OTTOMAN_17">
-			<Text>아브라노스</Text>          <Plurality>2</Plurality>
+			<Text>아브라노스</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_OTTOMAN_18">
-			<Text>하디스</Text>          <Plurality>2</Plurality>
+			<Text>하디스</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_OTTOMAN_19">
@@ -717,11 +858,13 @@
 			<Text>티무르한</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_OTTOMAN_22">
-			<Text>파티마</Text>          <Plurality>2</Plurality>
+			<Text>파티마</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_OTTOMAN_23">
-			<Text>야쿠브</Text>          <Plurality>2</Plurality>
+			<Text>야쿠브</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_OTTOMAN_24">
 			<Text>케말</Text>
@@ -731,36 +874,45 @@
 			<Text>아흐리만</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_PERSIA_11">
-			<Text>메리크</Text>          <Plurality>2</Plurality>
+			<Text>메리크</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_PERSIA_12">
-			<Text>코다다드</Text>          <Plurality>2</Plurality>
+			<Text>코다다드</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_PERSIA_13">
-			<Text>나비드</Text>          <Plurality>2</Plurality>
+			<Text>나비드</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_PERSIA_14">
-			<Text>파파크</Text>          <Plurality>2</Plurality>
+			<Text>파파크</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_PERSIA_15">
-			<Text>소흐라브</Text>          <Plurality>2</Plurality>
+			<Text>소흐라브</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_PERSIA_16">
-			<Text>셰르</Text>          <Plurality>2</Plurality>
+			<Text>셰르</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_PERSIA_17">
 			<Text>바흐람</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_PERSIA_18">
-			<Text>레일라</Text>          <Plurality>2</Plurality>
+			<Text>레일라</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_PERSIA_19">
-			<Text>에스테르</Text>          <Plurality>2</Plurality>
+			<Text>에스테르</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_PERSIA_20">
-			<Text>제나나</Text>          <Plurality>2</Plurality>
+			<Text>제나나</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_PERSIA_21">
@@ -768,125 +920,158 @@
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_PERSIA_22">
-			<Text>나히드</Text>          <Plurality>2</Plurality>
+			<Text>나히드</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_PERSIA_23">
-			<Text>아나히타</Text>          <Plurality>2</Plurality>
+			<Text>아나히타</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_PERSIA_24">
-			<Text>파리</Text>          <Plurality>2</Plurality>
+			<Text>파리</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<!-- Rome - Flavoured -->
 		<Row Tag="TXT_KEY_SPY_NAME_ROME_10">
-			<Text>카엘리우스</Text>          <Plurality>2</Plurality>
+			<Text>카엘리우스</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_ROME_11">
-			<Text>도미티아</Text>          <Plurality>2</Plurality>
+			<Text>도미티아</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_ROME_12">
-			<Text>베스페루스</Text>          <Plurality>2</Plurality>
+			<Text>베스페루스</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_ROME_13">
-			<Text>발레리아</Text>          <Plurality>2</Plurality>
+			<Text>발레리아</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_ROME_14">
-			<Text>퀸투스</Text>          <Plurality>2</Plurality>
+			<Text>퀸투스</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_ROME_15">
-			<Text>아우렐리아</Text>          <Plurality>2</Plurality>
+			<Text>아우렐리아</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_ROME_16">
-			<Text>셉티무스</Text>          <Plurality>2</Plurality>
+			<Text>셉티무스</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_ROME_17">
-			<Text>히아킨타</Text>          <Plurality>2</Plurality>
+			<Text>히아킨타</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_ROME_18">
-			<Text>아분쿨루스</Text>          <Plurality>2</Plurality>
+			<Text>아분쿨루스</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_ROME_19">
-			<Text>카엘리시아</Text>          <Plurality>2</Plurality>
+			<Text>카엘리시아</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_ROME_20">
-			<Text>티투스</Text>          <Plurality>2</Plurality>
+			<Text>티투스</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_ROME_21">
-			<Text>툴리아</Text>          <Plurality>2</Plurality>
+			<Text>툴리아</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_ROME_22">
-			<Text>파비아누스</Text>          <Plurality>2</Plurality>
+			<Text>파비아누스</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_ROME_23">
-			<Text>페트로니우스</Text>          <Plurality>2</Plurality>
+			<Text>페트로니우스</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_ROME_24">
-			<Text>비투스</Text>          <Plurality>2</Plurality>
+			<Text>비투스</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<!-- Russia - Flavoured -->
 		<Row Tag="TXT_KEY_SPY_NAME_RUSSIA_10">
-			<Text>이고르</Text>          <Plurality>2</Plurality>
+			<Text>이고르</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_RUSSIA_11">
-			<Text>그리고리</Text>          <Plurality>2</Plurality>
+			<Text>그리고리</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_RUSSIA_12">
-			<Text>마그달리나</Text>          <Plurality>2</Plurality>
+			<Text>마그달리나</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_RUSSIA_13">
-			<Text>카텐카</Text>          <Plurality>2</Plurality>
+			<Text>카텐카</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_RUSSIA_14">
-			<Text>소피야</Text>          <Plurality>2</Plurality>
+			<Text>소피야</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_RUSSIA_15">
-			<Text>율리아</Text>          <Plurality>2</Plurality>
+			<Text>율리아</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_RUSSIA_16">
-			<Text>조야</Text>          <Plurality>2</Plurality>
+			<Text>조야</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_RUSSIA_17">
-			<Text>이리나</Text>          <Plurality>2</Plurality>
+			<Text>이리나</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_RUSSIA_18">
-			<Text>엘레나</Text>          <Plurality>2</Plurality>
+			<Text>엘레나</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_RUSSIA_19">
-			<Text>댜댜</Text>          <Plurality>2</Plurality>
+			<Text>댜댜</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_RUSSIA_20">
-			<Text>콜모고로프</Text>          <Plurality>2</Plurality>
+			<Text>콜모고로프</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_RUSSIA_21">
 			<Text>막심</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_RUSSIA_22">
-			<Text>발레리</Text>          <Plurality>2</Plurality>
+			<Text>발레리</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_RUSSIA_23">
-			<Text>유리</Text>          <Plurality>2</Plurality>
+			<Text>유리</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_RUSSIA_24">
-			<Text>페도시</Text>          <Plurality>2</Plurality>
+			<Text>페도시</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<!-- Siam - flavoured -->
 		<Row Tag="TXT_KEY_SPY_NAME_SIAM_10">
-			<Text>라마이</Text>          <Plurality>2</Plurality>
+			<Text>라마이</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_SIAM_11">
@@ -894,7 +1079,8 @@
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_SIAM_12">
-			<Text>부사다</Text>          <Plurality>2</Plurality>
+			<Text>부사다</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_SIAM_13">
@@ -926,171 +1112,215 @@
 			<Text>틴나코른</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_SIAM_21">
-			<Text>피야부트르</Text>          <Plurality>2</Plurality>
+			<Text>피야부트르</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_SIAM_22">
 			<Text>솜분</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_SIAM_23">
-			<Text>프라세르트</Text>          <Plurality>2</Plurality>
+			<Text>프라세르트</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_SIAM_24">
-			<Text>몽쿠트</Text>          <Plurality>2</Plurality>
+			<Text>몽쿠트</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<!-- Songhai - flavoured -->
 		<Row Tag="TXT_KEY_SPY_NAME_SONGHAI_10">
-			<Text>에케네</Text>          <Plurality>2</Plurality>
+			<Text>에케네</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_SONGHAI_11">
-			<Text>축스</Text>          <Plurality>2</Plurality>
+			<Text>축스</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_SONGHAI_12">
-			<Text>올루분미</Text>          <Plurality>2</Plurality>
+			<Text>올루분미</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_SONGHAI_13">
-			<Text>에니올라</Text>          <Plurality>2</Plurality>
+			<Text>에니올라</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_SONGHAI_14">
-			<Text>이메</Text>          <Plurality>2</Plurality>
+			<Text>이메</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_SONGHAI_15">
-			<Text>올라보데</Text>          <Plurality>2</Plurality>
+			<Text>올라보데</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_SONGHAI_16">
-			<Text>예완데</Text>          <Plurality>2</Plurality>
+			<Text>예완데</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_SONGHAI_17">
-			<Text>알라바</Text>          <Plurality>2</Plurality>
+			<Text>알라바</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_SONGHAI_18">
-			<Text>시미오솔라</Text>          <Plurality>2</Plurality>
+			<Text>시미오솔라</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_SONGHAI_19">
-			<Text>폴라미</Text>          <Plurality>2</Plurality>
+			<Text>폴라미</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_SONGHAI_20">
-			<Text>카요데</Text>          <Plurality>2</Plurality>
+			<Text>카요데</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_SONGHAI_21">
-			<Text>모니파</Text>          <Plurality>2</Plurality>
+			<Text>모니파</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_SONGHAI_22">
-			<Text>아비데미</Text>          <Plurality>2</Plurality>
+			<Text>아비데미</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_SONGHAI_23">
-			<Text>바바지데</Text>          <Plurality>2</Plurality>
+			<Text>바바지데</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_SONGHAI_24">
 			<Text>에니탄</Text>
 		</Row>
 		<!-- Austria - Flavoured -->
 		<Row Tag="TXT_KEY_SPY_NAME_AUSTRIA_10">
-			<Text>루카스</Text>          <Plurality>2</Plurality>
+			<Text>루카스</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_AUSTRIA_11">
 			<Text>막시밀리안</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_AUSTRIA_12">
-			<Text>니클라스</Text>          <Plurality>2</Plurality>
+			<Text>니클라스</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_AUSTRIA_13">
-			<Text>도미니크</Text>          <Plurality>2</Plurality>
+			<Text>도미니크</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_AUSTRIA_14">
-			<Text>로렌츠</Text>          <Plurality>2</Plurality>
+			<Text>로렌츠</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_AUSTRIA_15">
-			<Text>크리스토프</Text>          <Plurality>2</Plurality>
+			<Text>크리스토프</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_AUSTRIA_16">
 			<Text>옹켈</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_AUSTRIA_17">
-			<Text>로타르</Text>          <Plurality>2</Plurality>
+			<Text>로타르</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_AUSTRIA_18">
-			<Text>엘프리데</Text>          <Plurality>2</Plurality>
+			<Text>엘프리데</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_AUSTRIA_19">
-			<Text>자나</Text>          <Plurality>2</Plurality>
+			<Text>자나</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_AUSTRIA_20">
-			<Text>베라</Text>          <Plurality>2</Plurality>
+			<Text>베라</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_AUSTRIA_21">
-			<Text>소피</Text>          <Plurality>2</Plurality>
+			<Text>소피</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_AUSTRIA_22">
-			<Text>로테</Text>          <Plurality>2</Plurality>
+			<Text>로테</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_AUSTRIA_23">
-			<Text>마티아스</Text>          <Plurality>2</Plurality>
+			<Text>마티아스</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_AUSTRIA_24">
 			<Text>발렌틴</Text>
 		</Row>
 		<!-- Byzantium - Flavoured -->
 		<Row Tag="TXT_KEY_SPY_NAME_BYZANTIUM_10">
-			<Text>안테미우스</Text>          <Plurality>2</Plurality>
+			<Text>안테미우스</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_BYZANTIUM_11">
-			<Text>테이오스</Text>          <Plurality>2</Plurality>
+			<Text>테이오스</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_BYZANTIUM_12">
-			<Text>에우티미우스</Text>          <Plurality>2</Plurality>
+			<Text>에우티미우스</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_BYZANTIUM_13">
-			<Text>막시모스</Text>          <Plurality>2</Plurality>
+			<Text>막시모스</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_BYZANTIUM_14">
-			<Text>헤라클로나스</Text>          <Plurality>2</Plurality>
+			<Text>헤라클로나스</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_BYZANTIUM_15">
-			<Text>페트로스</Text>          <Plurality>2</Plurality>
+			<Text>페트로스</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_BYZANTIUM_16">
-			<Text>스테파노스</Text>          <Plurality>2</Plurality>
+			<Text>스테파노스</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_BYZANTIUM_17">
-			<Text>소프로니우스</Text>          <Plurality>2</Plurality>
+			<Text>소프로니우스</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_BYZANTIUM_18">
-			<Text>님포도라</Text>          <Plurality>2</Plurality>
+			<Text>님포도라</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_BYZANTIUM_19">
-			<Text>리키니아</Text>          <Plurality>2</Plurality>
+			<Text>리키니아</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_BYZANTIUM_20">
-			<Text>에우도키아</Text>          <Plurality>2</Plurality>
+			<Text>에우도키아</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_BYZANTIUM_21">
-			<Text>메트로도라</Text>          <Plurality>2</Plurality>
+			<Text>메트로도라</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_BYZANTIUM_22">
-			<Text>아엘리아</Text>          <Plurality>2</Plurality>
+			<Text>아엘리아</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_BYZANTIUM_23">
-			<Text>소피아</Text>          <Plurality>2</Plurality>
+			<Text>소피아</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_BYZANTIUM_24">
-			<Text>테오키스테</Text>          <Plurality>2</Plurality>
+			<Text>테오키스테</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<!-- Carthage - Flavoured -->
@@ -1098,54 +1328,65 @@
 			<Text>하스드루발</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_CARTHAGE_11">
-			<Text>에스브무나자르</Text>          <Plurality>2</Plurality>
+			<Text>에스브무나자르</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_CARTHAGE_12">
 			<Text>메르발</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_CARTHAGE_13">
-			<Text>테트람네스투스</Text>          <Plurality>2</Plurality>
+			<Text>테트람네스투스</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_CARTHAGE_14">
-			<Text>자라카스</Text>          <Plurality>2</Plurality>
+			<Text>자라카스</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_CARTHAGE_15">
-			<Text>하미스코라</Text>          <Plurality>2</Plurality>
+			<Text>하미스코라</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_CARTHAGE_16">
 			<Text>제제벨</Text>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_CARTHAGE_17">
-			<Text>아도니아</Text>          <Plurality>2</Plurality>
+			<Text>아도니아</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_CARTHAGE_18">
-			<Text>멜리타</Text>          <Plurality>2</Plurality>
+			<Text>멜리타</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_CARTHAGE_19">
-			<Text>타니스</Text>          <Plurality>2</Plurality>
+			<Text>타니스</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_CARTHAGE_20">
 			<Text>푸아발</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_CARTHAGE_21">
-			<Text>살리카르</Text>          <Plurality>2</Plurality>
+			<Text>살리카르</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_CARTHAGE_22">
 			<Text>아그발</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_CARTHAGE_23">
-			<Text>아비밀키</Text>          <Plurality>2</Plurality>
+			<Text>아비밀키</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_CARTHAGE_24">
-			<Text>로다누스</Text>          <Plurality>2</Plurality>
+			<Text>로다누스</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<!-- Celts - Flavoured -->
 		<Row Tag="TXT_KEY_SPY_NAME_CELTS_10">
-			<Text>브렌누스</Text>          <Plurality>2</Plurality>
+			<Text>브렌누스</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_CELTS_11">
 			<Text>알빈</Text>
@@ -1160,7 +1401,8 @@
 			<Text>피온</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_CELTS_15">
-			<Text>그위네스</Text>          <Plurality>2</Plurality>
+			<Text>그위네스</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_CELTS_16">
@@ -1168,22 +1410,26 @@
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_CELTS_17">
-			<Text>우나</Text>          <Plurality>2</Plurality>
+			<Text>우나</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_CELTS_18">
-			<Text>올라이스</Text>          <Plurality>2</Plurality>
+			<Text>올라이스</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_CELTS_19">
-			<Text>아이드네</Text>          <Plurality>2</Plurality>
+			<Text>아이드네</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_CELTS_20">
 			<Text>리안</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_CELTS_21">
-			<Text>디아르무이드</Text>          <Plurality>2</Plurality>
+			<Text>디아르무이드</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_CELTS_22">
 			<Text>플로인</Text>
@@ -1196,37 +1442,47 @@
 		</Row>
 		<!-- Ethiopia - Flavoured -->
 		<Row Tag="TXT_KEY_SPY_NAME_ETHIOPIA_10">
-			<Text>아칼레네</Text>          <Plurality>2</Plurality>
+			<Text>아칼레네</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_ETHIOPIA_11">
-			<Text>바헤루</Text>          <Plurality>2</Plurality>
+			<Text>바헤루</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_ETHIOPIA_12">
-			<Text>엔게다</Text>          <Plurality>2</Plurality>
+			<Text>엔게다</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_ETHIOPIA_13">
-			<Text>게데부</Text>          <Plurality>2</Plurality>
+			<Text>게데부</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_ETHIOPIA_14">
-			<Text>카베데</Text>          <Plurality>2</Plurality>
+			<Text>카베데</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_ETHIOPIA_15">
-			<Text>오비</Text>          <Plurality>2</Plurality>
+			<Text>오비</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_ETHIOPIA_16">
-			<Text>티기스트</Text>          <Plurality>2</Plurality>
+			<Text>티기스트</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_ETHIOPIA_17">
-			<Text>레예쉬</Text>          <Plurality>2</Plurality>
+			<Text>레예쉬</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_ETHIOPIA_18">
-			<Text>이프라</Text>          <Plurality>2</Plurality>
+			<Text>이프라</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_ETHIOPIA_19">
-			<Text>보갈레크</Text>          <Plurality>2</Plurality>
+			<Text>보갈레크</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_ETHIOPIA_20">
@@ -1242,62 +1498,78 @@
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_ETHIOPIA_23">
-			<Text>젬베르</Text>          <Plurality>2</Plurality>
+			<Text>젬베르</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_ETHIOPIA_24">
-			<Text>옙자</Text>          <Plurality>2</Plurality>
+			<Text>옙자</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<!-- Huns - Flavoured -->
 		<Row Tag="TXT_KEY_SPY_NAME_HUNS_10">
-			<Text>알라니</Text>          <Plurality>2</Plurality>
+			<Text>알라니</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_HUNS_11">
-			<Text>타비티</Text>          <Plurality>2</Plurality>
+			<Text>타비티</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_HUNS_12">
-			<Text>아르김파사</Text>          <Plurality>2</Plurality>
+			<Text>아르김파사</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_HUNS_13">
-			<Text>굴나르</Text>          <Plurality>2</Plurality>
+			<Text>굴나르</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_HUNS_14">
-			<Text>인주</Text>          <Plurality>2</Plurality>
+			<Text>인주</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_HUNS_15">
-			<Text>모르모</Text>          <Plurality>2</Plurality>
+			<Text>모르모</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_HUNS_16">
 			<Text>타리즈둔</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_HUNS_17">
-			<Text>분드</Text>          <Plurality>2</Plurality>
+			<Text>분드</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_HUNS_18">
-			<Text>구라스나카</Text>          <Plurality>2</Plurality>
+			<Text>구라스나카</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_HUNS_19">
-			<Text>하스투르</Text>          <Plurality>2</Plurality>
+			<Text>하스투르</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_HUNS_20">
-			<Text>악순구르</Text>          <Plurality>2</Plurality>
+			<Text>악순구르</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_HUNS_21">
-			<Text>루길라</Text>          <Plurality>2</Plurality>
+			<Text>루길라</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_HUNS_22">
-			<Text>티무르</Text>          <Plurality>2</Plurality>
+			<Text>티무르</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_HUNS_23">
-			<Text>벤드구즈</Text>          <Plurality>2</Plurality>
+			<Text>벤드구즈</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_HUNS_24">
-			<Text>에르나크</Text>          <Plurality>2</Plurality>
+			<Text>에르나크</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<!-- Maya - Flavoured -->
 		<Row Tag="TXT_KEY_SPY_NAME_MAYA_10">
@@ -1310,34 +1582,42 @@
 			<Text>칙칸</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_MAYA_13">
-			<Text>엑추아</Text>          <Plurality>2</Plurality>
+			<Text>엑추아</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_MAYA_14">
-			<Text>호자네크</Text>          <Plurality>2</Plurality>
+			<Text>호자네크</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_MAYA_15">
-			<Text>이트삼나</Text>          <Plurality>2</Plurality>
+			<Text>이트삼나</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_MAYA_16">
 			<Text>보탄</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_MAYA_17">
-			<Text>사만 에크</Text>          <Plurality>2</Plurality>
+			<Text>사만 에크</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_MAYA_18">
-			<Text>이사살루오</Text>          <Plurality>2</Plurality>
+			<Text>이사살루오</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_MAYA_19">
-			<Text>코렐 카브</Text>          <Plurality>2</Plurality>
+			<Text>코렐 카브</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_MAYA_20">
-			<Text>아크나</Text>          <Plurality>2</Plurality>
+			<Text>아크나</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_MAYA_21">
-			<Text>볼론티쿠</Text>          <Plurality>2</Plurality>
+			<Text>볼론티쿠</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_MAYA_22">
 			<Text>차악</Text>
@@ -1350,100 +1630,123 @@
 		</Row>
 		<!-- Netherlands - Flavoured -->
 		<Row Tag="TXT_KEY_SPY_NAME_NETHERLANDS_10">
-			<Text>둘치</Text>          <Plurality>2</Plurality>
+			<Text>둘치</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_NETHERLANDS_11">
-			<Text>지라드</Text>          <Plurality>2</Plurality>
+			<Text>지라드</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_NETHERLANDS_12">
 			<Text>카트린</Text>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_NETHERLANDS_13">
-			<Text>한네스</Text>          <Plurality>2</Plurality>
+			<Text>한네스</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_NETHERLANDS_14">
-			<Text>알체</Text>          <Plurality>2</Plurality>
+			<Text>알체</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_NETHERLANDS_15">
-			<Text>카스파르</Text>          <Plurality>2</Plurality>
+			<Text>카스파르</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_NETHERLANDS_16">
-			<Text>마이케</Text>          <Plurality>2</Plurality>
+			<Text>마이케</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_NETHERLANDS_17">
-			<Text>클라스</Text>          <Plurality>2</Plurality>
+			<Text>클라스</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_NETHERLANDS_18">
-			<Text>리즈베스</Text>          <Plurality>2</Plurality>
+			<Text>리즈베스</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_NETHERLANDS_19">
 			<Text>옴</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_NETHERLANDS_20">
-			<Text>빌헬미나</Text>          <Plurality>2</Plurality>
+			<Text>빌헬미나</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_NETHERLANDS_21">
-			<Text>루트게르</Text>          <Plurality>2</Plurality>
+			<Text>루트게르</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_NETHERLANDS_22">
-			<Text>라스무스</Text>          <Plurality>2</Plurality>
+			<Text>라스무스</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_NETHERLANDS_23">
 			<Text>리에벤</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_NETHERLANDS_24">
-			<Text>피에트</Text>          <Plurality>2</Plurality>
+			<Text>피에트</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<!-- Sweden - Flavoured -->
 		<Row Tag="TXT_KEY_SPY_NAME_SWEDEN_10">
-			<Text>안보르그</Text>          <Plurality>2</Plurality>
+			<Text>안보르그</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_SWEDEN_11">
-			<Text>토바</Text>          <Plurality>2</Plurality>
+			<Text>토바</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_SWEDEN_12">
-			<Text>스베아</Text>          <Plurality>2</Plurality>
+			<Text>스베아</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_SWEDEN_13">
-			<Text>구닐라</Text>          <Plurality>2</Plurality>
+			<Text>구닐라</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_SWEDEN_14">
-			<Text>이데</Text>          <Plurality>2</Plurality>
+			<Text>이데</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_SWEDEN_15">
-			<Text>모나</Text>          <Plurality>2</Plurality>
+			<Text>모나</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_SWEDEN_16">
-			<Text>카트린</Text>          <Plurality>2</Plurality>
+			<Text>카트린</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_SWEDEN_17">
-			<Text>안데르</Text>          <Plurality>2</Plurality>
+			<Text>안데르</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_SWEDEN_18">
 			<Text>토르스텐</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_SWEDEN_19">
-			<Text>펠레</Text>          <Plurality>2</Plurality>
+			<Text>펠레</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_SWEDEN_20">
-			<Text>올로프</Text>          <Plurality>2</Plurality>
+			<Text>올로프</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_SWEDEN_21">
-			<Text>닐스</Text>          <Plurality>2</Plurality>
+			<Text>닐스</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_SWEDEN_22">
 			<Text>에스펜</Text>
@@ -1452,39 +1755,48 @@
 			<Text>비요른</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_SWEDEN_24">
-			<Text>아스문드</Text>          <Plurality>2</Plurality>
+			<Text>아스문드</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<!-- Assyria - Flavoured -->
 		<Row Tag="TXT_KEY_SPY_NAME_ASSYRIA_10">
-			<Text>아스납파르</Text>          <Plurality>2</Plurality>
+			<Text>아스납파르</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_ASSYRIA_11">
-			<Text>누킴무트</Text>          <Plurality>2</Plurality>
+			<Text>누킴무트</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_ASSYRIA_12">
-			<Text>세루야</Text>          <Plurality>2</Plurality>
+			<Text>세루야</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_ASSYRIA_13">
-			<Text>빌리트</Text>          <Plurality>2</Plurality>
+			<Text>빌리트</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_ASSYRIA_14">
-			<Text>이즈두바르</Text>          <Plurality>2</Plurality>
+			<Text>이즈두바르</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_ASSYRIA_15">
-			<Text>티아마트</Text>          <Plurality>2</Plurality>
+			<Text>티아마트</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_ASSYRIA_16">
-			<Text>하나누</Text>          <Plurality>2</Plurality>
+			<Text>하나누</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_ASSYRIA_17">
 			<Text>아피아샬</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_ASSYRIA_18">
-			<Text>사마노</Text>          <Plurality>2</Plurality>
+			<Text>사마노</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_ASSYRIA_19">
 			<Text>에리슘</Text>
@@ -1493,7 +1805,8 @@
 			<Text>나람신</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_ASSYRIA_21">
-			<Text>라마슈투</Text>          <Plurality>2</Plurality>
+			<Text>라마슈투</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_ASSYRIA_22">
@@ -1507,51 +1820,65 @@
 		</Row>
 		<!-- Brazil - Flavoured -->
 		<Row Tag="TXT_KEY_SPY_NAME_BRAZIL_10">
-			<Text>알로이시오</Text>          <Plurality>2</Plurality>
+			<Text>알로이시오</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_BRAZIL_11">
-			<Text>보니파시오</Text>          <Plurality>2</Plurality>
+			<Text>보니파시오</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_BRAZIL_12">
-			<Text>크리스티아누</Text>          <Plurality>2</Plurality>
+			<Text>크리스티아누</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_BRAZIL_13">
-			<Text>안셀모</Text>          <Plurality>2</Plurality>
+			<Text>안셀모</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_BRAZIL_14">
-			<Text>파우스티노</Text>          <Plurality>2</Plurality>
+			<Text>파우스티노</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_BRAZIL_15">
-			<Text>구스타보</Text>          <Plurality>2</Plurality>
+			<Text>구스타보</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_BRAZIL_16">
 			<Text>나타나엘</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_BRAZIL_17">
-			<Text>티오</Text>          <Plurality>2</Plurality>
+			<Text>티오</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_BRAZIL_18">
-			<Text>탁티오</Text>          <Plurality>2</Plurality>
+			<Text>탁티오</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_BRAZIL_19">
-			<Text>티모테오</Text>          <Plurality>2</Plurality>
+			<Text>티모테오</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_BRAZIL_20">
-			<Text>제페리노</Text>          <Plurality>2</Plurality>
+			<Text>제페리노</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_BRAZIL_21">
-			<Text>마르셀리노</Text>          <Plurality>2</Plurality>
+			<Text>마르셀리노</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_BRAZIL_22">
-			<Text>가브리엘라</Text>          <Plurality>2</Plurality>
+			<Text>가브리엘라</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_BRAZIL_23">
-			<Text>클레멘티나</Text>          <Plurality>2</Plurality>
+			<Text>클레멘티나</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_BRAZIL_24">
-			<Text>비토리아</Text>          <Plurality>2</Plurality>
+			<Text>비토리아</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<!-- Indonesia - Flavoured -->
@@ -1562,86 +1889,107 @@
 			<Text>리드완</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_INDONESIA_12">
-			<Text>손니</Text>          <Plurality>2</Plurality>
+			<Text>손니</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_INDONESIA_13">
-			<Text>한도코</Text>          <Plurality>2</Plurality>
+			<Text>한도코</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_INDONESIA_14">
 			<Text>파만</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_INDONESIA_15">
-			<Text>인드라</Text>          <Plurality>2</Plurality>
+			<Text>인드라</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_INDONESIA_16">
-			<Text>수헨드라</Text>          <Plurality>2</Plurality>
+			<Text>수헨드라</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_INDONESIA_17">
-			<Text>얀디</Text>          <Plurality>2</Plurality>
+			<Text>얀디</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_INDONESIA_18">
-			<Text>베라와티</Text>          <Plurality>2</Plurality>
+			<Text>베라와티</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_INDONESIA_19">
-			<Text>파리다</Text>          <Plurality>2</Plurality>
+			<Text>파리다</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_INDONESIA_20">
-			<Text>수잔티</Text>          <Plurality>2</Plurality>
+			<Text>수잔티</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_INDONESIA_21">
-			<Text>위드야와티</Text>          <Plurality>2</Plurality>
+			<Text>위드야와티</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_INDONESIA_22">
-			<Text>스리</Text>          <Plurality>2</Plurality>
+			<Text>스리</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_INDONESIA_23">
-			<Text>구나르디</Text>          <Plurality>2</Plurality>
+			<Text>구나르디</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_INDONESIA_24">
-			<Text>테구</Text>          <Plurality>2</Plurality>
+			<Text>테구</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<!-- Morocco - Flavoured -->
 		<Row Tag="TXT_KEY_SPY_NAME_MOROCCO_10">
-			<Text>이븐 라시드</Text>          <Plurality>2</Plurality>
+			<Text>이븐 라시드</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_MOROCCO_11">
 			<Text>이븐 와심</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_MOROCCO_12">
-			<Text>엘리아스</Text>          <Plurality>2</Plurality>
+			<Text>엘리아스</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_MOROCCO_13">
 			<Text>카림</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_MOROCCO_14">
-			<Text>아와다</Text>          <Plurality>2</Plurality>
+			<Text>아와다</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_MOROCCO_15">
-			<Text>주바이다</Text>          <Plurality>2</Plurality>
+			<Text>주바이다</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_MOROCCO_16">
-			<Text>체리파</Text>          <Plurality>2</Plurality>
+			<Text>체리파</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_MOROCCO_17">
-			<Text>카티야</Text>          <Plurality>2</Plurality>
+			<Text>카티야</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_MOROCCO_18">
-			<Text>와실라</Text>          <Plurality>2</Plurality>
+			<Text>와실라</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_MOROCCO_19">
-			<Text>소울레프</Text>          <Plurality>2</Plurality>
+			<Text>소울레프</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_MOROCCO_20">
-			<Text>자흐라</Text>          <Plurality>2</Plurality>
+			<Text>자흐라</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_MOROCCO_21">
@@ -1651,41 +1999,51 @@
 			<Text>소피안</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_MOROCCO_23">
-			<Text>알 아흐마르</Text>          <Plurality>2</Plurality>
+			<Text>알 아흐마르</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_MOROCCO_24">
-			<Text>알 자비리</Text>          <Plurality>2</Plurality>
+			<Text>알 자비리</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<!-- Poland - Flavoured -->
 		<Row Tag="TXT_KEY_SPY_NAME_POLAND_10">
-			<Text>나타샤</Text>          <Plurality>2</Plurality>
+			<Text>나타샤</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_POLAND_11">
-			<Text>프리데리카</Text>          <Plurality>2</Plurality>
+			<Text>프리데리카</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_POLAND_12">
-			<Text>유스티나</Text>          <Plurality>2</Plurality>
+			<Text>유스티나</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_POLAND_13">
-			<Text>카시아</Text>          <Plurality>2</Plurality>
+			<Text>카시아</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_POLAND_14">
-			<Text>에디타</Text>          <Plurality>2</Plurality>
+			<Text>에디타</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_POLAND_15">
-			<Text>베로니카</Text>          <Plurality>2</Plurality>
+			<Text>베로니카</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_POLAND_16">
-			<Text>알로이지</Text>          <Plurality>2</Plurality>
+			<Text>알로이지</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_POLAND_17">
-			<Text>클라우디우스</Text>          <Plurality>2</Plurality>
+			<Text>클라우디우스</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_POLAND_18">
 			<Text>마렉</Text>
@@ -1694,88 +2052,111 @@
 			<Text>스테판</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_POLAND_20">
-			<Text>빅토르</Text>          <Plurality>2</Plurality>
+			<Text>빅토르</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_POLAND_21">
-			<Text>졔모비트</Text>          <Plurality>2</Plurality>
+			<Text>졔모비트</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_POLAND_22">
-			<Text>게르바지</Text>          <Plurality>2</Plurality>
+			<Text>게르바지</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_POLAND_23">
-			<Text>레셰크</Text>          <Plurality>2</Plurality>
+			<Text>레셰크</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_POLAND_24">
-			<Text>부제크</Text>          <Plurality>2</Plurality>
+			<Text>부제크</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<!-- Portugal - Flavoured -->
 		<Row Tag="TXT_KEY_SPY_NAME_PORTUGAL_10">
-			<Text>데보라</Text>          <Plurality>2</Plurality>
+			<Text>데보라</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_PORTUGAL_11">
-			<Text>산토스</Text>          <Plurality>2</Plurality>
+			<Text>산토스</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_PORTUGAL_12">
-			<Text>마틸드</Text>          <Plurality>2</Plurality>
+			<Text>마틸드</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_PORTUGAL_13">
-			<Text>칼리토</Text>          <Plurality>2</Plurality>
+			<Text>칼리토</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_PORTUGAL_14">
-			<Text>테레스</Text>          <Plurality>2</Plurality>
+			<Text>테레스</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_PORTUGAL_15">
-			<Text>베렌가르</Text>          <Plurality>2</Plurality>
+			<Text>베렌가르</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_PORTUGAL_16">
-			<Text>주디테</Text>          <Plurality>2</Plurality>
+			<Text>주디테</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_PORTUGAL_17">
-			<Text>살로메</Text>          <Plurality>2</Plurality>
+			<Text>살로메</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_PORTUGAL_18">
-			<Text>펠리프</Text>          <Plurality>2</Plurality>
+			<Text>펠리프</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_PORTUGAL_19">
-			<Text>로사</Text>          <Plurality>2</Plurality>
+			<Text>로사</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_PORTUGAL_20">
-			<Text>그레고리우</Text>          <Plurality>2</Plurality>
+			<Text>그레고리우</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_PORTUGAL_21">
-			<Text>베네디타</Text>          <Plurality>2</Plurality>
+			<Text>베네디타</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_PORTUGAL_22">
-			<Text>이니고</Text>          <Plurality>2</Plurality>
+			<Text>이니고</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_PORTUGAL_23">
 			<Text>호아킴</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_PORTUGAL_24">
-			<Text>프레데리쿠</Text>          <Plurality>2</Plurality>
+			<Text>프레데리쿠</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<!-- Shoshone - Flavoured -->
 		<Row Tag="TXT_KEY_SPY_NAME_SHOSHONE_10">
-			<Text>키마마</Text>          <Plurality>2</Plurality>
+			<Text>키마마</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_SHOSHONE_11">
-			<Text>하이위</Text>          <Plurality>2</Plurality>
+			<Text>하이위</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_SHOSHONE_12">
-			<Text>후잇추</Text>          <Plurality>2</Plurality>
+			<Text>후잇추</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_SHOSHONE_13">
-			<Text>데헤야</Text>          <Plurality>2</Plurality>
+			<Text>데헤야</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_SHOSHONE_14">
@@ -1783,139 +2164,175 @@
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_SHOSHONE_15">
-			<Text>후피아</Text>          <Plurality>2</Plurality>
+			<Text>후피아</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_SHOSHONE_16">
-			<Text>누누키</Text>          <Plurality>2</Plurality>
+			<Text>누누키</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_SHOSHONE_17">
-			<Text>카타헤카사</Text>          <Plurality>2</Plurality>
+			<Text>카타헤카사</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_SHOSHONE_18">
-			<Text>호콜레스쿠아</Text>          <Plurality>2</Plurality>
+			<Text>호콜레스쿠아</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_SHOSHONE_19">
 			<Text>라라웨티카</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_SHOSHONE_20">
-			<Text>텐스크와타와</Text>          <Plurality>2</Plurality>
+			<Text>텐스크와타와</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_SHOSHONE_21">
 			<Text>안타코쿱</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_SHOSHONE_22">
-			<Text>카와카투세</Text>          <Plurality>2</Plurality>
+			<Text>카와카투세</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_SHOSHONE_23">
 			<Text>무스코웨쿠안</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_SHOSHONE_24">
-			<Text>키세카우추크</Text>          <Plurality>2</Plurality>
+			<Text>키세카우추크</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<!-- Venice - Flavoured -->
 		<Row Tag="TXT_KEY_SPY_NAME_VENICE_10">
-			<Text>알레시오</Text>          <Plurality>2</Plurality>
+			<Text>알레시오</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_VENICE_11">
-			<Text>마우리치오</Text>          <Plurality>2</Plurality>
+			<Text>마우리치오</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_VENICE_12">
-			<Text>세베로</Text>          <Plurality>2</Plurality>
+			<Text>세베로</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_VENICE_13">
-			<Text>네로</Text>          <Plurality>2</Plurality>
+			<Text>네로</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_VENICE_14">
-			<Text>지오</Text>          <Plurality>2</Plurality>
+			<Text>지오</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_VENICE_15">
-			<Text>에르콜레</Text>          <Plurality>2</Plurality>
+			<Text>에르콜레</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_VENICE_16">
-			<Text>단테</Text>          <Plurality>2</Plurality>
+			<Text>단테</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_VENICE_17">
-			<Text>칼로</Text>          <Plurality>2</Plurality>
+			<Text>칼로</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_VENICE_18">
-			<Text>엘리자베타</Text>          <Plurality>2</Plurality>
+			<Text>엘리자베타</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_VENICE_19">
-			<Text>데시데리아</Text>          <Plurality>2</Plurality>
+			<Text>데시데리아</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_VENICE_20">
-			<Text>레나타</Text>          <Plurality>2</Plurality>
+			<Text>레나타</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_VENICE_21">
-			<Text>니콜레타</Text>          <Plurality>2</Plurality>
+			<Text>니콜레타</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_VENICE_22">
-			<Text>그라치엘라</Text>          <Plurality>2</Plurality>
+			<Text>그라치엘라</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_VENICE_23">
-			<Text>마우라</Text>          <Plurality>2</Plurality>
+			<Text>마우라</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_VENICE_24">
-			<Text>마르첼라</Text>          <Plurality>2</Plurality>
+			<Text>마르첼라</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<!-- Zulu - Flavoured -->
 		<Row Tag="TXT_KEY_SPY_NAME_ZULU_10">
-			<Text>아지사</Text>          <Plurality>2</Plurality>
+			<Text>아지사</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_ZULU_11">
-			<Text>다불라만지</Text>          <Plurality>2</Plurality>
+			<Text>다불라만지</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_ZULU_12">
-			<Text>엔가멜리</Text>          <Plurality>2</Plurality>
+			<Text>엔가멜리</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_ZULU_13">
-			<Text>흐루피즈웨</Text>          <Plurality>2</Plurality>
+			<Text>흐루피즈웨</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_ZULU_14">
-			<Text>크와넬레</Text>          <Plurality>2</Plurality>
+			<Text>크와넬레</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_ZULU_15">
-			<Text>즈웰리쿤데</Text>          <Plurality>2</Plurality>
+			<Text>즈웰리쿤데</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_ZULU_16">
-			<Text>우말루메</Text>          <Plurality>2</Plurality>
+			<Text>우말루메</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_ZULU_17">
-			<Text>페쉐야</Text>          <Plurality>2</Plurality>
+			<Text>페쉐야</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_ZULU_18">
-			<Text>은카니에지</Text>          <Plurality>2</Plurality>
+			<Text>은카니에지</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_ZULU_19">
 			<Text>존드라일</Text>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_ZULU_20">
-			<Text>벰바네</Text>          <Plurality>2</Plurality>
+			<Text>벰바네</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_ZULU_21">
-			<Text>우미나시</Text>          <Plurality>2</Plurality>
+			<Text>우미나시</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_ZULU_22">
-			<Text>템비실레</Text>          <Plurality>2</Plurality>
+			<Text>템비실레</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_ZULU_23">
-			<Text>레시웨</Text>          <Plurality>2</Plurality>
+			<Text>레시웨</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_ZULU_24">
-			<Text>고노시</Text>          <Plurality>2</Plurality>
+			<Text>고노시</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<!-- Babylon - Flavoured -->
@@ -1923,36 +2340,45 @@
 			<Text>아히 키림</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_BABYLON_11">
-			<Text>하시스 아드라</Text>          <Plurality>2</Plurality>
+			<Text>하시스 아드라</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_BABYLON_12">
-			<Text>쿠리갈추</Text>          <Plurality>2</Plurality>
+			<Text>쿠리갈추</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_BABYLON_13">
-			<Text>누스쿠</Text>          <Plurality>2</Plurality>
+			<Text>누스쿠</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_BABYLON_14">
-			<Text>벨리트</Text>          <Plurality>2</Plurality>
+			<Text>벨리트</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_BABYLON_15">
-			<Text>타니스</Text>          <Plurality>2</Plurality>
+			<Text>타니스</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_BABYLON_16">
-			<Text>쿠 아야</Text>          <Plurality>2</Plurality>
+			<Text>쿠 아야</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_BABYLON_17">
-			<Text>아누니트</Text>          <Plurality>2</Plurality>
+			<Text>아누니트</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_BABYLON_18">
-			<Text>담키나</Text>          <Plurality>2</Plurality>
+			<Text>담키나</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_BABYLON_19">
-			<Text>키샤르</Text>          <Plurality>2</Plurality>
+			<Text>키샤르</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_BABYLON_20">
@@ -1960,10 +2386,12 @@
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_BABYLON_21">
-			<Text>리하트</Text>          <Plurality>2</Plurality>
+			<Text>리하트</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_BABYLON_22">
-			<Text>우르함무</Text>          <Plurality>2</Plurality>
+			<Text>우르함무</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_BABYLON_23">
 			<Text>사르곤</Text>
@@ -1976,50 +2404,63 @@
 			<Text>아스비요른</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_DENMARK_11">
-			<Text>에리크</Text>          <Plurality>2</Plurality>
+			<Text>에리크</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_DENMARK_12">
-			<Text>흐롤프</Text>          <Plurality>2</Plurality>
+			<Text>흐롤프</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_DENMARK_13">
-			<Text>할두르</Text>          <Plurality>2</Plurality>
+			<Text>할두르</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_DENMARK_14">
-			<Text>크누드</Text>          <Plurality>2</Plurality>
+			<Text>크누드</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_DENMARK_15">
-			<Text>아델라</Text>          <Plurality>2</Plurality>
+			<Text>아델라</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_DENMARK_16">
-			<Text>기테</Text>          <Plurality>2</Plurality>
+			<Text>기테</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_DENMARK_17">
-			<Text>잉그리드</Text>          <Plurality>2</Plurality>
+			<Text>잉그리드</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_DENMARK_18">
-			<Text>아넬리스</Text>          <Plurality>2</Plurality>
+			<Text>아넬리스</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_DENMARK_19">
-			<Text>비르테</Text>          <Plurality>2</Plurality>
+			<Text>비르테</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_DENMARK_20">
-			<Text>엘스</Text>          <Plurality>2</Plurality>
+			<Text>엘스</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_DENMARK_21">
-			<Text>잉기비요르그</Text>          <Plurality>2</Plurality>
+			<Text>잉기비요르그</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_DENMARK_22">
-			<Text>팔보르</Text>          <Plurality>2</Plurality>
+			<Text>팔보르</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_DENMARK_23">
-			<Text>올루프</Text>          <Plurality>2</Plurality>
+			<Text>올루프</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_DENMARK_24">
 			<Text>스벤</Text>
@@ -2029,57 +2470,72 @@
 			<Text>후아만</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_INCA_11">
-			<Text>코파카티</Text>          <Plurality>2</Plurality>
+			<Text>코파카티</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_INCA_12">
-			<Text>비카키라오</Text>          <Plurality>2</Plurality>
+			<Text>비카키라오</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_INCA_13">
-			<Text>미카이</Text>          <Plurality>2</Plurality>
+			<Text>미카이</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_INCA_14">
-			<Text>파카마</Text>          <Plurality>2</Plurality>
+			<Text>파카마</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_INCA_15">
-			<Text>키누아마</Text>          <Plurality>2</Plurality>
+			<Text>키누아마</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_INCA_16">
-			<Text>유판키</Text>          <Plurality>2</Plurality>
+			<Text>유판키</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_INCA_17">
-			<Text>아카후아나</Text>          <Plurality>2</Plurality>
+			<Text>아카후아나</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_INCA_18">
-			<Text>코코후아이</Text>          <Plurality>2</Plurality>
+			<Text>코코후아이</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_INCA_19">
-			<Text>후이타카</Text>          <Plurality>2</Plurality>
+			<Text>후이타카</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_INCA_20">
-			<Text>카빌라카</Text>          <Plurality>2</Plurality>
+			<Text>카빌라카</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_INCA_21">
-			<Text>마리칸치</Text>          <Plurality>2</Plurality>
+			<Text>마리칸치</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_INCA_22">
-			<Text>룬투</Text>          <Plurality>2</Plurality>
+			<Text>룬투</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_INCA_23">
-			<Text>케후아르</Text>          <Plurality>2</Plurality>
+			<Text>케후아르</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_INCA_24">
-			<Text>구아카마야</Text>          <Plurality>2</Plurality>
+			<Text>구아카마야</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<!-- Korea - Flavoured -->
 		<Row Tag="TXT_KEY_SPY_NAME_KOREA_10">
-			<Text>영수</Text>          <Plurality>2</Plurality>
+			<Text>영수</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_KOREA_11">
 			<Text>제성</Text>
@@ -2097,7 +2553,8 @@
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_KOREA_15">
-			<Text>영미</Text>          <Plurality>2</Plurality>
+			<Text>영미</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_KOREA_16">
@@ -2105,11 +2562,13 @@
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_KOREA_17">
-			<Text>연지</Text>          <Plurality>2</Plurality>
+			<Text>연지</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_KOREA_18">
-			<Text>성호</Text>          <Plurality>2</Plurality>
+			<Text>성호</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_KOREA_19">
 			<Text>상욱</Text>
@@ -2128,26 +2587,33 @@
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_KOREA_24">
-			<Text>아저씨</Text>          <Plurality>2</Plurality>
+			<Text>아저씨</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<!-- Mongolia - Flavoured -->
 		<Row Tag="TXT_KEY_SPY_NAME_MONGOL_10">
-			<Text>아브가 아크</Text>          <Plurality>2</Plurality>
+			<Text>아브가 아크</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_MONGOL_11">
-			<Text>네르구이</Text>          <Plurality>2</Plurality>
+			<Text>네르구이</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_MONGOL_12">
-			<Text>나란바라타르</Text>          <Plurality>2</Plurality>
+			<Text>나란바라타르</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_MONGOL_13">
-			<Text>칭기스</Text>          <Plurality>2</Plurality>
+			<Text>칭기스</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_MONGOL_14">
-			<Text>오트곤바야</Text>          <Plurality>2</Plurality>
+			<Text>오트곤바야</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_MONGOL_15">
-			<Text>알타이</Text>          <Plurality>2</Plurality>
+			<Text>알타이</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_MONGOL_16">
@@ -2155,11 +2621,13 @@
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_MONGOL_17">
-			<Text>나란체체그</Text>          <Plurality>2</Plurality>
+			<Text>나란체체그</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_MONGOL_18">
-			<Text>오드체체그</Text>          <Plurality>2</Plurality>
+			<Text>오드체체그</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_MONGOL_19">
@@ -2167,10 +2635,12 @@
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_MONGOL_20">
-			<Text>간조리그</Text>          <Plurality>2</Plurality>
+			<Text>간조리그</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_MONGOL_21">
-			<Text>수크</Text>          <Plurality>2</Plurality>
+			<Text>수크</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_MONGOL_22">
 			<Text>오드발</Text>
@@ -2180,118 +2650,146 @@
 			<Text>툴</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_MONGOL_24">
-			<Text>바타르사이크</Text>          <Plurality>2</Plurality>
+			<Text>바타르사이크</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<!-- Polynesia - Flavoured -->
 		<Row Tag="TXT_KEY_SPY_NAME_POLYNESIA_10">
 			<Text>톤톤</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_POLYNESIA_11">
-			<Text>이카이아</Text>          <Plurality>2</Plurality>
+			<Text>이카이아</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_POLYNESIA_12">
-			<Text>나헬레</Text>          <Plurality>2</Plurality>
+			<Text>나헬레</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_POLYNESIA_13">
-			<Text>케키피</Text>          <Plurality>2</Plurality>
+			<Text>케키피</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_POLYNESIA_14">
-			<Text>펠레케</Text>          <Plurality>2</Plurality>
+			<Text>펠레케</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_POLYNESIA_15">
-			<Text>필리포</Text>          <Plurality>2</Plurality>
+			<Text>필리포</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_POLYNESIA_16">
-			<Text>모아나</Text>          <Plurality>2</Plurality>
+			<Text>모아나</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_POLYNESIA_17">
-			<Text>코에키</Text>          <Plurality>2</Plurality>
+			<Text>코에키</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_POLYNESIA_18">
-			<Text>카페나</Text>          <Plurality>2</Plurality>
+			<Text>카페나</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_POLYNESIA_19">
-			<Text>카이마나</Text>          <Plurality>2</Plurality>
+			<Text>카이마나</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_POLYNESIA_20">
-			<Text>알라메아</Text>          <Plurality>2</Plurality>
+			<Text>알라메아</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_POLYNESIA_21">
-			<Text>울라니</Text>          <Plurality>2</Plurality>
+			<Text>울라니</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_POLYNESIA_22">
-			<Text>오켈라니</Text>          <Plurality>2</Plurality>
+			<Text>오켈라니</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_POLYNESIA_23">
-			<Text>케케파니아</Text>          <Plurality>2</Plurality>
+			<Text>케케파니아</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_POLYNESIA_24">
-			<Text>호쿨라니</Text>          <Plurality>2</Plurality>
+			<Text>호쿨라니</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<!-- Spain - Flavoured -->
 		<Row Tag="TXT_KEY_SPY_NAME_SPAIN_10">
-			<Text>테르세로</Text>          <Plurality>2</Plurality>
+			<Text>테르세로</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_SPAIN_11">
-			<Text>산티아고</Text>          <Plurality>2</Plurality>
+			<Text>산티아고</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_SPAIN_12">
-			<Text>리카르도</Text>          <Plurality>2</Plurality>
+			<Text>리카르도</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_SPAIN_13">
-			<Text>알폰소</Text>          <Plurality>2</Plurality>
+			<Text>알폰소</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_SPAIN_14">
-			<Text>엔리케</Text>          <Plurality>2</Plurality>
+			<Text>엔리케</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_SPAIN_15">
-			<Text>페르난도</Text>          <Plurality>2</Plurality>
+			<Text>페르난도</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_SPAIN_16">
-			<Text>훌리오</Text>          <Plurality>2</Plurality>
+			<Text>훌리오</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_SPAIN_17">
-			<Text>파블로</Text>          <Plurality>2</Plurality>
+			<Text>파블로</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_SPAIN_18">
-			<Text>카탈리나</Text>          <Plurality>2</Plurality>
+			<Text>카탈리나</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_SPAIN_19">
-			<Text>그라시아</Text>          <Plurality>2</Plurality>
+			<Text>그라시아</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_SPAIN_20">
-			<Text>후아니타</Text>          <Plurality>2</Plurality>
+			<Text>후아니타</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_SPAIN_21">
-			<Text>미구엘라</Text>          <Plurality>2</Plurality>
+			<Text>미구엘라</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_SPAIN_22">
-			<Text>발렌시아</Text>          <Plurality>2</Plurality>
+			<Text>발렌시아</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_SPAIN_23">
-			<Text>이네스</Text>          <Plurality>2</Plurality>
+			<Text>이네스</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_SPAIN_24">
-			<Text>에스트렐라</Text>          <Plurality>2</Plurality>
+			<Text>에스트렐라</Text>
+			<Plurality>2</Plurality>
 			<Gender>feminine</Gender>
 		</Row>
-
 		<!-- Tech Helpers -->
 		<Row Tag="TXT_KEY_ABLTY_TECH_BOOST_CHOP">
 			<Text>숲/정글 제거 (+25 [ICON_PRODUCTION])에서 +{1_Num}% [ICON_PRODUCTION]생산량 추가 </Text>
 		</Row>
-
 		<!-- CS Quests -->
 		<Row Tag="TXT_KEY_CS_QUEST_BONUS_HEADER_FINISH">
 			<Text>[COLOR_POSITIVE_TEXT]     퀘스트 보상:[ENDCOLOR][NEWLINE]</Text>
@@ -2299,7 +2797,6 @@
 		<Row Tag="TXT_KEY_CS_QUEST_BONUS_HEADER_START">
 			<Text>[COLOR_YELLOW]     잠재적인 퀘스트 보상:[ENDCOLOR][NEWLINE]</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_CS_QUEST_INFLUENCE">
 			<Text>[COLOR_POSITIVE_TEXT]      [ICON_BULLET][ICON_INFLUENCE]영향력 {1_Num}[ENDCOLOR]</Text>
 		</Row>
@@ -2345,9 +2842,7 @@
 		<Row Tag="TXT_KEY_CS_QUEST_SCIENCE">
 			<Text>[COLOR_POSITIVE_TEXT]      [ICON_BULLET][ICON_RESEARCH]과학 {1_Num}[ENDCOLOR]</Text>
 		</Row>
-
 		<!-- NEW CS Quests -->
-
 		<!-- Capture City -->
 		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_CAPTURE_CITY">
 			<Text>{@2_CivName}의 전술 전문가들은 {@1_CityName}{@1: plural 1?이; 2?가;} 전략적으로 중요한 요충지라고 생각합니다. 어떻게든 이 도시를 얻으면 큰 보상을 얻을 것입니다.</Text>
@@ -2355,14 +2850,12 @@
 		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_CAPTURE_CITY">
 			<Text>{@2_CivName}의 전술가들은 당신이 {@1_CityName}{@1: plural 1?을; 2?를;} 정복하길 바랍니다.</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_GET_CITY_COMPLETE">
 			<Text>{@1_CivName}의 전술 전문가들이 당신의 노고를 칭찬하며 그들이 예상한 것처럼 이 도시가 전략적으로 유용한 곳이 되기를 기대합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_GET_CITY_COMPLETE">
 			<Text>{@1_CivName}{@1: plural 1?을; 2?를;} 위한 도시 정복!</Text>
 		</Row>
-
 		<!-- Coup -->
 		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_COUP">
 			<Text>{@2_CivName}에서 온 정보원의 보고에 따르면 {@1_CityName}에서의 쿠데타가 무르익었다고 합니다. 이 쿠데타를 완수하면 큰 보상을 얻을 것입니다.</Text>
@@ -2370,29 +2863,24 @@
 		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_COUP">
 			<Text>{@1_CivName}에서 온 보고</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_COUP_CITY_COMPLETE">
 			<Text>{@1_Civname}{@1: plural 1?이; 2?가;} 당신의 쿠데타 성공을 칭찬합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_COUP_CITY_COMPLETE">
 			<Text>{@1_Civname}{@1: plural 1?을; 2?를;} 위한 쿠데타 성공!</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_NOTIFICATION_COUP_FAILED">
 			<Text>당신의 스파이가 죽었거나 {@1_City}{@1: plural 1?이; 2?가;} 더 이상 유효한 목표가 아니어서 쿠데타에 실패했습니다. {@2_Civname}의 퀘스트는 철회되었습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_COUP_FAILED_S">
 			<Text>쿠데타 실패!</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_NOTIFICATION_COUP_FAILED_B">
 			<Text>쿠데타 실패!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_COUP_FAILED_B_S">
 			<Text>당신의 스파이가 죽었거나 {@1_City}{@1: plural 1?이; 2?가;} 더 이상 유효한 목표가 아니어서 당신의 쿠데타는 실패했습니다. {@1_Civname}의 퀘스트는 철회되었습니다.</Text>
 		</Row>
-
-
 		<!-- Steal -->
 		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_STEAL_FROM">
 			<Text>{@3_Civ}의 비밀 요원들이 {@1_Civ}{@1: plural 1?이; 2?가;} 현재 스파이에 매우 취약하다고 보고했습니다. {@1_Civ}에 대한 당신의 첩보 활동 [COLOR:105:105:105:255](고급 첩보 활동이나 기술 훔치기)[ENDCOLOR]이 [COLOR_POSITIVE_TEXT]{2_Num}회[ENDCOLOR] 성공한다면 큰 보상을 얻을 것입니다.</Text>
@@ -2400,14 +2888,12 @@
 		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_STEAL_FROM">
 			<Text>{@1_Civ}에서 첩보 갱신</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_STEAL_FROM_COMPLETE">
 			<Text>{@2_Civ}의 비밀 요원들이 {@1_Civ}에 대한 당신의 성공적인 첩보 활동을 자랑스러워합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_STEAL_FROM_COMPLETE">
 			<Text>첩보 활동 완료!</Text>
 		</Row>
-
 		<!-- Construction -->
 		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_CONSTRUCT_X_BUILDING">
 			<Text>{3_Civ}의 건축업자들이 {1_Building}의 가치를 연구하고자 합니다. {3_Civ}{3: plural 1?은; 2?는;} 당신이 이 건물을 당신의 문명에서 [COLOR_POSITIVE_TEXT]{2_Num}[ENDCOLOR]개 건설해주면 엄청난 보상을 주겠다고 약속했습니다.</Text>
@@ -2415,14 +2901,12 @@
 		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_CONSTRUCT_X_BUILDING">
 			<Text>{@1_Civ}의 건설 프로젝트</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_BUILD_X_COMPLETE">
 			<Text>{@1_Civ}의 건축업자들이 당신의 기념비적인 건축 노고에 경이로워합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_BUILD_X_COMPLETE">
 			<Text>건설 프로젝트 완료!</Text>
 		</Row>
-
 		<!-- Discovery -->
 		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_DISCOVERY_PLOT">
 			<Text>{@1_Civ}의 지도 제작자들이 당신에게 지도 제작 프로젝트를 완수해달라고 요청합니다. 표시된 지역의 빈 공간을 그들이 필요한 만큼 많이 탐험하면 그들이 가지고 있는 선물을 당신에게 줄 것입니다.</Text>
@@ -2430,21 +2914,18 @@
 		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_DISCOVERY_PLOT">
 			<Text>지도 제작 위원회</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_DISCOVERY_PLOT_COMPLETE">
 			<Text>{@1_Civ}의 지도 제작자들이 당신의 지도 제작 프로젝트 협조에 감사해합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_DISCOVERY_PLOT_COMPLETE">
 			<Text>지도 제작 임무 완료!</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_NOTIFICATION_PLOT_DISCOVERY_FAILED">
 			<Text>다른 문명이 미탐험된 땅을 얻었다는 소문이 무성해지자 {1_Civ}의 지도 제작자들은 프로젝트를 조기 중단했습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_PLOT_DISCOVERY_FAILED_S">
 			<Text>지도 제작 임무 실패!</Text>
 		</Row>
-
 		<!-- CS WAR -->
 		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_ENDED_CS_WAR">
 			<Text>{1_Civ}{1: plural 1?과; 2?와;} {2_Civ} 사이의 전쟁은 백색 평화로 종결되었습니다. 전쟁이 확대되지 않았다는 사실에 세계는 안도의 한숨을 쉬었습니다.</Text>
@@ -2452,20 +2933,15 @@
 		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_ENDED_CS_WAR">
 			<Text>{1_Civ}{1: plural 1?과; 2?와;} {2_Civ} 사이의 평화!</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_ENDED_CS_PEACE_MADE">
 			<Text>{1_Civ}{1: plural 1?과; 2?와;} {2_Civ} 사이의 전쟁이 당신의 외교적 노력 덕분에 종결되었습니다.</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_ENDED_CS_OTHER_PEACE_MADE">
 			<Text>{1_Civ}{1: plural 1?과; 2?와;} {2_Civ} 사이의 전쟁이 {3_Civ}의 외교적 조치 덕분에 종결되었습니다.</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_KILL_CITY_STATE_ATTACKED">
 			<Text>{1_CivName:textkey}{1: plural 1?이; 2?가;} {3_TargetName:textkey}에게 공격받고 있어 도움을 필요로 합니다. {1_TargetName:textkey}의 요청대로 {3_CivName:textkey}{3: plural 1?을; 2?를;} [COLOR_NEGATIVE_TEXT]멸망[ENDCOLOR]시켜 완전한 보상을 받거나 또는 두 도시 국가와의 [COLOR_POSITIVE_TEXT]동맹[ENDCOLOR]을 통해 부분적인 보상을 받으십시오.  국제적인 압력이 [COLOR_POSITIVE_TEXT]{2_Num}[ENDCOLOR]턴 후 평화를 강요할 것입니다. 개입할 의도가 있다면 빠르게 행동하십시오!</Text>
 		</Row>
-
-
 		<!-- Formal Text-->
 		<Row Tag="TXT_KEY_CITY_STATE_QUEST_DISCOVER_PLOT_FORMAL">
 			<Text>미지의 지역을 탐험하십시오 ([COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR]% 완료)</Text>
@@ -2480,22 +2956,19 @@
 			<Text>{1_Civ}에서 쿠데타를 지원하십시오.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_STATE_QUEST_DISCOVER_GET_CITY_FORMAL">
-			<Text>{1_City}의 도시를 획득했습니다.</Text>
+			<Text>{1_City}{1: plural 1?을; 2?를;} 차지해주길 원합니다.</Text>
 		</Row>
 		<!-- Plot Helpers -->
-
 		<Row Tag="TXT_KEY_CITY_STATE_GET_CITY_QUEST_LONG">
 			<Text>{1_Civ}{1: plural 1?은; 2?는;} 당신이 이 도시를 가져가길 바랍니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_STATE_FIND_PLOT_QUEST_LONG">
 			<Text>{1_Civ}{1: plural 1?은; 2?는;} 당신이 이 타일 주변을 탐험하길 바랍니다.</Text>
 		</Row>
-
 		<!-- Update resurrection text (voluntary vassals) -->
 		<Row Tag="TXT_KEY_NOTIFICATION_CIV_RESURRECTED_VOLUNTARY_VASSAL">
 			<Text>{1_PlayerName}{1: plural 1?이; 2?가;} {2_CityName}를 점령했고, {3_CivAdj}{3: plural 1?이; 2?가;} 주권을 회복했습니다. 꺼졌던 {4_CivName}의 불꽃이 다시 타오르기 시작합니다. {4_CivName}{4: plural 1?은; 2?는;} {1_PlayerName}의 종주국 입니다.</Text>
 		</Row>
-		
 		<!-- Automation -->
 		<!-- Automation Text -->
 		<Row Tag="TXT_KEY_ACTION_AUTOMATE_MISSIONARY">
@@ -2637,12 +3110,10 @@
 		<Row Tag="TXT_KEY_MISC_WONDER_COMPLETED_UNKNOWN_FIRST">
 			<Text>머나먼 땅에서 {@1_PrjctName}{@1: plural 1?이; 2?가;} 최초로 완료되었습니다!</Text>
 		</Row>
-
 		<!-- Promise Duration -->
 		<Row Tag="TXT_KEY_DIPLO_DURATION_PROMISE">
 			<Text>이 약속은 [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR]턴 동안 지속될 것입니다. 이 시기 동안 약속을 위반하면 상대방은 배신감을 느낄 것입니다.</Text>
 		</Row>
-
 		<!-- Civilopedia Jazz-->
 		<Row Tag="TXT_KEY_ABLTY_HAPPINESS_BUMP">
 			<Text>모든 도시의 [ICON_HAPPINESS_1]행복: +{1_Num}</Text>
@@ -2665,22 +3136,20 @@
 		<Row Tag="TXT_KEY_PEDIA_IMPROVEMENT_RESOURCE_CBP_LABEL">
 			<Text>시설 산출량</Text>
 		</Row>
-
 		<!-- Score Text -->
 		<Row Tag="TXT_KEY_REPLAY_DATA_TOURISMPERTURN">
 			<Text>매 턴 [ICON_TOURISM]관광</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DIPLO_MY_SCORE_ALLIES">
-			<Text>{1_Num} 도시 국가 동맹에서</Text>
+			<Text>도시 국가 동맹에서 [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DIPLO_MY_SCORE_MILITARY">
-			<Text>{1_Num} 군사력에서</Text>
+			<Text>군사력에서 [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR]</Text>
 		</Row>
 		<!-- CS TEXT CBP -->
 		<Row Tag="TXT_KEY_CSTATE_JERK_STATUS">
 			<Text>[COLOR_NEGATIVE_TEXT]이 도시 국가를 공격했습니다.[ENDCOLOR][NEWLINE][COLOR_NEGATIVE_TEXT]다음 {1_JerkRate}[ENDCOLOR]턴 동안 도시 국가로부터 퀘스트를 받을 수 없으며, 당신의 [ICON_INFLUENCE]영향력 정지점이 감소하게 될 것입니다.[NEWLINE]이 시기 동안 이 도시 국가와 [COLOR_POSITIVE_TEXT]친구가 된다면[ENDCOLOR] 이 페널티는 조기에 없어질 것입니다.[NEWLINE][NEWLINE]</Text>
 		</Row>
-
 		<!-- Promises LUA -->
 		<Row Tag="TXT_KEY_DIPLO_MILITARY_PROMISE_TURNS">
 			<Text>{1_Num}턴 동안 당신이 그들에게 전쟁을 선포하지 않기로 약속했습니다.</Text>
@@ -2699,7 +3168,7 @@
 		</Row>
 		<!-- Tourism Lua -->
 		<Row Tag="TXT_KEY_CO_CITY_TOURISM_GENERAL">
-			<Text>[ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] [ICON_TOURISM]도시에서</Text>
+			<Text>[ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}%[ENDCOLOR] [ICON_TOURISM]  도시에서 획득</Text>
 		</Row>
 		<!-- City Over Resource Need Notification -->
 		<Row Tag="TXT_KEY_NOTIFICATION_OVER_RESOURCE_LIMIT_CITY">
@@ -2719,23 +3188,18 @@
 		<Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_TT_OPEN_BORDERS_MOD">
 			<Text>국경 개방 [ICON_GOLD]골드 보너스: +{1_Num}%</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_TT_DISTANCE_MOD">
 			<Text>거리 페널티: {1_Num}%</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_CHOOSE_GOLD_INTERNAL_TRADE_ROUTE_MINOR_CS_TT_BONUS">
 			<Text>문명 내 교역에서 골드 보너스: {2_Num}</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_CHOOSE_GOLD_INTERNAL_TRADE_ROUTE_ITEM_TT_YOUR_SCIENCE_GAIN">
 			<Text>총: {1_Num} [ICON_RESEARCH]과학 (문명 내 교역 때문에)</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_CHOOSE_GOLD_INTERNAL_TRADE_ROUTE_ITEM_TT_YOUR_CULTURE_GAIN">
 			<Text>총: {1_Num} [ICON_CULTURE]문화 (문명 내 교역 때문에)</Text>
 		</Row>
-
 		<!-- Diplomacy Screen Buttons -->
 		<Row Tag="TXT_KEY_DIPLO_NEGOTIATE_PEACE_BLOCKED_THEM_TT">
 			<Text>다른 문명과 거래를 하고 있기 때문에 {1_Num}턴 동안 당신과 평화 협상을 할 수 없습니다.</Text>
@@ -2770,7 +3234,6 @@
 		<Row Tag="TXT_KEY_DIPLO_REQUEST_HELP_DEAL_BUTTON">
 			<Text>원조</Text>
 		</Row>
-	
 		<!-- LUA for CBP -->
 		<Row Tag="TXT_KEY_DIPLO_NO_WAR_DOF">
 			<Text>우호 관계 선언 때문에 불가능합니다.</Text>
@@ -2781,7 +3244,6 @@
 		<Row Tag="TXT_KEY_DIPLO_NO_WAR_PTP">
 			<Text>보호 선언 때문에 불가능합니다.</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_DIPLO_WAR_SCORE">
 			<Text>전쟁 점수가 75 이상이어야 합니다. 현재 전쟁 점수: {1_Num}</Text>
 		</Row>
@@ -2797,7 +3259,6 @@
 		<Row Tag="TXT_KEY_DIPLO_NEED_EMBASSY">
 			<Text>이 아이템을 거래하려면 대사관이 있어야 합니다.</Text>
 		</Row>
-		
 		<!-- Peace Out Details - Lua -->
 		<Row Tag="TXT_KEY_DIPLO_TRADE_VALUE_STR">
 			<Text>평화 협상 점수: {1_Num}</Text>
@@ -2817,15 +3278,12 @@
 		<Row Tag="TXT_KEY_DIPLO_TRADE_MAX_STR_TT">
 			<Text>AI와의 평화 협상에서 아이템의 최대 점수입니다. 왼쪽의 점수가 이 점수를 초과하면 AI는 거래를 거절할 것입니다.</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_DIPLO_NOT_BANK_TT_ONE_LINE">
 			<Text>턴당 골드와 일시불 골드를 동시에 거래할 수 없습니다.</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_PRODMOD_UNIT_CLASS">
 			<Text>[NEWLINE][ICON_BULLET]전투 유형에 따른 수치: {1_Num}%</Text>
 		</Row>
-
 		<!-- Regular Deal Details - Lua -->
 		<Row Tag="TXT_KEY_DIPLO_TRADE_VALUE_STR_PEACE">
 			<Text>거래 점수: {1_Num}</Text>
@@ -2845,7 +3303,6 @@
 		<Row Tag="TXT_KEY_DIPLO_TRADE_VALUE_STR_PEACE_TT">
 			<Text>현재 거래에서 거래 품목에 대한 AI의 현재 가치를 나타냅니다. 이 점수가 '불가능'이거나 너무 마이너스 값이면 AI는 거래를 거절할 것입니다.</Text>
 		</Row>
-
 		<!-- No Supply -->
 		<Row Tag="TXT_KEY_NO_ACTION_NO_SUPPLY">
 			<Text>[NEWLINE]보급 한도 때문에 이 유닛을 [ICON_PRODUCTION]생산할 수 없습니다.</Text>
@@ -2853,35 +3310,28 @@
 		<Row Tag="TXT_KEY_NO_ACTION_NO_SUPPLY_PURCHASE">
 			<Text>[NEWLINE]보급 한도 때문에 이 유닛을 [ICON_GOLD]구매할 수 없습니다.</Text>
 		</Row>
-		
 		<!-- Lack of gross resource (before deductions) -->
 		<Row Tag="TXT_KEY_NO_ACTION_UNIT_LACKS_GROSS_RESOURCES">
 			<Text>유닛을 생산하려면 {2_ResourceIcon} {3_ResourceName:textkey}{3: plural 1?이; 2?가;} {1_Num}개 필요합니다.</Text>
 		</Row>
-	
 		<Row Tag="TXT_KEY_UPGRADE_HELP_DISABLED_GROSS_RESOURCES">
 			<Text>유닛을 업그레이드 하려면 {1_ResourcesString}{1: plural 1?이; 2?가;} 필요합니다.</Text>
 		</Row>
-
 		<!-- Resources is net negative (after deductions) -->
 		<Row Tag="TXT_KEY_NO_ACTION_UNIT_NET_RESOURCES_NEGATIVE">
 			<Text>유닛을 생산하려면 {1_ResourceIcon} {2_ResourceName:textkey}{2: plural 1?이; 2?가;} 필요합니다.</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_UPGRADE_HELP_DISABLED_RESOURCES_NET_NEGATIVE">
 			<Text>유닛을 업그레이드 하려면 {1_ResourcesString}{1: plural 1?이; 2?가;} 필요합니다.</Text>
 		</Row>
-
 		<!-- Unit requires total resources (before deductions) -->
 		<Row Tag="TXT_KEY_PRODUCTION_TOTAL_RESOURCES_REQUIRED">
 			<Text>[ICON_BULLET] 접근 필요:</Text>
 		</Row>
-		
 		<!-- Opinion Indicator for Human Teammate -->
 		<Row Tag="TXT_KEY_DIPLO_HUMAN_TEAMMATE">
 			<Text>[COLOR_POSITIVE_TEXT]우리는 한 배를 탔습니다.[ENDCOLOR]</Text>
 		</Row>
-
 		<!-- Opinion Indicators For Neutral Approach -->
 		<Row Tag="TXT_KEY_DIPLO_NEUTRAL_FRIENDLY">
 			<Text>그들은 어떤 식으로든 우리에 대해 강한 감정을 가지고 있지 않습니다.</Text>
@@ -2889,12 +3339,10 @@
 		<Row Tag="TXT_KEY_DIPLO_NEUTRAL_HOSTILE">
 			<Text>그들은 우리가 그들의 이익과 관련이 있다고 생각하지 않습니다.</Text>
 		</Row>
-
 		<!-- Opinion Indicator If Untrustworthy -->
 		<Row Tag="TXT_KEY_DIPLO_UNTRUSTWORTHY_FRIEND">
 			<Text>우리는 그들을 완전하게 신뢰할 수 없습니다.</Text>
 		</Row>
-		
 		<!-- Base Opinion Mod -->
 		<Row Tag="TXT_KEY_DIPLO_VERY_GOOD_BASE_OPINION">
 			<Text>[COLOR_POSITIVE_TEXT]그들은 본능적으로 당신을 좋아합니다![ENDCOLOR]</Text>
@@ -2908,7 +3356,6 @@
 		<Row Tag="TXT_KEY_DIPLO_VERY_BAD_BASE_OPINION">
 			<Text>[COLOR_NEGATIVE_TEXT]그들은 본능적으로 당신을 싫어합니다![ENDCOLOR]</Text>
 		</Row>
-		
 		<!-- Show True Approach Debug Text -->
 		<Row Tag="TXT_KEY_DIPLO_TRUE_APPROACH_WAR">
 			<Text>(숨겨짐): 전쟁 </Text>
@@ -2934,7 +3381,6 @@
 		<Row Tag="TXT_KEY_DIPLO_TRUE_APPROACH_NEUTRAL">
 			<Text>(숨겨짐): 중립적</Text>
 		</Row>
-
 		<!-- Embassy Diplo Mod -->
 		<Row Tag="TXT_KEY_DIPLO_MUTUAL_EMBASSY">
 			<Text>[COLOR_POSITIVE_TEXT]우리는 대사관을 공유했습니다.[ENDCOLOR]</Text>
@@ -2942,7 +3388,6 @@
 		<Row Tag="TXT_KEY_DIPLO_WE_HAVE_EMBASSY">
 			<Text>[COLOR_POSITIVE_TEXT]우리는 그들의 수도에 대사관을 가지고 있습니다.[ENDCOLOR]</Text>
 		</Row>
-
 		<!-- Open Borders Diplo Mod -->
 		<Row Tag="TXT_KEY_DIPLO_OPEN_BORDERS_MUTUAL">
 			<Text>[COLOR_POSITIVE_TEXT]우리는 서로 국경을 개방했습니다.[ENDCOLOR]</Text>
@@ -2953,7 +3398,6 @@
 		<Row Tag="TXT_KEY_DIPLO_OPEN_BORDERS_THEM">
 			<Text>[COLOR_POSITIVE_TEXT]그들은 우리에게 국경을 개방했습니다.[ENDCOLOR]</Text>
 		</Row>
-
 		<!-- Defensive Pact Diplo Mods -->
 		<Row Tag="TXT_KEY_DIPLO_DP">
 			<Text>[COLOR_POSITIVE_TEXT]우리는 방어 조약을 체결했습니다![ENDCOLOR]</Text>
@@ -2964,22 +3408,18 @@
 		<Row Tag="TXT_KEY_DIPLO_DP_WITH_ENEMY">
 			<Text>[COLOR_NEGATIVE_TEXT]당신은 그들의 적들 중 한 명과 방어 조약을 맺었습니다![ENDCOLOR]</Text>
 		</Row>
-		
 		<!-- Research Agreement Diplo Mod -->
 		<Row Tag="TXT_KEY_DIPLO_MADE_RESEARCH_AGREEMENT">
 			<Text>[COLOR_POSITIVE_TEXT]우리는 연구 협정을 맺었습니다![ENDCOLOR]</Text>
 		</Row>
-
 		<!-- Denouncement Diplo Mod -->
 		<Row Tag="TXT_KEY_DIPLO_MUTUAL_DENOUNCEMENT">
 			<Text>[COLOR_NEGATIVE_TEXT]우리는 서로를 비난해왔습니다![ENDCOLOR]</Text>
 		</Row>
-		
 		<!-- Tech Dispute Mod (for scientific civs) -->
 		<Row Tag="TXT_KEY_DIPLO_TECH_DISPUTE">
 			<Text>[COLOR_NEGATIVE_TEXT]당신은 기술 발전을 위해 경쟁하고 있습니다.</Text>
 		</Row>
-
 		<!-- Non-Competition Diplo Mods -->
 		<Row Tag="TXT_KEY_DIPLO_NO_WONDER_DISPUTE">
 			<Text>[COLOR_POSITIVE_TEXT]당신은 세계 불가사의를 위해 경쟁하고 있지 않습니다.</Text>
@@ -2990,12 +3430,10 @@
 		<Row Tag="TXT_KEY_DIPLO_NO_TECH_DISPUTE">
 			<Text>[COLOR_POSITIVE_TEXT]당신은 기술 발전을 위해 경쟁하고 있지 않습니다.</Text>
 		</Row>
-		
 		<!-- Wonder Spammer Diplo Mod -->
 		<Row Tag="TXT_KEY_DIPLO_WONDER_SPAMMER">
 			<Text>[COLOR_NEGATIVE_TEXT]그들은 우리가 너무 공격적으로 세계 불가사의를 건설하고 있다고 믿습니다.</Text>
 		</Row>
-
 		<!-- Social Policies Diplo Mod -->
 		<Row Tag="TXT_KEY_DIPLO_SAME_POLICIES">
 			<Text>[COLOR_POSITIVE_TEXT]우리는 같은 사회 정책을 가지고 있습니다.[ENDCOLOR]</Text>
@@ -3003,32 +3441,26 @@
 		<Row Tag="TXT_KEY_DIPLO_DIFFERENT_POLICIES">
 			<Text>[COLOR_NEGATIVE_TEXT]우리는 다른 사회 정책을 가지고 있습니다.[ENDCOLOR]</Text>
 		</Row>
-		
 		<!-- PTP Same CS Diplo Mod -->
 		<Row Tag="TXT_KEY_DIPLO_SAME_PTP">
 			<Text>[COLOR_NEGATIVE_TEXT]우리는 같은 도시 국가를 보호하겠다고 약속했습니다.[ENDCOLOR]</Text>
 		</Row>
-		
 		<!-- Same Master Diplo Mod -->
 		<Row Tag="TXT_KEY_DIPLO_SAME_MASTER">
 			<Text>[COLOR_POSITIVE_TEXT]우리는 같은 주인의 종속국입니다![ENDCOLOR]</Text>
 		</Row>
-		
 		<!-- Stolen Artifacts Diplo Mod -->
 		<Row Tag="TXT_KEY_DIPLO_STOLEN_ARTIFACTS">
 			<Text>[COLOR_NEGATIVE_TEXT]당신은 그들의 문화 유물을 발굴했습니다![ENDCOLOR]</Text>
 		</Row>
-		
 		<!-- Plotted Against Them Diplo Mod -->
 		<Row Tag="TXT_KEY_DIPLO_PLOTTED_AGAINST_US">
 			<Text>[COLOR_NEGATIVE_TEXT]당신은 그들을 모함하다가 잡혔습니다.[ENDCOLOR]</Text>
 		</Row>
-		
 		<!-- City-State Coup Diplo Mod -->
 		<Row Tag="TXT_KEY_DIPLO_PERFORMED_COUP">
 			<Text>[COLOR_NEGATIVE_TEXT]당신의 스파이가 쿠데타로 도시 국가의 동맹을 빼앗았습니다![ENDCOLOR]</Text>
 		</Row>
-
 		<!-- Aggressive Posture Diplo Mod -->
 		<Row Tag="TXT_KEY_DIPLO_AGGRESSIVE_POSTURE_MEDIUM">
 			<Text>[COLOR_NEGATIVE_TEXT]당신의 군사적 배치가 위협적입니다.[ENDCOLOR]</Text>
@@ -3036,7 +3468,6 @@
 		<Row Tag="TXT_KEY_DIPLO_AGGRESSIVE_POSTURE_HIGH">
 			<Text>[COLOR_NEGATIVE_TEXT]당신의 군사적 배치가 극도로 위협적입니다.[ENDCOLOR]</Text>
 		</Row>
-
 		<!-- Religion Diplo Mods -->
 		<Row Tag="TXT_KEY_DIPLO_SAME_MAJORITY_RELIGIONS">
 			<Text>[COLOR_POSITIVE_TEXT]우리는 대부분의 도시에서 같은 종교를 채택했습니다.[ENDCOLOR]</Text>
@@ -3050,7 +3481,6 @@
 		<Row Tag="TXT_KEY_DIPLO_CAPTURED_HOLY_CITY">
 			<Text>[COLOR_NEGATIVE_TEXT]당신은 그들의 성도를 점령했습니다![ENDCOLOR]</Text>
 		</Row>
-
 		<!-- Ideology Diplo Mods -->
 		<Row Tag="TXT_KEY_DIPLO_SAME_LATE_POLICY_TREES_VASSAL">
 			<Text>당신은 같은 {1_PolicyTree} 이념을 채택했습니다.</Text>
@@ -3058,7 +3488,6 @@
 		<Row Tag="TXT_KEY_DIPLO_DIFFERENT_LATE_POLICY_TREES_VASSAL">
 			<Text>[COLOR_NEGATIVE_TEXT]당신은 {1_YourPolicyTree} 이념을 채택했습니다, 그러나 그들은 {2_TheirPolicyTree} 이념을 믿습니다.[ENDCOLOR]</Text>
 		</Row>
-
 		<!-- World Congress >>> United Nations -->
 		<Row Tag="TXT_KEY_DIPLO_LIKED_OUR_PROPOSAL_UN">
 			<Text>[COLOR_POSITIVE_TEXT]그들은 유엔에 대한 우리의 제안을 좋아합니다.[ENDCOLOR]</Text>
@@ -3075,17 +3504,14 @@
 		<Row Tag="TXT_KEY_DIPLO_SUPPORTED_THEIR_HOSTING_UN">
 			<Text>[COLOR_POSITIVE_TEXT]우리는 그들이 유엔의 개최국이 되도록 도왔습니다.[ENDCOLOR]</Text>
 		</Row>
-
 		<!-- Special Warmonger Hate Descriptor for Aztecs -->
 		<Row Tag="TXT_KEY_WARMONGER_HATE_AZTECS">
 			<Text> (그들은 피에 굶주린 전쟁광이다!)</Text>
 		</Row>
-		
 		<!-- :) -->
 		<Row Tag="TXT_KEY_DIPLO_NUCLEAR_GANDHI">
 			<Text>[COLOR_NEGATIVE_TEXT]간디의 말은 핵무기로 뒷받침 됩니다![ENDCOLOR]</Text>
 		</Row>
-
 		<!-- Defense Pact Offer -->
 		<Row Tag="TXT_KEY_DEFENSE_PACT_OFFER_1">
 			<Text>당신의 군사적 기량에 감탄했습니다. 우리 서로 방위 조약을 맺지 않겠습니까?</Text>
@@ -3099,7 +3525,6 @@
 		<Row Tag="TXT_KEY_DEFENSE_PACT_OFFER_4">
 			<Text>우리가 동맹을 맺는다면 전 세계의 폭군들이 우리의 발밑에서 두려움에 떨 것입니다. 방위 조약이 중요하다는 것을 아시겠습니까?</Text>
 		</Row>
-		
 		<!-- Cities/3rd Party War and Peace Offers -->
 		<Row Tag="TXT_KEY_CITY_TRADE_OFFER_1">
 			<Text>영토의 판매는 합법적입니다. 이 제안이 적절하다고 생각하지 않습니까?</Text>
@@ -3110,7 +3535,6 @@
 		<Row Tag="TXT_KEY_CITY_TRADE_OFFER_3">
 			<Text>당신이 소유할 땅의 선택은 거래에 달려 있다고 생각합니다. 이것이 제 제안입니다. 어떻게 생각하십니까?</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_CITY_EXCHANGE_OFFER_1">
 			<Text>당신은 내가 원하는 땅을 가지고 있고 나도 당신이 원하는 땅을 가지고 있는 것 같습니다. 수지 맞는 거래이지 않습니까?</Text>
 		</Row>
@@ -3120,7 +3544,6 @@
 		<Row Tag="TXT_KEY_CITY_EXCHANGE_OFFER_3">
 			<Text>영토를 거래함으로써 상호 간에 이익을 얻을 수 있습니다. 특히 이 2개 도시들을 말입니다. 어떻게 생각하십니까?</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_THIRD_PARTY_WAR_OFFER_1">
 			<Text>당신의 군사적 기량에 감탄했습니다. 나의 적들 중 한 명과 맞서길 바랍니다. 이 거래에 대해 어떻게 생각하십니까?</Text>
 		</Row>
@@ -3130,7 +3553,6 @@
 		<Row Tag="TXT_KEY_THIRD_PARTY_WAR_OFFER_3">
 			<Text>당신의 군사력은 부인할 수 없으며, 변화를 위한 큰 힘이 되어줄 수 있습니다. 이 제안이 마음에 드십니까?</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_THIRD_PARTY_PEACE_OFFER_1">
 			<Text>평화의 존엄성을 대표하여 제가 당신에게 이 제안을 고려해보길 조언합니다.</Text>
 		</Row>
@@ -3140,7 +3562,6 @@
 		<Row Tag="TXT_KEY_THIRD_PARTY_PEACE_OFFER_3">
 			<Text>너무나 많은 사람들이 당신의 분쟁으로 죽고 있습니다. 이제는 이 전쟁을 끝낼 때이지 않습니까?</Text>
 		</Row>
-
 		<!-- Votes -->
 		<Row Tag="TXT_KEY_VOTE_COMMITMENT_REQUEST_1">
 			<Text>내 보좌관들이 당신이 아직 이번 세계 대회 안건에 투표하지 않았다고 알려줬습니다. 이 제안을 어떻게 생각하십니까?</Text>
@@ -3151,8 +3572,6 @@
 		<Row Tag="TXT_KEY_VOTE_COMMITMENT_REQUEST_3">
 			<Text>이번 세계 대회 안건에 대한 당신의 투표는 나에게 매우 중요합니다. 이 제안으로 안건이 반영되길 바랍니다. 만약 사양한다면 어느 쪽에 투표할 것인지 말해주실 수 있습니까?</Text>
 		</Row>
-
-
 		<!-- Embark String for Less/No City Cost-->
 		<Row Tag="TXT_KEY_ABLTY_CITY_LESS_EMBARK_COST_STRING">
 			<Text>보유 도시에서 승선/상륙 시 [ICON_MOVES]이동력 1 소모</Text>
@@ -3187,10 +3606,10 @@
 			<Text>만약 당신이 다음 {1_Num}턴 내에 그들을 비난한다면, 다른 문명들은 당신을 배후로 볼 수도 있습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_DOF_BROKEN">
-			<Text>{1_CivName:textkey} 문명과 {2_CivName:textkey} 문명 사이의 외교적 긴장으로 그들의 우호 관계 선언이 [COLOR_NEGATIVE_TEXT]파기[ENDCOLOR]되었습니다.</Text>
+			<Text>{1_CivName:textkey}{1: plural 1?과; 2?와;}  {2_CivName:textkey} 사이의 외교적 긴장으로 그들의 우호 관계 선언이 [COLOR_NEGATIVE_TEXT]파기[ENDCOLOR]되었습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_DOF_S_BROKEN">
-			<Text>{1_CivName:textkey} 문명과 {2_CivName:textkey} 문명은 더 이상 친구가 아닙니다!</Text>
+			<Text>{1_CivName:textkey}{1: plural 1?과; 2?와;} {2_CivName:textkey}{2: plural 1?은; 2?는;} 더 이상 친구가 아닙니다!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DIPLO_VICTORY_DISPUTE_CBP_WEAK">
 			<Text>[COLOR_NEGATIVE_TEXT]그들은 당신과 경쟁하고 있어 경계하고 있습니다.[ENDCOLOR]</Text>
@@ -3240,7 +3659,6 @@
 		<Row Tag="TXT_KEY_GENERIC_INFLUENTIAL_ON_HUMAN_MODERN_1">
 			<Text>지나간 세월의 문화들이 남을 자리는 거의 없습니다. 당신에게는 불행하게도 당신의 문화가 밀려난 것 같습니다. 걱정 마십시오. 나의 새로운 유물 박물관에서 큰 규모의 공간을 마련해 당신의 문화를 기리고자 합니다.</Text>
 		</Row>
-
 		<!-- Only made if the AI is competitive, and the player and the AI are advancing towards the same victory condition. -->
 		<Row Tag="TXT_KEY_GENERIC_COMPETITION_ANNOUNCE_WORLD_CONQUEST_1">
 			<Text>이 세계는 정복자가 될 우리 두 사람에게는 너무 작습니다. 나의 군대가 조만간 전장에서 당신의 군대를 만날 것입니다. 각오하십시오!</Text>
@@ -3272,7 +3690,6 @@
 		<Row Tag="TXT_KEY_GENERIC_COMPETITION_ANNOUNCE_CONFUSED_2">
 			<Text>나의 역사가들이 언제 나에게 당신의 문명이 세계 역사에 끼친 영향에 대해 물어봤습니다. 내가 그들에게 뭐라고 답했는지 아십니까? 당신의 문명이 언급할 만한 것을 아무것도 이루지 못했지 때문에 없다고 답했습니다.</Text>
 		</Row>
-
 		<!-- Only made if AI is sure that a human player is headed towards a victory condition that isn't the AI's. -->
 		<Row Tag="TXT_KEY_GENERIC_BLOCK_ANNOUNCE_WORLD_CONQUEST_1">
 			<Text>당신의 군대는 땅의 병충해입니다. 당신은 통합이 아닌 파괴의 인도자입니다. 당신이 자신의 이익을 위해 모든 것을 가져가도록 좌시하지 않겠습니다.</Text>
@@ -3286,7 +3703,6 @@
 		<Row Tag="TXT_KEY_GENERIC_BLOCK_ANNOUNCE_SPACESHIP_1">
 			<Text>당신의 과학에 대한 탐구는 파멸밖에 가져오지 않을 것입니다. 당신은 별을 바라보고 있지만 나와 다른 이들은 당신의 영토를 바라보고 있습니다.</Text>
 		</Row>
-
 		<!-- AI DOW Multiple Wars in Past -->
 		<Row Tag="TXT_KEY_GENERIC_DOW_OLD_ENEMIES_1">
 			<Text>나의 군대를 또 한 번 전장에서 만날 것입니다. 우리가 한때 친구였을지 모르지만 이제는 증오만이 남아 있습니다.</Text>
@@ -3294,7 +3710,6 @@
 		<Row Tag="TXT_KEY_GENERIC_DOW_OLD_ENEMIES_2">
 			<Text>아, 나의 가장 오래된 적이군요. 당신과 다시 한 번 겨뤄보길 기대합니다.</Text>
 		</Row>
-
 		<!-- AI DOW Warmonger -->
 		<Row Tag="TXT_KEY_GENERIC_DOW_WARMONGER_1">
 			<Text>그만하십시오. 누군가는 곧 당신의 광기를 막아야 합니다. 그에 적합한 인물은 아마 저일 것입니다.</Text>
@@ -3302,7 +3717,6 @@
 		<Row Tag="TXT_KEY_GENERIC_DOW_WARMONGER_2">
 			<Text>나에게는 세계가 암흑 시대에 굴복하는 것을 막을 책임이 있습니다.</Text>
 		</Row>
-
 		<!-- AI DOW'd On by Warmonger -->
 		<Row Tag="TXT_KEY_GENERIC_ATTACKED_STRONG_WARMONGER_1">
 			<Text>멍청한 전쟁광이 잠자는 용을 건드리는군. 당신은 이 전쟁에서 물어뜯을 것보다 물어뜯길 게 더 많을 것이오.</Text>
@@ -3313,7 +3727,6 @@
 		<Row Tag="TXT_KEY_GENERIC_ATTACKED_WARMONGER_1">
 			<Text>이 전쟁은 우리 두 문명을 시험할 것이오. 다른 이들이 당신의 검에 몰락했을지 모르지만 당신의 장기적인 폭력은 여기서 끝날 것이오.</Text>
 		</Row>
-
 		<!-- AI DOW'd on by different ideology -->
 		<Row Tag="TXT_KEY_GENERIC_ATTACKED_IDEOLOGY_DIFFERENCE_1">
 			<Text>당신이 나와 싸우길 원한다는 것은 놀랍지 않습니다. 세계의 이념 미래를 두고 싸우는 우리 둘 사이의 전쟁은 단지 유혈사태로 끝날 것입니다.</Text>
@@ -3321,12 +3734,10 @@
 		<Row Tag="TXT_KEY_GENERIC_ATTACKED_IDEOLOGY_DIFFERENCE_2">
 			<Text>이 분쟁은 불가피했습니다. 우리 둘 사이의 이념 차이가 전쟁을 초래했습니다.</Text>
 		</Row>
-
 		<!-- AI DOW'd on by same ideology -->
 		<Row Tag="TXT_KEY_GENERIC_ATTACKED_IDEOLOGY_SAME_1">
 			<Text>우리의 이념적 견해를 부정하는 이들이 있는데 그들을 놔두고 나를 공격한다고? 정신이 나갔군, 오랜 친구여.</Text>
 		</Row>
-
 		<!-- AI DOW on different ideology -->
 		<Row Tag="TXT_KEY_GENERIC_DOW_IDEOLOGY_DIFFERENCE_1">
 			<Text>이 냉전은 오래 지속되었습니다. 이 이념 분쟁을 영원히 해결합시다.</Text>
@@ -3334,7 +3745,6 @@
 		<Row Tag="TXT_KEY_GENERIC_DOW_IDEOLOGY_DIFFERENCE_2">
 			<Text>이 세계에서 당신의 이념이 설 자리는 없습니다. 내가 조만간 당신을 파멸시킬 것입니다.</Text>
 		</Row>
-
 		<!-- AI DOW same ideology -->
 		<Row Tag="TXT_KEY_GENERIC_DOW_IDEOLOGY_SAME_1">
 			<Text>당신은 나와 같은 이념을 믿는다고 주장하지만 당신의 행동은 날 배신했습니다. 당신의 문명을 지구 상에서 없애겠습니다, 가짜 친구여.</Text>
@@ -3342,7 +3752,6 @@
 		<Row Tag="TXT_KEY_GENERIC_DOW_IDEOLOGY_SAME_2">
 			<Text>우리가 같은 이념을 공유하고 있지만 그 사실만으로는 내가 당신을 싫어하는 것을 막을 수 없는 것 같습니다. 당신의 문명은 곧 파괴될 것입니다.</Text>
 		</Row>
-
 		<!-- Bullying Notification -->
 		<Row Tag="TXT_KEY_NOTIFICATION_MINOR_BULLIED_BY_SOMEONE_S">
 			<Text>{2_Civ}{2: plural 1?이; 2?가;} {1_CS}{1: plural 1?을; 2?를;} 괴롭혔습니다!</Text>
@@ -3350,7 +3759,6 @@
 		<Row Tag="TXT_KEY_NOTIFICATION_MINOR_BULLIED_BY_SOMEONE">
 			<Text>우리 외교관들이 {2_Civ}{2: plural 1?이; 2?가;} 최근에 {1_CS}{1: plural 1?을; 2?를;} 괴롭혔다고 보고했습니다!</Text>
 		</Row>
-		
 		<!-- ADDITIONS TO EXISTING DIPLOMACY TEXTS -->
 		<Row Tag="TXT_KEY_HOSTILE_WE_ATTACKED_YOUR_MINOR_3">
 			<Text>당신의 친구인 {@1_MinorCivName}{@1: plural 1?이; 2?가;} 나와 위대한 제국의 꿈 사이를 방해하고 있습니다. 당신은 이 문제에 개입하겠습니까?</Text>
@@ -3445,14 +3853,12 @@
 		<Row Tag="TXT_KEY_GENERIC_SUSPECT_YOU_OF_SPYING_3">
 			<Text>나의 가장 총명한 지성들은 당신이 최근 타국 스파이가 연루된 보안 사건에 대해 책임이 있을 가능성이 높다고 얘기해주었습니다. 그게 사실이라면 일이 더 추해지기 전에 멈춥시다.</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_GENERIC_ATTACKED_WEAK_EXCITED_2">
 			<Text>죽음을 마주하게 되어 웃음이 나오는군요. 홀로 남았는데도 말입니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GENERIC_ATTACKED_STRONG_EXCITED_2">
 			<Text>나의 함정에 걸려들었군요. 당신의 군대를 잃을 준비하십시오.</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_GENERIC_RENEW_DEAL_2">
 			<Text>협력과 적절한 외교는 문명이 갖추어야 할 요소이지요. 우리가 그 사례를 전 세계에 계속해서 보여줘야 하지 않겠습니까?</Text>
 		</Row>
@@ -3465,7 +3871,6 @@
 		<Row Tag="TXT_KEY_GENERIC_WANT_MORE_RENEW_DEAL_3">
 			<Text>우리는 좋은 동반자 관계였지만 더 이상 아닌 것 같군요. 거래를 갱신하고자 한다면 우리는 당신에게서 좀 더 많은 것을 기대합니다.</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_GENERIC_STOP_CONVERSIONS_2">
 			<Text>당신의 사악한 믿음이 우리 땅을 더럽히고 우리 시민의 도덕성을 훼손시키고 있습니다. 우리의 종교적 차이가 유혈 사태로 번지는 건 원치 않으니 당신의 거짓말쟁이들을 다른 곳으로 보내주십시오.</Text>
 		</Row>
@@ -3496,7 +3901,6 @@
 		<Row Tag="TXT_KEY_GENERIC_RESPONSE_HUMAN_STOP_CONVERSIONS_DISAGREE_2">
 			<Text>우리의 신앙이 당신과 같은 우상 숭배자들에 대해 경고하고 있습니다. 우리는 당신과 당신의 시민이 진정한 하나의 종교를 따를 때까지 멈추지 않을 겁니다.</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_GENERIC_HOSTILE_WE_BULLIED_MINOR_BAD_2">
 			<Text>마음대로 하십시오.</Text>
 		</Row>
@@ -3509,7 +3913,6 @@
 		<Row Tag="TXT_KEY_GENERIC_HUMAN_BULLIED_MINOR_GOOD_2">
 			<Text>당신의 행동이 당신의 말을 반영하는지 지켜보겠습니다.</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_GENERIC_RESPONSE_STOP_DIGGING_DISAGREE_2">
 			<Text>날 멈출 수 있는 방법은 없습니다. 전 세계의 유물들은 나의 것입니다!</Text>
 		</Row>
@@ -3522,7 +3925,6 @@
 		<Row Tag="TXT_KEY_GENERIC_RESPONSE_HUMAN_STOP_DIGGING_GOOD_2">
 			<Text>당신은 옳은 결정을 했습니다. 우리 유물을 정말로 보고자 한다면 우리에게서 훔치지 말고 우리 박물관에 찾아오십시오.</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_GENERIC_CIVIL_RESISTANCE_ON_AI_BY_FREEDOM_2">
 			<Text>나의 국민이 헌법과 시민의 자유, 심지어 참정권까지 요구하고 있습니다. 당신이 한 짓일 겁니다. 그렇지 않습니까?</Text>
 		</Row>
@@ -3550,7 +3952,6 @@
 		<Row Tag="TXT_KEY_GENERIC_SWITCHED_TO_AUTOCRACY_2">
 			<Text>권위에 의한 새로운 세계 질서는 부인할 수 없습니다. 우리와 대의를 함께하기로 한 당신의 결정은 불가피한 것이었고 위대한 승리의 미래를 가져올 것입니다.</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_GENERIC_REPEAT_TRADE_4">
 			<Text>더 나은 조건을 제시할 수 있잖습니까?</Text>
 		</Row>
@@ -3986,7 +4387,7 @@
 			<Text>감히 최고의 전사들과 싸우길 바라는 겁니까?</Text>
 		</Row>
 		<Row Tag="TXT_KEY_WASHINGTON_HOSTILE_AGGRESSIVE_MILITARY_WARNING_2">
-		        <Text>당신의 괴롭힘을 참을 수 없습니다. 당신의 병력을 나의 국경에서 철수시키십시오.</Text>
+			<Text>당신의 괴롭힘을 참을 수 없습니다. 당신의 병력을 나의 국경에서 철수시키십시오.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_HARUN_HOSTILE_AGGRESSIVE_MILITARY_WARNING_2">
 			<Text>당신은 자신이 현명하다고 생각하겠지만 멍청한 자만이 사막의 전사들과 싸웁니다. 전쟁을 시작하거나 당장 떠나십시오.</Text>
@@ -4628,7 +5029,6 @@
 		<Row Tag="TXT_KEY_GENERIC_WANT_MORE_RENEW_DEAL_4">
 			<Text>불행히도 나는 이 거래가 예전만큼 우리에게 이익을 주는 것 같지는 않습니다. 그래도 거래를 지속하시겠습니까?</Text>
 		</Row>
-
 		<!--Trade Dialogue-->
 		<Row Tag="TXT_KEY_GENERIC_TRADE_ACCEPT_GENEROUS_4">
 			<Text>아무렴요!</Text>
@@ -5099,7 +5499,6 @@
 		<Row Tag="TXT_KEY_GENERIC_TRADE_CANT_MATCH_OFFER_6">
 			<Text>당신에게 더 줄 수 없어 유감이군요.</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_GENERIC_WE_LIKE_HUMAN_PROPOSAL_3">
 			<Text>당신이 {1_LeagueName}에  제안한 내용은 매우 현명합니다. 이 외교적 동맹은 이익이 될 것입니다.</Text>
 		</Row>
@@ -5130,7 +5529,6 @@
 		<Row Tag="TXT_KEY_GENERIC_HUMAN_SUPPORTED_OUR_HOSTING_3">
 			<Text>당신과 같은 현명한 지도자들 덕분에 우리 문명이 {1_LeagueName}의 주최국으로 선정되었습니다. 우리가 함께 세계를 발전시킵시다.</Text>
 		</Row>
-
 		<!-- DOF Layers -->
 		<Row Tag="TXT_KEY_DOF_UNTRUSTWORTHY_1">
 			<Text>우리가 항상 눈을 마주보고 대화하지는 않았습니다. 우호 관계 선언은 이를 도울 것입니다.</Text>
@@ -5144,7 +5542,6 @@
 		<Row Tag="TXT_KEY_DOF_UNTRUSTWORTHY_4">
 			<Text>우리 역사는 갈등과 반목으로 점철되었습니다. 이제 모든 것을 잊고 우호 관계 선언을 하는 것이 어떻습니까?</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_DOF_FRIENDS_1">
 			<Text>우리 국민은 세월이 지나면서 점점 더 가까워졌고 이 관계가 악화되는 것은 부끄러운 일이 될 것입니다. 우호 관계 선언을 재개하지 않겠습니까?</Text>
 		</Row>
@@ -5157,7 +5554,6 @@
 		<Row Tag="TXT_KEY_DOF_FRIENDS_4">
 			<Text>우리 우호 관계 선언이 만료되었습니다. 우리가 전 협정에서 좋은 것들을 많이 얻을 수 있었는데, 다시 그럴 수 있으리라 믿습니다.</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_DOF_OLD_FRIENDS_1">
 			<Text>반갑습니다, 오랜 친구여. 나의 보좌관들이 우리 우호 관계 선언이 만료되었다고 하는군요. 이건 분명 잘못된 일입니다. 우호 관계 선언을 재개해야 하지 않겠습니까?</Text>
 		</Row>
@@ -5170,7 +5566,6 @@
 		<Row Tag="TXT_KEY_DOF_OLD_FRIENDS_4">
 			<Text>당신은 최고의 친구이고 나는 우리가 서로 어색했던 순간을 잊을 수 없습니다. 다시금 우호 관계 선언을 맺지 않겠습니까?</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_DOF_BATTLE_BROTHERS_1">
 			<Text>다시 한 번 우호 관계 선언을 맺지 않겠습니까?</Text>
 		</Row>
@@ -5183,50 +5578,36 @@
 		<Row Tag="TXT_KEY_DOF_BATTLE_BROTHERS_4">
 			<Text>미래에 우리의 역사적 동맹에 대한 이야기가 전해질 것입니다. 우호 관계 선언을 재개하는 것이 어떻습니까?</Text>
 		</Row>
-
 		<!-- ESSENTIAL TEXTS - DO NOT CHANGE -->
-
 		<!-- New Building Pop Requirements -->
-	
 		<Row Tag="TXT_KEY_NO_ACTION_TENETS_COUNT_NEEDED">
 			<Text>[NEWLINE]{2_BuildingName:textkey}{2: plural 1?을; 2?를;}  건설하기 위해서는 3단계 이념 주의가 {1_Num}개 더 있어야 합니다.</Text>
 		</Row>
-
-
 		<Row Tag="TXT_KEY_NO_ACTION_BUILDING_NEED_NATIONAL_POP">
 			<Text>[NEWLINE]{2_BuildingName:textkey}{2: plural 1?을; 2?를;} 건설하기 위해서는 문명 전역의 시민이 {1_Num}명 더 있어야 합니다.</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_NO_ACTION_BUILDING_NEED_LOCAL_POP">
 			<Text>[NEWLINE]{2_BuildingName:textkey}{2: plural 1?을; 2?를;} 건설하기 위해서는 도시의 시민이 {1_Num}명 더 있어야 합니다.</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_NO_ACTION_BUILDING_NEED_FOLLOWER_POP">
 			<Text>[NEWLINE]{2_BuildingName:textkey}{2: plural 1?을; 2?를;} 건설하기 위해서는 당신의 문명에서 당신의 [ICON_RELIGION]종교를 따르는 신도가 {1_Num}명 더 있어야 합니다.</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_NO_ACTION_BUILDING_NEED_GLOBAL_FOLLOWER_POP">
 			<Text>[NEWLINE]{2_BuildingName:textkey}{2: plural 1?을; 2?를;} 건설하기 위해서는 전 세계에  당신의 [ICON_RELIGION]종교를 따르는 신도가 {1_Num}% 더 있어야 합니다.</Text>
 		</Row>
-
 		<!-- New Spy Action Texts -->
 		<!-- Spy Killed -->
-
 		<Row Tag="TXT_KEY_NOTIFICATION_SPY_WAS_KILLED_S_ADVANCED">
 			<Text>{2_CityName}에서 스파이 {1_SpyName}{1: plural 1?이; 2?가;} 살해되었습니다!</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_NOTIFICATION_SPY_WAS_KILLED_ADVANCED">
 			<Text>당신의 {1_SpyRank} 스파이 {2_SpyName}{2: plural 1?이; 2?가;} {4_CityName}에서 활동하던 도중 {3_CivAdj} 방첩 활동으로 살해되었습니다!</Text>
 		</Row>
-
 		<!-- Killed a Spy -->
 		<Row Tag="TXT_KEY_NOTIFICATION_KILLED_A_SPY_ADVANCED">
 			<Text>당신의 {1_SpyRank} 스파이 {2_SpyName}{2: plural 1?이; 2?가;} {4_CityName}에서 활동하던 {3_CivAdj} 스파이를 제거했습니다!</Text>
 		</Row>
-
 		<!-- Building Damaged -->
-
 		<!-- Spy Owner Notification (Wonder)  -->
 		<Row Tag="TXT_KEY_NOTIFICATION_SPY_SETBACK_WONDER_S">
 			<Text>{1_CityName}에서 불가사의 건설을 방해했습니다!</Text>
@@ -5234,7 +5615,6 @@
 		<Row Tag="TXT_KEY_NOTIFICATION_SPY_SETBACK_WONDER">
 			<Text>{3_CityName}에서 {1_SpyRank} {2_SpyName}{2: plural 1?이; 2?가;} 불가사의 건설을 방해하여 {4_Setback} [ICON_PRODUCTION]생산 손실을 입혔습니다.</Text>
 		</Row>
-
 		<!-- Spy Owner Notification (Building)  -->
 		<Row Tag="TXT_KEY_NOTIFICATION_SPY_SETBACK_BUILDING_S">
 			<Text>{1_CityName}에서 건물 건설을 방해했습니다!</Text>
@@ -5242,7 +5622,6 @@
 		<Row Tag="TXT_KEY_NOTIFICATION_SPY_SETBACK_BUIDLING">
 			<Text>{3_CityName}에서 {1_SpyRank} {2_SpyName}{2: plural 1?이; 2?가;} 건물 건설을 방해하여 {4_Setback} [ICON_PRODUCTION]생산 손실을 입혔습니다.</Text>
 		</Row>
-
 		<!-- Detected-->
 		<Row Tag="TXT_KEY_NOTIFICATION_BUILDING_DAMAGED_SPY_DETECTED_S">
 			<Text>{2_CityName}에서 {1_BuildingName} 사보타주!</Text>
@@ -5264,7 +5643,6 @@
 			<Text>{1_CivAdj} 스파이가 {3_CityName}의 {2_Building} 건설을 방해하여 {4_Lost} [ICON_PRODUCTION]생산 손실을 입혔습니다!</Text>
 		</Row>
 		<!-- Unit Damaged -->
-
 		<!-- Spy Owner Notification (Unit)  -->
 		<Row Tag="TXT_KEY_NOTIFICATION_SPY_SETBACK_UNIT_S">
 			<Text>{1_CityName}에서 군사 계획을 훔쳤습니다!</Text>
@@ -5272,7 +5650,6 @@
 		<Row Tag="TXT_KEY_NOTIFICATION_SPY_SETBACK_UNIT">
 			<Text>{1_SpyRank} {2_SpyName}{2: plural 1?이; 2?가;} {3_CityName}에서 군사 계획을 훔쳐 군사 유닛 [ICON_PRODUCTION]생산에 {4_Setback}의 손실을 입혔습니다.</Text>
 		</Row>
-
 		<!-- Detected-->
 		<Row Tag="TXT_KEY_NOTIFICATION_UNIT_DAMAGED_SPY_DETECTED_S">
 			<Text>{2_CityName}에서 {1_UnitName} 생산 지연!</Text>
@@ -5294,7 +5671,6 @@
 			<Text>{1_CivAdj} 스파이가 {3_CityName}의 군사 계획을 훔쳐가 {2_Unit} [ICON_PRODUCTION]생산에 {4_Lost}의 손실을 입혔습니다!</Text>
 		</Row>
 		<!-- City Damaged -->
-
 		<!-- Spy Owner Notification (City)  -->
 		<Row Tag="TXT_KEY_NOTIFICATION_SPY_SETBACK_RESISTANCE_S">
 			<Text>{1_CityName}의 폭동!</Text>
@@ -5302,7 +5678,6 @@
 		<Row Tag="TXT_KEY_NOTIFICATION_SPY_SETBACK_RESISTANCE">
 			<Text>{1_SpyRank} {2_SpyName}{2: plural 1?이; 2?가;} {3_CityName}에서 폭동을 조장하여 도시에 일시적인 저항과 [ICON_FOOD]식량 공급 단절을 유발했습니다.</Text>
 		</Row>
-
 		<!-- Detected-->
 		<Row Tag="TXT_KEY_NOTIFICATION_CITY_DAMAGED_SPY_DETECTED_S">
 			<Text>{1_CityName}에서 폭동 발생!</Text>
@@ -5324,7 +5699,6 @@
 			<Text>{1_CivAdj} 스파이가 {2_CityName}에서 폭동을 조장하여 도시에 일시적인 저항과 [ICON_FOOD]식량 공급 단절을 유발했습니다.</Text>
 		</Row>
 		<!-- GP Damaged -->
-
 		<!-- Spy Owner Notification (City)  -->
 		<Row Tag="TXT_KEY_NOTIFICATION_SPY_SETBACK_GP_S">
 			<Text>{1_CityName}에서 암살 성공!</Text>
@@ -5332,7 +5706,6 @@
 		<Row Tag="TXT_KEY_NOTIFICATION_SPY_SETBACK_GP">
 			<Text>{1_SpyRank} {2_SpyName}{2: plural 1?이; 2?가;} {3_CityName}에서 암살에 성공하여 도시의 [ICON_GREAT_PEOPLE]위인 점수를 {4_Num} 감소시켰습니다.</Text>
 		</Row>
-
 		<!-- Detected-->
 		<Row Tag="TXT_KEY_NOTIFICATION_GP_DAMAGED_SPY_DETECTED_S">
 			<Text>{1_CityName}에서 암살!</Text>
@@ -5359,30 +5732,28 @@
 			<Text>{1_CityName}에서 무장 반란!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_SPY_REBELLION_RESISTANCE">
-			<Text>{1_SpyRank} {2_SpyName}{2: plural 1?이; 2?가;} {3_CityName}에서 반란군을 무장시켜 도시에 피해를 입히고 도시 주변에 반란군을 형성했습니다.</Text>
+			<Text>{1_SpyRank} {2_SpyName}{2: plural 1?이; 2?가;} {3_CityName}에서 지지자를 무장시켜 도시에 피해를 입히고 도시 주변에 반란군을 형성합니다.</Text>
 		</Row>
-
 		<!-- Detected-->
 		<Row Tag="TXT_KEY_NOTIFICATION_REBEL_ARMED_SPY_DETECTED_S">
 			<Text>{1_CityName}에서 무장 반란!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_REBEL_ARMED_SPY_DETECTED_W_TIP">
-			<Text>정체불명의 스파이가 {1_CityName}에서 반란군을 지원하여 도시에 피해를 입히고 도시 주변에 반란군을 형성했습니다.[NEWLINE]이 도시에 스파이를 배치하여 적 스파이의 활동을 방지할 수 있습니다.</Text>
+			<Text>정체불명의 스파이가 {1_CityName}에서 지지자를 지원하여 도시에 피해를 입히고 도시 주변에 반란군을 형성합니다.[NEWLINE]이 도시에 스파이를 배치하여 적 스파이의 활동을 방지할 수 있습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_REBEL_ARMED_SPY_DETECTED">
-			<Text>정체불명의 스파이가 {1_CityName}에서 반란군을 지원하여 도시에 피해를 입히고 도시 주변에 반란군을 형성했습니다.</Text>
+			<Text>정체불명의 스파이가 {1_CityName}에서 지지자를 지원하여 도시에 피해를 입히고 도시 주변에 반란군을 형성합니다.</Text>
 		</Row>
 		<!-- Identified  -->
 		<Row Tag="TXT_KEY_NOTIFICATION_REBEL_ARMED_SPY_IDENTIFIED_S">
 			<Text>{2_CityName}에서 {1_CivShortDesc}의 지원을 받은 무장 반란!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_REBEL_ARMED_SPY_IDENTIFIED_W_TIP">
-			<Text>{1_CivAdj} 스파이가  {2_CityName}에서 반란군을 지원하여 도시에 피해를 입히고 도시 주변에 반란군을 형성했습니다.[NEWLINE]이 도시에 스파이를 배치하여 적 스파이의 활동을 방지할 수 있습니다.</Text>
+			<Text>{1_CivAdj} 스파이가  {2_CityName}에서 지지자를 지원하여 도시에 피해를 입히고 도시 주변에 반란군을 형성합니다.[NEWLINE]이 도시에 스파이를 배치하여 적 스파이의 활동을 방지할 수 있습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_REBEL_ARMED_SPY_IDENTIFIED">
-			<Text>{1_CivAdj} 스파이가  {2_CityName}에서 반란군을 지원하여 도시에 피해를 입히고 도시 주변에 반란군을 형성했습니다.</Text>
+			<Text>{1_CivAdj} 스파이가  {2_CityName}에서 지지자를 지원하여 도시에 피해를 입히고 도시 주변에 반란군을 형성합니다.</Text>
 		</Row>
-
 		<!-- Gold Theft -->
 		<!-- Spy Owner Notification (Gold)  -->
 		<Row Tag="TXT_KEY_NOTIFICATION_SPY_SETBACK_GOLD_S">
@@ -5391,7 +5762,6 @@
 		<Row Tag="TXT_KEY_NOTIFICATION_SPY_SETBACK_GOLD">
 			<Text>{1_SpyRank} {2_SpyName}{2: plural 1?이; 2?가;} {3_CityName}의 보물을 훔쳐 [ICON_GOLD]골드를 {4_Gold} 획득했습니다.</Text>
 		</Row>
-
 		<!-- Detected-->
 		<Row Tag="TXT_KEY_NOTIFICATION_GOLD_STOLEN_SPY_DETECTED_S">
 			<Text>{1_CityName}에서 보물 도난!</Text>
@@ -5412,7 +5782,6 @@
 		<Row Tag="TXT_KEY_NOTIFICATION_GOLD_STOLEN_SPY_IDENTIFIED">
 			<Text>{1_CivAdj} 스파이가 {2_CityName}의 국고에서 [ICON_GOLD]골드를 {3_Gold} 빼돌렸습니다.</Text>
 		</Row>
-
 		<!-- Science Pilfered -->
 		<Row Tag="TXT_KEY_NOTIFICATION_SPY_SETBACK_SCIENCE_S">
 			<Text>{1_CityName}에서 과학을 훔쳤습니다!</Text>
@@ -5420,7 +5789,6 @@
 		<Row Tag="TXT_KEY_NOTIFICATION_SPY_SETBACK_SCIENCE">
 			<Text>{1_SpyRank} {2_SpyName}{2: plural 1?이; 2?가;} {3_CityName}에서 과학을 훔쳐 [ICON_RESEARCH]과학이 {4_Science} 증가했습니다.</Text>
 		</Row>
-
 		<!-- Detected-->
 		<Row Tag="TXT_KEY_NOTIFICATION_SCIENCE_STOLEN_SPY_DETECTED_S">
 			<Text>{1_CityName}에서 과학 도난!</Text>
@@ -5441,16 +5809,13 @@
 		<Row Tag="TXT_KEY_NOTIFICATION_SCIENCE_STOLEN_SPY_IDENTIFIED">
 			<Text>{1_CivAdj} 스파이가 {2_CityName}에서 {3_Science} 가치의 [ICON_RESEARCH]과학을 훔쳐갔습니다.</Text>
 		</Row>
-
 		<!-- Generic Message -->
-
 		<Row Tag="TXT_KEY_NOTIFICATION_SPY_SETBACK_NOTHING_S">
 			<Text>{1_CityName}에서 스파이 임무 실패!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_SPY_SETBACK_NOTHING">
 			<Text>{1_SpyRank} {2_SpyName}{2: plural 1?이; 2?가;} {3_CityName}에서 발각되어 임무에 실패했습니다.</Text>
 		</Row>
-
 		<!-- Detected-->
 		<Row Tag="TXT_KEY_NOTIFICATION_SPY_DETECTED_S">
 			<Text>{1_CityName}에서 타국 스파이가 탐지되었습니다!</Text>
@@ -5471,7 +5836,6 @@
 		<Row Tag="TXT_KEY_NOTIFICATION_SPY_IDENTIFIED">
 			<Text>{1_CivAdj} 스파이가 {2_CityName}에서 확인되었지만 이번에는 첩보 활동에 실패했습니다.</Text>
 		</Row>
-
 		<!-- City Rank Increasing -->
 		<Row Tag="TXT_KEY_NOTIFICATION_CITY_RANK_INCREASING">
 			<Text>{1_CityName}{1: plural 1?이; 2?가;} 적[ICON_SPY]스파이에게 점점 취약해지고 있습니다.[NEWLINE]이 도시의 스파이 등급은 현재 [COLOR_NEGATIVE_TEXT]10단계 중 {2_Num}단계[ENDCOLOR]로, 스파이가 이 도시에서 활동하기 더 쉬워지고 있습니다.[NEWLINE]이 도시에 스파이를 배치하고 방첩 건물을 건설하여 도시의 등급을 낮출 수 있습니다.</Text>
@@ -5479,7 +5843,6 @@
 		<Row Tag="TXT_KEY_NOTIFICATION_CITY_RANK_INCREASING_SUMMARY">
 			<Text>{1_CityName}의 스파이 등급 갱신</Text>
 		</Row>
-
 		<!-- Trade Route for Land Modifiers -->
 		<Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_DOMAIN_LAND_MODIFIER">
 			<Text>육상 교역로: {1_Num}x</Text>
@@ -5488,12 +5851,10 @@
 		<Row Tag="TXT_KEY_EUPANEL_RESISTANCE_POWER">
 			<Text>반 전쟁광 성향</Text>
 		</Row>
-
 		<!-- Tooltips for required resource monopolies-->
 		<Row Tag="TXT_KEY_NO_ACTION_BUILDING_NEED_MONOPOLY">
 			<Text>[NEWLINE]{2_ResourceIcon} {1_ResourceName:textkey}의 독점이 필요합니다. 당신은 현재 {3_Percent}%를 점유하고 있습니다.</Text>
 		</Row>
-
 		<!-- tooltip for purchase cooldown -->
 		<Row Tag="TXT_KEY_COOLDOWN_X_TURNS_REMAINING">
 			<Text>[NEWLINE]최근 이 도시에서 [ICON_GOLD]골드으로 구매한 적이 있기 때문에 다시 구매하려면 {1_Num}턴 동안 기다려야 합니다.</Text>
@@ -5504,7 +5865,6 @@
 		<Row Tag="TXT_KEY_COOLDOWN_X_TURNS_REMAINING_FAITH_LOCAL">
 			<Text>[NEWLINE]최근 이 도시에서 [ICON_PEACE]신앙으로 구매한 적이 있기 떄문에 다시 구매하려면 {1_Num}턴 동안 기다려야 합니다.</Text>
 		</Row>
-
 		<!-- Tooltips for CBP Austria Ability -->
 		<Row Tag="TXT_KEY_NOTIFICATION_MINOR_MARRIAGE">
 			<Text>{@2_MinorCivName}{@2: plural 1?과; 2?와;} {@1_CivName} 사이의 결혼!</Text>
@@ -5527,56 +5887,44 @@
 		<Row Tag="TXT_KEY_POP_CSTATE_MARRIAGE_DISABLED_ALLY_TT">
 			<Text>{3_BuyoutCost} [ICON_GOLD]골드를 소비하여 이 도시 국가와의 정략 결혼을 주선할 수 있습니다. 정략 결혼을 하면 세계 대회 추가 대표단 1명을 확보하고 [ICON_CAPITAL]수도의 [ICON_GREAT_PEOPLE]위인 출현율이 15% 증가하며 해당 도시 국가와의 [ICON_INFLUENCE]영향력이 떨어지지 않습니다.[NEWLINE][NEWLINE]도시 국가마다 한 번만 할 수 있고 정략 결혼을 할 때마다 [ICON_GOLD]비용이 증가합니다.[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]동맹이 {1_NumTurns}턴 동안 지속된 상태여야 하고 (현재 {2_TurnsAllied}턴 동안 지속됨) 정략 결혼에 필요한 {3_BuyoutCost} [ICON_GOLD]골드가 있어야 합니다.[ENDCOLOR]</Text>
 		</Row>
-		
 		<!-- Venice Tooltip -->
 		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_DETAILS_GPT_VOTES">
 			<Text>[NEWLINE][ICON_BULLET]{1_Num} 턴당[ICON_GOLD]골드에서 획득</Text>
 		</Row>
-
 		<!-- Attack City -->
 		<Row Tag="TXT_KEY_MISC_YOU_ATTACKED_CITY_CP">
 			<Text>당신의 {@2_UnitName}{@2: plural 1?이; 2?가;} 적 {@1_CityName}{@1: plural 1?을; 2?를;} 공습했습니다. ({3_Num} 피해)</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_MISC_YOU_ATTACK_BY_AIR_ACTUALLY">
 			<Text>당신의 {@1_UnitName}{@1: plural 1?이; 2?가;} 적 {2_CityName}{2: plural 1?을; 2?를;} 공습하고 ({3_Num} 피해), 요격 당하지 않았습니다.</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_MISC_YOU_ATTACK_INTERCEPTED_KILLED">
 			<Text>적 {@1_AttUnitName}{@1: plural 1?이; 2?가;} 당신의 {@2_UnitName}{@2: plural 1?을; 2?를;} 요격해 제거했습니다.</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_MISC_YOU_ATTACK_BY_AIR_INTERCEPTED">
 			<Text>적 {@1_UnitName}{@1: plural 1?이; 2?가;} {4_CityName}{4: plural 1?을; 2?를;} 공격하던 당신의 {@2_DefUnitName}{@2: plural 1?을; 2?를;} 요격했습니다! ({3_Num} 피해)</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_MISC_YOU_ATTACK_UNIT_BY_AIR_INTERCEPTED">
 			<Text>적 {@1_IntUnitName}{@1: plural 1?이; 2?가;} 당신의 {@2_AttUnitName}{@2: plural 1?을; 2?를;} 요격했습니다! ({3_Num} 피해)</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_MISC_YOU_ARE_ATTACKED_BY_AIR_CITY">
 			<Text>적 {@2_EnUName}{@2: plural 1?이; 2?가;} 당신의 {@1_CityName}{@1: plural 1?을; 2?를;} 공습했습니다. ({3_Num} 피해)</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_PARADROP_AA_KILLED">
 			<Text>적 {2_EnUName}{2: plural 1?이; 2?가;} 당신의 {1_Unit}{1: plural 1?을; 2?를;} 제거했습니다!</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_PARADROP_AA_DAMAGED">
 			<Text>적 {2_EnUName}{2: plural 1?이; 2?가;} 당신의 {1_Unit}{1: plural 1?을; 2?를;} 요격했습니다! ({3_Num} 피해)</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_MISC_ENEMY_AIR_UNIT_INTERCEPTED_CITY">
 			<Text>당신 {@1_UnitName}의 요격 덕분에 {@5_CityName}{@5: plural 1?을; 2?를;} 공격하던 {@2_owner_adjective} {@3_EnUName}에게 피해를 입혔습니다. ({4_Num} damage) </Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_DECLARE_WAR_DPS_CP">
 			<Text>방위 조약</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DIPLO_DP_WITH_CBP">
 			<Text>[COLOR_POSITIVE_TEXT]{1_CivName:textkey}{1: plural 1?과; 2?와;} 방위 조약[ENDCOLOR]</Text>
 		</Row>
-
 		<!-- Brazil LUA-->
 		<Row Tag="TXT_KEY_CARNAVAL_WLTKD">
 			<Text>카니발이 시작되었습니다. 카니발을 맞이하여 {1_Num}턴 동안 모든 도시의 [ICON_CULTURE]문화 및 [ICON_FOOD]성장률이 25% 증가합니다.</Text>
@@ -5587,7 +5935,6 @@
 		<Row Tag="TXT_KEY_PRODUCTION_WLTKD_TRAIT">
 			<Text>[NEWLINE] [ICON_BULLET]카니발: {1_Num}%</Text>
 		</Row>
-		
 		<!--Revolutions-->
 		<Row Tag="TXT_KEY_NOTIFICATION_POSSIBLE_CITY_REVOLUTION_CP">
 			<Text>전역 [ICON_HAPPINESS_4]불행이 34%를 초과했기 때문에 [COLOR_NEGATIVE_TEXT]{1_Turns}[ENDCOLOR]턴 동안 도시에 폭동이 일어날 것입니다. 현재의 불행 수준을 고려할 때 폭동이 발생할 확률이 가장 높은 도시는 {2_CityName}이며 해당 도시는 {3_CivName}에 합류하게 될 것입니다. 가능한 한 빨리 전역 행복 수준을 높여 이러한 일이 발생하지 않도록 하십시오!</Text>
@@ -5601,14 +5948,12 @@
 		<Row Tag="TXT_KEY_NOTIFICATION_CIV_REVOLUTION_SHORT_CP">
 			<Text>{1_PlayerName}의 주권 회복!</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_NOTIFICATION_POSSIBLE_CITY_REVOLUTION_CP_FREE_CITY">
 			<Text>전역 [ICON_HAPPINESS_4]불행이 34%를 초과했기 때문에 도시가 {1_Turns}턴 동안 폭동이 발생합니다. 현재의 불행 수준을 고려할 때 폭동이 발생할 확률이 가장 높은 도시는 {2_CityName}입니다. 해당 도시에 폭동이 발생하면 독립적인 도시 국가가 될 것입니다. 가능한 한 빨리 전역 행복 수준을 높여 이러한 일이 발생하지 않도록 하십시오! </Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_OTHER_PLAYER_CITY_REVOLT_FREE_CITY">
 			<Text>{1_CivAdjective} {2_CityName}에 폭동이 발생했습니다. 그들 스스로 {3_CivName}의 도시 국가가 되길 선언했습니다!</Text>
 		</Row>
-
 		<!-- Denounce Statements -->
 		<Row Tag="TXT_KEY_RESPONSE_DENOUNCE_WARMONGER_1">
 			<Text>나는 오랫동안 당신을 가만히 지켜봤지만 당신의 군대는 전 세계에 폐를 끼쳤습니다. 이 비난이 당신의 야망을 멈추길 바랄 뿐입니다. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]이들은 우리를 공개적으로 비난했습니다! 참고: 전쟁 선포가 아닙니다.[ENDCOLOR])</Text>
@@ -5778,72 +6123,55 @@
 		<Row Tag="TXT_KEY_RESPONSE_STRATEGIC_TRADE_REQUEST_6">
 			<Text>당신의 영토에는 전략 자원이 풍부하군요. 그것들을 공유하지 않겠습니까?</Text>
 		</Row>
-
 		<!-- Denounce Notifications -->
 		<Row Tag="TXT_KEY_NOTIFICATION_DENOUNCE_IDEOLOGY">
 			<Text>{1_CivName:textkey}{1: plural 1?이; 2?가;} 이념 차이로 {2_CivName:textkey}{2: plural 1?을; 2?를;} 공개적으로 비난했습니다!</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_NOTIFICATION_DENOUNCE_WARMONGER">
 			<Text>{1_CivName:textkey}{1: plural 1?이; 2?가;} 전쟁광에 대한 우려로 {2_CivName:textkey}{2: plural 1?을; 2?를;} 공개적으로 비난했습니다!</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_NOTIFICATION_DENOUNCE_MINORS">
 			<Text>{1_CivName:textkey}{1: plural 1?이; 2?가;} 도시 국가를 둔 경쟁으로 {2_CivName:textkey}{2: plural 1?을; 2?를;} 공개적으로 비난했습니다!</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_NOTIFICATION_DENOUNCE_NUKED">
 			<Text>{1_CivName:textkey}{1: plural 1?이; 2?가;} {2_CivName:textkey}의 핵무기 사용을 공개적으로 비난했습니다!</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_NOTIFICATION_DENOUNCE_LAND">
 			<Text>{1_CivName:textkey}{1: plural 1?이; 2?가;} 국경 분쟁으로 {2_CivName:textkey}{2: plural 1?을; 2?를;} 공개적으로 비난했습니다!</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_NOTIFICATION_DENOUNCE_DOF">
 			<Text>{1_CivName:textkey}{1: plural 1?이; 2?가;} 우방의 의견에 대한 존중으로 {2_CivName:textkey}{2: plural 1?을; 2?를;} 공개적으로 비난했습니다!</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_NOTIFICATION_DENOUNCE_DOGPILE">
 			<Text>{1_CivName:textkey}{1: plural 1?이; 2?가;} 세계적으로 안 좋은 명성으로 {2_CivName:textkey}{2: plural 1?을; 2?를;} 공개적으로 비난했습니다!</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_NOTIFICATION_DENOUNCE_UNTRUSTWORTHY">
 			<Text>{1_CivName:textkey}{1: plural 1?이; 2?가;} 안 좋은 대외 관계로 {2_CivName:textkey}{2: plural 1?을; 2?를;} 공개적으로 비난했습니다!</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_NOTIFICATION_DENOUNCE_DIGGING">
 			<Text>{1_CivName:textkey}{1: plural 1?이; 2?가;} 도굴로 {2_CivName:textkey}{2: plural 1?을; 2?를;} 공개적으로 비난했습니다!</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_NOTIFICATION_DENOUNCE_FAITH">
 			<Text>{1_CivName:textkey}{1: plural 1?이; 2?가;} 종교 차이로 {2_CivName:textkey}{2: plural 1?을; 2?를;} 공개적으로 비난했습니다!</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_NOTIFICATION_DENOUNCE_WONDERS">
 			<Text>{1_CivName:textkey}{1: plural 1?이; 2?가;} 세계 불가사의 경쟁으로 {2_CivName:textkey}{2: plural 1?을; 2?를;} 공개적으로 비난했습니다!</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_NOTIFICATION_DENOUNCE_VICTORY">
 			<Text>{1_CivName:textkey}{1: plural 1?이; 2?가;} 세계 패권을 둔 경쟁으로 {2_CivName:textkey}{2: plural 1?을; 2?를;} 공개적으로 비난했습니다!</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_NOTIFICATION_DENOUNCE_UNFORGIVEABLE">
 			<Text>{1_CivName:textkey}{1: plural 1?이; 2?가;} {2_CivName:textkey}{2: plural 1?을; 2?를;} 용서할 수 없다며 공개적으로 비난했습니다!</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_LEADER_ASKIA_TRADE_CANT_MATCH">
 			<Text>송가이인은 당신의 공정하지 않은 제안에 동의할 수 없습니다.</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_LEADER_AUGUSTUS_TRADE_CANT_MATCH">
 			<Text>유감스럽지만 동의할 수 없소. 계속해야겠다면 그리 하시오.</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_LEADER_BISMARCK_TRADE_CANT_MATCH">
 			<Text>우리는 당신에게 호의를 다하지만 우리 생각은 당신의 제안과 일치하지 않습니다.</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_LEADER_CATHERINE_TRADE_CANT_MATCH">
 			<Text>내가 우리의 친밀함을 이용해 당신에게 덜 제공하려 한다고 생각하지는 않길 바랍니다.</Text>
 		</Row>
@@ -5964,7 +6292,6 @@
 		<Row Tag="TXT_KEY_LEADER_SHAKA_TRADE_CANT_MATCH">
 			<Text>전사의 언어는 명예요. 우리는 당신의 거래에 맞출 수 없을 것 같군.</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_GENERIC_TRADE_CANT_MATCH_NEGATIVE_1">
 			<Text>이게 당신의 정신 나간 제안에 우리가 제공할 수 있는 모든 것입니다. 받아들이든가 떠나십시오, 친구여.</Text>
 		</Row>
@@ -5986,15 +6313,13 @@
 		<Row Tag="TXT_KEY_GENERIC_TRADE_CANT_MATCH_NEGATIVE_7">
 			<Text>당신은 본인의 처참한 거래 기술을 향상시킬 필요가 있습니다. 당신이 제공하는 것에 우리가 맞출 방법은 없습니다.</Text>
 		</Row>
-
 		<!-- Intrigue sharing (co-op wars)-->
 		<Row Tag="TXT_KEY_DIPLO_DISCUSS_HOW_DARE_YOU_TT">
-			<Text>{2_CivName:textkey}에게 {1_CivName:textkey}의 전쟁 준비를 알립니다. 이는 외교 기밀 누설이기 때문에 {1_CivName:textkey} 문명을 화나게 할 반면, {2_CivName:textkey} 문명의 환심을 살 것입니다.</Text>
+			<Text>{2_CivName:textkey}에게 {1_CivName:textkey}의 전쟁 준비를 알립니다. 이는 외교 기밀 누설이기 때문에 {1_CivName:textkey}{1_CivName: plural 1?을; 2?를;} 화나게 할 반면, {2_CivName:textkey}의 환심을 살 것입니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DIPLO_DISCUSS_MESSAGE_DECLARE_WAR_TT">
 			<Text>만약 AI가 상대 문명과 친하고 당신을 돕길 거부한다면 상대 문명에게 당신의 전쟁 준비를 알릴 것입니다.</Text>
 		</Row>
-
 		<!-- Tourism and League Stuff -->
 		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_INVALID_RESOLUTION_CONTRADICTION_CBP">
 			<Text>현재 적용 중이거나 제안 중인 안건으로 인해 불가능합니다.</Text>
@@ -6002,12 +6327,10 @@
 		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_TOURISM">
 			<Text>전 세계의 [ICON_TOURISM]관광 수치가 {1_UnitMaintenancePercent}%로 조정됩니다.</Text>
 		</Row>
-
 		<!-- Unit Thing for Limits -->
 		<Row Tag="TXT_KEY_NO_ACTION_PLAYER_CITY_COUNT_MAX">
 			<Text>[NEWLINE]플레이어 도시 당 {1_Num}개까지만 가능합니다.</Text>
 		</Row>
-
 		<!-- Ocean Embarkation Stuff -->
 		<Row Tag="TXT_KEY_PROMOTION_DEEPWATER_EMBARKATION">
 			<Text>대양 승선</Text>
@@ -6015,14 +6338,12 @@
 		<Row Tag="TXT_KEY_PROMOTION_DEEPWATER_EMBARKATION_HELP">
 			<Text>대양 타일 승선 가능</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_PROMOTION_DEFENSIVE_DEEPWATER_EMBARKATION">
 			<Text>방어적 대양 승선</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_DEFENSIVE_DEEPWATER_EMBARKATION_HELP">
 			<Text>대양 타일 승선 가능[NEWLINE]승선 유닛 방어력 [COLOR_POSITIVE_TEXT]+100%[ENDCOLOR]</Text>
 		</Row>
-
 		<!-- MP Denounce -->
 		<Row Tag="TXT_KEY_CBP_DENOUNCE_HUMAN">
 			<Text>비난</Text>
@@ -6030,7 +6351,6 @@
 		<Row Tag="TXT_KEY_CBP_DENOUNCE_HUMAN_TT">
 			<Text>지도자를 [COLOR_NEGATIVE_TEXT]비난[ENDCOLOR]합니다.</Text>
 		</Row>
-
 		<!-- Espionage Overview Screen -->
 		<Row Tag="TXT_KEY_CAPITAL_CBP_SPY">
 			<Text>{1_CityName}{1: plural 1?은; 2?는;} {@2_CivShortDesc}의 [ICON_CAPITAL]수도입니다. 이 도시에 [ICON_SPY]스파이나 [ICON_DIPLOMAT]외교관을 보낼 수 있습니다.</Text>
@@ -6038,7 +6358,6 @@
 		<Row Tag="TXT_KEY_YOUR_CAPITAL_CBP_SPY">
 			<Text>{1_CityName}{1: plural 1?은; 2?는;} 당신의 [ICON_CAPITAL]수도입니다. 적[ICON_SPY]스파이들의 높은 우선 순위 대상이 됩니다.</Text>
 		</Row>
-
 		<!-- Warmonger Strings-->
 		<Row Tag="TXT_KEY_WARMONGER_PREVIEW_HEADER">
 			<Text>이 도시를 [COLOR_NEGATIVE_TEXT]점령[ENDCOLOR]하여:</Text>
@@ -6064,7 +6383,6 @@
 		<Row Tag="TXT_KEY_WARMONGER_PREVIEW_CARE_NIL">
 			<Text>[ICON_BULLET]  [COLOR_POSITIVE_TEXT]{1_LeaderName}[ENDCOLOR]{1: plural 1?은; 2?는;} 별로 신경쓰지 않을 것입니다.</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_LIBERATOR_PREVIEW_CARE_1000">
 			<Text>[ICON_BULLET]  [COLOR_POSITIVE_TEXT]{1_LeaderName}[ENDCOLOR]{1: plural 1?은; 2?는;} 최고로 기뻐할 것입니다.</Text>
 		</Row>
@@ -6083,7 +6401,6 @@
 		<Row Tag="TXT_KEY_LIBERATOR_PREVIEW_CARE_NIL">
 			<Text>[ICON_BULLET]  [COLOR_POSITIVE_TEXT]{1_LeaderName}[ENDCOLOR]{1: plural 1?은; 2?는;} 별로 신경쓰지 않을 것입니다.</Text>
 		</Row>
-
 		<!--AI Return Unit Text -->
 		<Row Tag="TXT_KEY_NOTIFICATION_UNIT_RETURNED_AI">
 			<Text>{1_Player:textkey}{1: plural 1?이; 2?가;} 당신의 {@2_UnitName}{@2: plural 1?을; 2?를;} 돌려주었습니다.</Text>
@@ -6091,7 +6408,6 @@
 		<Row Tag="TXT_KEY_NOTIFICATION_UNIT_RETURNED_AI_SUMMARY">
 			<Text>{1_Player:textkey}{1: plural 1?이; 2?가;} {@2_UnitName}{@2: plural 1?을; 2?를;} 반환!</Text>
 		</Row>
-
 		<!-- Razing -->
 		<Row Tag="TXT_KEY_DIPLO_RAZED">
 			<Text>[COLOR_NEGATIVE_TEXT]당신은 그들의 시민을 납치하거나 죽였습니다.[ENDCOLOR]</Text>
@@ -6099,28 +6415,23 @@
 		<Row Tag="TXT_KEY_DIPLO_RAZED_OTHER">
 			<Text>[COLOR_NEGATIVE_TEXT]당신은 전쟁 중 그들의 시민을 납치하거나 죽였습니다.[ENDCOLOR]</Text>
 		</Row>
-
 		<!-- Tooltip for 'You'll Pay' Text -->
-		<Row Tag ="TXT_KEY_DIPLO_DISCUSS_MESSAGE_YOULL_PAY_TT">
+		<Row Tag="TXT_KEY_DIPLO_DISCUSS_MESSAGE_YOULL_PAY_TT">
 			<Text>이 반응을 선택하면 [COLOR_NEGATIVE_TEXT]전쟁[ENDCOLOR]을 초래할 수 있습니다. 전쟁을 초래하지 않는다면 상대방은 부끄러워하고 일시적으로 당신과 중립적인 관계가 될 것입니다.</Text>
 		</Row>
-
 		<!-- Tourism -->
 		<Row Tag="TXT_KEY_CO_PLAYER_TOURISM_EMPIRE_SIZE">
 			<Text>+{1_Num}% 더 적은 도시 수에서[NEWLINE]</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_CO_PLAYER_TOURISM_BOREDOM">
 			<Text>+{1_Num}% 문명 전역의 무료에서[NEWLINE]</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_CO_TOURISM_THEME_BONUS">
 			<Text>[COLOR_POSITIVE_TEXT]적용 중인 테마 보너스:[ENDCOLOR] +{1_Num}{2_YieldIcon} {3_YieldName}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CO_TOURISM_THEME_BONUS_NEEDED">
 			<Text>[COLOR_POSITIVE_TEXT]이 건물의 테마 조건을 충족시키면:[ENDCOLOR] +{1_Num}{2_YieldIcon} {3_YieldName}</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_TOURISM_EVENT_SUMMARY">
 			<Text>역사적 사건</Text>
 		</Row>
@@ -6145,7 +6456,6 @@
 		<Row Tag="TXT_KEY_TOURISM_EVENT_GOLDEN_AGE">
 			<Text>당신의 문명이 [ICON_GOLDEN_AGE]황금기에 진입하여 당신이 만난 모든 문명에 대한 [ICON_TOURISM]관광이 {1_Num} 증가했습니다.</Text>
 		</Row>
-
 		<!-- Arabia -->
 		<Row Tag="TXT_KEY_TOURISM_EVENT_GP_BONUS">
 			<Text>셰헤라자데의 이야기들이 전 세계의 지성들을 당신의 땅으로 끌어들였습니다. [ICON_CAPITAL]수도의 [ICON_CULTURE]문화와 [ICON_RESEARCH]과학이 1 증가하며, [ICON_GREAT_PEOPLE]위인 점수가 {1_Num} 증가합니다.</Text>
@@ -6171,11 +6481,9 @@
 		<Row Tag="TXT_KEY_TOURISM_EVENT_GP_BONUS_DIPLOMAT">
 			<Text>전 세계의 궁정위원들이 당신과 셰헤라자데의 청중이 되길 간청합니다. [ICON_CAPITAL]수도의 [ICON_CULTURE]문화와 [ICON_RESEARCH]과학이 1 증가하며, [ICON_GREAT_DIPLOMAT]위대한 외교관 출현율이 {1_Num} 증가합니다.</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_TOURISM_EVENT_SUMMARY_GP_BONUS">
 			<Text>천일야화</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_TOURISM_EVENT_SUMMARY_TRADE">
 			<Text>관광과 교역</Text>
 		</Row>
@@ -6185,14 +6493,12 @@
 		<Row Tag="TXT_KEY_TOURISM_EVENT_TRADE_LAND">
 			<Text>{2_Adj} 도시 {4_Dest}의 시민들이 {3_Num}{3: plural 1?을; 2?를;} 방문하기 위해 당신의 육상 교역로를 이용했고 당신의 위대한 도시에 대한 소문을 전파했습니다. 그 결과 {5_num}에 대한 [ICON_TOURISM]관광이 {1_Num}, 당신이 만난 모든 문명에 대한 관광이 {6_num} 증가했습니다.</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_TOURISM_EVENT_SUMMARY_TRADE_CS">
 			<Text>도시 국가 관광</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TOURISM_EVENT_TRADE_CS_BONUS">
 			<Text>당신의 문명이 {2_Name}에 [ICON_INTERNATIONAL_TRADE]교역로를 설립하여 당신이 만난 모든 문명에 대한 [ICON_TOURISM]관광이 {1_Num} 증가했습니다.</Text>
 		</Row>
-
 		<!-- Religion Majority Est. -->
 		<Row Tag="TXT_KEY_NOTIFICATION_RELIGION_NEW_PLAYER_MAJORITY_S">
 			<Text>{1_ReligionName}{1: plural 1?이; 2?가;} 이제 대중 종교입니다!</Text>
@@ -6206,7 +6512,6 @@
 		<Row Tag="TXT_KEY_NOTIFICATION_RELIGION_NEW_PLAYER_STATE_RELIGION">
 			<Text>{1_ReligionName}{1: plural 1?이; 2?가;} 당신 문명의 새로운 주요[ICON_RELIGION]종교가 되었습니다. 당신은 이제 이전 [ICON_RELIGION]종교의 교리 대신 {1_ReligionName}의 창시자 및 강화 교리의 혜택을 받습니다.</Text>
 		</Row>
-
 		<!-- Holy City Lost/Gained-->
 		<Row Tag="TXT_KEY_NOTIFICATION_CITY_LOST_HOLY">
 			<Text>성도 {1_CityName:textkey}{1: plural 1?이; 2?가;} {@2_CivName}에게 점령당했습니다. {@2_CivName}{@2: plural 1?이; 2?가;} 열성적이라면 {3_Religion}{3: plural 1?이; 2?가;} 그들의 주요 종교가 되어 그들이 창시자 및 강화 교리의 보너스를 받을 것입니다. {3_Religion}{3: plural 1?이; 2?가;} 당신의 주요 종교라면 당신은 이 도시를 수복할 때까지 교리의 혜택을 받을 수 없습니다.</Text>
@@ -6214,44 +6519,34 @@
 		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_CITY_LOST_HOLY">
 			<Text>성도 {1_CityName:textkey}{1: plural 1?이; 2?가;} 점령당했습니다!</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_NOTIFICATION_CITY_GAINED_HOLY">
 			<Text>당신은 성도 {1_CityName:textkey}{1: plural 1?을; 2?를;} 점령했습니다! {2_Religion}이(가) 당신의 주요 종교가 되면 당신이 이 도시를 다스리고 있는 한 당신에게 창시자 교리와 강화 교리의 혜택을 제공할 것입니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_CITY_GAINED_HOLY">
 			<Text>성도 {1_CityName:textkey} 점령!</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_NOTIFICATION_OTHER_PLAYER_CITY_REVOLT_UNKNOWN">
 			<Text>{3_CivName}{3: plural 1?이; 2?가;} 반란을 일으켜 합류했습니다!</Text>
 		</Row>
-
-		
-
 		<!-- Production cost reduction from resources at city level -->
 		<Row Tag="TXT_KEY_NOTIFICATION_CITY_RESOURCE_PROD_COST_MOD">
 			<Text>{1_CityName:textkey}에서 {2_ResourceName:textkey}{2: plural 1?이; 2?가;} 현재 이용 가능합니다! [ICON_PRODUCTION]생산 비용 감소:{3_Details}</Text>
 		</Row>
-		
 		<Row Tag="TXT_KEY_NOTIFICATION_CITY_RESOURCE_PROD_COST_MOD_LIST">
 			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT]{1_UnitCombat}[ENDCOLOR]: {2_CostModifier}%{3_EraInfo}</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_NOTIFICATION_CITY_RESOURCE_PROD_COST_MOD_ERA_PREREQUISITE">
 			<Text>(전제 조건: {1_RequiredEra})</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_NOTIFICATION_CITY_RESOURCE_PROD_COST_MOD_ERA_OBSOLETE">
 			<Text>(퇴보 기술: {1_ObsoleteEra})</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_NOTIFICATION_CITY_RESOURCE_PROD_COST_MOD_BUILDING">
 			<Text>건물</Text>
 		</Row>
-
 		<!-- Great Work Gold (LUA)-->
 		<Row Tag="TXT_KEY_YIELD_FROM_ART_CBP">
-			<Text>+{1_Num} {2_IconString}걸작 및 테마에서</Text>
+			<Text>+{1_Num} {2_IconString} 걸작 및 테마에서</Text>
 		</Row>
 		<Row Tag="TXT_KEY_YIELD_FROM_ART_CBP_CULTURE">
 			<Text>+{1_Num} [ICON_CULTURE]걸작 및 테마에서</Text>
@@ -6262,7 +6557,6 @@
 		<Row Tag="TXT_KEY_YIELD_FROM_TRAIT_BONUS">
 			<Text>+{1_Num} {2_IconString}특성에서</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_CO_PLAYER_TOURISM_LEAGUE">
 			<Text>+{1_Num}% 적극적인 안건 제안 때문에 보너스[NEWLINE]</Text>
 		</Row>
@@ -6278,7 +6572,6 @@
 		<Row Tag="TXT_KEY_NOTIFICATION_CULTURE_VICTORY_UNMET_NO_LONGER_INFLUENTIAL_TT">
 			<Text>만나지 못한 문명이 더 이상 다른 문명에게 영향력을 행사하지 않습니다.</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_CO_EXOTIC_THEY">
 			<Text>[NEWLINE][NEWLINE]{1_Civ}에 대한 [ICON_TOURISM]관광: [COLOR_CYAN]신비한[ENDCOLOR]</Text>
 		</Row>
@@ -6294,7 +6587,6 @@
 		<Row Tag="TXT_KEY_CO_DOMINANT_THEY">
 			<Text>[NEWLINE][NEWLINE]{1_Civ}에 대한 [ICON_TOURISM]관광: [COLOR_CYAN]가장 유명한[ENDCOLOR]</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_CO_STATIC_THEM">
 			<Text>[NEWLINE][ICON_TOURISM]관광 추세: 고정적임</Text>
 		</Row>
@@ -6307,14 +6599,10 @@
 		<Row Tag="TXT_KEY_CO_FALLING_THEM">
 			<Text>[NEWLINE][ICON_TOURISM]관광 추세: [COLOR_NEGATIVE_TEXT]감소[ENDCOLOR]</Text>
 		</Row>
-
-
-
 		<!-- Tourism Update -->
 		<Row Tag="TXT_KEY_NOTIFICATION_CULTURE_VICTORY_SUMMARY">
 			<Text>영향력 변화!</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_INFLUENCE_US_1">
 			<Text>우리 [ICON_CULTURE]문화가 이제 {1_Num}에게 [COLOR_MAGENTA]신비합니다[ENDCOLOR].</Text>
 		</Row>
@@ -6330,7 +6618,6 @@
 		<Row Tag="TXT_KEY_INFLUENCE_US_5">
 			<Text>우리 [ICON_CULTURE]문화가 이제 {1_Num}에게 [COLOR_MAGENTA]가장 유명합니다[ENDCOLOR].</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_INFLUENCE_US_1_BAD">
 			<Text>우리 [ICON_CULTURE]문화가 {1_Num}에게 [COLOR_NEGATIVE_TEXT]더 이상[ENDCOLOR] [COLOR_MAGENTA]신비하지[ENDCOLOR] 않습니다.</Text>
 		</Row>
@@ -6346,7 +6633,6 @@
 		<Row Tag="TXT_KEY_INFLUENCE_US_5_BAD">
 			<Text>우리 [ICON_CULTURE]문화가 {1_Num}에게 [COLOR_NEGATIVE_TEXT]더 이상[ENDCOLOR] [COLOR_MAGENTA]가장 유명하지[ENDCOLOR] 않습니다.</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_INFLUENCE_THEM_1">
 			<Text>{1_Num} [ICON_CULTURE]문화가 이제 우리에게 [COLOR_MAGENTA]신비합니다[ENDCOLOR].</Text>
 		</Row>
@@ -6362,7 +6648,6 @@
 		<Row Tag="TXT_KEY_INFLUENCE_THEM_5">
 			<Text>{1_Num} [ICON_CULTURE]문화가 이제 우리에게 [COLOR_MAGENTA]가장 유명합니다[ENDCOLOR].</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_INFLUENCE_THEM_1_BAD">
 			<Text>{1_Num} [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]더 이상[ENDCOLOR] 우리에게 [COLOR_MAGENTA]신비하지[ENDCOLOR] 않습니다.</Text>
 		</Row>
@@ -6378,7 +6663,6 @@
 		<Row Tag="TXT_KEY_INFLUENCE_THEM_5_BAD">
 			<Text>{1_Num} [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]더 이상[ENDCOLOR] 우리에게 [COLOR_MAGENTA]가장 유명하지[ENDCOLOR] 않습니다.</Text>
 		</Row>
-
 		<!-- Anarchy -->
 		<Row Tag="TXT_KEY_ANARCHY_BEGINS_SUMMARY">
 			<Text>무정부 상태!</Text>
@@ -6386,10 +6670,9 @@
 		<Row Tag="TXT_KEY_ANARCHY_BEGINS">
 			<Text>당신의 문명은 현재 무정부 상태입니다! 이 상태는 {1_num}턴 동안 지속될 것입니다.</Text>
 		</Row>
-
 		<!-- Tooltips for Growth Modifiers -->
 		<Row Tag="TXT_KEY_FOODMOD_EATEN_FOOD">
-			<Text>[NEWLINE][COLOR_NEGATIVE_TEXT]-{1_Num}[ENDCOLOR] [ICON_CITIZEN]시민의 [ICON_FOOD]식량 소비</Text>
+			<Text>[NEWLINE][COLOR_NEGATIVE_TEXT]-{1_Num}[ENDCOLOR] [ICON_CITIZEN]시민이 소비</Text>
 		</Row>
 		<Row Tag="TXT_KEY_FOODMOD_PUPPET">
 			<Text>[NEWLINE][ICON_BULLET][ICON_PUPPET]괴뢰 도시: {1_Num}%</Text>
@@ -6409,7 +6692,6 @@
 		<Row Tag="TXT_KEY_FOODMOD_YIELD_OVER_SUPPLY">
 			<Text>[NEWLINE][ICON_BULLET]군사 유닛의 보급 한도 초과로 인한 [ICON_SILVER_FIST]성장 [COLOR_NEGATIVE_TEXT]페널티[ENDCOLOR]: {1_Num}%</Text>
 		</Row>
-
 		<!-- Tooltips for Standard Base Modifiers -->
 		<Row Tag="TXT_KEY_PRODMOD_YIELD_GOLDEN_AGE_BUILDINGS">
 			<Text>[NEWLINE][ICON_BULLET]황금기 (건물): {1_Num}%</Text>
@@ -6438,12 +6720,10 @@
 		<Row Tag="TXT_KEY_PRODMOD_SPIES">
 			<Text>[NEWLINE][ICON_BULLET]활동 중인 스파이: {1_Num}%</Text>
 		</Row>
-
 		<!-- Lua for Buildings -->
 		<Row Tag="TXT_KEY_NO_ACTION_BUILDING_LOCAL_FEATURE">
 			<Text>[NEWLINE]도시 주변 {1_FeatureName:textkey} 필요</Text>
 		</Row>
-
 		<!-- LUA for Espionage -->
 		<Row Tag="TXT_KEY_EO_SPY_COUP_DISABLED_COOLDOWN_TT">
 			<Text>최근 {3_CityName}에서 쿠데타가 시도된 적이 있기 때문에 {1_SpyRank} {2_SpyName}{2: plural 1?은; 2?는;} 쿠데타를 시도하지 않을 것입니다. 냉전은 {4_Num}턴 후에 종결됩니다.</Text>
@@ -6463,7 +6743,6 @@
 		<Row Tag="TXT_KEY_NOTIFICATION_SPY_STAGE_COUP_NOW_POSSIBLE">
 			<Text>최근 쿠데타 시도로 인한 안전 위협이 사라졌고, {1_City}의 안전 상태는 정상으로 돌아왔습니다. 이 도시 국가에서 [COLOR_POSITIVE_TEXT]쿠데타[ENDCOLOR]를 다시금 시도할 수 있습니다.</Text>
 		</Row>
-
 		<!-- Text for 3rd Party Brokering -->
 		<Row Tag="TXT_KEY_NOTIFICATION_DIPLOMACY_THIRD_PARTY_BROKER_NAME">
 			<Text>정보 기관은 {1_CivName:textkey}{1: plural 1?이; 2?가;} {2_CivName:textkey}에게 당신을 향한 전쟁을 사주했다고 보고했습니다.</Text>
@@ -6477,7 +6756,6 @@
 		<Row Tag="TXT_KEY_NOTIFICATION_DIPLOMACY_THIRD_PARTY_BROKER_PEACE_NAME_S">
 			<Text>{1_CivName:textkey}{1: plural 1?이; 2?가;} 평화를 위한 거래를 했습니다!</Text>
 		</Row>
-
 		<!-- CS -->
 		<Row Tag="TXT_KEY_POP_CSTATE_RECENTLY_LIBERATED">
 			<Text>최근 해방됨</Text>
@@ -6488,91 +6766,72 @@
 		<Row Tag="TXT_KEY_NOTIFICATION_CITY_STATE_PTP_CANCELLED_SHORT">
 			<Text>{1_CSName}에 의해 보호 선언이 무효화되었습니다!</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_NOTIFICATION_CITY_STATE_PTP_WARNING">
 			<Text>당신의 군사 보좌관은 당신이 {1_CSName}에게 약속한 [COLOR_POSITIVE_TEXT]보호 선언[ENDCOLOR]이 당신의 약해진 군사력 때문에 취소될 수 있다고 경고합니다. 이 선언을 이행하기 위해서는 [COLOR_NEGATIVE_TEXT]{2_Num}[ENDCOLOR]턴 내에 군사력을 {3_Num}% 증강해야 합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_CITY_STATE_PTP_WARNING_SHORT">
 			<Text>보호 선언 경고</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_NOTIFICATION_CITY_STATE_PTP_WARNING_TIMER">
 			<Text>{2_Num}턴 내에 군사력을 {3_Num}% 증강하지 않으면 당신이 {1_CSName}에게 약속한 [COLOR_POSITIVE_TEXT]보호 선언[ENDCOLOR]이 무효화될 것입니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_CITY_STATE_PTP_WARNING_TIMER_SHORT">
 			<Text>위태로운 보호 선언</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_NOTIFICATION_CITY_STATE_PTP_WARNING_TIMER_STOPPED">
 			<Text>당신의 군사력이 회복되어 당신이 {1_CSName}에게 약속한 [COLOR_POSITIVE_TEXT]보호 선언[ENDCOLOR]은 다시금 안전해졌습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_CITY_STATE_PTP_WARNING_TIMER_STOPPED_SHORT">
 			<Text>안전해진 보호 선언</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_POP_CSTATE_PLEDGE_DISABLED_RECENT_BROKEN_TT">
 			<Text>[NEWLINE][COLOR_WARNING_TEXT][ICON_BULLET]당신이 약속을 위반한 적이 있기 때문에 {1_Turns}턴 동안 기다려야 합니다.[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_POP_CSTATE_PLEDGE_NEED_MORE_MILITARY_TT">
 			<Text>[NEWLINE][COLOR_WARNING_TEXT][ICON_BULLET] 군사력이 상위 60% 안에 들어야 합니다. 당신의 군사력은 상위 {1_Num}% 입니다.[ENDCOLOR]</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_POP_CSTATE_PLEDGE_NEED_ALLIES_TT">
 			<Text>[NEWLINE]   [ICON_BULLET] 도시 국가와 동맹</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_POP_CSTATE_PLEDGE_NOT_CLOSE_ENOUGH_TT">
 			<Text>[NEWLINE]   [ICON_BULLET] 도시 국가와 교역할 수 있어야함</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_POP_CSTATE_PLEDGE_NO_TRADE_TT">
 			<Text>[NEWLINE]   [ICON_BULLET] 도시 국가에 교역로를 연결한 상태</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_POP_CSTATE_PLEDGE_ACHIEVED">
 			<Text>  [ICON_CHECKBOX]</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_POP_CSTATE_PTP_ALL_CORRECT">
 			<Text>[ENDCOLOR][NEWLINE][NEWLINE]당신은 약속을 지킬 수 없습니다:</Text>
 		</Row>
 		<Row Tag="TXT_KEY_POP_CSTATE_PTP_ANY_CORRECT">
 			<Text>[ENDCOLOR][NEWLINE][NEWLINE]다음 세 가지 [ICON_CHECKBOX] 조건 중 한 가지 이상이 충족되어야 합니다.</Text>
 		</Row>
-
-
-
-
 		<Row Tag="TXT_KEY_NOTIFICATION_CITY_STATE_PTP_CANCELLED_OPTIONAL">
 			<Text>심사숙고 끝에 {1_CSName}{1: plural 1?은; 2?는;} 당신의 먼 위치 때문에 당신이 [COLOR_POSITIVE_TEXT]보호 선언[ENDCOLOR]을 이행하는 데 무리가 있을 것이라 생각하여 당신의 보호 선언을 [COLOR_NEGATIVE_TEXT]무효화[ENDCOLOR]했습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_CITY_STATE_PTP_CANCELLED_SHORT_OPTIONAL">
 			<Text>{1_CSName}에 의해 보호 선언이 무효화되었습니다!</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_NOTIFICATION_CITY_STATE_PTP_WARNING_OPTIONAL">
 			<Text>당신의 군사 보좌관은 당신이 {1_CSName}에게 약속한 [COLOR_POSITIVE_TEXT]보호 선언[ENDCOLOR]이 거리 상의 이유로 취소될 수 있다고 경고합니다. 이 선언을 이행하기 위해서는 당신의 문명이 그들과 동맹을 맺거나 [COLOR_NEGATIVE_TEXT]{2_Num}[ENDCOLOR]턴 내에 그들과 교역할 수 있는 범위 안에 들어야 합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_CITY_STATE_PTP_WARNING_SHORT_OPTIONAL">
 			<Text>보호 선언 경고</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_NOTIFICATION_CITY_STATE_PTP_WARNING_TIMER_OPTIONAL">
 			<Text>{2_Num}턴 내에 {1_CSName}{1: plural 1?과; 2?와;} 동맹을 맺거나 그들과 교역할 수 있는 범위 안에 들지 못하면 당신이 {1_CSName}에게 약속한 [COLOR_POSITIVE_TEXT]보호 선언[ENDCOLOR]이 무효화될 것입니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_CITY_STATE_PTP_WARNING_TIMER_SHORT_OPTIONAL">
 			<Text>위태로운 보호 선언</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_NOTIFICATION_CITY_STATE_PTP_WARNING_TIMER_STOPPED_OPTIONAL">
 			<Text>{1_CSName}{1: plural 1?과; 2?와;}의 동맹, 혹은 교역이 맺어져 당신이 {1_CSName}에게 약속한 [COLOR_POSITIVE_TEXT]보호 선언[ENDCOLOR]은 다시금 안전해졌습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_CITY_STATE_PTP_WARNING_TIMER_STOPPED_SHORT_OPTIONAL">
 			<Text>안전해진 보호 선언</Text>
 		</Row>
-
-		
-
 		<!-- LUA for Warscore -->
 		<Row Tag="TXT_KEY_WAR_SCORE">
 			<Text>[COLOR_POSITIVE_TEXT]전쟁 점수: {1_Num}[ENDCOLOR]</Text>
@@ -6601,7 +6860,6 @@
 		<Row Tag="TXT_KEY_WAR_STRENGTH_IMMENSE">
 			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT][ICON_STRENGTH]군사력:[ENDCOLOR] 어마어마합니다.</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_WAR_ECONOMY_PATHETIC">
 			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT][ICON_GOLD]경제력:[ENDCOLOR] 참담합니다.</Text>
 		</Row>
@@ -6623,7 +6881,6 @@
 		<Row Tag="TXT_KEY_WAR_ECONOMY_IMMENSE">
 			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT][ICON_GOLD]경제력:[ENDCOLOR] 매우 부유합니다.</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_WAR_DAMAGE_US_MINOR">
 			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT][ICON_WAR]전황:[ENDCOLOR] 잘 돌아가고 있습니다.</Text>
 		</Row>
@@ -6636,7 +6893,6 @@
 		<Row Tag="TXT_KEY_WAR_DAMAGE_US_CRIPPLED">
 			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT][ICON_WAR]전황:[ENDCOLOR] 상대는 압도당하고 있습니다.</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_WAR_DAMAGE_THEM_MINOR">
 			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT][ICON_RAZING]전황:[ENDCOLOR] 불리하게 돌아가고 있습니다.</Text>
 		</Row>
@@ -6649,7 +6905,6 @@
 		<Row Tag="TXT_KEY_WAR_DAMAGE_THEM_CRIPPLED">
 			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT][ICON_RAZING]전황:[ENDCOLOR] 우리가 압도당하고 있습니다.</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_WAR_NO_PEACE_OFFER">
 			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT][ICON_PEACE]평화 협상:[ENDCOLOR] 불가능</Text>
 		</Row>
@@ -6680,9 +6935,6 @@
 		<Row Tag="TXT_KEY_OFFER_PEACE_TREATY_UNCONDITIONAL_SURRENDER">
 			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT][ICON_PEACE]평화 협상:[ENDCOLOR] 완전 항복</Text>
 		</Row>
-
-
-
 		<Row Tag="TXT_KEY_TECH_HELP_UNITS_UNLOCKED">
 			<Text>[NEWLINE][COLOR_CYAN]해금되는 유닛:[ENDCOLOR][NEWLINE]</Text>
 		</Row>
@@ -6716,8 +6968,6 @@
 		<Row Tag="TXT_KEY_TECH_HELP_BUILD_REDUCTION">
 			<Text>{1_Build}: {2_Turns}턴 소모</Text>
 		</Row>
-
-
 		<!-- Plague for JFD-->
 		<Row Tag="TXT_KEY_UNIT_PLAGUE_TRANSFER">
 			<Text>전투 중 치명적인 역병이 우리의 {1_Unit}에서 적의 {2_Unit}에게 전파되었습니다.</Text>
@@ -6731,7 +6981,6 @@
 		<Row Tag="TXT_KEY_UNIT_PLAGUE_TRANSFER_THEM_S">
 			<Text>역병이 당신의 {1_Unit}에게 전파되었습니다!</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_UNIT_PROMOTION_TRANSFER">
 			<Text>전투 중 {3_Promotion} 상태 이상이 {1_Unit}에서 {2_Unit}에게 유발되었습니다.</Text>
 		</Row>
@@ -6744,7 +6993,6 @@
 		<Row Tag="TXT_KEY_UNIT_PROMOTION_TRANSFER_S_THEM_S">
 			<Text>당신의 {1_Unit}에 상태 이상 효과가 추가되었습니다.</Text>
 		</Row>
-		
 		<!-- Morale Hit -->
 		<Row Tag="TXT_KEY_UNIT_MORALE_FALL_BACK">
 			<Text>당신의 {2_Unit}{2: plural 1?이; 2?가;} 적 {1_Unit}에게 밀려나 후퇴했습니다.</Text>
@@ -6758,16 +7006,13 @@
 		<Row Tag="TXT_KEY_UNIT_MORALE_FALL_BACK_THEM_S">
 			<Text>적 {1_Unit}{1: plural 1?이; 2?가;} 후퇴했습니다.</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_DIPLO_WAR_NO_PEACE_THIRD_PARTY_TT">
 			<Text>평화 협상에서는 동맹 도시 국가만 포함시킬 수 있습니다.</Text>
 		</Row>
-
 		<!-- Team Tourism -->
 		<Row Tag="TXT_KEY_CO_PLAYER_TOURISM_SAME_TEAM">
 			<Text>+{1_Num}% 같은 팀 보너스[NEWLINE]</Text>
 		</Row>
-
 		<!-- Building Tooltip -->
 		<Row Tag="TXT_KEY_NO_ACTION_BUILDING_NEED_POLICIES">
 			<Text>해금에 필요한 정책 수: {1_Num}</Text>
@@ -6781,7 +7026,6 @@
 		<Row Tag="TXT_KEY_PEDIA_NUM_POPULATION_LOCAL_NEEDED_LABEL">
 			<Text>필요한 지역 시민: [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR] (현재 {2_Num})</Text>
 		</Row>
-
 		<!-- Great Person Progress -->
 		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_GREAT_PERSON_PROGRESS_EMPIRE">
 			<Text>문명 전역 위인 보너스</Text>
@@ -6795,7 +7039,6 @@
 		<Row Tag="TXT_KEY_INSTANT_GREAT_PERSON_PROGRESS_DETAILS">
 			<Text>+{3_Num} {2_Icon} {1_Name}</Text>
 		</Row>
-
 		<!-- Instant Yield Text -->
 		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_INSTANT_YIELD_EMPIRE">
 			<Text>문명 전역 보너스</Text>
@@ -6932,7 +7175,6 @@
 		<Row Tag="TXT_KEY_INSTANT_YIELD_TR_PRODUCTION_SIPHON">
 			<Text>[ICON_INTERNATIONAL_TRADE]교역로와 연결된 목적지:[NEWLINE]{1_YieldString}</Text>
 		</Row>
-
 		<!-- Quest Data -->
 		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_ROUTE_NAME">
 			<Text>{1_CSName}{1: plural 1?을; 2?를;} 위한 도로 설립</Text>
@@ -7033,7 +7275,6 @@
 		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_UNIT_GET_CITY_NAME">
 			<Text>{1_CSName}{1: plural 1?을; 2?를;} 위한 정복</Text>
 		</Row>
-		
 		<Row Tag="TXT_KEY_INSTANT_YIELD_DETAILS_HAPPINESS">
 			<Text>+{1_Num} [ICON_HAPPINESS_1]행복</Text>
 		</Row>
@@ -7049,7 +7290,6 @@
 		<Row Tag="TXT_KEY_INSTANT_YIELD_DETAILS_GPP">
 			<Text>+{1_Num} [ICON_CAPITAL]수도의 [ICON_GREAT_PEOPLE]위인 점수</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_YIELD_PER_TURN_HEADER">
 			<Text>[COLOR_POSITIVE_TEXT]이전 {1_Num}턴 동안 얻은 산출량[ENDCOLOR]</Text>
 		</Row>
@@ -7059,26 +7299,21 @@
 		<Row Tag="TXT_KEY_INSTANT_YIELD_AVERAGE_CITIES">
 			<Text>[NEWLINE]        [ICON_BULLET] 평균: 매 턴 +{1_Num} (도시마다)</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_INSTANT_YIELD_PER_PLAYER_TOURISM">
 			<Text>[NEWLINE][COLOR_POSITIVE_TEXT][ICON_TOURISM] 각 문명의 일시적인 관광 산출량:[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_PER_PLAYER_TOURISM_NAME">
 			<Text>[NEWLINE] [ICON_BULLET] {1_Civ}: {2_Val} [ICON_TOURISM]관광 (매 턴 +{3_Avg})</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_CO_PLAYER_TOURISM_INSTANT_TT_VALUE">
 			<Text>+{1_Num} 문명의 일시적인 산출량에서 오는 매 턴 [ICON_TOURISM]관광 (평균)</Text>
-		</Row>		
-
+		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_TOTAL">
 			<Text>[ICON_BULLET] {2_YieldIcon} {3_YieldColorString}{1_YieldType}[ENDCOLOR]: {4_Num}</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_YIELD_PER_TURN_HEADER_EMPTY">
 			<Text>산출량은 정책, 교리, 건물 등 다양한 방법으로 얻을 수 있습니다.[NEWLINE]10턴 전과 이번 턴에 얻은 산출량의 총량은 이곳에 표시됩니다.</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_YIELD_GREAT_WORK_MODIFIER">
 			<Text>[NEWLINE][ICON_BULLET]걸작: {1_Num}%</Text>
 		</Row>
@@ -7105,26 +7340,21 @@
 		<Row Tag="TXT_KEY_PRODUCTION_INVESTMENT_BUILDING">
 			<Text>[COLOR:105:105:105:255][ICON_GOLD]골드를 건물에 투자하면 해당 건물의 [ICON_PRODUCTION]생산 비용이 {1_Num}% 감소하고, 불가사의에 투자하면 해당 불가사의의 생산 비용이 {2_Num}% 감소합니다.[ENDCOLOR]</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_INVESTED">
 			<Text>[COLOR_POSITIVE_TEXT] (투자됨)[ENDCOLOR]</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_PRODUCTION_INVESTMENT_UNIT">
 			<Text>[COLOR_POSITIVE_TEXT][ICON_GOLD]골드를 유닛에 투자하면 해당 유닛의 [ICON_PRODUCTION]생산 비용이 {1_Num}% 감소합니다.[ENDCOLOR]</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_WONDER_COST_INCREASE_METRIC">
 			<Text>보유한 세계 불가사의로 인한 추가적인 [ICON_PRODUCTION]생산 비용: [COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR].[NEWLINE][ICON_PRODUCTION] 다음에서 생산 비용 증가:[NEWLINE][ICON_BULLET] 같은 시대에 건설한 불가사의: [COLOR_POSITIVE_TEXT]25%.[ENDCOLOR][NEWLINE][ICON_BULLET]이전 시대에 건설한 불가사의: [COLOR_POSITIVE_TEXT]15%[ENDCOLOR].[NEWLINE][ICON_BULLET] 2시대 전에 건설한 불가사의: [COLOR_POSITIVE_TEXT]10%.[ENDCOLOR][NEWLINE][ICON_BULLET] 참고: 3시대 전의 불가사의나 그보다 더 오래된 불가사의는 비용을 부과하지 않습니다.</Text>
 		</Row>
-		
 		<Row Tag="TXT_KEY_GAME_OPTION_EVENTS">
 			<Text>이벤트 시스템 활성화</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GAME_OPTION_EVENTS_HELP">
 			<Text>플레이어와 도시에 일어나는 이벤트를 활성화합니다</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_GAME_OPTION_EVENTS_GOOD">
 			<Text>좋은 이벤트 없음</Text>
 		</Row>
@@ -7143,44 +7373,37 @@
 		<Row Tag="TXT_KEY_GAME_OPTION_EVENTS_BAD_HELP">
 			<Text>부정적인 결과를 주는 이벤트를 비활성화합니다</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_GAME_OPTION_EVENTS_TRADE">
 			<Text>교역 이벤트 없음</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GAME_OPTION_EVENTS_TRADE_HELP">
 			<Text>교역 이벤트를 비활성화합니다</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_GAMEOPTION_CIV_SPECIFIC_EVENTS">
 			<Text>문명 전용 이벤트 없음</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GAMEOPTION_CIV_SPECIFIC_EVENTS_HELP">
 			<Text>문명 전용 이벤트를 비활성화합니다</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_GAMEOPTION_CHILL_BARBARIANS">
 			<Text>냉담한 야만인</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GAMEOPTION_CHILL_BARBARIANS_HELP">
 			<Text>야만인 생성 속도가 감소하고 생성될 때 2개의 유닛이 생성되지 않습니다.</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_GAMEOPTION_RANDOM_VICTORY">
 			<Text>무작위 승리 유형</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GAMEOPTION_RANDOM_VICTORY_HELP">
 			<Text>원자력 시대에 진입하면 문화 승리, 외교 승리, 과학 승리 중 무작위로 한 가지 승리 유형이 활성화되고 나머지 승리 유형들은 비활성화됩니다. (참고: 정복 승리와 점수 승리는 언제나 가능합니다).</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_GAMEOPTION_KEEP_UNMET_PLAYERS_UNKNOWN">
 			<Text>게임 시작 전 문명 숨기기</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GAMEOPTION_KEEP_UNMET_PLAYERS_UNKNOWN_HELP">
 			<Text>게임 설정에서 다른 팀에 있는 플레이어의 문명에 대한 정보를 감춥니다.[NEW_LINE]저장된 게임을 불러올 때 해당 게임에서 만나지 않은 플레이어의 문명에 대한 정보를 감춥니다.[NEW_LINE]</Text>
 		</Row>
-			
 		<!-- Egypt CBO-->
-
 		<Row Tag="TXT_KEY_ARTIFACT_SARCOPHAGUS_1">
 			<Text>쿠푸의 석관</Text>
 		</Row>
@@ -7232,14 +7455,10 @@
 		<Row Tag="TXT_KEY_ARTIFACT_SARCOPHAGUS_17">
 			<Text>프톨레마이오스 1세의 석관</Text>
 		</Row>
-		
-		
-
 		<!--Policies-->
 		<Row Tag="TXT_KEY_POLICY_BRANCH_CANNOT_UNLOCK_NEED_MORE">
 			<Text>[COLOR_WARNING_TEXT]이 계열을 해금하기 위해서는 다른 계열의 정책을 {1_Num}개 더 채택해야 합니다.[ENDCOLOR]</Text>
 		</Row>
-		
 		<!-- Spy GW Theft Text-->
 		<Row Tag="TXT_KEY_NOTIFICATION_SPY_CANT_STEAL_GREAT_WORK">
 			<Text>{@3_CivShortName}{@3: plural 1?이; 2?가;} 어떠한 걸작도 가지고 있지 않거나 당신 문명의 걸작 슬롯이 부족하기 때문에 {1_SpyRank} {2_SpyName}{2: plural 1?은; 2?는;} 걸작을 훔칠 수 없습니다.</Text>
@@ -7247,14 +7466,12 @@
 		<Row Tag="TXT_KEY_NOTIFICATION_SPY_CANT_STEAL_GREAT_WORK_S">
 			<Text>{@1_CivShortName}에서 걸작을 훔칠 수 없습니다.</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_NOTIFICATION_SPY_WAS_KILLED_GW_S">
 			<Text>{1_SpyName}{1: plural 1?이; 2?가;} 절도 중 살해되었습니다!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_SPY_WAS_KILLED_GW">
 			<Text>당신의 스파이 {1_SpyRank} {2_SpyName}{2: plural 1?이; 2?가;} {4_CityName}에서 걸작을 훔치던 도중 {3_Civ}의 방첩 활동으로 살해되었습니다.</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_NOTIFICATION_SPY_STEAL_GW">
 			<Text>{1_SpyRank} {2_SpyName}{2: plural 1?이; 2?가;} {@4_CivShortName}의 걸작을 훔치기 위해 {3_CityName}에서 충분한 정보를 수집했습니다.</Text>
 		</Row>
@@ -7273,7 +7490,6 @@
 		<Row Tag="TXT_KEY_DIPLOMAT_PICKER_THIEF">
 			<Text>도둑</Text>
 		</Row>
-		
 		<Row Tag="TXT_KEY_NOTIFICATION_GW_STOLEN_SPY_DETECTED_S">
 			<Text>{1_GW} 도난!</Text>
 		</Row>
@@ -7292,25 +7508,21 @@
 		<Row Tag="TXT_KEY_NOTIFICATION_GW_STOLEN_SPY_IDENTIFIED">
 			<Text>{1_CivAdj} 스파이가 {3_CityName}에서 {2_GW}{2: plural 1?을; 2?를;} 훔쳐갔습니다.</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_EO_SPY_RANK_TT_SHORT">
 			<Text>{1_SpyName}{1: plural 1?이; 2?가;} {2_RankName} 계급을 달성했습니다.</Text>
 		</Row>
-		
 		<Row Tag="TXT_KEY_EO_OWN_CITY_POTENTIAL_SHORT_TT">
 			<Text>{1_CityName}의 잠재력은 {2_Num}입니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EO_CITY_ONCE_KNOWN_POTENTIAL_TT_SHORT">
 			<Text>{1_CityName}의 잠재력은 {2_Num}일 것으로 추정됩니다. [ICON_SPY]스파이를 보내 더 알아보십시오.</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_EO_INCREASED_CHANCE_TO_CATCH_SPY">
 			<Text>정책: 적 스파이를 포획할 확률 +{2_Num}% </Text>
 		</Row>
 		<Row Tag="TXT_KEY_EO_INCREASED_CHANCE_TO_CATCH_SPY_AGAINST">
 			<Text>정책: 당신 문명의 스파이가 잡힐 확률 +{2_Num}%</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_DEFENSIVE_SPY_POTENTIAL">
 			<Text>방어 중 가능한 결과:</Text>
 		</Row>
@@ -7323,11 +7535,9 @@
 		<Row Tag="TXT_KEY_OFFENSIVE_SPY_RISKS_AA">
 			<Text>고급 첩보 활동에서 가능한 결과:</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_SPY_INTRIGUE_DISCOVERED">
 			<Text>[COLOR_POSITIVE_TEXT]음모 발각:[ENDCOLOR][NEWLINE]</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_DEFENSIVE_SPY_BONUSES_KILL">
 			<Text>[ICON_BULLET][ICON_SPY]스파이를 제거할 확률: [COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR]</Text>
 		</Row>
@@ -7337,7 +7547,6 @@
 		<Row Tag="TXT_KEY_DEFENSIVE_SPY_BONUSES_DETECT">
 			<Text>[ICON_BULLET][ICON_SPY]스파이를 탐지할 확률: [COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR]</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_OFFENSIVE_SPY_DANGER_KILL">
 			<Text>[ICON_BULLET] 방첩 활동으로 살해될 확률: [COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR]</Text>
 		</Row>
@@ -7359,7 +7568,6 @@
 		<Row Tag="TXT_KEY_OFFENSIVE_SPY_DANGER_ADVANCED_ACTION_DETECT">
 			<Text>[ICON_BULLET] 탐지될 확률: [COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR]</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_DEFENSIVE_SPY_BONUSES_ADVANCED_ACTION_KILL">
 			<Text>[ICON_BULLET] [ICON_SPY]스파이를 제거할 확률: [COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR]</Text>
 		</Row>
@@ -7369,7 +7577,6 @@
 		<Row Tag="TXT_KEY_DEFENSIVE_SPY_BONUSES_ADVANCED_ACTION_DETECT">
 			<Text>[ICON_BULLET] [ICON_SPY]스파이를 탐지할 확률: [COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR]</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_DEFENSIVE_SPY_BONUSES">
 			<Text>방첩 활동: [COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR]</Text>
 		</Row>
@@ -7391,29 +7598,24 @@
 		<Row Tag="TXT_KEY_OFFENSIVE_SPY_BONUSES_DETAIL_SPY_MOD">
 			<Text>[NEWLINE]  [ICON_BULLET] 스파이 계급: [COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR].</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_OFFENSIVE_SPY_RELIGOUS_PRESSURE">
 			<Text>[ICON_SPY]스파이로부터 [ICON_RELIGION]종교 압력 보너스: [COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR]</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_CITY_DEFENSIVE_BONUSES">
 			<Text>타국 [ICON_SPY]스파이의 활동이 [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR]% 더 느려집니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_DEFENSIVE_BONUSES_AGAINST">
 			<Text>당신 문명의 [ICON_SPY]스파이 활동이 [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR]% 더 느려집니다.</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_OFFENSIVE_COUP_CHANCE">
 			<Text>쿠데타 성공 확률: [COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_OFFENSIVE_COUP_CHANCE_ALLIES">
 			<Text>[NEWLINE][ICON_BULLET]   이미 동맹입니다.</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_OFFENSIVE_RIG_CHANCE">
 			<Text>선거 조작 확률: [COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR]</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_EO_OWN_CITY_ADVANCED_POTENTIAL_LIST_TT">
 			<Text>이 도시의 잠재적 적 스파이 고급 첩보 활동:</Text>
 		</Row>
@@ -7444,7 +7646,6 @@
 		<Row Tag="TXT_KEY_EO_OWN_CITY_ADVANCED_FAIL">
 			<Text>[NEWLINE][ICON_BULLET] 실패</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_EO_OWN_CITY_ADVANCED_REBELLION_OTHER">
 			<Text>[NEWLINE][ICON_BULLET] 도시 반란 조장: [COLOR_POSITIVE_TEXT]: {1_Num}%[ENDCOLOR]</Text>
 		</Row>
@@ -7475,7 +7676,6 @@
 		<Row Tag="TXT_KEY_EO_OWN_CITY_ADVANCED_FAIL_OTHER_NOTHING">
 			<Text>[NEWLINE][ICON_BULLET] 아무 일도 일어나지 않음: [COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR]</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_OFFENSIVE_ADVANCED_DEATH_POSSIBILITY">
 			<Text>[NEWLINE][ICON_BULLET] 암살 자격을 갖춘 다른 문명의 요원이 고급 첩보 활동 중 살해될 가능성이 있습니다.</Text>
 		</Row>
@@ -7488,7 +7688,6 @@
 		<Row Tag="TXT_KEY_OFFENSIVE_ADVANCED_ACTIONS_POSSIBLE">
 			<Text>{1_SpyName}{1: plural 1?이; 2?가;} 도시에서 고급 첩보 활동을 수행할 수 있습니다.</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_DIPLOMATIC_REQUEST">
 			<Text>확인되지 않은 서신</Text>
 		</Row>
@@ -7520,44 +7719,37 @@
 			<Text>[NEWLINE][ICON_BULLET]과학자 수에 따른 수치: {1_Num}%</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_CITY_WLTKD_UNIT">
-			<Text>{1_Resource:textkey}의 확보로 {2_CityName:textkey} 도시가 국왕 경축일을 맞이합니다.</Text>
+			<Text>{1_Resource:textkey}의 확보로 {2_CityName:textkey}{2: plural 1?이; 2?가;} 국왕 경축일을 맞이합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_CITY_WLTKD_UNIT">
-			<Text>{1_CityName:textkey} 도시가 국왕 경축일을 맞이했습니다!</Text>
+			<Text>{1_CityName:textkey}{1: plural 1?이; 2?가;} 국왕 경축일을 맞이했습니다!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_CONQUEST_OF_WORLD_UNIT">
-			<Text>{1_CityName:textkey} 도시에서 군사 유닛을 제공했습니다!</Text>
+			<Text>{1_CityName:textkey}에서 군사 유닛을 제공했습니다!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_CONQUEST_OF_WORLD_UNIT">
-			<Text>{2_CityName:textkey}의 유목민들이 {1_Resource:textkey} 집단을 형성하여 당신에게 충성합니다.</Text>
+			<Text>{2_CityName:textkey}의 유목민들이 {1_Resource:textkey}{1: plural 1?을; 2?를;} 생성하여 당신에게 충성합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EUPANEL_BONUS_CONQUEST_OF_WORLD">
 			<Text>신대륙 점령 황금기 보너스</Text>
 		</Row>
-
 		<!-- Autocracy-->
-
-		
 		<Row Tag="TXT_KEY_BALANCE_AUTOCRACY_BULLY_INFLUENCE_REDUCTION_CS">
 			<Text>{2_Civ}{2: plural 1?이; 2?가;} {1_CS}{1: plural 1?을; 2?를;} 괴롭혀 해당 도시 국가에 대한 당신의 [ICON_INFLUENCE]영향력이 {3_Influence} 감소했습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BALANCE_AUTOCRACY_BULLY_INFLUENCE_REDUCTION_CS_S">
 			<Text>{2_Civ}{2: plural 1?이; 2?가;} {1_CS}{1: plural 1?을; 2?를;} 위협했습니다!</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_BALANCE_AUTOCRACY_BULLY_INFLUENCE_REDUCTION_CS_YOU">
 			<Text>당신은 {1_CS}{1: plural 1?을; 2?를;} 괴롭혀 해당 도시 국가에 대한 [ICON_INFLUENCE]영향력을 {2_Influence} 증가시키고 다른 문명의 [ICON_INFLUENCE]영향력을 {3_Percent}% 감소시켰습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BALANCE_AUTOCRACY_BULLY_INFLUENCE_REDUCTION_CS_YOU_S">
 			<Text>당신은 {1_CS}{1: plural 1?을; 2?를;} 위협했습니다!</Text>
 		</Row>
-
-
 		<!-- Randomization Victory Data-->
 		<Row Tag="TXT_KEY_POP_WORLD_VICTORY_SPLASH">
 			<Text>승리 조건 활성화</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_POP_WORLD_VICTORY_TYPE_DIPLO">
 			<Text>인류의 역사는 폭력의 역사였지만 새로운 시대를 맞이하여 구원의 기회가 왔습니다. 세계 대회는 미래의 전장입니다. 승리의 보상은 첫 세계 지도자로서 모든 국가를 지도하는 것입니다.[NEWLINE][COLOR_POSITIVE_TEXT]외교 승리로 세계 패권을 장악하십시오![ENDCOLOR]</Text>
 		</Row>
@@ -7573,11 +7765,9 @@
 		<Row Tag="TXT_KEY_REPLAY_VIEWER_GRAPHBY_TOURISM">
 			<Text>매 턴 [ICON_TOURISM]관광</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_REPLAY_VIEWER_GRAPHBY_GAP">
 			<Text>매 턴 [ICON_GOLDEN_AGE]황금기 점수</Text>
 		</Row>
-
 		<!-- Hopefully removed if option is not needed or better solution in place -->
 		<Row Tag="TXT_KEY_FORCE_MP_SAVE">
 			<Text>Force Mid-Turn New Save (Not recommended - may corrupt save game!)</Text>
@@ -7589,47 +7779,37 @@
 		<Row Tag="TXT_KEY_MISC_YOU_UNIT_WAS_DAMAGED_AOE_STRIKE_ON_MOVE">
 			<Text>돌림병</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_UNIT_PLAGUE_CHANCE">
 			<Text>[COLOR_CYAN]상태 이상 확률 ({1_Name}): {2_Num}%[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_ALREADY_PLAGUED">
 			<Text>[COLOR_CYAN]상태 이상 {1_Num}[ENDCOLOR]</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_UNIT_IMMUNE_PLAGUED">
 			<Text>[COLOR_CYAN]{1_Num}에 면역[ENDCOLOR]</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_UNIT_IGNORE_ZOC">
 			<Text>[COLOR_CYAN]ZOC 무시[ENDCOLOR]</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_UNIT_ORIGIN_CITY">
 			<Text>{1_City}에서 생산됨</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_TRADE_WLTKD_RESOURCE_CITIES">
 			<Text>현재 이 자원을 요구하는 도시:</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_TECH_ADVANCED_ACTIONS_ENABLED">
 			<Text>당신의 스파이가 이제 골드 빼돌리기나 반란 조장 같은 고급 첩보 활동을 할 수 있습니다. 더 자세한 정보는 첩보 개요에서 확인하세요.</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_TECH_ADVANCED_ACTIONS_ENABLED_S">
 			<Text>고급 첩보 활동 활성화</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_ALLOWS_ADVANCED_ACTIONS_STRING">
 			<Text>스파이가 고급 첩보 활동을 할 수 있습니다.</Text>
 		</Row>
-
 		<!-- Tooltip helpers for unhappiness -->
 		<Row Tag="TXT_KEY_POTENTIAL_HAPPINESS_GROWTH">
 			<Text>[NEWLINE][NEWLINE][ICON_CITIZEN]시민 성장에서 오는 [ICON_HAPPINESS_1]행복: [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR]</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_POTENTIAL_UNHAPPINESS_GROWTH">
 			<Text>[NEWLINE][NEWLINE][ICON_CITIZEN]시민 성장에서 오는 [ICON_HAPPINESS_3]불행:</Text>
 		</Row>
@@ -7645,18 +7825,17 @@
 		<Row Tag="TXT_KEY_POTENTIAL_UNHAPPINESS_DEFENSE">
 			<Text>[NEWLINE]   [ICON_BULLET] [ICON_PRODUCTION]/[ICON_FOOD]곤경에서: [COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR]</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_POTENTIAL_UNHAPPINESS_GOLD_POS">
-			<Text>[NEWLINE]   [ICON_BULLET] [ICON_GOLD]빈곤에서: [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR]</Text>
+			<Text>[NEWLINE]   [ICON_BULLET] [ICON_GOLD]빈곤에서: [COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_POTENTIAL_UNHAPPINESS_SCIENCE_POS">
-			<Text>[NEWLINE]   [ICON_BULLET] [ICON_RESEARCH]문맹에서: [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR]</Text>
+			<Text>[NEWLINE]   [ICON_BULLET] [ICON_RESEARCH]문맹에서: [COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_POTENTIAL_UNHAPPINESS_CULTURE_POS">
-			<Text>[NEWLINE]   [ICON_BULLET] [ICON_CULTURE]무료에서: [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR]</Text>
+			<Text>[NEWLINE]   [ICON_BULLET] [ICON_CULTURE]무료에서: [COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_POTENTIAL_UNHAPPINESS_DEFENSE_POS">
-			<Text>[NEWLINE]   [ICON_BULLET] [ICON_PRODUCTION]/[ICON_FOOD]곤경에서: [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR]</Text>
+			<Text>[NEWLINE]   [ICON_BULLET] [ICON_PRODUCTION]/[ICON_FOOD]곤경에서: [COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR]</Text>
 		</Row>
 		<!-- Great person rate modifiers -->
 		<Row Tag="TXT_KEY_MONOPOLY_GP_MOD">

@@ -11,7 +11,7 @@ WHERE Tag = 'TXT_KEY_DIPLO_OPEN_BORDERS_TT';
 UPDATE Language_ko_KR
 SET Text = '[COLOR_POSITIVE_TEXT]20턴[ENDCOLOR] 동안 [ICON_TOURISM]관광이 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 증가합니다. [COLOR_MAGENTA]무료 정책[ENDCOLOR]을 제공합니다.'
 WHERE Tag = 'TXT_KEY_LEAGUE_PROJECT_REWARD_WORLD_GAMES_3_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
-	
+
 UPDATE Language_ko_KR
 SET Text = '20턴 동안 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]33%[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_LEAGUE_PROJECT_REWARD_WORLD_FAIR_3_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
@@ -42,12 +42,12 @@ SET Text = '도시를 [COLOR_POSITIVE_TEXT]합병[ENDCOLOR] 하면 :[NEWLINE][IC
 WHERE Tag = 'TXT_KEY_POPUP_CITY_CAPTURE_INFO_ANNEX' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
 
 UPDATE Language_ko_KR	
-SET Text = '도시를 [COLOR_POSITIVE_TEXT]불태우면[ENDCOLOR] :[NEWLINE][ICON_BULLET] 매 턴 [ICON_CITIZEN]시민이 [COLOR_NEGATIVE_TEXT]1[ENDCOLOR] 줄어들며 시민이 [COLOR_NEGATIVE_TEXT]0[ENDCOLOR]이 되면 도시가 사라집니다.[NEWLINE][ICON_BULLET] 도시의 [ICON_CITIZEN]시민 수만큼 [ICON_HAPPINESS_4]불행을 생성합니다.[NEWLINE][ICON_BULLET] 시민이 감소할 때마다 [COLOR_POSITIVE_TEXT]전쟁 점수[ENDCOLOR]가 크게 증가합니다.[NEWLINE][ICON_BULLET] 이전 소유주에게 충성하는 [COLOR_NEGATIVE_TEXT]반란군[ENDCOLOR]이 생성되거나 (아직 이 문명과 전쟁 중인 경우) 야만인이 매 턴 등장할 수 있습니다.'
+SET Text = '도시를 [COLOR_POSITIVE_TEXT]불태우면[ENDCOLOR] :[NEWLINE][ICON_BULLET] 매 턴 [ICON_CITIZEN]시민이 [COLOR_NEGATIVE_TEXT]1[ENDCOLOR] 줄어들며 시민이 [COLOR_NEGATIVE_TEXT]0[ENDCOLOR]이 되면 도시가 사라집니다.[NEWLINE][ICON_BULLET] 도시의 [ICON_CITIZEN]시민 수만큼 [ICON_HAPPINESS_4]불행을 생성합니다.[NEWLINE][ICON_BULLET] 시민이 감소할 때마다 [COLOR_POSITIVE_TEXT]전쟁 점수[ENDCOLOR]가 크게 증가합니다.[NEWLINE][ICON_BULLET] 이전 소유주에게 충성하는 [COLOR_NEGATIVE_TEXT]반란군[ENDCOLOR]이 생성되거나 (아직 이 문명과 전쟁 중인 경우) 매 턴 야만인이 등장할 수 있습니다.'
 WHERE Tag = 'TXT_KEY_POPUP_CITY_CAPTURE_INFO_RAZE' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
 
 -- Citizen Food Consumption
 UPDATE Language_ko_KR	
-SET Text = '[COLOR_NEGATIVE_TEXT]-{1_Num}[ENDCOLOR] {2_IconString} [ICON_CITIZEN]시민이 소모'
+SET Text = '[COLOR_NEGATIVE_TEXT]-{1_Num}[ENDCOLOR] {2_IconString}  [ICON_CITIZEN]시민이 소모함'
 WHERE Tag = 'TXT_KEY_YIELD_EATEN_BY_POP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
 
 -- Citizen Food Consumption
@@ -75,11 +75,11 @@ WHERE Tag = 'TXT_KEY_POP_CSTATE_BULLY_TT' AND EXISTS (SELECT * FROM COMMUNITY WH
 
 -- Trade Stuff
 UPDATE Language_ko_KR	
-SET Text = '{1_CivName}{1: plural 1?은; 2?는;} 당신이 보유하지 못한 {2_Num}개의 기술을 연구해서 당신에게 {4_Num} [ICON_RESEARCH]과학을 제공합니다.[NEWLINE]당신은 이 문명에 문화적 영향력을 행사하고 있기 때문에 이 교역로를 통해 {3_Num} [ICON_RESEARCH]과학을 제공 받습니다.'
+SET Text = '{1_CivName}{1_CivName: plural 1?은; 2?는;} 당신이 보유하지 못한 {2_Num}개의 기술을 연구해서 당신에게 {4_Num} [ICON_RESEARCH]과학을 제공합니다.[NEWLINE]당신은 이 문명에 문화적 영향력을 행사하고 있기 때문에 이 교역로를 통해 {3_Num} [ICON_RESEARCH]과학을 제공 받습니다.'
 WHERE Tag = 'TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_TT_YOUR_SCIENCE_EXPLAINED' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
 
 UPDATE Language_ko_KR	
-SET Text = '{2_CivName}{2: plural 1?이; 2?가;} 개발하지 못한 {1_Num}개의 기술을 연구해서 그들에게 {4_Num} [ICON_RESEARCH]과학을 제공합니다.[NEWLINE]이 문명은 당신에게 문화적 영향력을 행사하고 있기 때문에 이 교역로를 통해 {3_Num} [ICON_RESEARCH]과학을 제공 받습니다.'
+SET Text = '{2_CivName}{2_CivName: plural 1?이; 2?가;} 개발하지 못한 {1_Num}개의 기술을 연구해서 그들에게 {4_Num} [ICON_RESEARCH]과학을 제공합니다.[NEWLINE]이 문명은 당신에게 문화적 영향력을 행사하고 있기 때문에 이 교역로를 통해 {3_Num} [ICON_RESEARCH]과학을 제공 받습니다.'
 WHERE Tag = 'TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_TT_THEIR_SCIENCE_EXPLAINED' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
 
 -- CS Gift Stuff
@@ -141,7 +141,7 @@ WHERE Tag = 'TXT_KEY_POLICYSCREEN_IDEOLOGY_NOT_STARTED' AND EXISTS (SELECT * FRO
 UPDATE Language_ko_KR
 SET Text = '이제 현대 시대를 지나왔습니다. 현대적 사상이 당신 문명의 사회에 스며들고 있습니다. 시민들이 문명을 위한 이념을 선택할 것을 요구합니다.'
 WHERE Tag = 'TXT_KEY_NOTIFICATION_CHOOSE_IDEOLOGY_ERA' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_TOURISM_CHANGES' AND Value= 1 );
-	
+
 UPDATE Language_ko_KR
 SET Text = '맨해튼 프로젝트를 완성하면 도시에서 원자폭탄과 핵미사일을 생산할 수 있습니다.[NEWLINE][NEWLINE]당신의 문명이 처음으로 프로젝트를 완료했다면 [ICON_CAPITAL]수도에 무료 [COLOR_YELLOW]원자폭탄[ENDCOLOR] 1개가 출현하고 [COLOR_YELLOW]연구소[ENDCOLOR]를 무료로 제공합니다.'
 WHERE Tag = 'TXT_KEY_PROJECT_MANHATTAN_PROJECT_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );

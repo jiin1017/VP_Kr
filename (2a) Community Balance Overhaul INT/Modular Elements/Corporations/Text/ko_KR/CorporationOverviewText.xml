@@ -107,7 +107,6 @@
 		<Row Tag="TXT_KEY_CPO_CORPORATIONS_NOT_READY">
 			<Text>[COLOR_RESEARCH_STORED]기업[ENDCOLOR] 기술의 연구 전에는 기업을 설립할 수 없습니다.</Text>
 		</Row>
-		
 		<!-- World Corporations -->
 		<Row Tag="TXT_KEY_CPO_WC_NO_FRANCHISES">
 			<Text>세계에는 아직 어떤 프랜차이즈도 설립되어있지 않습니다.</Text>
@@ -139,7 +138,6 @@
 		<Row Tag="TXT_KEY_CPO_WF_CITY_NAME_SORT_TT">
 			<Text>프랜차이즈가 위치한 도시의 이름[NEWLINE][NEWLINE]이름 순으로 프랜차이즈 도시를 정렬</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_CPO_WC_CORPNAME">
 			<Text>기업</Text>
 		</Row>
@@ -176,14 +174,12 @@
 		<Row Tag="TXT_KEY_CPO_WC_NUM_FRANCHISES_SORT_TT">
 			<Text>이 기업이 설립한 프랜차이즈 수[NEWLINE][NEWLINE]프랜차이즈 수별로 회사를 정렬</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_CPO_WC_PULLDOWN_CORPORATIONS">
 			<Text>기업</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CPO_WC_PULLDOWN_FRANCHISES">
 			<Text>프랜차이즈</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_CPO_MP_RESOURCE">
 			<Text>자원</Text>
 		</Row>
@@ -205,21 +201,18 @@
 		<Row Tag="TXT_KEY_CPO_MP_MONOPOLY_BONUS">
 			<Text>독점 보너스</Text>
 		</Row>
-		
 		<Row Tag="TXT_KEY_CPO_MP_NO_CIVILIZATION">
 			<Text>문명 없음</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CPO_MP_MONOPOLY_PERCENT">
 			<Text>{1_Num}%</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_CPO_MP_DROPDOWN_LABEL_SELECT_PLAYER">
 			<Text>플레이어 선택</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CPO_MP_DROPDOWN_LABEL_SELECT_TYPE">
 			<Text>독점 유형 선택</Text>
 		</Row>
-		
 		<Row Tag="TXT_KEY_CPO_MP_DROPDOWN_GREATEST">
 			<Text>최대</Text>
 		</Row>
@@ -235,14 +228,12 @@
 		<Row Tag="TXT_KEY_CPO_MP_PULLDOWN_TYPE_POTENTIAL">
 			<Text>잠재적</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_CPO_YC_PULLDOWN_TYPE_OVERVIEW">
 			<Text>개요</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CPO_YC_PULLDOWN_TYPE_OFFICES">
 			<Text>오피스 및 프랜차이즈</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_CPO_CORPORATION_BONUSES">
 			<Text>보너스:</Text>
 		</Row>

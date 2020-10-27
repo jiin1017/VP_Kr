@@ -4,15 +4,12 @@
 		<Row Tag="TXT_KEY_TRO_LOCATE_RECALL_TT">
 			<Text>유닛을 보려면 클릭</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_TRO_RECALLED">
 			<Text>[COLOR_WARNING_TEXT]R[ENDCOLOR]</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_CHANGE_TRADE_UNIT_HOME_CITY_ITEM_CITY_TT">
 			<Text>[COLOR_POSITIVE_TEXT]{1_CityName}에서 출발 가능한 교역로:[ENDCOLOR]</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_FOOD_SHORT">
 			<Text>[ICON_FOOD]{1_Num: number \"'+'##;'[COLOR_RED]-'##\"}</Text>
 		</Row>

@@ -6,7 +6,7 @@
 			<Text>...에 대해 어떻게 생각하십니까?</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DIPLO_TRADE_MAP">
-			<Text>세계 지도</Text> 	  
+			<Text>세계 지도</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DIPLO_TRADE_MAP_TT">
 			<Text>이 문명이 발견한 모든 땅을 드러냅니다.[NEWLINE][NEWLINE]참고: 만나지 못한 문명 및 도시 국가와 접촉할 수 없습니다.</Text>
@@ -627,7 +627,6 @@
 		<Row Tag="TXT_KEY_VO_TAXES_AVAILABLE_TT">
 			<Text>세금을 부과할 수 있는 {1_Num}개의 종속국이 있습니다.</Text>
 		</Row>
-		
 		<!-- Vassal Overview: Master -->
 		<Row Tag="TXT_KEY_VO_INDEPENDENCE_POSSIBLE_MASTER">
 			<Text>독립 선언 가능: {1_Str}</Text>
@@ -716,7 +715,6 @@
 		<Row Tag="TXT_KEY_VO_TAX_GPT_TAKEN_TT">
 			<Text>그들은 당신에게서 매턴당신의 턴당 [ICON_GOLD] 골드 {3_Num}의 {2_TaxRate}%인 {1_Num} 골드를 받고 있습니다.[ICON_GOLD] {3_Num}[NEWLINE][NEWLINE]당신의 세금은 턴 시작 시 측정됩니다.</Text>
 		</Row>
-		
 		<!-- Vassal Benefits -->
 		<Row Tag="TXT_KEY_VO_VASSAL_BENEFITS">
 			<Text>종속국 효과</Text>
@@ -748,7 +746,6 @@
 		<Row Tag="TXT_KEY_VO_MASTER_TYPE_CAPITULATED_TT">
 			<Text>{1_Name}의 포로가 된 당신은 독립을 선언할 기회가 극히 제한적입니다. 당신이 독립을 선언하려면 [ICON_CITIZEN]시민과 도시 수가 당신의 종주국과 경쟁할 만한 수준이 되거나 당신의 종주국이 적으로부터 당신의 도시를 지키는 데 실패해야 합니다.</Text>
 		</Row>
-		
 		<!-- Version 9 -->
 		<Row Tag="TXT_KEY_DIPLO_DISCUSS_MESSAGE_MOVE_TROOPS">
 			<Text>우리 국경에서 당신의 군대를 철수시켜주십시오.</Text>
@@ -762,7 +759,6 @@
 		<Row Tag="TXT_KEY_GAME_OPTION_ADVANCED_DIPLOMACY_HELP">
 			<Text>외교적 변수 옆에 수치가 표시됩니다. 또한, AI 지도자들이 우호적이면 부정적 변수를 감추지 않습니다.</Text>
 		</Row>
-		
 		<!-- End Vassalage Resolution -->
 		<Row Tag="TXT_KEY_RESOLUTION_PLAYER_VASSAL_TAX">
 			<Text>세계 해방</Text>
@@ -773,26 +769,24 @@
 		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_VASSAL_MAINTENANCE">
 			<Text>종속국 유닛/도시로 인해 [ICON_GOLD] 유지 비용 +{1_VassalMaintenancePercent}%</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_TP_HAPPINESS_VASSALS">
-			<Text>[COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] 종속국의 행복에서 획득</Text>
+			<Text>[COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR]  종속국에서 획득</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TP_CULTURE_VASSALS">
-			<Text>[ICON_BULLET]종속국에서 [COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR]</Text>
+			<Text>[ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR]  종속국에서 획득</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TP_SCIENCE_VASSALS">
-			<Text>[ICON_BULLET]종속국에서 [ICON_RESEARCH] [COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR]</Text>
+			<Text>[ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR]  종속국에서 획득</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TP_GOLD_VASSALS">
-			<Text>종속국에서 {1_Num}</Text>
+			<Text>[COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR]  종속국에서 획득}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TP_FAITH_VASSALS">
-			<Text>종속국에서 [ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR]</Text>
+			<Text>[ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR]  종속국에서 획득</Text>
 		</Row>
 		<Row Tag="TXT_KEY_HAPPINESS_FROM_VASSALS">
 			<Text>종속국</Text>
 		</Row>
-
 		<!-- Levy -->
 		<Row Tag="TXT_KEY_NOTIFICATION_VASSAL_LEVY">
 			<Text>당신이 새로운 시대에 진입하여 당신의 종속국이 공물로 {1_Num} 유닛을 보냈습니다.</Text>
@@ -800,12 +794,11 @@
 		<Row Tag="TXT_KEY_NOTIFICATION_VASSAL_LEVY_SUMMARY">
 			<Text>종속국에서 온 공물</Text>
 		</Row>
-		
 		<Row Tag="TXT_KEY_TP_GOLD_VASSAL_MAINT">
-			<Text>종속국 유지 비용 {1_Num}</Text>
+			<Text>[COLOR_NEGATIVE_TEXT]-{1_Num}[ENDCOLOR]  종속국 유지비로 사용</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TP_GOLD_VASSAL_TAX">
-			<Text>종속국 세금에서 {1_Num}</Text>
+			<Text>[COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR]  종속국 세금에서 획득</Text>
 		</Row>
 	</Language_ko_KR>
 </GameData>

@@ -6,10 +6,7 @@
 			<Text>대사관</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_IMPROVEMENTS_EMBASSY_TEXT">
-			<Text>
-				Embassies can only be built in City-State territory by Great Diplomats, and cannot be built on top of Resources.
-				[NEWLINE][NEWLINE]The first player (and only the first!) to construct an Embassy in a City-State's land [COLOR_POSITIVE_TEXT]earns an extra vote in the World Congress[ENDCOLOR]. No player will receive additional votes for Embassies beyond the first one placed in a City-State's territory.
-				[NEWLINE][NEWLINE]An Embassy cannot be pillaged - once built, they can never be removed, and they will always grant their additional World Congress vote to the original builder. If, however, the original builder is conquered, the conqueror will take ownership of their Embassies, and their votes!</Text>
+			<Text>대사관은 [ICON_DIPLOMAT]위대한 외교관을 통해 [ICON_CITY_STATE]도시 국가 영토에만 건설할 수 있으며 자원 위에 건설할 수 없습니다. 도시 국가의 영토에 대사관을 건설한 첫번째 문명은 세계 대회 추가 대표단을 1명 확보합니다. 도시 국가 영토에 첫번째로 대사관을 설립한 문명 외의 다른 문명은 추가 대표단을 확보할 수 없습니다. 대사관은 약탈할 수 없으며 일단 건설되면 절대로 제거할 수 없습니다. 만약 대사관의 원래 소유 문명이 정복당하면 정복자는 그들의 대사관과 그들의 대표단을 소유할 수 있습니다!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_DETAILS_IMPROVEMENT_VOTES">
 			<Text>[NEWLINE][ICON_BULLET]{1_NumVotes} 도시 국가 대사관에서</Text>
@@ -29,29 +26,22 @@
 		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_DETAILS_RA_VOTES">
 			<Text>[NEWLINE][ICON_BULLET]{1_NumVotes} 연구 협정에서</Text>
 		</Row>
-		
 		<!-- Tooltips for Resolutions -->
-		
 		<Row Tag="TXT_KEY_FOODMOD_LEAGUE">
 			<Text>[NEWLINE][ICON_BULLET]세계 대회 결의안: {1_Num}%</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_MINOR_SCIENCE_FROM_LEAGUE_ALLIES">
-			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT]-{1_Num}%[ENDCOLOR] 다른 문명에 알려진 [ICON_RESEARCH]기술 비용에서</Text>
+			<Text>[ICON_BULLET] [COLOR_NAGATIVE_TEXT]-{1_Num}%[ENDCOLOR] 다른 문명에 알려진 [ICON_RESEARCH]기술 비용에서</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_SCIENCE_FUNDING_FROM_LEAGUE">
 			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT]+{1_Num}%[ENDCOLOR] [ICON_RESEARCH]결의안에서</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_SCIENCE_YIELD_FROM_LEAGUE_ART">
-			<Text>{1_Num} [ICON_RESEARCH]걸작에서</Text>
+			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR] [ICON_RESEARCH]걸작에서</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_CULTURE_LEAGUE_MOD">
-			<Text>+{1_Num}% [ICON_CULTURE]결의안에서</Text>
+			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT]+{1_Num}%[ENDCOLOR] [ICON_CULTURE]결의안에서</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_PRODMOD_LEAGUE">
 			<Text>[NEWLINE][ICON_BULLET]결의안: +{1_Num}%</Text>
 		</Row>

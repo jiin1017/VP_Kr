@@ -1,26 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
-
 	<Language_ko_KR>
 		<Update>
 			<Where Tag="TXT_KEY_CITY_STATE_PERSONALITY_IRRATIONAL"/>
 			<Set Gender="neuter:an"/>
 		</Update>
-
 		<Row Tag="TXT_KEY_POP_CSTATE_PROTECTED_BY">
 			<Text>보호 선언:</Text>
 		</Row>
 		<Row Tag="TXT_KEY_POP_CSTATE_PROTECTED_BY_TT">
 			<Text>다음 문명이 이 도시 국가를 지키겠다고 맹세했습니다. 이 도시 국가를 공격하거나 친선 관계가 되는 것은 이 문명의 분노를 살 수 있습니다.</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_MINOR_CIV_CONTACT_BONUS_NOTHING">
 			<Text>불행히도 그들은 당신에게 제공할 것이 없습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MINOR_CIV_CONTACT_BONUS_FRIENDSHIP">
 			<Text>불행히도 그들은 당신에게 제공할 것이 없습니다. 그러나 {2_Personality} 특성으로 인해 영향력이 [COLOR_POSITIVE_TEXT]{1_NumFriendship}[ENDCOLOR] 증가합니다.</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_MINOR_CIV_FIRST_CONTACT_BONUS_CULTURE">
 			<Text>당신의 문명이 그들과 처음 조우했기 때문에 귀중한 예술품 한 조각을 선물받았습니다. 선물의 가치는 [COLOR_POSITIVE_TEXT]{1_NumCulture}[ENDCOLOR][ICON_CULTURE]문화 입니다.</Text>
 		</Row>
@@ -39,7 +35,6 @@
 		<Row Tag="TXT_KEY_MINOR_CIV_FIRST_CONTACT_BONUS_UNKNOWN">
 			<Text>[COLOR_WARNING_TEXT]절대 이런 일이 일어나서는 안됩니다![ENDCOLOR] - MINOR_CIV_FIRST_CONTACT_BONUS_UNKNOWN</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_MINOR_CIV_CONTACT_BONUS_CULTURE">
 			<Text>그들이 예술적 가치에 대한 지식을 공유합니다. [COLOR_POSITIVE_TEXT]{1_NumCulture}[ENDCOLOR][ICON_CULTURE]문화를 획득했습니다.</Text>
 		</Row>

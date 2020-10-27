@@ -6,7 +6,7 @@
 		<Row Tag="TXT_KEY_C4DF_VASSAL_OVERVIEW">
 			<Text>종속국 개요</Text>
 		</Row>
-        <!-- UNIT attributes -->
+		<!-- UNIT attributes -->
 		<Row Tag="TXT_KEY_EUI_UNIT_MOVEAFTERPURCHASE">
 			<Text>구매 후 이동 가능</Text>
 		</Row>
@@ -106,7 +106,6 @@
 		<Row Tag="TXT_KEY_EUI_UNIT_AIRINTERCEPTRANGE">
 			<Text>{TXT_KEY_MISSION_INTERCEPT} [ICON_RANGE_STRENGTH]{1}</Text>
 		</Row>
-		
 		<Row Tag="TXT_KEY_EUI_UNIT_AIRUNITCAP">
 			<Text>공중 유닛 정원 {1}</Text>
 		</Row>
@@ -152,8 +151,7 @@
 		<Row Tag="TXT_KEY_EUI_UNIT_LEADEREXPERIENCE">
 			<Text>지도자 경험치 {1}</Text>
 		</Row>
-
-        <!-- BUILDING attributes -->
+		<!-- BUILDING attributes -->
 		<Row Tag="TXT_KEY_EUI_BUILDING_TEAMSHARE">
 			<Text>{TXT_KEY_POP_UN_TEAM}</Text>
 		</Row>
@@ -441,7 +439,7 @@
 			<Text>다음 건물 건설시 무료 제공</Text>
 		</Row>
 		<!-- VP end -->
-<!-- MISC EUI tooltips -->
+		<!-- MISC EUI tooltips -->
 		<Row Tag="TXT_KEY_CBE91AF606834326BC7758BB489E509F_DESCRIPTION">
 			<Text>Tablet Data 1</Text>
 		</Row>
@@ -475,11 +473,9 @@
 		<Row Tag="TXT_KEY_EUI_EMPIRE">
 			<Text>[COLOR_HIGHLIGHT_TEXT]제국[ENDCOLOR]</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_EUI_RESOURCES_QUANTITY_TOTAL_REQUIRED">
 			<Text>접근 필요</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_EUI_RESOURCES_QUANTITY_TOTAL_REQUIRED_UNIT_PANEL">
 			<Text>자원 접근 필요</Text>
 		</Row>
