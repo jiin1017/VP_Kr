@@ -225,7 +225,7 @@
 			<Text>생산 비용: {1}[ICON_PRODUCTION]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EUI_BUILDING_NUMCITYCOSTMOD">
-			<Text>도시 1개당 생산 비용: {1}[ICON_PRODUCTION]</Text>
+			<Text>도시당 생산 비용: {1}[ICON_PRODUCTION]</Text>
 		</Row>
 		<!--Row Tag="TXT_KEY_EUI_BUILDING_MINAREASIZE">
 			<Text>최소 구역 크기 {1}</Text>
@@ -315,7 +315,7 @@
 			<Text>도시 [ICON_CONNECTED]연결로 얻는 골드: {1}%[ICON_GOLD]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EUI_BUILDING_CAPTUREPLUNDERMODIFIER">
-			<Text>도시 점령시 적에게 약탈 당한 골드: {1}%[ICON_GOLD]</Text>
+			<Text>도시 점령 시 적에게 약탈 당한 골드: {1}%[ICON_GOLD]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EUI_BUILDING_POLICYCOSTMODIFIER">
 			<Text>정책 채택에 필요한 문화: {1}%[ICON_CULTURE]</Text>
@@ -393,28 +393,28 @@
 			<Text>[ICON_INTERNATIONAL_TRADE]{TXT_KEY_DECLARE_WAR_TRADE_ROUTES_HEADER} + {1}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EUI_BUILDING_LANDMARKSTOURISMPERCENT">
-			<Text>랜드마크 관광: {1}</Text>
+			<Text>랜드마크 관광: + {1}[ICON_TOURISM]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EUI_BUILDING_INSTANTMILITARYINCREASE">
 			<Text>즉각적 군사력 증가: {1}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EUI_BUILDING_GREATWORKSTOURISMMODIFIER">
-			<Text>걸작 관광 보너스: + {1}%[ICON_TOURISM]</Text>
+			<Text>걸작 관광 : + {1}%[ICON_TOURISM]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EUI_BUILDING_XBUILTTRIGGERSIDEOLOGYCHOICE">
-			<Text>{1}개 건설시 이념 선택</Text>
+			<Text>{1}개 건설 시 이념 선택</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EUI_BUILDING_TRADEROUTESEADISTANCEMODIFIER">
 			<Text>해상 교역로 거리: + {1}%</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EUI_BUILDING_TRADEROUTESEAGOLDBONUS">
-			<Text>해상 교역로 골드: {1}[ICON_GOLD]</Text>
+			<Text>해상 교역로 골드: + {1}[ICON_GOLD]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EUI_BUILDING_TRADEROUTELANDDISTANCEMODIFIER">
 			<Text>육상 교역로 거리: + {1}%</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EUI_BUILDING_TRADEROUTELANDGOLDBONUS">
-			<Text>육상 교역로 골드: {1}[ICON_GOLD]</Text>
+			<Text>육상 교역로 골드: + {1}[ICON_GOLD]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EUI_BUILDING_CITYSTATETRADEROUTEPRODUCTIONMODIFIER">
 			<Text>도시 국가 교역로 생산: + {1}%[ICON_PRODUCTION]</Text>
@@ -436,7 +436,7 @@
 			<Text>전역 군사 보급 한도:</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EUI_BUILDING_GRANTED_BY">
-			<Text>다음 건물 건설시 무료 제공</Text>
+			<Text>다음 건물 건설 시 무료로 제공</Text>
 		</Row>
 		<!-- VP end -->
 		<!-- MISC EUI tooltips -->
@@ -456,10 +456,10 @@
 			<Text>상대가 국경을 개방중이지 않습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EUI_BUILT_IN_X_CITIES">
-			<Text>{1: plural  0?건설되지 않음; 1?1개 도시에 건설됨; 2?{1}개 도시에 건설됨;} {2: plural 0?; 1?, 1개 도시에 건설중; 2?, {2}개 도시에 건설중;}</Text>
+			<Text>{1: plural  0?건설되지 않음; 1?1개 도시에 건설됨; 2?{1}개 도시에 건설됨;} /{2: plural 0?; 1? 1개 도시에 건설 중; 2? {2}개 도시에 건설 중;}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EUI_WONDER_BUILT_BY">
-			<Text>{@1_CivName}{@1: plural 1?이; 2?가;} {@2_CityName}에 건설</Text>
+			<Text>{@1_CivName} 문명이 {@2_CityName}에 건설</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EUI_UNKNOWN_CITY">
 			<Text>알려지지 않은 도시</Text>

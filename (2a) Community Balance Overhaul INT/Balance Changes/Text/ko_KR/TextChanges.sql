@@ -62,11 +62,11 @@ WHERE Tag = 'TXT_KEY_GENERIC_HUMAN_CAUGHT_YOUR_SPY_GOOD_1' AND EXISTS (SELECT * 
 -- Citadel Stuff
 
 UPDATE Language_ko_KR
-SET Text = '성채는 위대한 장군만이 건설할 수 있는 웅장한 요새로 보통 도시나 방어 가능한 지형 근처에 건설합니다. 성채는 당신 문명의 영토 어느 곳에나 건설할 수 있습니다. 성채를 건설하면 성채 주위로 플레이어의 문화 경계가 한 타일씩 늘어납니다. 이런 식으로 다른 문명의 문화 경계를 잠식했다면 해당 문명과의 외교관계가 악화됩니다. 성채 안에 있는 모든 유닛은 100%의 방어력 보너스를 받으며 성채 옆에서 턴을 종료하는 모든 적 유닛은 30의 피해를 받습니다. 유닛 옆에 성채가 여럿 있어도 이 피해는 한 번만 받습니다.[NEWLINE][NEWLINE]그리스 아테네의 아크로폴리스는 강력한 초기 성채의 한 예라고 할 수 있습니다. 전면 공격으로 이러한 구조물을 함락시키는 것은 거의 불가능했으며 함락되기 전까지 오랜 시간을 버틸 수 있었습니다.'
+SET Text = '성채는 [ICON_GREAT_GENERAL]위대한 장군만 건설할 수 있는 웅장한 요새로 보통 도시나 방어 가능한 지형 근처에 건설합니다. 성채는 당신 문명의 영토 어느 곳에나 건설할 수 있습니다. 성채를 건설하면 성채 주위로 해당 문명의 영토가 한 타일씩 증가합니다. 이런 식으로 다른 문명의 문화 경계를 잠식했다면 해당 문명과의 외교관계가 악화됩니다. 성채 안에 있는 모든 유닛은 [ICON_STRENGTH]방어력 보너스가 [COLOR_POSITIVE_TEXT]100%[ENDCOLOR] 증가하고 성채와 인접해서 턴을 종료하는 모든 적 유닛은 피해를 [COLOR_POSITIVE_TEXT]30[ENDCOLOR] 입습니다. 유닛 옆에 성채가 여럿 있어도 이 피해는 한 번만 적용됩니다.[NEWLINE][NEWLINE]그리스 아테네의 아크로폴리스는 강력한 초기 성채의 한 예라고 할 수 있습니다. 전면 공격으로 이러한 구조물을 함락시키는 것은 거의 불가능했으며 함락되기 전까지 오랜 시간을 버틸 수 있었습니다.'
 WHERE Tag = 'TXT_KEY_CIV5_IMPROVEMENTS_CITADEL_TEXT' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
 
 UPDATE Language_ko_KR
-SET Text = '소유 영토 내부 또는 소유하지 않은 국경 타일과 인접한 곳에 건설할 수 있으며 서로 인접하여 건설할 수 없습니다. 해당 타일에 주둔한 유닛은 [ICON_STRENGTH]방어력이 100% 증가합니다. 성채 옆에서 턴을 종료하는 모든 적 유닛은 30의 피해를 받습니다. 유닛 옆에 성채가 여럿 있어도 이 피해는 한 번만 받습니다. 성채를 건설하면 군사 유닛 보급 한도가 2 증가하고 성채 주위로 문화 경계가 확장하며 이 유닛이 소모됩니다. 성채를 건설해 다른 문명의 문화 경계를 잠식하면 해당 문명과의 외교 관계가 악화됩니다. '
+SET Text = '소유 영토 내부 또는 소유하지 않은 국경 타일과 인접한 곳에 건설할 수 있으며 다른 성채와 서로 인접하여 건설할 수 없습니다. 해당 타일에 주둔한 유닛은 [ICON_STRENGTH]방어력 보너스가 [COLOR_POSITIVE_TEXT]100%[ENDCOLOR] 증가합니다. 성채와 인접하여 턴을 종료하는 모든 적 유닛은 피해를 [COLOR_POSITIVE_TEXT]30[ENDCOLOR] 입습니다. 유닛 옆에 성채가 여럿 있어도 이 피해는 한 번만 적용됩니다. 성채를 건설하면 군사 유닛 보급 한도가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가하고 성채 주위로 해당 문명의 영토가 한 타일씩 증가합니다. 건설 시 유닛이 소모됩니다.'
 WHERE Tag = 'TXT_KEY_BUILD_CITADEL_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
 
 -- NW Stuff

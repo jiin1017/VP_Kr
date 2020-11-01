@@ -87,7 +87,8 @@
 			<Text>The phrase 'Peace, Land, Bread,' popularized by Lenin and others during the early days of the Soviet Revolution, highlighted their desire to focus on the needs of the impoverished Russian peasantry. The Bolshevik Initial Decrees of the 1910-20s were announced as soon as the Bolsheviks declared their success in the October Revolution (October 26, 1917). The decrees conformed to the popular Bolshevik slogan "Peace, Bread, and Land", taken up by the masses during the July Days (July 1917), an uprising of workers and military forces.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROCESS_CULTURE">
-			<Text>예술</Text>
+			<Text>문화</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_PROCESS_CULTURE_HELP">
 			<Text>도시 [ICON_PRODUCTION]생산의 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR]를 [ICON_CULTURE]문화로 전환하고 도시의 [ICON_CULTURE]문화 요구 수치를 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 감소시킵니다.</Text>
@@ -97,6 +98,7 @@
 		</Row>
 		<Row Tag="TXT_KEY_PROCESS_DEFENSE">
 			<Text>방어</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_PROCESS_DEFENSE_HELP">
 			<Text>도시 [ICON_PRODUCTION]생산의 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR]를 도시 [ICON_STRENGTH]방어력 및 체력 회복률로 전환시킵니다.</Text>

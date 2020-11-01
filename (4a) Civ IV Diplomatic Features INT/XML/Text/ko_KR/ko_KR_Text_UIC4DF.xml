@@ -767,7 +767,7 @@
 			<Text>모든 속주 관계가 평화적으로 즉시 [COLOR_POSITIVE_TEXT]무효화[ENDCOLOR]됩니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_VASSAL_MAINTENANCE">
-			<Text>종속국 유닛/도시로 인해 [ICON_GOLD] 유지 비용 +{1_VassalMaintenancePercent}%</Text>
+			<Text>종속국 유닛/도시로 인한 [ICON_GOLD]유지 비용 [COLOR_NEGATIVE_TEXT]+{1_VassalMaintenancePercent}%[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TP_HAPPINESS_VASSALS">
 			<Text>[COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR]  종속국에서 획득</Text>

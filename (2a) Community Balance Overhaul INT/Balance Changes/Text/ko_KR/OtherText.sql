@@ -216,7 +216,7 @@ WHERE Tag = 'TXT_KEY_TECH_INDUSTRIALIZATION_HELP' AND EXISTS (SELECT * FROM COMM
 -- Fix Steam Power Text
 
 UPDATE Language_ko_KR
-SET Text = '산업 시대의 필수인 [ICON_RES_COAL]석탄 자원이 지도에 드러납니다.'
+SET Text = '산업 시대의 필수 자원인 [ICON_RES_COAL]석탄이 지도에 드러납니다.'
 WHERE Tag = 'TXT_KEY_TECH_STEAM_POWER_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
 
 -- Fix Rifling Text
@@ -252,7 +252,7 @@ WHERE Tag = 'TXT_KEY_TECH_SATELLITES_HELP' AND EXISTS (SELECT * FROM COMMUNITY W
 
 -- Fix Advanced Ballistics Text
 UPDATE Language_ko_KR
-SET Text = '[ICON_RES_URANIUM]우라늄 자원을 소모하여 유닛과 도시를 파괴할 수 있는 무시무시한 무기인 [COLOR_POSITIVE_TEXT]핵미사일[ENDCOLOR]을 만들 수 있습니다.'
+SET Text = '[ICON_RES_URANIUM]우라늄을 소모하여 유닛과 도시를 파괴할 수 있는 무시무시한 무기인 [COLOR_POSITIVE_TEXT]핵미사일[ENDCOLOR]을 만들 수 있습니다.'
 WHERE Tag = 'TXT_KEY_TECH_ADVANCED_BALLISTICS_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
 
 -- Fix Globalization Text
@@ -317,7 +317,7 @@ WHERE Tag = 'TXT_KEY_TECH_CONSTRUCTION_HELP' AND EXISTS (SELECT * FROM COMMUNITY
 
 -- Fix Wheel Text
 UPDATE Language_ko_KR
-SET Text = '빠르고 강력하지만 [ICON_RES_HORSE]말 자원이 필요한 원거리 유닛인 [COLOR_YELLOW]궁전차[ENDCOLOR]를 만들 수 있습니다. 노동자로 도로를 건설할 수 있습니다. 도로는 유닛을 더 빨리 이동할 수 있게 해주고 수도와 다른 도시를 연결할 때 추가적인 [ICON_GOLD]골드를 제공합니다.'
+SET Text = '빠르고 강력하지만 [ICON_RES_HORSE]말이 필요한 원거리 유닛인 [COLOR_YELLOW]궁전차[ENDCOLOR]를 만들 수 있습니다. 노동자로 도로를 건설할 수 있습니다. 도로는 유닛을 더 빨리 이동할 수 있게 해주고 수도와 다른 도시를 연결할 때 추가적인 [ICON_GOLD]골드를 제공합니다.'
 WHERE Tag = 'TXT_KEY_TECH_THE_WHEEL_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
 
 -- Fix Currency Text

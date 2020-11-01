@@ -33,7 +33,6 @@
     <File md5="7F3A24B34711CE0C6E183D0EF3F69CDA" import="0">Buildings/ko_KR/DiploBuildingText.sql</File>
     <File md5="AED054314BCC0255DBD7F53320441112" import="0">Buildings/ko_KR/VanillaBuildingChanges.sql</File>
     <File md5="E8F2C8E2830F8B5265710953E3C7A68B" import="0">Gameplay/ko_KR/GameplayText.sql</File>
-    <File md5="9F07568960E8E4FCBD1CC5B45CCEADFE" import="0">Improvements/ko_KR/Build.xml</File>
     <File md5="D31BFDDDA6C0409AA21A5FF8B88FE67A" import="0">Improvements/ko_KR/ImprovementText.xml</File>
     <File md5="48379E4FAA55F6778FDFF7F17862ACC6" import="0">Promotions/ko_KR/PromotionText.xml</File>
     <File md5="32D1AC34FB7E64C8FEDA7107E0334796" import="0">Quests/ko_KR/CityStateQuest.xml</File>

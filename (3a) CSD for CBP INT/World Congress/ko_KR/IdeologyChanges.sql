@@ -51,7 +51,7 @@ SET Text = '유닛 유지에 필요한 [ICON_GOLD]골드가 [COLOR_NEGATIVE_TEXT
 WHERE Tag = 'TXT_KEY_RESOLUTION_STANDING_ARMY_TAX_HELP' AND EXISTS (SELECT * FROM CSD WHERE Type='IDEOLOGY_CSD' AND Value= 1 );
 
 UPDATE Language_ko_KR
-SET Text = '유닛 유지에 필요한 [ICON_GOLD]골드 [COLOR_NEGATIVE_TEXT]{1_UnitMaintenancePercent}%[ENDCOLOR] 증가. [ICON_VICTORY_DOMINATION] 전쟁광 페널티 크게 증가.'
+SET Text = '유닛 유지에 [ICON_GOLD]비용 [COLOR_NEGATIVE_TEXT]+{1_UnitMaintenancePercent}%[ENDCOLOR]. [ICON_VICTORY_DOMINATION] 전쟁광 페널티 크게 증가.'
 WHERE Tag = 'TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_UNIT_MAINTENANCE' AND EXISTS (SELECT * FROM CSD WHERE Type='IDEOLOGY_CSD' AND Value= 1 );
 
 -- World Religion
@@ -73,13 +73,13 @@ SET Text = '최소한 한 문명에 의해 연구된 [COLOR_RESEARCH_STORED]기�
 WHERE Tag = 'TXT_KEY_RESOLUTION_MEMBER_DISCOVERED_TECH_DISCOUNT_HELP' AND EXISTS (SELECT * FROM CSD WHERE Type='IDEOLOGY_CSD' AND Value= 1 );
 
 UPDATE Language_ko_KR
-SET Text = '다른 문명이 이미 연구한 기술의 [ICON_RESEARCH]연구 비용이 [COLOR_POSITIVE_TEXT]{1_ResearchCostPercent}%[ENDCOLOR] 감소 및 도시 국가마다 [COLOR_POSITIVE_TEXT]2%[ENDCOLOR] 더 감소 [COLOR:105:105:105:255](한도:50%)[ENDCOLOR]'
+SET Text = '다른 문명이 이미 연구한 기술의 [ICON_RESEARCH]연구 비용 [COLOR_POSITIVE_TEXT]-{1_ResearchCostPercent}%[ENDCOLOR]. 도시 국가마다 추가 [COLOR_POSITIVE_TEXT]-2%[ENDCOLOR]. [COLOR:105:105:105:255](한도:50%)[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_DISCOVERED_TECH_MODIFIER' AND EXISTS (SELECT * FROM CSD WHERE Type='IDEOLOGY_CSD' AND Value= 1 );
 
 --Wonder Culture
 
 UPDATE Language_ko_KR
-SET Text = '+{1_CulturePerWorldWonder} [ICON_CULTURE]불가사의에서, +1 [ICON_RESEARCH]걸작에서'
+SET Text = '세계 불가사의의 [ICON_CULTURE][COLOR_POSITIVE_TEXT]+{1_CulturePerWorldWonder}[ENDCOLOR]. 걸작에서 오는 [ICON_RESEARCH][COLOR_POSITIVE_TEXT]+1[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_CULTURE_FROM_WONDERS' AND EXISTS (SELECT * FROM CSD WHERE Type='IDEOLOGY_CSD' AND Value= 1 );
 
 UPDATE Language_ko_KR
@@ -93,7 +93,7 @@ SET Text = '시민을 투입한 자연 경관의 모든 산출량이 [COLOR_POSI
 WHERE Tag = 'TXT_KEY_RESOLUTION_NATURAL_HERITAGE_SITES_HELP' AND EXISTS (SELECT * FROM CSD WHERE Type='IDEOLOGY_CSD' AND Value= 1 );
 
 UPDATE Language_ko_KR
-SET Text = '자연 경관 산출량 [COLOR_POSITIVE_TEXT]{1_CulturePerWorldWonder}[ENDCOLOR] 증가'
+SET Text = '자연 경관의 산출량 [COLOR_POSITIVE_TEXT]+{1_CulturePerWorldWonder}[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_CULTURE_FROM_NATURAL_WONDERS' AND EXISTS (SELECT * FROM CSD WHERE Type='IDEOLOGY_CSD' AND Value= 1 );
 
 -- Improvement/Landmarks
@@ -103,11 +103,11 @@ SET Text = '위인 타일 시설의 [ICON_PRODUCTION]생산, [ICON_FOOD]식량, 
 WHERE Tag = 'TXT_KEY_RESOLUTION_HISTORICAL_LANDMARKS_HELP' AND EXISTS (SELECT * FROM CSD WHERE Type='IDEOLOGY_CSD' AND Value= 1 );
 
 UPDATE Language_ko_KR
-SET Text = '모든 위인 타일 시설에서 [ICON_PRODUCTION]/[ICON_FOOD]/[ICON_GOLD] 산출량이 [COLOR_POSITIVE_TEXT]{1_NumCulture}[ENDCOLOR] 증가'
+SET Text = '위인 타일 시설의 [ICON_PRODUCTION]/[ICON_FOOD]/[ICON_GOLD] [COLOR_POSITIVE_TEXT]+{1_NumCulture}[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_GREAT_PERSON_TILE_IMPROVEMENT_CULTURE' AND EXISTS (SELECT * FROM CSD WHERE Type='IDEOLOGY_CSD' AND Value= 1 );
 
 UPDATE Language_ko_KR
-SET Text = '모든 랜드마크에서 [ICON_CULTURE]/[ICON_RESEARCH]/[ICON_PEACE] 산출량이 [COLOR_POSITIVE_TEXT]{1_NumCulture}[ENDCOLOR] 증가'
+SET Text = '랜드마크의 [ICON_CULTURE]/[ICON_RESEARCH]/[ICON_PEACE] 산출량 [COLOR_POSITIVE_TEXT]+{1_NumCulture}[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_LANDMARK_CULTURE' AND EXISTS (SELECT * FROM CSD WHERE Type='IDEOLOGY_CSD' AND Value= 1 );
 
 
@@ -190,7 +190,7 @@ SET Text = '세계 패권을 장악하기 위해 필요한 대표단 수: [COLOR
 WHERE Tag = 'TXT_KEY_LEAGUE_OVERVIEW_WORLD_LEADER_INFO_VOTES' AND EXISTS (SELECT * FROM CSD WHERE Type='IDEOLOGY_CSD' AND Value= 1 );
 
 UPDATE Language_ko_KR
-SET Text = 'Since the World Congress has moved to the newly-constructed United Nations, Diplomatic Victory is now possible.  To enable the Diplomatic Victory special sessions, a [COLOR_POSITIVE_TEXT]World Ideology Resolution[ENDCOLOR] must be active. Once active, a Civilization must receive the support of {1_DelegatesForWin} or more Delegates on a Global Hegemony proposal.  This number is based on the number of Civilizations and City-States in the game.[NEWLINE][NEWLINE]The Global Hegemony proposal is made to the Congress every other session once a [COLOR_POSITIVE_TEXT]World Ideology Resolution[ENDCOLOR] is active, alternating with regular sessions of regular proposals.'
+SET Text = '세계 대회가 국제 연합이 되었으므로 이제 외교 승리가 가능합니다. 외교 승리를 위해서는 반드시 세계 이념이 활성화 되어있어야 합니다. 세계 패권 제안에 대한 {1_DelegatesForWin}표 이상의 지지를 받아야 하고 필요한 표의 수는 게임 내 문명과 도시 국가의 수에 따라 달라집니다.[NEWLINE][NEWLINE]세계 패권 안건은 2회기 마다 한 번씩 다루어지며 일반 안건들을 처리하는 일반 회기와 번갈아 가며 열립니다.'
 WHERE Tag = 'TXT_KEY_LEAGUE_OVERVIEW_WORLD_LEADER_INFO_TT' AND EXISTS (SELECT * FROM CSD WHERE Type='IDEOLOGY_CSD' AND Value= 1 );
 
 UPDATE Language_ko_KR

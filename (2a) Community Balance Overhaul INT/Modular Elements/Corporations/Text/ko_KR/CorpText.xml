@@ -245,47 +245,47 @@
 			<Text>{1_PlayerName}{1: plural 1?이; 2?가;} 기업을 설립했습니다!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_TRADE_UNIT_CORPORATION_BUILDING_SUMMARY">
-			<Text>{@1_BldgName}{@1: plural 1?이; 2?가;} {@2_City}{@2: plural 1?으로; 2?로;} 확장했습니다!</Text>
+			<Text>{@1_BldgName}{@1_BldgName: plural 1?이; 2?가;} {@2_City}{@2: plural 1?으로; 2?로;} 확장했습니다!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_TRADE_UNIT_CORPORATION_BUILDING">
 			<Text>{@3_City}와의 교역으로 인한 결과, {@2_BldgName}{@2: plural 1?이; 2?가;} {@1_City}{@1: plural 1?으로; 2?로;}로 확장되었습니다. 이것은 당신 문명의 모든 기업 오피스 가치를 증가시킵니다!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_TRADE_UNIT_CORPORATION_BUILDING_FOREIGN_SUMMARY">
-			<Text>{@1_BldgName}{@1: plural 1?이; 2?가;} {@2_City}{@2: plural 1?으로; 2?로;} 확장했습니다!</Text>
+			<Text>{@1_BldgName}{@1_BldgName: plural 1?이; 2?가;} {@2_City}{@2: plural 1?으로; 2?로;} 확장했습니다!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_TRADE_UNIT_CORPORATION_BUILDING_FOREIGN">
 			<Text>{@3_City}{@3: plural 1?과; 2?와;}의 교역으로 인한 결과, {@2_BldgName}[COLOR:105:105:105:255](외국 기업)[ENDCOLOR]{@2: plural 1?이; 2?가;} {@1_City}{@1: plural 1?으로; 2?로;} 확장되었습니다. 이것은 그들의 기업 가치를 증가시킵니다!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_TRADE_UNIT_CORPORATION_BUILDING_FREEDOM_SUMMARY">
-			<Text>{@1_BldgName}{@1: plural 1?이; 2?가;} {@2_City}{@2: plural 1?으로; 2?로;} 확장했습니다!</Text>
+			<Text>{@1_BldgName}{@1_BldgName: plural 1?이; 2?가;} {@2_City}{@2: plural 1?으로; 2?로;} 확장했습니다!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_TRADE_UNIT_CORPORATION_BUILDING_FREEDOM">
 			<Text>{@2_BldgName}{@2: plural 1?이; 2?가;} {@2_City}{@2: plural 1?으로; 2?로;} 확장했습니다! 이것은 당신 문명의 모든 기업 오피스 가치를 증가시킵니다!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_TRADE_UNIT_CORPORATION_BUILDING_FOREIGN_FREEDOM_SUMMARY">
-			<Text>{@1_BldgName}{@1: plural 1?이; 2?가;} {@2_City}{@2: plural 1?으로; 2?로;} 확장했습니다!</Text>
+			<Text>{@1_BldgName}{@1_BldgName: plural 1?이; 2?가;} {@2_City}{@2: plural 1?으로; 2?로;} 확장했습니다!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_TRADE_UNIT_CORPORATION_BUILDING_FOREIGN_FREEDOM">
 			<Text>{@2_BldgName}[COLOR:105:105:105:255](외국 기업)[ENDCOLOR]{@2: plural 1?이; 2?가;} {@1_City}{@1: plural 1?으로; 2?로;} 확장되었습니다! 이것은 그들의 기업 가치를 증가시킵니다!</Text>
 		</Row>
 		<!-- Moved/Destroyed Notifications -->
 		<Row Tag="TXT_KEY_NOTIFICATION_CORPORATION_MOVED_SUMMARY">
-			<Text>{@1_BldgName}{@1: plural 1?이; 2?가;} {@2_City}{@2: plural 1?으로; 2?로;} 이전했습니다!</Text>
+			<Text>{@1_BldgName}{@1_BldgName: plural 1?이; 2?가;} {@2_City}{@2: plural 1?으로; 2?로;} 이전했습니다!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_CORPORATION_MOVED">
 			<Text>이전 본부가 점령되었기 때문에 {@2_BldgName}{@2: plural 1?이; 2?가;} {@1_City}{@1: plural 1?으로; 2?로;} 이전했습니다! 다시는 이런 일 없도록 하십시오</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_CORPORATION_DESTROYED_SUMMARY">
-			<Text>{@1_BldgName}{@1: plural 1?이; 2?가;} 모든 오피스와 프랜차이즈를 닫았습니다!</Text>
+			<Text>{@1_BldgName}{@1_BldgName: plural 1?이; 2?가;} 모든 오피스와 프랜차이즈를 닫았습니다!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_CORPORATION_DESTROYED">
-			<Text>본부가 파괴되었기 때문에 {@1_BldgName}{@1: plural 1?이; 2?가;} 모든 글로벌 오피스와 프랜차이즈를 닫았습니다!</Text>
+			<Text>본부가 파괴되었기 때문에 {@1_BldgName}{@1_BldgName: plural 1?이; 2?가;} 모든 글로벌 오피스와 프랜차이즈를 닫았습니다!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_CORPORATION_BUILDINGS_REMOVED_CITY_S">
-			<Text>{2_City}에서 {@1_BldgName}{@1: plural 1?을; 2?를;} 제거했습니다!</Text>
+			<Text>{2_City}에서 {@1_BldgName}{@1_BldgName: plural 1?을; 2?를;} 제거했습니다!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_CORPORATION_BUILDINGS_REMOVED_CITY">
-			<Text>세계 대회 결의안 또는 이념 주의 때문에 {2_City}에 있는 {3_Civ}의 {@1_BldgName}{@1: plural 1?이; 2?가;} 강제적으로 문을 닫았습니다.</Text>
+			<Text>세계 대회 결의안 또는 이념 주의 때문에 {2_City}에 있는 {3_Civ}의 {@1_BldgName}{@1_BldgName: plural 1?이; 2?가;} 강제적으로 문을 닫았습니다.</Text>
 		</Row>
 		<!-- LUA -->
 		<Row Tag="TXT_KEY_NO_ACTION_BUILDING_ONE_CORP_ONLY">
@@ -544,7 +544,7 @@
 			<Text>[ICON_PRODUCTION]생산과 해안 도시에 초점을 맞춘 혜택을 제공합니다. [ICON_GOLD]골드에 초점을 맞춘 혜택을 제공합니다. 추가 [ICON_INTERNATIONAL_TRADE][COLOR_YELLOW]교역로[ENDCOLOR]를 2개 제공하고 해상 [ICON_INTERNATIONAL_TRADE]교역로의 범위가 [COLOR_POSITIVE_TEXT]두 배[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE]모든 항만 및 항구의 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다. 다른 문명의 도시에 설립한 프랜차이즈 1개마다 상대 문명에 대한 [ICON_TOURISM]관광이 [COLOR_POSITIVE_TEXT]2%[ENDCOLOR] 증가합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CORPORATION_RESOURCE_BONUS_LANDSEA_EXTRACTORS">
-			<Text>센타우리 개발 프랜차이즈를 설립한 도시 주변 모든 [ICON_RES_HORSE] 말 자원, [ICON_RES_WHALE] 고래, [ICON_RES_CRAB] 게, [ICON_RES_IVORY] 상아의 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.</Text>
+			<Text>센타우리 개발 프랜차이즈를 설립한 도시 주변 모든 [ICON_RES_HORSE] 말, [ICON_RES_WHALE] 고래, [ICON_RES_CRAB] 게, [ICON_RES_IVORY] 상아의 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CORPORATION_OFFICE_BONUS_LANDSEA_EXTRACTORS">
 			<Text>모든 글로벌 프랜차이즈 1개마다 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] 증가하고 도시 주변 모든 해양 타일의 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.</Text>
@@ -599,13 +599,13 @@
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_CORPORATION_HEXXON_REFINERY_HELP">
-			<Text>게임 후반 전투를 벌이고 전략 자원을 축적하는 능력을 강화하는데 초점을 맞춘 혜택을 제공합니다. 추가 [ICON_INTERNATIONAL_TRADE][COLOR_YELLOW]교역로[ENDCOLOR]를 2개 제공합니다. [NEWLINE][NEWLINE][ICON_RES_OIL] 석유 자원, [ICON_RES_URANIUM] 우라늄 자원, [ICON_RES_ALUMINUM] 알루미늄 자원이 필요한 유닛을 생산할 때 [ICON_PRODUCTION]생산 보너스를 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR] 제공합니다. 모든 수력, 원자력, 풍력, 태양열 발전소의 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] 증가합니다. 다른 문명의 도시에 설립한 프랜차이즈 1개마다 상대 문명에 대한 [ICON_TOURISM]관광이 [COLOR_POSITIVE_TEXT]2%[ENDCOLOR] 증가합니다.</Text>
+			<Text>게임 후반 전투를 벌이고 전략 자원을 축적하는 능력을 강화하는데 초점을 맞춘 혜택을 제공합니다. 추가 [ICON_INTERNATIONAL_TRADE][COLOR_YELLOW]교역로[ENDCOLOR]를 2개 제공합니다. [NEWLINE][NEWLINE][ICON_RES_OIL] 석유, [ICON_RES_URANIUM] 우라늄, [ICON_RES_ALUMINUM] 알루미늄이 필요한 유닛을 생산할 때 [ICON_PRODUCTION]생산 보너스를 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR] 제공합니다. 모든 수력, 원자력, 풍력, 태양열 발전소의 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] 증가합니다. 다른 문명의 도시에 설립한 프랜차이즈 1개마다 상대 문명에 대한 [ICON_TOURISM]관광이 [COLOR_POSITIVE_TEXT]2%[ENDCOLOR] 증가합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CORPORATION_RESOURCE_BONUS_HEXXON_REFINERY">
-			<Text>헥손 정유 프랜차이즈를 설립한 도시 주변 모든 [ICON_RES_COAL] 석탄 자원, [ICON_RES_OIL] 석유 자원, [ICON_RES_INCENSE] 향, [ICON_RES_URANIUM] 우라늄 자원, and [ICON_RES_BRAZILWOOD]브라질 소방목의 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.</Text>
+			<Text>헥손 정유 프랜차이즈를 설립한 도시 주변 모든 [ICON_RES_COAL] 석탄, [ICON_RES_OIL] 석유, [ICON_RES_INCENSE] 향, [ICON_RES_URANIUM] 우라늄, and [ICON_RES_BRAZILWOOD]브라질 소방목의 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CORPORATION_OFFICE_BONUS_HEXXON_REFINERY">
-			<Text>글로벌 프랜차이즈 3개마다 [ICON_RES_OIL]석유 자원 및 [ICON_RES_COAL]석탄 자원을 추가로 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR] 제공하고 군사 유닛을 생산할 때 [ICON_PRODUCTION]생산 보너스를 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR] 제공합니다.</Text>
+			<Text>글로벌 프랜차이즈 3개마다 [ICON_RES_OIL]석유 및 [ICON_RES_COAL]석탄 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR]를 추가로 제공하고 군사 유닛을 생산할 때 [ICON_PRODUCTION]생산 보너스를 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR] 제공합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CORPORATION_TRADE_ROUTE_BONUS_HEXXON_REFINERY">
 			<Text>헥손 정유 프랜차이즈를 설립한 다른 문명의 도시로 향하는 교역로마다 이 도시의 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다.</Text>
@@ -650,7 +650,7 @@
 			<Text>When a [ICON_INTERNATIONAL_TRADE] Trade Route between a foreign City and this City completes, a Hexxon Refineries Franchise is constructed in the foreign City.[NEWLINE][NEWLINE]Hexxon Refineries cannot be sold or destroyed by the player, and grants +1 [ICON_RES_OIL] Oil and +1 [ICON_RES_COAL] Coal for every[COLOR_POSITIVE_TEXT]three[ENDCOLOR] Hexxon Refineries Franchises.[NEWLINE][NEWLINE]You cannot have more Franchises than your Franchise Limit (see the Corporation and Monopolies Overview for more on this).</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_HEXXON_REFINERY_HELP">
-			<Text>군사 유닛을 생산할 때 [ICON_PRODUCTION]생산 보너스를 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR] 제공합니다. 다른 문명의 도시에 설립한 헥손 정유 프랜차이즈 3개마다 [ICON_RES_OIL] 석유 자원 및 [ICON_RES_COAL] 석탄 자원을 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR] [COLOR:105:105:105:255](한도: 문명의 프랜차이즈 한도까지만 증가)[ENDCOLOR] 제공합니다.[NEWLINE][NEWLINE]헥손 정유 프랜차이즈를 설립한 다른 문명의 도시로 향하는 [ICON_INTERNATIONAL_TRADE]교역로마다 도시의 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다.</Text>
+			<Text>군사 유닛을 생산할 때 [ICON_PRODUCTION]생산 보너스를 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR] 제공합니다. 다른 문명의 도시에 설립한 헥손 정유 프랜차이즈 3개마다 [ICON_RES_OIL] 석유 및 [ICON_RES_COAL] 석탄 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR]를 [COLOR:105:105:105:255](한도: 문명의 프랜차이즈 한도까지만 증가)[ENDCOLOR] 제공합니다.[NEWLINE][NEWLINE]헥손 정유 프랜차이즈를 설립한 다른 문명의 도시로 향하는 [ICON_INTERNATIONAL_TRADE]교역로마다 도시의 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CORPORATION_GIORGIO_ARMEIER">
 			<Text>조르지오 아르미에 주식회사</Text>
@@ -718,7 +718,7 @@
 			<Text>대량의 [ICON_RESEARCH]과학을 창출하고 제국 내 인프라 개발에 초점을 맞춘 혜택을 제공합니다. 추가 [ICON_INTERNATIONAL_TRADE][COLOR_YELLOW]교역로[ENDCOLOR]를 2개 제공하고 교역로가 약탈되지 않습니다.[NEWLINE][NEWLINE]모든 공장 및 대학의 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] 증가합니다. 다른 문명의 도시에 설립한 프랜차이즈 1개마다 상대 문명에 대한 [ICON_TOURISM]관광이 [COLOR_POSITIVE_TEXT]2%[ENDCOLOR] 증가합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CORPORATION_RESOURCE_BONUS_FIRAXITE_MATERIALS">
-			<Text>파이락사이트 소재 프랜차이즈를 설립한 도시 주변 모든 [ICON_RES_IRON] 철 자원, [ICON_RES_ALUMINUM] 알루미늄 자원, [ICON_RES_MARBLE] 대리석, [ICON_RES_COPPER] 구리, [ICON_RES_PORCELAIN] 도자기의 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.</Text>
+			<Text>파이락사이트 소재 프랜차이즈를 설립한 도시 주변 모든 [ICON_RES_IRON] 철, [ICON_RES_ALUMINUM] 알루미늄, [ICON_RES_MARBLE] 대리석, [ICON_RES_COPPER] 구리, [ICON_RES_PORCELAIN] 도자기의 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CORPORATION_OFFICE_BONUS_FIRAXITE_MATERIALS">
 			<Text>모든 글로벌 프랜차이즈 1개마다 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가하고 도시에 건물을 건설할 때 [ICON_PRODUCTION]생산 보너스를 [COLOR_POSITIVE_TEXT]20%[ENDCOLOR] 제공합니다.</Text>
